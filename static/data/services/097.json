@@ -1,0 +1,6928 @@
+{
+  "table": "097",
+  "name": "",
+  "period": "",
+  "operators": [
+    {
+      "code": "NT",
+      "name": "NT",
+      "color": "#999"
+    }
+  ],
+  "days": [
+    "MF",
+    "SAT",
+    "SUN"
+  ],
+  "stations": [
+    "MAN",
+    "ADK",
+    "ABY",
+    "GTO",
+    "FRF",
+    "GUI",
+    "FLF",
+    "NWN",
+    "GDL",
+    "HTY",
+    "BDB",
+    "DTG",
+    "GLO",
+    "GLO",
+    "HDF",
+    "MAN",
+    "ADK",
+    "ABY",
+    "GTO",
+    "FRF",
+    "SPT",
+    "RDS",
+    "DTN",
+    "GUI",
+    "SYB",
+    "FLF",
+    "NWN",
+    "GDL",
+    "HTY",
+    "BDB",
+    "DTG",
+    "GLO",
+    "GLO",
+    "HDF",
+    "MAN",
+    "ADK",
+    "ABY",
+    "GTO",
+    "FRF",
+    "SPT",
+    "RDS",
+    "DTN",
+    "GUI",
+    "SYB",
+    "FLF",
+    "NWN",
+    "GDL",
+    "HTY",
+    "BDB",
+    "DTG",
+    "GLO",
+    "GLO",
+    "HDF",
+    "MAN",
+    "ADK",
+    "ABY",
+    "GTO",
+    "FRF",
+    "GUI",
+    "FLF",
+    "NWN",
+    "GDL",
+    "HTY",
+    "BDB",
+    "DTG",
+    "GLO",
+    "GLO",
+    "HDF",
+    "HDF",
+    "GLO",
+    "GLO",
+    "DTG",
+    "BDB",
+    "HTY",
+    "GDL",
+    "NWN",
+    "FLF",
+    "GUI",
+    "FRF",
+    "GTO",
+    "ABY",
+    "ADK",
+    "MAN",
+    "HDF",
+    "GLO",
+    "GLO",
+    "DTG",
+    "BDB",
+    "HTY",
+    "GDL",
+    "NWN",
+    "FLF",
+    "SYB",
+    "GUI",
+    "DTN",
+    "RDS",
+    "SPT",
+    "FRF",
+    "GTO",
+    "ABY",
+    "ADK",
+    "MAN",
+    "HDF",
+    "GLO",
+    "GLO",
+    "DTG",
+    "BDB",
+    "HTY",
+    "GDL",
+    "NWN",
+    "FLF",
+    "GUI",
+    "FRF",
+    "GTO",
+    "ABY",
+    "ADK",
+    "MAN"
+  ],
+  "services": [
+    {
+      "id": "MF_0",
+      "headcode": "",
+      "operator": "NT",
+      "days": [
+        "MF"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "MAN",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "ABY",
+          "arr": null,
+          "dep": 336
+        },
+        {
+          "station": "GTO",
+          "arr": null,
+          "dep": 398
+        },
+        {
+          "station": "FRF",
+          "arr": null,
+          "dep": 401
+        },
+        {
+          "station": "GUI",
+          "arr": null,
+          "dep": 341
+        },
+        {
+          "station": "FLF",
+          "arr": null,
+          "dep": 366
+        },
+        {
+          "station": "NWN",
+          "arr": null,
+          "dep": 368
+        },
+        {
+          "station": "GDL",
+          "arr": null,
+          "dep": 371
+        },
+        {
+          "station": "HTY",
+          "arr": null,
+          "dep": 373
+        },
+        {
+          "station": "BDB",
+          "arr": null,
+          "dep": 376
+        },
+        {
+          "station": "DTG",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "GLO",
+          "arr": 386,
+          "dep": null
+        },
+        {
+          "station": "GLO",
+          "arr": null,
+          "dep": 388
+        },
+        {
+          "station": "HDF",
+          "arr": 355,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "MF_1",
+      "headcode": "",
+      "operator": "NT",
+      "days": [
+        "MF"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "MAN",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "ABY",
+          "arr": null,
+          "dep": 357
+        },
+        {
+          "station": "GTO",
+          "arr": null,
+          "dep": 417
+        },
+        {
+          "station": "FRF",
+          "arr": null,
+          "dep": 420
+        },
+        {
+          "station": "GUI",
+          "arr": null,
+          "dep": 362
+        },
+        {
+          "station": "FLF",
+          "arr": null,
+          "dep": 397
+        },
+        {
+          "station": "NWN",
+          "arr": null,
+          "dep": 399
+        },
+        {
+          "station": "GDL",
+          "arr": null,
+          "dep": 402
+        },
+        {
+          "station": "HTY",
+          "arr": null,
+          "dep": 404
+        },
+        {
+          "station": "BDB",
+          "arr": null,
+          "dep": 407
+        },
+        {
+          "station": "DTG",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "GLO",
+          "arr": 417,
+          "dep": null
+        },
+        {
+          "station": "GLO",
+          "arr": null,
+          "dep": 419
+        },
+        {
+          "station": "HDF",
+          "arr": 394,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "MF_2",
+      "headcode": "",
+      "operator": "NT",
+      "days": [
+        "MF"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "MAN",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "ABY",
+          "arr": null,
+          "dep": 388
+        },
+        {
+          "station": "GTO",
+          "arr": null,
+          "dep": 478
+        },
+        {
+          "station": "FRF",
+          "arr": null,
+          "dep": 481
+        },
+        {
+          "station": "GUI",
+          "arr": null,
+          "dep": 393
+        },
+        {
+          "station": "FLF",
+          "arr": null,
+          "dep": 435
+        },
+        {
+          "station": "NWN",
+          "arr": null,
+          "dep": 437
+        },
+        {
+          "station": "GDL",
+          "arr": null,
+          "dep": 439
+        },
+        {
+          "station": "HTY",
+          "arr": null,
+          "dep": 441
+        },
+        {
+          "station": "BDB",
+          "arr": null,
+          "dep": 444
+        },
+        {
+          "station": "DTG",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "GLO",
+          "arr": 453,
+          "dep": null
+        },
+        {
+          "station": "GLO",
+          "arr": null,
+          "dep": 455
+        },
+        {
+          "station": "HDF",
+          "arr": 425,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "MF_3",
+      "headcode": "",
+      "operator": "NT",
+      "days": [
+        "MF"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "MAN",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "ABY",
+          "arr": null,
+          "dep": 413
+        },
+        {
+          "station": "GTO",
+          "arr": null,
+          "dep": 508
+        },
+        {
+          "station": "FRF",
+          "arr": null,
+          "dep": 510
+        },
+        {
+          "station": "GUI",
+          "arr": null,
+          "dep": 432
+        },
+        {
+          "station": "FLF",
+          "arr": null,
+          "dep": 465
+        },
+        {
+          "station": "NWN",
+          "arr": null,
+          "dep": 467
+        },
+        {
+          "station": "GDL",
+          "arr": null,
+          "dep": 469
+        },
+        {
+          "station": "HTY",
+          "arr": null,
+          "dep": 471
+        },
+        {
+          "station": "BDB",
+          "arr": null,
+          "dep": 474
+        },
+        {
+          "station": "DTG",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "GLO",
+          "arr": 483,
+          "dep": null
+        },
+        {
+          "station": "GLO",
+          "arr": null,
+          "dep": 485
+        },
+        {
+          "station": "HDF",
+          "arr": 461,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "MF_4",
+      "headcode": "",
+      "operator": "NT",
+      "days": [
+        "MF"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "MAN",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "ABY",
+          "arr": null,
+          "dep": 427
+        },
+        {
+          "station": "GTO",
+          "arr": null,
+          "dep": 568
+        },
+        {
+          "station": "FRF",
+          "arr": null,
+          "dep": 570
+        },
+        {
+          "station": "GUI",
+          "arr": null,
+          "dep": 462
+        },
+        {
+          "station": "FLF",
+          "arr": null,
+          "dep": 495
+        },
+        {
+          "station": "NWN",
+          "arr": null,
+          "dep": 497
+        },
+        {
+          "station": "GDL",
+          "arr": null,
+          "dep": 499
+        },
+        {
+          "station": "HTY",
+          "arr": null,
+          "dep": 501
+        },
+        {
+          "station": "BDB",
+          "arr": null,
+          "dep": 504
+        },
+        {
+          "station": "DTG",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "GLO",
+          "arr": 513,
+          "dep": null
+        },
+        {
+          "station": "GLO",
+          "arr": null,
+          "dep": 515
+        },
+        {
+          "station": "HDF",
+          "arr": 491,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "MF_5",
+      "headcode": "",
+      "operator": "NT",
+      "days": [
+        "MF"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "MAN",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "ABY",
+          "arr": null,
+          "dep": 457
+        },
+        {
+          "station": "GTO",
+          "arr": null,
+          "dep": 598
+        },
+        {
+          "station": "FRF",
+          "arr": null,
+          "dep": 601
+        },
+        {
+          "station": "GUI",
+          "arr": null,
+          "dep": 492
+        },
+        {
+          "station": "FLF",
+          "arr": null,
+          "dep": 525
+        },
+        {
+          "station": "NWN",
+          "arr": null,
+          "dep": 527
+        },
+        {
+          "station": "GDL",
+          "arr": null,
+          "dep": 529
+        },
+        {
+          "station": "HTY",
+          "arr": null,
+          "dep": 531
+        },
+        {
+          "station": "BDB",
+          "arr": null,
+          "dep": 534
+        },
+        {
+          "station": "DTG",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "GLO",
+          "arr": 543,
+          "dep": null
+        },
+        {
+          "station": "GLO",
+          "arr": null,
+          "dep": 545
+        },
+        {
+          "station": "HDF",
+          "arr": 521,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "MF_6",
+      "headcode": "",
+      "operator": "NT",
+      "days": [
+        "MF"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "MAN",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "ABY",
+          "arr": null,
+          "dep": 475
+        },
+        {
+          "station": "GTO",
+          "arr": null,
+          "dep": 658
+        },
+        {
+          "station": "FRF",
+          "arr": null,
+          "dep": 661
+        },
+        {
+          "station": "GUI",
+          "arr": null,
+          "dep": 522
+        },
+        {
+          "station": "FLF",
+          "arr": null,
+          "dep": 555
+        },
+        {
+          "station": "NWN",
+          "arr": null,
+          "dep": 557
+        },
+        {
+          "station": "GDL",
+          "arr": null,
+          "dep": 559
+        },
+        {
+          "station": "HTY",
+          "arr": null,
+          "dep": 561
+        },
+        {
+          "station": "BDB",
+          "arr": null,
+          "dep": 564
+        },
+        {
+          "station": "DTG",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "GLO",
+          "arr": 573,
+          "dep": null
+        },
+        {
+          "station": "GLO",
+          "arr": null,
+          "dep": 575
+        },
+        {
+          "station": "HDF",
+          "arr": 551,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "MF_7",
+      "headcode": "",
+      "operator": "NT",
+      "days": [
+        "MF"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "MAN",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "ABY",
+          "arr": null,
+          "dep": 487
+        },
+        {
+          "station": "GUI",
+          "arr": null,
+          "dep": 552
+        },
+        {
+          "station": "FLF",
+          "arr": null,
+          "dep": 585
+        },
+        {
+          "station": "NWN",
+          "arr": null,
+          "dep": 587
+        },
+        {
+          "station": "GDL",
+          "arr": null,
+          "dep": 589
+        },
+        {
+          "station": "HTY",
+          "arr": null,
+          "dep": 591
+        },
+        {
+          "station": "BDB",
+          "arr": null,
+          "dep": 594
+        },
+        {
+          "station": "DTG",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "GLO",
+          "arr": 603,
+          "dep": null
+        },
+        {
+          "station": "GLO",
+          "arr": null,
+          "dep": 605
+        },
+        {
+          "station": "HDF",
+          "arr": 581,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "MF_8",
+      "headcode": "",
+      "operator": "NT",
+      "days": [
+        "MF"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "MAN",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "ABY",
+          "arr": null,
+          "dep": 517
+        },
+        {
+          "station": "GUI",
+          "arr": null,
+          "dep": 582
+        },
+        {
+          "station": "FLF",
+          "arr": null,
+          "dep": 615
+        },
+        {
+          "station": "NWN",
+          "arr": null,
+          "dep": 617
+        },
+        {
+          "station": "GDL",
+          "arr": null,
+          "dep": 619
+        },
+        {
+          "station": "HTY",
+          "arr": null,
+          "dep": 621
+        },
+        {
+          "station": "BDB",
+          "arr": null,
+          "dep": 624
+        },
+        {
+          "station": "DTG",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "GLO",
+          "arr": 633,
+          "dep": null
+        },
+        {
+          "station": "GLO",
+          "arr": null,
+          "dep": 635
+        },
+        {
+          "station": "HDF",
+          "arr": 611,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "MF_9",
+      "headcode": "",
+      "operator": "NT",
+      "days": [
+        "MF"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "MAN",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "ABY",
+          "arr": null,
+          "dep": 547
+        },
+        {
+          "station": "GUI",
+          "arr": null,
+          "dep": 612
+        },
+        {
+          "station": "FLF",
+          "arr": null,
+          "dep": 645
+        },
+        {
+          "station": "NWN",
+          "arr": null,
+          "dep": 647
+        },
+        {
+          "station": "GDL",
+          "arr": null,
+          "dep": 649
+        },
+        {
+          "station": "HTY",
+          "arr": null,
+          "dep": 651
+        },
+        {
+          "station": "BDB",
+          "arr": null,
+          "dep": 654
+        },
+        {
+          "station": "DTG",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "GLO",
+          "arr": 663,
+          "dep": null
+        },
+        {
+          "station": "GLO",
+          "arr": null,
+          "dep": 665
+        },
+        {
+          "station": "HDF",
+          "arr": 641,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "MF_10",
+      "headcode": "",
+      "operator": "NT",
+      "days": [
+        "MF"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "MAN",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "ABY",
+          "arr": null,
+          "dep": 577
+        },
+        {
+          "station": "GUI",
+          "arr": null,
+          "dep": 642
+        },
+        {
+          "station": "HDF",
+          "arr": 671,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "MF_11",
+      "headcode": "",
+      "operator": "NT",
+      "days": [
+        "MF"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "MAN",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "ABY",
+          "arr": null,
+          "dep": 595
+        }
+      ]
+    },
+    {
+      "id": "MF_12",
+      "headcode": "",
+      "operator": "NT",
+      "days": [
+        "MF"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "MAN",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "ABY",
+          "arr": null,
+          "dep": 607
+        }
+      ]
+    },
+    {
+      "id": "MF_13",
+      "headcode": "",
+      "operator": "NT",
+      "days": [
+        "MF"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "MAN",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "ABY",
+          "arr": null,
+          "dep": 637
+        }
+      ]
+    },
+    {
+      "id": "MF_14",
+      "headcode": "",
+      "operator": "NT",
+      "days": [
+        "MF"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "MAN",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "ABY",
+          "arr": null,
+          "dep": 655
+        }
+      ]
+    },
+    {
+      "id": "MF_15",
+      "headcode": "",
+      "operator": "NT",
+      "days": [
+        "MF"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "MAN",
+          "arr": null,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "MF_16",
+      "headcode": "",
+      "operator": "NT",
+      "days": [
+        "MF"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "MAN",
+          "arr": null,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "MF_17",
+      "headcode": "",
+      "operator": "",
+      "days": [
+        "MF"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "MAN",
+          "arr": null,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "SAT_18",
+      "headcode": "",
+      "operator": "NT",
+      "days": [
+        "SAT"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "MAN",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "ABY",
+          "arr": null,
+          "dep": 336
+        },
+        {
+          "station": "GTO",
+          "arr": null,
+          "dep": 398
+        },
+        {
+          "station": "FRF",
+          "arr": null,
+          "dep": 401
+        },
+        {
+          "station": "SPT",
+          "arr": null,
+          "dep": 544
+        },
+        {
+          "station": "RDS",
+          "arr": null,
+          "dep": 550
+        },
+        {
+          "station": "DTN",
+          "arr": null,
+          "dep": 556
+        },
+        {
+          "station": "GUI",
+          "arr": null,
+          "dep": 341
+        },
+        {
+          "station": "SYB",
+          "arr": 569,
+          "dep": null
+        },
+        {
+          "station": "FLF",
+          "arr": null,
+          "dep": 366
+        },
+        {
+          "station": "NWN",
+          "arr": null,
+          "dep": 368
+        },
+        {
+          "station": "GDL",
+          "arr": null,
+          "dep": 371
+        },
+        {
+          "station": "HTY",
+          "arr": null,
+          "dep": 373
+        },
+        {
+          "station": "BDB",
+          "arr": null,
+          "dep": 376
+        },
+        {
+          "station": "DTG",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "GLO",
+          "arr": 386,
+          "dep": null
+        },
+        {
+          "station": "GLO",
+          "arr": null,
+          "dep": 388
+        },
+        {
+          "station": "HDF",
+          "arr": 355,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "SAT_19",
+      "headcode": "",
+      "operator": "NT",
+      "days": [
+        "SAT"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "MAN",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "ABY",
+          "arr": null,
+          "dep": 357
+        },
+        {
+          "station": "GTO",
+          "arr": null,
+          "dep": 417
+        },
+        {
+          "station": "FRF",
+          "arr": null,
+          "dep": 420
+        },
+        {
+          "station": "GUI",
+          "arr": null,
+          "dep": 362
+        },
+        {
+          "station": "FLF",
+          "arr": null,
+          "dep": 397
+        },
+        {
+          "station": "NWN",
+          "arr": null,
+          "dep": 399
+        },
+        {
+          "station": "GDL",
+          "arr": null,
+          "dep": 402
+        },
+        {
+          "station": "HTY",
+          "arr": null,
+          "dep": 404
+        },
+        {
+          "station": "BDB",
+          "arr": null,
+          "dep": 407
+        },
+        {
+          "station": "DTG",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "GLO",
+          "arr": 417,
+          "dep": null
+        },
+        {
+          "station": "GLO",
+          "arr": null,
+          "dep": 419
+        },
+        {
+          "station": "HDF",
+          "arr": 394,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "SAT_20",
+      "headcode": "",
+      "operator": "NT",
+      "days": [
+        "SAT"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "MAN",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "ABY",
+          "arr": null,
+          "dep": 388
+        },
+        {
+          "station": "GTO",
+          "arr": null,
+          "dep": 478
+        },
+        {
+          "station": "FRF",
+          "arr": null,
+          "dep": 481
+        },
+        {
+          "station": "GUI",
+          "arr": null,
+          "dep": 393
+        },
+        {
+          "station": "FLF",
+          "arr": null,
+          "dep": 435
+        },
+        {
+          "station": "NWN",
+          "arr": null,
+          "dep": 437
+        },
+        {
+          "station": "GDL",
+          "arr": null,
+          "dep": 439
+        },
+        {
+          "station": "HTY",
+          "arr": null,
+          "dep": 441
+        },
+        {
+          "station": "BDB",
+          "arr": null,
+          "dep": 444
+        },
+        {
+          "station": "DTG",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "GLO",
+          "arr": 453,
+          "dep": null
+        },
+        {
+          "station": "GLO",
+          "arr": null,
+          "dep": 455
+        },
+        {
+          "station": "HDF",
+          "arr": 425,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "SAT_21",
+      "headcode": "",
+      "operator": "NT",
+      "days": [
+        "SAT"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "MAN",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "ABY",
+          "arr": null,
+          "dep": 413
+        },
+        {
+          "station": "GTO",
+          "arr": null,
+          "dep": 508
+        },
+        {
+          "station": "FRF",
+          "arr": null,
+          "dep": 510
+        },
+        {
+          "station": "GUI",
+          "arr": null,
+          "dep": 432
+        },
+        {
+          "station": "FLF",
+          "arr": null,
+          "dep": 465
+        },
+        {
+          "station": "NWN",
+          "arr": null,
+          "dep": 467
+        },
+        {
+          "station": "GDL",
+          "arr": null,
+          "dep": 469
+        },
+        {
+          "station": "HTY",
+          "arr": null,
+          "dep": 471
+        },
+        {
+          "station": "BDB",
+          "arr": null,
+          "dep": 474
+        },
+        {
+          "station": "DTG",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "GLO",
+          "arr": 483,
+          "dep": null
+        },
+        {
+          "station": "GLO",
+          "arr": null,
+          "dep": 485
+        },
+        {
+          "station": "HDF",
+          "arr": 461,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "SAT_22",
+      "headcode": "",
+      "operator": "NT",
+      "days": [
+        "SAT"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "MAN",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "ABY",
+          "arr": null,
+          "dep": 427
+        },
+        {
+          "station": "GTO",
+          "arr": null,
+          "dep": 568
+        },
+        {
+          "station": "FRF",
+          "arr": null,
+          "dep": 570
+        },
+        {
+          "station": "GUI",
+          "arr": null,
+          "dep": 462
+        },
+        {
+          "station": "FLF",
+          "arr": null,
+          "dep": 495
+        },
+        {
+          "station": "NWN",
+          "arr": null,
+          "dep": 497
+        },
+        {
+          "station": "GDL",
+          "arr": null,
+          "dep": 499
+        },
+        {
+          "station": "HTY",
+          "arr": null,
+          "dep": 501
+        },
+        {
+          "station": "BDB",
+          "arr": null,
+          "dep": 504
+        },
+        {
+          "station": "DTG",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "GLO",
+          "arr": 513,
+          "dep": null
+        },
+        {
+          "station": "GLO",
+          "arr": null,
+          "dep": 515
+        },
+        {
+          "station": "HDF",
+          "arr": 491,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "SAT_23",
+      "headcode": "",
+      "operator": "NT",
+      "days": [
+        "SAT"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "MAN",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "ABY",
+          "arr": null,
+          "dep": 457
+        },
+        {
+          "station": "GTO",
+          "arr": null,
+          "dep": 598
+        },
+        {
+          "station": "FRF",
+          "arr": null,
+          "dep": 601
+        },
+        {
+          "station": "GUI",
+          "arr": null,
+          "dep": 492
+        },
+        {
+          "station": "FLF",
+          "arr": null,
+          "dep": 525
+        },
+        {
+          "station": "NWN",
+          "arr": null,
+          "dep": 527
+        },
+        {
+          "station": "GDL",
+          "arr": null,
+          "dep": 529
+        },
+        {
+          "station": "HTY",
+          "arr": null,
+          "dep": 531
+        },
+        {
+          "station": "BDB",
+          "arr": null,
+          "dep": 534
+        },
+        {
+          "station": "DTG",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "GLO",
+          "arr": 543,
+          "dep": null
+        },
+        {
+          "station": "GLO",
+          "arr": null,
+          "dep": 545
+        },
+        {
+          "station": "HDF",
+          "arr": 521,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "SAT_24",
+      "headcode": "",
+      "operator": "NT",
+      "days": [
+        "SAT"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "MAN",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "ABY",
+          "arr": null,
+          "dep": 475
+        },
+        {
+          "station": "GUI",
+          "arr": null,
+          "dep": 522
+        },
+        {
+          "station": "FLF",
+          "arr": null,
+          "dep": 555
+        },
+        {
+          "station": "NWN",
+          "arr": null,
+          "dep": 557
+        },
+        {
+          "station": "GDL",
+          "arr": null,
+          "dep": 559
+        },
+        {
+          "station": "HTY",
+          "arr": null,
+          "dep": 561
+        },
+        {
+          "station": "BDB",
+          "arr": null,
+          "dep": 564
+        },
+        {
+          "station": "DTG",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "GLO",
+          "arr": 573,
+          "dep": null
+        },
+        {
+          "station": "GLO",
+          "arr": null,
+          "dep": 575
+        },
+        {
+          "station": "HDF",
+          "arr": 551,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "SAT_25",
+      "headcode": "",
+      "operator": "NT",
+      "days": [
+        "SAT"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "MAN",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "ABY",
+          "arr": null,
+          "dep": 487
+        },
+        {
+          "station": "GUI",
+          "arr": null,
+          "dep": 552
+        },
+        {
+          "station": "FLF",
+          "arr": null,
+          "dep": 585
+        },
+        {
+          "station": "NWN",
+          "arr": null,
+          "dep": 587
+        },
+        {
+          "station": "GDL",
+          "arr": null,
+          "dep": 589
+        },
+        {
+          "station": "HTY",
+          "arr": null,
+          "dep": 591
+        },
+        {
+          "station": "BDB",
+          "arr": null,
+          "dep": 594
+        },
+        {
+          "station": "DTG",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "GLO",
+          "arr": 603,
+          "dep": null
+        },
+        {
+          "station": "GLO",
+          "arr": null,
+          "dep": 605
+        },
+        {
+          "station": "HDF",
+          "arr": 581,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "SAT_26",
+      "headcode": "",
+      "operator": "NT",
+      "days": [
+        "SAT"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "MAN",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "ABY",
+          "arr": null,
+          "dep": 517
+        },
+        {
+          "station": "GUI",
+          "arr": null,
+          "dep": 560
+        },
+        {
+          "station": "FLF",
+          "arr": null,
+          "dep": 615
+        },
+        {
+          "station": "NWN",
+          "arr": null,
+          "dep": 617
+        },
+        {
+          "station": "GDL",
+          "arr": null,
+          "dep": 619
+        },
+        {
+          "station": "HTY",
+          "arr": null,
+          "dep": 621
+        },
+        {
+          "station": "BDB",
+          "arr": null,
+          "dep": 624
+        },
+        {
+          "station": "DTG",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "GLO",
+          "arr": 633,
+          "dep": null
+        },
+        {
+          "station": "GLO",
+          "arr": null,
+          "dep": 635
+        },
+        {
+          "station": "HDF",
+          "arr": 611,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "SAT_27",
+      "headcode": "",
+      "operator": "NT",
+      "days": [
+        "SAT"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "MAN",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "ABY",
+          "arr": null,
+          "dep": 547
+        },
+        {
+          "station": "GUI",
+          "arr": null,
+          "dep": 582
+        },
+        {
+          "station": "FLF",
+          "arr": null,
+          "dep": 645
+        },
+        {
+          "station": "NWN",
+          "arr": null,
+          "dep": 647
+        },
+        {
+          "station": "GDL",
+          "arr": null,
+          "dep": 649
+        },
+        {
+          "station": "HTY",
+          "arr": null,
+          "dep": 651
+        },
+        {
+          "station": "BDB",
+          "arr": null,
+          "dep": 654
+        },
+        {
+          "station": "DTG",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "GLO",
+          "arr": 663,
+          "dep": null
+        },
+        {
+          "station": "GLO",
+          "arr": null,
+          "dep": 665
+        },
+        {
+          "station": "HDF",
+          "arr": 641,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "SAT_28",
+      "headcode": "",
+      "operator": "NT",
+      "days": [
+        "SAT"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "MAN",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "ABY",
+          "arr": null,
+          "dep": 577
+        },
+        {
+          "station": "GUI",
+          "arr": null,
+          "dep": 612
+        },
+        {
+          "station": "HDF",
+          "arr": 671,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "SAT_29",
+      "headcode": "",
+      "operator": "NT",
+      "days": [
+        "SAT"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "MAN",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "ABY",
+          "arr": null,
+          "dep": 595
+        },
+        {
+          "station": "GUI",
+          "arr": null,
+          "dep": 642
+        }
+      ]
+    },
+    {
+      "id": "SAT_30",
+      "headcode": "",
+      "operator": "NT",
+      "days": [
+        "SAT"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "MAN",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "ABY",
+          "arr": null,
+          "dep": 607
+        }
+      ]
+    },
+    {
+      "id": "SAT_31",
+      "headcode": "",
+      "operator": "NT",
+      "days": [
+        "SAT"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "MAN",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "ABY",
+          "arr": null,
+          "dep": 637
+        }
+      ]
+    },
+    {
+      "id": "SAT_32",
+      "headcode": "",
+      "operator": "NT",
+      "days": [
+        "SAT"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "MAN",
+          "arr": null,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "SAT_33",
+      "headcode": "",
+      "operator": "NT",
+      "days": [
+        "SAT"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "MAN",
+          "arr": null,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "SAT_34",
+      "headcode": "",
+      "operator": "NT",
+      "days": [
+        "SAT"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "MAN",
+          "arr": null,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "SAT_35",
+      "headcode": "",
+      "operator": "NT",
+      "days": [
+        "SAT"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "MAN",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "ABY",
+          "arr": null,
+          "dep": 1297
+        },
+        {
+          "station": "GTO",
+          "arr": null,
+          "dep": 1328
+        },
+        {
+          "station": "GUI",
+          "arr": null,
+          "dep": 1302
+        },
+        {
+          "station": "FLF",
+          "arr": null,
+          "dep": 1305
+        },
+        {
+          "station": "NWN",
+          "arr": null,
+          "dep": 1307
+        },
+        {
+          "station": "GDL",
+          "arr": null,
+          "dep": 1309
+        },
+        {
+          "station": "HTY",
+          "arr": null,
+          "dep": 1311
+        },
+        {
+          "station": "BDB",
+          "arr": null,
+          "dep": 1314
+        },
+        {
+          "station": "DTG",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "GLO",
+          "arr": 1323,
+          "dep": null
+        },
+        {
+          "station": "GLO",
+          "arr": null,
+          "dep": 1325
+        },
+        {
+          "station": "HDF",
+          "arr": 1331,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "SAT_36",
+      "headcode": "",
+      "operator": "NT",
+      "days": [
+        "SAT"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "MAN",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "ABY",
+          "arr": null,
+          "dep": 1326
+        },
+        {
+          "station": "GTO",
+          "arr": null,
+          "dep": 1359
+        },
+        {
+          "station": "GUI",
+          "arr": null,
+          "dep": 1332
+        },
+        {
+          "station": "FLF",
+          "arr": null,
+          "dep": 1335
+        },
+        {
+          "station": "NWN",
+          "arr": null,
+          "dep": 1337
+        },
+        {
+          "station": "GDL",
+          "arr": null,
+          "dep": 1339
+        },
+        {
+          "station": "HTY",
+          "arr": null,
+          "dep": 1341
+        },
+        {
+          "station": "BDB",
+          "arr": null,
+          "dep": 1344
+        },
+        {
+          "station": "DTG",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "GLO",
+          "arr": 1353,
+          "dep": null
+        },
+        {
+          "station": "GLO",
+          "arr": null,
+          "dep": 1355
+        },
+        {
+          "station": "HDF",
+          "arr": 1361,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "SAT_37",
+      "headcode": "",
+      "operator": "NT",
+      "days": [
+        "SAT"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "MAN",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "ABY",
+          "arr": null,
+          "dep": 1357
+        },
+        {
+          "station": "GTO",
+          "arr": null,
+          "dep": 1415
+        },
+        {
+          "station": "GUI",
+          "arr": null,
+          "dep": 1363
+        },
+        {
+          "station": "FLF",
+          "arr": null,
+          "dep": 1367
+        },
+        {
+          "station": "NWN",
+          "arr": null,
+          "dep": 1369
+        },
+        {
+          "station": "GDL",
+          "arr": null,
+          "dep": 1371
+        },
+        {
+          "station": "HTY",
+          "arr": null,
+          "dep": 1373
+        },
+        {
+          "station": "BDB",
+          "arr": null,
+          "dep": 1376
+        },
+        {
+          "station": "DTG",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "GLO",
+          "arr": 1385,
+          "dep": null
+        },
+        {
+          "station": "GLO",
+          "arr": null,
+          "dep": 1387
+        },
+        {
+          "station": "HDF",
+          "arr": 1393,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "SAT_38",
+      "headcode": "",
+      "operator": "",
+      "days": [
+        "SAT"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "MAN",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "ABY",
+          "arr": null,
+          "dep": 1413
+        },
+        {
+          "station": "GUI",
+          "arr": null,
+          "dep": 1419
+        },
+        {
+          "station": "FLF",
+          "arr": null,
+          "dep": 1422
+        },
+        {
+          "station": "NWN",
+          "arr": null,
+          "dep": 1424
+        },
+        {
+          "station": "GDL",
+          "arr": null,
+          "dep": 1426
+        },
+        {
+          "station": "HTY",
+          "arr": null,
+          "dep": 1428
+        },
+        {
+          "station": "BDB",
+          "arr": null,
+          "dep": 1430
+        },
+        {
+          "station": "DTG",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "HDF",
+          "arr": 1438,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "SUN_39",
+      "headcode": "",
+      "operator": "NT",
+      "days": [
+        "SUN"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "MAN",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "ABY",
+          "arr": null,
+          "dep": 573
+        },
+        {
+          "station": "GTO",
+          "arr": null,
+          "dep": 576
+        },
+        {
+          "station": "GUI",
+          "arr": null,
+          "dep": 643
+        },
+        {
+          "station": "FLF",
+          "arr": null,
+          "dep": 587
+        },
+        {
+          "station": "NWN",
+          "arr": null,
+          "dep": 590
+        },
+        {
+          "station": "GDL",
+          "arr": null,
+          "dep": 592
+        },
+        {
+          "station": "HTY",
+          "arr": null,
+          "dep": 595
+        },
+        {
+          "station": "BDB",
+          "arr": null,
+          "dep": 598
+        },
+        {
+          "station": "DTG",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "GLO",
+          "arr": 664,
+          "dep": null
+        },
+        {
+          "station": "GLO",
+          "arr": null,
+          "dep": 666
+        },
+        {
+          "station": "HDF",
+          "arr": 606,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "SUN_40",
+      "headcode": "",
+      "operator": "NT",
+      "days": [
+        "SUN"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "MAN",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "ABY",
+          "arr": null,
+          "dep": 637
+        },
+        {
+          "station": "GTO",
+          "arr": null,
+          "dep": 639
+        },
+        {
+          "station": "GUI",
+          "arr": null,
+          "dep": 673
+        },
+        {
+          "station": "FLF",
+          "arr": null,
+          "dep": 646
+        },
+        {
+          "station": "NWN",
+          "arr": null,
+          "dep": 648
+        },
+        {
+          "station": "GDL",
+          "arr": null,
+          "dep": 650
+        },
+        {
+          "station": "HTY",
+          "arr": null,
+          "dep": 652
+        },
+        {
+          "station": "BDB",
+          "arr": null,
+          "dep": 655
+        },
+        {
+          "station": "DTG",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "GLO",
+          "arr": 694,
+          "dep": null
+        },
+        {
+          "station": "GLO",
+          "arr": null,
+          "dep": 696
+        },
+        {
+          "station": "HDF",
+          "arr": 672,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "SUN_41",
+      "headcode": "",
+      "operator": "NT",
+      "days": [
+        "SUN"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "MAN",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "ABY",
+          "arr": null,
+          "dep": 667
+        },
+        {
+          "station": "GTO",
+          "arr": null,
+          "dep": 669
+        },
+        {
+          "station": "GUI",
+          "arr": null,
+          "dep": 733
+        },
+        {
+          "station": "FLF",
+          "arr": null,
+          "dep": 676
+        },
+        {
+          "station": "NWN",
+          "arr": null,
+          "dep": 678
+        },
+        {
+          "station": "GDL",
+          "arr": null,
+          "dep": 680
+        },
+        {
+          "station": "HTY",
+          "arr": null,
+          "dep": 682
+        },
+        {
+          "station": "BDB",
+          "arr": null,
+          "dep": 685
+        },
+        {
+          "station": "DTG",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "GLO",
+          "arr": 754,
+          "dep": null
+        },
+        {
+          "station": "GLO",
+          "arr": null,
+          "dep": 756
+        },
+        {
+          "station": "HDF",
+          "arr": 702,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "SUN_42",
+      "headcode": "",
+      "operator": "NT",
+      "days": [
+        "SUN"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "MAN",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "ABY",
+          "arr": null,
+          "dep": 727
+        },
+        {
+          "station": "GTO",
+          "arr": null,
+          "dep": 729
+        },
+        {
+          "station": "GUI",
+          "arr": null,
+          "dep": 763
+        },
+        {
+          "station": "FLF",
+          "arr": null,
+          "dep": 736
+        },
+        {
+          "station": "NWN",
+          "arr": null,
+          "dep": 738
+        },
+        {
+          "station": "GDL",
+          "arr": null,
+          "dep": 740
+        },
+        {
+          "station": "HTY",
+          "arr": null,
+          "dep": 742
+        },
+        {
+          "station": "BDB",
+          "arr": null,
+          "dep": 745
+        },
+        {
+          "station": "DTG",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "GLO",
+          "arr": 784,
+          "dep": null
+        },
+        {
+          "station": "GLO",
+          "arr": null,
+          "dep": 786
+        },
+        {
+          "station": "HDF",
+          "arr": 762,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "SUN_43",
+      "headcode": "",
+      "operator": "NT",
+      "days": [
+        "SUN"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "MAN",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "ABY",
+          "arr": null,
+          "dep": 757
+        },
+        {
+          "station": "GTO",
+          "arr": null,
+          "dep": 759
+        },
+        {
+          "station": "GUI",
+          "arr": null,
+          "dep": 823
+        },
+        {
+          "station": "FLF",
+          "arr": null,
+          "dep": 766
+        },
+        {
+          "station": "NWN",
+          "arr": null,
+          "dep": 768
+        },
+        {
+          "station": "GDL",
+          "arr": null,
+          "dep": 770
+        },
+        {
+          "station": "HTY",
+          "arr": null,
+          "dep": 772
+        },
+        {
+          "station": "BDB",
+          "arr": null,
+          "dep": 775
+        },
+        {
+          "station": "DTG",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "GLO",
+          "arr": 844,
+          "dep": null
+        },
+        {
+          "station": "GLO",
+          "arr": null,
+          "dep": 846
+        },
+        {
+          "station": "HDF",
+          "arr": 792,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "SUN_44",
+      "headcode": "",
+      "operator": "NT",
+      "days": [
+        "SUN"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "MAN",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "ABY",
+          "arr": null,
+          "dep": 817
+        },
+        {
+          "station": "GTO",
+          "arr": null,
+          "dep": 819
+        },
+        {
+          "station": "GUI",
+          "arr": null,
+          "dep": 853
+        },
+        {
+          "station": "FLF",
+          "arr": null,
+          "dep": 826
+        },
+        {
+          "station": "NWN",
+          "arr": null,
+          "dep": 828
+        },
+        {
+          "station": "GDL",
+          "arr": null,
+          "dep": 830
+        },
+        {
+          "station": "HTY",
+          "arr": null,
+          "dep": 832
+        },
+        {
+          "station": "BDB",
+          "arr": null,
+          "dep": 835
+        },
+        {
+          "station": "DTG",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "GLO",
+          "arr": 874,
+          "dep": null
+        },
+        {
+          "station": "GLO",
+          "arr": null,
+          "dep": 876
+        },
+        {
+          "station": "HDF",
+          "arr": 852,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "SUN_45",
+      "headcode": "",
+      "operator": "NT",
+      "days": [
+        "SUN"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "MAN",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "ABY",
+          "arr": null,
+          "dep": 847
+        },
+        {
+          "station": "GTO",
+          "arr": null,
+          "dep": 849
+        },
+        {
+          "station": "GUI",
+          "arr": null,
+          "dep": 913
+        },
+        {
+          "station": "FLF",
+          "arr": null,
+          "dep": 856
+        },
+        {
+          "station": "NWN",
+          "arr": null,
+          "dep": 858
+        },
+        {
+          "station": "GDL",
+          "arr": null,
+          "dep": 860
+        },
+        {
+          "station": "HTY",
+          "arr": null,
+          "dep": 862
+        },
+        {
+          "station": "BDB",
+          "arr": null,
+          "dep": 865
+        },
+        {
+          "station": "DTG",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "GLO",
+          "arr": 934,
+          "dep": null
+        },
+        {
+          "station": "GLO",
+          "arr": null,
+          "dep": 936
+        },
+        {
+          "station": "HDF",
+          "arr": 882,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "SUN_46",
+      "headcode": "",
+      "operator": "NT",
+      "days": [
+        "SUN"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "MAN",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "ABY",
+          "arr": null,
+          "dep": 907
+        },
+        {
+          "station": "GTO",
+          "arr": null,
+          "dep": 909
+        },
+        {
+          "station": "GUI",
+          "arr": null,
+          "dep": 943
+        },
+        {
+          "station": "FLF",
+          "arr": null,
+          "dep": 916
+        },
+        {
+          "station": "NWN",
+          "arr": null,
+          "dep": 918
+        },
+        {
+          "station": "GDL",
+          "arr": null,
+          "dep": 920
+        },
+        {
+          "station": "HTY",
+          "arr": null,
+          "dep": 922
+        },
+        {
+          "station": "BDB",
+          "arr": null,
+          "dep": 925
+        },
+        {
+          "station": "DTG",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "GLO",
+          "arr": 964,
+          "dep": null
+        },
+        {
+          "station": "GLO",
+          "arr": null,
+          "dep": 966
+        },
+        {
+          "station": "HDF",
+          "arr": 942,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "SUN_47",
+      "headcode": "",
+      "operator": "NT",
+      "days": [
+        "SUN"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "MAN",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "ABY",
+          "arr": null,
+          "dep": 937
+        },
+        {
+          "station": "GTO",
+          "arr": null,
+          "dep": 939
+        },
+        {
+          "station": "GUI",
+          "arr": null,
+          "dep": 1003
+        },
+        {
+          "station": "FLF",
+          "arr": null,
+          "dep": 946
+        },
+        {
+          "station": "NWN",
+          "arr": null,
+          "dep": 948
+        },
+        {
+          "station": "GDL",
+          "arr": null,
+          "dep": 950
+        },
+        {
+          "station": "HTY",
+          "arr": null,
+          "dep": 952
+        },
+        {
+          "station": "BDB",
+          "arr": null,
+          "dep": 955
+        },
+        {
+          "station": "DTG",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "GLO",
+          "arr": 1024,
+          "dep": null
+        },
+        {
+          "station": "GLO",
+          "arr": null,
+          "dep": 1026
+        },
+        {
+          "station": "HDF",
+          "arr": 972,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "SUN_48",
+      "headcode": "",
+      "operator": "NT",
+      "days": [
+        "SUN"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "MAN",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "ABY",
+          "arr": null,
+          "dep": 997
+        },
+        {
+          "station": "GTO",
+          "arr": null,
+          "dep": 999
+        },
+        {
+          "station": "GUI",
+          "arr": null,
+          "dep": 1033
+        },
+        {
+          "station": "FLF",
+          "arr": null,
+          "dep": 1006
+        },
+        {
+          "station": "NWN",
+          "arr": null,
+          "dep": 1008
+        },
+        {
+          "station": "GDL",
+          "arr": null,
+          "dep": 1010
+        },
+        {
+          "station": "HTY",
+          "arr": null,
+          "dep": 1012
+        },
+        {
+          "station": "BDB",
+          "arr": null,
+          "dep": 1015
+        },
+        {
+          "station": "DTG",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "GLO",
+          "arr": 1054,
+          "dep": null
+        },
+        {
+          "station": "GLO",
+          "arr": null,
+          "dep": 1056
+        },
+        {
+          "station": "HDF",
+          "arr": 1032,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "SUN_49",
+      "headcode": "",
+      "operator": "NT",
+      "days": [
+        "SUN"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "MAN",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "ABY",
+          "arr": null,
+          "dep": 1027
+        },
+        {
+          "station": "GTO",
+          "arr": null,
+          "dep": 1029
+        },
+        {
+          "station": "GUI",
+          "arr": null,
+          "dep": 1093
+        },
+        {
+          "station": "FLF",
+          "arr": null,
+          "dep": 1036
+        },
+        {
+          "station": "NWN",
+          "arr": null,
+          "dep": 1038
+        },
+        {
+          "station": "GDL",
+          "arr": null,
+          "dep": 1040
+        },
+        {
+          "station": "HTY",
+          "arr": null,
+          "dep": 1042
+        },
+        {
+          "station": "BDB",
+          "arr": null,
+          "dep": 1045
+        },
+        {
+          "station": "DTG",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "GLO",
+          "arr": 1114,
+          "dep": null
+        },
+        {
+          "station": "GLO",
+          "arr": null,
+          "dep": 1116
+        },
+        {
+          "station": "HDF",
+          "arr": 1062,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "SUN_50",
+      "headcode": "",
+      "operator": "NT",
+      "days": [
+        "SUN"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "MAN",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "ABY",
+          "arr": null,
+          "dep": 1087
+        },
+        {
+          "station": "GTO",
+          "arr": null,
+          "dep": 1089
+        },
+        {
+          "station": "GUI",
+          "arr": null,
+          "dep": 1123
+        },
+        {
+          "station": "FLF",
+          "arr": null,
+          "dep": 1096
+        },
+        {
+          "station": "NWN",
+          "arr": null,
+          "dep": 1098
+        },
+        {
+          "station": "GDL",
+          "arr": null,
+          "dep": 1100
+        },
+        {
+          "station": "HTY",
+          "arr": null,
+          "dep": 1102
+        },
+        {
+          "station": "BDB",
+          "arr": null,
+          "dep": 1105
+        },
+        {
+          "station": "DTG",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "GLO",
+          "arr": 1144,
+          "dep": null
+        },
+        {
+          "station": "GLO",
+          "arr": null,
+          "dep": 1146
+        },
+        {
+          "station": "HDF",
+          "arr": 1122,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "SUN_51",
+      "headcode": "",
+      "operator": "NT",
+      "days": [
+        "SUN"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "MAN",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "ABY",
+          "arr": null,
+          "dep": 1117
+        },
+        {
+          "station": "GTO",
+          "arr": null,
+          "dep": 1119
+        },
+        {
+          "station": "GUI",
+          "arr": null,
+          "dep": 1183
+        },
+        {
+          "station": "FLF",
+          "arr": null,
+          "dep": 1126
+        },
+        {
+          "station": "NWN",
+          "arr": null,
+          "dep": 1128
+        },
+        {
+          "station": "GDL",
+          "arr": null,
+          "dep": 1130
+        },
+        {
+          "station": "HTY",
+          "arr": null,
+          "dep": 1132
+        },
+        {
+          "station": "BDB",
+          "arr": null,
+          "dep": 1135
+        },
+        {
+          "station": "DTG",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "GLO",
+          "arr": 1204,
+          "dep": null
+        },
+        {
+          "station": "GLO",
+          "arr": null,
+          "dep": 1206
+        },
+        {
+          "station": "HDF",
+          "arr": 1152,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "SUN_52",
+      "headcode": "",
+      "operator": "NT",
+      "days": [
+        "SUN"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "MAN",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "ABY",
+          "arr": null,
+          "dep": 1177
+        },
+        {
+          "station": "GTO",
+          "arr": null,
+          "dep": 1179
+        },
+        {
+          "station": "GUI",
+          "arr": null,
+          "dep": 1213
+        },
+        {
+          "station": "FLF",
+          "arr": null,
+          "dep": 1186
+        },
+        {
+          "station": "NWN",
+          "arr": null,
+          "dep": 1188
+        },
+        {
+          "station": "GDL",
+          "arr": null,
+          "dep": 1190
+        },
+        {
+          "station": "HTY",
+          "arr": null,
+          "dep": 1192
+        },
+        {
+          "station": "BDB",
+          "arr": null,
+          "dep": 1195
+        },
+        {
+          "station": "DTG",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "GLO",
+          "arr": 1234,
+          "dep": null
+        },
+        {
+          "station": "GLO",
+          "arr": null,
+          "dep": 1236
+        },
+        {
+          "station": "HDF",
+          "arr": 1212,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "SUN_53",
+      "headcode": "",
+      "operator": "NT",
+      "days": [
+        "SUN"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "MAN",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "ABY",
+          "arr": null,
+          "dep": 1207
+        },
+        {
+          "station": "GTO",
+          "arr": null,
+          "dep": 1209
+        },
+        {
+          "station": "GUI",
+          "arr": null,
+          "dep": 1271
+        },
+        {
+          "station": "FLF",
+          "arr": null,
+          "dep": 1216
+        },
+        {
+          "station": "NWN",
+          "arr": null,
+          "dep": 1218
+        },
+        {
+          "station": "GDL",
+          "arr": null,
+          "dep": 1220
+        },
+        {
+          "station": "HTY",
+          "arr": null,
+          "dep": 1222
+        },
+        {
+          "station": "BDB",
+          "arr": null,
+          "dep": 1225
+        },
+        {
+          "station": "DTG",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "GLO",
+          "arr": 1292,
+          "dep": null
+        },
+        {
+          "station": "GLO",
+          "arr": null,
+          "dep": 1294
+        },
+        {
+          "station": "HDF",
+          "arr": 1242,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "SUN_54",
+      "headcode": "",
+      "operator": "",
+      "days": [
+        "SUN"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "MAN",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "ABY",
+          "arr": null,
+          "dep": 1265
+        },
+        {
+          "station": "GTO",
+          "arr": null,
+          "dep": 1267
+        },
+        {
+          "station": "FLF",
+          "arr": null,
+          "dep": 1274
+        },
+        {
+          "station": "NWN",
+          "arr": null,
+          "dep": 1276
+        },
+        {
+          "station": "GDL",
+          "arr": null,
+          "dep": 1278
+        },
+        {
+          "station": "HTY",
+          "arr": null,
+          "dep": 1280
+        },
+        {
+          "station": "BDB",
+          "arr": null,
+          "dep": 1283
+        },
+        {
+          "station": "DTG",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "HDF",
+          "arr": 1300,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "MF_55",
+      "headcode": "",
+      "operator": "NT",
+      "days": [
+        "MF"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "HDF",
+          "arr": null,
+          "dep": 345
+        },
+        {
+          "station": "GLO",
+          "arr": 350,
+          "dep": null
+        },
+        {
+          "station": "GLO",
+          "arr": null,
+          "dep": 354
+        },
+        {
+          "station": "DTG",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "BDB",
+          "arr": null,
+          "dep": 361
+        },
+        {
+          "station": "HTY",
+          "arr": null,
+          "dep": 364
+        },
+        {
+          "station": "GDL",
+          "arr": null,
+          "dep": 366
+        },
+        {
+          "station": "NWN",
+          "arr": null,
+          "dep": 368
+        },
+        {
+          "station": "FLF",
+          "arr": null,
+          "dep": 370
+        },
+        {
+          "station": "GUI",
+          "arr": null,
+          "dep": 374
+        },
+        {
+          "station": "FRF",
+          "arr": null,
+          "dep": 397
+        },
+        {
+          "station": "GTO",
+          "arr": null,
+          "dep": 378
+        },
+        {
+          "station": "ABY",
+          "arr": null,
+          "dep": 382
+        },
+        {
+          "station": "ADK",
+          "arr": 436,
+          "dep": null
+        },
+        {
+          "station": "MAN",
+          "arr": null,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "MF_56",
+      "headcode": "",
+      "operator": "NT",
+      "days": [
+        "MF"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "HDF",
+          "arr": null,
+          "dep": 367
+        },
+        {
+          "station": "GLO",
+          "arr": 372,
+          "dep": null
+        },
+        {
+          "station": "GLO",
+          "arr": null,
+          "dep": 375
+        },
+        {
+          "station": "DTG",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "BDB",
+          "arr": null,
+          "dep": 383
+        },
+        {
+          "station": "HTY",
+          "arr": null,
+          "dep": 386
+        },
+        {
+          "station": "GDL",
+          "arr": null,
+          "dep": 389
+        },
+        {
+          "station": "NWN",
+          "arr": null,
+          "dep": 392
+        },
+        {
+          "station": "FLF",
+          "arr": null,
+          "dep": 395
+        },
+        {
+          "station": "GUI",
+          "arr": null,
+          "dep": 394
+        },
+        {
+          "station": "FRF",
+          "arr": null,
+          "dep": 454
+        },
+        {
+          "station": "GTO",
+          "arr": null,
+          "dep": 403
+        },
+        {
+          "station": "ABY",
+          "arr": null,
+          "dep": 408
+        },
+        {
+          "station": "MAN",
+          "arr": null,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "MF_57",
+      "headcode": "",
+      "operator": "NT",
+      "days": [
+        "MF"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "HDF",
+          "arr": null,
+          "dep": 397
+        },
+        {
+          "station": "GLO",
+          "arr": 402,
+          "dep": null
+        },
+        {
+          "station": "GLO",
+          "arr": null,
+          "dep": 405
+        },
+        {
+          "station": "DTG",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "BDB",
+          "arr": null,
+          "dep": 413
+        },
+        {
+          "station": "HTY",
+          "arr": null,
+          "dep": 416
+        },
+        {
+          "station": "GDL",
+          "arr": null,
+          "dep": 418
+        },
+        {
+          "station": "NWN",
+          "arr": null,
+          "dep": 421
+        },
+        {
+          "station": "FLF",
+          "arr": null,
+          "dep": 423
+        },
+        {
+          "station": "GUI",
+          "arr": null,
+          "dep": 399
+        },
+        {
+          "station": "FRF",
+          "arr": null,
+          "dep": 485
+        },
+        {
+          "station": "GTO",
+          "arr": null,
+          "dep": 457
+        },
+        {
+          "station": "ABY",
+          "arr": null,
+          "dep": 433
+        },
+        {
+          "station": "MAN",
+          "arr": null,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "MF_58",
+      "headcode": "",
+      "operator": "NT",
+      "days": [
+        "MF"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "HDF",
+          "arr": null,
+          "dep": 429
+        },
+        {
+          "station": "GLO",
+          "arr": 434,
+          "dep": null
+        },
+        {
+          "station": "GLO",
+          "arr": null,
+          "dep": 438
+        },
+        {
+          "station": "DTG",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "BDB",
+          "arr": null,
+          "dep": 446
+        },
+        {
+          "station": "HTY",
+          "arr": null,
+          "dep": 449
+        },
+        {
+          "station": "GDL",
+          "arr": null,
+          "dep": 451
+        },
+        {
+          "station": "NWN",
+          "arr": null,
+          "dep": 454
+        },
+        {
+          "station": "FLF",
+          "arr": null,
+          "dep": 456
+        },
+        {
+          "station": "GUI",
+          "arr": null,
+          "dep": 427
+        },
+        {
+          "station": "FRF",
+          "arr": null,
+          "dep": 574
+        },
+        {
+          "station": "GTO",
+          "arr": null,
+          "dep": 488
+        },
+        {
+          "station": "ABY",
+          "arr": null,
+          "dep": 461
+        },
+        {
+          "station": "MAN",
+          "arr": null,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "MF_59",
+      "headcode": "",
+      "operator": "NT",
+      "days": [
+        "MF"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "HDF",
+          "arr": null,
+          "dep": 464
+        },
+        {
+          "station": "GLO",
+          "arr": 469,
+          "dep": null
+        },
+        {
+          "station": "GLO",
+          "arr": null,
+          "dep": 472
+        },
+        {
+          "station": "DTG",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "BDB",
+          "arr": null,
+          "dep": 479
+        },
+        {
+          "station": "HTY",
+          "arr": null,
+          "dep": 482
+        },
+        {
+          "station": "GDL",
+          "arr": null,
+          "dep": 484
+        },
+        {
+          "station": "NWN",
+          "arr": null,
+          "dep": 487
+        },
+        {
+          "station": "FLF",
+          "arr": null,
+          "dep": 489
+        },
+        {
+          "station": "GUI",
+          "arr": null,
+          "dep": 451
+        },
+        {
+          "station": "FRF",
+          "arr": null,
+          "dep": 634
+        },
+        {
+          "station": "GTO",
+          "arr": null,
+          "dep": 496
+        },
+        {
+          "station": "ABY",
+          "arr": null,
+          "dep": 467
+        },
+        {
+          "station": "MAN",
+          "arr": null,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "MF_60",
+      "headcode": "",
+      "operator": "NT",
+      "days": [
+        "MF"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "HDF",
+          "arr": null,
+          "dep": 494
+        },
+        {
+          "station": "GLO",
+          "arr": 499,
+          "dep": null
+        },
+        {
+          "station": "GLO",
+          "arr": null,
+          "dep": 502
+        },
+        {
+          "station": "DTG",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "BDB",
+          "arr": null,
+          "dep": 509
+        },
+        {
+          "station": "HTY",
+          "arr": null,
+          "dep": 512
+        },
+        {
+          "station": "GDL",
+          "arr": null,
+          "dep": 514
+        },
+        {
+          "station": "NWN",
+          "arr": null,
+          "dep": 517
+        },
+        {
+          "station": "FLF",
+          "arr": null,
+          "dep": 519
+        },
+        {
+          "station": "GUI",
+          "arr": null,
+          "dep": 461
+        },
+        {
+          "station": "FRF",
+          "arr": null,
+          "dep": 665
+        },
+        {
+          "station": "GTO",
+          "arr": null,
+          "dep": 546
+        },
+        {
+          "station": "ABY",
+          "arr": null,
+          "dep": 500
+        },
+        {
+          "station": "MAN",
+          "arr": null,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "MF_61",
+      "headcode": "",
+      "operator": "NT",
+      "days": [
+        "MF"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "HDF",
+          "arr": null,
+          "dep": 524
+        },
+        {
+          "station": "GLO",
+          "arr": 529,
+          "dep": null
+        },
+        {
+          "station": "GLO",
+          "arr": null,
+          "dep": 532
+        },
+        {
+          "station": "DTG",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "BDB",
+          "arr": null,
+          "dep": 540
+        },
+        {
+          "station": "HTY",
+          "arr": null,
+          "dep": 543
+        },
+        {
+          "station": "GDL",
+          "arr": null,
+          "dep": 545
+        },
+        {
+          "station": "NWN",
+          "arr": null,
+          "dep": 547
+        },
+        {
+          "station": "FLF",
+          "arr": null,
+          "dep": 550
+        },
+        {
+          "station": "GUI",
+          "arr": null,
+          "dep": 482
+        },
+        {
+          "station": "GTO",
+          "arr": null,
+          "dep": 577
+        },
+        {
+          "station": "ABY",
+          "arr": null,
+          "dep": 530
+        },
+        {
+          "station": "MAN",
+          "arr": null,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "MF_62",
+      "headcode": "",
+      "operator": "NT",
+      "days": [
+        "MF"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "HDF",
+          "arr": null,
+          "dep": 554
+        },
+        {
+          "station": "GLO",
+          "arr": 559,
+          "dep": null
+        },
+        {
+          "station": "GLO",
+          "arr": null,
+          "dep": 562
+        },
+        {
+          "station": "DTG",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "BDB",
+          "arr": null,
+          "dep": 570
+        },
+        {
+          "station": "HTY",
+          "arr": null,
+          "dep": 573
+        },
+        {
+          "station": "GDL",
+          "arr": null,
+          "dep": 575
+        },
+        {
+          "station": "NWN",
+          "arr": null,
+          "dep": 577
+        },
+        {
+          "station": "FLF",
+          "arr": null,
+          "dep": 579
+        },
+        {
+          "station": "GUI",
+          "arr": null,
+          "dep": 492
+        },
+        {
+          "station": "GTO",
+          "arr": null,
+          "dep": 637
+        },
+        {
+          "station": "ABY",
+          "arr": null,
+          "dep": 560
+        },
+        {
+          "station": "MAN",
+          "arr": null,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "MF_63",
+      "headcode": "",
+      "operator": "NT",
+      "days": [
+        "MF"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "HDF",
+          "arr": null,
+          "dep": 584
+        },
+        {
+          "station": "GLO",
+          "arr": 589,
+          "dep": null
+        },
+        {
+          "station": "GLO",
+          "arr": null,
+          "dep": 592
+        },
+        {
+          "station": "DTG",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "BDB",
+          "arr": null,
+          "dep": 600
+        },
+        {
+          "station": "HTY",
+          "arr": null,
+          "dep": 603
+        },
+        {
+          "station": "GDL",
+          "arr": null,
+          "dep": 605
+        },
+        {
+          "station": "NWN",
+          "arr": null,
+          "dep": 607
+        },
+        {
+          "station": "FLF",
+          "arr": null,
+          "dep": 609
+        },
+        {
+          "station": "GUI",
+          "arr": null,
+          "dep": 523
+        },
+        {
+          "station": "GTO",
+          "arr": null,
+          "dep": 667
+        },
+        {
+          "station": "ABY",
+          "arr": null,
+          "dep": 581
+        },
+        {
+          "station": "MAN",
+          "arr": null,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "MF_64",
+      "headcode": "",
+      "operator": "NT",
+      "days": [
+        "MF"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "HDF",
+          "arr": null,
+          "dep": 614
+        },
+        {
+          "station": "GLO",
+          "arr": 619,
+          "dep": null
+        },
+        {
+          "station": "GLO",
+          "arr": null,
+          "dep": 622
+        },
+        {
+          "station": "DTG",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "BDB",
+          "arr": null,
+          "dep": 630
+        },
+        {
+          "station": "HTY",
+          "arr": null,
+          "dep": 633
+        },
+        {
+          "station": "GDL",
+          "arr": null,
+          "dep": 635
+        },
+        {
+          "station": "NWN",
+          "arr": null,
+          "dep": 637
+        },
+        {
+          "station": "FLF",
+          "arr": null,
+          "dep": 639
+        },
+        {
+          "station": "GUI",
+          "arr": null,
+          "dep": 542
+        },
+        {
+          "station": "ABY",
+          "arr": null,
+          "dep": 589
+        },
+        {
+          "station": "MAN",
+          "arr": null,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "MF_65",
+      "headcode": "",
+      "operator": "NT",
+      "days": [
+        "MF"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "HDF",
+          "arr": null,
+          "dep": 644
+        },
+        {
+          "station": "GLO",
+          "arr": 649,
+          "dep": null
+        },
+        {
+          "station": "GLO",
+          "arr": null,
+          "dep": 652
+        },
+        {
+          "station": "DTG",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "BDB",
+          "arr": null,
+          "dep": 660
+        },
+        {
+          "station": "HTY",
+          "arr": null,
+          "dep": 663
+        },
+        {
+          "station": "GDL",
+          "arr": null,
+          "dep": 665
+        },
+        {
+          "station": "NWN",
+          "arr": null,
+          "dep": 667
+        },
+        {
+          "station": "FLF",
+          "arr": null,
+          "dep": 669
+        },
+        {
+          "station": "GUI",
+          "arr": null,
+          "dep": 553
+        },
+        {
+          "station": "ABY",
+          "arr": null,
+          "dep": 620
+        },
+        {
+          "station": "MAN",
+          "arr": null,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "MF_66",
+      "headcode": "",
+      "operator": "NT",
+      "days": [
+        "MF"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "GUI",
+          "arr": null,
+          "dep": 571
+        },
+        {
+          "station": "ABY",
+          "arr": null,
+          "dep": 641
+        },
+        {
+          "station": "MAN",
+          "arr": null,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "MF_67",
+      "headcode": "",
+      "operator": "NT",
+      "days": [
+        "MF"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "GUI",
+          "arr": null,
+          "dep": 583
+        },
+        {
+          "station": "ABY",
+          "arr": null,
+          "dep": 649
+        },
+        {
+          "station": "MAN",
+          "arr": null,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "MF_68",
+      "headcode": "",
+      "operator": "NT",
+      "days": [
+        "MF"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "GUI",
+          "arr": null,
+          "dep": 613
+        },
+        {
+          "station": "ABY",
+          "arr": null,
+          "dep": 679
+        },
+        {
+          "station": "MAN",
+          "arr": null,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "MF_69",
+      "headcode": "",
+      "operator": "NT",
+      "days": [
+        "MF"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "GUI",
+          "arr": null,
+          "dep": 631
+        },
+        {
+          "station": "MAN",
+          "arr": null,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "MF_70",
+      "headcode": "",
+      "operator": "NT",
+      "days": [
+        "MF"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "GUI",
+          "arr": null,
+          "dep": 643
+        },
+        {
+          "station": "MAN",
+          "arr": null,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "MF_71",
+      "headcode": "",
+      "operator": "NT",
+      "days": [
+        "MF"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "GUI",
+          "arr": null,
+          "dep": 662
+        },
+        {
+          "station": "MAN",
+          "arr": null,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "MF_72",
+      "headcode": "",
+      "operator": "",
+      "days": [
+        "MF"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "GUI",
+          "arr": null,
+          "dep": 673
+        },
+        {
+          "station": "MAN",
+          "arr": null,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "SAT_73",
+      "headcode": "",
+      "operator": "NT",
+      "days": [
+        "SAT"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "HDF",
+          "arr": null,
+          "dep": 345
+        },
+        {
+          "station": "GLO",
+          "arr": 350,
+          "dep": null
+        },
+        {
+          "station": "GLO",
+          "arr": null,
+          "dep": 354
+        },
+        {
+          "station": "DTG",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "BDB",
+          "arr": null,
+          "dep": 361
+        },
+        {
+          "station": "HTY",
+          "arr": null,
+          "dep": 364
+        },
+        {
+          "station": "GDL",
+          "arr": null,
+          "dep": 366
+        },
+        {
+          "station": "NWN",
+          "arr": null,
+          "dep": 368
+        },
+        {
+          "station": "FLF",
+          "arr": null,
+          "dep": 370
+        },
+        {
+          "station": "SYB",
+          "arr": null,
+          "dep": 510
+        },
+        {
+          "station": "GUI",
+          "arr": null,
+          "dep": 374
+        },
+        {
+          "station": "DTN",
+          "arr": null,
+          "dep": 522
+        },
+        {
+          "station": "RDS",
+          "arr": null,
+          "dep": 526
+        },
+        {
+          "station": "SPT",
+          "arr": 539,
+          "dep": null
+        },
+        {
+          "station": "FRF",
+          "arr": null,
+          "dep": 454
+        },
+        {
+          "station": "GTO",
+          "arr": null,
+          "dep": 378
+        },
+        {
+          "station": "ABY",
+          "arr": null,
+          "dep": 382
+        },
+        {
+          "station": "ADK",
+          "arr": 436,
+          "dep": null
+        },
+        {
+          "station": "MAN",
+          "arr": null,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "SAT_74",
+      "headcode": "",
+      "operator": "NT",
+      "days": [
+        "SAT"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "HDF",
+          "arr": null,
+          "dep": 367
+        },
+        {
+          "station": "GLO",
+          "arr": 372,
+          "dep": null
+        },
+        {
+          "station": "GLO",
+          "arr": null,
+          "dep": 375
+        },
+        {
+          "station": "DTG",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "BDB",
+          "arr": null,
+          "dep": 383
+        },
+        {
+          "station": "HTY",
+          "arr": null,
+          "dep": 386
+        },
+        {
+          "station": "GDL",
+          "arr": null,
+          "dep": 389
+        },
+        {
+          "station": "NWN",
+          "arr": null,
+          "dep": 392
+        },
+        {
+          "station": "FLF",
+          "arr": null,
+          "dep": 395
+        },
+        {
+          "station": "GUI",
+          "arr": null,
+          "dep": 399
+        },
+        {
+          "station": "FRF",
+          "arr": null,
+          "dep": 485
+        },
+        {
+          "station": "GTO",
+          "arr": null,
+          "dep": 403
+        },
+        {
+          "station": "ABY",
+          "arr": null,
+          "dep": 408
+        },
+        {
+          "station": "MAN",
+          "arr": null,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "SAT_75",
+      "headcode": "",
+      "operator": "NT",
+      "days": [
+        "SAT"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "HDF",
+          "arr": null,
+          "dep": 397
+        },
+        {
+          "station": "GLO",
+          "arr": 402,
+          "dep": null
+        },
+        {
+          "station": "GLO",
+          "arr": null,
+          "dep": 405
+        },
+        {
+          "station": "DTG",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "BDB",
+          "arr": null,
+          "dep": 413
+        },
+        {
+          "station": "HTY",
+          "arr": null,
+          "dep": 416
+        },
+        {
+          "station": "GDL",
+          "arr": null,
+          "dep": 418
+        },
+        {
+          "station": "NWN",
+          "arr": null,
+          "dep": 421
+        },
+        {
+          "station": "FLF",
+          "arr": null,
+          "dep": 423
+        },
+        {
+          "station": "GUI",
+          "arr": null,
+          "dep": 427
+        },
+        {
+          "station": "FRF",
+          "arr": null,
+          "dep": 574
+        },
+        {
+          "station": "GTO",
+          "arr": null,
+          "dep": 457
+        },
+        {
+          "station": "ABY",
+          "arr": null,
+          "dep": 433
+        },
+        {
+          "station": "MAN",
+          "arr": null,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "SAT_76",
+      "headcode": "",
+      "operator": "NT",
+      "days": [
+        "SAT"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "HDF",
+          "arr": null,
+          "dep": 429
+        },
+        {
+          "station": "GLO",
+          "arr": 434,
+          "dep": null
+        },
+        {
+          "station": "GLO",
+          "arr": null,
+          "dep": 438
+        },
+        {
+          "station": "DTG",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "BDB",
+          "arr": null,
+          "dep": 446
+        },
+        {
+          "station": "HTY",
+          "arr": null,
+          "dep": 449
+        },
+        {
+          "station": "GDL",
+          "arr": null,
+          "dep": 451
+        },
+        {
+          "station": "NWN",
+          "arr": null,
+          "dep": 454
+        },
+        {
+          "station": "FLF",
+          "arr": null,
+          "dep": 456
+        },
+        {
+          "station": "GUI",
+          "arr": null,
+          "dep": 451
+        },
+        {
+          "station": "FRF",
+          "arr": null,
+          "dep": 634
+        },
+        {
+          "station": "GTO",
+          "arr": null,
+          "dep": 488
+        },
+        {
+          "station": "ABY",
+          "arr": null,
+          "dep": 461
+        },
+        {
+          "station": "MAN",
+          "arr": null,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "SAT_77",
+      "headcode": "",
+      "operator": "NT",
+      "days": [
+        "SAT"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "HDF",
+          "arr": null,
+          "dep": 464
+        },
+        {
+          "station": "GLO",
+          "arr": 469,
+          "dep": null
+        },
+        {
+          "station": "GLO",
+          "arr": null,
+          "dep": 472
+        },
+        {
+          "station": "DTG",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "BDB",
+          "arr": null,
+          "dep": 479
+        },
+        {
+          "station": "HTY",
+          "arr": null,
+          "dep": 482
+        },
+        {
+          "station": "GDL",
+          "arr": null,
+          "dep": 484
+        },
+        {
+          "station": "NWN",
+          "arr": null,
+          "dep": 487
+        },
+        {
+          "station": "FLF",
+          "arr": null,
+          "dep": 489
+        },
+        {
+          "station": "GUI",
+          "arr": null,
+          "dep": 461
+        },
+        {
+          "station": "FRF",
+          "arr": null,
+          "dep": 665
+        },
+        {
+          "station": "GTO",
+          "arr": null,
+          "dep": 496
+        },
+        {
+          "station": "ABY",
+          "arr": null,
+          "dep": 467
+        },
+        {
+          "station": "MAN",
+          "arr": null,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "SAT_78",
+      "headcode": "",
+      "operator": "NT",
+      "days": [
+        "SAT"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "HDF",
+          "arr": null,
+          "dep": 494
+        },
+        {
+          "station": "GLO",
+          "arr": 499,
+          "dep": null
+        },
+        {
+          "station": "GLO",
+          "arr": null,
+          "dep": 502
+        },
+        {
+          "station": "DTG",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "BDB",
+          "arr": null,
+          "dep": 509
+        },
+        {
+          "station": "HTY",
+          "arr": null,
+          "dep": 512
+        },
+        {
+          "station": "GDL",
+          "arr": null,
+          "dep": 514
+        },
+        {
+          "station": "NWN",
+          "arr": null,
+          "dep": 517
+        },
+        {
+          "station": "FLF",
+          "arr": null,
+          "dep": 519
+        },
+        {
+          "station": "GUI",
+          "arr": null,
+          "dep": 482
+        },
+        {
+          "station": "GTO",
+          "arr": null,
+          "dep": 546
+        },
+        {
+          "station": "ABY",
+          "arr": null,
+          "dep": 500
+        },
+        {
+          "station": "MAN",
+          "arr": null,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "SAT_79",
+      "headcode": "",
+      "operator": "NT",
+      "days": [
+        "SAT"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "HDF",
+          "arr": null,
+          "dep": 524
+        },
+        {
+          "station": "GLO",
+          "arr": 529,
+          "dep": null
+        },
+        {
+          "station": "GLO",
+          "arr": null,
+          "dep": 532
+        },
+        {
+          "station": "DTG",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "BDB",
+          "arr": null,
+          "dep": 540
+        },
+        {
+          "station": "HTY",
+          "arr": null,
+          "dep": 543
+        },
+        {
+          "station": "GDL",
+          "arr": null,
+          "dep": 545
+        },
+        {
+          "station": "NWN",
+          "arr": null,
+          "dep": 547
+        },
+        {
+          "station": "FLF",
+          "arr": null,
+          "dep": 550
+        },
+        {
+          "station": "GUI",
+          "arr": null,
+          "dep": 492
+        },
+        {
+          "station": "GTO",
+          "arr": null,
+          "dep": 577
+        },
+        {
+          "station": "ABY",
+          "arr": null,
+          "dep": 530
+        },
+        {
+          "station": "MAN",
+          "arr": null,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "SAT_80",
+      "headcode": "",
+      "operator": "NT",
+      "days": [
+        "SAT"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "HDF",
+          "arr": null,
+          "dep": 554
+        },
+        {
+          "station": "GLO",
+          "arr": 559,
+          "dep": null
+        },
+        {
+          "station": "GLO",
+          "arr": null,
+          "dep": 562
+        },
+        {
+          "station": "DTG",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "BDB",
+          "arr": null,
+          "dep": 570
+        },
+        {
+          "station": "HTY",
+          "arr": null,
+          "dep": 573
+        },
+        {
+          "station": "GDL",
+          "arr": null,
+          "dep": 575
+        },
+        {
+          "station": "NWN",
+          "arr": null,
+          "dep": 577
+        },
+        {
+          "station": "FLF",
+          "arr": null,
+          "dep": 579
+        },
+        {
+          "station": "GUI",
+          "arr": null,
+          "dep": 517
+        },
+        {
+          "station": "GTO",
+          "arr": null,
+          "dep": 637
+        },
+        {
+          "station": "ABY",
+          "arr": null,
+          "dep": 560
+        },
+        {
+          "station": "MAN",
+          "arr": null,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "SAT_81",
+      "headcode": "",
+      "operator": "NT",
+      "days": [
+        "SAT"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "HDF",
+          "arr": null,
+          "dep": 584
+        },
+        {
+          "station": "GLO",
+          "arr": 589,
+          "dep": null
+        },
+        {
+          "station": "GLO",
+          "arr": null,
+          "dep": 592
+        },
+        {
+          "station": "DTG",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "BDB",
+          "arr": null,
+          "dep": 600
+        },
+        {
+          "station": "HTY",
+          "arr": null,
+          "dep": 603
+        },
+        {
+          "station": "GDL",
+          "arr": null,
+          "dep": 605
+        },
+        {
+          "station": "NWN",
+          "arr": null,
+          "dep": 607
+        },
+        {
+          "station": "FLF",
+          "arr": null,
+          "dep": 609
+        },
+        {
+          "station": "GUI",
+          "arr": null,
+          "dep": 523
+        },
+        {
+          "station": "GTO",
+          "arr": null,
+          "dep": 667
+        },
+        {
+          "station": "ABY",
+          "arr": null,
+          "dep": 581
+        },
+        {
+          "station": "MAN",
+          "arr": null,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "SAT_82",
+      "headcode": "",
+      "operator": "NT",
+      "days": [
+        "SAT"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "HDF",
+          "arr": null,
+          "dep": 614
+        },
+        {
+          "station": "GLO",
+          "arr": 619,
+          "dep": null
+        },
+        {
+          "station": "GLO",
+          "arr": null,
+          "dep": 622
+        },
+        {
+          "station": "DTG",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "BDB",
+          "arr": null,
+          "dep": 630
+        },
+        {
+          "station": "HTY",
+          "arr": null,
+          "dep": 633
+        },
+        {
+          "station": "GDL",
+          "arr": null,
+          "dep": 635
+        },
+        {
+          "station": "NWN",
+          "arr": null,
+          "dep": 637
+        },
+        {
+          "station": "FLF",
+          "arr": null,
+          "dep": 639
+        },
+        {
+          "station": "GUI",
+          "arr": null,
+          "dep": 542
+        },
+        {
+          "station": "ABY",
+          "arr": null,
+          "dep": 589
+        },
+        {
+          "station": "MAN",
+          "arr": null,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "SAT_83",
+      "headcode": "",
+      "operator": "NT",
+      "days": [
+        "SAT"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "HDF",
+          "arr": null,
+          "dep": 644
+        },
+        {
+          "station": "GLO",
+          "arr": 649,
+          "dep": null
+        },
+        {
+          "station": "GLO",
+          "arr": null,
+          "dep": 652
+        },
+        {
+          "station": "DTG",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "BDB",
+          "arr": null,
+          "dep": 660
+        },
+        {
+          "station": "HTY",
+          "arr": null,
+          "dep": 663
+        },
+        {
+          "station": "GDL",
+          "arr": null,
+          "dep": 665
+        },
+        {
+          "station": "NWN",
+          "arr": null,
+          "dep": 667
+        },
+        {
+          "station": "FLF",
+          "arr": null,
+          "dep": 669
+        },
+        {
+          "station": "GUI",
+          "arr": null,
+          "dep": 553
+        },
+        {
+          "station": "ABY",
+          "arr": null,
+          "dep": 620
+        },
+        {
+          "station": "MAN",
+          "arr": null,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "SAT_84",
+      "headcode": "",
+      "operator": "NT",
+      "days": [
+        "SAT"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "HDF",
+          "arr": null,
+          "dep": 674
+        },
+        {
+          "station": "GLO",
+          "arr": 679,
+          "dep": null
+        },
+        {
+          "station": "GLO",
+          "arr": null,
+          "dep": 682
+        },
+        {
+          "station": "DTG",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "BDB",
+          "arr": null,
+          "dep": 690
+        },
+        {
+          "station": "HTY",
+          "arr": null,
+          "dep": 693
+        },
+        {
+          "station": "GDL",
+          "arr": null,
+          "dep": 695
+        },
+        {
+          "station": "NWN",
+          "arr": null,
+          "dep": 697
+        },
+        {
+          "station": "FLF",
+          "arr": null,
+          "dep": 699
+        },
+        {
+          "station": "GUI",
+          "arr": null,
+          "dep": 571
+        },
+        {
+          "station": "ABY",
+          "arr": null,
+          "dep": 641
+        },
+        {
+          "station": "MAN",
+          "arr": null,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "SAT_85",
+      "headcode": "",
+      "operator": "NT",
+      "days": [
+        "SAT"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "GUI",
+          "arr": null,
+          "dep": 583
+        },
+        {
+          "station": "ABY",
+          "arr": null,
+          "dep": 649
+        },
+        {
+          "station": "MAN",
+          "arr": null,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "SAT_86",
+      "headcode": "",
+      "operator": "NT",
+      "days": [
+        "SAT"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "GUI",
+          "arr": null,
+          "dep": 613
+        },
+        {
+          "station": "ABY",
+          "arr": null,
+          "dep": 679
+        },
+        {
+          "station": "MAN",
+          "arr": null,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "SAT_87",
+      "headcode": "",
+      "operator": "NT",
+      "days": [
+        "SAT"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "GUI",
+          "arr": null,
+          "dep": 631
+        },
+        {
+          "station": "ABY",
+          "arr": null,
+          "dep": 709
+        },
+        {
+          "station": "MAN",
+          "arr": null,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "SAT_88",
+      "headcode": "",
+      "operator": "NT",
+      "days": [
+        "SAT"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "GUI",
+          "arr": null,
+          "dep": 643
+        },
+        {
+          "station": "MAN",
+          "arr": null,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "SAT_89",
+      "headcode": "",
+      "operator": "NT",
+      "days": [
+        "SAT"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "GUI",
+          "arr": null,
+          "dep": 662
+        },
+        {
+          "station": "MAN",
+          "arr": null,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "SAT_90",
+      "headcode": "",
+      "operator": "NT",
+      "days": [
+        "SAT"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "GUI",
+          "arr": null,
+          "dep": 673
+        },
+        {
+          "station": "MAN",
+          "arr": null,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "SAT_91",
+      "headcode": "",
+      "operator": "",
+      "days": [
+        "SAT"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "GUI",
+          "arr": null,
+          "dep": 703
+        }
+      ]
+    },
+    {
+      "id": "SUN_92",
+      "headcode": "",
+      "operator": "NT",
+      "days": [
+        "SUN"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "HDF",
+          "arr": null,
+          "dep": 587
+        },
+        {
+          "station": "GLO",
+          "arr": 592,
+          "dep": null
+        },
+        {
+          "station": "GLO",
+          "arr": null,
+          "dep": 595
+        },
+        {
+          "station": "DTG",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "BDB",
+          "arr": null,
+          "dep": 602
+        },
+        {
+          "station": "HTY",
+          "arr": null,
+          "dep": 605
+        },
+        {
+          "station": "GDL",
+          "arr": null,
+          "dep": 607
+        },
+        {
+          "station": "NWN",
+          "arr": null,
+          "dep": 609
+        },
+        {
+          "station": "FLF",
+          "arr": null,
+          "dep": 611
+        },
+        {
+          "station": "GUI",
+          "arr": null,
+          "dep": 614
+        },
+        {
+          "station": "GTO",
+          "arr": null,
+          "dep": 617
+        },
+        {
+          "station": "ABY",
+          "arr": null,
+          "dep": 621
+        },
+        {
+          "station": "MAN",
+          "arr": null,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "SUN_93",
+      "headcode": "",
+      "operator": "NT",
+      "days": [
+        "SUN"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "HDF",
+          "arr": null,
+          "dep": 611
+        },
+        {
+          "station": "GLO",
+          "arr": 616,
+          "dep": null
+        },
+        {
+          "station": "GLO",
+          "arr": null,
+          "dep": 619
+        },
+        {
+          "station": "DTG",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "BDB",
+          "arr": null,
+          "dep": 626
+        },
+        {
+          "station": "HTY",
+          "arr": null,
+          "dep": 629
+        },
+        {
+          "station": "GDL",
+          "arr": null,
+          "dep": 631
+        },
+        {
+          "station": "NWN",
+          "arr": null,
+          "dep": 633
+        },
+        {
+          "station": "FLF",
+          "arr": null,
+          "dep": 635
+        },
+        {
+          "station": "GUI",
+          "arr": null,
+          "dep": 638
+        },
+        {
+          "station": "GTO",
+          "arr": null,
+          "dep": 641
+        },
+        {
+          "station": "ABY",
+          "arr": null,
+          "dep": 645
+        },
+        {
+          "station": "MAN",
+          "arr": null,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "SUN_94",
+      "headcode": "",
+      "operator": "NT",
+      "days": [
+        "SUN"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "HDF",
+          "arr": null,
+          "dep": 675
+        },
+        {
+          "station": "GLO",
+          "arr": 680,
+          "dep": null
+        },
+        {
+          "station": "GLO",
+          "arr": null,
+          "dep": 683
+        },
+        {
+          "station": "DTG",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "BDB",
+          "arr": null,
+          "dep": 690
+        },
+        {
+          "station": "HTY",
+          "arr": null,
+          "dep": 693
+        },
+        {
+          "station": "GDL",
+          "arr": null,
+          "dep": 695
+        },
+        {
+          "station": "NWN",
+          "arr": null,
+          "dep": 697
+        },
+        {
+          "station": "FLF",
+          "arr": null,
+          "dep": 699
+        },
+        {
+          "station": "GUI",
+          "arr": null,
+          "dep": 702
+        },
+        {
+          "station": "GTO",
+          "arr": null,
+          "dep": 705
+        },
+        {
+          "station": "ABY",
+          "arr": null,
+          "dep": 709
+        },
+        {
+          "station": "MAN",
+          "arr": null,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "SUN_95",
+      "headcode": "",
+      "operator": "NT",
+      "days": [
+        "SUN"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "HDF",
+          "arr": null,
+          "dep": 705
+        },
+        {
+          "station": "GLO",
+          "arr": 710,
+          "dep": null
+        },
+        {
+          "station": "GLO",
+          "arr": null,
+          "dep": 713
+        },
+        {
+          "station": "DTG",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "BDB",
+          "arr": null,
+          "dep": 720
+        },
+        {
+          "station": "HTY",
+          "arr": null,
+          "dep": 723
+        },
+        {
+          "station": "GDL",
+          "arr": null,
+          "dep": 725
+        },
+        {
+          "station": "NWN",
+          "arr": null,
+          "dep": 727
+        },
+        {
+          "station": "FLF",
+          "arr": null,
+          "dep": 729
+        },
+        {
+          "station": "GUI",
+          "arr": null,
+          "dep": 732
+        },
+        {
+          "station": "GTO",
+          "arr": null,
+          "dep": 736
+        },
+        {
+          "station": "ABY",
+          "arr": null,
+          "dep": 740
+        },
+        {
+          "station": "MAN",
+          "arr": null,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "SUN_96",
+      "headcode": "",
+      "operator": "NT",
+      "days": [
+        "SUN"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "HDF",
+          "arr": null,
+          "dep": 765
+        },
+        {
+          "station": "GLO",
+          "arr": 770,
+          "dep": null
+        },
+        {
+          "station": "GLO",
+          "arr": null,
+          "dep": 773
+        },
+        {
+          "station": "DTG",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "BDB",
+          "arr": null,
+          "dep": 780
+        },
+        {
+          "station": "HTY",
+          "arr": null,
+          "dep": 783
+        },
+        {
+          "station": "GDL",
+          "arr": null,
+          "dep": 785
+        },
+        {
+          "station": "NWN",
+          "arr": null,
+          "dep": 787
+        },
+        {
+          "station": "FLF",
+          "arr": null,
+          "dep": 789
+        },
+        {
+          "station": "GUI",
+          "arr": null,
+          "dep": 792
+        },
+        {
+          "station": "GTO",
+          "arr": null,
+          "dep": 795
+        },
+        {
+          "station": "ABY",
+          "arr": null,
+          "dep": 799
+        },
+        {
+          "station": "MAN",
+          "arr": null,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "SUN_97",
+      "headcode": "",
+      "operator": "NT",
+      "days": [
+        "SUN"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "HDF",
+          "arr": null,
+          "dep": 795
+        },
+        {
+          "station": "GLO",
+          "arr": 800,
+          "dep": null
+        },
+        {
+          "station": "GLO",
+          "arr": null,
+          "dep": 803
+        },
+        {
+          "station": "DTG",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "BDB",
+          "arr": null,
+          "dep": 810
+        },
+        {
+          "station": "HTY",
+          "arr": null,
+          "dep": 813
+        },
+        {
+          "station": "GDL",
+          "arr": null,
+          "dep": 815
+        },
+        {
+          "station": "NWN",
+          "arr": null,
+          "dep": 818
+        },
+        {
+          "station": "FLF",
+          "arr": null,
+          "dep": 820
+        },
+        {
+          "station": "GUI",
+          "arr": null,
+          "dep": 823
+        },
+        {
+          "station": "GTO",
+          "arr": null,
+          "dep": 827
+        },
+        {
+          "station": "ABY",
+          "arr": null,
+          "dep": 832
+        },
+        {
+          "station": "MAN",
+          "arr": null,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "SUN_98",
+      "headcode": "",
+      "operator": "NT",
+      "days": [
+        "SUN"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "HDF",
+          "arr": null,
+          "dep": 855
+        },
+        {
+          "station": "GLO",
+          "arr": 860,
+          "dep": null
+        },
+        {
+          "station": "GLO",
+          "arr": null,
+          "dep": 863
+        },
+        {
+          "station": "DTG",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "BDB",
+          "arr": null,
+          "dep": 870
+        },
+        {
+          "station": "HTY",
+          "arr": null,
+          "dep": 873
+        },
+        {
+          "station": "GDL",
+          "arr": null,
+          "dep": 875
+        },
+        {
+          "station": "NWN",
+          "arr": null,
+          "dep": 878
+        },
+        {
+          "station": "FLF",
+          "arr": null,
+          "dep": 880
+        },
+        {
+          "station": "GUI",
+          "arr": null,
+          "dep": 883
+        },
+        {
+          "station": "GTO",
+          "arr": null,
+          "dep": 887
+        },
+        {
+          "station": "ABY",
+          "arr": null,
+          "dep": 892
+        },
+        {
+          "station": "MAN",
+          "arr": null,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "SUN_99",
+      "headcode": "",
+      "operator": "NT",
+      "days": [
+        "SUN"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "HDF",
+          "arr": null,
+          "dep": 885
+        },
+        {
+          "station": "GLO",
+          "arr": 890,
+          "dep": null
+        },
+        {
+          "station": "GLO",
+          "arr": null,
+          "dep": 893
+        },
+        {
+          "station": "DTG",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "BDB",
+          "arr": null,
+          "dep": 900
+        },
+        {
+          "station": "HTY",
+          "arr": null,
+          "dep": 903
+        },
+        {
+          "station": "GDL",
+          "arr": null,
+          "dep": 905
+        },
+        {
+          "station": "NWN",
+          "arr": null,
+          "dep": 907
+        },
+        {
+          "station": "FLF",
+          "arr": null,
+          "dep": 909
+        },
+        {
+          "station": "GUI",
+          "arr": null,
+          "dep": 912
+        },
+        {
+          "station": "GTO",
+          "arr": null,
+          "dep": 915
+        },
+        {
+          "station": "ABY",
+          "arr": null,
+          "dep": 919
+        },
+        {
+          "station": "MAN",
+          "arr": null,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "SUN_100",
+      "headcode": "",
+      "operator": "NT",
+      "days": [
+        "SUN"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "HDF",
+          "arr": null,
+          "dep": 945
+        },
+        {
+          "station": "GLO",
+          "arr": 950,
+          "dep": null
+        },
+        {
+          "station": "GLO",
+          "arr": null,
+          "dep": 953
+        },
+        {
+          "station": "DTG",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "BDB",
+          "arr": null,
+          "dep": 960
+        },
+        {
+          "station": "HTY",
+          "arr": null,
+          "dep": 963
+        },
+        {
+          "station": "GDL",
+          "arr": null,
+          "dep": 965
+        },
+        {
+          "station": "NWN",
+          "arr": null,
+          "dep": 967
+        },
+        {
+          "station": "FLF",
+          "arr": null,
+          "dep": 969
+        },
+        {
+          "station": "GUI",
+          "arr": null,
+          "dep": 972
+        },
+        {
+          "station": "GTO",
+          "arr": null,
+          "dep": 975
+        },
+        {
+          "station": "ABY",
+          "arr": null,
+          "dep": 979
+        },
+        {
+          "station": "MAN",
+          "arr": null,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "SUN_101",
+      "headcode": "",
+      "operator": "NT",
+      "days": [
+        "SUN"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "HDF",
+          "arr": null,
+          "dep": 975
+        },
+        {
+          "station": "GLO",
+          "arr": 980,
+          "dep": null
+        },
+        {
+          "station": "GLO",
+          "arr": null,
+          "dep": 983
+        },
+        {
+          "station": "DTG",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "BDB",
+          "arr": null,
+          "dep": 990
+        },
+        {
+          "station": "HTY",
+          "arr": null,
+          "dep": 993
+        },
+        {
+          "station": "GDL",
+          "arr": null,
+          "dep": 995
+        },
+        {
+          "station": "NWN",
+          "arr": null,
+          "dep": 998
+        },
+        {
+          "station": "FLF",
+          "arr": null,
+          "dep": 1000
+        },
+        {
+          "station": "GUI",
+          "arr": null,
+          "dep": 1003
+        },
+        {
+          "station": "GTO",
+          "arr": null,
+          "dep": 1007
+        },
+        {
+          "station": "ABY",
+          "arr": null,
+          "dep": 1012
+        },
+        {
+          "station": "MAN",
+          "arr": null,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "SUN_102",
+      "headcode": "",
+      "operator": "NT",
+      "days": [
+        "SUN"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "HDF",
+          "arr": null,
+          "dep": 1035
+        },
+        {
+          "station": "GLO",
+          "arr": 1040,
+          "dep": null
+        },
+        {
+          "station": "GLO",
+          "arr": null,
+          "dep": 1043
+        },
+        {
+          "station": "DTG",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "BDB",
+          "arr": null,
+          "dep": 1050
+        },
+        {
+          "station": "HTY",
+          "arr": null,
+          "dep": 1053
+        },
+        {
+          "station": "GDL",
+          "arr": null,
+          "dep": 1055
+        },
+        {
+          "station": "NWN",
+          "arr": null,
+          "dep": 1058
+        },
+        {
+          "station": "FLF",
+          "arr": null,
+          "dep": 1060
+        },
+        {
+          "station": "GUI",
+          "arr": null,
+          "dep": 1063
+        },
+        {
+          "station": "GTO",
+          "arr": null,
+          "dep": 1067
+        },
+        {
+          "station": "ABY",
+          "arr": null,
+          "dep": 1072
+        },
+        {
+          "station": "MAN",
+          "arr": null,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "SUN_103",
+      "headcode": "",
+      "operator": "NT",
+      "days": [
+        "SUN"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "HDF",
+          "arr": null,
+          "dep": 1065
+        },
+        {
+          "station": "GLO",
+          "arr": 1070,
+          "dep": null
+        },
+        {
+          "station": "GLO",
+          "arr": null,
+          "dep": 1073
+        },
+        {
+          "station": "DTG",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "BDB",
+          "arr": null,
+          "dep": 1080
+        },
+        {
+          "station": "HTY",
+          "arr": null,
+          "dep": 1083
+        },
+        {
+          "station": "GDL",
+          "arr": null,
+          "dep": 1085
+        },
+        {
+          "station": "NWN",
+          "arr": null,
+          "dep": 1087
+        },
+        {
+          "station": "FLF",
+          "arr": null,
+          "dep": 1089
+        },
+        {
+          "station": "GUI",
+          "arr": null,
+          "dep": 1092
+        },
+        {
+          "station": "GTO",
+          "arr": null,
+          "dep": 1095
+        },
+        {
+          "station": "ABY",
+          "arr": null,
+          "dep": 1099
+        },
+        {
+          "station": "MAN",
+          "arr": null,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "SUN_104",
+      "headcode": "",
+      "operator": "NT",
+      "days": [
+        "SUN"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "HDF",
+          "arr": null,
+          "dep": 1125
+        },
+        {
+          "station": "GLO",
+          "arr": 1130,
+          "dep": null
+        },
+        {
+          "station": "GLO",
+          "arr": null,
+          "dep": 1133
+        },
+        {
+          "station": "DTG",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "BDB",
+          "arr": null,
+          "dep": 1140
+        },
+        {
+          "station": "HTY",
+          "arr": null,
+          "dep": 1143
+        },
+        {
+          "station": "GDL",
+          "arr": null,
+          "dep": 1145
+        },
+        {
+          "station": "NWN",
+          "arr": null,
+          "dep": 1147
+        },
+        {
+          "station": "FLF",
+          "arr": null,
+          "dep": 1149
+        },
+        {
+          "station": "GUI",
+          "arr": null,
+          "dep": 1152
+        },
+        {
+          "station": "GTO",
+          "arr": null,
+          "dep": 1155
+        },
+        {
+          "station": "ABY",
+          "arr": null,
+          "dep": 1159
+        },
+        {
+          "station": "MAN",
+          "arr": null,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "SUN_105",
+      "headcode": "",
+      "operator": "NT",
+      "days": [
+        "SUN"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "HDF",
+          "arr": null,
+          "dep": 1155
+        },
+        {
+          "station": "GLO",
+          "arr": 1160,
+          "dep": null
+        },
+        {
+          "station": "GLO",
+          "arr": null,
+          "dep": 1163
+        },
+        {
+          "station": "DTG",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "BDB",
+          "arr": null,
+          "dep": 1170
+        },
+        {
+          "station": "HTY",
+          "arr": null,
+          "dep": 1173
+        },
+        {
+          "station": "GDL",
+          "arr": null,
+          "dep": 1175
+        },
+        {
+          "station": "NWN",
+          "arr": null,
+          "dep": 1177
+        },
+        {
+          "station": "FLF",
+          "arr": null,
+          "dep": 1179
+        },
+        {
+          "station": "GUI",
+          "arr": null,
+          "dep": 1182
+        },
+        {
+          "station": "GTO",
+          "arr": null,
+          "dep": 1186
+        },
+        {
+          "station": "ABY",
+          "arr": null,
+          "dep": 1192
+        },
+        {
+          "station": "MAN",
+          "arr": null,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "SUN_106",
+      "headcode": "",
+      "operator": "NT",
+      "days": [
+        "SUN"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "HDF",
+          "arr": null,
+          "dep": 1215
+        },
+        {
+          "station": "GLO",
+          "arr": 1220,
+          "dep": null
+        },
+        {
+          "station": "GLO",
+          "arr": null,
+          "dep": 1223
+        },
+        {
+          "station": "DTG",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "BDB",
+          "arr": null,
+          "dep": 1230
+        },
+        {
+          "station": "HTY",
+          "arr": null,
+          "dep": 1233
+        },
+        {
+          "station": "GDL",
+          "arr": null,
+          "dep": 1235
+        },
+        {
+          "station": "NWN",
+          "arr": null,
+          "dep": 1238
+        },
+        {
+          "station": "FLF",
+          "arr": null,
+          "dep": 1240
+        },
+        {
+          "station": "GUI",
+          "arr": null,
+          "dep": 1243
+        },
+        {
+          "station": "GTO",
+          "arr": null,
+          "dep": 1247
+        },
+        {
+          "station": "ABY",
+          "arr": null,
+          "dep": 1252
+        },
+        {
+          "station": "MAN",
+          "arr": null,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "SUN_107",
+      "headcode": "",
+      "operator": "NT",
+      "days": [
+        "SUN"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "HDF",
+          "arr": null,
+          "dep": 1245
+        },
+        {
+          "station": "GLO",
+          "arr": 1250,
+          "dep": null
+        },
+        {
+          "station": "GLO",
+          "arr": null,
+          "dep": 1253
+        },
+        {
+          "station": "DTG",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "BDB",
+          "arr": null,
+          "dep": 1260
+        },
+        {
+          "station": "HTY",
+          "arr": null,
+          "dep": 1263
+        },
+        {
+          "station": "GDL",
+          "arr": null,
+          "dep": 1265
+        },
+        {
+          "station": "NWN",
+          "arr": null,
+          "dep": 1267
+        },
+        {
+          "station": "FLF",
+          "arr": null,
+          "dep": 1269
+        },
+        {
+          "station": "GUI",
+          "arr": null,
+          "dep": 1272
+        },
+        {
+          "station": "GTO",
+          "arr": null,
+          "dep": 1275
+        },
+        {
+          "station": "ABY",
+          "arr": null,
+          "dep": 1279
+        },
+        {
+          "station": "MAN",
+          "arr": null,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "SUN_108",
+      "headcode": "",
+      "operator": "",
+      "days": [
+        "SUN"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "HDF",
+          "arr": null,
+          "dep": 1303
+        },
+        {
+          "station": "GLO",
+          "arr": 1308,
+          "dep": null
+        },
+        {
+          "station": "GLO",
+          "arr": null,
+          "dep": 1311
+        },
+        {
+          "station": "DTG",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "BDB",
+          "arr": null,
+          "dep": 1318
+        },
+        {
+          "station": "HTY",
+          "arr": null,
+          "dep": 1321
+        },
+        {
+          "station": "GDL",
+          "arr": null,
+          "dep": 1323
+        },
+        {
+          "station": "NWN",
+          "arr": null,
+          "dep": 1325
+        },
+        {
+          "station": "FLF",
+          "arr": null,
+          "dep": 1327
+        },
+        {
+          "station": "GUI",
+          "arr": null,
+          "dep": 1330
+        },
+        {
+          "station": "GTO",
+          "arr": null,
+          "dep": 1333
+        },
+        {
+          "station": "ABY",
+          "arr": null,
+          "dep": 1337
+        },
+        {
+          "station": "MAN",
+          "arr": null,
+          "dep": null
+        }
+      ]
+    }
+  ],
+  "gap": false
+}

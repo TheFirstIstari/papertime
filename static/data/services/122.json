@@ -1,0 +1,4406 @@
+{
+  "table": "122",
+  "name": "",
+  "period": "",
+  "operators": [],
+  "days": [
+    "MF",
+    "SUN"
+  ],
+  "stations": [
+    "PAD",
+    "RDG",
+    "RDW",
+    "THE",
+    "AMT",
+    "MDG",
+    "THA",
+    "NRC",
+    "NBY",
+    "NBY",
+    "KIT",
+    "HGD",
+    "BDW",
+    "PEW",
+    "WSB",
+    "PAD",
+    "RDG",
+    "RDW",
+    "THE",
+    "AMT",
+    "MDG",
+    "THA",
+    "NRC",
+    "NBY",
+    "NBY",
+    "KIT",
+    "HGD",
+    "BDW",
+    "PEW",
+    "WSB",
+    "PAD",
+    "RDG",
+    "RDW",
+    "THE",
+    "AMT",
+    "MDG",
+    "THA",
+    "NRC",
+    "NBY",
+    "NBY",
+    "KIT",
+    "HGD",
+    "BDW",
+    "PEW",
+    "WSB",
+    "WSB",
+    "PEW",
+    "BDW",
+    "HGD",
+    "KIT",
+    "NBY",
+    "NBY",
+    "NRC",
+    "THA",
+    "MDG",
+    "AMT",
+    "THE",
+    "RDW",
+    "RDG",
+    "PAD",
+    "WSB",
+    "PEW",
+    "BDW",
+    "HGD",
+    "KIT",
+    "NBY",
+    "NBY",
+    "NRC",
+    "THA",
+    "MDG",
+    "AMT",
+    "THE",
+    "RDW",
+    "RDG",
+    "PAD",
+    "WSB",
+    "PEW",
+    "BDW",
+    "HGD",
+    "KIT",
+    "NBY",
+    "NBY",
+    "NRC",
+    "THA",
+    "MDG",
+    "AMT",
+    "THE",
+    "RDW",
+    "RDG",
+    "PAD"
+  ],
+  "services": [
+    {
+      "id": "MF_0",
+      "headcode": "",
+      "operator": "",
+      "days": [
+        "MF"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "PAD",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "RDG",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "RDW",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "THE",
+          "arr": null,
+          "dep": 325
+        },
+        {
+          "station": "AMT",
+          "arr": null,
+          "dep": 330
+        },
+        {
+          "station": "MDG",
+          "arr": null,
+          "dep": 333
+        },
+        {
+          "station": "THA",
+          "arr": null,
+          "dep": 338
+        },
+        {
+          "station": "NRC",
+          "arr": null,
+          "dep": 343
+        },
+        {
+          "station": "NBY",
+          "arr": 327,
+          "dep": null
+        },
+        {
+          "station": "NBY",
+          "arr": null,
+          "dep": 328
+        },
+        {
+          "station": "KIT",
+          "arr": null,
+          "dep": 334
+        },
+        {
+          "station": "HGD",
+          "arr": null,
+          "dep": 338
+        },
+        {
+          "station": "BDW",
+          "arr": null,
+          "dep": 583
+        },
+        {
+          "station": "PEW",
+          "arr": null,
+          "dep": 482
+        },
+        {
+          "station": "WSB",
+          "arr": 499,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "MF_1",
+      "headcode": "",
+      "operator": "",
+      "days": [
+        "MF"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "PAD",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "RDG",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "RDW",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "THE",
+          "arr": null,
+          "dep": 357
+        },
+        {
+          "station": "AMT",
+          "arr": null,
+          "dep": 387
+        },
+        {
+          "station": "MDG",
+          "arr": null,
+          "dep": 390
+        },
+        {
+          "station": "THA",
+          "arr": null,
+          "dep": 365
+        },
+        {
+          "station": "NRC",
+          "arr": null,
+          "dep": 398
+        },
+        {
+          "station": "NBY",
+          "arr": 346,
+          "dep": null
+        },
+        {
+          "station": "NBY",
+          "arr": null,
+          "dep": 384
+        },
+        {
+          "station": "KIT",
+          "arr": null,
+          "dep": 390
+        },
+        {
+          "station": "HGD",
+          "arr": null,
+          "dep": 395
+        },
+        {
+          "station": "PEW",
+          "arr": null,
+          "dep": 593
+        },
+        {
+          "station": "WSB",
+          "arr": 610,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "MF_2",
+      "headcode": "",
+      "operator": "",
+      "days": [
+        "MF"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "PAD",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "RDG",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "RDW",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "THE",
+          "arr": null,
+          "dep": 382
+        },
+        {
+          "station": "AMT",
+          "arr": null,
+          "dep": 410
+        },
+        {
+          "station": "MDG",
+          "arr": null,
+          "dep": 413
+        },
+        {
+          "station": "THA",
+          "arr": null,
+          "dep": 394
+        },
+        {
+          "station": "NRC",
+          "arr": null,
+          "dep": 422
+        },
+        {
+          "station": "NBY",
+          "arr": 372,
+          "dep": null
+        },
+        {
+          "station": "NBY",
+          "arr": null,
+          "dep": 442
+        },
+        {
+          "station": "KIT",
+          "arr": null,
+          "dep": 449
+        },
+        {
+          "station": "HGD",
+          "arr": null,
+          "dep": 453
+        }
+      ]
+    },
+    {
+      "id": "MF_3",
+      "headcode": "",
+      "operator": "",
+      "days": [
+        "MF"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "PAD",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "RDG",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "RDW",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "THE",
+          "arr": null,
+          "dep": 406
+        },
+        {
+          "station": "AMT",
+          "arr": null,
+          "dep": 441
+        },
+        {
+          "station": "MDG",
+          "arr": null,
+          "dep": 444
+        },
+        {
+          "station": "THA",
+          "arr": null,
+          "dep": 418
+        },
+        {
+          "station": "NRC",
+          "arr": null,
+          "dep": 452
+        },
+        {
+          "station": "NBY",
+          "arr": 402,
+          "dep": null
+        },
+        {
+          "station": "NBY",
+          "arr": null,
+          "dep": 462
+        },
+        {
+          "station": "KIT",
+          "arr": null,
+          "dep": 500
+        },
+        {
+          "station": "HGD",
+          "arr": null,
+          "dep": 506
+        }
+      ]
+    },
+    {
+      "id": "MF_4",
+      "headcode": "",
+      "operator": "",
+      "days": [
+        "MF"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "RDG",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "RDW",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "THE",
+          "arr": null,
+          "dep": 436
+        },
+        {
+          "station": "AMT",
+          "arr": null,
+          "dep": 497
+        },
+        {
+          "station": "MDG",
+          "arr": null,
+          "dep": 500
+        },
+        {
+          "station": "THA",
+          "arr": null,
+          "dep": 448
+        },
+        {
+          "station": "NRC",
+          "arr": null,
+          "dep": 508
+        },
+        {
+          "station": "NBY",
+          "arr": 425,
+          "dep": null
+        },
+        {
+          "station": "NBY",
+          "arr": null,
+          "dep": 493
+        },
+        {
+          "station": "KIT",
+          "arr": null,
+          "dep": 555
+        },
+        {
+          "station": "HGD",
+          "arr": null,
+          "dep": 560
+        }
+      ]
+    },
+    {
+      "id": "MF_5",
+      "headcode": "",
+      "operator": "",
+      "days": [
+        "MF"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "RDG",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "RDW",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "THE",
+          "arr": null,
+          "dep": 461
+        },
+        {
+          "station": "AMT",
+          "arr": null,
+          "dep": 540
+        },
+        {
+          "station": "MDG",
+          "arr": null,
+          "dep": 568
+        },
+        {
+          "station": "THA",
+          "arr": null,
+          "dep": 469
+        },
+        {
+          "station": "NRC",
+          "arr": null,
+          "dep": 577
+        },
+        {
+          "station": "NBY",
+          "arr": 456,
+          "dep": null
+        },
+        {
+          "station": "NBY",
+          "arr": null,
+          "dep": 548
+        },
+        {
+          "station": "KIT",
+          "arr": null,
+          "dep": 573
+        },
+        {
+          "station": "HGD",
+          "arr": null,
+          "dep": 577
+        }
+      ]
+    },
+    {
+      "id": "MF_6",
+      "headcode": "",
+      "operator": "",
+      "days": [
+        "MF"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "RDG",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "THE",
+          "arr": null,
+          "dep": 492
+        },
+        {
+          "station": "AMT",
+          "arr": null,
+          "dep": 565
+        },
+        {
+          "station": "THA",
+          "arr": null,
+          "dep": 504
+        },
+        {
+          "station": "NBY",
+          "arr": 461,
+          "dep": null
+        },
+        {
+          "station": "NBY",
+          "arr": null,
+          "dep": 567
+        }
+      ]
+    },
+    {
+      "id": "MF_7",
+      "headcode": "",
+      "operator": "",
+      "days": [
+        "MF"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "RDG",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "THE",
+          "arr": null,
+          "dep": 524
+        },
+        {
+          "station": "THA",
+          "arr": null,
+          "dep": 532
+        },
+        {
+          "station": "NBY",
+          "arr": 475,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "MF_8",
+      "headcode": "",
+      "operator": "",
+      "days": [
+        "MF"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "RDG",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "THE",
+          "arr": null,
+          "dep": 535
+        },
+        {
+          "station": "THA",
+          "arr": null,
+          "dep": 546
+        },
+        {
+          "station": "NBY",
+          "arr": 512,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "MF_9",
+      "headcode": "",
+      "operator": "",
+      "days": [
+        "MF"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "RDG",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "THE",
+          "arr": null,
+          "dep": 552
+        },
+        {
+          "station": "THA",
+          "arr": null,
+          "dep": 560
+        },
+        {
+          "station": "NBY",
+          "arr": 538,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "MF_10",
+      "headcode": "",
+      "operator": "",
+      "days": [
+        "MF"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "RDG",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "THE",
+          "arr": null,
+          "dep": 561
+        },
+        {
+          "station": "THA",
+          "arr": null,
+          "dep": 573
+        },
+        {
+          "station": "NBY",
+          "arr": 552,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "MF_11",
+      "headcode": "",
+      "operator": "",
+      "days": [
+        "MF"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "RDG",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "NBY",
+          "arr": 566,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "MF_12",
+      "headcode": "",
+      "operator": "",
+      "days": [
+        "MF"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "RDG",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "NBY",
+          "arr": 580,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "MF_13",
+      "headcode": "",
+      "operator": "",
+      "days": [
+        "MF"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "PAD",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "RDG",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "RDW",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "THE",
+          "arr": null,
+          "dep": 1125
+        },
+        {
+          "station": "AMT",
+          "arr": null,
+          "dep": 1161
+        },
+        {
+          "station": "MDG",
+          "arr": null,
+          "dep": 1164
+        },
+        {
+          "station": "THA",
+          "arr": null,
+          "dep": 1133
+        },
+        {
+          "station": "NRC",
+          "arr": null,
+          "dep": 1173
+        },
+        {
+          "station": "NBY",
+          "arr": 1123,
+          "dep": null
+        },
+        {
+          "station": "NBY",
+          "arr": null,
+          "dep": 1138
+        },
+        {
+          "station": "KIT",
+          "arr": null,
+          "dep": 1145
+        },
+        {
+          "station": "HGD",
+          "arr": null,
+          "dep": 1149
+        },
+        {
+          "station": "BDW",
+          "arr": null,
+          "dep": 1155
+        },
+        {
+          "station": "PEW",
+          "arr": null,
+          "dep": 1165
+        },
+        {
+          "station": "WSB",
+          "arr": 1182,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "MF_14",
+      "headcode": "",
+      "operator": "",
+      "days": [
+        "MF"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "PAD",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "RDG",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "RDW",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "THE",
+          "arr": null,
+          "dep": 1157
+        },
+        {
+          "station": "AMT",
+          "arr": null,
+          "dep": 1194
+        },
+        {
+          "station": "MDG",
+          "arr": null,
+          "dep": 1197
+        },
+        {
+          "station": "THA",
+          "arr": null,
+          "dep": 1169
+        },
+        {
+          "station": "NRC",
+          "arr": null,
+          "dep": 1206
+        },
+        {
+          "station": "NBY",
+          "arr": 1137,
+          "dep": null
+        },
+        {
+          "station": "NBY",
+          "arr": null,
+          "dep": 1156
+        },
+        {
+          "station": "KIT",
+          "arr": null,
+          "dep": 1171
+        },
+        {
+          "station": "HGD",
+          "arr": null,
+          "dep": 1165
+        },
+        {
+          "station": "BDW",
+          "arr": null,
+          "dep": 1171
+        },
+        {
+          "station": "PEW",
+          "arr": null,
+          "dep": 1181
+        },
+        {
+          "station": "WSB",
+          "arr": 1198,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "MF_15",
+      "headcode": "",
+      "operator": "",
+      "days": [
+        "MF"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "PAD",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "RDG",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "RDW",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "THE",
+          "arr": null,
+          "dep": 1184
+        },
+        {
+          "station": "AMT",
+          "arr": null,
+          "dep": 1222
+        },
+        {
+          "station": "MDG",
+          "arr": null,
+          "dep": 1225
+        },
+        {
+          "station": "THA",
+          "arr": null,
+          "dep": 1192
+        },
+        {
+          "station": "NRC",
+          "arr": null,
+          "dep": 1234
+        },
+        {
+          "station": "NBY",
+          "arr": 1155,
+          "dep": null
+        },
+        {
+          "station": "NBY",
+          "arr": null,
+          "dep": 1164
+        },
+        {
+          "station": "KIT",
+          "arr": null,
+          "dep": 1205
+        },
+        {
+          "station": "HGD",
+          "arr": null,
+          "dep": 1176
+        },
+        {
+          "station": "PEW",
+          "arr": null,
+          "dep": 1263
+        },
+        {
+          "station": "WSB",
+          "arr": 1280,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "MF_16",
+      "headcode": "",
+      "operator": "",
+      "days": [
+        "MF"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "PAD",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "RDG",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "RDW",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "THE",
+          "arr": null,
+          "dep": 1190
+        },
+        {
+          "station": "AMT",
+          "arr": null,
+          "dep": 1277
+        },
+        {
+          "station": "MDG",
+          "arr": null,
+          "dep": 1280
+        },
+        {
+          "station": "THA",
+          "arr": null,
+          "dep": 1202
+        },
+        {
+          "station": "NRC",
+          "arr": null,
+          "dep": 1288
+        },
+        {
+          "station": "NBY",
+          "arr": 1176,
+          "dep": null
+        },
+        {
+          "station": "NBY",
+          "arr": null,
+          "dep": 1198
+        },
+        {
+          "station": "KIT",
+          "arr": null,
+          "dep": 1256
+        },
+        {
+          "station": "HGD",
+          "arr": null,
+          "dep": 1209
+        },
+        {
+          "station": "PEW",
+          "arr": null,
+          "dep": 1324
+        },
+        {
+          "station": "WSB",
+          "arr": 1341,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "MF_17",
+      "headcode": "",
+      "operator": "",
+      "days": [
+        "MF"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "PAD",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "RDG",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "RDW",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "THE",
+          "arr": null,
+          "dep": 1218
+        },
+        {
+          "station": "AMT",
+          "arr": null,
+          "dep": 1344
+        },
+        {
+          "station": "MDG",
+          "arr": null,
+          "dep": 1347
+        },
+        {
+          "station": "THA",
+          "arr": null,
+          "dep": 1230
+        },
+        {
+          "station": "NRC",
+          "arr": null,
+          "dep": 1355
+        },
+        {
+          "station": "NBY",
+          "arr": 1197,
+          "dep": null
+        },
+        {
+          "station": "NBY",
+          "arr": null,
+          "dep": 1243
+        },
+        {
+          "station": "KIT",
+          "arr": null,
+          "dep": 1324
+        },
+        {
+          "station": "HGD",
+          "arr": null,
+          "dep": 1261
+        }
+      ]
+    },
+    {
+      "id": "MF_18",
+      "headcode": "",
+      "operator": "",
+      "days": [
+        "MF"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "PAD",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "RDG",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "RDW",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "THE",
+          "arr": null,
+          "dep": 1246
+        },
+        {
+          "station": "AMT",
+          "arr": null,
+          "dep": 1394
+        },
+        {
+          "station": "MDG",
+          "arr": null,
+          "dep": 1399
+        },
+        {
+          "station": "THA",
+          "arr": null,
+          "dep": 1254
+        },
+        {
+          "station": "NRC",
+          "arr": null,
+          "dep": 1409
+        },
+        {
+          "station": "NBY",
+          "arr": 1209,
+          "dep": null
+        },
+        {
+          "station": "NBY",
+          "arr": null,
+          "dep": 1249
+        },
+        {
+          "station": "KIT",
+          "arr": null,
+          "dep": 1374
+        },
+        {
+          "station": "HGD",
+          "arr": null,
+          "dep": 1328
+        }
+      ]
+    },
+    {
+      "id": "MF_19",
+      "headcode": "",
+      "operator": "",
+      "days": [
+        "MF"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "PAD",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "RDG",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "THE",
+          "arr": null,
+          "dep": 1273
+        },
+        {
+          "station": "THA",
+          "arr": null,
+          "dep": 1284
+        },
+        {
+          "station": "NBY",
+          "arr": 1237,
+          "dep": null
+        },
+        {
+          "station": "NBY",
+          "arr": null,
+          "dep": 1304
+        },
+        {
+          "station": "KIT",
+          "arr": null,
+          "dep": 1419
+        },
+        {
+          "station": "HGD",
+          "arr": null,
+          "dep": 1378
+        }
+      ]
+    },
+    {
+      "id": "MF_20",
+      "headcode": "",
+      "operator": "",
+      "days": [
+        "MF"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "PAD",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "RDG",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "THE",
+          "arr": null,
+          "dep": 1339
+        },
+        {
+          "station": "THA",
+          "arr": null,
+          "dep": 1351
+        },
+        {
+          "station": "NBY",
+          "arr": 1242,
+          "dep": null
+        },
+        {
+          "station": "NBY",
+          "arr": null,
+          "dep": 1317
+        },
+        {
+          "station": "HGD",
+          "arr": null,
+          "dep": 1423
+        }
+      ]
+    },
+    {
+      "id": "MF_21",
+      "headcode": "",
+      "operator": "",
+      "days": [
+        "MF"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "RDG",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "THE",
+          "arr": null,
+          "dep": 1388
+        },
+        {
+          "station": "THA",
+          "arr": null,
+          "dep": 1405
+        },
+        {
+          "station": "NBY",
+          "arr": 1260,
+          "dep": null
+        },
+        {
+          "station": "NBY",
+          "arr": null,
+          "dep": 1367
+        }
+      ]
+    },
+    {
+      "id": "MF_22",
+      "headcode": "",
+      "operator": "",
+      "days": [
+        "MF"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "RDG",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "NBY",
+          "arr": 1292,
+          "dep": null
+        },
+        {
+          "station": "NBY",
+          "arr": null,
+          "dep": 1413
+        }
+      ]
+    },
+    {
+      "id": "MF_23",
+      "headcode": "",
+      "operator": "",
+      "days": [
+        "MF"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "RDG",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "NBY",
+          "arr": 1303,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "MF_24",
+      "headcode": "",
+      "operator": "",
+      "days": [
+        "MF"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "RDG",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "NBY",
+          "arr": 1359,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "MF_25",
+      "headcode": "",
+      "operator": "",
+      "days": [
+        "MF"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "NBY",
+          "arr": 1412,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "SUN_26",
+      "headcode": "",
+      "operator": "",
+      "days": [
+        "SUN"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "PAD",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "RDG",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "RDW",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "THE",
+          "arr": null,
+          "dep": 495
+        },
+        {
+          "station": "AMT",
+          "arr": null,
+          "dep": 498
+        },
+        {
+          "station": "MDG",
+          "arr": null,
+          "dep": 501
+        },
+        {
+          "station": "THA",
+          "arr": null,
+          "dep": 505
+        },
+        {
+          "station": "NRC",
+          "arr": null,
+          "dep": 609
+        },
+        {
+          "station": "NBY",
+          "arr": 513,
+          "dep": null
+        },
+        {
+          "station": "NBY",
+          "arr": null,
+          "dep": 525
+        },
+        {
+          "station": "KIT",
+          "arr": null,
+          "dep": 542
+        },
+        {
+          "station": "HGD",
+          "arr": null,
+          "dep": 546
+        },
+        {
+          "station": "PEW",
+          "arr": null,
+          "dep": 544
+        },
+        {
+          "station": "WSB",
+          "arr": 562,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "SUN_27",
+      "headcode": "",
+      "operator": "",
+      "days": [
+        "SUN"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "PAD",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "RDG",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "RDW",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "THE",
+          "arr": null,
+          "dep": 521
+        },
+        {
+          "station": "AMT",
+          "arr": null,
+          "dep": 595
+        },
+        {
+          "station": "MDG",
+          "arr": null,
+          "dep": 599
+        },
+        {
+          "station": "THA",
+          "arr": null,
+          "dep": 529
+        },
+        {
+          "station": "NRC",
+          "arr": null,
+          "dep": 665
+        },
+        {
+          "station": "NBY",
+          "arr": 523,
+          "dep": null
+        },
+        {
+          "station": "NBY",
+          "arr": null,
+          "dep": 535
+        },
+        {
+          "station": "KIT",
+          "arr": null,
+          "dep": 618
+        },
+        {
+          "station": "HGD",
+          "arr": null,
+          "dep": 623
+        },
+        {
+          "station": "PEW",
+          "arr": null,
+          "dep": 698
+        },
+        {
+          "station": "WSB",
+          "arr": 592,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "SUN_28",
+      "headcode": "",
+      "operator": "",
+      "days": [
+        "SUN"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "PAD",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "RDG",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "RDW",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "THE",
+          "arr": null,
+          "dep": 590
+        },
+        {
+          "station": "AMT",
+          "arr": null,
+          "dep": 654
+        },
+        {
+          "station": "MDG",
+          "arr": null,
+          "dep": 657
+        },
+        {
+          "station": "THA",
+          "arr": null,
+          "dep": 603
+        },
+        {
+          "station": "NRC",
+          "arr": null,
+          "dep": 786
+        },
+        {
+          "station": "NBY",
+          "arr": 535,
+          "dep": null
+        },
+        {
+          "station": "NBY",
+          "arr": null,
+          "dep": 612
+        },
+        {
+          "station": "KIT",
+          "arr": null,
+          "dep": 732
+        },
+        {
+          "station": "HGD",
+          "arr": null,
+          "dep": 685
+        },
+        {
+          "station": "PEW",
+          "arr": null,
+          "dep": 818
+        },
+        {
+          "station": "WSB",
+          "arr": 715,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "SUN_29",
+      "headcode": "",
+      "operator": "",
+      "days": [
+        "SUN"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "PAD",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "RDG",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "RDW",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "THE",
+          "arr": null,
+          "dep": 650
+        },
+        {
+          "station": "AMT",
+          "arr": null,
+          "dep": 774
+        },
+        {
+          "station": "MDG",
+          "arr": null,
+          "dep": 777
+        },
+        {
+          "station": "THA",
+          "arr": null,
+          "dep": 661
+        },
+        {
+          "station": "NRC",
+          "arr": null,
+          "dep": 905
+        },
+        {
+          "station": "NBY",
+          "arr": 611,
+          "dep": null
+        },
+        {
+          "station": "NBY",
+          "arr": null,
+          "dep": 676
+        },
+        {
+          "station": "KIT",
+          "arr": null,
+          "dep": 851
+        },
+        {
+          "station": "HGD",
+          "arr": null,
+          "dep": 736
+        },
+        {
+          "station": "PEW",
+          "arr": null,
+          "dep": 1059
+        },
+        {
+          "station": "WSB",
+          "arr": 835,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "SUN_30",
+      "headcode": "",
+      "operator": "",
+      "days": [
+        "SUN"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "PAD",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "RDG",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "RDW",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "THE",
+          "arr": null,
+          "dep": 711
+        },
+        {
+          "station": "AMT",
+          "arr": null,
+          "dep": 893
+        },
+        {
+          "station": "MDG",
+          "arr": null,
+          "dep": 897
+        },
+        {
+          "station": "THA",
+          "arr": null,
+          "dep": 719
+        },
+        {
+          "station": "NRC",
+          "arr": null,
+          "dep": 1025
+        },
+        {
+          "station": "NBY",
+          "arr": 669,
+          "dep": null
+        },
+        {
+          "station": "NBY",
+          "arr": null,
+          "dep": 725
+        },
+        {
+          "station": "KIT",
+          "arr": null,
+          "dep": 971
+        },
+        {
+          "station": "HGD",
+          "arr": null,
+          "dep": 805
+        },
+        {
+          "station": "WSB",
+          "arr": 976,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "SUN_31",
+      "headcode": "",
+      "operator": "",
+      "days": [
+        "SUN"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "PAD",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "RDG",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "THE",
+          "arr": null,
+          "dep": 770
+        },
+        {
+          "station": "AMT",
+          "arr": null,
+          "dep": 1013
+        },
+        {
+          "station": "MDG",
+          "arr": null,
+          "dep": 1016
+        },
+        {
+          "station": "THA",
+          "arr": null,
+          "dep": 781
+        },
+        {
+          "station": "NBY",
+          "arr": 675,
+          "dep": null
+        },
+        {
+          "station": "NBY",
+          "arr": null,
+          "dep": 796
+        },
+        {
+          "station": "KIT",
+          "arr": null,
+          "dep": 1093
+        },
+        {
+          "station": "HGD",
+          "arr": null,
+          "dep": 856
+        },
+        {
+          "station": "WSB",
+          "arr": 1075,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "SUN_32",
+      "headcode": "",
+      "operator": "",
+      "days": [
+        "SUN"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "RDG",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "THE",
+          "arr": null,
+          "dep": 830
+        },
+        {
+          "station": "THA",
+          "arr": null,
+          "dep": 838
+        },
+        {
+          "station": "NBY",
+          "arr": 725,
+          "dep": null
+        },
+        {
+          "station": "NBY",
+          "arr": null,
+          "dep": 845
+        },
+        {
+          "station": "HGD",
+          "arr": null,
+          "dep": 976
+        }
+      ]
+    },
+    {
+      "id": "SUN_33",
+      "headcode": "",
+      "operator": "",
+      "days": [
+        "SUN"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "RDG",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "THE",
+          "arr": null,
+          "dep": 889
+        },
+        {
+          "station": "THA",
+          "arr": null,
+          "dep": 900
+        },
+        {
+          "station": "NBY",
+          "arr": 790,
+          "dep": null
+        },
+        {
+          "station": "NBY",
+          "arr": null,
+          "dep": 943
+        },
+        {
+          "station": "HGD",
+          "arr": null,
+          "dep": 1046
+        }
+      ]
+    },
+    {
+      "id": "SUN_34",
+      "headcode": "",
+      "operator": "",
+      "days": [
+        "SUN"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "RDG",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "THE",
+          "arr": null,
+          "dep": 950
+        },
+        {
+          "station": "THA",
+          "arr": null,
+          "dep": 958
+        },
+        {
+          "station": "NBY",
+          "arr": 795,
+          "dep": null
+        },
+        {
+          "station": "NBY",
+          "arr": null,
+          "dep": 965
+        },
+        {
+          "station": "HGD",
+          "arr": null,
+          "dep": 1098
+        }
+      ]
+    },
+    {
+      "id": "SUN_35",
+      "headcode": "",
+      "operator": "",
+      "days": [
+        "SUN"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "RDG",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "THE",
+          "arr": null,
+          "dep": 1010
+        },
+        {
+          "station": "THA",
+          "arr": null,
+          "dep": 1020
+        },
+        {
+          "station": "NBY",
+          "arr": 844,
+          "dep": null
+        },
+        {
+          "station": "NBY",
+          "arr": null,
+          "dep": 1037
+        }
+      ]
+    },
+    {
+      "id": "SUN_36",
+      "headcode": "",
+      "operator": "",
+      "days": [
+        "SUN"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "RDG",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "THE",
+          "arr": null,
+          "dep": 1072
+        },
+        {
+          "station": "THA",
+          "arr": null,
+          "dep": 1080
+        },
+        {
+          "station": "NBY",
+          "arr": 909,
+          "dep": null
+        },
+        {
+          "station": "NBY",
+          "arr": null,
+          "dep": 1087
+        }
+      ]
+    },
+    {
+      "id": "SUN_37",
+      "headcode": "",
+      "operator": "",
+      "days": [
+        "SUN"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "RDG",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "NBY",
+          "arr": 942,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "SUN_38",
+      "headcode": "",
+      "operator": "",
+      "days": [
+        "SUN"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "RDG",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "NBY",
+          "arr": 964,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "SUN_39",
+      "headcode": "",
+      "operator": "",
+      "days": [
+        "SUN"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "RDG",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "NBY",
+          "arr": 1029,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "SUN_40",
+      "headcode": "",
+      "operator": "",
+      "days": [
+        "SUN"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "RDG",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "NBY",
+          "arr": 1036,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "SUN_41",
+      "headcode": "",
+      "operator": "",
+      "days": [
+        "SUN"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "RDG",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "NBY",
+          "arr": 1086,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "SUN_42",
+      "headcode": "",
+      "operator": "",
+      "days": [
+        "SUN"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "RDG",
+          "arr": null,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "MF_43",
+      "headcode": "",
+      "operator": "",
+      "days": [
+        "MF"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "WSB",
+          "arr": null,
+          "dep": 357
+        },
+        {
+          "station": "PEW",
+          "arr": null,
+          "dep": 375
+        },
+        {
+          "station": "BDW",
+          "arr": null,
+          "dep": 331
+        },
+        {
+          "station": "HGD",
+          "arr": null,
+          "dep": 338
+        },
+        {
+          "station": "KIT",
+          "arr": null,
+          "dep": 342
+        },
+        {
+          "station": "NBY",
+          "arr": 348,
+          "dep": null
+        },
+        {
+          "station": "NBY",
+          "arr": null,
+          "dep": 327
+        },
+        {
+          "station": "NRC",
+          "arr": null,
+          "dep": 329
+        },
+        {
+          "station": "THA",
+          "arr": null,
+          "dep": 333
+        },
+        {
+          "station": "MDG",
+          "arr": null,
+          "dep": 337
+        },
+        {
+          "station": "AMT",
+          "arr": null,
+          "dep": 340
+        },
+        {
+          "station": "THE",
+          "arr": null,
+          "dep": 345
+        },
+        {
+          "station": "RDW",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "RDG",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "PAD",
+          "arr": null,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "MF_44",
+      "headcode": "",
+      "operator": "",
+      "days": [
+        "MF"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "WSB",
+          "arr": null,
+          "dep": 382
+        },
+        {
+          "station": "PEW",
+          "arr": null,
+          "dep": 400
+        },
+        {
+          "station": "BDW",
+          "arr": null,
+          "dep": 360
+        },
+        {
+          "station": "HGD",
+          "arr": null,
+          "dep": 366
+        },
+        {
+          "station": "KIT",
+          "arr": null,
+          "dep": 371
+        },
+        {
+          "station": "NBY",
+          "arr": 377,
+          "dep": null
+        },
+        {
+          "station": "NBY",
+          "arr": null,
+          "dep": 350
+        },
+        {
+          "station": "NRC",
+          "arr": null,
+          "dep": 393
+        },
+        {
+          "station": "THA",
+          "arr": null,
+          "dep": 354
+        },
+        {
+          "station": "MDG",
+          "arr": null,
+          "dep": 402
+        },
+        {
+          "station": "AMT",
+          "arr": null,
+          "dep": 405
+        },
+        {
+          "station": "THE",
+          "arr": null,
+          "dep": 362
+        },
+        {
+          "station": "RDW",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "RDG",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "PAD",
+          "arr": null,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "MF_45",
+      "headcode": "",
+      "operator": "",
+      "days": [
+        "MF"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "WSB",
+          "arr": null,
+          "dep": 420
+        },
+        {
+          "station": "PEW",
+          "arr": null,
+          "dep": 438
+        },
+        {
+          "station": "BDW",
+          "arr": null,
+          "dep": 385
+        },
+        {
+          "station": "HGD",
+          "arr": null,
+          "dep": 392
+        },
+        {
+          "station": "KIT",
+          "arr": null,
+          "dep": 397
+        },
+        {
+          "station": "NBY",
+          "arr": 404,
+          "dep": null
+        },
+        {
+          "station": "NBY",
+          "arr": null,
+          "dep": 378
+        },
+        {
+          "station": "NRC",
+          "arr": null,
+          "dep": 414
+        },
+        {
+          "station": "THA",
+          "arr": null,
+          "dep": 383
+        },
+        {
+          "station": "MDG",
+          "arr": null,
+          "dep": 422
+        },
+        {
+          "station": "AMT",
+          "arr": null,
+          "dep": 425
+        },
+        {
+          "station": "THE",
+          "arr": null,
+          "dep": 391
+        },
+        {
+          "station": "RDW",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "RDG",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "PAD",
+          "arr": null,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "MF_46",
+      "headcode": "",
+      "operator": "",
+      "days": [
+        "MF"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "WSB",
+          "arr": null,
+          "dep": 477
+        },
+        {
+          "station": "PEW",
+          "arr": null,
+          "dep": 495
+        },
+        {
+          "station": "BDW",
+          "arr": null,
+          "dep": 410
+        },
+        {
+          "station": "HGD",
+          "arr": null,
+          "dep": 416
+        },
+        {
+          "station": "KIT",
+          "arr": null,
+          "dep": 421
+        },
+        {
+          "station": "NBY",
+          "arr": 428,
+          "dep": null
+        },
+        {
+          "station": "NBY",
+          "arr": null,
+          "dep": 391
+        },
+        {
+          "station": "NRC",
+          "arr": null,
+          "dep": 444
+        },
+        {
+          "station": "THA",
+          "arr": null,
+          "dep": 397
+        },
+        {
+          "station": "MDG",
+          "arr": null,
+          "dep": 452
+        },
+        {
+          "station": "AMT",
+          "arr": null,
+          "dep": 455
+        },
+        {
+          "station": "THE",
+          "arr": null,
+          "dep": 410
+        },
+        {
+          "station": "RDW",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "RDG",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "PAD",
+          "arr": null,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "MF_47",
+      "headcode": "",
+      "operator": "",
+      "days": [
+        "MF"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "BDW",
+          "arr": null,
+          "dep": 420
+        },
+        {
+          "station": "HGD",
+          "arr": null,
+          "dep": 426
+        },
+        {
+          "station": "KIT",
+          "arr": null,
+          "dep": 430
+        },
+        {
+          "station": "NBY",
+          "arr": 437,
+          "dep": null
+        },
+        {
+          "station": "NBY",
+          "arr": null,
+          "dep": 405
+        },
+        {
+          "station": "NRC",
+          "arr": null,
+          "dep": 476
+        },
+        {
+          "station": "THA",
+          "arr": null,
+          "dep": 410
+        },
+        {
+          "station": "MDG",
+          "arr": null,
+          "dep": 484
+        },
+        {
+          "station": "AMT",
+          "arr": null,
+          "dep": 488
+        },
+        {
+          "station": "THE",
+          "arr": null,
+          "dep": 418
+        },
+        {
+          "station": "RDW",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "RDG",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "PAD",
+          "arr": null,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "MF_48",
+      "headcode": "",
+      "operator": "",
+      "days": [
+        "MF"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "BDW",
+          "arr": null,
+          "dep": 448
+        },
+        {
+          "station": "HGD",
+          "arr": null,
+          "dep": 455
+        },
+        {
+          "station": "KIT",
+          "arr": null,
+          "dep": 479
+        },
+        {
+          "station": "NBY",
+          "arr": 464,
+          "dep": null
+        },
+        {
+          "station": "NBY",
+          "arr": null,
+          "dep": 412
+        },
+        {
+          "station": "THA",
+          "arr": null,
+          "dep": 418
+        },
+        {
+          "station": "THE",
+          "arr": null,
+          "dep": 430
+        },
+        {
+          "station": "RDW",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "RDG",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "PAD",
+          "arr": null,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "MF_49",
+      "headcode": "",
+      "operator": "",
+      "days": [
+        "MF"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "BDW",
+          "arr": null,
+          "dep": 469
+        },
+        {
+          "station": "HGD",
+          "arr": null,
+          "dep": 475
+        },
+        {
+          "station": "KIT",
+          "arr": null,
+          "dep": 537
+        },
+        {
+          "station": "NBY",
+          "arr": 486,
+          "dep": null
+        },
+        {
+          "station": "NBY",
+          "arr": null,
+          "dep": 430
+        },
+        {
+          "station": "THA",
+          "arr": null,
+          "dep": 435
+        },
+        {
+          "station": "THE",
+          "arr": null,
+          "dep": 443
+        },
+        {
+          "station": "RDW",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "RDG",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "PAD",
+          "arr": null,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "MF_50",
+      "headcode": "",
+      "operator": "",
+      "days": [
+        "MF"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "BDW",
+          "arr": null,
+          "dep": 505
+        },
+        {
+          "station": "HGD",
+          "arr": null,
+          "dep": 511
+        },
+        {
+          "station": "NBY",
+          "arr": 519,
+          "dep": null
+        },
+        {
+          "station": "NBY",
+          "arr": null,
+          "dep": 442
+        },
+        {
+          "station": "THA",
+          "arr": null,
+          "dep": 448
+        },
+        {
+          "station": "THE",
+          "arr": null,
+          "dep": 460
+        },
+        {
+          "station": "RDW",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "RDG",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "PAD",
+          "arr": null,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "MF_51",
+      "headcode": "",
+      "operator": "",
+      "days": [
+        "MF"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "BDW",
+          "arr": null,
+          "dep": 526
+        },
+        {
+          "station": "HGD",
+          "arr": null,
+          "dep": 532
+        },
+        {
+          "station": "NBY",
+          "arr": 544,
+          "dep": null
+        },
+        {
+          "station": "NBY",
+          "arr": null,
+          "dep": 465
+        },
+        {
+          "station": "THA",
+          "arr": null,
+          "dep": 480
+        },
+        {
+          "station": "THE",
+          "arr": null,
+          "dep": 493
+        },
+        {
+          "station": "RDG",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "PAD",
+          "arr": null,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "MF_52",
+      "headcode": "",
+      "operator": "",
+      "days": [
+        "MF"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "NBY",
+          "arr": null,
+          "dep": 473
+        },
+        {
+          "station": "THA",
+          "arr": null,
+          "dep": 535
+        },
+        {
+          "station": "THE",
+          "arr": null,
+          "dep": 543
+        },
+        {
+          "station": "RDG",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "PAD",
+          "arr": null,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "MF_53",
+      "headcode": "",
+      "operator": "",
+      "days": [
+        "MF"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "NBY",
+          "arr": null,
+          "dep": 499
+        },
+        {
+          "station": "THA",
+          "arr": null,
+          "dep": 565
+        },
+        {
+          "station": "THE",
+          "arr": null,
+          "dep": 573
+        },
+        {
+          "station": "RDG",
+          "arr": null,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "MF_54",
+      "headcode": "",
+      "operator": "",
+      "days": [
+        "MF"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "NBY",
+          "arr": null,
+          "dep": 520
+        },
+        {
+          "station": "RDG",
+          "arr": null,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "MF_55",
+      "headcode": "",
+      "operator": "",
+      "days": [
+        "MF"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "NBY",
+          "arr": null,
+          "dep": 528
+        },
+        {
+          "station": "RDG",
+          "arr": null,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "MF_56",
+      "headcode": "",
+      "operator": "",
+      "days": [
+        "MF"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "NBY",
+          "arr": null,
+          "dep": 559
+        },
+        {
+          "station": "RDG",
+          "arr": null,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "MF_57",
+      "headcode": "",
+      "operator": "",
+      "days": [
+        "MF"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "WSB",
+          "arr": null,
+          "dep": 1075
+        },
+        {
+          "station": "PEW",
+          "arr": null,
+          "dep": 1156
+        },
+        {
+          "station": "BDW",
+          "arr": null,
+          "dep": 1080
+        },
+        {
+          "station": "HGD",
+          "arr": null,
+          "dep": 1086
+        },
+        {
+          "station": "KIT",
+          "arr": null,
+          "dep": 1091
+        },
+        {
+          "station": "NBY",
+          "arr": 1098,
+          "dep": null
+        },
+        {
+          "station": "NBY",
+          "arr": null,
+          "dep": 1106
+        },
+        {
+          "station": "NRC",
+          "arr": null,
+          "dep": 1130
+        },
+        {
+          "station": "THA",
+          "arr": null,
+          "dep": 1113
+        },
+        {
+          "station": "MDG",
+          "arr": null,
+          "dep": 1138
+        },
+        {
+          "station": "AMT",
+          "arr": null,
+          "dep": 1141
+        },
+        {
+          "station": "THE",
+          "arr": null,
+          "dep": 1122
+        },
+        {
+          "station": "RDW",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "RDG",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "PAD",
+          "arr": null,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "MF_58",
+      "headcode": "",
+      "operator": "",
+      "days": [
+        "MF"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "WSB",
+          "arr": null,
+          "dep": 1138
+        },
+        {
+          "station": "PEW",
+          "arr": null,
+          "dep": 1280
+        },
+        {
+          "station": "BDW",
+          "arr": null,
+          "dep": 1138
+        },
+        {
+          "station": "HGD",
+          "arr": null,
+          "dep": 1144
+        },
+        {
+          "station": "KIT",
+          "arr": null,
+          "dep": 1149
+        },
+        {
+          "station": "NBY",
+          "arr": 1114,
+          "dep": null
+        },
+        {
+          "station": "NBY",
+          "arr": null,
+          "dep": 1115
+        },
+        {
+          "station": "NRC",
+          "arr": null,
+          "dep": 1220
+        },
+        {
+          "station": "THA",
+          "arr": null,
+          "dep": 1134
+        },
+        {
+          "station": "MDG",
+          "arr": null,
+          "dep": 1228
+        },
+        {
+          "station": "AMT",
+          "arr": null,
+          "dep": 1231
+        },
+        {
+          "station": "THE",
+          "arr": null,
+          "dep": 1146
+        },
+        {
+          "station": "RDW",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "RDG",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "PAD",
+          "arr": null,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "MF_59",
+      "headcode": "",
+      "operator": "",
+      "days": [
+        "MF"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "WSB",
+          "arr": null,
+          "dep": 1262
+        },
+        {
+          "station": "BDW",
+          "arr": null,
+          "dep": 1195
+        },
+        {
+          "station": "HGD",
+          "arr": null,
+          "dep": 1201
+        },
+        {
+          "station": "KIT",
+          "arr": null,
+          "dep": 1206
+        },
+        {
+          "station": "NBY",
+          "arr": 1157,
+          "dep": null
+        },
+        {
+          "station": "NBY",
+          "arr": null,
+          "dep": 1128
+        },
+        {
+          "station": "NRC",
+          "arr": null,
+          "dep": 1270
+        },
+        {
+          "station": "THA",
+          "arr": null,
+          "dep": 1189
+        },
+        {
+          "station": "MDG",
+          "arr": null,
+          "dep": 1279
+        },
+        {
+          "station": "AMT",
+          "arr": null,
+          "dep": 1282
+        },
+        {
+          "station": "THE",
+          "arr": null,
+          "dep": 1196
+        },
+        {
+          "station": "RDW",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "RDG",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "PAD",
+          "arr": null,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "MF_60",
+      "headcode": "",
+      "operator": "",
+      "days": [
+        "MF"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "BDW",
+          "arr": null,
+          "dep": 1242
+        },
+        {
+          "station": "HGD",
+          "arr": null,
+          "dep": 1248
+        },
+        {
+          "station": "KIT",
+          "arr": null,
+          "dep": 1252
+        },
+        {
+          "station": "NBY",
+          "arr": 1176,
+          "dep": null
+        },
+        {
+          "station": "NBY",
+          "arr": null,
+          "dep": 1178
+        },
+        {
+          "station": "NRC",
+          "arr": null,
+          "dep": 1330
+        },
+        {
+          "station": "THA",
+          "arr": null,
+          "dep": 1224
+        },
+        {
+          "station": "MDG",
+          "arr": null,
+          "dep": 1338
+        },
+        {
+          "station": "AMT",
+          "arr": null,
+          "dep": 1341
+        },
+        {
+          "station": "THE",
+          "arr": null,
+          "dep": 1236
+        },
+        {
+          "station": "RDW",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "RDG",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "PAD",
+          "arr": null,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "MF_61",
+      "headcode": "",
+      "operator": "",
+      "days": [
+        "MF"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "BDW",
+          "arr": null,
+          "dep": 1290
+        },
+        {
+          "station": "HGD",
+          "arr": null,
+          "dep": 1303
+        },
+        {
+          "station": "KIT",
+          "arr": null,
+          "dep": 1307
+        },
+        {
+          "station": "NBY",
+          "arr": 1213,
+          "dep": null
+        },
+        {
+          "station": "NBY",
+          "arr": null,
+          "dep": 1182
+        },
+        {
+          "station": "NRC",
+          "arr": null,
+          "dep": 1369
+        },
+        {
+          "station": "THA",
+          "arr": null,
+          "dep": 1265
+        },
+        {
+          "station": "MDG",
+          "arr": null,
+          "dep": 1377
+        },
+        {
+          "station": "AMT",
+          "arr": null,
+          "dep": 1380
+        },
+        {
+          "station": "THE",
+          "arr": null,
+          "dep": 1273
+        },
+        {
+          "station": "RDW",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "RDG",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "PAD",
+          "arr": null,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "MF_62",
+      "headcode": "",
+      "operator": "",
+      "days": [
+        "MF"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "BDW",
+          "arr": null,
+          "dep": 1297
+        },
+        {
+          "station": "HGD",
+          "arr": null,
+          "dep": 1351
+        },
+        {
+          "station": "KIT",
+          "arr": null,
+          "dep": 1355
+        },
+        {
+          "station": "NBY",
+          "arr": 1259,
+          "dep": null
+        },
+        {
+          "station": "NBY",
+          "arr": null,
+          "dep": 1218
+        },
+        {
+          "station": "THA",
+          "arr": null,
+          "dep": 1274
+        },
+        {
+          "station": "THE",
+          "arr": null,
+          "dep": 1288
+        },
+        {
+          "station": "RDG",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "PAD",
+          "arr": null,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "MF_63",
+      "headcode": "",
+      "operator": "",
+      "days": [
+        "MF"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "BDW",
+          "arr": null,
+          "dep": 1345
+        },
+        {
+          "station": "NBY",
+          "arr": 1303,
+          "dep": null
+        },
+        {
+          "station": "NBY",
+          "arr": null,
+          "dep": 1261
+        },
+        {
+          "station": "THA",
+          "arr": null,
+          "dep": 1324
+        },
+        {
+          "station": "THE",
+          "arr": null,
+          "dep": 1331
+        },
+        {
+          "station": "RDG",
+          "arr": null,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "MF_64",
+      "headcode": "",
+      "operator": "",
+      "days": [
+        "MF"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "NBY",
+          "arr": 1314,
+          "dep": null
+        },
+        {
+          "station": "NBY",
+          "arr": null,
+          "dep": 1268
+        },
+        {
+          "station": "THA",
+          "arr": null,
+          "dep": 1334
+        },
+        {
+          "station": "THE",
+          "arr": null,
+          "dep": 1346
+        },
+        {
+          "station": "RDG",
+          "arr": null,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "MF_65",
+      "headcode": "",
+      "operator": "",
+      "days": [
+        "MF"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "NBY",
+          "arr": 1362,
+          "dep": null
+        },
+        {
+          "station": "NBY",
+          "arr": null,
+          "dep": 1304
+        },
+        {
+          "station": "THA",
+          "arr": null,
+          "dep": 1373
+        },
+        {
+          "station": "THE",
+          "arr": null,
+          "dep": 1384
+        },
+        {
+          "station": "RDG",
+          "arr": null,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "MF_66",
+      "headcode": "",
+      "operator": "",
+      "days": [
+        "MF"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "NBY",
+          "arr": null,
+          "dep": 1316
+        },
+        {
+          "station": "RDG",
+          "arr": null,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "MF_67",
+      "headcode": "",
+      "operator": "",
+      "days": [
+        "MF"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "NBY",
+          "arr": null,
+          "dep": 1328
+        },
+        {
+          "station": "RDG",
+          "arr": null,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "MF_68",
+      "headcode": "",
+      "operator": "",
+      "days": [
+        "MF"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "NBY",
+          "arr": null,
+          "dep": 1367
+        },
+        {
+          "station": "RDG",
+          "arr": null,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "SUN_69",
+      "headcode": "",
+      "operator": "",
+      "days": [
+        "SUN"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "WSB",
+          "arr": null,
+          "dep": 577
+        },
+        {
+          "station": "PEW",
+          "arr": null,
+          "dep": 596
+        },
+        {
+          "station": "BDW",
+          "arr": null,
+          "dep": 570
+        },
+        {
+          "station": "HGD",
+          "arr": null,
+          "dep": 576
+        },
+        {
+          "station": "KIT",
+          "arr": null,
+          "dep": 580
+        },
+        {
+          "station": "NBY",
+          "arr": 587,
+          "dep": null
+        },
+        {
+          "station": "NBY",
+          "arr": null,
+          "dep": 533
+        },
+        {
+          "station": "NRC",
+          "arr": null,
+          "dep": 535
+        },
+        {
+          "station": "THA",
+          "arr": null,
+          "dep": 540
+        },
+        {
+          "station": "MDG",
+          "arr": null,
+          "dep": 543
+        },
+        {
+          "station": "AMT",
+          "arr": null,
+          "dep": 546
+        },
+        {
+          "station": "THE",
+          "arr": null,
+          "dep": 550
+        },
+        {
+          "station": "RDW",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "RDG",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "PAD",
+          "arr": null,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "SUN_70",
+      "headcode": "",
+      "operator": "",
+      "days": [
+        "SUN"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "WSB",
+          "arr": null,
+          "dep": 640
+        },
+        {
+          "station": "PEW",
+          "arr": null,
+          "dep": 658
+        },
+        {
+          "station": "BDW",
+          "arr": null,
+          "dep": 640
+        },
+        {
+          "station": "HGD",
+          "arr": null,
+          "dep": 610
+        },
+        {
+          "station": "KIT",
+          "arr": null,
+          "dep": 650
+        },
+        {
+          "station": "NBY",
+          "arr": 618,
+          "dep": null
+        },
+        {
+          "station": "NBY",
+          "arr": null,
+          "dep": 587
+        },
+        {
+          "station": "NRC",
+          "arr": null,
+          "dep": 590
+        },
+        {
+          "station": "THA",
+          "arr": null,
+          "dep": 595
+        },
+        {
+          "station": "MDG",
+          "arr": null,
+          "dep": 599
+        },
+        {
+          "station": "AMT",
+          "arr": null,
+          "dep": 603
+        },
+        {
+          "station": "THE",
+          "arr": null,
+          "dep": 608
+        },
+        {
+          "station": "RDW",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "RDG",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "PAD",
+          "arr": null,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "SUN_71",
+      "headcode": "",
+      "operator": "",
+      "days": [
+        "SUN"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "WSB",
+          "arr": null,
+          "dep": 673
+        },
+        {
+          "station": "PEW",
+          "arr": null,
+          "dep": 742
+        },
+        {
+          "station": "BDW",
+          "arr": null,
+          "dep": 756
+        },
+        {
+          "station": "HGD",
+          "arr": null,
+          "dep": 646
+        },
+        {
+          "station": "KIT",
+          "arr": null,
+          "dep": 766
+        },
+        {
+          "station": "NBY",
+          "arr": 657,
+          "dep": null
+        },
+        {
+          "station": "NBY",
+          "arr": null,
+          "dep": 619
+        },
+        {
+          "station": "NRC",
+          "arr": null,
+          "dep": 715
+        },
+        {
+          "station": "THA",
+          "arr": null,
+          "dep": 662
+        },
+        {
+          "station": "MDG",
+          "arr": null,
+          "dep": 723
+        },
+        {
+          "station": "AMT",
+          "arr": null,
+          "dep": 726
+        },
+        {
+          "station": "THE",
+          "arr": null,
+          "dep": 670
+        },
+        {
+          "station": "RDW",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "RDG",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "PAD",
+          "arr": null,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "SUN_72",
+      "headcode": "",
+      "operator": "",
+      "days": [
+        "SUN"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "WSB",
+          "arr": null,
+          "dep": 792
+        },
+        {
+          "station": "PEW",
+          "arr": null,
+          "dep": 861
+        },
+        {
+          "station": "BDW",
+          "arr": null,
+          "dep": 879
+        },
+        {
+          "station": "HGD",
+          "arr": null,
+          "dep": 762
+        },
+        {
+          "station": "KIT",
+          "arr": null,
+          "dep": 889
+        },
+        {
+          "station": "NBY",
+          "arr": 678,
+          "dep": null
+        },
+        {
+          "station": "NBY",
+          "arr": null,
+          "dep": 657
+        },
+        {
+          "station": "NRC",
+          "arr": null,
+          "dep": 835
+        },
+        {
+          "station": "THA",
+          "arr": null,
+          "dep": 719
+        },
+        {
+          "station": "MDG",
+          "arr": null,
+          "dep": 843
+        },
+        {
+          "station": "AMT",
+          "arr": null,
+          "dep": 846
+        },
+        {
+          "station": "THE",
+          "arr": null,
+          "dep": 730
+        },
+        {
+          "station": "RDW",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "RDG",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "PAD",
+          "arr": null,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "SUN_73",
+      "headcode": "",
+      "operator": "",
+      "days": [
+        "SUN"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "WSB",
+          "arr": null,
+          "dep": 913
+        },
+        {
+          "station": "PEW",
+          "arr": null,
+          "dep": 1018
+        },
+        {
+          "station": "BDW",
+          "arr": null,
+          "dep": 1001
+        },
+        {
+          "station": "HGD",
+          "arr": null,
+          "dep": 885
+        },
+        {
+          "station": "KIT",
+          "arr": null,
+          "dep": 1011
+        },
+        {
+          "station": "NBY",
+          "arr": 763,
+          "dep": null
+        },
+        {
+          "station": "NBY",
+          "arr": null,
+          "dep": 679
+        },
+        {
+          "station": "NRC",
+          "arr": null,
+          "dep": 955
+        },
+        {
+          "station": "THA",
+          "arr": null,
+          "dep": 778
+        },
+        {
+          "station": "MDG",
+          "arr": null,
+          "dep": 963
+        },
+        {
+          "station": "AMT",
+          "arr": null,
+          "dep": 966
+        },
+        {
+          "station": "THE",
+          "arr": null,
+          "dep": 786
+        },
+        {
+          "station": "RDW",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "RDG",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "PAD",
+          "arr": null,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "SUN_74",
+      "headcode": "",
+      "operator": "",
+      "days": [
+        "SUN"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "WSB",
+          "arr": null,
+          "dep": 999
+        },
+        {
+          "station": "HGD",
+          "arr": null,
+          "dep": 1007
+        },
+        {
+          "station": "NBY",
+          "arr": 773,
+          "dep": null
+        },
+        {
+          "station": "NBY",
+          "arr": null,
+          "dep": 713
+        },
+        {
+          "station": "THA",
+          "arr": null,
+          "dep": 839
+        },
+        {
+          "station": "THE",
+          "arr": null,
+          "dep": 850
+        },
+        {
+          "station": "RDG",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "PAD",
+          "arr": null,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "SUN_75",
+      "headcode": "",
+      "operator": "",
+      "days": [
+        "SUN"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "HGD",
+          "arr": null,
+          "dep": 1032
+        },
+        {
+          "station": "NBY",
+          "arr": 881,
+          "dep": null
+        },
+        {
+          "station": "NBY",
+          "arr": null,
+          "dep": 764
+        },
+        {
+          "station": "THA",
+          "arr": null,
+          "dep": 901
+        },
+        {
+          "station": "THE",
+          "arr": null,
+          "dep": 909
+        },
+        {
+          "station": "RDG",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "PAD",
+          "arr": null,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "SUN_76",
+      "headcode": "",
+      "operator": "",
+      "days": [
+        "SUN"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "NBY",
+          "arr": 896,
+          "dep": null
+        },
+        {
+          "station": "NBY",
+          "arr": null,
+          "dep": 773
+        },
+        {
+          "station": "THA",
+          "arr": null,
+          "dep": 959
+        },
+        {
+          "station": "THE",
+          "arr": null,
+          "dep": 970
+        },
+        {
+          "station": "RDG",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "PAD",
+          "arr": null,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "SUN_77",
+      "headcode": "",
+      "operator": "",
+      "days": [
+        "SUN"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "NBY",
+          "arr": 1018,
+          "dep": null
+        },
+        {
+          "station": "NBY",
+          "arr": null,
+          "dep": 833
+        },
+        {
+          "station": "THA",
+          "arr": null,
+          "dep": 1023
+        },
+        {
+          "station": "THE",
+          "arr": null,
+          "dep": 1031
+        },
+        {
+          "station": "RDG",
+          "arr": null,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "SUN_78",
+      "headcode": "",
+      "operator": "",
+      "days": [
+        "SUN"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "NBY",
+          "arr": 1040,
+          "dep": null
+        },
+        {
+          "station": "NBY",
+          "arr": null,
+          "dep": 882
+        },
+        {
+          "station": "RDG",
+          "arr": null,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "SUN_79",
+      "headcode": "",
+      "operator": "",
+      "days": [
+        "SUN"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "NBY",
+          "arr": null,
+          "dep": 896
+        },
+        {
+          "station": "RDG",
+          "arr": null,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "SUN_80",
+      "headcode": "",
+      "operator": "",
+      "days": [
+        "SUN"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "NBY",
+          "arr": null,
+          "dep": 953
+        },
+        {
+          "station": "RDG",
+          "arr": null,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "SUN_81",
+      "headcode": "",
+      "operator": "",
+      "days": [
+        "SUN"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "NBY",
+          "arr": null,
+          "dep": 1018
+        },
+        {
+          "station": "RDG",
+          "arr": null,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "SUN_82",
+      "headcode": "",
+      "operator": "",
+      "days": [
+        "SUN"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "NBY",
+          "arr": null,
+          "dep": 1041
+        },
+        {
+          "station": "RDG",
+          "arr": null,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "SUN_83",
+      "headcode": "",
+      "operator": "",
+      "days": [
+        "SUN"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "RDG",
+          "arr": null,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "SUN_84",
+      "headcode": "",
+      "operator": "",
+      "days": [
+        "SUN"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "RDG",
+          "arr": null,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "SUN_85",
+      "headcode": "",
+      "operator": "",
+      "days": [
+        "SUN"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "RDG",
+          "arr": null,
+          "dep": null
+        }
+      ]
+    }
+  ],
+  "gap": false
+}
