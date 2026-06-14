@@ -22,7 +22,7 @@ git push origin main
 
 [tasks.pdf-test]
 description = "Quick validation — extract text from 3 sample PDFs"
-run = "cargo run --manifest-path pdf-test/Cargo.toml"
+run = "cargo run --manifest-path pdf2data/Cargo.toml -- 'Timetable PDFs/' 'Route table maps - separate PDFs/'"
 
 [tasks.clean]
 description = "Clean all build artifacts"
