@@ -1,0 +1,30 @@
+# Dependencies
+node_modules/
+
+# Build output
+build/
+.svelte-kit/
+
+# Rust
+pdf2data/target/
+pdf-test/target/
+
+# OS
+.DS_Store
+*.swp
+*.swo
+
+# IDE
+.vscode/
+.idea/
+
+# Env
+.env
+.env.local
+
+# PDF source files (too large, not committed)
+Timetable PDFs/
+Route table maps - separate PDFs/
+
+# Generated data (committed separately, keep git tracking)
+# static/data/ — tracked

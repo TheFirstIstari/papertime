@@ -1,0 +1,32 @@
+[tasks.data]
+description = "Run the full data pipeline (Rust pdf2data binary)"
+run = "cargo run --release --manifest-path pdf2data/Cargo.toml -- 'Timetable PDFs/' 'Route table maps - separate PDFs/'"
+
+[tasks.build]
+description = "Build the SvelteKit static site (auto-runs data first)"
+depends = ["data"]
+run = "npm run build"
+
+[tasks.dev]
+description = "Start SvelteKit dev server"
+run = "npm run dev"
+
+[tasks.deploy]
+description = "Commit data + push to GitHub → Render auto-deploys"
+depends = ["build"]
+run = """
+git add static/data/
+git commit -m 'update timetable data'
+git push origin main
+"""
+
+[tasks.pdf-test]
+description = "Quick validation — extract text from 3 sample PDFs"
+run = "cargo run --manifest-path pdf-test/Cargo.toml"
+
+[tasks.clean]
+description = "Clean all build artifacts"
+run = """
+rm -rf pdf2data/target/
+rm -rf .svelte-kit build node_modules
+"""

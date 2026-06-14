@@ -1,0 +1,663 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1050" height="2300" viewBox="30 0 1050 2300">
+	<title>West Coast Main Line rail service pattern diagram in public domain</title>
+	<style type="text/css">
+text {font-family:Arimo,Liberation Sans,Arial,sans-serif}
+.b {font-weight:bold}
+.intb {fill:#888;stroke:#000;stroke-width:2.5}
+.lu {fill:none;stroke-width:10;stroke:#fff}
+.lo {fill:none;stroke-width:7;cursor:pointer}
+.limited {fill:none;stroke:#fff;stroke-width:5;stroke-dasharray:6;cursor:pointer}
+.set {fill:none;stroke-width:3;stroke:#ff0;cursor:help;visibility:hidden}
+	</style>
+	<defs>
+		<circle id="st" r="5" style="fill:#fff;stroke:#000;stroke-width:2.5"/>
+		<g id="sta">
+			<use xlink:href="#st"/>
+			<circle r="2" style="fill:#888;stroke:none"/>
+		</g>
+		<g id="int2">
+			<rect class="intb" y="-2.5" width="20" height="5" rx="2.5"/>
+			<use xlink:href="#st"/>
+			<use xlink:href="#st" x="20"/>
+		</g>
+		<g id="int2a">
+			<rect class="intb" y="-2.5" width="20" height="5" rx="2.5"/>
+			<use xlink:href="#sta"/>
+			<use xlink:href="#sta" x="20"/>
+		</g>
+		<g id="int3">
+			<rect class="intb" y="-2.5" width="40" height="5" rx="2.5"/>
+			<use xlink:href="#st"/>
+			<use xlink:href="#st" x="20"/>
+			<use xlink:href="#st" x="40"/>
+		</g>
+		<g id="int3a">
+			<rect class="intb" y="-2.5" width="40" height="5" rx="2.5"/>
+			<use xlink:href="#sta"/>
+			<use xlink:href="#sta" x="20"/>
+			<use xlink:href="#sta" x="40"/>
+		</g>
+		<g id="int4">
+			<rect class="intb" y="-2.5" width="60" height="5" rx="2.5"/>
+			<use xlink:href="#st"/>
+			<use xlink:href="#st" x="20"/>
+			<use xlink:href="#st" x="40"/>
+			<use xlink:href="#st" x="60"/>
+		</g>
+		<linearGradient id="Virgin_gradient">
+			<stop offset="10%" stop-color="#f5596f"/>
+			<stop offset="50%" stop-color="#ec1a37"/>
+			<stop offset="90%" stop-color="#af031b"/>
+		</linearGradient>
+		<linearGradient id="London_Midland_gradient">
+			<stop offset="10%" stop-color="#73de35"/>
+			<stop offset="70%" stop-color="#50a71e"/>
+			<stop offset="90%" stop-color="#43a30d"/>
+		</linearGradient>
+		<g id="airport" transform="rotate(-90)scale(0.04)translate(-220,-250)" style="stroke:none;fill:#000">
+			<polygon points="490,250 450,225 320,225 170,10 140,10 200,225 80,225 30,150 10,150 30,240 30,260 10,350 30,350 80,275 200,275 140,490 170,490 320,275 450,275"/>
+			<ellipse cx="441" cy="250" rx="50" ry="24" stroke="#000"/>
+		</g>
+	</defs>
+	<rect id="bg" fill="#fff" x="-20" y="-20" width="3000" height="3000"/>
+	<g id="legend" transform="translate(60,280)">
+		<rect width="308" height="102" rx="20" style="fill:#fff;stroke:#036;stroke-width:3"/>
+		<g style="stroke-width:7;fill:none;stroke-linecap:round">
+			<path stroke="url(#Virgin_gradient)" d="M 15,20 l 65,0.01"/>
+			<path stroke="url(#London_Midland_gradient)" d="M 15,50 l 65,0.01"/>
+			<path stroke="#a4b" d="M 15,80 l 65,0.01"/>
+		</g>
+		<g font-size="16px">
+			<text x="154" y="-10" fill="#036" text-anchor="middle" class="b">Train operators</text>
+			<text x="95" y="25">Virgin Trains</text>
+			<text x="95" y="55">London Midland Express</text>
+			<text x="95" y="85">First TransPennine Express</text>
+		</g>
+	</g>
+	<g id="misc_text" font-size="14px" fill="#777">
+		<text x="600" y="20" text-anchor="middle">alternating</text>
+		<text x="500" y="318" text-anchor="end">alternating</text>
+		<text x="430" y="202" text-anchor="middle">Scotland</text>
+		<text x="430" y="235" text-anchor="middle">England</text>
+		<text x="240" y="850" text-anchor="end">Wales</text>
+		<text x="260" y="850">England</text>
+	</g>
+	<g id="alternating_strokes" style="stroke:#777;stroke-width:1;fill:none">
+		<path d="
+		M 600,25 v 12 M 560,49 v -12 H 640 v 12 M 580,37 v 12 M 620,37 v 12
+		M 528,290 h -12 v 50 h 12 M 516,315 h -12
+		"/>
+		<path stroke-dasharray="5" d="M 350,215 h 450 M 250,735 v 160"/>
+	</g>
+	<g id="int_base" class="intb" transform="translate(0,-2.5)">
+		<rect x="440" y="822" width="140" height="5" rx="2.5" id="Crewe_base"/>
+		<rect x="440" y="1022" width="140" height="5" rx="2.5" id="Stafford_base"/>
+		<rect x="440" y="1586" width="140" height="5" rx="2.5" id="Rugby_base"/>
+		<rect x="480" y="1666" width="160" height="5" rx="2.5" id="Northampton_base"/>
+		<rect x="480" y="1706" width="160" height="5" rx="2.5" id="Wolverton_base"/>
+		<rect x="460" y="1756" width="200" height="5" rx="2.5" id="Milton_Keynes_Central_base"/>
+		<rect x="480" y="1796" width="180" height="5" rx="2.5" id="Bletchley_base"/>
+		<rect x="480" y="1836" width="180" height="5" rx="2.5" id="Leighton_Buzzard_base"/>
+		<rect x="480" y="1956" width="220" height="5" rx="2.5" id="Berkhamsted_base"/>
+		<rect x="480" y="1996" width="220" height="5" rx="2.5" id="Hemel_Hempstead_base"/>
+		<rect x="420" y="2136" width="280" height="5" rx="2.5" id="Watford_Junction_base"/>
+	</g>
+	<g id="lines">
+		<g id="Virgin_Trains">
+			<use class="lu" xlink:href="#Glasgow_Central_to_Euston"/>
+			<g>
+				<title>Virgin Trains: Glasgow Central to London Euston</title>
+				<g class="lo" stroke="#d20c28">
+					<path id="Glasgow_Central_to_Euston" d="
+					M 540,60 V 2256
+					"/>
+				</g>
+				<use id="Glasgow_Central_to_Euston_set" xlink:href="#Glasgow_Central_to_Euston" class="set">
+					<set begin="Glasgow_Central_to_Euston.click" end="bg.click;Glasgow_Central_to_Euston_set.click" attributeName="visibility" attributeType="CSS" to="visible" repeatCount="indefinite" dur="0.5s" fill="remove"/>
+				</use>
+			</g>
+			<g>
+				<title>Virgin Trains: Glasgow Central or Edinburgh Waverley to London Euston via Birmingham New Street</title>
+				<use class="lu" xlink:href="#Glasgow_Central_or_Edinburgh_Waverley_to_Birmingham_New_Street"/>
+				<g class="lo" stroke="#f1485f"><!--f5596f-->
+					<path id="Glasgow_Central_or_Edinburgh_Waverley_to_Birmingham_New_Street" d="
+					M 620,60
+					v 30 a 40,40 0 0,1 -16,32
+					l -20,15 a 60,60 0 0,0 -24,48
+					
+					M 560,60
+					V 716 c 0,50 -80,56 -80,106
+					V 1022 v 24.5 a 80,80 0 0,1 -32,64
+					l -68,51
+					L 380,1161.5 a 40,40 0 0,0 -16,32
+					V 1474 a 100,100 0 0,0 20,60
+					l 28,37.33 a 40,40 0 0,1 8,24
+					V 2256
+					"/>
+				</g>
+				<use id="Glasgow_Central_or_Edinburgh_Waverley_to_Birmingham_New_Street_set" xlink:href="#Glasgow_Central_or_Edinburgh_Waverley_to_Birmingham_New_Street" class="set">
+					<set begin="Glasgow_Central_or_Edinburgh_Waverley_to_Birmingham_New_Street.click" end="bg.click;Glasgow_Central_or_Edinburgh_Waverley_to_Birmingham_New_Street_set.click" attributeName="visibility" attributeType="CSS" to="visible" repeatCount="indefinite" dur="0.5s" fill="remove"/>
+				</use>
+			</g>
+			<g>
+				<title>Virgin Trains: Liverpool Lime Street to London Euston</title>
+				<use class="lu" xlink:href="#Liverpool_Lime_Street_to_Euston"/>
+				<g class="lo" stroke="#df112d">
+					<path id="Liverpool_Lime_Street_to_Euston" d="
+					M 392,506
+					l 72,96 l 40,53.33 a 80,80 0 0,1 16,48
+					V 2256
+					"/>
+				</g>
+				<use id="Liverpool_Lime_Street_to_Euston_set" xlink:href="#Liverpool_Lime_Street_to_Euston" class="set">
+					<set begin="Liverpool_Lime_Street_to_Euston.click" end="bg.click;Liverpool_Lime_Street_to_Euston_set.click" attributeName="visibility" attributeType="CSS" to="visible" repeatCount="indefinite" dur="0.5s" fill="remove"/>
+				</use>
+			</g>
+			<use class="lu" xlink:href="#Continuation_towards_Holyhead"/>
+			<use class="lu" xlink:href="#Chester_to_Euston"/>
+			<g class="lo" stroke="#ec1a37">
+				<g id="Continuation_towards_Holyhead">
+					<title>Virgin Trains: Certain trains from London continues towards Holyhead beyond Chester</title>
+					<path d="M 200,780 H 320"/>
+					<path class="limited" d="M 206,780 H 320"/>
+				</g>
+				<g>
+					<title>Virgin Trains: Chester to London Euston</title>
+					<g>
+						<path id="Chester_to_Euston" d="
+						M 320,780
+						H 460 a 40,40 0 0,1 40,40
+						V 2256
+						"/>
+					</g>
+					<use id="Chester_to_Euston_set" xlink:href="#Chester_to_Euston" class="set">
+						<set begin="Chester_to_Euston.click" end="bg.click;Chester_to_Euston_set.click" attributeName="visibility" attributeType="CSS" to="visible" repeatCount="indefinite" dur="0.5s" fill="remove"/>
+					</use>
+				</g>
+			</g>
+			<g>
+				<title>Virgin Trains: Manchester Piccadilly to London Euston (via Crewe and Wilmslow)</title>
+				<use class="lu" xlink:href="#Manchester_Piccadilly_to_Euston_1"/>
+				<g class="lo" stroke="#c60923">
+					<path id="Manchester_Piccadilly_to_Euston_1" d="
+					M 750,640
+					V 740 a 40,40 0 0,1 -40,40
+					H 600 a 40,40 0 0,0 -40,40
+					V 2256
+					"/>
+				</g>
+				<use id="Manchester_Piccadilly_to_Euston_1_set" xlink:href="#Manchester_Piccadilly_to_Euston_1" class="set">
+					<set begin="Manchester_Piccadilly_to_Euston_1.click" end="bg.click;Manchester_Piccadilly_to_Euston_1_set.click" attributeName="visibility" attributeType="CSS" to="visible" repeatCount="indefinite" dur="0.5s" fill="remove"/>
+				</use>
+			</g>
+			<g>
+				<title>Virgin Trains: Manchester Piccadilly to London Euston (via Stoke-on-Trent and Milton Keynes Central)</title>
+				<use class="lu" xlink:href="#Manchester_Piccadilly_to_Euston_2"/>
+				<g class="lo" stroke="#ba071f">
+					<path id="Manchester_Piccadilly_to_Euston_2" d="
+					M 770,640
+					V 942 a 60,60 0 0,1 -24,48
+					l -122,91.5 a 60,60 0 0,0 -24,48
+					V 2256
+					"/>
+				</g>
+				<use id="Manchester_Piccadilly_to_Euston_2_set" xlink:href="#Manchester_Piccadilly_to_Euston_2" class="set">
+					<set begin="Manchester_Piccadilly_to_Euston_2.click" end="bg.click;Manchester_Piccadilly_to_Euston_2_set.click" attributeName="visibility" attributeType="CSS" to="visible" repeatCount="indefinite" dur="0.5s" fill="remove"/>
+				</use>
+			</g>
+			<g>
+				<title>Virgin Trains: Manchester Piccadilly to London Euston (via Stoke-on-Trent and Macclesfield)</title>
+				<use class="lu" xlink:href="#Manchester_Piccadilly_to_Euston_3"/>
+				<g class="lo" stroke="#af031b">
+					<path id="Manchester_Piccadilly_to_Euston_3" d="
+					M 790,640
+					V 942 a 80,80 0 0,1 -32,64
+					l -122,91.5 a 40,40 0 0,0 -16,32
+					V 2256
+					"/>
+				</g>
+				<use id="Manchester_Piccadilly_to_Euston_3_set" xlink:href="#Manchester_Piccadilly_to_Euston_3" class="set">
+					<set begin="Manchester_Piccadilly_to_Euston_3.click" end="bg.click;Manchester_Piccadilly_to_Euston_3_set.click" attributeName="visibility" attributeType="CSS" to="visible" repeatCount="indefinite" dur="0.5s" fill="remove"/>
+				</use>
+			</g>
+			<g>
+				<title>Virgin Trains: Birmingham New Street to London Euston (via Rugby)</title>
+				<use class="lu" xlink:href="#Birmingham_New_Street_to_Euston_Virgin_1"/>
+				<g class="lo" stroke="#f03851">
+					<path id="Birmingham_New_Street_to_Euston_Virgin_1" d="
+					M 384,1314
+					V 1474 a 80,80 0 0,0 16,48
+					l 28,37.33 a 60,60 0 0,1 12,36
+					V 2256
+					"/>
+				</g>
+				<use id="Birmingham_New_Street_to_Euston_Virgin_1_set" xlink:href="#Birmingham_New_Street_to_Euston_Virgin_1" class="set">
+					<set begin="Birmingham_New_Street_to_Euston_Virgin_1.click" end="bg.click;Birmingham_New_Street_to_Euston_Virgin_1_set.click" attributeName="visibility" attributeType="CSS" to="visible" repeatCount="indefinite" dur="0.5s" fill="remove"/>
+				</use>
+			</g>
+			<g>
+				<title>Virgin Trains: Birmingham New Street to London Euston (via Milton Keynes Central)</title>
+				<use class="lu" xlink:href="#Birmingham_New_Street_to_Euston_Virgin_2"/>
+				<g class="lo" stroke="#ee2642">
+					<path id="Birmingham_New_Street_to_Euston_Virgin_2" d="
+					M 404,1314
+					V 1474 a 60,60 0 0,0 12,36
+					l 28,37.33 a 80,80 0 0,1 16,48
+					V 2256
+					"/>
+				</g>
+				<use id="Birmingham_New_Street_to_Euston_Virgin_2_set" xlink:href="#Birmingham_New_Street_to_Euston_Virgin_2" class="set">
+					<set begin="Birmingham_New_Street_to_Euston_Virgin_2.click" end="bg.click;Birmingham_New_Street_to_Euston_Virgin_2_set.click" attributeName="visibility" attributeType="CSS" to="visible" repeatCount="indefinite" dur="0.5s" fill="remove"/>
+				</use>
+			</g>
+		</g>
+		<use class="lu" xlink:href="#Glasgow_Central_or_Edinburgh_Waverley_to_Manchester_Airport"/>
+		<g id="First_TransPennine_Express">
+			<title>First TransPennine Express: Glasgow Central or Edinburgh Waverley to Manchester Airport</title>
+			<g id="Glasgow_Central_or_Edinburgh_Waverley_to_Manchester_Airport_via_Bolton">
+				<title>First TransPennine Express: Glasgow Central or Edinburgh Waverley to Manchester Airport via Chorley and Bolton (limited service)</title>
+				<g class="lo" stroke="#a4b">
+					<path id="Glasgow_Central_or_Edinburgh_Waverley_to_Manchester_Airport_via_Bolton_base" d="
+					M 580,440
+					a 40,40 0 0,0 40,40
+					H 770 a 40,40 0 0,1 40,40
+					V 600
+					"/>
+				</g>
+				<use xlink:href="#Glasgow_Central_or_Edinburgh_Waverley_to_Manchester_Airport_via_Bolton_base" class="limited"/>
+			</g>
+			<g class="lo" stroke="#a4b">
+				<path id="Glasgow_Central_or_Edinburgh_Waverley_to_Manchester_Airport" d="
+				M 640,60
+				v 30 a 60,60 0 0,1 -24,48
+				l -20,15 a 40,40 0 0,0 -16,32
+				
+				M 580,60
+				V 520 a 40,40 0 0,0 40,40
+				H 770 a 40,40 0 0,1 40,40
+				V 680
+				"/>
+			</g>
+			<use id="Glasgow_Central_or_Edinburgh_Waverley_to_Manchester_Airport_via_Bolton_set" xlink:href="#Glasgow_Central_or_Edinburgh_Waverley_to_Manchester_Airport_via_Bolton_base" class="set">
+				<title>First TransPennine Express: Glasgow Central or Edinburgh Waverley to Manchester Airport via Chorley and Bolton (limited service)</title>
+				<set begin="Glasgow_Central_or_Edinburgh_Waverley_to_Manchester_Airport.click;Glasgow_Central_or_Edinburgh_Waverley_to_Manchester_Airport_via_Bolton.click" end="bg.click;Glasgow_Central_or_Edinburgh_Waverley_to_Manchester_Airport_set.click;Glasgow_Central_or_Edinburgh_Waverley_to_Manchester_Airport_via_Bolton_set.click" attributeName="visibility" attributeType="CSS" to="visible" repeatCount="indefinite" dur="0.5s" fill="remove"/>
+			</use>
+			<use id="Glasgow_Central_or_Edinburgh_Waverley_to_Manchester_Airport_set" xlink:href="#Glasgow_Central_or_Edinburgh_Waverley_to_Manchester_Airport" class="set">
+				<set begin="Glasgow_Central_or_Edinburgh_Waverley_to_Manchester_Airport.click;Glasgow_Central_or_Edinburgh_Waverley_to_Manchester_Airport_via_Bolton.click" end="bg.click;Glasgow_Central_or_Edinburgh_Waverley_to_Manchester_Airport_set.click;Glasgow_Central_or_Edinburgh_Waverley_to_Manchester_Airport_via_Bolton_set.click" attributeName="visibility" attributeType="CSS" to="visible" repeatCount="indefinite" dur="0.5s" fill="remove"/>
+			</use>
+		</g>
+		<g id="London_Midland_Express">
+			<g>
+				<title>London Midland Express: Liverpool Lime Street to Birmingham New Street (via Acton Bridge, Smethwick Galton Bridge, etc.)</title>
+				<use class="lu" xlink:href="#Liverpool_Lime_Street_to_Birmingham_New_Street_1"/>
+				<g class="lo" stroke="#73de35">
+					<path id="Liverpool_Lime_Street_to_Birmingham_New_Street_1" d="
+					M 360,530
+					l 72,96 a 40,40 0 0,1 8,24
+					V 1022 v 24.5 a 40,40 0 0,1 -16,32
+					l -68,51 a 80,80 0 0,0 -32,64
+					V 1314
+					"/>
+				</g>
+				<use id="Liverpool_Lime_Street_to_Birmingham_New_Street_1_set" xlink:href="#Liverpool_Lime_Street_to_Birmingham_New_Street_1" class="set">
+					<set begin="Liverpool_Lime_Street_to_Birmingham_New_Street_1.click" end="bg.click;Liverpool_Lime_Street_to_Birmingham_New_Street_1_set.click" attributeName="visibility" attributeType="CSS" to="visible" repeatCount="indefinite" dur="0.5s" fill="remove"/>
+				</use>
+			</g>
+			<g>
+				<title>London Midland Express: Liverpool Lime Street to Birmingham New Street (via Penkridge and Coseley)</title>
+				<use class="lu" xlink:href="#Liverpool_Lime_Street_to_Birmingham_New_Street_2"/>
+				<g class="lo" stroke="#6cd231">
+					<path id="Liverpool_Lime_Street_to_Birmingham_New_Street_2" d="
+					M 376,518
+					l 72,96 a 60,60 0 0,1 12,36
+					V 1022 v 24.5 a 60,60 0 0,1 -24,48
+					l -68,51 a 60,60 0 0,0 -24,48
+					V 1314
+					"/>
+				</g>
+				<use id="Liverpool_Lime_Street_to_Birmingham_New_Street_2_set" xlink:href="#Liverpool_Lime_Street_to_Birmingham_New_Street_2" class="set">
+					<set begin="Liverpool_Lime_Street_to_Birmingham_New_Street_2.click" end="bg.click;Liverpool_Lime_Street_to_Birmingham_New_Street_2_set.click" attributeName="visibility" attributeType="CSS" to="visible" repeatCount="indefinite" dur="0.5s" fill="remove"/>
+				</use>
+			</g>
+			<g>
+				<title>London Midland Express: Crewe to London Euston</title>
+				<use class="lu" xlink:href="#Crewe_to_Euston"/>
+				<g class="lo" stroke="#5eb82b">
+					<path id="Crewe_to_Euston" d="
+					M 580,822
+					a 40,40 0 0,0 40,40
+					H 710 a 40,40 0 0,1 40,40
+					V 942 a 40,40 0 0,1 -40,40
+					H 620 a 40,40 0 0,0 -40,40
+					V 2256
+					"/>
+				</g>
+				<use id="Crewe_to_Euston_set" xlink:href="#Crewe_to_Euston" class="set">
+					<set begin="Crewe_to_Euston.click" end="bg.click;Crewe_to_Euston_set.click" attributeName="visibility" attributeType="CSS" to="visible" repeatCount="indefinite" dur="0.5s" fill="remove"/>
+				</use>
+			</g>
+			<g class="lo" stroke="#65c52e">
+				<title>London Midland Express: Birmingham New Street to London Euston</title>
+				<path id="Birmingham_New_Street_to_Euston_Midland" d="
+				M 424,1314
+				V 1474 a 40,40 0 0,0 8,24
+				l 28,37.33 a 100,100 0 0,1 20,60
+				V 2256
+				"/>
+				<use id="Birmingham_New_Street_to_Euston_Midland_set" xlink:href="#Birmingham_New_Street_to_Euston_Midland" class="set">
+					<set begin="Birmingham_New_Street_to_Euston_Midland.click" end="bg.click;Birmingham_New_Street_to_Euston_Midland_set.click" attributeName="visibility" attributeType="CSS" to="visible" repeatCount="indefinite" dur="0.5s" fill="remove"/>
+				</use>
+			</g>
+			<g>
+				<title>London Midland Express: Northampton to London Euston</title>
+				<use class="lu" xlink:href="#Northampton_to_Euston"/>
+				<g class="lo" stroke="#57ab27">
+					<path id="Northampton_to_Euston" d="
+					M 640,1666 V 2256
+					"/>
+				</g>
+				<use id="Northampton_to_Euston_set" xlink:href="#Northampton_to_Euston" class="set">
+					<set begin="Northampton_to_Euston.click" end="bg.click;Northampton_to_Euston_set.click" attributeName="visibility" attributeType="CSS" to="visible" repeatCount="indefinite" dur="0.5s" fill="remove"/>
+				</use>
+			</g>
+			<g>
+				<title>London Midland Express: Milton Keynes Central to London Euston</title>
+				<g class="lo" stroke="#50a71e">
+					<path id="Milton_Keynes_Central_to_Euston" d="
+					M 660,1756 V 2256
+					"/>
+				</g>
+				<use id="Milton_Keynes_Central_to_Euston_set" xlink:href="#Milton_Keynes_Central_to_Euston" class="set">
+					<set begin="Milton_Keynes_Central_to_Euston.click" end="bg.click;Milton_Keynes_Central_to_Euston_set.click" attributeName="visibility" attributeType="CSS" to="visible" repeatCount="indefinite" dur="0.5s" fill="remove"/>
+				</use>
+			</g>
+			<g>
+				<title>London Midland Express: Tring to London Euston (1)</title>
+				<g class="lo" stroke="#48a215">
+					<path id="Tring_to_Euston_1" d="
+					M 680,1916 V 2256
+					"/>
+				</g>
+				<use id="Tring_to_Euston_1_set" xlink:href="#Tring_to_Euston_1" class="set">
+					<set begin="Tring_to_Euston_1.click" end="bg.click;Tring_to_Euston_1_set.click" attributeName="visibility" attributeType="CSS" to="visible" repeatCount="indefinite" dur="0.5s" fill="remove"/>
+				</use>
+			</g>
+			<g>
+				<title>London Midland Express: Tring to London Euston (2)</title>
+				<g class="lo" stroke="#43a30d">
+					<path id="Tring_to_Euston_2" d="
+					M 700,1916 V 2256
+					"/>
+				</g>
+				<use id="Tring_to_Euston_2_set" xlink:href="#Tring_to_Euston_2" class="set">
+					<set begin="Tring_to_Euston_2.click" end="bg.click;Tring_to_Euston_2_set.click" attributeName="visibility" attributeType="CSS" to="visible" repeatCount="indefinite" dur="0.5s" fill="remove"/>
+				</use>
+			</g>
+		</g>
+	</g>
+	<g id="Holyhead_arrow" transform="translate(200,780)">
+		<path fill="#f00" d="
+		M 0,0 v -8 h -4 L -12,0 -4,8 h 4 z
+		"/>
+	</g>
+	<g id="station_icons">
+		<g id="Glasgow_Central" transform="translate(540,60)">
+			<use xlink:href="#int3"/>
+			<use xlink:href="#sta" x="20"/>
+			<use xlink:href="#sta" x="40"/>
+		</g>
+		<use xlink:href="#int2a" x="620" y="60" id="Edinburgh_Waverley"/>
+		<use xlink:href="#int2a" x="620" y="90" id="Haymarket"/>
+		<use xlink:href="#st" x="580" y="190" id="Lockerbie"/>
+		<use xlink:href="#int3" x="540" y="240" id="Carlisle"/>
+		<use xlink:href="#int3a" x="540" y="290" id="Penrith"/>
+		<use xlink:href="#int3a" x="540" y="340" id="Oxenholme_Lake_District"/>
+		<use xlink:href="#int3" x="540" y="390" id="Lancaster"/>
+		<use xlink:href="#int3" x="540" y="440" id="Preston"/>
+		<use xlink:href="#st" x="710" y="480" id="Chorley"/>
+		<use xlink:href="#int3" x="540" y="520" id="Wigan_North_Western"/>
+		<use xlink:href="#int2" x="540" y="580" id="Warrington_Bank_Quay"/>
+		<use xlink:href="#int3" transform="translate(360,530)rotate(-36.87)" id="Liverpool_Lime_Street"/>
+		<use xlink:href="#int2" transform="translate(390,570)rotate(-36.87)" id="Liverpool_South_Parkway"/>
+		<use xlink:href="#int3" transform="translate(420,610)rotate(-36.87)" id="Runcorn"/>
+		<use xlink:href="#sta" x="440" y="660" id="Acton_Bridge"/>
+		<use xlink:href="#st" x="440" y="700" id="Hartford"/>
+		<use xlink:href="#st" x="440" y="740" id="Winsford"/>
+		<use xlink:href="#st" x="320" y="780" id="Chester"/>
+		<use xlink:href="#st" x="810" y="540" id="Bolton"/>
+		<use xlink:href="#st" x="810" y="600" id="Manchester_Oxford_Road"/>
+		<use xlink:href="#int4" x="750" y="640" id="Manchester_Piccadilly"/>
+		<use xlink:href="#st" x="810" y="680" id="Manchester_Airport"/>
+		<use xlink:href="#airport" x="1023" y="680"><title>Manchester Airport</title></use>
+		<use xlink:href="#int3" x="750" y="720" id="Stockport"/>
+		<use xlink:href="#st" x="660" y="780" id="Wilmslow"/>
+		<use xlink:href="#st" x="790" y="822" id="Macclesfield"/>
+		<use xlink:href="#st" x="660" y="862" id="Alsager"/>
+		<use xlink:href="#st" x="750" y="902" id="Kidsgrove"/>
+		<use xlink:href="#int3" x="750" y="942" id="Stoke_on_Trent"/>
+		<use xlink:href="#st" x="660" y="982" id="Stone"/>
+		<g id="Crewe_st" transform="translate(440,822)">
+			<use xlink:href="#st"/>
+			<use xlink:href="#st" x="20"/>
+			<use xlink:href="#st" x="40"/>
+			<use xlink:href="#st" x="60"/>
+			<use xlink:href="#st" x="80"/>
+			<use xlink:href="#st" x="120"/>
+			<use xlink:href="#st" x="140"/>
+		</g>
+		<g id="Stafford_st" transform="translate(440,1022)">
+			<use xlink:href="#st"/>
+			<use xlink:href="#st" x="20"/>
+			<use xlink:href="#st" x="80"/>
+			<use xlink:href="#st" x="140"/>
+		</g>
+		<use xlink:href="#st" x="428" y="1101" id="Penkridge"/>
+		<use xlink:href="#int3" transform="translate(356,1129.5)rotate(53.13)" id="Wolverhampton"/>
+		<use xlink:href="#st" x="344" y="1194" id="Coseley"/>
+		<use xlink:href="#st" x="364" y="1234" id="Sandwell_and_Dudley"/>
+		<use xlink:href="#st" x="324" y="1274" id="Smethwick_Galton_Bridge"/>
+		<g id="Birmingham_New_Street" transform="translate(324,1314)">
+			<rect class="intb" y="-2.5" width="100" height="5" rx="2.5"/>
+			<use xlink:href="#st"/>
+			<use xlink:href="#st" x="20"/>
+			<use xlink:href="#st" x="40"/>
+			<use xlink:href="#st" x="60"/>
+			<use xlink:href="#st" x="80"/>
+			<use xlink:href="#st" x="100"/>
+		</g>
+		<use xlink:href="#st" x="424" y="1354" id="Marston_Green"/>
+		<use xlink:href="#int4" x="364" y="1394" id="Birmingham_International"/>
+		<use xlink:href="#airport" x="115" y="1394"><title>Birmingham Airport</title></use>
+		<use xlink:href="#st" x="424" y="1434" id="Hampton_in_Arden"/>
+		<use xlink:href="#st" x="424" y="1474" id="Tile_Hill"/>
+		<use xlink:href="#int4" transform="translate(393,1546)rotate(-36.87)" id="Coventry"/>
+		<use xlink:href="#st" x="580" y="1200" id="Rugeley_Trent_Valley"/>
+		<use xlink:href="#st" x="580" y="1280" id="Lichfield_Trent_Valley"/>
+		<use xlink:href="#st" x="580" y="1360" id="Tamworth"/>
+		<use xlink:href="#st" x="580" y="1440" id="Atherstone"/>
+		<use xlink:href="#st" x="580" y="1514" id="Nuneaton"/>
+		<g id="Rugby_st" transform="translate(440,1586)">
+			<use xlink:href="#st"/>
+			<use xlink:href="#st" x="40"/>
+			<use xlink:href="#st" x="140"/>
+		</g>
+		<use xlink:href="#st" x="480" y="1626" id="Long_Buckby"/>
+		<g id="Northampton_st" transform="translate(480,1666)">
+			<use xlink:href="#st"/>
+			<!--<use xlink:href="#st" x="100"/>-->
+			<use xlink:href="#st" x="160"/>
+		</g>
+		<g id="Wolverton_st" transform="translate(480,1706)">
+			<use xlink:href="#st"/>
+			<use xlink:href="#st" x="160"/>
+		</g>
+		<g id="Milton_Keynes_Central_st" transform="translate(460,1756)">
+			<use xlink:href="#st"/>
+			<use xlink:href="#st" x="20"/>
+			<use xlink:href="#st" x="40"/>
+			<use xlink:href="#st" x="120"/>
+			<use xlink:href="#st" x="140"/>
+			<use xlink:href="#st" x="180"/>
+			<use xlink:href="#st" x="200"/>
+		</g>
+		<g id="Bletchley_st" transform="translate(480,1796)">
+			<use xlink:href="#st"/>
+			<use xlink:href="#st" x="160"/>
+			<use xlink:href="#st" x="180"/>
+		</g>
+		<g id="Leighton_Buzzard_st" transform="translate(480,1836)">
+			<use xlink:href="#st"/>
+			<use xlink:href="#st" x="160"/>
+			<use xlink:href="#st" x="180"/>
+		</g>
+		<use xlink:href="#st" x="660" y="1876" id="Cheddington"/>
+		<use xlink:href="#int3" x="660" y="1916" id="Tring"/>
+		<g id="Berkhamsted_st" transform="translate(480,1956)">
+			<use xlink:href="#st"/>
+			<use xlink:href="#st" x="180"/>
+			<use xlink:href="#st" x="200"/>
+			<use xlink:href="#st" x="220"/>
+		</g>
+		<g id="Hemel_Hempstead_st" transform="translate(480,1996)">
+			<use xlink:href="#st"/>
+			<use xlink:href="#st" x="180"/>
+			<use xlink:href="#st" x="200"/>
+			<use xlink:href="#st" x="220"/>
+		</g>
+		<use xlink:href="#int2" x="680" y="2046" id="Apsley"/>
+		<use xlink:href="#int2" x="680" y="2086" id="Kings_Langley"/>
+		<g id="Watford_Junction_st" transform="translate(420,2136)">
+			<use xlink:href="#st"/>
+			<use xlink:href="#st" x="40"/>
+			<use xlink:href="#st" x="60"/>
+			<!--<use xlink:href="#st" x="160"/>-->
+			<use xlink:href="#st" x="240"/>
+			<use xlink:href="#st" x="260"/>
+			<use xlink:href="#st" x="280"/>
+		</g>
+		<use xlink:href="#int2" x="680" y="2176" id="Bushey"/>
+		<use xlink:href="#int2" x="680" y="2216" id="Harrow_and_Wealdstone"/>
+		<g id="Euston" transform="translate(420,2256)">
+			<rect class="intb" y="-2.5" width="280" height="5" rx="2.5"/>
+			<use xlink:href="#st"/>
+			<use xlink:href="#st" x="20"/>
+			<use xlink:href="#st" x="40"/>
+			<use xlink:href="#st" x="60"/>
+			<use xlink:href="#st" x="80"/>
+			<use xlink:href="#st" x="100"/>
+			<use xlink:href="#st" x="120"/>
+			<use xlink:href="#st" x="140"/>
+			<use xlink:href="#st" x="160"/>
+			<use xlink:href="#st" x="180"/>
+			<use xlink:href="#st" x="200"/>
+			<use xlink:href="#st" x="220"/>
+			<use xlink:href="#st" x="240"/>
+			<use xlink:href="#st" x="260"/>
+			<use xlink:href="#st" x="280"/>
+		</g>
+	</g>
+	<g id="station_names" font-size="20px">
+		<g text-anchor="end" transform="translate(-12,6)">
+			<text x="540" y="60" class="b">Glasgow Central</text>
+			<text x="360" y="540" class="b">Liverpool Lime Street</text>
+			<text x="390" y="580">Liverpool South Parkway</text>
+			<text x="420" y="620">Runcorn</text>
+			<text x="440" y="660"><tspan font-size="15px">(limited service) </tspan>Acton Bridge</text>
+			<text x="440" y="700">Hartford</text>
+			<text x="440" y="740">Winsford</text>
+			<text x="440" y="822" class="b">Crewe</text>
+			<text x="750" y="902">Kidsgrove</text>
+			<text x="750" y="942">Stoke-on-Trent</text>
+			<text x="440" y="1022">Stafford</text>
+			<text x="417" y="1076">Penkridge</text>
+			<text x="356" y="1119.5">Wolverhampton</text>
+			<text x="324" y="1194">Coseley</text>
+			<text x="324" y="1234">Sandwell and Dudley</text>
+			<text x="324" y="1274">Smethwick Galton Bridge</text>
+			<text x="324" y="1314" class="b">Birmingham New Street</text>
+			<text x="364" y="1354">Marston Green</text>
+			<text x="364" y="1394">Birmingham International</text>
+			<text x="364" y="1434">Hampton-in-Arden</text>
+			<text x="364" y="1474">Tile Hill</text>
+			<text x="393" y="1556">Coventry</text>
+		</g>
+		<g transform="translate(12,6)">
+			<text x="640" y="60" class="b">Edinburgh Waverley</text>
+			<text x="640" y="90">Haymarket</text>
+			<text x="580" y="190">Lockerbie</text>
+			<text x="580" y="240">Carlisle</text>
+			<text x="580" y="290">Penrith</text>
+			<text x="580" y="340">Oxenholme Lake District</text>
+			<text x="580" y="390">Lancaster</text>
+			<text x="580" y="440">Preston</text>
+			<text x="580" y="520">Wigan North Western</text>
+			<text x="560" y="580">Warrington Bank Quay</text>
+			<text x="810" y="540">Bolton</text>
+			<text x="810" y="600">Manchester Oxford Road</text>
+			<text x="810" y="640" class="b">Manchester Piccadilly</text>
+			<text x="810" y="680" class="b">Manchester Airport</text>
+			<text x="790" y="720">Stockport</text>
+			<text x="790" y="822">Macclesfield</text>
+			<text x="620" y="1200">Rugeley Trent Valley</text>
+			<text x="620" y="1280">Lichfield Trent Valley</text>
+			<text x="620" y="1360">Tamworth</text>
+			<text x="620" y="1440">Atherstone</text>
+			<text x="620" y="1514">Nuneaton</text>
+			<text x="620" y="1586">Rugby</text>
+			<text x="620" y="1626">Long Buckby</text>
+			<text x="640" y="1666" class="b">Northampton</text>
+			<text x="640" y="1706">Wolverton</text>
+			<text x="660" y="1756" class="b">Milton Keynes Central</text>
+			<text x="660" y="1796">Bletchley</text>
+			<text x="660" y="1836">Leighton Buzzard</text>
+			<text x="660" y="1876">Cheddington</text>
+			<text x="700" y="1916" class="b">Tring</text>
+			<text x="700" y="1956">Berkhamsted</text>
+			<text x="700" y="1996">Hemel Hempstead</text>
+			<text x="700" y="2046">Apsley</text>
+			<text x="700" y="2086">Kings Langley</text>
+			<text x="700" y="2136">Watford Junction <tspan dy="-7" font-size="13px">(buses for Heathrow</tspan></text>
+			<text x="700" y="2136">Watford Junction <tspan dy="8" font-size="13px">and Luton airports)</tspan></text>
+			<text x="700" y="2176">Bushey</text>
+			<text x="700" y="2216">Harrow &amp; Wealdstone</text>
+			<text x="700" y="2256" class="b">London Euston</text>
+		</g>
+		<g text-anchor="middle">
+			<text x="710" y="466">Chorley</text>
+			<text x="660" y="768">Wilmslow</text>
+			<text x="660" y="848">Alsager</text>
+			<text x="660" y="1009">Stone</text>
+			<text x="320" y="805" class="b">Chester</text>
+			<text x="130" y="780">to Holyhead<tspan x="130" dy="20" font-size="15px">(limited service)</tspan></text>
+		</g>
+	</g>
+	<g id="departure_time" text-anchor="middle" font-size="10px">
+		<text x="810" y="698">00</text>
+		<g transform="translate(324,1332)">
+			<text x="0">01</text>
+			<text x="20">36</text>
+		</g>
+		<g transform="translate(420,2274)">	
+			<text x="-10" text-anchor="end" font-size="14px">Minutes past the hour each service departs:</text>
+			<text x="0">43</text>
+			<text x="20">03</text>
+			<text x="40">23</text>
+			<text x="60">54</text>
+			<text x="80">10</text>
+			<text x="100">07</text>
+			<text x="120" font-size="12px">30</text>
+			<text x="140">40</text>
+			<text x="160">46</text>
+			<text x="180">20</text>
+			<text x="200">00</text>
+			<text x="220">54</text>
+			<text x="240">24</text>
+			<text x="260">04</text>
+			<text x="280">34</text>
+		</g>
+	</g>
+	<path style="stroke:none;fill:#036" d="M -10,0 L 0,0 v 27 h 400 q 15,0 27,-9 l 12,-9 q 12,-9 27,-9 z"/>
+	<text x="37" y="20" class="b" style="font-size:20px;fill:#fff">West Coast Main Line service pattern</text>
+</svg>
