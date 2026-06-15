@@ -1,0 +1,5892 @@
+{
+  "table": "011",
+  "name": "",
+  "period": "",
+  "operators": [],
+  "days": [
+    "MF",
+    "SAT",
+    "SUN"
+  ],
+  "stations": [
+    "DBR",
+    "TRM",
+    "WDB",
+    "MES",
+    "WCM",
+    "DSM",
+    "HAS",
+    "BRP",
+    "BCC",
+    "OUS",
+    "LWT",
+    "DBR",
+    "TRM",
+    "WDB",
+    "MES",
+    "WCM",
+    "DSM",
+    "HAS",
+    "BRP",
+    "BCC",
+    "OUS",
+    "LWT",
+    "DBR",
+    "TRM",
+    "WDB",
+    "MES",
+    "WCM",
+    "DSM",
+    "HAS",
+    "BRP",
+    "BCC",
+    "OUS",
+    "LWT",
+    "LWT",
+    "OUS",
+    "BCC",
+    "BRP",
+    "HAS",
+    "DSM",
+    "WCM",
+    "MES",
+    "WDB",
+    "TRM",
+    "DBR",
+    "LWT",
+    "OUS",
+    "BCC",
+    "BRP",
+    "HAS",
+    "DSM",
+    "WCM",
+    "MES",
+    "WDB",
+    "TRM",
+    "DBR",
+    "LWT",
+    "OUS",
+    "BCC",
+    "BRP",
+    "HAS",
+    "DSM",
+    "WCM",
+    "MES",
+    "WDB",
+    "TRM",
+    "DBR"
+  ],
+  "services": [
+    {
+      "id": "MF_0",
+      "headcode": "",
+      "operator": "",
+      "days": [
+        "MF"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "DBR",
+          "arr": null,
+          "dep": 316
+        },
+        {
+          "station": "TRM",
+          "arr": null,
+          "dep": 325
+        },
+        {
+          "station": "WDB",
+          "arr": null,
+          "dep": 394
+        },
+        {
+          "station": "MES",
+          "arr": null,
+          "dep": 398
+        },
+        {
+          "station": "WCM",
+          "arr": null,
+          "dep": 405
+        },
+        {
+          "station": "DSM",
+          "arr": null,
+          "dep": 436
+        },
+        {
+          "station": "HAS",
+          "arr": null,
+          "dep": 445
+        },
+        {
+          "station": "BRP",
+          "arr": null,
+          "dep": 452
+        },
+        {
+          "station": "BCC",
+          "arr": null,
+          "dep": 522
+        },
+        {
+          "station": "OUS",
+          "arr": null,
+          "dep": 473
+        },
+        {
+          "station": "LWT",
+          "arr": 481,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "MF_1",
+      "headcode": "",
+      "operator": "",
+      "days": [
+        "MF"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "DBR",
+          "arr": null,
+          "dep": 375
+        },
+        {
+          "station": "TRM",
+          "arr": null,
+          "dep": 384
+        },
+        {
+          "station": "WDB",
+          "arr": null,
+          "dep": 469
+        },
+        {
+          "station": "MES",
+          "arr": null,
+          "dep": 473
+        },
+        {
+          "station": "WCM",
+          "arr": null,
+          "dep": 480
+        },
+        {
+          "station": "DSM",
+          "arr": null,
+          "dep": 497
+        },
+        {
+          "station": "HAS",
+          "arr": null,
+          "dep": 506
+        },
+        {
+          "station": "BRP",
+          "arr": null,
+          "dep": 513
+        },
+        {
+          "station": "BCC",
+          "arr": null,
+          "dep": 624
+        },
+        {
+          "station": "OUS",
+          "arr": null,
+          "dep": 531
+        },
+        {
+          "station": "LWT",
+          "arr": 539,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "MF_2",
+      "headcode": "",
+      "operator": "",
+      "days": [
+        "MF"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "DBR",
+          "arr": null,
+          "dep": 445
+        },
+        {
+          "station": "TRM",
+          "arr": null,
+          "dep": 454
+        },
+        {
+          "station": "WDB",
+          "arr": null,
+          "dep": 571
+        },
+        {
+          "station": "MES",
+          "arr": null,
+          "dep": 575
+        },
+        {
+          "station": "WCM",
+          "arr": null,
+          "dep": 582
+        },
+        {
+          "station": "DSM",
+          "arr": null,
+          "dep": 599
+        },
+        {
+          "station": "HAS",
+          "arr": null,
+          "dep": 608
+        },
+        {
+          "station": "BRP",
+          "arr": null,
+          "dep": 615
+        },
+        {
+          "station": "BCC",
+          "arr": null,
+          "dep": 684
+        },
+        {
+          "station": "OUS",
+          "arr": null,
+          "dep": 635
+        },
+        {
+          "station": "LWT",
+          "arr": 642,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "MF_3",
+      "headcode": "",
+      "operator": "",
+      "days": [
+        "MF"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "DBR",
+          "arr": null,
+          "dep": 506
+        },
+        {
+          "station": "TRM",
+          "arr": null,
+          "dep": 515
+        },
+        {
+          "station": "WDB",
+          "arr": null,
+          "dep": 631
+        },
+        {
+          "station": "MES",
+          "arr": null,
+          "dep": 635
+        },
+        {
+          "station": "WCM",
+          "arr": null,
+          "dep": 642
+        },
+        {
+          "station": "DSM",
+          "arr": null,
+          "dep": 659
+        },
+        {
+          "station": "HAS",
+          "arr": null,
+          "dep": 668
+        },
+        {
+          "station": "BRP",
+          "arr": null,
+          "dep": 675
+        },
+        {
+          "station": "BCC",
+          "arr": null,
+          "dep": 744
+        },
+        {
+          "station": "OUS",
+          "arr": null,
+          "dep": 693
+        },
+        {
+          "station": "LWT",
+          "arr": 701,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "MF_4",
+      "headcode": "",
+      "operator": "",
+      "days": [
+        "MF"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "DBR",
+          "arr": null,
+          "dep": 548
+        },
+        {
+          "station": "TRM",
+          "arr": null,
+          "dep": 557
+        },
+        {
+          "station": "WDB",
+          "arr": null,
+          "dep": 691
+        },
+        {
+          "station": "MES",
+          "arr": null,
+          "dep": 695
+        },
+        {
+          "station": "WCM",
+          "arr": null,
+          "dep": 702
+        },
+        {
+          "station": "DSM",
+          "arr": null,
+          "dep": 719
+        },
+        {
+          "station": "HAS",
+          "arr": null,
+          "dep": 728
+        },
+        {
+          "station": "BRP",
+          "arr": null,
+          "dep": 735
+        },
+        {
+          "station": "BCC",
+          "arr": null,
+          "dep": 804
+        },
+        {
+          "station": "OUS",
+          "arr": null,
+          "dep": 753
+        },
+        {
+          "station": "LWT",
+          "arr": 761,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "MF_5",
+      "headcode": "",
+      "operator": "",
+      "days": [
+        "MF"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "DBR",
+          "arr": null,
+          "dep": 609
+        },
+        {
+          "station": "TRM",
+          "arr": null,
+          "dep": 618
+        },
+        {
+          "station": "WDB",
+          "arr": null,
+          "dep": 751
+        },
+        {
+          "station": "MES",
+          "arr": null,
+          "dep": 755
+        },
+        {
+          "station": "WCM",
+          "arr": null,
+          "dep": 762
+        },
+        {
+          "station": "DSM",
+          "arr": null,
+          "dep": 779
+        },
+        {
+          "station": "HAS",
+          "arr": null,
+          "dep": 788
+        },
+        {
+          "station": "BRP",
+          "arr": null,
+          "dep": 795
+        },
+        {
+          "station": "BCC",
+          "arr": null,
+          "dep": 864
+        },
+        {
+          "station": "OUS",
+          "arr": null,
+          "dep": 813
+        },
+        {
+          "station": "LWT",
+          "arr": 821,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "MF_6",
+      "headcode": "",
+      "operator": "",
+      "days": [
+        "MF"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "DBR",
+          "arr": null,
+          "dep": 669
+        },
+        {
+          "station": "TRM",
+          "arr": null,
+          "dep": 678
+        },
+        {
+          "station": "WDB",
+          "arr": null,
+          "dep": 811
+        },
+        {
+          "station": "MES",
+          "arr": null,
+          "dep": 815
+        },
+        {
+          "station": "WCM",
+          "arr": null,
+          "dep": 822
+        },
+        {
+          "station": "DSM",
+          "arr": null,
+          "dep": 839
+        },
+        {
+          "station": "HAS",
+          "arr": null,
+          "dep": 848
+        },
+        {
+          "station": "BRP",
+          "arr": null,
+          "dep": 855
+        },
+        {
+          "station": "BCC",
+          "arr": null,
+          "dep": 924
+        },
+        {
+          "station": "OUS",
+          "arr": null,
+          "dep": 873
+        },
+        {
+          "station": "LWT",
+          "arr": 881,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "MF_7",
+      "headcode": "",
+      "operator": "",
+      "days": [
+        "MF"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "DBR",
+          "arr": null,
+          "dep": 729
+        },
+        {
+          "station": "TRM",
+          "arr": null,
+          "dep": 738
+        },
+        {
+          "station": "WDB",
+          "arr": null,
+          "dep": 871
+        },
+        {
+          "station": "MES",
+          "arr": null,
+          "dep": 875
+        },
+        {
+          "station": "WCM",
+          "arr": null,
+          "dep": 882
+        },
+        {
+          "station": "DSM",
+          "arr": null,
+          "dep": 899
+        },
+        {
+          "station": "HAS",
+          "arr": null,
+          "dep": 908
+        },
+        {
+          "station": "BRP",
+          "arr": null,
+          "dep": 915
+        },
+        {
+          "station": "OUS",
+          "arr": null,
+          "dep": 933
+        },
+        {
+          "station": "LWT",
+          "arr": 941,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "MF_8",
+      "headcode": "",
+      "operator": "",
+      "days": [
+        "MF"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "DBR",
+          "arr": null,
+          "dep": 789
+        },
+        {
+          "station": "TRM",
+          "arr": null,
+          "dep": 798
+        },
+        {
+          "station": "WCM",
+          "arr": null,
+          "dep": 491
+        }
+      ]
+    },
+    {
+      "id": "MF_9",
+      "headcode": "",
+      "operator": "",
+      "days": [
+        "MF"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "DBR",
+          "arr": null,
+          "dep": 849
+        },
+        {
+          "station": "TRM",
+          "arr": null,
+          "dep": 858
+        },
+        {
+          "station": "WCM",
+          "arr": null,
+          "dep": 593
+        }
+      ]
+    },
+    {
+      "id": "MF_10",
+      "headcode": "",
+      "operator": "",
+      "days": [
+        "MF"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "TRM",
+          "arr": 330,
+          "dep": null
+        },
+        {
+          "station": "WCM",
+          "arr": null,
+          "dep": 653
+        }
+      ]
+    },
+    {
+      "id": "MF_11",
+      "headcode": "",
+      "operator": "",
+      "days": [
+        "MF"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "TRM",
+          "arr": 390,
+          "dep": null
+        },
+        {
+          "station": "WCM",
+          "arr": null,
+          "dep": 713
+        }
+      ]
+    },
+    {
+      "id": "MF_12",
+      "headcode": "",
+      "operator": "",
+      "days": [
+        "MF"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "TRM",
+          "arr": 460,
+          "dep": null
+        },
+        {
+          "station": "WCM",
+          "arr": null,
+          "dep": 773
+        }
+      ]
+    },
+    {
+      "id": "MF_13",
+      "headcode": "",
+      "operator": "",
+      "days": [
+        "MF"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "TRM",
+          "arr": 521,
+          "dep": null
+        },
+        {
+          "station": "WCM",
+          "arr": null,
+          "dep": 833
+        }
+      ]
+    },
+    {
+      "id": "MF_14",
+      "headcode": "",
+      "operator": "",
+      "days": [
+        "MF"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "TRM",
+          "arr": 563,
+          "dep": null
+        },
+        {
+          "station": "WCM",
+          "arr": null,
+          "dep": 893
+        }
+      ]
+    },
+    {
+      "id": "MF_15",
+      "headcode": "",
+      "operator": "",
+      "days": [
+        "MF"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "TRM",
+          "arr": 624,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "MF_16",
+      "headcode": "",
+      "operator": "",
+      "days": [
+        "MF"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "TRM",
+          "arr": 684,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "MF_17",
+      "headcode": "",
+      "operator": "",
+      "days": [
+        "MF"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "TRM",
+          "arr": 744,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "MF_18",
+      "headcode": "",
+      "operator": "",
+      "days": [
+        "MF"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "TRM",
+          "arr": 804,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "MF_19",
+      "headcode": "",
+      "operator": "",
+      "days": [
+        "MF"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "TRM",
+          "arr": 864,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "SAT_20",
+      "headcode": "",
+      "operator": "",
+      "days": [
+        "SAT"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "DBR",
+          "arr": null,
+          "dep": 369
+        },
+        {
+          "station": "TRM",
+          "arr": null,
+          "dep": 378
+        },
+        {
+          "station": "WDB",
+          "arr": null,
+          "dep": 451
+        },
+        {
+          "station": "MES",
+          "arr": null,
+          "dep": 455
+        },
+        {
+          "station": "WCM",
+          "arr": null,
+          "dep": 462
+        },
+        {
+          "station": "DSM",
+          "arr": null,
+          "dep": 479
+        },
+        {
+          "station": "HAS",
+          "arr": null,
+          "dep": 488
+        },
+        {
+          "station": "BRP",
+          "arr": null,
+          "dep": 495
+        },
+        {
+          "station": "BCC",
+          "arr": null,
+          "dep": 504
+        },
+        {
+          "station": "OUS",
+          "arr": null,
+          "dep": 513
+        },
+        {
+          "station": "LWT",
+          "arr": 521,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "SAT_21",
+      "headcode": "",
+      "operator": "",
+      "days": [
+        "SAT"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "DBR",
+          "arr": null,
+          "dep": 429
+        },
+        {
+          "station": "TRM",
+          "arr": null,
+          "dep": 438
+        },
+        {
+          "station": "WDB",
+          "arr": null,
+          "dep": 511
+        },
+        {
+          "station": "MES",
+          "arr": null,
+          "dep": 515
+        },
+        {
+          "station": "WCM",
+          "arr": null,
+          "dep": 522
+        },
+        {
+          "station": "DSM",
+          "arr": null,
+          "dep": 539
+        },
+        {
+          "station": "HAS",
+          "arr": null,
+          "dep": 548
+        },
+        {
+          "station": "BRP",
+          "arr": null,
+          "dep": 555
+        },
+        {
+          "station": "BCC",
+          "arr": null,
+          "dep": 564
+        },
+        {
+          "station": "OUS",
+          "arr": null,
+          "dep": 573
+        },
+        {
+          "station": "LWT",
+          "arr": 581,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "SAT_22",
+      "headcode": "",
+      "operator": "",
+      "days": [
+        "SAT"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "DBR",
+          "arr": null,
+          "dep": 489
+        },
+        {
+          "station": "TRM",
+          "arr": null,
+          "dep": 498
+        },
+        {
+          "station": "WDB",
+          "arr": null,
+          "dep": 571
+        },
+        {
+          "station": "MES",
+          "arr": null,
+          "dep": 575
+        },
+        {
+          "station": "WCM",
+          "arr": null,
+          "dep": 582
+        },
+        {
+          "station": "DSM",
+          "arr": null,
+          "dep": 599
+        },
+        {
+          "station": "HAS",
+          "arr": null,
+          "dep": 608
+        },
+        {
+          "station": "BRP",
+          "arr": null,
+          "dep": 615
+        },
+        {
+          "station": "BCC",
+          "arr": null,
+          "dep": 624
+        },
+        {
+          "station": "OUS",
+          "arr": null,
+          "dep": 635
+        },
+        {
+          "station": "LWT",
+          "arr": 642,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "SAT_23",
+      "headcode": "",
+      "operator": "",
+      "days": [
+        "SAT"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "DBR",
+          "arr": null,
+          "dep": 549
+        },
+        {
+          "station": "TRM",
+          "arr": null,
+          "dep": 558
+        },
+        {
+          "station": "WDB",
+          "arr": null,
+          "dep": 631
+        },
+        {
+          "station": "MES",
+          "arr": null,
+          "dep": 635
+        },
+        {
+          "station": "WCM",
+          "arr": null,
+          "dep": 642
+        },
+        {
+          "station": "DSM",
+          "arr": null,
+          "dep": 659
+        },
+        {
+          "station": "HAS",
+          "arr": null,
+          "dep": 668
+        },
+        {
+          "station": "BRP",
+          "arr": null,
+          "dep": 675
+        },
+        {
+          "station": "BCC",
+          "arr": null,
+          "dep": 684
+        },
+        {
+          "station": "OUS",
+          "arr": null,
+          "dep": 693
+        },
+        {
+          "station": "LWT",
+          "arr": 701,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "SAT_24",
+      "headcode": "",
+      "operator": "",
+      "days": [
+        "SAT"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "DBR",
+          "arr": null,
+          "dep": 609
+        },
+        {
+          "station": "TRM",
+          "arr": null,
+          "dep": 618
+        },
+        {
+          "station": "WDB",
+          "arr": null,
+          "dep": 691
+        },
+        {
+          "station": "MES",
+          "arr": null,
+          "dep": 695
+        },
+        {
+          "station": "WCM",
+          "arr": null,
+          "dep": 702
+        },
+        {
+          "station": "DSM",
+          "arr": null,
+          "dep": 719
+        },
+        {
+          "station": "HAS",
+          "arr": null,
+          "dep": 728
+        },
+        {
+          "station": "BRP",
+          "arr": null,
+          "dep": 735
+        },
+        {
+          "station": "BCC",
+          "arr": null,
+          "dep": 744
+        },
+        {
+          "station": "OUS",
+          "arr": null,
+          "dep": 753
+        },
+        {
+          "station": "LWT",
+          "arr": 761,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "SAT_25",
+      "headcode": "",
+      "operator": "",
+      "days": [
+        "SAT"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "DBR",
+          "arr": null,
+          "dep": 669
+        },
+        {
+          "station": "TRM",
+          "arr": null,
+          "dep": 678
+        },
+        {
+          "station": "WDB",
+          "arr": null,
+          "dep": 751
+        },
+        {
+          "station": "MES",
+          "arr": null,
+          "dep": 755
+        },
+        {
+          "station": "WCM",
+          "arr": null,
+          "dep": 762
+        },
+        {
+          "station": "DSM",
+          "arr": null,
+          "dep": 779
+        },
+        {
+          "station": "HAS",
+          "arr": null,
+          "dep": 788
+        },
+        {
+          "station": "BRP",
+          "arr": null,
+          "dep": 795
+        },
+        {
+          "station": "BCC",
+          "arr": null,
+          "dep": 804
+        },
+        {
+          "station": "OUS",
+          "arr": null,
+          "dep": 813
+        },
+        {
+          "station": "LWT",
+          "arr": 821,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "SAT_26",
+      "headcode": "",
+      "operator": "",
+      "days": [
+        "SAT"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "DBR",
+          "arr": null,
+          "dep": 729
+        },
+        {
+          "station": "TRM",
+          "arr": null,
+          "dep": 738
+        },
+        {
+          "station": "WDB",
+          "arr": null,
+          "dep": 811
+        },
+        {
+          "station": "MES",
+          "arr": null,
+          "dep": 816
+        },
+        {
+          "station": "WCM",
+          "arr": null,
+          "dep": 822
+        },
+        {
+          "station": "DSM",
+          "arr": null,
+          "dep": 840
+        },
+        {
+          "station": "HAS",
+          "arr": null,
+          "dep": 849
+        },
+        {
+          "station": "BRP",
+          "arr": null,
+          "dep": 855
+        },
+        {
+          "station": "BCC",
+          "arr": null,
+          "dep": 864
+        },
+        {
+          "station": "OUS",
+          "arr": null,
+          "dep": 874
+        },
+        {
+          "station": "LWT",
+          "arr": 881,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "SAT_27",
+      "headcode": "",
+      "operator": "",
+      "days": [
+        "SAT"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "DBR",
+          "arr": null,
+          "dep": 789
+        },
+        {
+          "station": "TRM",
+          "arr": null,
+          "dep": 798
+        },
+        {
+          "station": "WDB",
+          "arr": null,
+          "dep": 871
+        },
+        {
+          "station": "MES",
+          "arr": null,
+          "dep": 875
+        },
+        {
+          "station": "WCM",
+          "arr": null,
+          "dep": 882
+        },
+        {
+          "station": "DSM",
+          "arr": null,
+          "dep": 899
+        },
+        {
+          "station": "HAS",
+          "arr": null,
+          "dep": 908
+        },
+        {
+          "station": "BRP",
+          "arr": null,
+          "dep": 915
+        },
+        {
+          "station": "BCC",
+          "arr": null,
+          "dep": 924
+        },
+        {
+          "station": "OUS",
+          "arr": null,
+          "dep": 933
+        },
+        {
+          "station": "LWT",
+          "arr": 941,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "SAT_28",
+      "headcode": "",
+      "operator": "",
+      "days": [
+        "SAT"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "DBR",
+          "arr": null,
+          "dep": 849
+        },
+        {
+          "station": "TRM",
+          "arr": null,
+          "dep": 858
+        },
+        {
+          "station": "WCM",
+          "arr": null,
+          "dep": 473
+        }
+      ]
+    },
+    {
+      "id": "SAT_29",
+      "headcode": "",
+      "operator": "",
+      "days": [
+        "SAT"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "DBR",
+          "arr": null,
+          "dep": 909
+        },
+        {
+          "station": "TRM",
+          "arr": null,
+          "dep": 918
+        },
+        {
+          "station": "WCM",
+          "arr": null,
+          "dep": 533
+        }
+      ]
+    },
+    {
+      "id": "SAT_30",
+      "headcode": "",
+      "operator": "",
+      "days": [
+        "SAT"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "TRM",
+          "arr": 384,
+          "dep": null
+        },
+        {
+          "station": "WCM",
+          "arr": null,
+          "dep": 593
+        }
+      ]
+    },
+    {
+      "id": "SAT_31",
+      "headcode": "",
+      "operator": "",
+      "days": [
+        "SAT"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "TRM",
+          "arr": 444,
+          "dep": null
+        },
+        {
+          "station": "WCM",
+          "arr": null,
+          "dep": 653
+        }
+      ]
+    },
+    {
+      "id": "SAT_32",
+      "headcode": "",
+      "operator": "",
+      "days": [
+        "SAT"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "TRM",
+          "arr": 504,
+          "dep": null
+        },
+        {
+          "station": "WCM",
+          "arr": null,
+          "dep": 713
+        }
+      ]
+    },
+    {
+      "id": "SAT_33",
+      "headcode": "",
+      "operator": "",
+      "days": [
+        "SAT"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "TRM",
+          "arr": 564,
+          "dep": null
+        },
+        {
+          "station": "WCM",
+          "arr": null,
+          "dep": 773
+        }
+      ]
+    },
+    {
+      "id": "SAT_34",
+      "headcode": "",
+      "operator": "",
+      "days": [
+        "SAT"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "TRM",
+          "arr": 624,
+          "dep": null
+        },
+        {
+          "station": "WCM",
+          "arr": null,
+          "dep": 833
+        }
+      ]
+    },
+    {
+      "id": "SAT_35",
+      "headcode": "",
+      "operator": "",
+      "days": [
+        "SAT"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "TRM",
+          "arr": 684,
+          "dep": null
+        },
+        {
+          "station": "WCM",
+          "arr": null,
+          "dep": 893
+        }
+      ]
+    },
+    {
+      "id": "SAT_36",
+      "headcode": "",
+      "operator": "",
+      "days": [
+        "SAT"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "TRM",
+          "arr": 744,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "SAT_37",
+      "headcode": "",
+      "operator": "",
+      "days": [
+        "SAT"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "TRM",
+          "arr": 804,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "SAT_38",
+      "headcode": "",
+      "operator": "",
+      "days": [
+        "SAT"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "TRM",
+          "arr": 864,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "SAT_39",
+      "headcode": "",
+      "operator": "",
+      "days": [
+        "SAT"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "TRM",
+          "arr": 924,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "SUN_40",
+      "headcode": "",
+      "operator": "",
+      "days": [
+        "SUN"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "DBR",
+          "arr": null,
+          "dep": 606
+        },
+        {
+          "station": "TRM",
+          "arr": null,
+          "dep": 615
+        },
+        {
+          "station": "WDB",
+          "arr": null,
+          "dep": 624
+        },
+        {
+          "station": "MES",
+          "arr": null,
+          "dep": 629
+        },
+        {
+          "station": "WCM",
+          "arr": null,
+          "dep": 635
+        },
+        {
+          "station": "DSM",
+          "arr": null,
+          "dep": 653
+        },
+        {
+          "station": "HAS",
+          "arr": null,
+          "dep": 662
+        },
+        {
+          "station": "BRP",
+          "arr": null,
+          "dep": 668
+        },
+        {
+          "station": "OUS",
+          "arr": null,
+          "dep": 689
+        },
+        {
+          "station": "LWT",
+          "arr": 696,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "SUN_41",
+      "headcode": "",
+      "operator": "",
+      "days": [
+        "SUN"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "DBR",
+          "arr": null,
+          "dep": 666
+        },
+        {
+          "station": "TRM",
+          "arr": null,
+          "dep": 675
+        },
+        {
+          "station": "WDB",
+          "arr": null,
+          "dep": 684
+        },
+        {
+          "station": "MES",
+          "arr": null,
+          "dep": 689
+        },
+        {
+          "station": "WCM",
+          "arr": null,
+          "dep": 695
+        },
+        {
+          "station": "DSM",
+          "arr": null,
+          "dep": 713
+        },
+        {
+          "station": "HAS",
+          "arr": null,
+          "dep": 722
+        },
+        {
+          "station": "BRP",
+          "arr": null,
+          "dep": 728
+        },
+        {
+          "station": "OUS",
+          "arr": null,
+          "dep": 749
+        },
+        {
+          "station": "LWT",
+          "arr": 756,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "SUN_42",
+      "headcode": "",
+      "operator": "",
+      "days": [
+        "SUN"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "DBR",
+          "arr": null,
+          "dep": 726
+        },
+        {
+          "station": "TRM",
+          "arr": null,
+          "dep": 735
+        },
+        {
+          "station": "WDB",
+          "arr": null,
+          "dep": 744
+        },
+        {
+          "station": "MES",
+          "arr": null,
+          "dep": 749
+        },
+        {
+          "station": "WCM",
+          "arr": null,
+          "dep": 755
+        },
+        {
+          "station": "DSM",
+          "arr": null,
+          "dep": 773
+        },
+        {
+          "station": "HAS",
+          "arr": null,
+          "dep": 782
+        },
+        {
+          "station": "BRP",
+          "arr": null,
+          "dep": 788
+        },
+        {
+          "station": "OUS",
+          "arr": null,
+          "dep": 809
+        },
+        {
+          "station": "LWT",
+          "arr": 816,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "SUN_43",
+      "headcode": "",
+      "operator": "",
+      "days": [
+        "SUN"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "DBR",
+          "arr": null,
+          "dep": 786
+        },
+        {
+          "station": "TRM",
+          "arr": null,
+          "dep": 795
+        },
+        {
+          "station": "WDB",
+          "arr": null,
+          "dep": 804
+        },
+        {
+          "station": "MES",
+          "arr": null,
+          "dep": 809
+        },
+        {
+          "station": "WCM",
+          "arr": null,
+          "dep": 815
+        },
+        {
+          "station": "DSM",
+          "arr": null,
+          "dep": 833
+        },
+        {
+          "station": "HAS",
+          "arr": null,
+          "dep": 842
+        },
+        {
+          "station": "BRP",
+          "arr": null,
+          "dep": 848
+        },
+        {
+          "station": "OUS",
+          "arr": null,
+          "dep": 869
+        },
+        {
+          "station": "LWT",
+          "arr": 876,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "SUN_44",
+      "headcode": "",
+      "operator": "",
+      "days": [
+        "SUN"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "DBR",
+          "arr": null,
+          "dep": 846
+        },
+        {
+          "station": "TRM",
+          "arr": null,
+          "dep": 855
+        },
+        {
+          "station": "WDB",
+          "arr": null,
+          "dep": 864
+        },
+        {
+          "station": "MES",
+          "arr": null,
+          "dep": 869
+        },
+        {
+          "station": "WCM",
+          "arr": null,
+          "dep": 875
+        },
+        {
+          "station": "DSM",
+          "arr": null,
+          "dep": 893
+        },
+        {
+          "station": "HAS",
+          "arr": null,
+          "dep": 902
+        },
+        {
+          "station": "BRP",
+          "arr": null,
+          "dep": 908
+        },
+        {
+          "station": "OUS",
+          "arr": null,
+          "dep": 929
+        },
+        {
+          "station": "LWT",
+          "arr": 936,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "SUN_45",
+      "headcode": "",
+      "operator": "",
+      "days": [
+        "SUN"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "DBR",
+          "arr": null,
+          "dep": 906
+        },
+        {
+          "station": "TRM",
+          "arr": null,
+          "dep": 915
+        },
+        {
+          "station": "WDB",
+          "arr": null,
+          "dep": 924
+        },
+        {
+          "station": "MES",
+          "arr": null,
+          "dep": 929
+        },
+        {
+          "station": "WCM",
+          "arr": null,
+          "dep": 935
+        },
+        {
+          "station": "DSM",
+          "arr": null,
+          "dep": 953
+        },
+        {
+          "station": "HAS",
+          "arr": null,
+          "dep": 962
+        },
+        {
+          "station": "BRP",
+          "arr": null,
+          "dep": 968
+        },
+        {
+          "station": "OUS",
+          "arr": null,
+          "dep": 989
+        },
+        {
+          "station": "LWT",
+          "arr": 996,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "SUN_46",
+      "headcode": "",
+      "operator": "",
+      "days": [
+        "SUN"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "DBR",
+          "arr": null,
+          "dep": 966
+        },
+        {
+          "station": "TRM",
+          "arr": null,
+          "dep": 975
+        },
+        {
+          "station": "WDB",
+          "arr": null,
+          "dep": 984
+        },
+        {
+          "station": "MES",
+          "arr": null,
+          "dep": 989
+        },
+        {
+          "station": "WCM",
+          "arr": null,
+          "dep": 995
+        },
+        {
+          "station": "DSM",
+          "arr": null,
+          "dep": 1013
+        },
+        {
+          "station": "HAS",
+          "arr": null,
+          "dep": 1022
+        },
+        {
+          "station": "BRP",
+          "arr": null,
+          "dep": 1028
+        },
+        {
+          "station": "OUS",
+          "arr": null,
+          "dep": 1049
+        },
+        {
+          "station": "LWT",
+          "arr": 1056,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "SUN_47",
+      "headcode": "",
+      "operator": "",
+      "days": [
+        "SUN"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "DBR",
+          "arr": null,
+          "dep": 1026
+        },
+        {
+          "station": "TRM",
+          "arr": null,
+          "dep": 1035
+        },
+        {
+          "station": "WDB",
+          "arr": null,
+          "dep": 1044
+        },
+        {
+          "station": "MES",
+          "arr": null,
+          "dep": 1049
+        },
+        {
+          "station": "WCM",
+          "arr": null,
+          "dep": 1055
+        },
+        {
+          "station": "DSM",
+          "arr": null,
+          "dep": 1073
+        },
+        {
+          "station": "HAS",
+          "arr": null,
+          "dep": 1082
+        },
+        {
+          "station": "BRP",
+          "arr": null,
+          "dep": 1088
+        },
+        {
+          "station": "OUS",
+          "arr": null,
+          "dep": 1109
+        },
+        {
+          "station": "LWT",
+          "arr": 1116,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "SUN_48",
+      "headcode": "",
+      "operator": "",
+      "days": [
+        "SUN"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "DBR",
+          "arr": null,
+          "dep": 1086
+        },
+        {
+          "station": "TRM",
+          "arr": null,
+          "dep": 1095
+        },
+        {
+          "station": "WDB",
+          "arr": null,
+          "dep": 1104
+        },
+        {
+          "station": "MES",
+          "arr": null,
+          "dep": 1109
+        },
+        {
+          "station": "WCM",
+          "arr": null,
+          "dep": 1115
+        },
+        {
+          "station": "DSM",
+          "arr": null,
+          "dep": 1133
+        },
+        {
+          "station": "HAS",
+          "arr": null,
+          "dep": 1142
+        },
+        {
+          "station": "BRP",
+          "arr": null,
+          "dep": 1148
+        },
+        {
+          "station": "OUS",
+          "arr": null,
+          "dep": 1169
+        },
+        {
+          "station": "LWT",
+          "arr": 1176,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "SUN_49",
+      "headcode": "",
+      "operator": "",
+      "days": [
+        "SUN"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "TRM",
+          "arr": 621,
+          "dep": null
+        },
+        {
+          "station": "WCM",
+          "arr": null,
+          "dep": 646
+        }
+      ]
+    },
+    {
+      "id": "SUN_50",
+      "headcode": "",
+      "operator": "",
+      "days": [
+        "SUN"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "TRM",
+          "arr": 681,
+          "dep": null
+        },
+        {
+          "station": "WCM",
+          "arr": null,
+          "dep": 706
+        }
+      ]
+    },
+    {
+      "id": "SUN_51",
+      "headcode": "",
+      "operator": "",
+      "days": [
+        "SUN"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "TRM",
+          "arr": 741,
+          "dep": null
+        },
+        {
+          "station": "WCM",
+          "arr": null,
+          "dep": 766
+        }
+      ]
+    },
+    {
+      "id": "SUN_52",
+      "headcode": "",
+      "operator": "",
+      "days": [
+        "SUN"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "TRM",
+          "arr": 801,
+          "dep": null
+        },
+        {
+          "station": "WCM",
+          "arr": null,
+          "dep": 826
+        }
+      ]
+    },
+    {
+      "id": "SUN_53",
+      "headcode": "",
+      "operator": "",
+      "days": [
+        "SUN"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "TRM",
+          "arr": 861,
+          "dep": null
+        },
+        {
+          "station": "WCM",
+          "arr": null,
+          "dep": 886
+        }
+      ]
+    },
+    {
+      "id": "SUN_54",
+      "headcode": "",
+      "operator": "",
+      "days": [
+        "SUN"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "TRM",
+          "arr": 921,
+          "dep": null
+        },
+        {
+          "station": "WCM",
+          "arr": null,
+          "dep": 946
+        }
+      ]
+    },
+    {
+      "id": "SUN_55",
+      "headcode": "",
+      "operator": "",
+      "days": [
+        "SUN"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "TRM",
+          "arr": 981,
+          "dep": null
+        },
+        {
+          "station": "WCM",
+          "arr": null,
+          "dep": 1006
+        }
+      ]
+    },
+    {
+      "id": "SUN_56",
+      "headcode": "",
+      "operator": "",
+      "days": [
+        "SUN"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "TRM",
+          "arr": 1041,
+          "dep": null
+        },
+        {
+          "station": "WCM",
+          "arr": null,
+          "dep": 1066
+        }
+      ]
+    },
+    {
+      "id": "SUN_57",
+      "headcode": "",
+      "operator": "",
+      "days": [
+        "SUN"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "TRM",
+          "arr": 1101,
+          "dep": null
+        },
+        {
+          "station": "WCM",
+          "arr": null,
+          "dep": 1126
+        }
+      ]
+    },
+    {
+      "id": "MF_58",
+      "headcode": "",
+      "operator": "",
+      "days": [
+        "MF"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "LWT",
+          "arr": null,
+          "dep": 324
+        },
+        {
+          "station": "OUS",
+          "arr": null,
+          "dep": 330
+        },
+        {
+          "station": "BCC",
+          "arr": null,
+          "dep": 340
+        },
+        {
+          "station": "BRP",
+          "arr": null,
+          "dep": 348
+        },
+        {
+          "station": "HAS",
+          "arr": null,
+          "dep": 355
+        },
+        {
+          "station": "DSM",
+          "arr": null,
+          "dep": 363
+        },
+        {
+          "station": "WCM",
+          "arr": null,
+          "dep": 381
+        },
+        {
+          "station": "MES",
+          "arr": null,
+          "dep": 388
+        },
+        {
+          "station": "WDB",
+          "arr": null,
+          "dep": 394
+        },
+        {
+          "station": "TRM",
+          "arr": null,
+          "dep": 337
+        },
+        {
+          "station": "DBR",
+          "arr": null,
+          "dep": 346
+        }
+      ]
+    },
+    {
+      "id": "MF_59",
+      "headcode": "",
+      "operator": "",
+      "days": [
+        "MF"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "LWT",
+          "arr": null,
+          "dep": 371
+        },
+        {
+          "station": "OUS",
+          "arr": null,
+          "dep": 377
+        },
+        {
+          "station": "BCC",
+          "arr": null,
+          "dep": 387
+        },
+        {
+          "station": "BRP",
+          "arr": null,
+          "dep": 395
+        },
+        {
+          "station": "HAS",
+          "arr": null,
+          "dep": 402
+        },
+        {
+          "station": "DSM",
+          "arr": null,
+          "dep": 410
+        },
+        {
+          "station": "WCM",
+          "arr": null,
+          "dep": 428
+        },
+        {
+          "station": "MES",
+          "arr": null,
+          "dep": 435
+        },
+        {
+          "station": "WDB",
+          "arr": null,
+          "dep": 441
+        },
+        {
+          "station": "TRM",
+          "arr": null,
+          "dep": 399
+        },
+        {
+          "station": "DBR",
+          "arr": null,
+          "dep": 408
+        }
+      ]
+    },
+    {
+      "id": "MF_60",
+      "headcode": "",
+      "operator": "",
+      "days": [
+        "MF"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "LWT",
+          "arr": null,
+          "dep": 398
+        },
+        {
+          "station": "OUS",
+          "arr": null,
+          "dep": 404
+        },
+        {
+          "station": "BCC",
+          "arr": null,
+          "dep": 414
+        },
+        {
+          "station": "BRP",
+          "arr": null,
+          "dep": 422
+        },
+        {
+          "station": "HAS",
+          "arr": null,
+          "dep": 429
+        },
+        {
+          "station": "DSM",
+          "arr": null,
+          "dep": 437
+        },
+        {
+          "station": "WCM",
+          "arr": null,
+          "dep": 455
+        },
+        {
+          "station": "MES",
+          "arr": null,
+          "dep": 462
+        },
+        {
+          "station": "WDB",
+          "arr": null,
+          "dep": 468
+        },
+        {
+          "station": "TRM",
+          "arr": null,
+          "dep": 471
+        },
+        {
+          "station": "DBR",
+          "arr": null,
+          "dep": 481
+        }
+      ]
+    },
+    {
+      "id": "MF_61",
+      "headcode": "",
+      "operator": "",
+      "days": [
+        "MF"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "LWT",
+          "arr": null,
+          "dep": 448
+        },
+        {
+          "station": "OUS",
+          "arr": null,
+          "dep": 454
+        },
+        {
+          "station": "BCC",
+          "arr": null,
+          "dep": 464
+        },
+        {
+          "station": "BRP",
+          "arr": null,
+          "dep": 472
+        },
+        {
+          "station": "HAS",
+          "arr": null,
+          "dep": 479
+        },
+        {
+          "station": "DSM",
+          "arr": null,
+          "dep": 487
+        },
+        {
+          "station": "WCM",
+          "arr": null,
+          "dep": 505
+        },
+        {
+          "station": "MES",
+          "arr": null,
+          "dep": 512
+        },
+        {
+          "station": "WDB",
+          "arr": null,
+          "dep": 518
+        },
+        {
+          "station": "TRM",
+          "arr": null,
+          "dep": 537
+        },
+        {
+          "station": "DBR",
+          "arr": null,
+          "dep": 580
+        }
+      ]
+    },
+    {
+      "id": "MF_62",
+      "headcode": "",
+      "operator": "",
+      "days": [
+        "MF"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "LWT",
+          "arr": null,
+          "dep": 546
+        },
+        {
+          "station": "OUS",
+          "arr": null,
+          "dep": 551
+        },
+        {
+          "station": "BRP",
+          "arr": null,
+          "dep": 572
+        },
+        {
+          "station": "HAS",
+          "arr": null,
+          "dep": 579
+        },
+        {
+          "station": "DSM",
+          "arr": null,
+          "dep": 587
+        },
+        {
+          "station": "WCM",
+          "arr": null,
+          "dep": 604
+        },
+        {
+          "station": "MES",
+          "arr": null,
+          "dep": 611
+        },
+        {
+          "station": "WDB",
+          "arr": null,
+          "dep": 617
+        },
+        {
+          "station": "TRM",
+          "arr": null,
+          "dep": 571
+        },
+        {
+          "station": "DBR",
+          "arr": null,
+          "dep": 640
+        }
+      ]
+    },
+    {
+      "id": "MF_63",
+      "headcode": "",
+      "operator": "",
+      "days": [
+        "MF"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "LWT",
+          "arr": null,
+          "dep": 606
+        },
+        {
+          "station": "OUS",
+          "arr": null,
+          "dep": 611
+        },
+        {
+          "station": "BRP",
+          "arr": null,
+          "dep": 632
+        },
+        {
+          "station": "HAS",
+          "arr": null,
+          "dep": 639
+        },
+        {
+          "station": "DSM",
+          "arr": null,
+          "dep": 647
+        },
+        {
+          "station": "WCM",
+          "arr": null,
+          "dep": 664
+        },
+        {
+          "station": "MES",
+          "arr": null,
+          "dep": 671
+        },
+        {
+          "station": "WDB",
+          "arr": null,
+          "dep": 677
+        },
+        {
+          "station": "TRM",
+          "arr": null,
+          "dep": 631
+        },
+        {
+          "station": "DBR",
+          "arr": null,
+          "dep": 700
+        }
+      ]
+    },
+    {
+      "id": "MF_64",
+      "headcode": "",
+      "operator": "",
+      "days": [
+        "MF"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "LWT",
+          "arr": null,
+          "dep": 666
+        },
+        {
+          "station": "OUS",
+          "arr": null,
+          "dep": 671
+        },
+        {
+          "station": "BRP",
+          "arr": null,
+          "dep": 692
+        },
+        {
+          "station": "HAS",
+          "arr": null,
+          "dep": 699
+        },
+        {
+          "station": "DSM",
+          "arr": null,
+          "dep": 707
+        },
+        {
+          "station": "WCM",
+          "arr": null,
+          "dep": 724
+        },
+        {
+          "station": "MES",
+          "arr": null,
+          "dep": 731
+        },
+        {
+          "station": "WDB",
+          "arr": null,
+          "dep": 737
+        },
+        {
+          "station": "TRM",
+          "arr": null,
+          "dep": 691
+        },
+        {
+          "station": "DBR",
+          "arr": null,
+          "dep": 760
+        }
+      ]
+    },
+    {
+      "id": "MF_65",
+      "headcode": "",
+      "operator": "",
+      "days": [
+        "MF"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "LWT",
+          "arr": null,
+          "dep": 726
+        },
+        {
+          "station": "OUS",
+          "arr": null,
+          "dep": 731
+        },
+        {
+          "station": "BRP",
+          "arr": null,
+          "dep": 752
+        },
+        {
+          "station": "HAS",
+          "arr": null,
+          "dep": 759
+        },
+        {
+          "station": "DSM",
+          "arr": null,
+          "dep": 767
+        },
+        {
+          "station": "WCM",
+          "arr": null,
+          "dep": 784
+        },
+        {
+          "station": "MES",
+          "arr": null,
+          "dep": 791
+        },
+        {
+          "station": "WDB",
+          "arr": null,
+          "dep": 797
+        },
+        {
+          "station": "TRM",
+          "arr": null,
+          "dep": 751
+        },
+        {
+          "station": "DBR",
+          "arr": null,
+          "dep": 821
+        }
+      ]
+    },
+    {
+      "id": "MF_66",
+      "headcode": "",
+      "operator": "",
+      "days": [
+        "MF"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "LWT",
+          "arr": null,
+          "dep": 786
+        },
+        {
+          "station": "OUS",
+          "arr": null,
+          "dep": 791
+        },
+        {
+          "station": "BRP",
+          "arr": null,
+          "dep": 812
+        },
+        {
+          "station": "HAS",
+          "arr": null,
+          "dep": 819
+        },
+        {
+          "station": "DSM",
+          "arr": null,
+          "dep": 827
+        },
+        {
+          "station": "WCM",
+          "arr": null,
+          "dep": 844
+        },
+        {
+          "station": "MES",
+          "arr": null,
+          "dep": 851
+        },
+        {
+          "station": "WDB",
+          "arr": null,
+          "dep": 857
+        },
+        {
+          "station": "TRM",
+          "arr": null,
+          "dep": 811
+        },
+        {
+          "station": "DBR",
+          "arr": null,
+          "dep": 352
+        }
+      ]
+    },
+    {
+      "id": "MF_67",
+      "headcode": "",
+      "operator": "",
+      "days": [
+        "MF"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "DSM",
+          "arr": null,
+          "dep": 371
+        },
+        {
+          "station": "WDB",
+          "arr": null,
+          "dep": 334
+        },
+        {
+          "station": "DBR",
+          "arr": null,
+          "dep": 404
+        }
+      ]
+    },
+    {
+      "id": "MF_68",
+      "headcode": "",
+      "operator": "",
+      "days": [
+        "MF"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "DSM",
+          "arr": null,
+          "dep": 418
+        },
+        {
+          "station": "WDB",
+          "arr": null,
+          "dep": 396
+        },
+        {
+          "station": "DBR",
+          "arr": null,
+          "dep": 413
+        }
+      ]
+    },
+    {
+      "id": "MF_69",
+      "headcode": "",
+      "operator": "",
+      "days": [
+        "MF"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "DSM",
+          "arr": null,
+          "dep": 445
+        },
+        {
+          "station": "WDB",
+          "arr": null,
+          "dep": 468
+        },
+        {
+          "station": "DBR",
+          "arr": null,
+          "dep": 451
+        }
+      ]
+    },
+    {
+      "id": "MF_70",
+      "headcode": "",
+      "operator": "",
+      "days": [
+        "MF"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "DSM",
+          "arr": null,
+          "dep": 495
+        },
+        {
+          "station": "WDB",
+          "arr": null,
+          "dep": 534
+        },
+        {
+          "station": "DBR",
+          "arr": null,
+          "dep": 478
+        }
+      ]
+    },
+    {
+      "id": "MF_71",
+      "headcode": "",
+      "operator": "",
+      "days": [
+        "MF"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "DSM",
+          "arr": null,
+          "dep": 595
+        },
+        {
+          "station": "WDB",
+          "arr": null,
+          "dep": 568
+        },
+        {
+          "station": "DBR",
+          "arr": null,
+          "dep": 486
+        }
+      ]
+    },
+    {
+      "id": "MF_72",
+      "headcode": "",
+      "operator": "",
+      "days": [
+        "MF"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "DSM",
+          "arr": null,
+          "dep": 655
+        },
+        {
+          "station": "WDB",
+          "arr": null,
+          "dep": 628
+        },
+        {
+          "station": "DBR",
+          "arr": null,
+          "dep": 528
+        }
+      ]
+    },
+    {
+      "id": "MF_73",
+      "headcode": "",
+      "operator": "",
+      "days": [
+        "MF"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "DSM",
+          "arr": null,
+          "dep": 715
+        },
+        {
+          "station": "WDB",
+          "arr": null,
+          "dep": 688
+        },
+        {
+          "station": "DBR",
+          "arr": null,
+          "dep": 554
+        }
+      ]
+    },
+    {
+      "id": "MF_74",
+      "headcode": "",
+      "operator": "",
+      "days": [
+        "MF"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "DSM",
+          "arr": null,
+          "dep": 775
+        },
+        {
+          "station": "WDB",
+          "arr": null,
+          "dep": 748
+        },
+        {
+          "station": "DBR",
+          "arr": null,
+          "dep": 585
+        }
+      ]
+    },
+    {
+      "id": "MF_75",
+      "headcode": "",
+      "operator": "",
+      "days": [
+        "MF"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "DSM",
+          "arr": null,
+          "dep": 835
+        },
+        {
+          "station": "WDB",
+          "arr": null,
+          "dep": 808
+        },
+        {
+          "station": "DBR",
+          "arr": null,
+          "dep": 645
+        }
+      ]
+    },
+    {
+      "id": "MF_76",
+      "headcode": "",
+      "operator": "",
+      "days": [
+        "MF"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "DBR",
+          "arr": null,
+          "dep": 705
+        }
+      ]
+    },
+    {
+      "id": "MF_77",
+      "headcode": "",
+      "operator": "",
+      "days": [
+        "MF"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "DBR",
+          "arr": null,
+          "dep": 765
+        }
+      ]
+    },
+    {
+      "id": "MF_78",
+      "headcode": "",
+      "operator": "",
+      "days": [
+        "MF"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "DBR",
+          "arr": null,
+          "dep": 826
+        }
+      ]
+    },
+    {
+      "id": "MF_79",
+      "headcode": "",
+      "operator": "",
+      "days": [
+        "MF"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "DBR",
+          "arr": 361,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "MF_80",
+      "headcode": "",
+      "operator": "",
+      "days": [
+        "MF"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "DBR",
+          "arr": 414,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "MF_81",
+      "headcode": "",
+      "operator": "",
+      "days": [
+        "MF"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "DBR",
+          "arr": 422,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "MF_82",
+      "headcode": "",
+      "operator": "",
+      "days": [
+        "MF"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "DBR",
+          "arr": 458,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "MF_83",
+      "headcode": "",
+      "operator": "",
+      "days": [
+        "MF"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "DBR",
+          "arr": 485,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "MF_84",
+      "headcode": "",
+      "operator": "",
+      "days": [
+        "MF"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "DBR",
+          "arr": 494,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "MF_85",
+      "headcode": "",
+      "operator": "",
+      "days": [
+        "MF"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "DBR",
+          "arr": 536,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "MF_86",
+      "headcode": "",
+      "operator": "",
+      "days": [
+        "MF"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "DBR",
+          "arr": 563,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "MF_87",
+      "headcode": "",
+      "operator": "",
+      "days": [
+        "MF"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "DBR",
+          "arr": 593,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "MF_88",
+      "headcode": "",
+      "operator": "",
+      "days": [
+        "MF"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "DBR",
+          "arr": 634,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "MF_89",
+      "headcode": "",
+      "operator": "",
+      "days": [
+        "MF"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "DBR",
+          "arr": 653,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "MF_90",
+      "headcode": "",
+      "operator": "",
+      "days": [
+        "MF"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "DBR",
+          "arr": 694,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "MF_91",
+      "headcode": "",
+      "operator": "",
+      "days": [
+        "MF"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "DBR",
+          "arr": 713,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "MF_92",
+      "headcode": "",
+      "operator": "",
+      "days": [
+        "MF"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "DBR",
+          "arr": 755,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "MF_93",
+      "headcode": "",
+      "operator": "",
+      "days": [
+        "MF"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "DBR",
+          "arr": 773,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "MF_94",
+      "headcode": "",
+      "operator": "",
+      "days": [
+        "MF"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "DBR",
+          "arr": 814,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "MF_95",
+      "headcode": "",
+      "operator": "",
+      "days": [
+        "MF"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "DBR",
+          "arr": 833,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "MF_96",
+      "headcode": "",
+      "operator": "",
+      "days": [
+        "MF"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "DBR",
+          "arr": 874,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "SAT_97",
+      "headcode": "",
+      "operator": "",
+      "days": [
+        "SAT"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "LWT",
+          "arr": null,
+          "dep": 366
+        },
+        {
+          "station": "OUS",
+          "arr": null,
+          "dep": 371
+        },
+        {
+          "station": "BRP",
+          "arr": null,
+          "dep": 392
+        },
+        {
+          "station": "HAS",
+          "arr": null,
+          "dep": 399
+        },
+        {
+          "station": "DSM",
+          "arr": null,
+          "dep": 407
+        },
+        {
+          "station": "WCM",
+          "arr": null,
+          "dep": 424
+        },
+        {
+          "station": "MES",
+          "arr": null,
+          "dep": 431
+        },
+        {
+          "station": "WDB",
+          "arr": null,
+          "dep": 437
+        },
+        {
+          "station": "TRM",
+          "arr": null,
+          "dep": 391
+        },
+        {
+          "station": "DBR",
+          "arr": null,
+          "dep": 400
+        }
+      ]
+    },
+    {
+      "id": "SAT_98",
+      "headcode": "",
+      "operator": "",
+      "days": [
+        "SAT"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "LWT",
+          "arr": null,
+          "dep": 426
+        },
+        {
+          "station": "OUS",
+          "arr": null,
+          "dep": 431
+        },
+        {
+          "station": "BRP",
+          "arr": null,
+          "dep": 452
+        },
+        {
+          "station": "HAS",
+          "arr": null,
+          "dep": 459
+        },
+        {
+          "station": "DSM",
+          "arr": null,
+          "dep": 467
+        },
+        {
+          "station": "WCM",
+          "arr": null,
+          "dep": 484
+        },
+        {
+          "station": "MES",
+          "arr": null,
+          "dep": 491
+        },
+        {
+          "station": "WDB",
+          "arr": null,
+          "dep": 497
+        },
+        {
+          "station": "TRM",
+          "arr": null,
+          "dep": 451
+        },
+        {
+          "station": "DBR",
+          "arr": null,
+          "dep": 460
+        }
+      ]
+    },
+    {
+      "id": "SAT_99",
+      "headcode": "",
+      "operator": "",
+      "days": [
+        "SAT"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "LWT",
+          "arr": null,
+          "dep": 486
+        },
+        {
+          "station": "OUS",
+          "arr": null,
+          "dep": 491
+        },
+        {
+          "station": "BRP",
+          "arr": null,
+          "dep": 512
+        },
+        {
+          "station": "HAS",
+          "arr": null,
+          "dep": 519
+        },
+        {
+          "station": "DSM",
+          "arr": null,
+          "dep": 527
+        },
+        {
+          "station": "WCM",
+          "arr": null,
+          "dep": 544
+        },
+        {
+          "station": "MES",
+          "arr": null,
+          "dep": 551
+        },
+        {
+          "station": "WDB",
+          "arr": null,
+          "dep": 557
+        },
+        {
+          "station": "TRM",
+          "arr": null,
+          "dep": 511
+        },
+        {
+          "station": "DBR",
+          "arr": null,
+          "dep": 520
+        }
+      ]
+    },
+    {
+      "id": "SAT_100",
+      "headcode": "",
+      "operator": "",
+      "days": [
+        "SAT"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "LWT",
+          "arr": null,
+          "dep": 546
+        },
+        {
+          "station": "OUS",
+          "arr": null,
+          "dep": 551
+        },
+        {
+          "station": "BRP",
+          "arr": null,
+          "dep": 572
+        },
+        {
+          "station": "HAS",
+          "arr": null,
+          "dep": 579
+        },
+        {
+          "station": "DSM",
+          "arr": null,
+          "dep": 587
+        },
+        {
+          "station": "WCM",
+          "arr": null,
+          "dep": 604
+        },
+        {
+          "station": "MES",
+          "arr": null,
+          "dep": 611
+        },
+        {
+          "station": "WDB",
+          "arr": null,
+          "dep": 617
+        },
+        {
+          "station": "TRM",
+          "arr": null,
+          "dep": 571
+        },
+        {
+          "station": "DBR",
+          "arr": null,
+          "dep": 580
+        }
+      ]
+    },
+    {
+      "id": "SAT_101",
+      "headcode": "",
+      "operator": "",
+      "days": [
+        "SAT"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "LWT",
+          "arr": null,
+          "dep": 606
+        },
+        {
+          "station": "OUS",
+          "arr": null,
+          "dep": 611
+        },
+        {
+          "station": "BRP",
+          "arr": null,
+          "dep": 632
+        },
+        {
+          "station": "HAS",
+          "arr": null,
+          "dep": 639
+        },
+        {
+          "station": "DSM",
+          "arr": null,
+          "dep": 647
+        },
+        {
+          "station": "WCM",
+          "arr": null,
+          "dep": 664
+        },
+        {
+          "station": "MES",
+          "arr": null,
+          "dep": 671
+        },
+        {
+          "station": "WDB",
+          "arr": null,
+          "dep": 677
+        },
+        {
+          "station": "TRM",
+          "arr": null,
+          "dep": 631
+        },
+        {
+          "station": "DBR",
+          "arr": null,
+          "dep": 640
+        }
+      ]
+    },
+    {
+      "id": "SAT_102",
+      "headcode": "",
+      "operator": "",
+      "days": [
+        "SAT"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "LWT",
+          "arr": null,
+          "dep": 666
+        },
+        {
+          "station": "OUS",
+          "arr": null,
+          "dep": 671
+        },
+        {
+          "station": "BRP",
+          "arr": null,
+          "dep": 692
+        },
+        {
+          "station": "HAS",
+          "arr": null,
+          "dep": 699
+        },
+        {
+          "station": "DSM",
+          "arr": null,
+          "dep": 707
+        },
+        {
+          "station": "WCM",
+          "arr": null,
+          "dep": 724
+        },
+        {
+          "station": "MES",
+          "arr": null,
+          "dep": 731
+        },
+        {
+          "station": "WDB",
+          "arr": null,
+          "dep": 737
+        },
+        {
+          "station": "TRM",
+          "arr": null,
+          "dep": 691
+        },
+        {
+          "station": "DBR",
+          "arr": null,
+          "dep": 700
+        }
+      ]
+    },
+    {
+      "id": "SAT_103",
+      "headcode": "",
+      "operator": "",
+      "days": [
+        "SAT"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "LWT",
+          "arr": null,
+          "dep": 726
+        },
+        {
+          "station": "OUS",
+          "arr": null,
+          "dep": 731
+        },
+        {
+          "station": "BRP",
+          "arr": null,
+          "dep": 752
+        },
+        {
+          "station": "HAS",
+          "arr": null,
+          "dep": 759
+        },
+        {
+          "station": "DSM",
+          "arr": null,
+          "dep": 767
+        },
+        {
+          "station": "WCM",
+          "arr": null,
+          "dep": 784
+        },
+        {
+          "station": "MES",
+          "arr": null,
+          "dep": 791
+        },
+        {
+          "station": "WDB",
+          "arr": null,
+          "dep": 797
+        },
+        {
+          "station": "TRM",
+          "arr": null,
+          "dep": 751
+        },
+        {
+          "station": "DBR",
+          "arr": null,
+          "dep": 760
+        }
+      ]
+    },
+    {
+      "id": "SAT_104",
+      "headcode": "",
+      "operator": "",
+      "days": [
+        "SAT"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "LWT",
+          "arr": null,
+          "dep": 786
+        },
+        {
+          "station": "OUS",
+          "arr": null,
+          "dep": 791
+        },
+        {
+          "station": "BRP",
+          "arr": null,
+          "dep": 812
+        },
+        {
+          "station": "HAS",
+          "arr": null,
+          "dep": 819
+        },
+        {
+          "station": "DSM",
+          "arr": null,
+          "dep": 827
+        },
+        {
+          "station": "WCM",
+          "arr": null,
+          "dep": 844
+        },
+        {
+          "station": "MES",
+          "arr": null,
+          "dep": 851
+        },
+        {
+          "station": "WDB",
+          "arr": null,
+          "dep": 857
+        },
+        {
+          "station": "TRM",
+          "arr": null,
+          "dep": 811
+        },
+        {
+          "station": "DBR",
+          "arr": null,
+          "dep": 821
+        }
+      ]
+    },
+    {
+      "id": "SAT_105",
+      "headcode": "",
+      "operator": "",
+      "days": [
+        "SAT"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "LWT",
+          "arr": null,
+          "dep": 846
+        },
+        {
+          "station": "OUS",
+          "arr": null,
+          "dep": 851
+        },
+        {
+          "station": "BRP",
+          "arr": null,
+          "dep": 872
+        },
+        {
+          "station": "HAS",
+          "arr": null,
+          "dep": 880
+        },
+        {
+          "station": "DSM",
+          "arr": null,
+          "dep": 888
+        },
+        {
+          "station": "WCM",
+          "arr": null,
+          "dep": 905
+        },
+        {
+          "station": "MES",
+          "arr": null,
+          "dep": 911
+        },
+        {
+          "station": "WDB",
+          "arr": null,
+          "dep": 918
+        },
+        {
+          "station": "TRM",
+          "arr": null,
+          "dep": 871
+        },
+        {
+          "station": "DBR",
+          "arr": null,
+          "dep": 881
+        }
+      ]
+    },
+    {
+      "id": "SAT_106",
+      "headcode": "",
+      "operator": "",
+      "days": [
+        "SAT"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "DSM",
+          "arr": null,
+          "dep": 415
+        },
+        {
+          "station": "WDB",
+          "arr": null,
+          "dep": 388
+        },
+        {
+          "station": "DBR",
+          "arr": null,
+          "dep": 405
+        }
+      ]
+    },
+    {
+      "id": "SAT_107",
+      "headcode": "",
+      "operator": "",
+      "days": [
+        "SAT"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "DSM",
+          "arr": null,
+          "dep": 475
+        },
+        {
+          "station": "WDB",
+          "arr": null,
+          "dep": 448
+        },
+        {
+          "station": "DBR",
+          "arr": null,
+          "dep": 447
+        }
+      ]
+    },
+    {
+      "id": "SAT_108",
+      "headcode": "",
+      "operator": "",
+      "days": [
+        "SAT"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "DSM",
+          "arr": null,
+          "dep": 535
+        },
+        {
+          "station": "WDB",
+          "arr": null,
+          "dep": 508
+        },
+        {
+          "station": "DBR",
+          "arr": null,
+          "dep": 465
+        }
+      ]
+    },
+    {
+      "id": "SAT_109",
+      "headcode": "",
+      "operator": "",
+      "days": [
+        "SAT"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "DSM",
+          "arr": null,
+          "dep": 595
+        },
+        {
+          "station": "WDB",
+          "arr": null,
+          "dep": 568
+        },
+        {
+          "station": "DBR",
+          "arr": null,
+          "dep": 507
+        }
+      ]
+    },
+    {
+      "id": "SAT_110",
+      "headcode": "",
+      "operator": "",
+      "days": [
+        "SAT"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "DSM",
+          "arr": null,
+          "dep": 655
+        },
+        {
+          "station": "WDB",
+          "arr": null,
+          "dep": 628
+        },
+        {
+          "station": "DBR",
+          "arr": null,
+          "dep": 525
+        }
+      ]
+    },
+    {
+      "id": "SAT_111",
+      "headcode": "",
+      "operator": "",
+      "days": [
+        "SAT"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "DSM",
+          "arr": null,
+          "dep": 715
+        },
+        {
+          "station": "WDB",
+          "arr": null,
+          "dep": 688
+        },
+        {
+          "station": "DBR",
+          "arr": null,
+          "dep": 567
+        }
+      ]
+    },
+    {
+      "id": "SAT_112",
+      "headcode": "",
+      "operator": "",
+      "days": [
+        "SAT"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "DSM",
+          "arr": null,
+          "dep": 775
+        },
+        {
+          "station": "WDB",
+          "arr": null,
+          "dep": 748
+        },
+        {
+          "station": "DBR",
+          "arr": null,
+          "dep": 585
+        }
+      ]
+    },
+    {
+      "id": "SAT_113",
+      "headcode": "",
+      "operator": "",
+      "days": [
+        "SAT"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "DSM",
+          "arr": null,
+          "dep": 835
+        },
+        {
+          "station": "WDB",
+          "arr": null,
+          "dep": 808
+        },
+        {
+          "station": "DBR",
+          "arr": null,
+          "dep": 645
+        }
+      ]
+    },
+    {
+      "id": "SAT_114",
+      "headcode": "",
+      "operator": "",
+      "days": [
+        "SAT"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "DSM",
+          "arr": null,
+          "dep": 895
+        },
+        {
+          "station": "WDB",
+          "arr": null,
+          "dep": 868
+        },
+        {
+          "station": "DBR",
+          "arr": null,
+          "dep": 705
+        }
+      ]
+    },
+    {
+      "id": "SAT_115",
+      "headcode": "",
+      "operator": "",
+      "days": [
+        "SAT"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "DBR",
+          "arr": null,
+          "dep": 765
+        }
+      ]
+    },
+    {
+      "id": "SAT_116",
+      "headcode": "",
+      "operator": "",
+      "days": [
+        "SAT"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "DBR",
+          "arr": null,
+          "dep": 826
+        }
+      ]
+    },
+    {
+      "id": "SAT_117",
+      "headcode": "",
+      "operator": "",
+      "days": [
+        "SAT"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "DBR",
+          "arr": null,
+          "dep": 886
+        }
+      ]
+    },
+    {
+      "id": "SAT_118",
+      "headcode": "",
+      "operator": "",
+      "days": [
+        "SAT"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "DBR",
+          "arr": 413,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "SAT_119",
+      "headcode": "",
+      "operator": "",
+      "days": [
+        "SAT"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "DBR",
+          "arr": 454,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "SAT_120",
+      "headcode": "",
+      "operator": "",
+      "days": [
+        "SAT"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "DBR",
+          "arr": 473,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "SAT_121",
+      "headcode": "",
+      "operator": "",
+      "days": [
+        "SAT"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "DBR",
+          "arr": 514,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "SAT_122",
+      "headcode": "",
+      "operator": "",
+      "days": [
+        "SAT"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "DBR",
+          "arr": 533,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "SAT_123",
+      "headcode": "",
+      "operator": "",
+      "days": [
+        "SAT"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "DBR",
+          "arr": 576,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "SAT_124",
+      "headcode": "",
+      "operator": "",
+      "days": [
+        "SAT"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "DBR",
+          "arr": 593,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "SAT_125",
+      "headcode": "",
+      "operator": "",
+      "days": [
+        "SAT"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "DBR",
+          "arr": 634,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "SAT_126",
+      "headcode": "",
+      "operator": "",
+      "days": [
+        "SAT"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "DBR",
+          "arr": 653,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "SAT_127",
+      "headcode": "",
+      "operator": "",
+      "days": [
+        "SAT"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "DBR",
+          "arr": 694,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "SAT_128",
+      "headcode": "",
+      "operator": "",
+      "days": [
+        "SAT"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "DBR",
+          "arr": 714,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "SAT_129",
+      "headcode": "",
+      "operator": "",
+      "days": [
+        "SAT"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "DBR",
+          "arr": 754,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "SAT_130",
+      "headcode": "",
+      "operator": "",
+      "days": [
+        "SAT"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "DBR",
+          "arr": 773,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "SAT_131",
+      "headcode": "",
+      "operator": "",
+      "days": [
+        "SAT"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "DBR",
+          "arr": 814,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "SAT_132",
+      "headcode": "",
+      "operator": "",
+      "days": [
+        "SAT"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "DBR",
+          "arr": 833,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "SAT_133",
+      "headcode": "",
+      "operator": "",
+      "days": [
+        "SAT"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "DBR",
+          "arr": 874,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "SAT_134",
+      "headcode": "",
+      "operator": "",
+      "days": [
+        "SAT"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "DBR",
+          "arr": 893,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "SAT_135",
+      "headcode": "",
+      "operator": "",
+      "days": [
+        "SAT"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "DBR",
+          "arr": 934,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "SUN_136",
+      "headcode": "",
+      "operator": "",
+      "days": [
+        "SUN"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "LWT",
+          "arr": null,
+          "dep": 484
+        },
+        {
+          "station": "OUS",
+          "arr": null,
+          "dep": 489
+        },
+        {
+          "station": "BCC",
+          "arr": null,
+          "dep": 500
+        },
+        {
+          "station": "BRP",
+          "arr": null,
+          "dep": 508
+        },
+        {
+          "station": "HAS",
+          "arr": null,
+          "dep": 515
+        },
+        {
+          "station": "DSM",
+          "arr": null,
+          "dep": 523
+        },
+        {
+          "station": "WCM",
+          "arr": null,
+          "dep": 540
+        },
+        {
+          "station": "MES",
+          "arr": null,
+          "dep": 547
+        },
+        {
+          "station": "WDB",
+          "arr": null,
+          "dep": 553
+        },
+        {
+          "station": "TRM",
+          "arr": null,
+          "dep": 628
+        },
+        {
+          "station": "DBR",
+          "arr": null,
+          "dep": 637
+        }
+      ]
+    },
+    {
+      "id": "SUN_137",
+      "headcode": "",
+      "operator": "",
+      "days": [
+        "SUN"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "LWT",
+          "arr": null,
+          "dep": 544
+        },
+        {
+          "station": "OUS",
+          "arr": null,
+          "dep": 549
+        },
+        {
+          "station": "BCC",
+          "arr": null,
+          "dep": 560
+        },
+        {
+          "station": "BRP",
+          "arr": null,
+          "dep": 568
+        },
+        {
+          "station": "HAS",
+          "arr": null,
+          "dep": 575
+        },
+        {
+          "station": "DSM",
+          "arr": null,
+          "dep": 583
+        },
+        {
+          "station": "WCM",
+          "arr": null,
+          "dep": 600
+        },
+        {
+          "station": "MES",
+          "arr": null,
+          "dep": 607
+        },
+        {
+          "station": "WDB",
+          "arr": null,
+          "dep": 613
+        },
+        {
+          "station": "TRM",
+          "arr": null,
+          "dep": 688
+        },
+        {
+          "station": "DBR",
+          "arr": null,
+          "dep": 697
+        }
+      ]
+    },
+    {
+      "id": "SUN_138",
+      "headcode": "",
+      "operator": "",
+      "days": [
+        "SUN"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "LWT",
+          "arr": null,
+          "dep": 604
+        },
+        {
+          "station": "OUS",
+          "arr": null,
+          "dep": 609
+        },
+        {
+          "station": "BCC",
+          "arr": null,
+          "dep": 620
+        },
+        {
+          "station": "BRP",
+          "arr": null,
+          "dep": 628
+        },
+        {
+          "station": "HAS",
+          "arr": null,
+          "dep": 635
+        },
+        {
+          "station": "DSM",
+          "arr": null,
+          "dep": 643
+        },
+        {
+          "station": "WCM",
+          "arr": null,
+          "dep": 660
+        },
+        {
+          "station": "MES",
+          "arr": null,
+          "dep": 667
+        },
+        {
+          "station": "WDB",
+          "arr": null,
+          "dep": 673
+        },
+        {
+          "station": "TRM",
+          "arr": null,
+          "dep": 748
+        },
+        {
+          "station": "DBR",
+          "arr": null,
+          "dep": 757
+        }
+      ]
+    },
+    {
+      "id": "SUN_139",
+      "headcode": "",
+      "operator": "",
+      "days": [
+        "SUN"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "LWT",
+          "arr": null,
+          "dep": 664
+        },
+        {
+          "station": "OUS",
+          "arr": null,
+          "dep": 669
+        },
+        {
+          "station": "BCC",
+          "arr": null,
+          "dep": 680
+        },
+        {
+          "station": "BRP",
+          "arr": null,
+          "dep": 688
+        },
+        {
+          "station": "HAS",
+          "arr": null,
+          "dep": 695
+        },
+        {
+          "station": "DSM",
+          "arr": null,
+          "dep": 703
+        },
+        {
+          "station": "WCM",
+          "arr": null,
+          "dep": 720
+        },
+        {
+          "station": "MES",
+          "arr": null,
+          "dep": 727
+        },
+        {
+          "station": "WDB",
+          "arr": null,
+          "dep": 733
+        },
+        {
+          "station": "TRM",
+          "arr": null,
+          "dep": 808
+        },
+        {
+          "station": "DBR",
+          "arr": null,
+          "dep": 817
+        }
+      ]
+    },
+    {
+      "id": "SUN_140",
+      "headcode": "",
+      "operator": "",
+      "days": [
+        "SUN"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "LWT",
+          "arr": null,
+          "dep": 724
+        },
+        {
+          "station": "OUS",
+          "arr": null,
+          "dep": 729
+        },
+        {
+          "station": "BCC",
+          "arr": null,
+          "dep": 740
+        },
+        {
+          "station": "BRP",
+          "arr": null,
+          "dep": 748
+        },
+        {
+          "station": "HAS",
+          "arr": null,
+          "dep": 755
+        },
+        {
+          "station": "DSM",
+          "arr": null,
+          "dep": 763
+        },
+        {
+          "station": "WCM",
+          "arr": null,
+          "dep": 780
+        },
+        {
+          "station": "MES",
+          "arr": null,
+          "dep": 787
+        },
+        {
+          "station": "WDB",
+          "arr": null,
+          "dep": 793
+        },
+        {
+          "station": "TRM",
+          "arr": null,
+          "dep": 868
+        },
+        {
+          "station": "DBR",
+          "arr": null,
+          "dep": 877
+        }
+      ]
+    },
+    {
+      "id": "SUN_141",
+      "headcode": "",
+      "operator": "",
+      "days": [
+        "SUN"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "LWT",
+          "arr": null,
+          "dep": 784
+        },
+        {
+          "station": "OUS",
+          "arr": null,
+          "dep": 789
+        },
+        {
+          "station": "BCC",
+          "arr": null,
+          "dep": 800
+        },
+        {
+          "station": "BRP",
+          "arr": null,
+          "dep": 808
+        },
+        {
+          "station": "HAS",
+          "arr": null,
+          "dep": 815
+        },
+        {
+          "station": "DSM",
+          "arr": null,
+          "dep": 823
+        },
+        {
+          "station": "WCM",
+          "arr": null,
+          "dep": 840
+        },
+        {
+          "station": "MES",
+          "arr": null,
+          "dep": 847
+        },
+        {
+          "station": "WDB",
+          "arr": null,
+          "dep": 853
+        },
+        {
+          "station": "TRM",
+          "arr": null,
+          "dep": 928
+        },
+        {
+          "station": "DBR",
+          "arr": null,
+          "dep": 937
+        }
+      ]
+    },
+    {
+      "id": "SUN_142",
+      "headcode": "",
+      "operator": "",
+      "days": [
+        "SUN"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "LWT",
+          "arr": null,
+          "dep": 844
+        },
+        {
+          "station": "OUS",
+          "arr": null,
+          "dep": 849
+        },
+        {
+          "station": "BCC",
+          "arr": null,
+          "dep": 860
+        },
+        {
+          "station": "BRP",
+          "arr": null,
+          "dep": 868
+        },
+        {
+          "station": "HAS",
+          "arr": null,
+          "dep": 875
+        },
+        {
+          "station": "DSM",
+          "arr": null,
+          "dep": 883
+        },
+        {
+          "station": "WCM",
+          "arr": null,
+          "dep": 900
+        },
+        {
+          "station": "MES",
+          "arr": null,
+          "dep": 907
+        },
+        {
+          "station": "WDB",
+          "arr": null,
+          "dep": 913
+        },
+        {
+          "station": "TRM",
+          "arr": null,
+          "dep": 988
+        },
+        {
+          "station": "DBR",
+          "arr": null,
+          "dep": 997
+        }
+      ]
+    },
+    {
+      "id": "SUN_143",
+      "headcode": "",
+      "operator": "",
+      "days": [
+        "SUN"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "LWT",
+          "arr": null,
+          "dep": 904
+        },
+        {
+          "station": "OUS",
+          "arr": null,
+          "dep": 909
+        },
+        {
+          "station": "BCC",
+          "arr": null,
+          "dep": 920
+        },
+        {
+          "station": "BRP",
+          "arr": null,
+          "dep": 928
+        },
+        {
+          "station": "HAS",
+          "arr": null,
+          "dep": 935
+        },
+        {
+          "station": "DSM",
+          "arr": null,
+          "dep": 943
+        },
+        {
+          "station": "WCM",
+          "arr": null,
+          "dep": 960
+        },
+        {
+          "station": "MES",
+          "arr": null,
+          "dep": 967
+        },
+        {
+          "station": "WDB",
+          "arr": null,
+          "dep": 973
+        },
+        {
+          "station": "TRM",
+          "arr": null,
+          "dep": 1048
+        },
+        {
+          "station": "DBR",
+          "arr": null,
+          "dep": 1057
+        }
+      ]
+    },
+    {
+      "id": "SUN_144",
+      "headcode": "",
+      "operator": "",
+      "days": [
+        "SUN"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "LWT",
+          "arr": null,
+          "dep": 964
+        },
+        {
+          "station": "OUS",
+          "arr": null,
+          "dep": 969
+        },
+        {
+          "station": "BCC",
+          "arr": null,
+          "dep": 980
+        },
+        {
+          "station": "BRP",
+          "arr": null,
+          "dep": 988
+        },
+        {
+          "station": "HAS",
+          "arr": null,
+          "dep": 995
+        },
+        {
+          "station": "DSM",
+          "arr": null,
+          "dep": 1003
+        },
+        {
+          "station": "WCM",
+          "arr": null,
+          "dep": 1020
+        },
+        {
+          "station": "MES",
+          "arr": null,
+          "dep": 1027
+        },
+        {
+          "station": "WDB",
+          "arr": null,
+          "dep": 1033
+        },
+        {
+          "station": "DBR",
+          "arr": null,
+          "dep": 563
+        }
+      ]
+    },
+    {
+      "id": "SUN_145",
+      "headcode": "",
+      "operator": "",
+      "days": [
+        "SUN"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "LWT",
+          "arr": null,
+          "dep": 1024
+        },
+        {
+          "station": "OUS",
+          "arr": null,
+          "dep": 1029
+        },
+        {
+          "station": "BCC",
+          "arr": null,
+          "dep": 1040
+        },
+        {
+          "station": "BRP",
+          "arr": null,
+          "dep": 1048
+        },
+        {
+          "station": "HAS",
+          "arr": null,
+          "dep": 1055
+        },
+        {
+          "station": "DSM",
+          "arr": null,
+          "dep": 1063
+        },
+        {
+          "station": "WCM",
+          "arr": null,
+          "dep": 1080
+        },
+        {
+          "station": "MES",
+          "arr": null,
+          "dep": 1087
+        },
+        {
+          "station": "WDB",
+          "arr": null,
+          "dep": 1093
+        },
+        {
+          "station": "DBR",
+          "arr": null,
+          "dep": 623
+        }
+      ]
+    },
+    {
+      "id": "SUN_146",
+      "headcode": "",
+      "operator": "",
+      "days": [
+        "SUN"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "DSM",
+          "arr": null,
+          "dep": 531
+        },
+        {
+          "station": "WDB",
+          "arr": null,
+          "dep": 625
+        },
+        {
+          "station": "DBR",
+          "arr": null,
+          "dep": 642
+        }
+      ]
+    },
+    {
+      "id": "SUN_147",
+      "headcode": "",
+      "operator": "",
+      "days": [
+        "SUN"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "DSM",
+          "arr": null,
+          "dep": 591
+        },
+        {
+          "station": "WDB",
+          "arr": null,
+          "dep": 685
+        },
+        {
+          "station": "DBR",
+          "arr": null,
+          "dep": 683
+        }
+      ]
+    },
+    {
+      "id": "SUN_148",
+      "headcode": "",
+      "operator": "",
+      "days": [
+        "SUN"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "DSM",
+          "arr": null,
+          "dep": 651
+        },
+        {
+          "station": "WDB",
+          "arr": null,
+          "dep": 745
+        },
+        {
+          "station": "DBR",
+          "arr": null,
+          "dep": 702
+        }
+      ]
+    },
+    {
+      "id": "SUN_149",
+      "headcode": "",
+      "operator": "",
+      "days": [
+        "SUN"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "DSM",
+          "arr": null,
+          "dep": 711
+        },
+        {
+          "station": "WDB",
+          "arr": null,
+          "dep": 805
+        },
+        {
+          "station": "DBR",
+          "arr": null,
+          "dep": 743
+        }
+      ]
+    },
+    {
+      "id": "SUN_150",
+      "headcode": "",
+      "operator": "",
+      "days": [
+        "SUN"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "DSM",
+          "arr": null,
+          "dep": 771
+        },
+        {
+          "station": "WDB",
+          "arr": null,
+          "dep": 865
+        },
+        {
+          "station": "DBR",
+          "arr": null,
+          "dep": 762
+        }
+      ]
+    },
+    {
+      "id": "SUN_151",
+      "headcode": "",
+      "operator": "",
+      "days": [
+        "SUN"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "DSM",
+          "arr": null,
+          "dep": 831
+        },
+        {
+          "station": "WDB",
+          "arr": null,
+          "dep": 925
+        },
+        {
+          "station": "DBR",
+          "arr": null,
+          "dep": 803
+        }
+      ]
+    },
+    {
+      "id": "SUN_152",
+      "headcode": "",
+      "operator": "",
+      "days": [
+        "SUN"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "DSM",
+          "arr": null,
+          "dep": 891
+        },
+        {
+          "station": "WDB",
+          "arr": null,
+          "dep": 985
+        },
+        {
+          "station": "DBR",
+          "arr": null,
+          "dep": 822
+        }
+      ]
+    },
+    {
+      "id": "SUN_153",
+      "headcode": "",
+      "operator": "",
+      "days": [
+        "SUN"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "DSM",
+          "arr": null,
+          "dep": 951
+        },
+        {
+          "station": "WDB",
+          "arr": null,
+          "dep": 1045
+        },
+        {
+          "station": "DBR",
+          "arr": null,
+          "dep": 863
+        }
+      ]
+    },
+    {
+      "id": "SUN_154",
+      "headcode": "",
+      "operator": "",
+      "days": [
+        "SUN"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "DSM",
+          "arr": null,
+          "dep": 1011
+        },
+        {
+          "station": "DBR",
+          "arr": null,
+          "dep": 882
+        }
+      ]
+    },
+    {
+      "id": "SUN_155",
+      "headcode": "",
+      "operator": "",
+      "days": [
+        "SUN"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "DSM",
+          "arr": null,
+          "dep": 1071
+        },
+        {
+          "station": "DBR",
+          "arr": null,
+          "dep": 923
+        }
+      ]
+    },
+    {
+      "id": "SUN_156",
+      "headcode": "",
+      "operator": "",
+      "days": [
+        "SUN"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "DBR",
+          "arr": null,
+          "dep": 942
+        }
+      ]
+    },
+    {
+      "id": "SUN_157",
+      "headcode": "",
+      "operator": "",
+      "days": [
+        "SUN"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "DBR",
+          "arr": null,
+          "dep": 983
+        }
+      ]
+    },
+    {
+      "id": "SUN_158",
+      "headcode": "",
+      "operator": "",
+      "days": [
+        "SUN"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "DBR",
+          "arr": null,
+          "dep": 1002
+        }
+      ]
+    },
+    {
+      "id": "SUN_159",
+      "headcode": "",
+      "operator": "",
+      "days": [
+        "SUN"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "DBR",
+          "arr": null,
+          "dep": 1043
+        }
+      ]
+    },
+    {
+      "id": "SUN_160",
+      "headcode": "",
+      "operator": "",
+      "days": [
+        "SUN"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "DBR",
+          "arr": null,
+          "dep": 1062
+        }
+      ]
+    },
+    {
+      "id": "SUN_161",
+      "headcode": "",
+      "operator": "",
+      "days": [
+        "SUN"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "DBR",
+          "arr": null,
+          "dep": 1103
+        }
+      ]
+    },
+    {
+      "id": "SUN_162",
+      "headcode": "",
+      "operator": "",
+      "days": [
+        "SUN"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "DBR",
+          "arr": 570,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "SUN_163",
+      "headcode": "",
+      "operator": "",
+      "days": [
+        "SUN"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "DBR",
+          "arr": 630,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "SUN_164",
+      "headcode": "",
+      "operator": "",
+      "days": [
+        "SUN"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "DBR",
+          "arr": 650,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "SUN_165",
+      "headcode": "",
+      "operator": "",
+      "days": [
+        "SUN"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "DBR",
+          "arr": 690,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "SUN_166",
+      "headcode": "",
+      "operator": "",
+      "days": [
+        "SUN"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "DBR",
+          "arr": 710,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "SUN_167",
+      "headcode": "",
+      "operator": "",
+      "days": [
+        "SUN"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "DBR",
+          "arr": 750,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "SUN_168",
+      "headcode": "",
+      "operator": "",
+      "days": [
+        "SUN"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "DBR",
+          "arr": 770,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "SUN_169",
+      "headcode": "",
+      "operator": "",
+      "days": [
+        "SUN"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "DBR",
+          "arr": 810,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "SUN_170",
+      "headcode": "",
+      "operator": "",
+      "days": [
+        "SUN"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "DBR",
+          "arr": 830,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "SUN_171",
+      "headcode": "",
+      "operator": "",
+      "days": [
+        "SUN"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "DBR",
+          "arr": 870,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "SUN_172",
+      "headcode": "",
+      "operator": "",
+      "days": [
+        "SUN"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "DBR",
+          "arr": 890,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "SUN_173",
+      "headcode": "",
+      "operator": "",
+      "days": [
+        "SUN"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "DBR",
+          "arr": 930,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "SUN_174",
+      "headcode": "",
+      "operator": "",
+      "days": [
+        "SUN"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "DBR",
+          "arr": 950,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "SUN_175",
+      "headcode": "",
+      "operator": "",
+      "days": [
+        "SUN"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "DBR",
+          "arr": 990,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "SUN_176",
+      "headcode": "",
+      "operator": "",
+      "days": [
+        "SUN"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "DBR",
+          "arr": 1010,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "SUN_177",
+      "headcode": "",
+      "operator": "",
+      "days": [
+        "SUN"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "DBR",
+          "arr": 1050,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "SUN_178",
+      "headcode": "",
+      "operator": "",
+      "days": [
+        "SUN"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "DBR",
+          "arr": 1070,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "SUN_179",
+      "headcode": "",
+      "operator": "",
+      "days": [
+        "SUN"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "DBR",
+          "arr": 1110,
+          "dep": null
+        }
+      ]
+    }
+  ],
+  "gap": false
+}
