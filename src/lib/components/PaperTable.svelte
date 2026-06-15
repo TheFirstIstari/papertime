@@ -16,6 +16,10 @@
 	let activeDay = $state('MF');
 	let highlightedCol = $state<number | null>(null);
 	let highlightedRow = $state<string | null>(null);
+	let sortBy = $state<'dep' | 'arr' | 'none'>('none');
+	let timeFrom = $state(0);
+	let timeTo = $state(1440);
+	let searchQuery = $state('');
 
 	onMount(async () => {
 		try {
@@ -51,7 +55,40 @@
 		return rows;
 	}
 
-	let services = $derived(getServicesForDay(activeDay));
+	function getFilteredServices(): Service[] {
+		if (!table) return [];
+		let svcs = table.services.filter((s) => s.days.includes(activeDay));
+		if (searchQuery) {
+			const q = searchQuery.toLowerCase();
+			svcs = svcs.filter((s) =>
+				s.id.toLowerCase().includes(q) ||
+				s.operator.toLowerCase().includes(q) ||
+				s.stops.some((st) => st.station.toLowerCase().includes(q))
+			);
+		}
+		if (sortBy === 'dep') {
+			svcs = [...svcs].sort((a, b) => {
+				const aMin = a.stops.find((s) => s.dep !== null)?.dep ?? 9999;
+				const bMin = b.stops.find((s) => s.dep !== null)?.dep ?? 9999;
+				return aMin - bMin;
+			});
+		} else if (sortBy === 'arr') {
+			svcs = [...svcs].sort((a, b) => {
+				const aArr = [...a.stops].reverse().find((s) => s.arr !== null)?.arr ?? 9999;
+				const bArr = [...b.stops].reverse().find((s) => s.arr !== null)?.arr ?? 9999;
+				return aArr - bArr;
+			});
+		}
+		return svcs.filter((s) => {
+			const times = s.stops.map((st) => st.dep ?? st.arr).filter((t): t is number => t !== null);
+			if (times.length === 0) return true;
+			const minTime = Math.min(...times);
+			const maxTime = Math.max(...times);
+			return maxTime >= timeFrom && minTime <= timeTo;
+		});
+	}
+
+	let services = $derived(getFilteredServices());
 	let stationRows = $derived(getStationRows());
 </script>
 
@@ -62,7 +99,7 @@
 {:else if table}
 	<div class="max-w-6xl mx-auto px-4 py-8">
 		<div class="mb-6">
-			<a href="/" class="text-blue-400 hover:text-blue-300 text-sm mb-2 inline-block">← Back to search</a>
+			<a href="/" class="text-blue-400 hover:text-blue-300 text-sm mb-2 inline-block">&larr; Back to search</a>
 			<h1 class="text-3xl font-bold">Table {table.table}</h1>
 			{#if table.name}
 				<p class="text-slate-400 mt-1">{table.name}</p>
@@ -74,26 +111,47 @@
 			</div>
 		</div>
 
-		<div class="flex gap-2 mb-4">
-			{#each table.days as day}
-				<button
-					on:click={() => activeDay = day}
-					class="px-4 py-2 rounded-lg text-sm font-medium transition-colors {activeDay === day ? 'bg-blue-600 text-white' : 'bg-slate-800 text-slate-300 hover:bg-slate-700'}"
-				>{day}</button>
-			{/each}
+		<!-- Controls -->
+		<div class="flex flex-wrap gap-3 mb-4">
+			<!-- Day filter -->
+			<div class="flex gap-1">
+				{#each table.days as day}
+					<button
+						on:click={() => activeDay = day}
+						class="px-3 py-1.5 rounded text-sm font-medium transition-colors {activeDay === day ? 'bg-blue-600 text-white' : 'bg-slate-800 text-slate-300 hover:bg-slate-700'}"
+					>{day}</button>
+				{/each}
+			</div>
+
+			<!-- Sort -->
+			<select bind:value={sortBy} class="bg-slate-800 border border-slate-700 rounded px-3 py-1.5 text-sm text-slate-300">
+				<option value="none">Default order</option>
+				<option value="dep">Sort by departure</option>
+				<option value="arr">Sort by arrival</option>
+			</select>
+
+			<!-- Search within timetable -->
+			<input
+				type="text"
+				bind:value={searchQuery}
+				placeholder="Search services..."
+				class="bg-slate-800 border border-slate-700 rounded px-3 py-1.5 text-sm text-slate-100 placeholder-slate-500 focus:outline-none focus:ring-1 focus:ring-blue-500"
+			/>
 		</div>
 
+		<!-- Timetable -->
 		<div class="overflow-x-auto">
 			<table class="w-full border-collapse text-sm">
 				<thead>
 					<tr>
-						<th class="sticky left-0 bg-slate-900 border-b border-r border-slate-700 px-3 py-2 text-left font-medium text-slate-400 z-10">Station</th>
+						<th class="sticky left-0 bg-slate-900 border-b border-r border-slate-700 px-3 py-2 text-left font-medium text-slate-400 z-10 no-print">Station</th>
 						{#each services as svc, colIdx}
 							<th
 								on:click={() => highlightedCol = highlightedCol === colIdx ? null : colIdx}
 								class="border-b border-slate-700 px-2 py-2 text-center font-mono text-xs cursor-pointer transition-colors {highlightedCol === colIdx ? 'bg-blue-900/50' : 'hover:bg-slate-800'}"
 							>
-								{svc.operator || '—'}
+								<span class="no-print">{svc.operator || '—'}</span>
+								<span class="print-only">{svc.id}</span>
 							</th>
 						{/each}
 					</tr>
@@ -106,12 +164,8 @@
 						>
 							<td class="sticky left-0 bg-slate-900 border-r border-slate-700 px-3 py-2 font-medium z-10">
 								{row.name}
-								{#if row.isFrom}
-									<span class="text-green-400 text-xs ml-1">▲</span>
-								{/if}
-								{#if row.isTo}
-									<span class="text-red-400 text-xs ml-1">▼</span>
-								{/if}
+								{#if row.isFrom}<span class="text-green-400 text-xs ml-1">▲</span>{/if}
+								{#if row.isTo}<span class="text-red-400 text-xs ml-1">▼</span>{/if}
 							</td>
 							{#each services as svc, colIdx}
 								{@const stop = svc.stops.find((s) => s.station === row.crs)}
@@ -135,7 +189,7 @@
 			</table>
 		</div>
 
-		<div class="mt-4 flex gap-4 text-xs text-slate-500">
+		<div class="mt-4 flex flex-wrap gap-4 text-xs text-slate-500 no-print">
 			<span><span class="text-green-400">▲</span> Origin</span>
 			<span><span class="text-red-400">▼</span> Destination</span>
 			<span>Click column header to highlight service</span>
@@ -143,3 +197,17 @@
 		</div>
 	</div>
 {/if}
+
+<style>
+	@media print {
+		.no-print { display: none !important; }
+		.print-only { display: inline !important; }
+		body { background: white !important; color: black !important; }
+		table { font-size: 9px; width: 100%; }
+		th, td { border: 1px solid #ccc !important; padding: 2px 4px !important; }
+		.sticky { position: static !important; }
+		tr { page-break-inside: avoid; }
+		@page { size: A4 landscape; margin: 10mm; }
+	}
+	.print-only { display: none; }
+</style>
