@@ -1,9 +1,11 @@
+use crate::types::StationEntry;
 use anyhow::Result;
+use std::collections::HashMap;
+use std::fs;
 
-/// Fetch station coordinates from OpenStreetMap Overpass API.
-///
-/// For M0 this is a stub. Implementation begins in M1 after station index is built.
-pub fn fetch_coordinates(_stations: &mut [crate::types::StationEntry]) -> Result<()> {
-    println!("   ⏳ OSM stub — no coordinates fetched (M1 implements)");
+const OSM_CACHE_PATH: &str = "../../.osm_cache.json";
+
+pub fn fetch_coordinates(_stations: &mut [StationEntry]) -> Result<()> {
+    println!("   OSM fetch: stub (returning Ok)");
     Ok(())
 }
