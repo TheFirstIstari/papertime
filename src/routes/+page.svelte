@@ -1,4 +1,5 @@
 <script lang="ts">
+	export const csr = true;
 	import { onMount } from 'svelte';
 	import { goto } from '$app/navigation';
 	import { page } from '$app/stores';
@@ -10,7 +11,6 @@
 	let stations: StationEntry[] = [];
 	let tableIndex: TableEntry[] = [];
 	let fuse: Fuse<StationEntry> | null = null;
-
 	let originQuery = '';
 	let destQuery = '';
 	let originSuggestions: StationEntry[] = [];
@@ -24,7 +24,6 @@
 		fuse = new Fuse(stations, { keys: ['name', 'id'], threshold: 0.3 });
 		gapCount = getGapCount(tableIndex);
 		loaded = true;
-
 		const params = $page.url.searchParams;
 		const from = params.get('from');
 		const to = params.get('to');
@@ -39,16 +38,13 @@
 		if (!fuse) return;
 		originSuggestions = originQuery.length > 0 ? fuse.search(originQuery).map((r) => r.item).slice(0, 8) : [];
 	}
-
 	function onDestInput() {
 		if (!fuse) return;
 		destSuggestions = destQuery.length > 0 ? fuse.search(destQuery).map((r) => r.item).slice(0, 8) : [];
 	}
-
 	function selectOrigin(s: StationEntry) { originQuery = s.name; originSuggestions = []; }
 	function selectDest(s: StationEntry) { destQuery = s.name; destSuggestions = []; }
 	function runSearch(from: string, to: string) { matches = findMatchingTables(from, to, stations, tableIndex); }
-
 	function onSubmit() {
 		const fromStation = stations.find((s) => s.name === originQuery || s.id === originQuery);
 		const toStation = stations.find((s) => s.name === destQuery || s.id === destQuery);
@@ -113,9 +109,7 @@
 							</div>
 						{/if}
 					</div>
-					<button type="submit" class="bg-blue-600 hover:bg-blue-700 text-white font-medium px-6 py-3 rounded-lg transition-colors whitespace-nowrap">
-						Search
-					</button>
+					<button type="submit" class="bg-blue-600 hover:bg-blue-700 text-white font-medium px-6 py-3 rounded-lg transition-colors whitespace-nowrap">Search</button>
 				</div>
 			</form>
 		{:else}
@@ -140,11 +134,7 @@
 								</div>
 							</div>
 							{#if m.operators.length > 0}
-								<div class="mt-2 flex gap-2">
-									{#each m.operators as op}
-										<span class="text-xs bg-slate-700 px-2 py-1 rounded">{op}</span>
-									{/each}
-								</div>
+								<div class="mt-2 flex gap-2">{#each m.operators as op}<span class="text-xs bg-slate-700 px-2 py-1 rounded">{op}</span>{/each}</div>
 							{/if}
 						</a>
 					{/each}
@@ -160,9 +150,7 @@
 				<div class="grid grid-cols-2 sm:grid-cols-4 gap-3">
 					{#each popularRoutes as route}
 						<button on:click={() => { originQuery = route.from; destQuery = route.to; runSearch(route.from, route.to); }}
-							class="bg-slate-800 border border-slate-700 rounded-lg px-3 py-2 text-sm hover:border-blue-500 transition-colors text-left">
-							{route.label}
-						</button>
+							class="bg-slate-800 border border-slate-700 rounded-lg px-3 py-2 text-sm hover:border-blue-500 transition-colors text-left">{route.label}</button>
 					{/each}
 				</div>
 			</div>
