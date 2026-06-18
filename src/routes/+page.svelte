@@ -11,32 +11,36 @@
 	let stations: StationEntry[] = [];
 	let tableIndex: TableEntry[] = [];
 	let fuse: Fuse<StationEntry> | null = null;
-	let originQuery = '';
-	let destQuery = '';
-	let fromCrs = '';
-	let toCrs = '';
-	let originSuggestions: StationEntry[] = [];
-	let destSuggestions: StationEntry[] = [];
-	let matches: TableMatch[] = [];
-	let gapCount = 0;
-	let loaded = false;
+	let originQuery = $state('');
+	let destQuery = $state('');
+	let fromCrs = $state('');
+	let toCrs = $state('');
+	let originSuggestions: StationEntry[] = $state([]);
+	let destSuggestions: StationEntry[] = $state([]);
+	let matches: TableMatch[] = $state([]);
+	let gapCount = $state(0);
+	let loaded = $state(false);
 
 	onMount(async () => {
-		[stations, tableIndex] = await Promise.all([loadStations(), loadTableIndex()]);
-		fuse = new Fuse(stations, { keys: ['name', 'id'], threshold: 0.3 });
-		gapCount = getGapCount(tableIndex);
-		loaded = true;
-		const params = $page.url.searchParams;
-		const from = params.get('from');
-		const to = params.get('to');
-		if (from && to) {
-			fromCrs = from;
-			toCrs = to;
-			const fromStn = stations.find(s => s.id === from);
-			const toStn = stations.find(s => s.id === to);
-			originQuery = fromStn?.name ?? from;
-			destQuery = toStn?.name ?? to;
-			runSearch(fromCrs, toCrs);
+		try {
+			[stations, tableIndex] = await Promise.all([loadStations(), loadTableIndex()]);
+			fuse = new Fuse(stations, { keys: ['name', 'id'], threshold: 0.3 });
+			gapCount = getGapCount(tableIndex);
+			loaded = true;
+			const params = $page.url.searchParams;
+			const from = params.get('from');
+			const to = params.get('to');
+			if (from && to) {
+				fromCrs = from;
+				toCrs = to;
+				const fromStn = stations.find(s => s.id === from);
+				const toStn = stations.find(s => s.id === to);
+				originQuery = fromStn?.name ?? from;
+				destQuery = toStn?.name ?? to;
+				runSearch(fromCrs, toCrs);
+			}
+		} catch (err) {
+			console.error('PaperTime init failed:', err);
 		}
 	});
 
@@ -57,6 +61,7 @@
 		if (fromStation && toStation) {
 			fromCrs = fromStation.id;
 			toCrs = toStation.id;
+			runSearch(fromCrs, toCrs);
 			goto(`/?from=${fromCrs}&to=${toCrs}`);
 		}
 	}
@@ -150,11 +155,15 @@
 					{/each}
 				</div>
 			</div>
-		{:else if originQuery && destQuery && originQuery !== destQuery}
-			<div class="text-center py-8 text-slate-500">No matching tables found for this journey.</div>
 		{/if}
 
-		{#if matches.length === 0}
+		{#if matches.length === 0 && fromCrs && toCrs}
+			<div class="text-center py-8 text-slate-400">
+				No matching tables found for this journey.
+			</div>
+		{/if}
+
+		{#if !loaded || matches.length === 0}
 			<div class="mb-8">
 				<h2 class="text-lg font-semibold mb-4">Popular Routes</h2>
 				<div class="grid grid-cols-2 sm:grid-cols-4 gap-3">
@@ -168,20 +177,19 @@
 							destQuery = toStn?.name ?? route.to;
 							runSearch(fromCrs, toCrs);
 						}}
-							class="bg-slate-800 border border-slate-700 rounded-lg px-3 py-2 text-sm hover:border-blue-500 transition-colors text-left">{route.label}</button>
+							class="bg-slate-800 hover:bg-slate-700 border border-slate-700 rounded-lg px-4 py-3 text-left transition-colors">
+							<span class="block font-medium">{route.label}</span>
+						</button>
 					{/each}
 				</div>
+				{#if gapCount > 0}
+					<p class="mt-4 text-sm text-amber-400/70">{gapCount} timetable tables are not available in this dataset.</p>
+				{/if}
 			</div>
 		{/if}
 
-		{#if gapCount > 0}
-			<div class="bg-amber-900/30 border border-amber-700/50 rounded-lg px-4 py-3 text-sm text-amber-200 mb-6">
-				{gapCount} timetable tables are not available in this dataset.
-			</div>
-		{/if}
-
-		<div class="mt-6 text-center">
-			<a href="/marey" class="text-blue-400 hover:text-blue-300 text-sm">Browse iBRY Marey Charts &rarr;</a>
+		<div class="text-center">
+			<a href="/marey" class="text-blue-400 hover:text-blue-300 text-sm">Browse iBRY Marey Charts →</a>
 		</div>
 	</div>
 </div>

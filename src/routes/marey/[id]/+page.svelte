@@ -4,7 +4,8 @@
 	import { onMount } from 'svelte';
 	import MareyChart from '$lib/components/MareyChart.svelte';
 
-	let { id } = $props<{ id: string }>();
+	let { data } = $props<{ data: { id: string } }>();
+	let id = data.id;
 	let mareyData = $state<any>(null);
 	let loading = $state(true);
 	let error = $state('');

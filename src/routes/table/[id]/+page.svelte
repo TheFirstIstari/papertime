@@ -2,8 +2,16 @@
 	import { onMount } from 'svelte';
 	import PaperTable from '$lib/components/PaperTable.svelte';
 	import { loadTable } from '$lib/data';
+		import type { TableData } from '$lib/types';
 
-	let { id, from: fromCrs, to: toCrs } = $props<{ id: string; from: string; to: string }>();
+		let { data } = $props<{ data: { id: string; from: string; to: string } }>();
+		let id = data.id;
+		let fromCrs = data.from;
+		let toCrs = data.to;
+
+	let table = $state<TableData | null>(null);
+	let loading = $state(true);
+	let error = $state('');
 
 	onMount(async () => {
 		try {
