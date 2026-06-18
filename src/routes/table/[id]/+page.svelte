@@ -3,12 +3,7 @@
 	import PaperTable from '$lib/components/PaperTable.svelte';
 	import { loadTable } from '$lib/data';
 
-	let { id } = $props<{ id: string }>();
-	let table = $state<any>(null);
-	let loading = $state(true);
-	let error = $state('');
-	let fromCrs = $state('');
-	let toCrs = $state('');
+	let { id, from: fromCrs, to: toCrs } = $props<{ id: string; from: string; to: string }>();
 
 	onMount(async () => {
 		try {
