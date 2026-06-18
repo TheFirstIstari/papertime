@@ -112,7 +112,7 @@
 		const yScale = d3.scaleLinear().domain([0, maxMileage]).range([height, 0]);
 		const xScale = d3.scaleLinear().domain([0, maxTime]).range([0, width]);
 
-		// Station labels (Y-axis)
+		// Station labels (Y-axis) — show name, fall back to CRS
 		svg.selectAll('.station-label')
 			.data(stations)
 			.enter()
@@ -124,7 +124,12 @@
 			.attr('text-anchor', 'end')
 			.attr('fill', '#94a3b8')
 			.attr('font-size', '11px')
-			.text((d) => d.crs);
+			.text((d) => {
+				const name = d.name || d.crs;
+				// If name is same as CRS (fallback), show just CRS
+				if (name === d.crs || name.length <= 3) return d.crs;
+				return name;
+			});
 
 		// Station grid lines
 		svg.selectAll('.station-line')
@@ -194,7 +199,7 @@
 		const line = d3.line<{ x: number; y: number }>()
 			.x((d) => xScale(d.x))
 			.y((d) => yScale(d.y))
-			.curve(d3.curveStepAfter);
+			.curve(d3.curveLinear);
 
 		for (const { points, color, svc } of serviceLines) {
 			svg.append('path')

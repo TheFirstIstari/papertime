@@ -1,0 +1,4809 @@
+{
+  "table": "062",
+  "name": "Watford Junction to St Albans Abbey",
+  "period": "",
+  "operators": [
+    {
+      "code": "LM",
+      "name": "West Midlands Trains",
+      "color": "#D55E00"
+    }
+  ],
+  "days": [
+    "MF",
+    "SAT",
+    "SUN"
+  ],
+  "stations": [
+    "WFJ",
+    "WFN",
+    "GSN",
+    "BWO",
+    "HWW",
+    "PKT",
+    "SAA"
+  ],
+  "services": [
+    {
+      "id": "MF_0",
+      "headcode": "",
+      "operator": "LM",
+      "days": [
+        "MF"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "WFJ",
+          "arr": null,
+          "dep": 351
+        },
+        {
+          "station": "WFN",
+          "arr": null,
+          "dep": 354
+        },
+        {
+          "station": "GSN",
+          "arr": null,
+          "dep": 396
+        },
+        {
+          "station": "BWO",
+          "arr": null,
+          "dep": 399
+        },
+        {
+          "station": "HWW",
+          "arr": null,
+          "dep": 402
+        },
+        {
+          "station": "PKT",
+          "arr": null,
+          "dep": 404
+        },
+        {
+          "station": "SAA",
+          "arr": 364,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "MF_1",
+      "headcode": "",
+      "operator": "LM",
+      "days": [
+        "MF"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "WFJ",
+          "arr": null,
+          "dep": 391
+        },
+        {
+          "station": "WFN",
+          "arr": null,
+          "dep": 394
+        },
+        {
+          "station": "GSN",
+          "arr": null,
+          "dep": 440
+        },
+        {
+          "station": "BWO",
+          "arr": null,
+          "dep": 443
+        },
+        {
+          "station": "HWW",
+          "arr": null,
+          "dep": 446
+        },
+        {
+          "station": "PKT",
+          "arr": null,
+          "dep": 448
+        },
+        {
+          "station": "SAA",
+          "arr": 408,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "MF_2",
+      "headcode": "",
+      "operator": "LM",
+      "days": [
+        "MF"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "WFJ",
+          "arr": null,
+          "dep": 435
+        },
+        {
+          "station": "WFN",
+          "arr": null,
+          "dep": 438
+        },
+        {
+          "station": "GSN",
+          "arr": null,
+          "dep": 486
+        },
+        {
+          "station": "BWO",
+          "arr": null,
+          "dep": 489
+        },
+        {
+          "station": "HWW",
+          "arr": null,
+          "dep": 492
+        },
+        {
+          "station": "PKT",
+          "arr": null,
+          "dep": 494
+        },
+        {
+          "station": "SAA",
+          "arr": 451,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "MF_3",
+      "headcode": "",
+      "operator": "LM",
+      "days": [
+        "MF"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "WFJ",
+          "arr": null,
+          "dep": 481
+        },
+        {
+          "station": "WFN",
+          "arr": null,
+          "dep": 484
+        },
+        {
+          "station": "GSN",
+          "arr": null,
+          "dep": 530
+        },
+        {
+          "station": "BWO",
+          "arr": null,
+          "dep": 534
+        },
+        {
+          "station": "HWW",
+          "arr": null,
+          "dep": 537
+        },
+        {
+          "station": "PKT",
+          "arr": null,
+          "dep": 539
+        },
+        {
+          "station": "SAA",
+          "arr": 497,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "MF_4",
+      "headcode": "",
+      "operator": "LM",
+      "days": [
+        "MF"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "WFJ",
+          "arr": null,
+          "dep": 525
+        },
+        {
+          "station": "WFN",
+          "arr": null,
+          "dep": 528
+        },
+        {
+          "station": "GSN",
+          "arr": null,
+          "dep": 590
+        },
+        {
+          "station": "BWO",
+          "arr": null,
+          "dep": 594
+        },
+        {
+          "station": "HWW",
+          "arr": null,
+          "dep": 597
+        },
+        {
+          "station": "PKT",
+          "arr": null,
+          "dep": 599
+        },
+        {
+          "station": "SAA",
+          "arr": 542,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "MF_5",
+      "headcode": "",
+      "operator": "LM",
+      "days": [
+        "MF"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "WFJ",
+          "arr": null,
+          "dep": 585
+        },
+        {
+          "station": "WFN",
+          "arr": null,
+          "dep": 588
+        },
+        {
+          "station": "GSN",
+          "arr": null,
+          "dep": 650
+        },
+        {
+          "station": "BWO",
+          "arr": null,
+          "dep": 654
+        },
+        {
+          "station": "HWW",
+          "arr": null,
+          "dep": 657
+        },
+        {
+          "station": "PKT",
+          "arr": null,
+          "dep": 659
+        },
+        {
+          "station": "SAA",
+          "arr": 602,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "MF_6",
+      "headcode": "",
+      "operator": "LM",
+      "days": [
+        "MF"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "WFJ",
+          "arr": null,
+          "dep": 645
+        },
+        {
+          "station": "WFN",
+          "arr": null,
+          "dep": 648
+        },
+        {
+          "station": "GSN",
+          "arr": null,
+          "dep": 710
+        },
+        {
+          "station": "BWO",
+          "arr": null,
+          "dep": 714
+        },
+        {
+          "station": "HWW",
+          "arr": null,
+          "dep": 717
+        },
+        {
+          "station": "PKT",
+          "arr": null,
+          "dep": 719
+        },
+        {
+          "station": "SAA",
+          "arr": 662,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "MF_7",
+      "headcode": "",
+      "operator": "LM",
+      "days": [
+        "MF"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "WFJ",
+          "arr": null,
+          "dep": 705
+        },
+        {
+          "station": "WFN",
+          "arr": null,
+          "dep": 708
+        },
+        {
+          "station": "GSN",
+          "arr": null,
+          "dep": 770
+        },
+        {
+          "station": "BWO",
+          "arr": null,
+          "dep": 774
+        },
+        {
+          "station": "HWW",
+          "arr": null,
+          "dep": 777
+        },
+        {
+          "station": "PKT",
+          "arr": null,
+          "dep": 779
+        },
+        {
+          "station": "SAA",
+          "arr": 722,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "MF_8",
+      "headcode": "",
+      "operator": "LM",
+      "days": [
+        "MF"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "WFJ",
+          "arr": null,
+          "dep": 765
+        },
+        {
+          "station": "WFN",
+          "arr": null,
+          "dep": 768
+        },
+        {
+          "station": "GSN",
+          "arr": null,
+          "dep": 830
+        },
+        {
+          "station": "BWO",
+          "arr": null,
+          "dep": 834
+        },
+        {
+          "station": "HWW",
+          "arr": null,
+          "dep": 837
+        },
+        {
+          "station": "PKT",
+          "arr": null,
+          "dep": 839
+        },
+        {
+          "station": "SAA",
+          "arr": 782,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "MF_9",
+      "headcode": "",
+      "operator": "LM",
+      "days": [
+        "MF"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "WFJ",
+          "arr": null,
+          "dep": 825
+        },
+        {
+          "station": "WFN",
+          "arr": null,
+          "dep": 828
+        },
+        {
+          "station": "GSN",
+          "arr": null,
+          "dep": 890
+        },
+        {
+          "station": "BWO",
+          "arr": null,
+          "dep": 894
+        },
+        {
+          "station": "HWW",
+          "arr": null,
+          "dep": 897
+        },
+        {
+          "station": "PKT",
+          "arr": null,
+          "dep": 899
+        },
+        {
+          "station": "SAA",
+          "arr": 842,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "MF_10",
+      "headcode": "",
+      "operator": "LM",
+      "days": [
+        "MF"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "WFJ",
+          "arr": null,
+          "dep": 885
+        },
+        {
+          "station": "WFN",
+          "arr": null,
+          "dep": 888
+        },
+        {
+          "station": "GSN",
+          "arr": null,
+          "dep": 950
+        },
+        {
+          "station": "BWO",
+          "arr": null,
+          "dep": 953
+        },
+        {
+          "station": "HWW",
+          "arr": null,
+          "dep": 956
+        },
+        {
+          "station": "PKT",
+          "arr": null,
+          "dep": 958
+        },
+        {
+          "station": "SAA",
+          "arr": 902,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "MF_11",
+      "headcode": "",
+      "operator": "LM",
+      "days": [
+        "MF"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "WFJ",
+          "arr": null,
+          "dep": 945
+        },
+        {
+          "station": "WFN",
+          "arr": null,
+          "dep": 948
+        },
+        {
+          "station": "GSN",
+          "arr": null,
+          "dep": 995
+        },
+        {
+          "station": "BWO",
+          "arr": null,
+          "dep": 998
+        },
+        {
+          "station": "HWW",
+          "arr": null,
+          "dep": 1001
+        },
+        {
+          "station": "PKT",
+          "arr": null,
+          "dep": 1003
+        },
+        {
+          "station": "SAA",
+          "arr": 961,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "MF_12",
+      "headcode": "",
+      "operator": "LM",
+      "days": [
+        "MF"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "WFJ",
+          "arr": null,
+          "dep": 990
+        },
+        {
+          "station": "WFN",
+          "arr": null,
+          "dep": 993
+        },
+        {
+          "station": "GSN",
+          "arr": null,
+          "dep": 1040
+        },
+        {
+          "station": "BWO",
+          "arr": null,
+          "dep": 1043
+        },
+        {
+          "station": "HWW",
+          "arr": null,
+          "dep": 1046
+        },
+        {
+          "station": "PKT",
+          "arr": null,
+          "dep": 1048
+        },
+        {
+          "station": "SAA",
+          "arr": 1006,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "MF_13",
+      "headcode": "",
+      "operator": "LM",
+      "days": [
+        "MF"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "WFJ",
+          "arr": null,
+          "dep": 1035
+        },
+        {
+          "station": "WFN",
+          "arr": null,
+          "dep": 1038
+        },
+        {
+          "station": "GSN",
+          "arr": null,
+          "dep": 1085
+        },
+        {
+          "station": "BWO",
+          "arr": null,
+          "dep": 1088
+        },
+        {
+          "station": "HWW",
+          "arr": null,
+          "dep": 1091
+        },
+        {
+          "station": "PKT",
+          "arr": null,
+          "dep": 1093
+        },
+        {
+          "station": "SAA",
+          "arr": 1051,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "MF_14",
+      "headcode": "",
+      "operator": "LM",
+      "days": [
+        "MF"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "WFJ",
+          "arr": null,
+          "dep": 1080
+        },
+        {
+          "station": "WFN",
+          "arr": null,
+          "dep": 1083
+        },
+        {
+          "station": "GSN",
+          "arr": null,
+          "dep": 1130
+        },
+        {
+          "station": "BWO",
+          "arr": null,
+          "dep": 1134
+        },
+        {
+          "station": "HWW",
+          "arr": null,
+          "dep": 1137
+        },
+        {
+          "station": "PKT",
+          "arr": null,
+          "dep": 1139
+        },
+        {
+          "station": "SAA",
+          "arr": 1096,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "MF_15",
+      "headcode": "",
+      "operator": "LM",
+      "days": [
+        "MF"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "WFJ",
+          "arr": null,
+          "dep": 1125
+        },
+        {
+          "station": "WFN",
+          "arr": null,
+          "dep": 1128
+        },
+        {
+          "station": "GSN",
+          "arr": null,
+          "dep": 1190
+        },
+        {
+          "station": "BWO",
+          "arr": null,
+          "dep": 1194
+        },
+        {
+          "station": "HWW",
+          "arr": null,
+          "dep": 1197
+        },
+        {
+          "station": "PKT",
+          "arr": null,
+          "dep": 1199
+        },
+        {
+          "station": "SAA",
+          "arr": 1142,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "MF_16",
+      "headcode": "",
+      "operator": "LM",
+      "days": [
+        "MF"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "WFJ",
+          "arr": null,
+          "dep": 1185
+        },
+        {
+          "station": "WFN",
+          "arr": null,
+          "dep": 1188
+        },
+        {
+          "station": "GSN",
+          "arr": null,
+          "dep": 1250
+        },
+        {
+          "station": "BWO",
+          "arr": null,
+          "dep": 1254
+        },
+        {
+          "station": "HWW",
+          "arr": null,
+          "dep": 1257
+        },
+        {
+          "station": "PKT",
+          "arr": null,
+          "dep": 1259
+        },
+        {
+          "station": "SAA",
+          "arr": 1202,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "MF_17",
+      "headcode": "",
+      "operator": "",
+      "days": [
+        "MF"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "WFJ",
+          "arr": null,
+          "dep": 1245
+        },
+        {
+          "station": "WFN",
+          "arr": null,
+          "dep": 1248
+        },
+        {
+          "station": "SAA",
+          "arr": 1262,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "SAT_18",
+      "headcode": "",
+      "operator": "LM",
+      "days": [
+        "SAT"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "WFJ",
+          "arr": null,
+          "dep": 350
+        },
+        {
+          "station": "WFN",
+          "arr": null,
+          "dep": 353
+        },
+        {
+          "station": "GSN",
+          "arr": null,
+          "dep": 355
+        },
+        {
+          "station": "BWO",
+          "arr": null,
+          "dep": 359
+        },
+        {
+          "station": "HWW",
+          "arr": null,
+          "dep": 362
+        },
+        {
+          "station": "PKT",
+          "arr": null,
+          "dep": 364
+        },
+        {
+          "station": "SAA",
+          "arr": 367,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "SAT_19",
+      "headcode": "",
+      "operator": "LM",
+      "days": [
+        "SAT"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "WFJ",
+          "arr": null,
+          "dep": 405
+        },
+        {
+          "station": "WFN",
+          "arr": null,
+          "dep": 408
+        },
+        {
+          "station": "GSN",
+          "arr": null,
+          "dep": 410
+        },
+        {
+          "station": "BWO",
+          "arr": null,
+          "dep": 414
+        },
+        {
+          "station": "HWW",
+          "arr": null,
+          "dep": 417
+        },
+        {
+          "station": "PKT",
+          "arr": null,
+          "dep": 419
+        },
+        {
+          "station": "SAA",
+          "arr": 422,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "SAT_20",
+      "headcode": "",
+      "operator": "LM",
+      "days": [
+        "SAT"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "WFJ",
+          "arr": null,
+          "dep": 465
+        },
+        {
+          "station": "WFN",
+          "arr": null,
+          "dep": 468
+        },
+        {
+          "station": "GSN",
+          "arr": null,
+          "dep": 470
+        },
+        {
+          "station": "BWO",
+          "arr": null,
+          "dep": 474
+        },
+        {
+          "station": "HWW",
+          "arr": null,
+          "dep": 477
+        },
+        {
+          "station": "PKT",
+          "arr": null,
+          "dep": 479
+        },
+        {
+          "station": "SAA",
+          "arr": 482,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "SAT_21",
+      "headcode": "",
+      "operator": "LM",
+      "days": [
+        "SAT"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "WFJ",
+          "arr": null,
+          "dep": 525
+        },
+        {
+          "station": "WFN",
+          "arr": null,
+          "dep": 528
+        },
+        {
+          "station": "GSN",
+          "arr": null,
+          "dep": 530
+        },
+        {
+          "station": "BWO",
+          "arr": null,
+          "dep": 534
+        },
+        {
+          "station": "HWW",
+          "arr": null,
+          "dep": 537
+        },
+        {
+          "station": "PKT",
+          "arr": null,
+          "dep": 539
+        },
+        {
+          "station": "SAA",
+          "arr": 542,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "SAT_22",
+      "headcode": "",
+      "operator": "LM",
+      "days": [
+        "SAT"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "WFJ",
+          "arr": null,
+          "dep": 585
+        },
+        {
+          "station": "WFN",
+          "arr": null,
+          "dep": 588
+        },
+        {
+          "station": "GSN",
+          "arr": null,
+          "dep": 590
+        },
+        {
+          "station": "BWO",
+          "arr": null,
+          "dep": 594
+        },
+        {
+          "station": "HWW",
+          "arr": null,
+          "dep": 597
+        },
+        {
+          "station": "PKT",
+          "arr": null,
+          "dep": 599
+        },
+        {
+          "station": "SAA",
+          "arr": 602,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "SAT_23",
+      "headcode": "",
+      "operator": "LM",
+      "days": [
+        "SAT"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "WFJ",
+          "arr": null,
+          "dep": 645
+        },
+        {
+          "station": "WFN",
+          "arr": null,
+          "dep": 648
+        },
+        {
+          "station": "GSN",
+          "arr": null,
+          "dep": 650
+        },
+        {
+          "station": "BWO",
+          "arr": null,
+          "dep": 654
+        },
+        {
+          "station": "HWW",
+          "arr": null,
+          "dep": 657
+        },
+        {
+          "station": "PKT",
+          "arr": null,
+          "dep": 659
+        },
+        {
+          "station": "SAA",
+          "arr": 662,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "SAT_24",
+      "headcode": "",
+      "operator": "LM",
+      "days": [
+        "SAT"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "WFJ",
+          "arr": null,
+          "dep": 705
+        },
+        {
+          "station": "WFN",
+          "arr": null,
+          "dep": 708
+        },
+        {
+          "station": "GSN",
+          "arr": null,
+          "dep": 710
+        },
+        {
+          "station": "BWO",
+          "arr": null,
+          "dep": 714
+        },
+        {
+          "station": "HWW",
+          "arr": null,
+          "dep": 717
+        },
+        {
+          "station": "PKT",
+          "arr": null,
+          "dep": 719
+        },
+        {
+          "station": "SAA",
+          "arr": 722,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "SAT_25",
+      "headcode": "",
+      "operator": "LM",
+      "days": [
+        "SAT"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "WFJ",
+          "arr": null,
+          "dep": 765
+        },
+        {
+          "station": "WFN",
+          "arr": null,
+          "dep": 768
+        },
+        {
+          "station": "GSN",
+          "arr": null,
+          "dep": 770
+        },
+        {
+          "station": "BWO",
+          "arr": null,
+          "dep": 774
+        },
+        {
+          "station": "HWW",
+          "arr": null,
+          "dep": 777
+        },
+        {
+          "station": "PKT",
+          "arr": null,
+          "dep": 779
+        },
+        {
+          "station": "SAA",
+          "arr": 782,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "SAT_26",
+      "headcode": "",
+      "operator": "LM",
+      "days": [
+        "SAT"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "WFJ",
+          "arr": null,
+          "dep": 825
+        },
+        {
+          "station": "WFN",
+          "arr": null,
+          "dep": 828
+        },
+        {
+          "station": "GSN",
+          "arr": null,
+          "dep": 830
+        },
+        {
+          "station": "BWO",
+          "arr": null,
+          "dep": 834
+        },
+        {
+          "station": "HWW",
+          "arr": null,
+          "dep": 837
+        },
+        {
+          "station": "PKT",
+          "arr": null,
+          "dep": 839
+        },
+        {
+          "station": "SAA",
+          "arr": 842,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "SAT_27",
+      "headcode": "",
+      "operator": "LM",
+      "days": [
+        "SAT"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "WFJ",
+          "arr": null,
+          "dep": 885
+        },
+        {
+          "station": "WFN",
+          "arr": null,
+          "dep": 888
+        },
+        {
+          "station": "GSN",
+          "arr": null,
+          "dep": 890
+        },
+        {
+          "station": "BWO",
+          "arr": null,
+          "dep": 894
+        },
+        {
+          "station": "HWW",
+          "arr": null,
+          "dep": 897
+        },
+        {
+          "station": "PKT",
+          "arr": null,
+          "dep": 899
+        },
+        {
+          "station": "SAA",
+          "arr": 902,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "SAT_28",
+      "headcode": "",
+      "operator": "LM",
+      "days": [
+        "SAT"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "WFJ",
+          "arr": null,
+          "dep": 945
+        },
+        {
+          "station": "WFN",
+          "arr": null,
+          "dep": 948
+        },
+        {
+          "station": "GSN",
+          "arr": null,
+          "dep": 950
+        },
+        {
+          "station": "BWO",
+          "arr": null,
+          "dep": 954
+        },
+        {
+          "station": "HWW",
+          "arr": null,
+          "dep": 957
+        },
+        {
+          "station": "PKT",
+          "arr": null,
+          "dep": 959
+        },
+        {
+          "station": "SAA",
+          "arr": 962,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "SAT_29",
+      "headcode": "",
+      "operator": "LM",
+      "days": [
+        "SAT"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "WFJ",
+          "arr": null,
+          "dep": 1005
+        },
+        {
+          "station": "WFN",
+          "arr": null,
+          "dep": 1008
+        },
+        {
+          "station": "GSN",
+          "arr": null,
+          "dep": 1010
+        },
+        {
+          "station": "BWO",
+          "arr": null,
+          "dep": 1014
+        },
+        {
+          "station": "HWW",
+          "arr": null,
+          "dep": 1017
+        },
+        {
+          "station": "PKT",
+          "arr": null,
+          "dep": 1019
+        },
+        {
+          "station": "SAA",
+          "arr": 1022,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "SAT_30",
+      "headcode": "",
+      "operator": "LM",
+      "days": [
+        "SAT"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "WFJ",
+          "arr": null,
+          "dep": 1065
+        },
+        {
+          "station": "WFN",
+          "arr": null,
+          "dep": 1068
+        },
+        {
+          "station": "GSN",
+          "arr": null,
+          "dep": 1070
+        },
+        {
+          "station": "BWO",
+          "arr": null,
+          "dep": 1074
+        },
+        {
+          "station": "HWW",
+          "arr": null,
+          "dep": 1077
+        },
+        {
+          "station": "PKT",
+          "arr": null,
+          "dep": 1079
+        },
+        {
+          "station": "SAA",
+          "arr": 1082,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "SAT_31",
+      "headcode": "",
+      "operator": "LM",
+      "days": [
+        "SAT"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "WFJ",
+          "arr": null,
+          "dep": 1125
+        },
+        {
+          "station": "WFN",
+          "arr": null,
+          "dep": 1128
+        },
+        {
+          "station": "GSN",
+          "arr": null,
+          "dep": 1130
+        },
+        {
+          "station": "BWO",
+          "arr": null,
+          "dep": 1134
+        },
+        {
+          "station": "HWW",
+          "arr": null,
+          "dep": 1137
+        },
+        {
+          "station": "PKT",
+          "arr": null,
+          "dep": 1139
+        },
+        {
+          "station": "SAA",
+          "arr": 1142,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "SAT_32",
+      "headcode": "",
+      "operator": "LM",
+      "days": [
+        "SAT"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "WFJ",
+          "arr": null,
+          "dep": 1185
+        },
+        {
+          "station": "WFN",
+          "arr": null,
+          "dep": 1188
+        },
+        {
+          "station": "GSN",
+          "arr": null,
+          "dep": 1190
+        },
+        {
+          "station": "BWO",
+          "arr": null,
+          "dep": 1194
+        },
+        {
+          "station": "HWW",
+          "arr": null,
+          "dep": 1197
+        },
+        {
+          "station": "PKT",
+          "arr": null,
+          "dep": 1199
+        },
+        {
+          "station": "SAA",
+          "arr": 1202,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "SAT_33",
+      "headcode": "",
+      "operator": "LM",
+      "days": [
+        "SAT"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "WFJ",
+          "arr": null,
+          "dep": 1245
+        },
+        {
+          "station": "WFN",
+          "arr": null,
+          "dep": 1248
+        },
+        {
+          "station": "GSN",
+          "arr": null,
+          "dep": 1250
+        },
+        {
+          "station": "BWO",
+          "arr": null,
+          "dep": 1254
+        },
+        {
+          "station": "HWW",
+          "arr": null,
+          "dep": 1257
+        },
+        {
+          "station": "PKT",
+          "arr": null,
+          "dep": 1259
+        },
+        {
+          "station": "SAA",
+          "arr": 1262,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "SAT_34",
+      "headcode": "",
+      "operator": "LM",
+      "days": [
+        "SAT"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "WFJ",
+          "arr": null,
+          "dep": 1305
+        },
+        {
+          "station": "WFN",
+          "arr": null,
+          "dep": 1308
+        },
+        {
+          "station": "GSN",
+          "arr": null,
+          "dep": 1310
+        },
+        {
+          "station": "BWO",
+          "arr": null,
+          "dep": 1314
+        },
+        {
+          "station": "HWW",
+          "arr": null,
+          "dep": 1317
+        },
+        {
+          "station": "PKT",
+          "arr": null,
+          "dep": 1319
+        },
+        {
+          "station": "SAA",
+          "arr": 1322,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "SAT_35",
+      "headcode": "",
+      "operator": "",
+      "days": [
+        "SAT"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "WFJ",
+          "arr": null,
+          "dep": 1365
+        },
+        {
+          "station": "WFN",
+          "arr": null,
+          "dep": 1368
+        },
+        {
+          "station": "GSN",
+          "arr": null,
+          "dep": 1370
+        },
+        {
+          "station": "BWO",
+          "arr": null,
+          "dep": 1374
+        },
+        {
+          "station": "HWW",
+          "arr": null,
+          "dep": 1377
+        },
+        {
+          "station": "PKT",
+          "arr": null,
+          "dep": 1379
+        },
+        {
+          "station": "SAA",
+          "arr": 1382,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "SUN_36",
+      "headcode": "",
+      "operator": "LM",
+      "days": [
+        "SUN"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "WFJ",
+          "arr": null,
+          "dep": 484
+        },
+        {
+          "station": "WFN",
+          "arr": null,
+          "dep": 487
+        },
+        {
+          "station": "GSN",
+          "arr": null,
+          "dep": 489
+        },
+        {
+          "station": "BWO",
+          "arr": null,
+          "dep": 492
+        },
+        {
+          "station": "HWW",
+          "arr": null,
+          "dep": 495
+        },
+        {
+          "station": "PKT",
+          "arr": null,
+          "dep": 497
+        },
+        {
+          "station": "SAA",
+          "arr": 500,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "SUN_37",
+      "headcode": "",
+      "operator": "LM",
+      "days": [
+        "SUN"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "WFJ",
+          "arr": null,
+          "dep": 543
+        },
+        {
+          "station": "WFN",
+          "arr": null,
+          "dep": 546
+        },
+        {
+          "station": "GSN",
+          "arr": null,
+          "dep": 548
+        },
+        {
+          "station": "BWO",
+          "arr": null,
+          "dep": 552
+        },
+        {
+          "station": "HWW",
+          "arr": null,
+          "dep": 555
+        },
+        {
+          "station": "PKT",
+          "arr": null,
+          "dep": 557
+        },
+        {
+          "station": "SAA",
+          "arr": 560,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "SUN_38",
+      "headcode": "",
+      "operator": "LM",
+      "days": [
+        "SUN"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "WFJ",
+          "arr": null,
+          "dep": 618
+        },
+        {
+          "station": "WFN",
+          "arr": null,
+          "dep": 621
+        },
+        {
+          "station": "GSN",
+          "arr": null,
+          "dep": 623
+        },
+        {
+          "station": "BWO",
+          "arr": null,
+          "dep": 627
+        },
+        {
+          "station": "HWW",
+          "arr": null,
+          "dep": 630
+        },
+        {
+          "station": "PKT",
+          "arr": null,
+          "dep": 632
+        },
+        {
+          "station": "SAA",
+          "arr": 635,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "SUN_39",
+      "headcode": "",
+      "operator": "LM",
+      "days": [
+        "SUN"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "WFJ",
+          "arr": null,
+          "dep": 678
+        },
+        {
+          "station": "WFN",
+          "arr": null,
+          "dep": 681
+        },
+        {
+          "station": "GSN",
+          "arr": null,
+          "dep": 683
+        },
+        {
+          "station": "BWO",
+          "arr": null,
+          "dep": 687
+        },
+        {
+          "station": "HWW",
+          "arr": null,
+          "dep": 690
+        },
+        {
+          "station": "PKT",
+          "arr": null,
+          "dep": 692
+        },
+        {
+          "station": "SAA",
+          "arr": 695,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "SUN_40",
+      "headcode": "",
+      "operator": "LM",
+      "days": [
+        "SUN"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "WFJ",
+          "arr": null,
+          "dep": 738
+        },
+        {
+          "station": "WFN",
+          "arr": null,
+          "dep": 741
+        },
+        {
+          "station": "GSN",
+          "arr": null,
+          "dep": 743
+        },
+        {
+          "station": "BWO",
+          "arr": null,
+          "dep": 747
+        },
+        {
+          "station": "HWW",
+          "arr": null,
+          "dep": 750
+        },
+        {
+          "station": "PKT",
+          "arr": null,
+          "dep": 752
+        },
+        {
+          "station": "SAA",
+          "arr": 755,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "SUN_41",
+      "headcode": "",
+      "operator": "LM",
+      "days": [
+        "SUN"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "WFJ",
+          "arr": null,
+          "dep": 798
+        },
+        {
+          "station": "WFN",
+          "arr": null,
+          "dep": 801
+        },
+        {
+          "station": "GSN",
+          "arr": null,
+          "dep": 803
+        },
+        {
+          "station": "BWO",
+          "arr": null,
+          "dep": 807
+        },
+        {
+          "station": "HWW",
+          "arr": null,
+          "dep": 810
+        },
+        {
+          "station": "PKT",
+          "arr": null,
+          "dep": 812
+        },
+        {
+          "station": "SAA",
+          "arr": 815,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "SUN_42",
+      "headcode": "",
+      "operator": "LM",
+      "days": [
+        "SUN"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "WFJ",
+          "arr": null,
+          "dep": 858
+        },
+        {
+          "station": "WFN",
+          "arr": null,
+          "dep": 861
+        },
+        {
+          "station": "GSN",
+          "arr": null,
+          "dep": 863
+        },
+        {
+          "station": "BWO",
+          "arr": null,
+          "dep": 867
+        },
+        {
+          "station": "HWW",
+          "arr": null,
+          "dep": 870
+        },
+        {
+          "station": "PKT",
+          "arr": null,
+          "dep": 872
+        },
+        {
+          "station": "SAA",
+          "arr": 875,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "SUN_43",
+      "headcode": "",
+      "operator": "LM",
+      "days": [
+        "SUN"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "WFJ",
+          "arr": null,
+          "dep": 918
+        },
+        {
+          "station": "WFN",
+          "arr": null,
+          "dep": 921
+        },
+        {
+          "station": "GSN",
+          "arr": null,
+          "dep": 923
+        },
+        {
+          "station": "BWO",
+          "arr": null,
+          "dep": 927
+        },
+        {
+          "station": "HWW",
+          "arr": null,
+          "dep": 930
+        },
+        {
+          "station": "PKT",
+          "arr": null,
+          "dep": 932
+        },
+        {
+          "station": "SAA",
+          "arr": 935,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "SUN_44",
+      "headcode": "",
+      "operator": "LM",
+      "days": [
+        "SUN"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "WFJ",
+          "arr": null,
+          "dep": 978
+        },
+        {
+          "station": "WFN",
+          "arr": null,
+          "dep": 981
+        },
+        {
+          "station": "GSN",
+          "arr": null,
+          "dep": 983
+        },
+        {
+          "station": "BWO",
+          "arr": null,
+          "dep": 987
+        },
+        {
+          "station": "HWW",
+          "arr": null,
+          "dep": 990
+        },
+        {
+          "station": "PKT",
+          "arr": null,
+          "dep": 992
+        },
+        {
+          "station": "SAA",
+          "arr": 995,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "SUN_45",
+      "headcode": "",
+      "operator": "LM",
+      "days": [
+        "SUN"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "WFJ",
+          "arr": null,
+          "dep": 1038
+        },
+        {
+          "station": "WFN",
+          "arr": null,
+          "dep": 1041
+        },
+        {
+          "station": "GSN",
+          "arr": null,
+          "dep": 1043
+        },
+        {
+          "station": "BWO",
+          "arr": null,
+          "dep": 1047
+        },
+        {
+          "station": "HWW",
+          "arr": null,
+          "dep": 1050
+        },
+        {
+          "station": "PKT",
+          "arr": null,
+          "dep": 1052
+        },
+        {
+          "station": "SAA",
+          "arr": 1055,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "SUN_46",
+      "headcode": "",
+      "operator": "LM",
+      "days": [
+        "SUN"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "WFJ",
+          "arr": null,
+          "dep": 1098
+        },
+        {
+          "station": "WFN",
+          "arr": null,
+          "dep": 1101
+        },
+        {
+          "station": "GSN",
+          "arr": null,
+          "dep": 1103
+        },
+        {
+          "station": "BWO",
+          "arr": null,
+          "dep": 1107
+        },
+        {
+          "station": "HWW",
+          "arr": null,
+          "dep": 1110
+        },
+        {
+          "station": "PKT",
+          "arr": null,
+          "dep": 1112
+        },
+        {
+          "station": "SAA",
+          "arr": 1115,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "SUN_47",
+      "headcode": "",
+      "operator": "LM",
+      "days": [
+        "SUN"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "WFJ",
+          "arr": null,
+          "dep": 1158
+        },
+        {
+          "station": "WFN",
+          "arr": null,
+          "dep": 1161
+        },
+        {
+          "station": "GSN",
+          "arr": null,
+          "dep": 1163
+        },
+        {
+          "station": "BWO",
+          "arr": null,
+          "dep": 1167
+        },
+        {
+          "station": "HWW",
+          "arr": null,
+          "dep": 1170
+        },
+        {
+          "station": "PKT",
+          "arr": null,
+          "dep": 1172
+        },
+        {
+          "station": "SAA",
+          "arr": 1175,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "SUN_48",
+      "headcode": "",
+      "operator": "LM",
+      "days": [
+        "SUN"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "WFJ",
+          "arr": null,
+          "dep": 1218
+        },
+        {
+          "station": "WFN",
+          "arr": null,
+          "dep": 1221
+        },
+        {
+          "station": "GSN",
+          "arr": null,
+          "dep": 1223
+        },
+        {
+          "station": "BWO",
+          "arr": null,
+          "dep": 1227
+        },
+        {
+          "station": "HWW",
+          "arr": null,
+          "dep": 1230
+        },
+        {
+          "station": "PKT",
+          "arr": null,
+          "dep": 1232
+        },
+        {
+          "station": "SAA",
+          "arr": 1235,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "SUN_49",
+      "headcode": "",
+      "operator": "LM",
+      "days": [
+        "SUN"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "WFJ",
+          "arr": null,
+          "dep": 1288
+        },
+        {
+          "station": "WFN",
+          "arr": null,
+          "dep": 1291
+        },
+        {
+          "station": "GSN",
+          "arr": null,
+          "dep": 1293
+        },
+        {
+          "station": "BWO",
+          "arr": null,
+          "dep": 1297
+        },
+        {
+          "station": "HWW",
+          "arr": null,
+          "dep": 1300
+        },
+        {
+          "station": "PKT",
+          "arr": null,
+          "dep": 1302
+        },
+        {
+          "station": "SAA",
+          "arr": 1305,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "SUN_50",
+      "headcode": "",
+      "operator": "LM",
+      "days": [
+        "SUN"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "WFJ",
+          "arr": null,
+          "dep": 1338
+        },
+        {
+          "station": "WFN",
+          "arr": null,
+          "dep": 1341
+        },
+        {
+          "station": "GSN",
+          "arr": null,
+          "dep": 1343
+        },
+        {
+          "station": "BWO",
+          "arr": null,
+          "dep": 1347
+        },
+        {
+          "station": "HWW",
+          "arr": null,
+          "dep": 1350
+        },
+        {
+          "station": "PKT",
+          "arr": null,
+          "dep": 1352
+        },
+        {
+          "station": "SAA",
+          "arr": 1355,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "SUN_51",
+      "headcode": "",
+      "operator": "",
+      "days": [
+        "SUN"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "WFJ",
+          "arr": null,
+          "dep": 1384
+        },
+        {
+          "station": "WFN",
+          "arr": null,
+          "dep": 1387
+        },
+        {
+          "station": "GSN",
+          "arr": null,
+          "dep": 1389
+        },
+        {
+          "station": "BWO",
+          "arr": null,
+          "dep": 1392
+        },
+        {
+          "station": "HWW",
+          "arr": null,
+          "dep": 1395
+        },
+        {
+          "station": "PKT",
+          "arr": null,
+          "dep": 1397
+        },
+        {
+          "station": "SAA",
+          "arr": 1400,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "SUN_52",
+      "headcode": "",
+      "operator": "",
+      "days": [
+        "SUN"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "SAA",
+          "arr": null,
+          "dep": 919
+        }
+      ]
+    },
+    {
+      "id": "MF_53",
+      "headcode": "",
+      "operator": "LM",
+      "days": [
+        "MF"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "SAA",
+          "arr": null,
+          "dep": 369
+        },
+        {
+          "station": "PKT",
+          "arr": null,
+          "dep": 372
+        },
+        {
+          "station": "HWW",
+          "arr": null,
+          "dep": 374
+        },
+        {
+          "station": "BWO",
+          "arr": null,
+          "dep": 377
+        },
+        {
+          "station": "GSN",
+          "arr": null,
+          "dep": 380
+        },
+        {
+          "station": "WFN",
+          "arr": null,
+          "dep": 383
+        },
+        {
+          "station": "WFJ",
+          "arr": 385,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "MF_54",
+      "headcode": "",
+      "operator": "LM",
+      "days": [
+        "MF"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "SAA",
+          "arr": null,
+          "dep": 413
+        },
+        {
+          "station": "PKT",
+          "arr": null,
+          "dep": 416
+        },
+        {
+          "station": "HWW",
+          "arr": null,
+          "dep": 418
+        },
+        {
+          "station": "BWO",
+          "arr": null,
+          "dep": 421
+        },
+        {
+          "station": "GSN",
+          "arr": null,
+          "dep": 424
+        },
+        {
+          "station": "WFN",
+          "arr": null,
+          "dep": 427
+        },
+        {
+          "station": "WFJ",
+          "arr": 429,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "MF_55",
+      "headcode": "",
+      "operator": "LM",
+      "days": [
+        "MF"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "SAA",
+          "arr": null,
+          "dep": 457
+        },
+        {
+          "station": "PKT",
+          "arr": null,
+          "dep": 460
+        },
+        {
+          "station": "HWW",
+          "arr": null,
+          "dep": 462
+        },
+        {
+          "station": "BWO",
+          "arr": null,
+          "dep": 465
+        },
+        {
+          "station": "GSN",
+          "arr": null,
+          "dep": 468
+        },
+        {
+          "station": "WFN",
+          "arr": null,
+          "dep": 471
+        },
+        {
+          "station": "WFJ",
+          "arr": 473,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "MF_56",
+      "headcode": "",
+      "operator": "LM",
+      "days": [
+        "MF"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "SAA",
+          "arr": null,
+          "dep": 503
+        },
+        {
+          "station": "PKT",
+          "arr": null,
+          "dep": 506
+        },
+        {
+          "station": "HWW",
+          "arr": null,
+          "dep": 508
+        },
+        {
+          "station": "BWO",
+          "arr": null,
+          "dep": 511
+        },
+        {
+          "station": "GSN",
+          "arr": null,
+          "dep": 514
+        },
+        {
+          "station": "WFN",
+          "arr": null,
+          "dep": 517
+        },
+        {
+          "station": "WFJ",
+          "arr": 519,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "MF_57",
+      "headcode": "",
+      "operator": "LM",
+      "days": [
+        "MF"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "SAA",
+          "arr": null,
+          "dep": 548
+        },
+        {
+          "station": "PKT",
+          "arr": null,
+          "dep": 551
+        },
+        {
+          "station": "HWW",
+          "arr": null,
+          "dep": 554
+        },
+        {
+          "station": "BWO",
+          "arr": null,
+          "dep": 556
+        },
+        {
+          "station": "GSN",
+          "arr": null,
+          "dep": 560
+        },
+        {
+          "station": "WFN",
+          "arr": null,
+          "dep": 563
+        },
+        {
+          "station": "WFJ",
+          "arr": 565,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "MF_58",
+      "headcode": "",
+      "operator": "LM",
+      "days": [
+        "MF"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "SAA",
+          "arr": null,
+          "dep": 608
+        },
+        {
+          "station": "PKT",
+          "arr": null,
+          "dep": 611
+        },
+        {
+          "station": "HWW",
+          "arr": null,
+          "dep": 614
+        },
+        {
+          "station": "BWO",
+          "arr": null,
+          "dep": 616
+        },
+        {
+          "station": "GSN",
+          "arr": null,
+          "dep": 620
+        },
+        {
+          "station": "WFN",
+          "arr": null,
+          "dep": 623
+        },
+        {
+          "station": "WFJ",
+          "arr": 625,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "MF_59",
+      "headcode": "",
+      "operator": "LM",
+      "days": [
+        "MF"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "SAA",
+          "arr": null,
+          "dep": 668
+        },
+        {
+          "station": "PKT",
+          "arr": null,
+          "dep": 671
+        },
+        {
+          "station": "HWW",
+          "arr": null,
+          "dep": 674
+        },
+        {
+          "station": "BWO",
+          "arr": null,
+          "dep": 676
+        },
+        {
+          "station": "GSN",
+          "arr": null,
+          "dep": 680
+        },
+        {
+          "station": "WFN",
+          "arr": null,
+          "dep": 683
+        },
+        {
+          "station": "WFJ",
+          "arr": 685,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "MF_60",
+      "headcode": "",
+      "operator": "LM",
+      "days": [
+        "MF"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "SAA",
+          "arr": null,
+          "dep": 728
+        },
+        {
+          "station": "PKT",
+          "arr": null,
+          "dep": 731
+        },
+        {
+          "station": "HWW",
+          "arr": null,
+          "dep": 734
+        },
+        {
+          "station": "BWO",
+          "arr": null,
+          "dep": 736
+        },
+        {
+          "station": "GSN",
+          "arr": null,
+          "dep": 740
+        },
+        {
+          "station": "WFN",
+          "arr": null,
+          "dep": 743
+        },
+        {
+          "station": "WFJ",
+          "arr": 745,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "MF_61",
+      "headcode": "",
+      "operator": "LM",
+      "days": [
+        "MF"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "SAA",
+          "arr": null,
+          "dep": 788
+        },
+        {
+          "station": "PKT",
+          "arr": null,
+          "dep": 791
+        },
+        {
+          "station": "HWW",
+          "arr": null,
+          "dep": 794
+        },
+        {
+          "station": "BWO",
+          "arr": null,
+          "dep": 796
+        },
+        {
+          "station": "GSN",
+          "arr": null,
+          "dep": 800
+        },
+        {
+          "station": "WFN",
+          "arr": null,
+          "dep": 803
+        },
+        {
+          "station": "WFJ",
+          "arr": 805,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "MF_62",
+      "headcode": "",
+      "operator": "LM",
+      "days": [
+        "MF"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "SAA",
+          "arr": null,
+          "dep": 848
+        },
+        {
+          "station": "PKT",
+          "arr": null,
+          "dep": 851
+        },
+        {
+          "station": "HWW",
+          "arr": null,
+          "dep": 854
+        },
+        {
+          "station": "BWO",
+          "arr": null,
+          "dep": 856
+        },
+        {
+          "station": "GSN",
+          "arr": null,
+          "dep": 860
+        },
+        {
+          "station": "WFN",
+          "arr": null,
+          "dep": 863
+        },
+        {
+          "station": "WFJ",
+          "arr": 865,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "MF_63",
+      "headcode": "",
+      "operator": "LM",
+      "days": [
+        "MF"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "SAA",
+          "arr": null,
+          "dep": 908
+        },
+        {
+          "station": "PKT",
+          "arr": null,
+          "dep": 911
+        },
+        {
+          "station": "HWW",
+          "arr": null,
+          "dep": 914
+        },
+        {
+          "station": "BWO",
+          "arr": null,
+          "dep": 916
+        },
+        {
+          "station": "GSN",
+          "arr": null,
+          "dep": 920
+        },
+        {
+          "station": "WFN",
+          "arr": null,
+          "dep": 923
+        },
+        {
+          "station": "WFJ",
+          "arr": 925,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "MF_64",
+      "headcode": "",
+      "operator": "LM",
+      "days": [
+        "MF"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "SAA",
+          "arr": null,
+          "dep": 967
+        },
+        {
+          "station": "PKT",
+          "arr": null,
+          "dep": 970
+        },
+        {
+          "station": "HWW",
+          "arr": null,
+          "dep": 972
+        },
+        {
+          "station": "BWO",
+          "arr": null,
+          "dep": 975
+        },
+        {
+          "station": "GSN",
+          "arr": null,
+          "dep": 978
+        },
+        {
+          "station": "WFN",
+          "arr": null,
+          "dep": 981
+        },
+        {
+          "station": "WFJ",
+          "arr": 983,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "MF_65",
+      "headcode": "",
+      "operator": "LM",
+      "days": [
+        "MF"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "SAA",
+          "arr": null,
+          "dep": 1011
+        },
+        {
+          "station": "PKT",
+          "arr": null,
+          "dep": 1014
+        },
+        {
+          "station": "HWW",
+          "arr": null,
+          "dep": 1016
+        },
+        {
+          "station": "BWO",
+          "arr": null,
+          "dep": 1019
+        },
+        {
+          "station": "GSN",
+          "arr": null,
+          "dep": 1022
+        },
+        {
+          "station": "WFN",
+          "arr": null,
+          "dep": 1025
+        },
+        {
+          "station": "WFJ",
+          "arr": 1028,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "MF_66",
+      "headcode": "",
+      "operator": "LM",
+      "days": [
+        "MF"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "SAA",
+          "arr": null,
+          "dep": 1056
+        },
+        {
+          "station": "PKT",
+          "arr": null,
+          "dep": 1059
+        },
+        {
+          "station": "HWW",
+          "arr": null,
+          "dep": 1061
+        },
+        {
+          "station": "BWO",
+          "arr": null,
+          "dep": 1064
+        },
+        {
+          "station": "GSN",
+          "arr": null,
+          "dep": 1067
+        },
+        {
+          "station": "WFN",
+          "arr": null,
+          "dep": 1070
+        },
+        {
+          "station": "WFJ",
+          "arr": 1073,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "MF_67",
+      "headcode": "",
+      "operator": "LM",
+      "days": [
+        "MF"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "SAA",
+          "arr": null,
+          "dep": 1102
+        },
+        {
+          "station": "PKT",
+          "arr": null,
+          "dep": 1105
+        },
+        {
+          "station": "HWW",
+          "arr": null,
+          "dep": 1108
+        },
+        {
+          "station": "BWO",
+          "arr": null,
+          "dep": 1110
+        },
+        {
+          "station": "GSN",
+          "arr": null,
+          "dep": 1114
+        },
+        {
+          "station": "WFN",
+          "arr": null,
+          "dep": 1117
+        },
+        {
+          "station": "WFJ",
+          "arr": 1119,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "MF_68",
+      "headcode": "",
+      "operator": "LM",
+      "days": [
+        "MF"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "SAA",
+          "arr": null,
+          "dep": 1148
+        },
+        {
+          "station": "PKT",
+          "arr": null,
+          "dep": 1151
+        },
+        {
+          "station": "HWW",
+          "arr": null,
+          "dep": 1154
+        },
+        {
+          "station": "BWO",
+          "arr": null,
+          "dep": 1156
+        },
+        {
+          "station": "GSN",
+          "arr": null,
+          "dep": 1160
+        },
+        {
+          "station": "WFN",
+          "arr": null,
+          "dep": 1163
+        },
+        {
+          "station": "WFJ",
+          "arr": 1165,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "MF_69",
+      "headcode": "",
+      "operator": "LM",
+      "days": [
+        "MF"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "SAA",
+          "arr": null,
+          "dep": 1208
+        },
+        {
+          "station": "PKT",
+          "arr": null,
+          "dep": 1211
+        },
+        {
+          "station": "HWW",
+          "arr": null,
+          "dep": 1214
+        },
+        {
+          "station": "BWO",
+          "arr": null,
+          "dep": 1216
+        },
+        {
+          "station": "GSN",
+          "arr": null,
+          "dep": 1220
+        },
+        {
+          "station": "WFN",
+          "arr": null,
+          "dep": 1223
+        },
+        {
+          "station": "WFJ",
+          "arr": 1225,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "MF_70",
+      "headcode": "",
+      "operator": "",
+      "days": [
+        "MF"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "SAA",
+          "arr": null,
+          "dep": 1268
+        },
+        {
+          "station": "PKT",
+          "arr": null,
+          "dep": 1271
+        },
+        {
+          "station": "HWW",
+          "arr": null,
+          "dep": 1274
+        },
+        {
+          "station": "BWO",
+          "arr": null,
+          "dep": 1276
+        },
+        {
+          "station": "GSN",
+          "arr": null,
+          "dep": 1280
+        },
+        {
+          "station": "WFN",
+          "arr": null,
+          "dep": 1283
+        },
+        {
+          "station": "WFJ",
+          "arr": 1285,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "SAT_71",
+      "headcode": "",
+      "operator": "LM",
+      "days": [
+        "SAT"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "SAA",
+          "arr": null,
+          "dep": 373
+        },
+        {
+          "station": "PKT",
+          "arr": null,
+          "dep": 376
+        },
+        {
+          "station": "HWW",
+          "arr": null,
+          "dep": 379
+        },
+        {
+          "station": "BWO",
+          "arr": null,
+          "dep": 381
+        },
+        {
+          "station": "GSN",
+          "arr": null,
+          "dep": 385
+        },
+        {
+          "station": "WFN",
+          "arr": null,
+          "dep": 388
+        },
+        {
+          "station": "WFJ",
+          "arr": 390,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "SAT_72",
+      "headcode": "",
+      "operator": "LM",
+      "days": [
+        "SAT"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "SAA",
+          "arr": null,
+          "dep": 428
+        },
+        {
+          "station": "PKT",
+          "arr": null,
+          "dep": 431
+        },
+        {
+          "station": "HWW",
+          "arr": null,
+          "dep": 434
+        },
+        {
+          "station": "BWO",
+          "arr": null,
+          "dep": 436
+        },
+        {
+          "station": "GSN",
+          "arr": null,
+          "dep": 440
+        },
+        {
+          "station": "WFN",
+          "arr": null,
+          "dep": 443
+        },
+        {
+          "station": "WFJ",
+          "arr": 445,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "SAT_73",
+      "headcode": "",
+      "operator": "LM",
+      "days": [
+        "SAT"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "SAA",
+          "arr": null,
+          "dep": 488
+        },
+        {
+          "station": "PKT",
+          "arr": null,
+          "dep": 491
+        },
+        {
+          "station": "HWW",
+          "arr": null,
+          "dep": 494
+        },
+        {
+          "station": "BWO",
+          "arr": null,
+          "dep": 496
+        },
+        {
+          "station": "GSN",
+          "arr": null,
+          "dep": 500
+        },
+        {
+          "station": "WFN",
+          "arr": null,
+          "dep": 503
+        },
+        {
+          "station": "WFJ",
+          "arr": 505,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "SAT_74",
+      "headcode": "",
+      "operator": "LM",
+      "days": [
+        "SAT"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "SAA",
+          "arr": null,
+          "dep": 548
+        },
+        {
+          "station": "PKT",
+          "arr": null,
+          "dep": 551
+        },
+        {
+          "station": "HWW",
+          "arr": null,
+          "dep": 554
+        },
+        {
+          "station": "BWO",
+          "arr": null,
+          "dep": 556
+        },
+        {
+          "station": "GSN",
+          "arr": null,
+          "dep": 560
+        },
+        {
+          "station": "WFN",
+          "arr": null,
+          "dep": 563
+        },
+        {
+          "station": "WFJ",
+          "arr": 565,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "SAT_75",
+      "headcode": "",
+      "operator": "LM",
+      "days": [
+        "SAT"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "SAA",
+          "arr": null,
+          "dep": 608
+        },
+        {
+          "station": "PKT",
+          "arr": null,
+          "dep": 611
+        },
+        {
+          "station": "HWW",
+          "arr": null,
+          "dep": 614
+        },
+        {
+          "station": "BWO",
+          "arr": null,
+          "dep": 616
+        },
+        {
+          "station": "GSN",
+          "arr": null,
+          "dep": 620
+        },
+        {
+          "station": "WFN",
+          "arr": null,
+          "dep": 623
+        },
+        {
+          "station": "WFJ",
+          "arr": 625,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "SAT_76",
+      "headcode": "",
+      "operator": "LM",
+      "days": [
+        "SAT"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "SAA",
+          "arr": null,
+          "dep": 668
+        },
+        {
+          "station": "PKT",
+          "arr": null,
+          "dep": 671
+        },
+        {
+          "station": "HWW",
+          "arr": null,
+          "dep": 674
+        },
+        {
+          "station": "BWO",
+          "arr": null,
+          "dep": 676
+        },
+        {
+          "station": "GSN",
+          "arr": null,
+          "dep": 680
+        },
+        {
+          "station": "WFN",
+          "arr": null,
+          "dep": 683
+        },
+        {
+          "station": "WFJ",
+          "arr": 685,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "SAT_77",
+      "headcode": "",
+      "operator": "LM",
+      "days": [
+        "SAT"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "SAA",
+          "arr": null,
+          "dep": 728
+        },
+        {
+          "station": "PKT",
+          "arr": null,
+          "dep": 731
+        },
+        {
+          "station": "HWW",
+          "arr": null,
+          "dep": 734
+        },
+        {
+          "station": "BWO",
+          "arr": null,
+          "dep": 736
+        },
+        {
+          "station": "GSN",
+          "arr": null,
+          "dep": 740
+        },
+        {
+          "station": "WFN",
+          "arr": null,
+          "dep": 743
+        },
+        {
+          "station": "WFJ",
+          "arr": 745,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "SAT_78",
+      "headcode": "",
+      "operator": "LM",
+      "days": [
+        "SAT"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "SAA",
+          "arr": null,
+          "dep": 788
+        },
+        {
+          "station": "PKT",
+          "arr": null,
+          "dep": 791
+        },
+        {
+          "station": "HWW",
+          "arr": null,
+          "dep": 794
+        },
+        {
+          "station": "BWO",
+          "arr": null,
+          "dep": 796
+        },
+        {
+          "station": "GSN",
+          "arr": null,
+          "dep": 800
+        },
+        {
+          "station": "WFN",
+          "arr": null,
+          "dep": 803
+        },
+        {
+          "station": "WFJ",
+          "arr": 805,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "SAT_79",
+      "headcode": "",
+      "operator": "LM",
+      "days": [
+        "SAT"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "SAA",
+          "arr": null,
+          "dep": 848
+        },
+        {
+          "station": "PKT",
+          "arr": null,
+          "dep": 851
+        },
+        {
+          "station": "HWW",
+          "arr": null,
+          "dep": 854
+        },
+        {
+          "station": "BWO",
+          "arr": null,
+          "dep": 856
+        },
+        {
+          "station": "GSN",
+          "arr": null,
+          "dep": 860
+        },
+        {
+          "station": "WFN",
+          "arr": null,
+          "dep": 863
+        },
+        {
+          "station": "WFJ",
+          "arr": 865,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "SAT_80",
+      "headcode": "",
+      "operator": "LM",
+      "days": [
+        "SAT"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "SAA",
+          "arr": null,
+          "dep": 908
+        },
+        {
+          "station": "PKT",
+          "arr": null,
+          "dep": 911
+        },
+        {
+          "station": "HWW",
+          "arr": null,
+          "dep": 914
+        },
+        {
+          "station": "BWO",
+          "arr": null,
+          "dep": 916
+        },
+        {
+          "station": "GSN",
+          "arr": null,
+          "dep": 920
+        },
+        {
+          "station": "WFN",
+          "arr": null,
+          "dep": 923
+        },
+        {
+          "station": "WFJ",
+          "arr": 925,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "SAT_81",
+      "headcode": "",
+      "operator": "LM",
+      "days": [
+        "SAT"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "SAA",
+          "arr": null,
+          "dep": 968
+        },
+        {
+          "station": "PKT",
+          "arr": null,
+          "dep": 971
+        },
+        {
+          "station": "HWW",
+          "arr": null,
+          "dep": 974
+        },
+        {
+          "station": "BWO",
+          "arr": null,
+          "dep": 976
+        },
+        {
+          "station": "GSN",
+          "arr": null,
+          "dep": 980
+        },
+        {
+          "station": "WFN",
+          "arr": null,
+          "dep": 983
+        },
+        {
+          "station": "WFJ",
+          "arr": 985,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "SAT_82",
+      "headcode": "",
+      "operator": "LM",
+      "days": [
+        "SAT"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "SAA",
+          "arr": null,
+          "dep": 1028
+        },
+        {
+          "station": "PKT",
+          "arr": null,
+          "dep": 1031
+        },
+        {
+          "station": "HWW",
+          "arr": null,
+          "dep": 1034
+        },
+        {
+          "station": "BWO",
+          "arr": null,
+          "dep": 1036
+        },
+        {
+          "station": "GSN",
+          "arr": null,
+          "dep": 1040
+        },
+        {
+          "station": "WFN",
+          "arr": null,
+          "dep": 1043
+        },
+        {
+          "station": "WFJ",
+          "arr": 1045,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "SAT_83",
+      "headcode": "",
+      "operator": "LM",
+      "days": [
+        "SAT"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "SAA",
+          "arr": null,
+          "dep": 1088
+        },
+        {
+          "station": "PKT",
+          "arr": null,
+          "dep": 1091
+        },
+        {
+          "station": "HWW",
+          "arr": null,
+          "dep": 1094
+        },
+        {
+          "station": "BWO",
+          "arr": null,
+          "dep": 1096
+        },
+        {
+          "station": "GSN",
+          "arr": null,
+          "dep": 1100
+        },
+        {
+          "station": "WFN",
+          "arr": null,
+          "dep": 1103
+        },
+        {
+          "station": "WFJ",
+          "arr": 1105,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "SAT_84",
+      "headcode": "",
+      "operator": "LM",
+      "days": [
+        "SAT"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "SAA",
+          "arr": null,
+          "dep": 1148
+        },
+        {
+          "station": "PKT",
+          "arr": null,
+          "dep": 1151
+        },
+        {
+          "station": "HWW",
+          "arr": null,
+          "dep": 1154
+        },
+        {
+          "station": "BWO",
+          "arr": null,
+          "dep": 1156
+        },
+        {
+          "station": "GSN",
+          "arr": null,
+          "dep": 1160
+        },
+        {
+          "station": "WFN",
+          "arr": null,
+          "dep": 1163
+        },
+        {
+          "station": "WFJ",
+          "arr": 1165,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "SAT_85",
+      "headcode": "",
+      "operator": "LM",
+      "days": [
+        "SAT"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "SAA",
+          "arr": null,
+          "dep": 1208
+        },
+        {
+          "station": "PKT",
+          "arr": null,
+          "dep": 1211
+        },
+        {
+          "station": "HWW",
+          "arr": null,
+          "dep": 1214
+        },
+        {
+          "station": "BWO",
+          "arr": null,
+          "dep": 1216
+        },
+        {
+          "station": "GSN",
+          "arr": null,
+          "dep": 1220
+        },
+        {
+          "station": "WFN",
+          "arr": null,
+          "dep": 1223
+        },
+        {
+          "station": "WFJ",
+          "arr": 1225,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "SAT_86",
+      "headcode": "",
+      "operator": "LM",
+      "days": [
+        "SAT"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "SAA",
+          "arr": null,
+          "dep": 1268
+        },
+        {
+          "station": "PKT",
+          "arr": null,
+          "dep": 1271
+        },
+        {
+          "station": "HWW",
+          "arr": null,
+          "dep": 1274
+        },
+        {
+          "station": "BWO",
+          "arr": null,
+          "dep": 1276
+        },
+        {
+          "station": "GSN",
+          "arr": null,
+          "dep": 1280
+        },
+        {
+          "station": "WFN",
+          "arr": null,
+          "dep": 1283
+        },
+        {
+          "station": "WFJ",
+          "arr": 1285,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "SAT_87",
+      "headcode": "",
+      "operator": "LM",
+      "days": [
+        "SAT"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "SAA",
+          "arr": null,
+          "dep": 1328
+        },
+        {
+          "station": "PKT",
+          "arr": null,
+          "dep": 1331
+        },
+        {
+          "station": "HWW",
+          "arr": null,
+          "dep": 1334
+        },
+        {
+          "station": "BWO",
+          "arr": null,
+          "dep": 1336
+        },
+        {
+          "station": "GSN",
+          "arr": null,
+          "dep": 1340
+        },
+        {
+          "station": "WFN",
+          "arr": null,
+          "dep": 1343
+        },
+        {
+          "station": "WFJ",
+          "arr": 1345,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "SAT_88",
+      "headcode": "",
+      "operator": "",
+      "days": [
+        "SAT"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "SAA",
+          "arr": null,
+          "dep": 1388
+        },
+        {
+          "station": "PKT",
+          "arr": null,
+          "dep": 1391
+        },
+        {
+          "station": "HWW",
+          "arr": null,
+          "dep": 1394
+        },
+        {
+          "station": "BWO",
+          "arr": null,
+          "dep": 1396
+        },
+        {
+          "station": "GSN",
+          "arr": null,
+          "dep": 1400
+        },
+        {
+          "station": "WFN",
+          "arr": null,
+          "dep": 1403
+        },
+        {
+          "station": "WFJ",
+          "arr": 1405,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "SUN_89",
+      "headcode": "",
+      "operator": "LM",
+      "days": [
+        "SUN"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "SAA",
+          "arr": null,
+          "dep": 506
+        },
+        {
+          "station": "PKT",
+          "arr": null,
+          "dep": 509
+        },
+        {
+          "station": "HWW",
+          "arr": null,
+          "dep": 511
+        },
+        {
+          "station": "BWO",
+          "arr": null,
+          "dep": 514
+        },
+        {
+          "station": "GSN",
+          "arr": null,
+          "dep": 517
+        },
+        {
+          "station": "WFN",
+          "arr": null,
+          "dep": 520
+        },
+        {
+          "station": "WFJ",
+          "arr": 522,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "SUN_90",
+      "headcode": "",
+      "operator": "LM",
+      "days": [
+        "SUN"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "SAA",
+          "arr": null,
+          "dep": 566
+        },
+        {
+          "station": "PKT",
+          "arr": null,
+          "dep": 569
+        },
+        {
+          "station": "HWW",
+          "arr": null,
+          "dep": 572
+        },
+        {
+          "station": "BWO",
+          "arr": null,
+          "dep": 574
+        },
+        {
+          "station": "GSN",
+          "arr": null,
+          "dep": 578
+        },
+        {
+          "station": "WFN",
+          "arr": null,
+          "dep": 581
+        },
+        {
+          "station": "WFJ",
+          "arr": 583,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "SUN_91",
+      "headcode": "",
+      "operator": "LM",
+      "days": [
+        "SUN"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "SAA",
+          "arr": null,
+          "dep": 641
+        },
+        {
+          "station": "PKT",
+          "arr": null,
+          "dep": 644
+        },
+        {
+          "station": "HWW",
+          "arr": null,
+          "dep": 647
+        },
+        {
+          "station": "BWO",
+          "arr": null,
+          "dep": 649
+        },
+        {
+          "station": "GSN",
+          "arr": null,
+          "dep": 653
+        },
+        {
+          "station": "WFN",
+          "arr": null,
+          "dep": 656
+        },
+        {
+          "station": "WFJ",
+          "arr": 658,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "SUN_92",
+      "headcode": "",
+      "operator": "LM",
+      "days": [
+        "SUN"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "SAA",
+          "arr": null,
+          "dep": 701
+        },
+        {
+          "station": "PKT",
+          "arr": null,
+          "dep": 704
+        },
+        {
+          "station": "HWW",
+          "arr": null,
+          "dep": 707
+        },
+        {
+          "station": "BWO",
+          "arr": null,
+          "dep": 709
+        },
+        {
+          "station": "GSN",
+          "arr": null,
+          "dep": 713
+        },
+        {
+          "station": "WFN",
+          "arr": null,
+          "dep": 716
+        },
+        {
+          "station": "WFJ",
+          "arr": 718,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "SUN_93",
+      "headcode": "",
+      "operator": "LM",
+      "days": [
+        "SUN"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "SAA",
+          "arr": null,
+          "dep": 761
+        },
+        {
+          "station": "PKT",
+          "arr": null,
+          "dep": 764
+        },
+        {
+          "station": "HWW",
+          "arr": null,
+          "dep": 767
+        },
+        {
+          "station": "BWO",
+          "arr": null,
+          "dep": 769
+        },
+        {
+          "station": "GSN",
+          "arr": null,
+          "dep": 773
+        },
+        {
+          "station": "WFN",
+          "arr": null,
+          "dep": 776
+        },
+        {
+          "station": "WFJ",
+          "arr": 778,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "SUN_94",
+      "headcode": "",
+      "operator": "LM",
+      "days": [
+        "SUN"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "SAA",
+          "arr": null,
+          "dep": 821
+        },
+        {
+          "station": "PKT",
+          "arr": null,
+          "dep": 824
+        },
+        {
+          "station": "HWW",
+          "arr": null,
+          "dep": 827
+        },
+        {
+          "station": "BWO",
+          "arr": null,
+          "dep": 829
+        },
+        {
+          "station": "GSN",
+          "arr": null,
+          "dep": 833
+        },
+        {
+          "station": "WFN",
+          "arr": null,
+          "dep": 836
+        },
+        {
+          "station": "WFJ",
+          "arr": 838,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "SUN_95",
+      "headcode": "",
+      "operator": "LM",
+      "days": [
+        "SUN"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "SAA",
+          "arr": null,
+          "dep": 881
+        },
+        {
+          "station": "PKT",
+          "arr": null,
+          "dep": 884
+        },
+        {
+          "station": "HWW",
+          "arr": null,
+          "dep": 887
+        },
+        {
+          "station": "BWO",
+          "arr": null,
+          "dep": 889
+        },
+        {
+          "station": "GSN",
+          "arr": null,
+          "dep": 893
+        },
+        {
+          "station": "WFN",
+          "arr": null,
+          "dep": 896
+        },
+        {
+          "station": "WFJ",
+          "arr": 898,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "SUN_96",
+      "headcode": "",
+      "operator": "LM",
+      "days": [
+        "SUN"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "SAA",
+          "arr": null,
+          "dep": 941
+        },
+        {
+          "station": "PKT",
+          "arr": null,
+          "dep": 944
+        },
+        {
+          "station": "HWW",
+          "arr": null,
+          "dep": 947
+        },
+        {
+          "station": "BWO",
+          "arr": null,
+          "dep": 949
+        },
+        {
+          "station": "GSN",
+          "arr": null,
+          "dep": 953
+        },
+        {
+          "station": "WFN",
+          "arr": null,
+          "dep": 956
+        },
+        {
+          "station": "WFJ",
+          "arr": 958,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "SUN_97",
+      "headcode": "",
+      "operator": "LM",
+      "days": [
+        "SUN"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "SAA",
+          "arr": null,
+          "dep": 1001
+        },
+        {
+          "station": "PKT",
+          "arr": null,
+          "dep": 1004
+        },
+        {
+          "station": "HWW",
+          "arr": null,
+          "dep": 1007
+        },
+        {
+          "station": "BWO",
+          "arr": null,
+          "dep": 1009
+        },
+        {
+          "station": "GSN",
+          "arr": null,
+          "dep": 1013
+        },
+        {
+          "station": "WFN",
+          "arr": null,
+          "dep": 1016
+        },
+        {
+          "station": "WFJ",
+          "arr": 1018,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "SUN_98",
+      "headcode": "",
+      "operator": "LM",
+      "days": [
+        "SUN"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "SAA",
+          "arr": null,
+          "dep": 1061
+        },
+        {
+          "station": "PKT",
+          "arr": null,
+          "dep": 1064
+        },
+        {
+          "station": "HWW",
+          "arr": null,
+          "dep": 1067
+        },
+        {
+          "station": "BWO",
+          "arr": null,
+          "dep": 1069
+        },
+        {
+          "station": "GSN",
+          "arr": null,
+          "dep": 1073
+        },
+        {
+          "station": "WFN",
+          "arr": null,
+          "dep": 1076
+        },
+        {
+          "station": "WFJ",
+          "arr": 1078,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "SUN_99",
+      "headcode": "",
+      "operator": "LM",
+      "days": [
+        "SUN"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "SAA",
+          "arr": null,
+          "dep": 1121
+        },
+        {
+          "station": "PKT",
+          "arr": null,
+          "dep": 1124
+        },
+        {
+          "station": "HWW",
+          "arr": null,
+          "dep": 1127
+        },
+        {
+          "station": "BWO",
+          "arr": null,
+          "dep": 1129
+        },
+        {
+          "station": "GSN",
+          "arr": null,
+          "dep": 1133
+        },
+        {
+          "station": "WFN",
+          "arr": null,
+          "dep": 1136
+        },
+        {
+          "station": "WFJ",
+          "arr": 1138,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "SUN_100",
+      "headcode": "",
+      "operator": "LM",
+      "days": [
+        "SUN"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "SAA",
+          "arr": null,
+          "dep": 1181
+        },
+        {
+          "station": "PKT",
+          "arr": null,
+          "dep": 1184
+        },
+        {
+          "station": "HWW",
+          "arr": null,
+          "dep": 1187
+        },
+        {
+          "station": "BWO",
+          "arr": null,
+          "dep": 1189
+        },
+        {
+          "station": "GSN",
+          "arr": null,
+          "dep": 1193
+        },
+        {
+          "station": "WFN",
+          "arr": null,
+          "dep": 1196
+        },
+        {
+          "station": "WFJ",
+          "arr": 1198,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "SUN_101",
+      "headcode": "",
+      "operator": "LM",
+      "days": [
+        "SUN"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "SAA",
+          "arr": null,
+          "dep": 1241
+        },
+        {
+          "station": "PKT",
+          "arr": null,
+          "dep": 1244
+        },
+        {
+          "station": "HWW",
+          "arr": null,
+          "dep": 1247
+        },
+        {
+          "station": "BWO",
+          "arr": null,
+          "dep": 1249
+        },
+        {
+          "station": "GSN",
+          "arr": null,
+          "dep": 1253
+        },
+        {
+          "station": "WFN",
+          "arr": null,
+          "dep": 1256
+        },
+        {
+          "station": "WFJ",
+          "arr": 1258,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "SUN_102",
+      "headcode": "",
+      "operator": "LM",
+      "days": [
+        "SUN"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "SAA",
+          "arr": null,
+          "dep": 1311
+        },
+        {
+          "station": "PKT",
+          "arr": null,
+          "dep": 1314
+        },
+        {
+          "station": "HWW",
+          "arr": null,
+          "dep": 1317
+        },
+        {
+          "station": "BWO",
+          "arr": null,
+          "dep": 1319
+        },
+        {
+          "station": "GSN",
+          "arr": null,
+          "dep": 1323
+        },
+        {
+          "station": "WFN",
+          "arr": null,
+          "dep": 1326
+        },
+        {
+          "station": "WFJ",
+          "arr": 1328,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "SUN_103",
+      "headcode": "",
+      "operator": "LM",
+      "days": [
+        "SUN"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "SAA",
+          "arr": null,
+          "dep": 1361
+        },
+        {
+          "station": "PKT",
+          "arr": null,
+          "dep": 1364
+        },
+        {
+          "station": "HWW",
+          "arr": null,
+          "dep": 1367
+        },
+        {
+          "station": "BWO",
+          "arr": null,
+          "dep": 1369
+        },
+        {
+          "station": "GSN",
+          "arr": null,
+          "dep": 1373
+        },
+        {
+          "station": "WFN",
+          "arr": null,
+          "dep": 1376
+        },
+        {
+          "station": "WFJ",
+          "arr": 1378,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "SUN_104",
+      "headcode": "",
+      "operator": "",
+      "days": [
+        "SUN"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "SAA",
+          "arr": null,
+          "dep": 1406
+        },
+        {
+          "station": "PKT",
+          "arr": null,
+          "dep": 1409
+        },
+        {
+          "station": "HWW",
+          "arr": null,
+          "dep": 1411
+        },
+        {
+          "station": "BWO",
+          "arr": null,
+          "dep": 1414
+        },
+        {
+          "station": "GSN",
+          "arr": null,
+          "dep": 1417
+        },
+        {
+          "station": "WFN",
+          "arr": null,
+          "dep": 1420
+        },
+        {
+          "station": "WFJ",
+          "arr": 1422,
+          "dep": null
+        }
+      ]
+    }
+  ],
+  "gap": false
+}

@@ -1,0 +1,8067 @@
+{
+  "table": "057",
+  "name": "Nottingham to Newark, Lincoln, Grimsby and Cleethorpes",
+  "period": "",
+  "operators": [
+    {
+      "code": "EM",
+      "name": "East Midlands Railway",
+      "color": "#CC79A7"
+    },
+    {
+      "code": "GR",
+      "name": "Grand Central",
+      "color": "#CC79A7"
+    }
+  ],
+  "days": [
+    "MF",
+    "SAT",
+    "SUN"
+  ],
+  "stations": [
+    "CRE",
+    "SOT",
+    "DBY",
+    "LEI",
+    "LBO",
+    "NOT",
+    "CTO",
+    "BUJ",
+    "LOW",
+    "THU",
+    "BSB",
+    "FSK",
+    "ROL",
+    "NCT",
+    "KGX",
+    "SVG",
+    "PBO",
+    "GRA",
+    "NNG",
+    "CLM",
+    "SWD",
+    "HKM",
+    "LCN",
+    "MKR",
+    "BTB",
+    "HAB",
+    "GMB",
+    "CLE"
+  ],
+  "services": [
+    {
+      "id": "MF_0",
+      "headcode": "",
+      "operator": "EM",
+      "days": [
+        "MF"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "CRE",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "SOT",
+          "arr": null,
+          "dep": 409
+        },
+        {
+          "station": "DBY",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "LEI",
+          "arr": null,
+          "dep": 376
+        },
+        {
+          "station": "LBO",
+          "arr": null,
+          "dep": 399
+        },
+        {
+          "station": "NOT",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "CTO",
+          "arr": null,
+          "dep": 344
+        },
+        {
+          "station": "BUJ",
+          "arr": null,
+          "dep": 348
+        },
+        {
+          "station": "LOW",
+          "arr": null,
+          "dep": 352
+        },
+        {
+          "station": "THU",
+          "arr": null,
+          "dep": 356
+        },
+        {
+          "station": "BSB",
+          "arr": null,
+          "dep": 359
+        },
+        {
+          "station": "FSK",
+          "arr": null,
+          "dep": 363
+        },
+        {
+          "station": "ROL",
+          "arr": null,
+          "dep": 366
+        },
+        {
+          "station": "NCT",
+          "arr": 373,
+          "dep": null
+        },
+        {
+          "station": "NCT",
+          "arr": null,
+          "dep": 374
+        },
+        {
+          "station": "KGX",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "PBO",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "GRA",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "NNG",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "CLM",
+          "arr": null,
+          "dep": 384
+        },
+        {
+          "station": "SWD",
+          "arr": null,
+          "dep": 389
+        },
+        {
+          "station": "HKM",
+          "arr": null,
+          "dep": 396
+        },
+        {
+          "station": "LCN",
+          "arr": 405,
+          "dep": null
+        },
+        {
+          "station": "LCN",
+          "arr": null,
+          "dep": 340
+        },
+        {
+          "station": "MKR",
+          "arr": null,
+          "dep": 356
+        },
+        {
+          "station": "BTB",
+          "arr": 372,
+          "dep": null
+        },
+        {
+          "station": "HAB",
+          "arr": 381,
+          "dep": null
+        },
+        {
+          "station": "GMB",
+          "arr": 393,
+          "dep": null
+        },
+        {
+          "station": "CLE",
+          "arr": 401,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "MF_1",
+      "headcode": "",
+      "operator": "EM",
+      "days": [
+        "MF"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "CRE",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "SOT",
+          "arr": null,
+          "dep": 469
+        },
+        {
+          "station": "DBY",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "NOT",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "CTO",
+          "arr": null,
+          "dep": 394
+        },
+        {
+          "station": "BUJ",
+          "arr": null,
+          "dep": 398
+        },
+        {
+          "station": "LOW",
+          "arr": null,
+          "dep": 402
+        },
+        {
+          "station": "THU",
+          "arr": null,
+          "dep": 406
+        },
+        {
+          "station": "BSB",
+          "arr": null,
+          "dep": 409
+        },
+        {
+          "station": "FSK",
+          "arr": null,
+          "dep": 413
+        },
+        {
+          "station": "ROL",
+          "arr": null,
+          "dep": 416
+        },
+        {
+          "station": "NCT",
+          "arr": 423,
+          "dep": null
+        },
+        {
+          "station": "NCT",
+          "arr": null,
+          "dep": 425
+        },
+        {
+          "station": "KGX",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "PBO",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "GRA",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "NNG",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "CLM",
+          "arr": null,
+          "dep": 406
+        },
+        {
+          "station": "SWD",
+          "arr": null,
+          "dep": 412
+        },
+        {
+          "station": "HKM",
+          "arr": null,
+          "dep": 419
+        },
+        {
+          "station": "LCN",
+          "arr": 427,
+          "dep": null
+        },
+        {
+          "station": "LCN",
+          "arr": null,
+          "dep": 370
+        },
+        {
+          "station": "MKR",
+          "arr": null,
+          "dep": 386
+        },
+        {
+          "station": "BTB",
+          "arr": 403,
+          "dep": null
+        },
+        {
+          "station": "HAB",
+          "arr": 411,
+          "dep": null
+        },
+        {
+          "station": "GMB",
+          "arr": 425,
+          "dep": null
+        },
+        {
+          "station": "CLE",
+          "arr": 591,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "MF_2",
+      "headcode": "",
+      "operator": "EM",
+      "days": [
+        "MF"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "CRE",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "SOT",
+          "arr": null,
+          "dep": 529
+        },
+        {
+          "station": "DBY",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "NOT",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "CTO",
+          "arr": null,
+          "dep": 437
+        },
+        {
+          "station": "BUJ",
+          "arr": null,
+          "dep": 448
+        },
+        {
+          "station": "LOW",
+          "arr": null,
+          "dep": 443
+        },
+        {
+          "station": "THU",
+          "arr": null,
+          "dep": 456
+        },
+        {
+          "station": "BSB",
+          "arr": null,
+          "dep": 459
+        },
+        {
+          "station": "FSK",
+          "arr": null,
+          "dep": 450
+        },
+        {
+          "station": "ROL",
+          "arr": null,
+          "dep": 534
+        },
+        {
+          "station": "NCT",
+          "arr": 458,
+          "dep": null
+        },
+        {
+          "station": "NCT",
+          "arr": null,
+          "dep": 462
+        },
+        {
+          "station": "NNG",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "CLM",
+          "arr": null,
+          "dep": 435
+        },
+        {
+          "station": "SWD",
+          "arr": null,
+          "dep": 440
+        },
+        {
+          "station": "HKM",
+          "arr": null,
+          "dep": 447
+        },
+        {
+          "station": "LCN",
+          "arr": 456,
+          "dep": null
+        },
+        {
+          "station": "LCN",
+          "arr": null,
+          "dep": 420
+        },
+        {
+          "station": "MKR",
+          "arr": null,
+          "dep": 436
+        },
+        {
+          "station": "BTB",
+          "arr": 452,
+          "dep": null
+        },
+        {
+          "station": "HAB",
+          "arr": 461,
+          "dep": null
+        },
+        {
+          "station": "GMB",
+          "arr": 479,
+          "dep": null
+        },
+        {
+          "station": "CLE",
+          "arr": 711,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "MF_3",
+      "headcode": "",
+      "operator": "EM",
+      "days": [
+        "MF"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "CRE",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "SOT",
+          "arr": null,
+          "dep": 589
+        },
+        {
+          "station": "DBY",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "NOT",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "CTO",
+          "arr": null,
+          "dep": 444
+        },
+        {
+          "station": "BUJ",
+          "arr": null,
+          "dep": 516
+        },
+        {
+          "station": "LOW",
+          "arr": null,
+          "dep": 452
+        },
+        {
+          "station": "THU",
+          "arr": null,
+          "dep": 524
+        },
+        {
+          "station": "BSB",
+          "arr": null,
+          "dep": 527
+        },
+        {
+          "station": "FSK",
+          "arr": null,
+          "dep": 463
+        },
+        {
+          "station": "ROL",
+          "arr": null,
+          "dep": 592
+        },
+        {
+          "station": "NCT",
+          "arr": 471,
+          "dep": null
+        },
+        {
+          "station": "NCT",
+          "arr": null,
+          "dep": 494
+        },
+        {
+          "station": "NNG",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "CLM",
+          "arr": null,
+          "dep": 459
+        },
+        {
+          "station": "SWD",
+          "arr": null,
+          "dep": 465
+        },
+        {
+          "station": "HKM",
+          "arr": null,
+          "dep": 472
+        },
+        {
+          "station": "LCN",
+          "arr": 480,
+          "dep": null
+        },
+        {
+          "station": "LCN",
+          "arr": null,
+          "dep": 524
+        },
+        {
+          "station": "MKR",
+          "arr": null,
+          "dep": 540
+        },
+        {
+          "station": "BTB",
+          "arr": 556,
+          "dep": null
+        },
+        {
+          "station": "HAB",
+          "arr": 565,
+          "dep": null
+        },
+        {
+          "station": "GMB",
+          "arr": 577,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "MF_4",
+      "headcode": "",
+      "operator": "EM",
+      "days": [
+        "MF"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "DBY",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "NOT",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "CTO",
+          "arr": null,
+          "dep": 512
+        },
+        {
+          "station": "BUJ",
+          "arr": null,
+          "dep": 578
+        },
+        {
+          "station": "LOW",
+          "arr": null,
+          "dep": 520
+        },
+        {
+          "station": "THU",
+          "arr": null,
+          "dep": 646
+        },
+        {
+          "station": "BSB",
+          "arr": null,
+          "dep": 649
+        },
+        {
+          "station": "FSK",
+          "arr": null,
+          "dep": 531
+        },
+        {
+          "station": "ROL",
+          "arr": null,
+          "dep": 712
+        },
+        {
+          "station": "NCT",
+          "arr": 493,
+          "dep": null
+        },
+        {
+          "station": "NCT",
+          "arr": null,
+          "dep": 542
+        },
+        {
+          "station": "CLM",
+          "arr": null,
+          "dep": 471
+        },
+        {
+          "station": "SWD",
+          "arr": null,
+          "dep": 477
+        },
+        {
+          "station": "HKM",
+          "arr": null,
+          "dep": 484
+        },
+        {
+          "station": "LCN",
+          "arr": 493,
+          "dep": null
+        },
+        {
+          "station": "LCN",
+          "arr": null,
+          "dep": 644
+        },
+        {
+          "station": "MKR",
+          "arr": null,
+          "dep": 660
+        },
+        {
+          "station": "BTB",
+          "arr": 676,
+          "dep": null
+        },
+        {
+          "station": "HAB",
+          "arr": 685,
+          "dep": null
+        },
+        {
+          "station": "GMB",
+          "arr": 697,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "MF_5",
+      "headcode": "",
+      "operator": "EM",
+      "days": [
+        "MF"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "DBY",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "NOT",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "CTO",
+          "arr": null,
+          "dep": 574
+        },
+        {
+          "station": "BUJ",
+          "arr": null,
+          "dep": 638
+        },
+        {
+          "station": "LOW",
+          "arr": null,
+          "dep": 582
+        },
+        {
+          "station": "FSK",
+          "arr": null,
+          "dep": 589
+        },
+        {
+          "station": "NCT",
+          "arr": 541,
+          "dep": null
+        },
+        {
+          "station": "NCT",
+          "arr": null,
+          "dep": 554
+        },
+        {
+          "station": "CLM",
+          "arr": null,
+          "dep": 504
+        },
+        {
+          "station": "SWD",
+          "arr": null,
+          "dep": 569
+        },
+        {
+          "station": "HKM",
+          "arr": null,
+          "dep": 513
+        },
+        {
+          "station": "LCN",
+          "arr": 517,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "MF_6",
+      "headcode": "",
+      "operator": "EM",
+      "days": [
+        "MF"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "DBY",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "NOT",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "CTO",
+          "arr": null,
+          "dep": 634
+        },
+        {
+          "station": "BUJ",
+          "arr": null,
+          "dep": 698
+        },
+        {
+          "station": "LOW",
+          "arr": null,
+          "dep": 642
+        },
+        {
+          "station": "FSK",
+          "arr": null,
+          "dep": 653
+        },
+        {
+          "station": "NCT",
+          "arr": 553,
+          "dep": null
+        },
+        {
+          "station": "NCT",
+          "arr": null,
+          "dep": 602
+        },
+        {
+          "station": "CLM",
+          "arr": null,
+          "dep": 563
+        },
+        {
+          "station": "SWD",
+          "arr": null,
+          "dep": 689
+        },
+        {
+          "station": "HKM",
+          "arr": null,
+          "dep": 558
+        },
+        {
+          "station": "LCN",
+          "arr": 521,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "MF_7",
+      "headcode": "",
+      "operator": "GR",
+      "days": [
+        "MF"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "DBY",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "NOT",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "CTO",
+          "arr": null,
+          "dep": 694
+        },
+        {
+          "station": "LOW",
+          "arr": null,
+          "dep": 702
+        },
+        {
+          "station": "FSK",
+          "arr": null,
+          "dep": 709
+        },
+        {
+          "station": "NCT",
+          "arr": 599,
+          "dep": null
+        },
+        {
+          "station": "NCT",
+          "arr": null,
+          "dep": 615
+        },
+        {
+          "station": "CLM",
+          "arr": null,
+          "dep": 625
+        },
+        {
+          "station": "HKM",
+          "arr": null,
+          "dep": 576
+        },
+        {
+          "station": "LCN",
+          "arr": 567,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "MF_8",
+      "headcode": "",
+      "operator": "EM",
+      "days": [
+        "MF"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "NOT",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "NCT",
+          "arr": 615,
+          "dep": null
+        },
+        {
+          "station": "NCT",
+          "arr": null,
+          "dep": 662
+        },
+        {
+          "station": "CLM",
+          "arr": null,
+          "dep": 683
+        },
+        {
+          "station": "HKM",
+          "arr": null,
+          "dep": 618
+        },
+        {
+          "station": "LCN",
+          "arr": 584,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "MF_9",
+      "headcode": "",
+      "operator": "EM",
+      "days": [
+        "MF"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "NOT",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "NCT",
+          "arr": 661,
+          "dep": null
+        },
+        {
+          "station": "NCT",
+          "arr": null,
+          "dep": 673
+        },
+        {
+          "station": "HKM",
+          "arr": null,
+          "dep": 634
+        },
+        {
+          "station": "LCN",
+          "arr": 627,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "MF_10",
+      "headcode": "",
+      "operator": "EM",
+      "days": [
+        "MF"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "NOT",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "NCT",
+          "arr": 673,
+          "dep": null
+        },
+        {
+          "station": "NCT",
+          "arr": null,
+          "dep": 722
+        },
+        {
+          "station": "HKM",
+          "arr": null,
+          "dep": 678
+        },
+        {
+          "station": "LCN",
+          "arr": 635,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "MF_11",
+      "headcode": "",
+      "operator": "EM",
+      "days": [
+        "MF"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "NOT",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "NCT",
+          "arr": 719,
+          "dep": null
+        },
+        {
+          "station": "HKM",
+          "arr": null,
+          "dep": 696
+        },
+        {
+          "station": "LCN",
+          "arr": 642,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "MF_12",
+      "headcode": "",
+      "operator": "GR",
+      "days": [
+        "MF"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "HKM",
+          "arr": null,
+          "dep": 738
+        },
+        {
+          "station": "LCN",
+          "arr": 687,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "MF_13",
+      "headcode": "",
+      "operator": "EM",
+      "days": [
+        "MF"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "LCN",
+          "arr": 704,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "MF_14",
+      "headcode": "",
+      "operator": "EM",
+      "days": [
+        "MF"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "LCN",
+          "arr": 747,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "MF_15",
+      "headcode": "",
+      "operator": "EM",
+      "days": [
+        "MF"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "CRE",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "SOT",
+          "arr": null,
+          "dep": 1189
+        },
+        {
+          "station": "DBY",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "NOT",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "CTO",
+          "arr": null,
+          "dep": 1197
+        },
+        {
+          "station": "BUJ",
+          "arr": null,
+          "dep": 1201
+        },
+        {
+          "station": "LOW",
+          "arr": null,
+          "dep": 1143
+        },
+        {
+          "station": "BSB",
+          "arr": null,
+          "dep": 1375
+        },
+        {
+          "station": "FSK",
+          "arr": null,
+          "dep": 1151
+        },
+        {
+          "station": "ROL",
+          "arr": null,
+          "dep": 1215
+        },
+        {
+          "station": "NCT",
+          "arr": 1159,
+          "dep": null
+        },
+        {
+          "station": "NCT",
+          "arr": null,
+          "dep": 1160
+        },
+        {
+          "station": "KGX",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "PBO",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "GRA",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "NNG",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "CLM",
+          "arr": null,
+          "dep": 1169
+        },
+        {
+          "station": "SWD",
+          "arr": null,
+          "dep": 1175
+        },
+        {
+          "station": "HKM",
+          "arr": null,
+          "dep": 1182
+        },
+        {
+          "station": "LCN",
+          "arr": 1190,
+          "dep": null
+        },
+        {
+          "station": "LCN",
+          "arr": null,
+          "dep": 1313
+        },
+        {
+          "station": "MKR",
+          "arr": null,
+          "dep": 1329
+        },
+        {
+          "station": "BTB",
+          "arr": 1349,
+          "dep": null
+        },
+        {
+          "station": "HAB",
+          "arr": 1358,
+          "dep": null
+        },
+        {
+          "station": "GMB",
+          "arr": 1371,
+          "dep": null
+        },
+        {
+          "station": "CLE",
+          "arr": 1383,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "MF_16",
+      "headcode": "",
+      "operator": "EM",
+      "days": [
+        "MF"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "CRE",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "SOT",
+          "arr": null,
+          "dep": 1249
+        },
+        {
+          "station": "DBY",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "NOT",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "CTO",
+          "arr": null,
+          "dep": 1257
+        },
+        {
+          "station": "BUJ",
+          "arr": null,
+          "dep": 1261
+        },
+        {
+          "station": "LOW",
+          "arr": null,
+          "dep": 1205
+        },
+        {
+          "station": "FSK",
+          "arr": null,
+          "dep": 1212
+        },
+        {
+          "station": "NCT",
+          "arr": 1222,
+          "dep": null
+        },
+        {
+          "station": "NCT",
+          "arr": null,
+          "dep": 1223
+        },
+        {
+          "station": "NNG",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "CLM",
+          "arr": null,
+          "dep": 1220
+        },
+        {
+          "station": "SWD",
+          "arr": null,
+          "dep": 1226
+        },
+        {
+          "station": "HKM",
+          "arr": null,
+          "dep": 1233
+        },
+        {
+          "station": "LCN",
+          "arr": 1241,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "MF_17",
+      "headcode": "",
+      "operator": "GR",
+      "days": [
+        "MF"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "DBY",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "NOT",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "CTO",
+          "arr": null,
+          "dep": 1294
+        },
+        {
+          "station": "BUJ",
+          "arr": null,
+          "dep": 1298
+        },
+        {
+          "station": "LOW",
+          "arr": null,
+          "dep": 1265
+        },
+        {
+          "station": "FSK",
+          "arr": null,
+          "dep": 1272
+        },
+        {
+          "station": "NCT",
+          "arr": 1280,
+          "dep": null
+        },
+        {
+          "station": "NCT",
+          "arr": null,
+          "dep": 1281
+        },
+        {
+          "station": "NNG",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "CLM",
+          "arr": null,
+          "dep": 1232
+        },
+        {
+          "station": "SWD",
+          "arr": null,
+          "dep": 1238
+        },
+        {
+          "station": "HKM",
+          "arr": null,
+          "dep": 1245
+        },
+        {
+          "station": "LCN",
+          "arr": 1255,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "MF_18",
+      "headcode": "",
+      "operator": "EM",
+      "days": [
+        "MF"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "DBY",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "NOT",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "CTO",
+          "arr": null,
+          "dep": 1361
+        },
+        {
+          "station": "BUJ",
+          "arr": null,
+          "dep": 1365
+        },
+        {
+          "station": "LOW",
+          "arr": null,
+          "dep": 1302
+        },
+        {
+          "station": "FSK",
+          "arr": null,
+          "dep": 1309
+        },
+        {
+          "station": "NCT",
+          "arr": 1317,
+          "dep": null
+        },
+        {
+          "station": "NCT",
+          "arr": null,
+          "dep": 1318
+        },
+        {
+          "station": "CLM",
+          "arr": null,
+          "dep": 1290
+        },
+        {
+          "station": "SWD",
+          "arr": null,
+          "dep": 1296
+        },
+        {
+          "station": "HKM",
+          "arr": null,
+          "dep": 1303
+        },
+        {
+          "station": "LCN",
+          "arr": 1298,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "MF_19",
+      "headcode": "",
+      "operator": "EM",
+      "days": [
+        "MF"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "DBY",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "NOT",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "LOW",
+          "arr": null,
+          "dep": 1369
+        },
+        {
+          "station": "FSK",
+          "arr": null,
+          "dep": 1379
+        },
+        {
+          "station": "NCT",
+          "arr": 1387,
+          "dep": null
+        },
+        {
+          "station": "NCT",
+          "arr": null,
+          "dep": 1388
+        },
+        {
+          "station": "CLM",
+          "arr": null,
+          "dep": 1327
+        },
+        {
+          "station": "SWD",
+          "arr": null,
+          "dep": 1333
+        },
+        {
+          "station": "HKM",
+          "arr": null,
+          "dep": 1340
+        },
+        {
+          "station": "LCN",
+          "arr": 1311,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "MF_20",
+      "headcode": "",
+      "operator": "EM",
+      "days": [
+        "MF"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "CLM",
+          "arr": null,
+          "dep": 1397
+        },
+        {
+          "station": "SWD",
+          "arr": null,
+          "dep": 1403
+        },
+        {
+          "station": "HKM",
+          "arr": null,
+          "dep": 1410
+        },
+        {
+          "station": "LCN",
+          "arr": 1348,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "MF_21",
+      "headcode": "",
+      "operator": "EM",
+      "days": [
+        "MF"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "CLM",
+          "arr": null,
+          "dep": 1405
+        },
+        {
+          "station": "SWD",
+          "arr": null,
+          "dep": 1411
+        },
+        {
+          "station": "HKM",
+          "arr": null,
+          "dep": 1418
+        },
+        {
+          "station": "LCN",
+          "arr": 1418,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "MF_22",
+      "headcode": "",
+      "operator": "",
+      "days": [
+        "MF"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "LCN",
+          "arr": 1427,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "SAT_23",
+      "headcode": "",
+      "operator": "EM",
+      "days": [
+        "SAT"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "CRE",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "SOT",
+          "arr": null,
+          "dep": 405
+        },
+        {
+          "station": "DBY",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "NOT",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "CTO",
+          "arr": null,
+          "dep": 334
+        },
+        {
+          "station": "BUJ",
+          "arr": null,
+          "dep": 338
+        },
+        {
+          "station": "LOW",
+          "arr": null,
+          "dep": 342
+        },
+        {
+          "station": "THU",
+          "arr": null,
+          "dep": 346
+        },
+        {
+          "station": "BSB",
+          "arr": null,
+          "dep": 349
+        },
+        {
+          "station": "FSK",
+          "arr": null,
+          "dep": 353
+        },
+        {
+          "station": "ROL",
+          "arr": null,
+          "dep": 356
+        },
+        {
+          "station": "NCT",
+          "arr": 363,
+          "dep": null
+        },
+        {
+          "station": "NCT",
+          "arr": null,
+          "dep": 364
+        },
+        {
+          "station": "KGX",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "PBO",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "GRA",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "NNG",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "CLM",
+          "arr": null,
+          "dep": 373
+        },
+        {
+          "station": "SWD",
+          "arr": null,
+          "dep": 379
+        },
+        {
+          "station": "HKM",
+          "arr": null,
+          "dep": 386
+        },
+        {
+          "station": "LCN",
+          "arr": 394,
+          "dep": null
+        },
+        {
+          "station": "LCN",
+          "arr": null,
+          "dep": 340
+        },
+        {
+          "station": "MKR",
+          "arr": null,
+          "dep": 356
+        },
+        {
+          "station": "BTB",
+          "arr": 372,
+          "dep": null
+        },
+        {
+          "station": "HAB",
+          "arr": 381,
+          "dep": null
+        },
+        {
+          "station": "GMB",
+          "arr": 393,
+          "dep": null
+        },
+        {
+          "station": "CLE",
+          "arr": 401,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "SAT_24",
+      "headcode": "",
+      "operator": "EM",
+      "days": [
+        "SAT"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "CRE",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "SOT",
+          "arr": null,
+          "dep": 469
+        },
+        {
+          "station": "DBY",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "NOT",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "CTO",
+          "arr": null,
+          "dep": 394
+        },
+        {
+          "station": "BUJ",
+          "arr": null,
+          "dep": 398
+        },
+        {
+          "station": "LOW",
+          "arr": null,
+          "dep": 402
+        },
+        {
+          "station": "THU",
+          "arr": null,
+          "dep": 406
+        },
+        {
+          "station": "BSB",
+          "arr": null,
+          "dep": 409
+        },
+        {
+          "station": "FSK",
+          "arr": null,
+          "dep": 413
+        },
+        {
+          "station": "ROL",
+          "arr": null,
+          "dep": 416
+        },
+        {
+          "station": "NCT",
+          "arr": 423,
+          "dep": null
+        },
+        {
+          "station": "NCT",
+          "arr": null,
+          "dep": 425
+        },
+        {
+          "station": "KGX",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "PBO",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "GRA",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "NNG",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "CLM",
+          "arr": null,
+          "dep": 406
+        },
+        {
+          "station": "SWD",
+          "arr": null,
+          "dep": 412
+        },
+        {
+          "station": "HKM",
+          "arr": null,
+          "dep": 419
+        },
+        {
+          "station": "LCN",
+          "arr": 427,
+          "dep": null
+        },
+        {
+          "station": "LCN",
+          "arr": null,
+          "dep": 399
+        },
+        {
+          "station": "MKR",
+          "arr": null,
+          "dep": 415
+        },
+        {
+          "station": "BTB",
+          "arr": 431,
+          "dep": null
+        },
+        {
+          "station": "HAB",
+          "arr": 440,
+          "dep": null
+        },
+        {
+          "station": "GMB",
+          "arr": 457,
+          "dep": null
+        },
+        {
+          "station": "CLE",
+          "arr": 469,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "SAT_25",
+      "headcode": "",
+      "operator": "EM",
+      "days": [
+        "SAT"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "CRE",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "SOT",
+          "arr": null,
+          "dep": 529
+        },
+        {
+          "station": "DBY",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "NOT",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "CTO",
+          "arr": null,
+          "dep": 454
+        },
+        {
+          "station": "BUJ",
+          "arr": null,
+          "dep": 458
+        },
+        {
+          "station": "LOW",
+          "arr": null,
+          "dep": 462
+        },
+        {
+          "station": "THU",
+          "arr": null,
+          "dep": 524
+        },
+        {
+          "station": "BSB",
+          "arr": null,
+          "dep": 527
+        },
+        {
+          "station": "FSK",
+          "arr": null,
+          "dep": 469
+        },
+        {
+          "station": "ROL",
+          "arr": null,
+          "dep": 534
+        },
+        {
+          "station": "NCT",
+          "arr": 477,
+          "dep": null
+        },
+        {
+          "station": "NCT",
+          "arr": null,
+          "dep": 478
+        },
+        {
+          "station": "KGX",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "PBO",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "GRA",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "NNG",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "CLM",
+          "arr": null,
+          "dep": 435
+        },
+        {
+          "station": "SWD",
+          "arr": null,
+          "dep": 440
+        },
+        {
+          "station": "HKM",
+          "arr": null,
+          "dep": 447
+        },
+        {
+          "station": "LCN",
+          "arr": 456,
+          "dep": null
+        },
+        {
+          "station": "LCN",
+          "arr": null,
+          "dep": 524
+        },
+        {
+          "station": "MKR",
+          "arr": null,
+          "dep": 540
+        },
+        {
+          "station": "BTB",
+          "arr": 556,
+          "dep": null
+        },
+        {
+          "station": "HAB",
+          "arr": 565,
+          "dep": null
+        },
+        {
+          "station": "GMB",
+          "arr": 577,
+          "dep": null
+        },
+        {
+          "station": "CLE",
+          "arr": 591,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "SAT_26",
+      "headcode": "",
+      "operator": "EM",
+      "days": [
+        "SAT"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "CRE",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "SOT",
+          "arr": null,
+          "dep": 589
+        },
+        {
+          "station": "DBY",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "NOT",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "CTO",
+          "arr": null,
+          "dep": 512
+        },
+        {
+          "station": "BUJ",
+          "arr": null,
+          "dep": 516
+        },
+        {
+          "station": "LOW",
+          "arr": null,
+          "dep": 520
+        },
+        {
+          "station": "THU",
+          "arr": null,
+          "dep": 646
+        },
+        {
+          "station": "BSB",
+          "arr": null,
+          "dep": 649
+        },
+        {
+          "station": "FSK",
+          "arr": null,
+          "dep": 531
+        },
+        {
+          "station": "ROL",
+          "arr": null,
+          "dep": 592
+        },
+        {
+          "station": "NCT",
+          "arr": 493,
+          "dep": null
+        },
+        {
+          "station": "NCT",
+          "arr": null,
+          "dep": 494
+        },
+        {
+          "station": "NNG",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "CLM",
+          "arr": null,
+          "dep": 459
+        },
+        {
+          "station": "SWD",
+          "arr": null,
+          "dep": 465
+        },
+        {
+          "station": "HKM",
+          "arr": null,
+          "dep": 472
+        },
+        {
+          "station": "LCN",
+          "arr": 480,
+          "dep": null
+        },
+        {
+          "station": "LCN",
+          "arr": null,
+          "dep": 644
+        },
+        {
+          "station": "MKR",
+          "arr": null,
+          "dep": 660
+        },
+        {
+          "station": "BTB",
+          "arr": 676,
+          "dep": null
+        },
+        {
+          "station": "HAB",
+          "arr": 685,
+          "dep": null
+        },
+        {
+          "station": "GMB",
+          "arr": 697,
+          "dep": null
+        },
+        {
+          "station": "CLE",
+          "arr": 711,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "SAT_27",
+      "headcode": "",
+      "operator": "EM",
+      "days": [
+        "SAT"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "DBY",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "NOT",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "CTO",
+          "arr": null,
+          "dep": 574
+        },
+        {
+          "station": "BUJ",
+          "arr": null,
+          "dep": 578
+        },
+        {
+          "station": "LOW",
+          "arr": null,
+          "dep": 582
+        },
+        {
+          "station": "FSK",
+          "arr": null,
+          "dep": 589
+        },
+        {
+          "station": "ROL",
+          "arr": null,
+          "dep": 712
+        },
+        {
+          "station": "NCT",
+          "arr": 541,
+          "dep": null
+        },
+        {
+          "station": "NCT",
+          "arr": null,
+          "dep": 542
+        },
+        {
+          "station": "NNG",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "CLM",
+          "arr": null,
+          "dep": 488
+        },
+        {
+          "station": "SWD",
+          "arr": null,
+          "dep": 569
+        },
+        {
+          "station": "HKM",
+          "arr": null,
+          "dep": 497
+        },
+        {
+          "station": "LCN",
+          "arr": 507,
+          "dep": null
+        },
+        {
+          "station": "LCN",
+          "arr": null,
+          "dep": 764
+        },
+        {
+          "station": "MKR",
+          "arr": null,
+          "dep": 780
+        },
+        {
+          "station": "BTB",
+          "arr": 796,
+          "dep": null
+        },
+        {
+          "station": "HAB",
+          "arr": 805,
+          "dep": null
+        },
+        {
+          "station": "GMB",
+          "arr": 817,
+          "dep": null
+        },
+        {
+          "station": "CLE",
+          "arr": 831,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "SAT_28",
+      "headcode": "",
+      "operator": "GR",
+      "days": [
+        "SAT"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "DBY",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "NOT",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "CTO",
+          "arr": null,
+          "dep": 634
+        },
+        {
+          "station": "BUJ",
+          "arr": null,
+          "dep": 638
+        },
+        {
+          "station": "LOW",
+          "arr": null,
+          "dep": 642
+        },
+        {
+          "station": "FSK",
+          "arr": null,
+          "dep": 653
+        },
+        {
+          "station": "NCT",
+          "arr": 552,
+          "dep": null
+        },
+        {
+          "station": "NCT",
+          "arr": null,
+          "dep": 554
+        },
+        {
+          "station": "CLM",
+          "arr": null,
+          "dep": 504
+        },
+        {
+          "station": "SWD",
+          "arr": null,
+          "dep": 689
+        },
+        {
+          "station": "HKM",
+          "arr": null,
+          "dep": 513
+        },
+        {
+          "station": "LCN",
+          "arr": 517,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "SAT_29",
+      "headcode": "",
+      "operator": "EM",
+      "days": [
+        "SAT"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "DBY",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "NOT",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "CTO",
+          "arr": null,
+          "dep": 694
+        },
+        {
+          "station": "BUJ",
+          "arr": null,
+          "dep": 698
+        },
+        {
+          "station": "LOW",
+          "arr": null,
+          "dep": 702
+        },
+        {
+          "station": "FSK",
+          "arr": null,
+          "dep": 709
+        },
+        {
+          "station": "NCT",
+          "arr": 599,
+          "dep": null
+        },
+        {
+          "station": "NCT",
+          "arr": null,
+          "dep": 602
+        },
+        {
+          "station": "CLM",
+          "arr": null,
+          "dep": 563
+        },
+        {
+          "station": "HKM",
+          "arr": null,
+          "dep": 558
+        },
+        {
+          "station": "LCN",
+          "arr": 521,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "SAT_30",
+      "headcode": "",
+      "operator": "EM",
+      "days": [
+        "SAT"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "DBY",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "NOT",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "NCT",
+          "arr": 615,
+          "dep": null
+        },
+        {
+          "station": "NCT",
+          "arr": null,
+          "dep": 615
+        },
+        {
+          "station": "CLM",
+          "arr": null,
+          "dep": 625
+        },
+        {
+          "station": "HKM",
+          "arr": null,
+          "dep": 576
+        },
+        {
+          "station": "LCN",
+          "arr": 567,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "SAT_31",
+      "headcode": "",
+      "operator": "EM",
+      "days": [
+        "SAT"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "DBY",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "NOT",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "NCT",
+          "arr": 661,
+          "dep": null
+        },
+        {
+          "station": "NCT",
+          "arr": null,
+          "dep": 662
+        },
+        {
+          "station": "CLM",
+          "arr": null,
+          "dep": 683
+        },
+        {
+          "station": "HKM",
+          "arr": null,
+          "dep": 618
+        },
+        {
+          "station": "LCN",
+          "arr": 584,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "SAT_32",
+      "headcode": "",
+      "operator": "EM",
+      "days": [
+        "SAT"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "DBY",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "NOT",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "NCT",
+          "arr": 673,
+          "dep": null
+        },
+        {
+          "station": "NCT",
+          "arr": null,
+          "dep": 673
+        },
+        {
+          "station": "CLM",
+          "arr": null,
+          "dep": 745
+        },
+        {
+          "station": "HKM",
+          "arr": null,
+          "dep": 634
+        },
+        {
+          "station": "LCN",
+          "arr": 627,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "SAT_33",
+      "headcode": "",
+      "operator": "GR",
+      "days": [
+        "SAT"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "NOT",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "NCT",
+          "arr": 719,
+          "dep": null
+        },
+        {
+          "station": "NCT",
+          "arr": null,
+          "dep": 722
+        },
+        {
+          "station": "HKM",
+          "arr": null,
+          "dep": 678
+        },
+        {
+          "station": "LCN",
+          "arr": 635,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "SAT_34",
+      "headcode": "",
+      "operator": "EM",
+      "days": [
+        "SAT"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "NOT",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "NCT",
+          "arr": 735,
+          "dep": null
+        },
+        {
+          "station": "NCT",
+          "arr": null,
+          "dep": 735
+        },
+        {
+          "station": "HKM",
+          "arr": null,
+          "dep": 696
+        },
+        {
+          "station": "LCN",
+          "arr": 642,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "SAT_35",
+      "headcode": "",
+      "operator": "EM",
+      "days": [
+        "SAT"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "HKM",
+          "arr": null,
+          "dep": 738
+        },
+        {
+          "station": "LCN",
+          "arr": 687,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "SAT_36",
+      "headcode": "",
+      "operator": "EM",
+      "days": [
+        "SAT"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "HKM",
+          "arr": null,
+          "dep": 754
+        },
+        {
+          "station": "LCN",
+          "arr": 704,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "SAT_37",
+      "headcode": "",
+      "operator": "EM",
+      "days": [
+        "SAT"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "LCN",
+          "arr": 747,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "SAT_38",
+      "headcode": "",
+      "operator": "GR",
+      "days": [
+        "SAT"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "LCN",
+          "arr": 755,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "SAT_39",
+      "headcode": "",
+      "operator": "EM",
+      "days": [
+        "SAT"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "LCN",
+          "arr": 762,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "SAT_40",
+      "headcode": "",
+      "operator": "EM",
+      "days": [
+        "SAT"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "DBY",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "LEI",
+          "arr": null,
+          "dep": 1243
+        },
+        {
+          "station": "LBO",
+          "arr": null,
+          "dep": 1266
+        },
+        {
+          "station": "NOT",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "CTO",
+          "arr": null,
+          "dep": 1257
+        },
+        {
+          "station": "BUJ",
+          "arr": null,
+          "dep": 1261
+        },
+        {
+          "station": "LOW",
+          "arr": null,
+          "dep": 1265
+        },
+        {
+          "station": "BSB",
+          "arr": null,
+          "dep": 1323
+        },
+        {
+          "station": "FSK",
+          "arr": null,
+          "dep": 1272
+        },
+        {
+          "station": "NCT",
+          "arr": 1212,
+          "dep": null
+        },
+        {
+          "station": "NCT",
+          "arr": null,
+          "dep": 1212
+        },
+        {
+          "station": "KGX",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "PBO",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "GRA",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "NNG",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "CLM",
+          "arr": null,
+          "dep": 1213
+        },
+        {
+          "station": "SWD",
+          "arr": null,
+          "dep": 1219
+        },
+        {
+          "station": "HKM",
+          "arr": null,
+          "dep": 1226
+        },
+        {
+          "station": "LCN",
+          "arr": 1236,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "SAT_41",
+      "headcode": "",
+      "operator": "GR",
+      "days": [
+        "SAT"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "DBY",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "NOT",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "CTO",
+          "arr": null,
+          "dep": 1309
+        },
+        {
+          "station": "BUJ",
+          "arr": null,
+          "dep": 1313
+        },
+        {
+          "station": "LOW",
+          "arr": null,
+          "dep": 1317
+        },
+        {
+          "station": "FSK",
+          "arr": null,
+          "dep": 1327
+        },
+        {
+          "station": "NCT",
+          "arr": 1280,
+          "dep": null
+        },
+        {
+          "station": "NCT",
+          "arr": null,
+          "dep": 1281
+        },
+        {
+          "station": "NNG",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "CLM",
+          "arr": null,
+          "dep": 1222
+        },
+        {
+          "station": "SWD",
+          "arr": null,
+          "dep": 1227
+        },
+        {
+          "station": "HKM",
+          "arr": null,
+          "dep": 1234
+        },
+        {
+          "station": "LCN",
+          "arr": 1243,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "SAT_42",
+      "headcode": "",
+      "operator": "EM",
+      "days": [
+        "SAT"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "NOT",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "NCT",
+          "arr": 1335,
+          "dep": null
+        },
+        {
+          "station": "NCT",
+          "arr": null,
+          "dep": 1335
+        },
+        {
+          "station": "NNG",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "CLM",
+          "arr": null,
+          "dep": 1290
+        },
+        {
+          "station": "SWD",
+          "arr": null,
+          "dep": 1296
+        },
+        {
+          "station": "HKM",
+          "arr": null,
+          "dep": 1303
+        },
+        {
+          "station": "LCN",
+          "arr": 1298,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "SAT_43",
+      "headcode": "",
+      "operator": "EM",
+      "days": [
+        "SAT"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "CLM",
+          "arr": null,
+          "dep": 1345
+        },
+        {
+          "station": "SWD",
+          "arr": null,
+          "dep": 1350
+        },
+        {
+          "station": "HKM",
+          "arr": null,
+          "dep": 1357
+        },
+        {
+          "station": "LCN",
+          "arr": 1311,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "SAT_44",
+      "headcode": "",
+      "operator": "EM",
+      "days": [
+        "SAT"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "CLM",
+          "arr": null,
+          "dep": 1355
+        },
+        {
+          "station": "SWD",
+          "arr": null,
+          "dep": 1361
+        },
+        {
+          "station": "HKM",
+          "arr": null,
+          "dep": 1368
+        },
+        {
+          "station": "LCN",
+          "arr": 1368,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "SAT_45",
+      "headcode": "",
+      "operator": "",
+      "days": [
+        "SAT"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "LCN",
+          "arr": 1376,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "SUN_46",
+      "headcode": "",
+      "operator": "EM",
+      "days": [
+        "SUN"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "DBY",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "NOT",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "CTO",
+          "arr": null,
+          "dep": 580
+        },
+        {
+          "station": "BUJ",
+          "arr": null,
+          "dep": 584
+        },
+        {
+          "station": "LOW",
+          "arr": null,
+          "dep": 589
+        },
+        {
+          "station": "THU",
+          "arr": null,
+          "dep": 593
+        },
+        {
+          "station": "BSB",
+          "arr": null,
+          "dep": 596
+        },
+        {
+          "station": "FSK",
+          "arr": null,
+          "dep": 600
+        },
+        {
+          "station": "ROL",
+          "arr": null,
+          "dep": 602
+        },
+        {
+          "station": "NCT",
+          "arr": 610,
+          "dep": null
+        },
+        {
+          "station": "NCT",
+          "arr": null,
+          "dep": 612
+        },
+        {
+          "station": "KGX",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "PBO",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "GRA",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "NNG",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "CLM",
+          "arr": null,
+          "dep": 561
+        },
+        {
+          "station": "SWD",
+          "arr": null,
+          "dep": 567
+        },
+        {
+          "station": "HKM",
+          "arr": null,
+          "dep": 574
+        },
+        {
+          "station": "LCN",
+          "arr": 582,
+          "dep": null
+        },
+        {
+          "station": "LCN",
+          "arr": null,
+          "dep": 678
+        },
+        {
+          "station": "MKR",
+          "arr": null,
+          "dep": 694
+        },
+        {
+          "station": "BTB",
+          "arr": 711,
+          "dep": null
+        },
+        {
+          "station": "HAB",
+          "arr": 719,
+          "dep": null
+        },
+        {
+          "station": "GMB",
+          "arr": 733,
+          "dep": null
+        },
+        {
+          "station": "CLE",
+          "arr": 743,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "SUN_47",
+      "headcode": "",
+      "operator": "GR",
+      "days": [
+        "SUN"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "DBY",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "NOT",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "CTO",
+          "arr": null,
+          "dep": 629
+        },
+        {
+          "station": "BUJ",
+          "arr": null,
+          "dep": 785
+        },
+        {
+          "station": "LOW",
+          "arr": null,
+          "dep": 635
+        },
+        {
+          "station": "THU",
+          "arr": null,
+          "dep": 793
+        },
+        {
+          "station": "BSB",
+          "arr": null,
+          "dep": 796
+        },
+        {
+          "station": "FSK",
+          "arr": null,
+          "dep": 800
+        },
+        {
+          "station": "ROL",
+          "arr": null,
+          "dep": 803
+        },
+        {
+          "station": "NCT",
+          "arr": 648,
+          "dep": null
+        },
+        {
+          "station": "NCT",
+          "arr": null,
+          "dep": 649
+        },
+        {
+          "station": "KGX",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "PBO",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "GRA",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "NNG",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "CLM",
+          "arr": null,
+          "dep": 622
+        },
+        {
+          "station": "SWD",
+          "arr": null,
+          "dep": 627
+        },
+        {
+          "station": "HKM",
+          "arr": null,
+          "dep": 634
+        },
+        {
+          "station": "LCN",
+          "arr": 643,
+          "dep": null
+        },
+        {
+          "station": "LCN",
+          "arr": null,
+          "dep": 894
+        },
+        {
+          "station": "MKR",
+          "arr": null,
+          "dep": 910
+        },
+        {
+          "station": "BTB",
+          "arr": 926,
+          "dep": null
+        },
+        {
+          "station": "HAB",
+          "arr": 935,
+          "dep": null
+        },
+        {
+          "station": "GMB",
+          "arr": 949,
+          "dep": null
+        },
+        {
+          "station": "CLE",
+          "arr": 959,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "SUN_48",
+      "headcode": "",
+      "operator": "EM",
+      "days": [
+        "SUN"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "DBY",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "NOT",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "CTO",
+          "arr": null,
+          "dep": 721
+        },
+        {
+          "station": "BUJ",
+          "arr": null,
+          "dep": 905
+        },
+        {
+          "station": "LOW",
+          "arr": null,
+          "dep": 727
+        },
+        {
+          "station": "THU",
+          "arr": null,
+          "dep": 913
+        },
+        {
+          "station": "BSB",
+          "arr": null,
+          "dep": 916
+        },
+        {
+          "station": "FSK",
+          "arr": null,
+          "dep": 920
+        },
+        {
+          "station": "ROL",
+          "arr": null,
+          "dep": 923
+        },
+        {
+          "station": "NCT",
+          "arr": 692,
+          "dep": null
+        },
+        {
+          "station": "NCT",
+          "arr": null,
+          "dep": 692
+        },
+        {
+          "station": "KGX",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "PBO",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "GRA",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "NNG",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "CLM",
+          "arr": null,
+          "dep": 658
+        },
+        {
+          "station": "SWD",
+          "arr": null,
+          "dep": 756
+        },
+        {
+          "station": "HKM",
+          "arr": null,
+          "dep": 667
+        },
+        {
+          "station": "LCN",
+          "arr": 655,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "SUN_49",
+      "headcode": "",
+      "operator": "EM",
+      "days": [
+        "SUN"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "DBY",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "NOT",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "CTO",
+          "arr": null,
+          "dep": 781
+        },
+        {
+          "station": "LOW",
+          "arr": null,
+          "dep": 789
+        },
+        {
+          "station": "NCT",
+          "arr": 740,
+          "dep": null
+        },
+        {
+          "station": "NCT",
+          "arr": null,
+          "dep": 741
+        },
+        {
+          "station": "KGX",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "PBO",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "NNG",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "CLM",
+          "arr": null,
+          "dep": 702
+        },
+        {
+          "station": "SWD",
+          "arr": null,
+          "dep": 800
+        },
+        {
+          "station": "HKM",
+          "arr": null,
+          "dep": 711
+        },
+        {
+          "station": "LCN",
+          "arr": 676,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "SUN_50",
+      "headcode": "",
+      "operator": "GR",
+      "days": [
+        "SUN"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "DBY",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "NOT",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "CTO",
+          "arr": null,
+          "dep": 841
+        },
+        {
+          "station": "LOW",
+          "arr": null,
+          "dep": 847
+        },
+        {
+          "station": "NCT",
+          "arr": 810,
+          "dep": null
+        },
+        {
+          "station": "NCT",
+          "arr": null,
+          "dep": 813
+        },
+        {
+          "station": "NNG",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "CLM",
+          "arr": null,
+          "dep": 751
+        },
+        {
+          "station": "SWD",
+          "arr": null,
+          "dep": 876
+        },
+        {
+          "station": "HKM",
+          "arr": null,
+          "dep": 763
+        },
+        {
+          "station": "LCN",
+          "arr": 719,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "SUN_51",
+      "headcode": "",
+      "operator": "EM",
+      "days": [
+        "SUN"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "DBY",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "NOT",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "CTO",
+          "arr": null,
+          "dep": 901
+        },
+        {
+          "station": "LOW",
+          "arr": null,
+          "dep": 909
+        },
+        {
+          "station": "NCT",
+          "arr": 860,
+          "dep": null
+        },
+        {
+          "station": "NCT",
+          "arr": null,
+          "dep": 861
+        },
+        {
+          "station": "NNG",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "CLM",
+          "arr": null,
+          "dep": 794
+        },
+        {
+          "station": "SWD",
+          "arr": null,
+          "dep": 996
+        },
+        {
+          "station": "HKM",
+          "arr": null,
+          "dep": 807
+        },
+        {
+          "station": "LCN",
+          "arr": 755,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "SUN_52",
+      "headcode": "",
+      "operator": "EM",
+      "days": [
+        "SUN"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "DBY",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "NOT",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "CTO",
+          "arr": null,
+          "dep": 961
+        },
+        {
+          "station": "LOW",
+          "arr": null,
+          "dep": 967
+        },
+        {
+          "station": "NCT",
+          "arr": 930,
+          "dep": null
+        },
+        {
+          "station": "NCT",
+          "arr": null,
+          "dep": 933
+        },
+        {
+          "station": "NNG",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "CLM",
+          "arr": null,
+          "dep": 822
+        },
+        {
+          "station": "SWD",
+          "arr": null,
+          "dep": 1040
+        },
+        {
+          "station": "HKM",
+          "arr": null,
+          "dep": 831
+        },
+        {
+          "station": "LCN",
+          "arr": 772,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "SUN_53",
+      "headcode": "",
+      "operator": "EM",
+      "days": [
+        "SUN"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "DBY",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "NOT",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "CTO",
+          "arr": null,
+          "dep": 1021
+        },
+        {
+          "station": "LOW",
+          "arr": null,
+          "dep": 1027
+        },
+        {
+          "station": "NCT",
+          "arr": 980,
+          "dep": null
+        },
+        {
+          "station": "NCT",
+          "arr": null,
+          "dep": 981
+        },
+        {
+          "station": "NNG",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "CLM",
+          "arr": null,
+          "dep": 870
+        },
+        {
+          "station": "HKM",
+          "arr": null,
+          "dep": 883
+        },
+        {
+          "station": "LCN",
+          "arr": 815,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "SUN_54",
+      "headcode": "",
+      "operator": "GR",
+      "days": [
+        "SUN"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "NOT",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "NCT",
+          "arr": 1040,
+          "dep": null
+        },
+        {
+          "station": "NCT",
+          "arr": null,
+          "dep": 1041
+        },
+        {
+          "station": "NNG",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "CLM",
+          "arr": null,
+          "dep": 914
+        },
+        {
+          "station": "HKM",
+          "arr": null,
+          "dep": 923
+        },
+        {
+          "station": "LCN",
+          "arr": 840,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "SUN_55",
+      "headcode": "",
+      "operator": "EM",
+      "days": [
+        "SUN"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "CLM",
+          "arr": null,
+          "dep": 943
+        },
+        {
+          "station": "HKM",
+          "arr": null,
+          "dep": 952
+        },
+        {
+          "station": "LCN",
+          "arr": 875,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "SUN_56",
+      "headcode": "",
+      "operator": "EM",
+      "days": [
+        "SUN"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "CLM",
+          "arr": null,
+          "dep": 990
+        },
+        {
+          "station": "HKM",
+          "arr": null,
+          "dep": 1003
+        },
+        {
+          "station": "LCN",
+          "arr": 891,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "SUN_57",
+      "headcode": "",
+      "operator": "EM",
+      "days": [
+        "SUN"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "CLM",
+          "arr": null,
+          "dep": 1034
+        },
+        {
+          "station": "HKM",
+          "arr": null,
+          "dep": 1047
+        },
+        {
+          "station": "LCN",
+          "arr": 932,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "SUN_58",
+      "headcode": "",
+      "operator": "GR",
+      "days": [
+        "SUN"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "CLM",
+          "arr": null,
+          "dep": 1050
+        },
+        {
+          "station": "HKM",
+          "arr": null,
+          "dep": 1059
+        },
+        {
+          "station": "LCN",
+          "arr": 960,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "SUN_59",
+      "headcode": "",
+      "operator": "EM",
+      "days": [
+        "SUN"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "LCN",
+          "arr": 995,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "SUN_60",
+      "headcode": "",
+      "operator": "EM",
+      "days": [
+        "SUN"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "LCN",
+          "arr": 1011,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "SUN_61",
+      "headcode": "",
+      "operator": "EM",
+      "days": [
+        "SUN"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "LCN",
+          "arr": 1055,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "SUN_62",
+      "headcode": "",
+      "operator": "GR",
+      "days": [
+        "SUN"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "LCN",
+          "arr": 1068,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "SUN_63",
+      "headcode": "",
+      "operator": "",
+      "days": [
+        "SUN"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "LCN",
+          "arr": 1075,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "MF_64",
+      "headcode": "",
+      "operator": "EM",
+      "days": [
+        "MF"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "CLE",
+          "arr": null,
+          "dep": 349
+        },
+        {
+          "station": "GMB",
+          "arr": null,
+          "dep": 357
+        },
+        {
+          "station": "HAB",
+          "arr": null,
+          "dep": 367
+        },
+        {
+          "station": "BTB",
+          "arr": null,
+          "dep": 376
+        },
+        {
+          "station": "MKR",
+          "arr": null,
+          "dep": 391
+        },
+        {
+          "station": "LCN",
+          "arr": 410,
+          "dep": null
+        },
+        {
+          "station": "LCN",
+          "arr": null,
+          "dep": 316
+        },
+        {
+          "station": "HKM",
+          "arr": null,
+          "dep": 324
+        },
+        {
+          "station": "SWD",
+          "arr": null,
+          "dep": 330
+        },
+        {
+          "station": "CLM",
+          "arr": null,
+          "dep": 336
+        },
+        {
+          "station": "NNG",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "GRA",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "PBO",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "KGX",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "NCT",
+          "arr": 359,
+          "dep": null
+        },
+        {
+          "station": "NCT",
+          "arr": null,
+          "dep": 361
+        },
+        {
+          "station": "ROL",
+          "arr": null,
+          "dep": 367
+        },
+        {
+          "station": "FSK",
+          "arr": null,
+          "dep": 370
+        },
+        {
+          "station": "BSB",
+          "arr": null,
+          "dep": 374
+        },
+        {
+          "station": "THU",
+          "arr": null,
+          "dep": 377
+        },
+        {
+          "station": "LOW",
+          "arr": null,
+          "dep": 381
+        },
+        {
+          "station": "BUJ",
+          "arr": null,
+          "dep": 385
+        },
+        {
+          "station": "CTO",
+          "arr": null,
+          "dep": 389
+        },
+        {
+          "station": "NOT",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "LEI",
+          "arr": 463,
+          "dep": null
+        },
+        {
+          "station": "DBY",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "SOT",
+          "arr": 555,
+          "dep": null
+        },
+        {
+          "station": "CRE",
+          "arr": null,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "MF_65",
+      "headcode": "",
+      "operator": "EM",
+      "days": [
+        "MF"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "CLE",
+          "arr": null,
+          "dep": 604
+        },
+        {
+          "station": "GMB",
+          "arr": null,
+          "dep": 440
+        },
+        {
+          "station": "HAB",
+          "arr": null,
+          "dep": 450
+        },
+        {
+          "station": "BTB",
+          "arr": null,
+          "dep": 459
+        },
+        {
+          "station": "MKR",
+          "arr": null,
+          "dep": 475
+        },
+        {
+          "station": "LCN",
+          "arr": 495,
+          "dep": null
+        },
+        {
+          "station": "LCN",
+          "arr": null,
+          "dep": 360
+        },
+        {
+          "station": "HKM",
+          "arr": null,
+          "dep": 368
+        },
+        {
+          "station": "SWD",
+          "arr": null,
+          "dep": 374
+        },
+        {
+          "station": "CLM",
+          "arr": null,
+          "dep": 380
+        },
+        {
+          "station": "NNG",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "GRA",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "PBO",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "KGX",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "NCT",
+          "arr": 397,
+          "dep": null
+        },
+        {
+          "station": "NCT",
+          "arr": null,
+          "dep": 398
+        },
+        {
+          "station": "ROL",
+          "arr": null,
+          "dep": 427
+        },
+        {
+          "station": "FSK",
+          "arr": null,
+          "dep": 430
+        },
+        {
+          "station": "BSB",
+          "arr": null,
+          "dep": 434
+        },
+        {
+          "station": "THU",
+          "arr": null,
+          "dep": 437
+        },
+        {
+          "station": "LOW",
+          "arr": null,
+          "dep": 411
+        },
+        {
+          "station": "BUJ",
+          "arr": null,
+          "dep": 445
+        },
+        {
+          "station": "CTO",
+          "arr": null,
+          "dep": 449
+        },
+        {
+          "station": "NOT",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "LEI",
+          "arr": 492,
+          "dep": null
+        },
+        {
+          "station": "DBY",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "SOT",
+          "arr": 615,
+          "dep": null
+        },
+        {
+          "station": "CRE",
+          "arr": null,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "MF_66",
+      "headcode": "",
+      "operator": "EM",
+      "days": [
+        "MF"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "GMB",
+          "arr": null,
+          "dep": 495
+        },
+        {
+          "station": "HAB",
+          "arr": null,
+          "dep": 505
+        },
+        {
+          "station": "BTB",
+          "arr": null,
+          "dep": 514
+        },
+        {
+          "station": "MKR",
+          "arr": null,
+          "dep": 529
+        },
+        {
+          "station": "LCN",
+          "arr": 548,
+          "dep": null
+        },
+        {
+          "station": "LCN",
+          "arr": null,
+          "dep": 369
+        },
+        {
+          "station": "HKM",
+          "arr": null,
+          "dep": 377
+        },
+        {
+          "station": "SWD",
+          "arr": null,
+          "dep": 415
+        },
+        {
+          "station": "CLM",
+          "arr": null,
+          "dep": 387
+        },
+        {
+          "station": "NNG",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "NCT",
+          "arr": 431,
+          "dep": null
+        },
+        {
+          "station": "NCT",
+          "arr": null,
+          "dep": 421
+        },
+        {
+          "station": "ROL",
+          "arr": null,
+          "dep": 487
+        },
+        {
+          "station": "FSK",
+          "arr": null,
+          "dep": 443
+        },
+        {
+          "station": "BSB",
+          "arr": null,
+          "dep": 494
+        },
+        {
+          "station": "THU",
+          "arr": null,
+          "dep": 497
+        },
+        {
+          "station": "LOW",
+          "arr": null,
+          "dep": 441
+        },
+        {
+          "station": "BUJ",
+          "arr": null,
+          "dep": 505
+        },
+        {
+          "station": "CTO",
+          "arr": null,
+          "dep": 509
+        },
+        {
+          "station": "NOT",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "DBY",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "SOT",
+          "arr": 675,
+          "dep": null
+        },
+        {
+          "station": "CRE",
+          "arr": null,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "MF_67",
+      "headcode": "",
+      "operator": "EM",
+      "days": [
+        "MF"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "GMB",
+          "arr": null,
+          "dep": 615
+        },
+        {
+          "station": "HAB",
+          "arr": null,
+          "dep": 625
+        },
+        {
+          "station": "BTB",
+          "arr": null,
+          "dep": 634
+        },
+        {
+          "station": "MKR",
+          "arr": null,
+          "dep": 649
+        },
+        {
+          "station": "LCN",
+          "arr": 668,
+          "dep": null
+        },
+        {
+          "station": "LCN",
+          "arr": null,
+          "dep": 400
+        },
+        {
+          "station": "HKM",
+          "arr": null,
+          "dep": 408
+        },
+        {
+          "station": "SWD",
+          "arr": null,
+          "dep": 426
+        },
+        {
+          "station": "CLM",
+          "arr": null,
+          "dep": 421
+        },
+        {
+          "station": "NNG",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "NCT",
+          "arr": 466,
+          "dep": null
+        },
+        {
+          "station": "NCT",
+          "arr": null,
+          "dep": 435
+        },
+        {
+          "station": "ROL",
+          "arr": null,
+          "dep": 617
+        },
+        {
+          "station": "FSK",
+          "arr": null,
+          "dep": 474
+        },
+        {
+          "station": "BSB",
+          "arr": null,
+          "dep": 559
+        },
+        {
+          "station": "THU",
+          "arr": null,
+          "dep": 562
+        },
+        {
+          "station": "LOW",
+          "arr": null,
+          "dep": 451
+        },
+        {
+          "station": "BUJ",
+          "arr": null,
+          "dep": 571
+        },
+        {
+          "station": "CTO",
+          "arr": null,
+          "dep": 575
+        },
+        {
+          "station": "NOT",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "DBY",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "SOT",
+          "arr": 735,
+          "dep": null
+        },
+        {
+          "station": "CRE",
+          "arr": null,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "MF_68",
+      "headcode": "",
+      "operator": "EM",
+      "days": [
+        "MF"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "LCN",
+          "arr": null,
+          "dep": 412
+        },
+        {
+          "station": "HKM",
+          "arr": null,
+          "dep": 420
+        },
+        {
+          "station": "SWD",
+          "arr": null,
+          "dep": 450
+        },
+        {
+          "station": "CLM",
+          "arr": null,
+          "dep": 432
+        },
+        {
+          "station": "NNG",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "NCT",
+          "arr": 498,
+          "dep": null
+        },
+        {
+          "station": "NCT",
+          "arr": null,
+          "dep": 467
+        },
+        {
+          "station": "FSK",
+          "arr": null,
+          "dep": 490
+        },
+        {
+          "station": "BSB",
+          "arr": null,
+          "dep": 679
+        },
+        {
+          "station": "THU",
+          "arr": null,
+          "dep": 682
+        },
+        {
+          "station": "LOW",
+          "arr": null,
+          "dep": 481
+        },
+        {
+          "station": "BUJ",
+          "arr": null,
+          "dep": 631
+        },
+        {
+          "station": "CTO",
+          "arr": null,
+          "dep": 635
+        },
+        {
+          "station": "NOT",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "DBY",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "SOT",
+          "arr": 795,
+          "dep": null
+        },
+        {
+          "station": "CRE",
+          "arr": null,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "MF_69",
+      "headcode": "",
+      "operator": "EM",
+      "days": [
+        "MF"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "LCN",
+          "arr": null,
+          "dep": 436
+        },
+        {
+          "station": "HKM",
+          "arr": null,
+          "dep": 444
+        },
+        {
+          "station": "SWD",
+          "arr": null,
+          "dep": 531
+        },
+        {
+          "station": "CLM",
+          "arr": null,
+          "dep": 456
+        },
+        {
+          "station": "NCT",
+          "arr": 524,
+          "dep": null
+        },
+        {
+          "station": "NCT",
+          "arr": null,
+          "dep": 481
+        },
+        {
+          "station": "FSK",
+          "arr": null,
+          "dep": 555
+        },
+        {
+          "station": "LOW",
+          "arr": null,
+          "dep": 501
+        },
+        {
+          "station": "BUJ",
+          "arr": null,
+          "dep": 691
+        },
+        {
+          "station": "CTO",
+          "arr": null,
+          "dep": 695
+        },
+        {
+          "station": "NOT",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "DBY",
+          "arr": null,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "MF_70",
+      "headcode": "",
+      "operator": "GR",
+      "days": [
+        "MF"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "LCN",
+          "arr": null,
+          "dep": 450
+        },
+        {
+          "station": "HKM",
+          "arr": null,
+          "dep": 478
+        },
+        {
+          "station": "SWD",
+          "arr": null,
+          "dep": 628
+        },
+        {
+          "station": "CLM",
+          "arr": null,
+          "dep": 487
+        },
+        {
+          "station": "NCT",
+          "arr": 547,
+          "dep": null
+        },
+        {
+          "station": "NCT",
+          "arr": null,
+          "dep": 498
+        },
+        {
+          "station": "FSK",
+          "arr": null,
+          "dep": 619
+        },
+        {
+          "station": "LOW",
+          "arr": null,
+          "dep": 511
+        },
+        {
+          "station": "NOT",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "DBY",
+          "arr": null,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "MF_71",
+      "headcode": "",
+      "operator": "EM",
+      "days": [
+        "MF"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "LCN",
+          "arr": null,
+          "dep": 470
+        },
+        {
+          "station": "HKM",
+          "arr": null,
+          "dep": 505
+        },
+        {
+          "station": "CLM",
+          "arr": null,
+          "dep": 514
+        },
+        {
+          "station": "NCT",
+          "arr": 577,
+          "dep": null
+        },
+        {
+          "station": "NCT",
+          "arr": null,
+          "dep": 526
+        },
+        {
+          "station": "FSK",
+          "arr": null,
+          "dep": 675
+        },
+        {
+          "station": "LOW",
+          "arr": null,
+          "dep": 539
+        },
+        {
+          "station": "NOT",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "DBY",
+          "arr": null,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "MF_72",
+      "headcode": "",
+      "operator": "EM",
+      "days": [
+        "MF"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "LCN",
+          "arr": null,
+          "dep": 497
+        },
+        {
+          "station": "HKM",
+          "arr": null,
+          "dep": 525
+        },
+        {
+          "station": "CLM",
+          "arr": null,
+          "dep": 537
+        },
+        {
+          "station": "NCT",
+          "arr": 607,
+          "dep": null
+        },
+        {
+          "station": "NCT",
+          "arr": null,
+          "dep": 548
+        },
+        {
+          "station": "LOW",
+          "arr": null,
+          "dep": 566
+        },
+        {
+          "station": "NOT",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "DBY",
+          "arr": null,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "MF_73",
+      "headcode": "",
+      "operator": "EM",
+      "days": [
+        "MF"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "LCN",
+          "arr": null,
+          "dep": 517
+        },
+        {
+          "station": "HKM",
+          "arr": null,
+          "dep": 558
+        },
+        {
+          "station": "CLM",
+          "arr": null,
+          "dep": 567
+        },
+        {
+          "station": "NCT",
+          "arr": 644,
+          "dep": null
+        },
+        {
+          "station": "NCT",
+          "arr": null,
+          "dep": 579
+        },
+        {
+          "station": "LOW",
+          "arr": null,
+          "dep": 626
+        },
+        {
+          "station": "NOT",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "DBY",
+          "arr": null,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "MF_74",
+      "headcode": "",
+      "operator": "EM",
+      "days": [
+        "MF"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "LCN",
+          "arr": null,
+          "dep": 550
+        },
+        {
+          "station": "HKM",
+          "arr": null,
+          "dep": 590
+        },
+        {
+          "station": "CLM",
+          "arr": null,
+          "dep": 634
+        },
+        {
+          "station": "NCT",
+          "arr": 667,
+          "dep": null
+        },
+        {
+          "station": "NCT",
+          "arr": null,
+          "dep": 610
+        },
+        {
+          "station": "LOW",
+          "arr": null,
+          "dep": 686
+        },
+        {
+          "station": "NOT",
+          "arr": null,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "MF_75",
+      "headcode": "",
+      "operator": "EM",
+      "days": [
+        "MF"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "LCN",
+          "arr": null,
+          "dep": 560
+        },
+        {
+          "station": "HKM",
+          "arr": null,
+          "dep": 622
+        },
+        {
+          "station": "CLM",
+          "arr": null,
+          "dep": 687
+        },
+        {
+          "station": "NCT",
+          "arr": 698,
+          "dep": null
+        },
+        {
+          "station": "NCT",
+          "arr": null,
+          "dep": 645
+        },
+        {
+          "station": "NOT",
+          "arr": null,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "MF_76",
+      "headcode": "",
+      "operator": "GR",
+      "days": [
+        "MF"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "LCN",
+          "arr": null,
+          "dep": 582
+        },
+        {
+          "station": "HKM",
+          "arr": null,
+          "dep": 650
+        },
+        {
+          "station": "NCT",
+          "arr": null,
+          "dep": 668
+        },
+        {
+          "station": "NOT",
+          "arr": null,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "MF_77",
+      "headcode": "",
+      "operator": "EM",
+      "days": [
+        "MF"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "LCN",
+          "arr": null,
+          "dep": 614
+        },
+        {
+          "station": "HKM",
+          "arr": null,
+          "dep": 678
+        },
+        {
+          "station": "NCT",
+          "arr": null,
+          "dep": 699
+        },
+        {
+          "station": "NOT",
+          "arr": null,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "MF_78",
+      "headcode": "",
+      "operator": "EM",
+      "days": [
+        "MF"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "LCN",
+          "arr": null,
+          "dep": 642
+        }
+      ]
+    },
+    {
+      "id": "MF_79",
+      "headcode": "",
+      "operator": "EM",
+      "days": [
+        "MF"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "LCN",
+          "arr": null,
+          "dep": 670
+        }
+      ]
+    },
+    {
+      "id": "MF_80",
+      "headcode": "",
+      "operator": "EM",
+      "days": [
+        "MF"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "CLE",
+          "arr": null,
+          "dep": 1084
+        },
+        {
+          "station": "GMB",
+          "arr": null,
+          "dep": 1095
+        },
+        {
+          "station": "HAB",
+          "arr": null,
+          "dep": 1105
+        },
+        {
+          "station": "BTB",
+          "arr": null,
+          "dep": 1114
+        },
+        {
+          "station": "MKR",
+          "arr": null,
+          "dep": 1129
+        },
+        {
+          "station": "LCN",
+          "arr": 1151,
+          "dep": null
+        },
+        {
+          "station": "LCN",
+          "arr": null,
+          "dep": 1143
+        },
+        {
+          "station": "HKM",
+          "arr": null,
+          "dep": 1151
+        },
+        {
+          "station": "SWD",
+          "arr": null,
+          "dep": 1157
+        },
+        {
+          "station": "CLM",
+          "arr": null,
+          "dep": 1163
+        },
+        {
+          "station": "NNG",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "NCT",
+          "arr": 1184,
+          "dep": null
+        },
+        {
+          "station": "NCT",
+          "arr": null,
+          "dep": 1184
+        },
+        {
+          "station": "FSK",
+          "arr": null,
+          "dep": 1191
+        },
+        {
+          "station": "BSB",
+          "arr": null,
+          "dep": 1434
+        },
+        {
+          "station": "LOW",
+          "arr": null,
+          "dep": 1198
+        },
+        {
+          "station": "BUJ",
+          "arr": null,
+          "dep": 1203
+        },
+        {
+          "station": "CTO",
+          "arr": null,
+          "dep": 1207
+        },
+        {
+          "station": "NOT",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "DBY",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "SOT",
+          "arr": 1356,
+          "dep": null
+        },
+        {
+          "station": "CRE",
+          "arr": null,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "MF_81",
+      "headcode": "",
+      "operator": "EM",
+      "days": [
+        "MF"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "CLE",
+          "arr": null,
+          "dep": 1268
+        },
+        {
+          "station": "GMB",
+          "arr": null,
+          "dep": 1279
+        },
+        {
+          "station": "HAB",
+          "arr": null,
+          "dep": 1289
+        },
+        {
+          "station": "BTB",
+          "arr": null,
+          "dep": 1298
+        },
+        {
+          "station": "MKR",
+          "arr": null,
+          "dep": 1313
+        },
+        {
+          "station": "LCN",
+          "arr": 1332,
+          "dep": null
+        },
+        {
+          "station": "LCN",
+          "arr": null,
+          "dep": 1154
+        },
+        {
+          "station": "HKM",
+          "arr": null,
+          "dep": 1162
+        },
+        {
+          "station": "SWD",
+          "arr": null,
+          "dep": 1168
+        },
+        {
+          "station": "CLM",
+          "arr": null,
+          "dep": 1174
+        },
+        {
+          "station": "NNG",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "NCT",
+          "arr": 1243,
+          "dep": null
+        },
+        {
+          "station": "NCT",
+          "arr": null,
+          "dep": 1244
+        },
+        {
+          "station": "FSK",
+          "arr": null,
+          "dep": 1312
+        },
+        {
+          "station": "LOW",
+          "arr": null,
+          "dep": 1256
+        },
+        {
+          "station": "BUJ",
+          "arr": null,
+          "dep": 1324
+        },
+        {
+          "station": "CTO",
+          "arr": null,
+          "dep": 1263
+        },
+        {
+          "station": "NOT",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "DBY",
+          "arr": null,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "MF_82",
+      "headcode": "",
+      "operator": "EM",
+      "days": [
+        "MF"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "LCN",
+          "arr": null,
+          "dep": 1214
+        },
+        {
+          "station": "HKM",
+          "arr": null,
+          "dep": 1222
+        },
+        {
+          "station": "SWD",
+          "arr": null,
+          "dep": 1228
+        },
+        {
+          "station": "CLM",
+          "arr": null,
+          "dep": 1233
+        },
+        {
+          "station": "NNG",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "NCT",
+          "arr": 1304,
+          "dep": null
+        },
+        {
+          "station": "NCT",
+          "arr": null,
+          "dep": 1305
+        },
+        {
+          "station": "FSK",
+          "arr": null,
+          "dep": 1430
+        },
+        {
+          "station": "LOW",
+          "arr": null,
+          "dep": 1319
+        },
+        {
+          "station": "BUJ",
+          "arr": null,
+          "dep": 4
+        },
+        {
+          "station": "CTO",
+          "arr": null,
+          "dep": 1328
+        },
+        {
+          "station": "NOT",
+          "arr": null,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "MF_83",
+      "headcode": "",
+      "operator": "EM",
+      "days": [
+        "MF"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "LCN",
+          "arr": null,
+          "dep": 1274
+        },
+        {
+          "station": "HKM",
+          "arr": null,
+          "dep": 1282
+        },
+        {
+          "station": "SWD",
+          "arr": null,
+          "dep": 1288
+        },
+        {
+          "station": "CLM",
+          "arr": null,
+          "dep": 1294
+        },
+        {
+          "station": "NCT",
+          "arr": 1363,
+          "dep": null
+        },
+        {
+          "station": "NCT",
+          "arr": null,
+          "dep": 1365
+        },
+        {
+          "station": "LOW",
+          "arr": null,
+          "dep": 1439
+        },
+        {
+          "station": "CTO",
+          "arr": null,
+          "dep": 8
+        },
+        {
+          "station": "NOT",
+          "arr": null,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "MF_84",
+      "headcode": "",
+      "operator": "EM",
+      "days": [
+        "MF"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "LCN",
+          "arr": null,
+          "dep": 1336
+        },
+        {
+          "station": "HKM",
+          "arr": null,
+          "dep": 1344
+        },
+        {
+          "station": "SWD",
+          "arr": null,
+          "dep": 1394
+        },
+        {
+          "station": "CLM",
+          "arr": null,
+          "dep": 1353
+        },
+        {
+          "station": "NCT",
+          "arr": 1423,
+          "dep": null
+        },
+        {
+          "station": "NCT",
+          "arr": null,
+          "dep": 1423
+        },
+        {
+          "station": "NOT",
+          "arr": null,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "MF_85",
+      "headcode": "",
+      "operator": "EM",
+      "days": [
+        "MF"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "LCN",
+          "arr": null,
+          "dep": 1358
+        },
+        {
+          "station": "HKM",
+          "arr": null,
+          "dep": 1388
+        },
+        {
+          "station": "CLM",
+          "arr": null,
+          "dep": 1400
+        }
+      ]
+    },
+    {
+      "id": "MF_86",
+      "headcode": "",
+      "operator": "",
+      "days": [
+        "MF"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "LCN",
+          "arr": null,
+          "dep": 1380
+        }
+      ]
+    },
+    {
+      "id": "SAT_87",
+      "headcode": "",
+      "operator": "EM",
+      "days": [
+        "SAT"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "CLE",
+          "arr": null,
+          "dep": 349
+        },
+        {
+          "station": "GMB",
+          "arr": null,
+          "dep": 357
+        },
+        {
+          "station": "HAB",
+          "arr": null,
+          "dep": 367
+        },
+        {
+          "station": "BTB",
+          "arr": null,
+          "dep": 376
+        },
+        {
+          "station": "MKR",
+          "arr": null,
+          "dep": 391
+        },
+        {
+          "station": "LCN",
+          "arr": 410,
+          "dep": null
+        },
+        {
+          "station": "LCN",
+          "arr": null,
+          "dep": 316
+        },
+        {
+          "station": "HKM",
+          "arr": null,
+          "dep": 324
+        },
+        {
+          "station": "SWD",
+          "arr": null,
+          "dep": 330
+        },
+        {
+          "station": "CLM",
+          "arr": null,
+          "dep": 336
+        },
+        {
+          "station": "NNG",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "GRA",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "PBO",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "KGX",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "NCT",
+          "arr": 359,
+          "dep": null
+        },
+        {
+          "station": "NCT",
+          "arr": null,
+          "dep": 361
+        },
+        {
+          "station": "ROL",
+          "arr": null,
+          "dep": 367
+        },
+        {
+          "station": "FSK",
+          "arr": null,
+          "dep": 370
+        },
+        {
+          "station": "BSB",
+          "arr": null,
+          "dep": 374
+        },
+        {
+          "station": "THU",
+          "arr": null,
+          "dep": 377
+        },
+        {
+          "station": "LOW",
+          "arr": null,
+          "dep": 381
+        },
+        {
+          "station": "BUJ",
+          "arr": null,
+          "dep": 385
+        },
+        {
+          "station": "CTO",
+          "arr": null,
+          "dep": 389
+        },
+        {
+          "station": "NOT",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "DBY",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "SOT",
+          "arr": 555,
+          "dep": null
+        },
+        {
+          "station": "CRE",
+          "arr": null,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "SAT_88",
+      "headcode": "",
+      "operator": "EM",
+      "days": [
+        "SAT"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "CLE",
+          "arr": null,
+          "dep": 484
+        },
+        {
+          "station": "GMB",
+          "arr": null,
+          "dep": 440
+        },
+        {
+          "station": "HAB",
+          "arr": null,
+          "dep": 450
+        },
+        {
+          "station": "BTB",
+          "arr": null,
+          "dep": 459
+        },
+        {
+          "station": "MKR",
+          "arr": null,
+          "dep": 475
+        },
+        {
+          "station": "LCN",
+          "arr": 495,
+          "dep": null
+        },
+        {
+          "station": "LCN",
+          "arr": null,
+          "dep": 360
+        },
+        {
+          "station": "HKM",
+          "arr": null,
+          "dep": 368
+        },
+        {
+          "station": "SWD",
+          "arr": null,
+          "dep": 374
+        },
+        {
+          "station": "CLM",
+          "arr": null,
+          "dep": 380
+        },
+        {
+          "station": "NNG",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "GRA",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "PBO",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "KGX",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "NCT",
+          "arr": 406,
+          "dep": null
+        },
+        {
+          "station": "NCT",
+          "arr": null,
+          "dep": 408
+        },
+        {
+          "station": "ROL",
+          "arr": null,
+          "dep": 427
+        },
+        {
+          "station": "FSK",
+          "arr": null,
+          "dep": 430
+        },
+        {
+          "station": "BSB",
+          "arr": null,
+          "dep": 434
+        },
+        {
+          "station": "THU",
+          "arr": null,
+          "dep": 437
+        },
+        {
+          "station": "LOW",
+          "arr": null,
+          "dep": 441
+        },
+        {
+          "station": "BUJ",
+          "arr": null,
+          "dep": 445
+        },
+        {
+          "station": "CTO",
+          "arr": null,
+          "dep": 449
+        },
+        {
+          "station": "NOT",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "DBY",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "SOT",
+          "arr": 615,
+          "dep": null
+        },
+        {
+          "station": "CRE",
+          "arr": null,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "SAT_89",
+      "headcode": "",
+      "operator": "EM",
+      "days": [
+        "SAT"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "CLE",
+          "arr": null,
+          "dep": 604
+        },
+        {
+          "station": "GMB",
+          "arr": null,
+          "dep": 495
+        },
+        {
+          "station": "HAB",
+          "arr": null,
+          "dep": 505
+        },
+        {
+          "station": "BTB",
+          "arr": null,
+          "dep": 514
+        },
+        {
+          "station": "MKR",
+          "arr": null,
+          "dep": 529
+        },
+        {
+          "station": "LCN",
+          "arr": 548,
+          "dep": null
+        },
+        {
+          "station": "LCN",
+          "arr": null,
+          "dep": 376
+        },
+        {
+          "station": "HKM",
+          "arr": null,
+          "dep": 384
+        },
+        {
+          "station": "SWD",
+          "arr": null,
+          "dep": 390
+        },
+        {
+          "station": "CLM",
+          "arr": null,
+          "dep": 396
+        },
+        {
+          "station": "NNG",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "GRA",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "PBO",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "KGX",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "NCT",
+          "arr": 466,
+          "dep": null
+        },
+        {
+          "station": "NCT",
+          "arr": null,
+          "dep": 421
+        },
+        {
+          "station": "ROL",
+          "arr": null,
+          "dep": 505
+        },
+        {
+          "station": "FSK",
+          "arr": null,
+          "dep": 474
+        },
+        {
+          "station": "BSB",
+          "arr": null,
+          "dep": 559
+        },
+        {
+          "station": "THU",
+          "arr": null,
+          "dep": 562
+        },
+        {
+          "station": "LOW",
+          "arr": null,
+          "dep": 481
+        },
+        {
+          "station": "BUJ",
+          "arr": null,
+          "dep": 519
+        },
+        {
+          "station": "CTO",
+          "arr": null,
+          "dep": 523
+        },
+        {
+          "station": "NOT",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "DBY",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "SOT",
+          "arr": 675,
+          "dep": null
+        },
+        {
+          "station": "CRE",
+          "arr": null,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "SAT_90",
+      "headcode": "",
+      "operator": "EM",
+      "days": [
+        "SAT"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "GMB",
+          "arr": null,
+          "dep": 615
+        },
+        {
+          "station": "HAB",
+          "arr": null,
+          "dep": 625
+        },
+        {
+          "station": "BTB",
+          "arr": null,
+          "dep": 634
+        },
+        {
+          "station": "MKR",
+          "arr": null,
+          "dep": 649
+        },
+        {
+          "station": "LCN",
+          "arr": 668,
+          "dep": null
+        },
+        {
+          "station": "LCN",
+          "arr": null,
+          "dep": 412
+        },
+        {
+          "station": "HKM",
+          "arr": null,
+          "dep": 420
+        },
+        {
+          "station": "SWD",
+          "arr": null,
+          "dep": 426
+        },
+        {
+          "station": "CLM",
+          "arr": null,
+          "dep": 432
+        },
+        {
+          "station": "NNG",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "NCT",
+          "arr": 497,
+          "dep": null
+        },
+        {
+          "station": "NCT",
+          "arr": null,
+          "dep": 467
+        },
+        {
+          "station": "ROL",
+          "arr": null,
+          "dep": 617
+        },
+        {
+          "station": "FSK",
+          "arr": null,
+          "dep": 508
+        },
+        {
+          "station": "BSB",
+          "arr": null,
+          "dep": 679
+        },
+        {
+          "station": "THU",
+          "arr": null,
+          "dep": 682
+        },
+        {
+          "station": "LOW",
+          "arr": null,
+          "dep": 515
+        },
+        {
+          "station": "BUJ",
+          "arr": null,
+          "dep": 571
+        },
+        {
+          "station": "CTO",
+          "arr": null,
+          "dep": 575
+        },
+        {
+          "station": "NOT",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "DBY",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "SOT",
+          "arr": 735,
+          "dep": null
+        },
+        {
+          "station": "CRE",
+          "arr": null,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "SAT_91",
+      "headcode": "",
+      "operator": "EM",
+      "days": [
+        "SAT"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "LCN",
+          "arr": null,
+          "dep": 436
+        },
+        {
+          "station": "HKM",
+          "arr": null,
+          "dep": 444
+        },
+        {
+          "station": "SWD",
+          "arr": null,
+          "dep": 450
+        },
+        {
+          "station": "CLM",
+          "arr": null,
+          "dep": 456
+        },
+        {
+          "station": "NNG",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "NCT",
+          "arr": 524,
+          "dep": null
+        },
+        {
+          "station": "NCT",
+          "arr": null,
+          "dep": 499
+        },
+        {
+          "station": "ROL",
+          "arr": null,
+          "dep": 737
+        },
+        {
+          "station": "FSK",
+          "arr": null,
+          "dep": 555
+        },
+        {
+          "station": "LOW",
+          "arr": null,
+          "dep": 539
+        },
+        {
+          "station": "BUJ",
+          "arr": null,
+          "dep": 631
+        },
+        {
+          "station": "CTO",
+          "arr": null,
+          "dep": 635
+        },
+        {
+          "station": "NOT",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "DBY",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "SOT",
+          "arr": 795,
+          "dep": null
+        },
+        {
+          "station": "CRE",
+          "arr": null,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "SAT_92",
+      "headcode": "",
+      "operator": "GR",
+      "days": [
+        "SAT"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "LCN",
+          "arr": null,
+          "dep": 450
+        },
+        {
+          "station": "HKM",
+          "arr": null,
+          "dep": 478
+        },
+        {
+          "station": "SWD",
+          "arr": null,
+          "dep": 531
+        },
+        {
+          "station": "CLM",
+          "arr": null,
+          "dep": 487
+        },
+        {
+          "station": "NNG",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "NCT",
+          "arr": 547,
+          "dep": null
+        },
+        {
+          "station": "NCT",
+          "arr": null,
+          "dep": 526
+        },
+        {
+          "station": "FSK",
+          "arr": null,
+          "dep": 619
+        },
+        {
+          "station": "LOW",
+          "arr": null,
+          "dep": 566
+        },
+        {
+          "station": "BUJ",
+          "arr": null,
+          "dep": 691
+        },
+        {
+          "station": "CTO",
+          "arr": null,
+          "dep": 695
+        },
+        {
+          "station": "NOT",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "DBY",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "SOT",
+          "arr": 855,
+          "dep": null
+        },
+        {
+          "station": "CRE",
+          "arr": null,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "SAT_93",
+      "headcode": "",
+      "operator": "EM",
+      "days": [
+        "SAT"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "LCN",
+          "arr": null,
+          "dep": 470
+        },
+        {
+          "station": "HKM",
+          "arr": null,
+          "dep": 505
+        },
+        {
+          "station": "SWD",
+          "arr": null,
+          "dep": 628
+        },
+        {
+          "station": "CLM",
+          "arr": null,
+          "dep": 514
+        },
+        {
+          "station": "NCT",
+          "arr": 577,
+          "dep": null
+        },
+        {
+          "station": "NCT",
+          "arr": null,
+          "dep": 548
+        },
+        {
+          "station": "FSK",
+          "arr": null,
+          "dep": 675
+        },
+        {
+          "station": "LOW",
+          "arr": null,
+          "dep": 626
+        },
+        {
+          "station": "BUJ",
+          "arr": null,
+          "dep": 751
+        },
+        {
+          "station": "CTO",
+          "arr": null,
+          "dep": 755
+        },
+        {
+          "station": "NOT",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "DBY",
+          "arr": null,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "SAT_94",
+      "headcode": "",
+      "operator": "EM",
+      "days": [
+        "SAT"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "LCN",
+          "arr": null,
+          "dep": 497
+        },
+        {
+          "station": "HKM",
+          "arr": null,
+          "dep": 525
+        },
+        {
+          "station": "CLM",
+          "arr": null,
+          "dep": 537
+        },
+        {
+          "station": "NCT",
+          "arr": 607,
+          "dep": null
+        },
+        {
+          "station": "NCT",
+          "arr": null,
+          "dep": 579
+        },
+        {
+          "station": "FSK",
+          "arr": null,
+          "dep": 739
+        },
+        {
+          "station": "LOW",
+          "arr": null,
+          "dep": 686
+        },
+        {
+          "station": "NOT",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "DBY",
+          "arr": null,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "SAT_95",
+      "headcode": "",
+      "operator": "EM",
+      "days": [
+        "SAT"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "LCN",
+          "arr": null,
+          "dep": 517
+        },
+        {
+          "station": "HKM",
+          "arr": null,
+          "dep": 558
+        },
+        {
+          "station": "CLM",
+          "arr": null,
+          "dep": 567
+        },
+        {
+          "station": "NCT",
+          "arr": 644,
+          "dep": null
+        },
+        {
+          "station": "NCT",
+          "arr": null,
+          "dep": 610
+        },
+        {
+          "station": "LOW",
+          "arr": null,
+          "dep": 746
+        },
+        {
+          "station": "NOT",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "DBY",
+          "arr": null,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "SAT_96",
+      "headcode": "",
+      "operator": "EM",
+      "days": [
+        "SAT"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "LCN",
+          "arr": null,
+          "dep": 550
+        },
+        {
+          "station": "HKM",
+          "arr": null,
+          "dep": 590
+        },
+        {
+          "station": "CLM",
+          "arr": null,
+          "dep": 634
+        },
+        {
+          "station": "NCT",
+          "arr": 667,
+          "dep": null
+        },
+        {
+          "station": "NCT",
+          "arr": null,
+          "dep": 645
+        },
+        {
+          "station": "NOT",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "DBY",
+          "arr": null,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "SAT_97",
+      "headcode": "",
+      "operator": "GR",
+      "days": [
+        "SAT"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "LCN",
+          "arr": null,
+          "dep": 560
+        },
+        {
+          "station": "HKM",
+          "arr": null,
+          "dep": 622
+        },
+        {
+          "station": "CLM",
+          "arr": null,
+          "dep": 687
+        },
+        {
+          "station": "NCT",
+          "arr": 697,
+          "dep": null
+        },
+        {
+          "station": "NCT",
+          "arr": null,
+          "dep": 668
+        },
+        {
+          "station": "NOT",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "DBY",
+          "arr": null,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "SAT_98",
+      "headcode": "",
+      "operator": "EM",
+      "days": [
+        "SAT"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "LCN",
+          "arr": null,
+          "dep": 582
+        },
+        {
+          "station": "HKM",
+          "arr": null,
+          "dep": 650
+        },
+        {
+          "station": "NCT",
+          "arr": 727,
+          "dep": null
+        },
+        {
+          "station": "NCT",
+          "arr": null,
+          "dep": 699
+        },
+        {
+          "station": "NOT",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "DBY",
+          "arr": null,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "SAT_99",
+      "headcode": "",
+      "operator": "EM",
+      "days": [
+        "SAT"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "LCN",
+          "arr": null,
+          "dep": 614
+        },
+        {
+          "station": "HKM",
+          "arr": null,
+          "dep": 678
+        },
+        {
+          "station": "NCT",
+          "arr": null,
+          "dep": 730
+        },
+        {
+          "station": "NOT",
+          "arr": null,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "SAT_100",
+      "headcode": "",
+      "operator": "EM",
+      "days": [
+        "SAT"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "LCN",
+          "arr": null,
+          "dep": 642
+        },
+        {
+          "station": "HKM",
+          "arr": null,
+          "dep": 710
+        }
+      ]
+    },
+    {
+      "id": "SAT_101",
+      "headcode": "",
+      "operator": "EM",
+      "days": [
+        "SAT"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "LCN",
+          "arr": null,
+          "dep": 670
+        }
+      ]
+    },
+    {
+      "id": "SAT_102",
+      "headcode": "",
+      "operator": "GR",
+      "days": [
+        "SAT"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "LCN",
+          "arr": null,
+          "dep": 680
+        }
+      ]
+    },
+    {
+      "id": "SAT_103",
+      "headcode": "",
+      "operator": "EM",
+      "days": [
+        "SAT"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "LCN",
+          "arr": null,
+          "dep": 702
+        }
+      ]
+    },
+    {
+      "id": "SAT_104",
+      "headcode": "",
+      "operator": "EM",
+      "days": [
+        "SAT"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "CLE",
+          "arr": null,
+          "dep": 1084
+        },
+        {
+          "station": "GMB",
+          "arr": null,
+          "dep": 1095
+        },
+        {
+          "station": "HAB",
+          "arr": null,
+          "dep": 1105
+        },
+        {
+          "station": "BTB",
+          "arr": null,
+          "dep": 1114
+        },
+        {
+          "station": "MKR",
+          "arr": null,
+          "dep": 1129
+        },
+        {
+          "station": "LCN",
+          "arr": 1148,
+          "dep": null
+        },
+        {
+          "station": "LCN",
+          "arr": null,
+          "dep": 1154
+        },
+        {
+          "station": "HKM",
+          "arr": null,
+          "dep": 1162
+        },
+        {
+          "station": "SWD",
+          "arr": null,
+          "dep": 1168
+        },
+        {
+          "station": "CLM",
+          "arr": null,
+          "dep": 1174
+        },
+        {
+          "station": "NNG",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "NCT",
+          "arr": 1184,
+          "dep": null
+        },
+        {
+          "station": "NCT",
+          "arr": null,
+          "dep": 1184
+        },
+        {
+          "station": "FSK",
+          "arr": null,
+          "dep": 1191
+        },
+        {
+          "station": "BSB",
+          "arr": null,
+          "dep": 1220
+        },
+        {
+          "station": "THU",
+          "arr": null,
+          "dep": 1223
+        },
+        {
+          "station": "LOW",
+          "arr": null,
+          "dep": 1198
+        },
+        {
+          "station": "BUJ",
+          "arr": null,
+          "dep": 1203
+        },
+        {
+          "station": "CTO",
+          "arr": null,
+          "dep": 1207
+        },
+        {
+          "station": "NOT",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "DBY",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "SOT",
+          "arr": 1356,
+          "dep": null
+        },
+        {
+          "station": "CRE",
+          "arr": null,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "SAT_105",
+      "headcode": "",
+      "operator": "EM",
+      "days": [
+        "SAT"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "CLE",
+          "arr": null,
+          "dep": 1204
+        },
+        {
+          "station": "GMB",
+          "arr": null,
+          "dep": 1215
+        },
+        {
+          "station": "HAB",
+          "arr": null,
+          "dep": 1225
+        },
+        {
+          "station": "BTB",
+          "arr": null,
+          "dep": 1234
+        },
+        {
+          "station": "MKR",
+          "arr": null,
+          "dep": 1249
+        },
+        {
+          "station": "LCN",
+          "arr": 1271,
+          "dep": null
+        },
+        {
+          "station": "LCN",
+          "arr": null,
+          "dep": 1214
+        },
+        {
+          "station": "HKM",
+          "arr": null,
+          "dep": 1222
+        },
+        {
+          "station": "SWD",
+          "arr": null,
+          "dep": 1228
+        },
+        {
+          "station": "CLM",
+          "arr": null,
+          "dep": 1234
+        },
+        {
+          "station": "NCT",
+          "arr": 1244,
+          "dep": null
+        },
+        {
+          "station": "NCT",
+          "arr": null,
+          "dep": 1209
+        },
+        {
+          "station": "FSK",
+          "arr": null,
+          "dep": 1216
+        },
+        {
+          "station": "LOW",
+          "arr": null,
+          "dep": 1227
+        },
+        {
+          "station": "BUJ",
+          "arr": null,
+          "dep": 1231
+        },
+        {
+          "station": "CTO",
+          "arr": null,
+          "dep": 1235
+        },
+        {
+          "station": "NOT",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "DBY",
+          "arr": null,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "SAT_106",
+      "headcode": "",
+      "operator": "EM",
+      "days": [
+        "SAT"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "LCN",
+          "arr": null,
+          "dep": 1274
+        },
+        {
+          "station": "HKM",
+          "arr": null,
+          "dep": 1282
+        },
+        {
+          "station": "SWD",
+          "arr": null,
+          "dep": 1288
+        },
+        {
+          "station": "CLM",
+          "arr": null,
+          "dep": 1294
+        },
+        {
+          "station": "NCT",
+          "arr": 1304,
+          "dep": null
+        },
+        {
+          "station": "NCT",
+          "arr": null,
+          "dep": 1244
+        },
+        {
+          "station": "FSK",
+          "arr": null,
+          "dep": 1323
+        },
+        {
+          "station": "LOW",
+          "arr": null,
+          "dep": 1257
+        },
+        {
+          "station": "BUJ",
+          "arr": null,
+          "dep": 1335
+        },
+        {
+          "station": "CTO",
+          "arr": null,
+          "dep": 1264
+        },
+        {
+          "station": "NOT",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "DBY",
+          "arr": null,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "SAT_107",
+      "headcode": "",
+      "operator": "EM",
+      "days": [
+        "SAT"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "LCN",
+          "arr": null,
+          "dep": 1292
+        },
+        {
+          "station": "HKM",
+          "arr": null,
+          "dep": 1308
+        },
+        {
+          "station": "SWD",
+          "arr": null,
+          "dep": 1314
+        },
+        {
+          "station": "CLM",
+          "arr": null,
+          "dep": 1320
+        },
+        {
+          "station": "NCT",
+          "arr": 1315,
+          "dep": null
+        },
+        {
+          "station": "NCT",
+          "arr": null,
+          "dep": 1305
+        },
+        {
+          "station": "LOW",
+          "arr": null,
+          "dep": 1330
+        },
+        {
+          "station": "CTO",
+          "arr": null,
+          "dep": 1339
+        },
+        {
+          "station": "NOT",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "DBY",
+          "arr": null,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "SAT_108",
+      "headcode": "",
+      "operator": "EM",
+      "days": [
+        "SAT"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "LCN",
+          "arr": null,
+          "dep": 1300
+        },
+        {
+          "station": "NCT",
+          "arr": null,
+          "dep": 1316
+        },
+        {
+          "station": "NOT",
+          "arr": null,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "SUN_109",
+      "headcode": "",
+      "operator": "EM",
+      "days": [
+        "SUN"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "CLE",
+          "arr": null,
+          "dep": 846
+        },
+        {
+          "station": "GMB",
+          "arr": null,
+          "dep": 854
+        },
+        {
+          "station": "HAB",
+          "arr": null,
+          "dep": 864
+        },
+        {
+          "station": "BTB",
+          "arr": null,
+          "dep": 873
+        },
+        {
+          "station": "MKR",
+          "arr": null,
+          "dep": 888
+        },
+        {
+          "station": "LCN",
+          "arr": 907,
+          "dep": null
+        },
+        {
+          "station": "LCN",
+          "arr": null,
+          "dep": 515
+        },
+        {
+          "station": "HKM",
+          "arr": null,
+          "dep": 541
+        },
+        {
+          "station": "SWD",
+          "arr": null,
+          "dep": 547
+        },
+        {
+          "station": "CLM",
+          "arr": null,
+          "dep": 553
+        },
+        {
+          "station": "NNG",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "GRA",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "PBO",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "KGX",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "NCT",
+          "arr": 563,
+          "dep": null
+        },
+        {
+          "station": "NCT",
+          "arr": null,
+          "dep": 564
+        },
+        {
+          "station": "ROL",
+          "arr": null,
+          "dep": 570
+        },
+        {
+          "station": "FSK",
+          "arr": null,
+          "dep": 573
+        },
+        {
+          "station": "BSB",
+          "arr": null,
+          "dep": 577
+        },
+        {
+          "station": "THU",
+          "arr": null,
+          "dep": 580
+        },
+        {
+          "station": "LOW",
+          "arr": null,
+          "dep": 584
+        },
+        {
+          "station": "BUJ",
+          "arr": null,
+          "dep": 588
+        },
+        {
+          "station": "CTO",
+          "arr": null,
+          "dep": 592
+        },
+        {
+          "station": "NOT",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "DBY",
+          "arr": null,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "SUN_110",
+      "headcode": "",
+      "operator": "EM",
+      "days": [
+        "SUN"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "LCN",
+          "arr": null,
+          "dep": 533
+        },
+        {
+          "station": "HKM",
+          "arr": null,
+          "dep": 574
+        },
+        {
+          "station": "SWD",
+          "arr": null,
+          "dep": 632
+        },
+        {
+          "station": "CLM",
+          "arr": null,
+          "dep": 583
+        },
+        {
+          "station": "NNG",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "GRA",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "PBO",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "KGX",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "NCT",
+          "arr": 593,
+          "dep": null
+        },
+        {
+          "station": "NCT",
+          "arr": null,
+          "dep": 595
+        },
+        {
+          "station": "ROL",
+          "arr": null,
+          "dep": 706
+        },
+        {
+          "station": "FSK",
+          "arr": null,
+          "dep": 708
+        },
+        {
+          "station": "BSB",
+          "arr": null,
+          "dep": 712
+        },
+        {
+          "station": "THU",
+          "arr": null,
+          "dep": 715
+        },
+        {
+          "station": "LOW",
+          "arr": null,
+          "dep": 662
+        },
+        {
+          "station": "BUJ",
+          "arr": null,
+          "dep": 724
+        },
+        {
+          "station": "CTO",
+          "arr": null,
+          "dep": 668
+        },
+        {
+          "station": "NOT",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "DBY",
+          "arr": null,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "SUN_111",
+      "headcode": "",
+      "operator": "EM",
+      "days": [
+        "SUN"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "LCN",
+          "arr": null,
+          "dep": 566
+        },
+        {
+          "station": "HKM",
+          "arr": null,
+          "dep": 626
+        },
+        {
+          "station": "SWD",
+          "arr": null,
+          "dep": 752
+        },
+        {
+          "station": "CLM",
+          "arr": null,
+          "dep": 638
+        },
+        {
+          "station": "NNG",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "GRA",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "PBO",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "KGX",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "NCT",
+          "arr": 648,
+          "dep": null
+        },
+        {
+          "station": "NCT",
+          "arr": null,
+          "dep": 649
+        },
+        {
+          "station": "ROL",
+          "arr": null,
+          "dep": 826
+        },
+        {
+          "station": "FSK",
+          "arr": null,
+          "dep": 828
+        },
+        {
+          "station": "BSB",
+          "arr": null,
+          "dep": 832
+        },
+        {
+          "station": "THU",
+          "arr": null,
+          "dep": 835
+        },
+        {
+          "station": "LOW",
+          "arr": null,
+          "dep": 719
+        },
+        {
+          "station": "BUJ",
+          "arr": null,
+          "dep": 844
+        },
+        {
+          "station": "CTO",
+          "arr": null,
+          "dep": 728
+        },
+        {
+          "station": "NOT",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "DBY",
+          "arr": null,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "SUN_112",
+      "headcode": "",
+      "operator": "EM",
+      "days": [
+        "SUN"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "LCN",
+          "arr": null,
+          "dep": 618
+        },
+        {
+          "station": "HKM",
+          "arr": null,
+          "dep": 677
+        },
+        {
+          "station": "SWD",
+          "arr": null,
+          "dep": 872
+        },
+        {
+          "station": "CLM",
+          "arr": null,
+          "dep": 686
+        },
+        {
+          "station": "NNG",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "NCT",
+          "arr": 697,
+          "dep": null
+        },
+        {
+          "station": "NCT",
+          "arr": null,
+          "dep": 699
+        },
+        {
+          "station": "ROL",
+          "arr": null,
+          "dep": 946
+        },
+        {
+          "station": "FSK",
+          "arr": null,
+          "dep": 948
+        },
+        {
+          "station": "BSB",
+          "arr": null,
+          "dep": 952
+        },
+        {
+          "station": "THU",
+          "arr": null,
+          "dep": 955
+        },
+        {
+          "station": "LOW",
+          "arr": null,
+          "dep": 782
+        },
+        {
+          "station": "BUJ",
+          "arr": null,
+          "dep": 964
+        },
+        {
+          "station": "CTO",
+          "arr": null,
+          "dep": 788
+        },
+        {
+          "station": "NOT",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "DBY",
+          "arr": null,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "SUN_113",
+      "headcode": "",
+      "operator": "GR",
+      "days": [
+        "SUN"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "LCN",
+          "arr": null,
+          "dep": 669
+        },
+        {
+          "station": "HKM",
+          "arr": null,
+          "dep": 746
+        },
+        {
+          "station": "SWD",
+          "arr": null,
+          "dep": 992
+        },
+        {
+          "station": "CLM",
+          "arr": null,
+          "dep": 758
+        },
+        {
+          "station": "NNG",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "NCT",
+          "arr": 768,
+          "dep": null
+        },
+        {
+          "station": "NCT",
+          "arr": null,
+          "dep": 769
+        },
+        {
+          "station": "LOW",
+          "arr": null,
+          "dep": 839
+        },
+        {
+          "station": "CTO",
+          "arr": null,
+          "dep": 848
+        },
+        {
+          "station": "NOT",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "DBY",
+          "arr": null,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "SUN_114",
+      "headcode": "",
+      "operator": "EM",
+      "days": [
+        "SUN"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "LCN",
+          "arr": null,
+          "dep": 680
+        },
+        {
+          "station": "HKM",
+          "arr": null,
+          "dep": 757
+        },
+        {
+          "station": "SWD",
+          "arr": null,
+          "dep": 1052
+        },
+        {
+          "station": "CLM",
+          "arr": null,
+          "dep": 766
+        },
+        {
+          "station": "NNG",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "NCT",
+          "arr": 817,
+          "dep": null
+        },
+        {
+          "station": "NCT",
+          "arr": null,
+          "dep": 819
+        },
+        {
+          "station": "LOW",
+          "arr": null,
+          "dep": 902
+        },
+        {
+          "station": "CTO",
+          "arr": null,
+          "dep": 908
+        },
+        {
+          "station": "NOT",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "DBY",
+          "arr": null,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "SUN_115",
+      "headcode": "",
+      "operator": "EM",
+      "days": [
+        "SUN"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "LCN",
+          "arr": null,
+          "dep": 738
+        },
+        {
+          "station": "HKM",
+          "arr": null,
+          "dep": 798
+        },
+        {
+          "station": "CLM",
+          "arr": null,
+          "dep": 807
+        },
+        {
+          "station": "NNG",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "NCT",
+          "arr": 888,
+          "dep": null
+        },
+        {
+          "station": "NCT",
+          "arr": null,
+          "dep": 889
+        },
+        {
+          "station": "LOW",
+          "arr": null,
+          "dep": 959
+        },
+        {
+          "station": "CTO",
+          "arr": null,
+          "dep": 968
+        },
+        {
+          "station": "NOT",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "DBY",
+          "arr": null,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "SUN_116",
+      "headcode": "",
+      "operator": "EM",
+      "days": [
+        "SUN"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "LCN",
+          "arr": null,
+          "dep": 749
+        },
+        {
+          "station": "HKM",
+          "arr": null,
+          "dep": 866
+        },
+        {
+          "station": "CLM",
+          "arr": null,
+          "dep": 878
+        },
+        {
+          "station": "NNG",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "NCT",
+          "arr": 938,
+          "dep": null
+        },
+        {
+          "station": "NCT",
+          "arr": null,
+          "dep": 939
+        },
+        {
+          "station": "LOW",
+          "arr": null,
+          "dep": 1022
+        },
+        {
+          "station": "CTO",
+          "arr": null,
+          "dep": 1028
+        },
+        {
+          "station": "NOT",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "DBY",
+          "arr": null,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "SUN_117",
+      "headcode": "",
+      "operator": "GR",
+      "days": [
+        "SUN"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "LCN",
+          "arr": null,
+          "dep": 790
+        },
+        {
+          "station": "HKM",
+          "arr": null,
+          "dep": 877
+        },
+        {
+          "station": "CLM",
+          "arr": null,
+          "dep": 886
+        },
+        {
+          "station": "NCT",
+          "arr": 1008,
+          "dep": null
+        },
+        {
+          "station": "NCT",
+          "arr": null,
+          "dep": 1009
+        },
+        {
+          "station": "LOW",
+          "arr": null,
+          "dep": 1082
+        },
+        {
+          "station": "CTO",
+          "arr": null,
+          "dep": 1088
+        },
+        {
+          "station": "NOT",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "DBY",
+          "arr": null,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "SUN_118",
+      "headcode": "",
+      "operator": "EM",
+      "days": [
+        "SUN"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "LCN",
+          "arr": null,
+          "dep": 800
+        },
+        {
+          "station": "HKM",
+          "arr": null,
+          "dep": 918
+        },
+        {
+          "station": "CLM",
+          "arr": null,
+          "dep": 927
+        },
+        {
+          "station": "NCT",
+          "arr": 1068,
+          "dep": null
+        },
+        {
+          "station": "NCT",
+          "arr": null,
+          "dep": 1069
+        },
+        {
+          "station": "NOT",
+          "arr": null,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "SUN_119",
+      "headcode": "",
+      "operator": "EM",
+      "days": [
+        "SUN"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "LCN",
+          "arr": null,
+          "dep": 858
+        },
+        {
+          "station": "HKM",
+          "arr": null,
+          "dep": 986
+        },
+        {
+          "station": "CLM",
+          "arr": null,
+          "dep": 998
+        }
+      ]
+    },
+    {
+      "id": "SUN_120",
+      "headcode": "",
+      "operator": "EM",
+      "days": [
+        "SUN"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "LCN",
+          "arr": null,
+          "dep": 869
+        },
+        {
+          "station": "HKM",
+          "arr": null,
+          "dep": 997
+        },
+        {
+          "station": "CLM",
+          "arr": null,
+          "dep": 1006
+        }
+      ]
+    },
+    {
+      "id": "SUN_121",
+      "headcode": "",
+      "operator": "GR",
+      "days": [
+        "SUN"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "LCN",
+          "arr": null,
+          "dep": 909
+        },
+        {
+          "station": "HKM",
+          "arr": null,
+          "dep": 1046
+        },
+        {
+          "station": "CLM",
+          "arr": null,
+          "dep": 1058
+        }
+      ]
+    },
+    {
+      "id": "SUN_122",
+      "headcode": "",
+      "operator": "EM",
+      "days": [
+        "SUN"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "LCN",
+          "arr": null,
+          "dep": 920
+        },
+        {
+          "station": "HKM",
+          "arr": null,
+          "dep": 1071
+        },
+        {
+          "station": "CLM",
+          "arr": null,
+          "dep": 1080
+        }
+      ]
+    },
+    {
+      "id": "SUN_123",
+      "headcode": "",
+      "operator": "EM",
+      "days": [
+        "SUN"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "LCN",
+          "arr": null,
+          "dep": 978
+        }
+      ]
+    },
+    {
+      "id": "SUN_124",
+      "headcode": "",
+      "operator": "EM",
+      "days": [
+        "SUN"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "LCN",
+          "arr": null,
+          "dep": 989
+        }
+      ]
+    },
+    {
+      "id": "SUN_125",
+      "headcode": "",
+      "operator": "EM",
+      "days": [
+        "SUN"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "LCN",
+          "arr": null,
+          "dep": 1038
+        }
+      ]
+    },
+    {
+      "id": "SUN_126",
+      "headcode": "",
+      "operator": "",
+      "days": [
+        "SUN"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "LCN",
+          "arr": null,
+          "dep": 1063
+        }
+      ]
+    }
+  ],
+  "gap": false
+}

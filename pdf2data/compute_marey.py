@@ -52,28 +52,40 @@ def get_coords(crs):
 def estimate_mileages(station_order):
     known = [(i, crs, get_coords(crs)) for i, crs in enumerate(station_order) if get_coords(crs)]
     if len(known) < 2:
-        return {crs: i * 5.0 for i, crs in enumerate(station_order)}
-    mileages = {}
-    prev_mileage = 0.0
-    prev_idx, _, prev_coords = known[0]
-    mileages[station_order[prev_idx]] = 0.0
-    for i in range(1, len(known)):
-        idx, crs, coords = known[i]
-        dist = haversine_miles(prev_coords[0], prev_coords[1], coords[0], coords[1])
-        gap = idx - prev_idx
-        if gap > 0:
-            step = dist / gap
-            for j in range(1, gap):
-                gi = prev_idx + j
-                if gi < len(station_order):
-                    mileages[station_order[gi]] = prev_mileage + step * j
-        prev_mileage += dist
-        mileages[crs] = prev_mileage
-        prev_idx, prev_coords = idx, coords
+        mileages = {crs: i * 5.0 for i, crs in enumerate(station_order)}
+    else:
+        mileages = {}
+        prev_mileage = 0.0
+        prev_idx, _, prev_coords = known[0]
+        mileages[station_order[prev_idx]] = 0.0
+        for i in range(1, len(known)):
+            idx, crs, coords = known[i]
+            dist = haversine_miles(prev_coords[0], prev_coords[1], coords[0], coords[1])
+            gap = idx - prev_idx
+            if gap > 0:
+                step = dist / gap
+                for j in range(1, gap):
+                    gi = prev_idx + j
+                    if gi < len(station_order):
+                        mileages[station_order[gi]] = prev_mileage + step * j
+            prev_mileage += dist
+            mileages[crs] = prev_mileage
+            prev_idx, prev_coords = idx, coords
+        for crs in station_order:
+            if crs not in mileages:
+                mileages[crs] = 0.0
+    # Enforce minimum vertical gap for chart readability
+    # Prevents station labels overlapping when stations are very close
+    MIN_GAP = 1.0  # miles
+    adjusted = {}
+    prev_m = None
     for crs in station_order:
-        if crs not in mileages:
-            mileages[crs] = 0.0
-    return mileages
+        m = mileages.get(crs, 0)
+        if prev_m is not None and m - prev_m < MIN_GAP:
+            m = prev_m + MIN_GAP
+        adjusted[crs] = round(m, 1)
+        prev_m = m
+    return adjusted
 
 
 def main():
