@@ -1,4 +1,6 @@
 <script lang="ts">
+	export const prerender = false;
+
 	import { onMount } from 'svelte';
 	import MareyChart from '$lib/components/MareyChart.svelte';
 
