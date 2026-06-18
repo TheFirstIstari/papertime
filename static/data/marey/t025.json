@@ -1,0 +1,4401 @@
+{
+  "table": "025",
+  "route": "Route 025",
+  "route_id": "t025",
+  "stations": [
+    {
+      "name": "HUU",
+      "crs": "HUU",
+      "mileage": 0.0,
+      "type": "minor"
+    },
+    {
+      "name": "BAU",
+      "crs": "BAU",
+      "mileage": 5.0,
+      "type": "minor"
+    },
+    {
+      "name": "BAV",
+      "crs": "BAV",
+      "mileage": 10.0,
+      "type": "minor"
+    },
+    {
+      "name": "NHL",
+      "crs": "NHL",
+      "mileage": 15.0,
+      "type": "minor"
+    },
+    {
+      "name": "GOX",
+      "crs": "GOX",
+      "mileage": 20.0,
+      "type": "minor"
+    },
+    {
+      "name": "TNA",
+      "crs": "TNA",
+      "mileage": 25.0,
+      "type": "minor"
+    },
+    {
+      "name": "ULC",
+      "crs": "ULC",
+      "mileage": 30.0,
+      "type": "minor"
+    },
+    {
+      "name": "BTB",
+      "crs": "BTB",
+      "mileage": 35.0,
+      "type": "interchange"
+    },
+    {
+      "name": "HAB",
+      "crs": "HAB",
+      "mileage": 40.0,
+      "type": "interchange"
+    },
+    {
+      "name": "SLL",
+      "crs": "SLL",
+      "mileage": 45.0,
+      "type": "minor"
+    },
+    {
+      "name": "HLI",
+      "crs": "HLI",
+      "mileage": 50.0,
+      "type": "minor"
+    },
+    {
+      "name": "GCT",
+      "crs": "GCT",
+      "mileage": 55.0,
+      "type": "minor"
+    },
+    {
+      "name": "GMB",
+      "crs": "GMB",
+      "mileage": 60.0,
+      "type": "major"
+    },
+    {
+      "name": "GMD",
+      "crs": "GMD",
+      "mileage": 65.0,
+      "type": "minor"
+    }
+  ],
+  "services": [
+    {
+      "id": "MF_0",
+      "headcode": "",
+      "operator": "",
+      "days": [
+        "MF"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "HUU",
+          "arr": null,
+          "dep": 405
+        },
+        {
+          "station": "BAU",
+          "arr": 444,
+          "dep": null
+        },
+        {
+          "station": "BAU",
+          "arr": null,
+          "dep": 471
+        },
+        {
+          "station": "BAV",
+          "arr": null,
+          "dep": 476
+        },
+        {
+          "station": "NHL",
+          "arr": null,
+          "dep": 480
+        },
+        {
+          "station": "GOX",
+          "arr": null,
+          "dep": 485
+        },
+        {
+          "station": "TNA",
+          "arr": null,
+          "dep": 489
+        },
+        {
+          "station": "ULC",
+          "arr": null,
+          "dep": 493
+        },
+        {
+          "station": "BTB",
+          "arr": null,
+          "dep": 373
+        },
+        {
+          "station": "HAB",
+          "arr": null,
+          "dep": 381
+        },
+        {
+          "station": "SLL",
+          "arr": null,
+          "dep": 467
+        },
+        {
+          "station": "HLI",
+          "arr": null,
+          "dep": 470
+        },
+        {
+          "station": "GCT",
+          "arr": null,
+          "dep": 473
+        },
+        {
+          "station": "GMB",
+          "arr": 393,
+          "dep": null
+        },
+        {
+          "station": "GMB",
+          "arr": null,
+          "dep": 394
+        },
+        {
+          "station": "GMD",
+          "arr": null,
+          "dep": 519
+        }
+      ]
+    },
+    {
+      "id": "MF_1",
+      "headcode": "",
+      "operator": "",
+      "days": [
+        "MF"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "HUU",
+          "arr": null,
+          "dep": 555
+        },
+        {
+          "station": "BAU",
+          "arr": 594,
+          "dep": null
+        },
+        {
+          "station": "BAU",
+          "arr": null,
+          "dep": 609
+        },
+        {
+          "station": "BAV",
+          "arr": null,
+          "dep": 614
+        },
+        {
+          "station": "NHL",
+          "arr": null,
+          "dep": 618
+        },
+        {
+          "station": "GOX",
+          "arr": null,
+          "dep": 623
+        },
+        {
+          "station": "TNA",
+          "arr": null,
+          "dep": 627
+        },
+        {
+          "station": "ULC",
+          "arr": null,
+          "dep": 631
+        },
+        {
+          "station": "BTB",
+          "arr": null,
+          "dep": 403
+        },
+        {
+          "station": "HAB",
+          "arr": null,
+          "dep": 412
+        },
+        {
+          "station": "SLL",
+          "arr": null,
+          "dep": 504
+        },
+        {
+          "station": "HLI",
+          "arr": null,
+          "dep": 506
+        },
+        {
+          "station": "GCT",
+          "arr": null,
+          "dep": 509
+        },
+        {
+          "station": "GMB",
+          "arr": 425,
+          "dep": null
+        },
+        {
+          "station": "GMB",
+          "arr": null,
+          "dep": 461
+        },
+        {
+          "station": "GMD",
+          "arr": null,
+          "dep": 581
+        }
+      ]
+    },
+    {
+      "id": "MF_2",
+      "headcode": "",
+      "operator": "",
+      "days": [
+        "MF"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "HUU",
+          "arr": null,
+          "dep": 675
+        },
+        {
+          "station": "BAU",
+          "arr": 714,
+          "dep": null
+        },
+        {
+          "station": "BAU",
+          "arr": null,
+          "dep": 729
+        },
+        {
+          "station": "BAV",
+          "arr": null,
+          "dep": 734
+        },
+        {
+          "station": "NHL",
+          "arr": null,
+          "dep": 738
+        },
+        {
+          "station": "GOX",
+          "arr": null,
+          "dep": 743
+        },
+        {
+          "station": "TNA",
+          "arr": null,
+          "dep": 747
+        },
+        {
+          "station": "ULC",
+          "arr": null,
+          "dep": 751
+        },
+        {
+          "station": "BTB",
+          "arr": null,
+          "dep": 438
+        },
+        {
+          "station": "HAB",
+          "arr": null,
+          "dep": 446
+        },
+        {
+          "station": "SLL",
+          "arr": null,
+          "dep": 642
+        },
+        {
+          "station": "HLI",
+          "arr": null,
+          "dep": 644
+        },
+        {
+          "station": "GCT",
+          "arr": null,
+          "dep": 647
+        },
+        {
+          "station": "GMB",
+          "arr": 460,
+          "dep": null
+        },
+        {
+          "station": "GMB",
+          "arr": null,
+          "dep": 516
+        },
+        {
+          "station": "GMD",
+          "arr": null,
+          "dep": 701
+        }
+      ]
+    },
+    {
+      "id": "MF_3",
+      "headcode": "",
+      "operator": "",
+      "days": [
+        "MF"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "BTB",
+          "arr": null,
+          "dep": 453
+        },
+        {
+          "station": "HAB",
+          "arr": null,
+          "dep": 461
+        },
+        {
+          "station": "SLL",
+          "arr": null,
+          "dep": 762
+        },
+        {
+          "station": "HLI",
+          "arr": null,
+          "dep": 764
+        },
+        {
+          "station": "GCT",
+          "arr": null,
+          "dep": 767
+        },
+        {
+          "station": "GMB",
+          "arr": 479,
+          "dep": null
+        },
+        {
+          "station": "GMB",
+          "arr": null,
+          "dep": 522
+        },
+        {
+          "station": "GMD",
+          "arr": null,
+          "dep": 521
+        }
+      ]
+    },
+    {
+      "id": "MF_4",
+      "headcode": "",
+      "operator": "",
+      "days": [
+        "MF"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "BTB",
+          "arr": null,
+          "dep": 499
+        },
+        {
+          "station": "HAB",
+          "arr": null,
+          "dep": 498
+        },
+        {
+          "station": "GMB",
+          "arr": 515,
+          "dep": null
+        },
+        {
+          "station": "GMB",
+          "arr": null,
+          "dep": 578
+        },
+        {
+          "station": "GMD",
+          "arr": null,
+          "dep": 583
+        }
+      ]
+    },
+    {
+      "id": "MF_5",
+      "headcode": "",
+      "operator": "",
+      "days": [
+        "MF"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "BTB",
+          "arr": null,
+          "dep": 557
+        },
+        {
+          "station": "HAB",
+          "arr": null,
+          "dep": 508
+        },
+        {
+          "station": "GMB",
+          "arr": 521,
+          "dep": null
+        },
+        {
+          "station": "GMB",
+          "arr": null,
+          "dep": 585
+        },
+        {
+          "station": "GMD",
+          "arr": null,
+          "dep": 703
+        }
+      ]
+    },
+    {
+      "id": "MF_6",
+      "headcode": "",
+      "operator": "",
+      "days": [
+        "MF"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "BTB",
+          "arr": null,
+          "dep": 562
+        },
+        {
+          "station": "HAB",
+          "arr": null,
+          "dep": 565
+        },
+        {
+          "station": "GMB",
+          "arr": 577,
+          "dep": null
+        },
+        {
+          "station": "GMB",
+          "arr": null,
+          "dep": 645
+        },
+        {
+          "station": "GMD",
+          "arr": 401,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "MF_7",
+      "headcode": "",
+      "operator": "",
+      "days": [
+        "MF"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "BTB",
+          "arr": null,
+          "dep": 622
+        },
+        {
+          "station": "HAB",
+          "arr": null,
+          "dep": 571
+        },
+        {
+          "station": "GMB",
+          "arr": 584,
+          "dep": null
+        },
+        {
+          "station": "GMB",
+          "arr": null,
+          "dep": 653
+        },
+        {
+          "station": "GMD",
+          "arr": 469,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "MF_8",
+      "headcode": "",
+      "operator": "",
+      "days": [
+        "MF"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "BTB",
+          "arr": null,
+          "dep": 670
+        },
+        {
+          "station": "HAB",
+          "arr": null,
+          "dep": 631
+        },
+        {
+          "station": "GMB",
+          "arr": 644,
+          "dep": null
+        },
+        {
+          "station": "GMB",
+          "arr": null,
+          "dep": 693
+        },
+        {
+          "station": "GMD",
+          "arr": 528,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "MF_9",
+      "headcode": "",
+      "operator": "",
+      "days": [
+        "MF"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "BTB",
+          "arr": null,
+          "dep": 677
+        },
+        {
+          "station": "HAB",
+          "arr": null,
+          "dep": 636
+        },
+        {
+          "station": "GMB",
+          "arr": 653,
+          "dep": null
+        },
+        {
+          "station": "GMB",
+          "arr": null,
+          "dep": 698
+        },
+        {
+          "station": "GMD",
+          "arr": 530,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "MF_10",
+      "headcode": "",
+      "operator": "",
+      "days": [
+        "MF"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "BTB",
+          "arr": null,
+          "dep": 682
+        },
+        {
+          "station": "HAB",
+          "arr": null,
+          "dep": 685
+        },
+        {
+          "station": "GMB",
+          "arr": 689,
+          "dep": null
+        },
+        {
+          "station": "GMB",
+          "arr": null,
+          "dep": 705
+        },
+        {
+          "station": "GMD",
+          "arr": 591,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "MF_11",
+      "headcode": "",
+      "operator": "",
+      "days": [
+        "MF"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "BTB",
+          "arr": null,
+          "dep": 742
+        },
+        {
+          "station": "HAB",
+          "arr": null,
+          "dep": 691
+        },
+        {
+          "station": "GMB",
+          "arr": 697,
+          "dep": null
+        },
+        {
+          "station": "GMB",
+          "arr": null,
+          "dep": 765
+        },
+        {
+          "station": "GMD",
+          "arr": 593,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "MF_12",
+      "headcode": "",
+      "operator": "",
+      "days": [
+        "MF"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "HAB",
+          "arr": null,
+          "dep": 751
+        },
+        {
+          "station": "GMB",
+          "arr": 704,
+          "dep": null
+        },
+        {
+          "station": "GMB",
+          "arr": null,
+          "dep": 773
+        },
+        {
+          "station": "GMD",
+          "arr": 653,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "MF_13",
+      "headcode": "",
+      "operator": "",
+      "days": [
+        "MF"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "HAB",
+          "arr": null,
+          "dep": 756
+        },
+        {
+          "station": "GMB",
+          "arr": 764,
+          "dep": null
+        },
+        {
+          "station": "GMD",
+          "arr": 662,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "MF_14",
+      "headcode": "",
+      "operator": "",
+      "days": [
+        "MF"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "GMB",
+          "arr": 773,
+          "dep": null
+        },
+        {
+          "station": "GMD",
+          "arr": 702,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "MF_15",
+      "headcode": "",
+      "operator": "",
+      "days": [
+        "MF"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "GMD",
+          "arr": 711,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "MF_16",
+      "headcode": "",
+      "operator": "",
+      "days": [
+        "MF"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "GMD",
+          "arr": 713,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "MF_17",
+      "headcode": "",
+      "operator": "",
+      "days": [
+        "MF"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "GMD",
+          "arr": 773,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "MF_18",
+      "headcode": "",
+      "operator": "",
+      "days": [
+        "MF"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "GMD",
+          "arr": 782,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "SAT_19",
+      "headcode": "",
+      "operator": "",
+      "days": [
+        "SAT"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "HUU",
+          "arr": null,
+          "dep": 405
+        },
+        {
+          "station": "BAU",
+          "arr": 444,
+          "dep": null
+        },
+        {
+          "station": "BAU",
+          "arr": null,
+          "dep": 471
+        },
+        {
+          "station": "BAV",
+          "arr": null,
+          "dep": 476
+        },
+        {
+          "station": "NHL",
+          "arr": null,
+          "dep": 480
+        },
+        {
+          "station": "GOX",
+          "arr": null,
+          "dep": 485
+        },
+        {
+          "station": "TNA",
+          "arr": null,
+          "dep": 489
+        },
+        {
+          "station": "ULC",
+          "arr": null,
+          "dep": 493
+        },
+        {
+          "station": "BTB",
+          "arr": null,
+          "dep": 373
+        },
+        {
+          "station": "HAB",
+          "arr": null,
+          "dep": 381
+        },
+        {
+          "station": "SLL",
+          "arr": null,
+          "dep": 446
+        },
+        {
+          "station": "HLI",
+          "arr": null,
+          "dep": 448
+        },
+        {
+          "station": "GCT",
+          "arr": null,
+          "dep": 451
+        },
+        {
+          "station": "GMB",
+          "arr": 393,
+          "dep": null
+        },
+        {
+          "station": "GMB",
+          "arr": null,
+          "dep": 394
+        },
+        {
+          "station": "GMD",
+          "arr": null,
+          "dep": 519
+        }
+      ]
+    },
+    {
+      "id": "SAT_20",
+      "headcode": "",
+      "operator": "",
+      "days": [
+        "SAT"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "HUU",
+          "arr": null,
+          "dep": 555
+        },
+        {
+          "station": "BAU",
+          "arr": 594,
+          "dep": null
+        },
+        {
+          "station": "BAU",
+          "arr": null,
+          "dep": 609
+        },
+        {
+          "station": "BAV",
+          "arr": null,
+          "dep": 614
+        },
+        {
+          "station": "NHL",
+          "arr": null,
+          "dep": 618
+        },
+        {
+          "station": "GOX",
+          "arr": null,
+          "dep": 623
+        },
+        {
+          "station": "TNA",
+          "arr": null,
+          "dep": 627
+        },
+        {
+          "station": "ULC",
+          "arr": null,
+          "dep": 631
+        },
+        {
+          "station": "BTB",
+          "arr": null,
+          "dep": 432
+        },
+        {
+          "station": "HAB",
+          "arr": null,
+          "dep": 440
+        },
+        {
+          "station": "SLL",
+          "arr": null,
+          "dep": 504
+        },
+        {
+          "station": "HLI",
+          "arr": null,
+          "dep": 506
+        },
+        {
+          "station": "GCT",
+          "arr": null,
+          "dep": 509
+        },
+        {
+          "station": "GMB",
+          "arr": 457,
+          "dep": null
+        },
+        {
+          "station": "GMB",
+          "arr": null,
+          "dep": 458
+        },
+        {
+          "station": "GMD",
+          "arr": null,
+          "dep": 581
+        }
+      ]
+    },
+    {
+      "id": "SAT_21",
+      "headcode": "",
+      "operator": "",
+      "days": [
+        "SAT"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "HUU",
+          "arr": null,
+          "dep": 675
+        },
+        {
+          "station": "BAU",
+          "arr": 714,
+          "dep": null
+        },
+        {
+          "station": "BAU",
+          "arr": null,
+          "dep": 729
+        },
+        {
+          "station": "BAV",
+          "arr": null,
+          "dep": 734
+        },
+        {
+          "station": "NHL",
+          "arr": null,
+          "dep": 738
+        },
+        {
+          "station": "GOX",
+          "arr": null,
+          "dep": 743
+        },
+        {
+          "station": "TNA",
+          "arr": null,
+          "dep": 747
+        },
+        {
+          "station": "ULC",
+          "arr": null,
+          "dep": 751
+        },
+        {
+          "station": "BTB",
+          "arr": null,
+          "dep": 440
+        },
+        {
+          "station": "HAB",
+          "arr": null,
+          "dep": 448
+        },
+        {
+          "station": "SLL",
+          "arr": null,
+          "dep": 642
+        },
+        {
+          "station": "HLI",
+          "arr": null,
+          "dep": 644
+        },
+        {
+          "station": "GCT",
+          "arr": null,
+          "dep": 647
+        },
+        {
+          "station": "GMB",
+          "arr": 463,
+          "dep": null
+        },
+        {
+          "station": "GMB",
+          "arr": null,
+          "dep": 464
+        },
+        {
+          "station": "GMD",
+          "arr": null,
+          "dep": 701
+        }
+      ]
+    },
+    {
+      "id": "SAT_22",
+      "headcode": "",
+      "operator": "",
+      "days": [
+        "SAT"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "BTB",
+          "arr": null,
+          "dep": 498
+        },
+        {
+          "station": "HAB",
+          "arr": null,
+          "dep": 498
+        },
+        {
+          "station": "SLL",
+          "arr": null,
+          "dep": 762
+        },
+        {
+          "station": "HLI",
+          "arr": null,
+          "dep": 764
+        },
+        {
+          "station": "GCT",
+          "arr": null,
+          "dep": 767
+        },
+        {
+          "station": "GMB",
+          "arr": 515,
+          "dep": null
+        },
+        {
+          "station": "GMB",
+          "arr": null,
+          "dep": 516
+        },
+        {
+          "station": "GMD",
+          "arr": null,
+          "dep": 821
+        }
+      ]
+    },
+    {
+      "id": "SAT_23",
+      "headcode": "",
+      "operator": "",
+      "days": [
+        "SAT"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "BTB",
+          "arr": null,
+          "dep": 557
+        },
+        {
+          "station": "HAB",
+          "arr": null,
+          "dep": 507
+        },
+        {
+          "station": "GMB",
+          "arr": 521,
+          "dep": null
+        },
+        {
+          "station": "GMB",
+          "arr": null,
+          "dep": 522
+        },
+        {
+          "station": "GMD",
+          "arr": null,
+          "dep": 521
+        }
+      ]
+    },
+    {
+      "id": "SAT_24",
+      "headcode": "",
+      "operator": "",
+      "days": [
+        "SAT"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "BTB",
+          "arr": null,
+          "dep": 562
+        },
+        {
+          "station": "HAB",
+          "arr": null,
+          "dep": 565
+        },
+        {
+          "station": "GMB",
+          "arr": 577,
+          "dep": null
+        },
+        {
+          "station": "GMB",
+          "arr": null,
+          "dep": 578
+        },
+        {
+          "station": "GMD",
+          "arr": null,
+          "dep": 583
+        }
+      ]
+    },
+    {
+      "id": "SAT_25",
+      "headcode": "",
+      "operator": "",
+      "days": [
+        "SAT"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "BTB",
+          "arr": null,
+          "dep": 622
+        },
+        {
+          "station": "HAB",
+          "arr": null,
+          "dep": 571
+        },
+        {
+          "station": "GMB",
+          "arr": 584,
+          "dep": null
+        },
+        {
+          "station": "GMB",
+          "arr": null,
+          "dep": 585
+        },
+        {
+          "station": "GMD",
+          "arr": null,
+          "dep": 703
+        }
+      ]
+    },
+    {
+      "id": "SAT_26",
+      "headcode": "",
+      "operator": "",
+      "days": [
+        "SAT"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "BTB",
+          "arr": null,
+          "dep": 677
+        },
+        {
+          "station": "HAB",
+          "arr": null,
+          "dep": 631
+        },
+        {
+          "station": "GMB",
+          "arr": 644,
+          "dep": null
+        },
+        {
+          "station": "GMB",
+          "arr": null,
+          "dep": 645
+        },
+        {
+          "station": "GMD",
+          "arr": null,
+          "dep": 823
+        }
+      ]
+    },
+    {
+      "id": "SAT_27",
+      "headcode": "",
+      "operator": "",
+      "days": [
+        "SAT"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "BTB",
+          "arr": null,
+          "dep": 682
+        },
+        {
+          "station": "HAB",
+          "arr": null,
+          "dep": 636
+        },
+        {
+          "station": "GMB",
+          "arr": 653,
+          "dep": null
+        },
+        {
+          "station": "GMB",
+          "arr": null,
+          "dep": 653
+        },
+        {
+          "station": "GMD",
+          "arr": 401,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "SAT_28",
+      "headcode": "",
+      "operator": "",
+      "days": [
+        "SAT"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "BTB",
+          "arr": null,
+          "dep": 742
+        },
+        {
+          "station": "HAB",
+          "arr": null,
+          "dep": 685
+        },
+        {
+          "station": "GMB",
+          "arr": 697,
+          "dep": null
+        },
+        {
+          "station": "GMB",
+          "arr": null,
+          "dep": 698
+        },
+        {
+          "station": "GMD",
+          "arr": 469,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "SAT_29",
+      "headcode": "",
+      "operator": "",
+      "days": [
+        "SAT"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "BTB",
+          "arr": null,
+          "dep": 797
+        },
+        {
+          "station": "HAB",
+          "arr": null,
+          "dep": 691
+        },
+        {
+          "station": "GMB",
+          "arr": 704,
+          "dep": null
+        },
+        {
+          "station": "GMB",
+          "arr": null,
+          "dep": 705
+        },
+        {
+          "station": "GMD",
+          "arr": 472,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "SAT_30",
+      "headcode": "",
+      "operator": "",
+      "days": [
+        "SAT"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "BTB",
+          "arr": null,
+          "dep": 802
+        },
+        {
+          "station": "HAB",
+          "arr": null,
+          "dep": 751
+        },
+        {
+          "station": "GMB",
+          "arr": 764,
+          "dep": null
+        },
+        {
+          "station": "GMB",
+          "arr": null,
+          "dep": 765
+        },
+        {
+          "station": "GMD",
+          "arr": 527,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "SAT_31",
+      "headcode": "",
+      "operator": "",
+      "days": [
+        "SAT"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "HAB",
+          "arr": null,
+          "dep": 756
+        },
+        {
+          "station": "GMB",
+          "arr": 773,
+          "dep": null
+        },
+        {
+          "station": "GMB",
+          "arr": null,
+          "dep": 773
+        },
+        {
+          "station": "GMD",
+          "arr": 530,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "SAT_32",
+      "headcode": "",
+      "operator": "",
+      "days": [
+        "SAT"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "HAB",
+          "arr": null,
+          "dep": 805
+        },
+        {
+          "station": "GMB",
+          "arr": 817,
+          "dep": null
+        },
+        {
+          "station": "GMB",
+          "arr": null,
+          "dep": 818
+        },
+        {
+          "station": "GMD",
+          "arr": 591,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "SAT_33",
+      "headcode": "",
+      "operator": "",
+      "days": [
+        "SAT"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "HAB",
+          "arr": null,
+          "dep": 811
+        },
+        {
+          "station": "GMB",
+          "arr": 824,
+          "dep": null
+        },
+        {
+          "station": "GMB",
+          "arr": null,
+          "dep": 825
+        },
+        {
+          "station": "GMD",
+          "arr": 593,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "SAT_34",
+      "headcode": "",
+      "operator": "",
+      "days": [
+        "SAT"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "GMD",
+          "arr": 653,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "SAT_35",
+      "headcode": "",
+      "operator": "",
+      "days": [
+        "SAT"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "GMD",
+          "arr": 662,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "SAT_36",
+      "headcode": "",
+      "operator": "",
+      "days": [
+        "SAT"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "GMD",
+          "arr": 711,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "SAT_37",
+      "headcode": "",
+      "operator": "",
+      "days": [
+        "SAT"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "GMD",
+          "arr": 713,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "SAT_38",
+      "headcode": "",
+      "operator": "",
+      "days": [
+        "SAT"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "GMD",
+          "arr": 773,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "SAT_39",
+      "headcode": "",
+      "operator": "",
+      "days": [
+        "SAT"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "GMD",
+          "arr": 782,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "SAT_40",
+      "headcode": "",
+      "operator": "",
+      "days": [
+        "SAT"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "GMD",
+          "arr": 831,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "SAT_41",
+      "headcode": "",
+      "operator": "",
+      "days": [
+        "SAT"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "GMD",
+          "arr": 833,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "SUN_42",
+      "headcode": "",
+      "operator": "TP",
+      "days": [
+        "SUN"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "HUU",
+          "arr": null,
+          "dep": 585
+        },
+        {
+          "station": "BAU",
+          "arr": 624,
+          "dep": null
+        },
+        {
+          "station": "BAU",
+          "arr": null,
+          "dep": 669
+        },
+        {
+          "station": "BAV",
+          "arr": null,
+          "dep": 674
+        },
+        {
+          "station": "NHL",
+          "arr": null,
+          "dep": 678
+        },
+        {
+          "station": "GOX",
+          "arr": null,
+          "dep": 683
+        },
+        {
+          "station": "TNA",
+          "arr": null,
+          "dep": 687
+        },
+        {
+          "station": "ULC",
+          "arr": null,
+          "dep": 691
+        },
+        {
+          "station": "BTB",
+          "arr": null,
+          "dep": 624
+        },
+        {
+          "station": "HAB",
+          "arr": null,
+          "dep": 633
+        },
+        {
+          "station": "SLL",
+          "arr": null,
+          "dep": 702
+        },
+        {
+          "station": "HLI",
+          "arr": null,
+          "dep": 704
+        },
+        {
+          "station": "GCT",
+          "arr": null,
+          "dep": 707
+        },
+        {
+          "station": "GMB",
+          "arr": 646,
+          "dep": null
+        },
+        {
+          "station": "GMB",
+          "arr": null,
+          "dep": 647
+        },
+        {
+          "station": "GMD",
+          "arr": null,
+          "dep": 717
+        }
+      ]
+    },
+    {
+      "id": "SUN_43",
+      "headcode": "",
+      "operator": "",
+      "days": [
+        "SUN"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "HUU",
+          "arr": null,
+          "dep": 765
+        },
+        {
+          "station": "BAU",
+          "arr": 804,
+          "dep": null
+        },
+        {
+          "station": "BAU",
+          "arr": null,
+          "dep": 849
+        },
+        {
+          "station": "BAV",
+          "arr": null,
+          "dep": 854
+        },
+        {
+          "station": "NHL",
+          "arr": null,
+          "dep": 858
+        },
+        {
+          "station": "GOX",
+          "arr": null,
+          "dep": 863
+        },
+        {
+          "station": "TNA",
+          "arr": null,
+          "dep": 867
+        },
+        {
+          "station": "ULC",
+          "arr": null,
+          "dep": 871
+        },
+        {
+          "station": "BTB",
+          "arr": null,
+          "dep": 682
+        },
+        {
+          "station": "HAB",
+          "arr": null,
+          "dep": 691
+        },
+        {
+          "station": "SLL",
+          "arr": null,
+          "dep": 882
+        },
+        {
+          "station": "HLI",
+          "arr": null,
+          "dep": 884
+        },
+        {
+          "station": "GCT",
+          "arr": null,
+          "dep": 887
+        },
+        {
+          "station": "GMB",
+          "arr": 704,
+          "dep": null
+        },
+        {
+          "station": "GMB",
+          "arr": null,
+          "dep": 705
+        },
+        {
+          "station": "GMD",
+          "arr": null,
+          "dep": 897
+        }
+      ]
+    },
+    {
+      "id": "SUN_44",
+      "headcode": "",
+      "operator": "",
+      "days": [
+        "SUN"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "HUU",
+          "arr": null,
+          "dep": 885
+        },
+        {
+          "station": "BAU",
+          "arr": 924,
+          "dep": null
+        },
+        {
+          "station": "BAU",
+          "arr": null,
+          "dep": 969
+        },
+        {
+          "station": "BAV",
+          "arr": null,
+          "dep": 974
+        },
+        {
+          "station": "NHL",
+          "arr": null,
+          "dep": 978
+        },
+        {
+          "station": "GOX",
+          "arr": null,
+          "dep": 983
+        },
+        {
+          "station": "TNA",
+          "arr": null,
+          "dep": 987
+        },
+        {
+          "station": "ULC",
+          "arr": null,
+          "dep": 991
+        },
+        {
+          "station": "BTB",
+          "arr": null,
+          "dep": 711
+        },
+        {
+          "station": "HAB",
+          "arr": null,
+          "dep": 696
+        },
+        {
+          "station": "SLL",
+          "arr": null,
+          "dep": 1002
+        },
+        {
+          "station": "HLI",
+          "arr": null,
+          "dep": 1004
+        },
+        {
+          "station": "GCT",
+          "arr": null,
+          "dep": 1007
+        },
+        {
+          "station": "GMB",
+          "arr": 713,
+          "dep": null
+        },
+        {
+          "station": "GMB",
+          "arr": null,
+          "dep": 714
+        },
+        {
+          "station": "GMD",
+          "arr": null,
+          "dep": 1017
+        }
+      ]
+    },
+    {
+      "id": "SUN_45",
+      "headcode": "",
+      "operator": "",
+      "days": [
+        "SUN"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "BTB",
+          "arr": null,
+          "dep": 742
+        },
+        {
+          "station": "HAB",
+          "arr": null,
+          "dep": 720
+        },
+        {
+          "station": "GMB",
+          "arr": 733,
+          "dep": null
+        },
+        {
+          "station": "GMB",
+          "arr": null,
+          "dep": 734
+        },
+        {
+          "station": "GMD",
+          "arr": null,
+          "dep": 719
+        }
+      ]
+    },
+    {
+      "id": "SUN_46",
+      "headcode": "",
+      "operator": "",
+      "days": [
+        "SUN"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "BTB",
+          "arr": null,
+          "dep": 803
+        },
+        {
+          "station": "HAB",
+          "arr": null,
+          "dep": 751
+        },
+        {
+          "station": "GMB",
+          "arr": 764,
+          "dep": null
+        },
+        {
+          "station": "GMB",
+          "arr": null,
+          "dep": 765
+        },
+        {
+          "station": "GMD",
+          "arr": null,
+          "dep": 899
+        }
+      ]
+    },
+    {
+      "id": "SUN_47",
+      "headcode": "",
+      "operator": "",
+      "days": [
+        "SUN"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "BTB",
+          "arr": null,
+          "dep": 862
+        },
+        {
+          "station": "HAB",
+          "arr": null,
+          "dep": 812
+        },
+        {
+          "station": "GMB",
+          "arr": 825,
+          "dep": null
+        },
+        {
+          "station": "GMB",
+          "arr": null,
+          "dep": 826
+        },
+        {
+          "station": "GMD",
+          "arr": null,
+          "dep": 1019
+        }
+      ]
+    },
+    {
+      "id": "SUN_48",
+      "headcode": "",
+      "operator": "",
+      "days": [
+        "SUN"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "BTB",
+          "arr": null,
+          "dep": 923
+        },
+        {
+          "station": "HAB",
+          "arr": null,
+          "dep": 871
+        },
+        {
+          "station": "GMB",
+          "arr": 884,
+          "dep": null
+        },
+        {
+          "station": "GMB",
+          "arr": null,
+          "dep": 885
+        },
+        {
+          "station": "GMD",
+          "arr": 655,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "SUN_49",
+      "headcode": "",
+      "operator": "",
+      "days": [
+        "SUN"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "BTB",
+          "arr": null,
+          "dep": 927
+        },
+        {
+          "station": "HAB",
+          "arr": null,
+          "dep": 876
+        },
+        {
+          "station": "GMB",
+          "arr": 893,
+          "dep": null
+        },
+        {
+          "station": "GMB",
+          "arr": null,
+          "dep": 894
+        },
+        {
+          "station": "GMD",
+          "arr": 713,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "SUN_50",
+      "headcode": "",
+      "operator": "",
+      "days": [
+        "SUN"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "BTB",
+          "arr": null,
+          "dep": 982
+        },
+        {
+          "station": "HAB",
+          "arr": null,
+          "dep": 932
+        },
+        {
+          "station": "GMB",
+          "arr": 943,
+          "dep": null
+        },
+        {
+          "station": "GMB",
+          "arr": null,
+          "dep": 944
+        },
+        {
+          "station": "GMD",
+          "arr": 725,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "SUN_51",
+      "headcode": "",
+      "operator": "",
+      "days": [
+        "SUN"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "BTB",
+          "arr": null,
+          "dep": 1043
+        },
+        {
+          "station": "HAB",
+          "arr": null,
+          "dep": 936
+        },
+        {
+          "station": "GMB",
+          "arr": 949,
+          "dep": null
+        },
+        {
+          "station": "GMB",
+          "arr": null,
+          "dep": 950
+        },
+        {
+          "station": "GMD",
+          "arr": 743,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "SUN_52",
+      "headcode": "",
+      "operator": "",
+      "days": [
+        "SUN"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "BTB",
+          "arr": null,
+          "dep": 1103
+        },
+        {
+          "station": "HAB",
+          "arr": null,
+          "dep": 991
+        },
+        {
+          "station": "GMB",
+          "arr": 1005,
+          "dep": null
+        },
+        {
+          "station": "GMB",
+          "arr": null,
+          "dep": 1006
+        },
+        {
+          "station": "GMD",
+          "arr": 773,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "SUN_53",
+      "headcode": "",
+      "operator": "",
+      "days": [
+        "SUN"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "BTB",
+          "arr": null,
+          "dep": 1150
+        },
+        {
+          "station": "HAB",
+          "arr": null,
+          "dep": 996
+        },
+        {
+          "station": "GMB",
+          "arr": 1013,
+          "dep": null
+        },
+        {
+          "station": "GMB",
+          "arr": null,
+          "dep": 1014
+        },
+        {
+          "station": "GMD",
+          "arr": 834,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "SUN_54",
+      "headcode": "",
+      "operator": "",
+      "days": [
+        "SUN"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "HAB",
+          "arr": null,
+          "dep": 1052
+        },
+        {
+          "station": "GMB",
+          "arr": 1065,
+          "dep": null
+        },
+        {
+          "station": "GMB",
+          "arr": null,
+          "dep": 1066
+        },
+        {
+          "station": "GMD",
+          "arr": 893,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "SUN_55",
+      "headcode": "",
+      "operator": "",
+      "days": [
+        "SUN"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "HAB",
+          "arr": null,
+          "dep": 1112
+        },
+        {
+          "station": "GMB",
+          "arr": 1125,
+          "dep": null
+        },
+        {
+          "station": "GMB",
+          "arr": null,
+          "dep": 1126
+        },
+        {
+          "station": "GMD",
+          "arr": 905,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "SUN_56",
+      "headcode": "",
+      "operator": "",
+      "days": [
+        "SUN"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "HAB",
+          "arr": null,
+          "dep": 1158
+        },
+        {
+          "station": "GMB",
+          "arr": 1172,
+          "dep": null
+        },
+        {
+          "station": "GMB",
+          "arr": null,
+          "dep": 1173
+        },
+        {
+          "station": "GMD",
+          "arr": 954,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "SUN_57",
+      "headcode": "",
+      "operator": "",
+      "days": [
+        "SUN"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "GMD",
+          "arr": 959,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "SUN_58",
+      "headcode": "",
+      "operator": "",
+      "days": [
+        "SUN"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "GMD",
+          "arr": 1014,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "SUN_59",
+      "headcode": "",
+      "operator": "",
+      "days": [
+        "SUN"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "GMD",
+          "arr": 1025,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "SUN_60",
+      "headcode": "",
+      "operator": "",
+      "days": [
+        "SUN"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "GMD",
+          "arr": 1075,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "SUN_61",
+      "headcode": "",
+      "operator": "",
+      "days": [
+        "SUN"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "GMD",
+          "arr": 1134,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "SUN_62",
+      "headcode": "",
+      "operator": "",
+      "days": [
+        "SUN"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "GMD",
+          "arr": 1182,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "MF_63",
+      "headcode": "",
+      "operator": "",
+      "days": [
+        "MF"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "GMD",
+          "arr": null,
+          "dep": 417
+        },
+        {
+          "station": "GMB",
+          "arr": 312,
+          "dep": null
+        },
+        {
+          "station": "GMB",
+          "arr": null,
+          "dep": 313
+        },
+        {
+          "station": "GCT",
+          "arr": null,
+          "dep": 425
+        },
+        {
+          "station": "HLI",
+          "arr": null,
+          "dep": 428
+        },
+        {
+          "station": "SLL",
+          "arr": null,
+          "dep": 431
+        },
+        {
+          "station": "HAB",
+          "arr": null,
+          "dep": 323
+        },
+        {
+          "station": "BTB",
+          "arr": 331,
+          "dep": null
+        },
+        {
+          "station": "ULC",
+          "arr": null,
+          "dep": 440
+        },
+        {
+          "station": "TNA",
+          "arr": null,
+          "dep": 445
+        },
+        {
+          "station": "GOX",
+          "arr": null,
+          "dep": 449
+        },
+        {
+          "station": "NHL",
+          "arr": null,
+          "dep": 454
+        },
+        {
+          "station": "BAV",
+          "arr": null,
+          "dep": 457
+        },
+        {
+          "station": "BAU",
+          "arr": 464,
+          "dep": null
+        },
+        {
+          "station": "BAU",
+          "arr": null,
+          "dep": 491
+        },
+        {
+          "station": "HUU",
+          "arr": 530,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "MF_64",
+      "headcode": "",
+      "operator": "",
+      "days": [
+        "MF"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "GMD",
+          "arr": null,
+          "dep": 557
+        },
+        {
+          "station": "GMB",
+          "arr": 356,
+          "dep": null
+        },
+        {
+          "station": "GMB",
+          "arr": null,
+          "dep": 357
+        },
+        {
+          "station": "GCT",
+          "arr": null,
+          "dep": 566
+        },
+        {
+          "station": "HLI",
+          "arr": null,
+          "dep": 569
+        },
+        {
+          "station": "SLL",
+          "arr": null,
+          "dep": 571
+        },
+        {
+          "station": "HAB",
+          "arr": null,
+          "dep": 367
+        },
+        {
+          "station": "BTB",
+          "arr": 375,
+          "dep": null
+        },
+        {
+          "station": "ULC",
+          "arr": null,
+          "dep": 581
+        },
+        {
+          "station": "TNA",
+          "arr": null,
+          "dep": 586
+        },
+        {
+          "station": "GOX",
+          "arr": null,
+          "dep": 589
+        },
+        {
+          "station": "NHL",
+          "arr": null,
+          "dep": 594
+        },
+        {
+          "station": "BAV",
+          "arr": null,
+          "dep": 598
+        },
+        {
+          "station": "BAU",
+          "arr": 604,
+          "dep": null
+        },
+        {
+          "station": "BAU",
+          "arr": null,
+          "dep": 611
+        },
+        {
+          "station": "HUU",
+          "arr": 650,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "MF_65",
+      "headcode": "",
+      "operator": "",
+      "days": [
+        "MF"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "GMD",
+          "arr": null,
+          "dep": 611
+        },
+        {
+          "station": "GMB",
+          "arr": 389,
+          "dep": null
+        },
+        {
+          "station": "GMB",
+          "arr": null,
+          "dep": 390
+        },
+        {
+          "station": "GCT",
+          "arr": null,
+          "dep": 686
+        },
+        {
+          "station": "HLI",
+          "arr": null,
+          "dep": 689
+        },
+        {
+          "station": "SLL",
+          "arr": null,
+          "dep": 691
+        },
+        {
+          "station": "HAB",
+          "arr": null,
+          "dep": 400
+        },
+        {
+          "station": "BTB",
+          "arr": 408,
+          "dep": null
+        },
+        {
+          "station": "ULC",
+          "arr": null,
+          "dep": 701
+        },
+        {
+          "station": "TNA",
+          "arr": null,
+          "dep": 706
+        },
+        {
+          "station": "GOX",
+          "arr": null,
+          "dep": 709
+        },
+        {
+          "station": "NHL",
+          "arr": null,
+          "dep": 714
+        },
+        {
+          "station": "BAV",
+          "arr": null,
+          "dep": 718
+        },
+        {
+          "station": "BAU",
+          "arr": 724,
+          "dep": null
+        },
+        {
+          "station": "BAU",
+          "arr": null,
+          "dep": 731
+        },
+        {
+          "station": "HUU",
+          "arr": 770,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "MF_66",
+      "headcode": "",
+      "operator": "",
+      "days": [
+        "MF"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "GMD",
+          "arr": null,
+          "dep": 731
+        },
+        {
+          "station": "GMB",
+          "arr": 421,
+          "dep": null
+        },
+        {
+          "station": "GMB",
+          "arr": null,
+          "dep": 421
+        },
+        {
+          "station": "HAB",
+          "arr": null,
+          "dep": 437
+        },
+        {
+          "station": "BTB",
+          "arr": 458,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "MF_67",
+      "headcode": "",
+      "operator": "",
+      "days": [
+        "MF"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "GMB",
+          "arr": 453,
+          "dep": null
+        },
+        {
+          "station": "GMB",
+          "arr": null,
+          "dep": 440
+        },
+        {
+          "station": "HAB",
+          "arr": null,
+          "dep": 450
+        },
+        {
+          "station": "BTB",
+          "arr": 472,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "MF_68",
+      "headcode": "",
+      "operator": "",
+      "days": [
+        "MF"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "GMB",
+          "arr": 513,
+          "dep": null
+        },
+        {
+          "station": "GMB",
+          "arr": null,
+          "dep": 454
+        },
+        {
+          "station": "HAB",
+          "arr": null,
+          "dep": 464
+        },
+        {
+          "station": "BTB",
+          "arr": 513,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "MF_69",
+      "headcode": "",
+      "operator": "",
+      "days": [
+        "MF"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "GMB",
+          "arr": 561,
+          "dep": null
+        },
+        {
+          "station": "GMB",
+          "arr": null,
+          "dep": 495
+        },
+        {
+          "station": "HAB",
+          "arr": null,
+          "dep": 505
+        },
+        {
+          "station": "BTB",
+          "arr": 532,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "MF_70",
+      "headcode": "",
+      "operator": "",
+      "days": [
+        "MF"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "GMB",
+          "arr": 573,
+          "dep": null
+        },
+        {
+          "station": "GMB",
+          "arr": null,
+          "dep": 514
+        },
+        {
+          "station": "HAB",
+          "arr": null,
+          "dep": 524
+        },
+        {
+          "station": "BTB",
+          "arr": 592,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "MF_71",
+      "headcode": "",
+      "operator": "",
+      "days": [
+        "MF"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "GMB",
+          "arr": 614,
+          "dep": null
+        },
+        {
+          "station": "GMB",
+          "arr": null,
+          "dep": 562
+        },
+        {
+          "station": "HAB",
+          "arr": null,
+          "dep": 577
+        },
+        {
+          "station": "BTB",
+          "arr": 633,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "MF_72",
+      "headcode": "",
+      "operator": "",
+      "days": [
+        "MF"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "GMB",
+          "arr": 633,
+          "dep": null
+        },
+        {
+          "station": "GMB",
+          "arr": null,
+          "dep": 574
+        },
+        {
+          "station": "HAB",
+          "arr": null,
+          "dep": 584
+        },
+        {
+          "station": "BTB",
+          "arr": 652,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "MF_73",
+      "headcode": "",
+      "operator": "",
+      "days": [
+        "MF"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "GMB",
+          "arr": 681,
+          "dep": null
+        },
+        {
+          "station": "GMB",
+          "arr": null,
+          "dep": 615
+        },
+        {
+          "station": "HAB",
+          "arr": null,
+          "dep": 625
+        },
+        {
+          "station": "BTB",
+          "arr": 712,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "MF_74",
+      "headcode": "",
+      "operator": "",
+      "days": [
+        "MF"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "GMB",
+          "arr": 693,
+          "dep": null
+        },
+        {
+          "station": "GMB",
+          "arr": null,
+          "dep": 634
+        },
+        {
+          "station": "HAB",
+          "arr": null,
+          "dep": 644
+        },
+        {
+          "station": "BTB",
+          "arr": 753,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "MF_75",
+      "headcode": "",
+      "operator": "",
+      "days": [
+        "MF"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "GMB",
+          "arr": 734,
+          "dep": null
+        },
+        {
+          "station": "GMB",
+          "arr": null,
+          "dep": 682
+        },
+        {
+          "station": "HAB",
+          "arr": null,
+          "dep": 697
+        }
+      ]
+    },
+    {
+      "id": "MF_76",
+      "headcode": "",
+      "operator": "",
+      "days": [
+        "MF"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "GMB",
+          "arr": null,
+          "dep": 694
+        },
+        {
+          "station": "HAB",
+          "arr": null,
+          "dep": 704
+        }
+      ]
+    },
+    {
+      "id": "MF_77",
+      "headcode": "",
+      "operator": "",
+      "days": [
+        "MF"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "GMB",
+          "arr": null,
+          "dep": 735
+        },
+        {
+          "station": "HAB",
+          "arr": null,
+          "dep": 745
+        }
+      ]
+    },
+    {
+      "id": "SAT_78",
+      "headcode": "",
+      "operator": "",
+      "days": [
+        "SAT"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "GMD",
+          "arr": null,
+          "dep": 417
+        },
+        {
+          "station": "GMB",
+          "arr": 312,
+          "dep": null
+        },
+        {
+          "station": "GMB",
+          "arr": null,
+          "dep": 313
+        },
+        {
+          "station": "GCT",
+          "arr": null,
+          "dep": 425
+        },
+        {
+          "station": "HLI",
+          "arr": null,
+          "dep": 428
+        },
+        {
+          "station": "SLL",
+          "arr": null,
+          "dep": 431
+        },
+        {
+          "station": "HAB",
+          "arr": null,
+          "dep": 323
+        },
+        {
+          "station": "BTB",
+          "arr": 331,
+          "dep": null
+        },
+        {
+          "station": "ULC",
+          "arr": null,
+          "dep": 440
+        },
+        {
+          "station": "TNA",
+          "arr": null,
+          "dep": 445
+        },
+        {
+          "station": "GOX",
+          "arr": null,
+          "dep": 449
+        },
+        {
+          "station": "NHL",
+          "arr": null,
+          "dep": 454
+        },
+        {
+          "station": "BAV",
+          "arr": null,
+          "dep": 457
+        },
+        {
+          "station": "BAU",
+          "arr": 464,
+          "dep": null
+        },
+        {
+          "station": "BAU",
+          "arr": null,
+          "dep": 491
+        },
+        {
+          "station": "HUU",
+          "arr": 530,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "SAT_79",
+      "headcode": "",
+      "operator": "",
+      "days": [
+        "SAT"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "GMD",
+          "arr": null,
+          "dep": 491
+        },
+        {
+          "station": "GMB",
+          "arr": 356,
+          "dep": null
+        },
+        {
+          "station": "GMB",
+          "arr": null,
+          "dep": 357
+        },
+        {
+          "station": "GCT",
+          "arr": null,
+          "dep": 566
+        },
+        {
+          "station": "HLI",
+          "arr": null,
+          "dep": 569
+        },
+        {
+          "station": "SLL",
+          "arr": null,
+          "dep": 571
+        },
+        {
+          "station": "HAB",
+          "arr": null,
+          "dep": 367
+        },
+        {
+          "station": "BTB",
+          "arr": 375,
+          "dep": null
+        },
+        {
+          "station": "ULC",
+          "arr": null,
+          "dep": 581
+        },
+        {
+          "station": "TNA",
+          "arr": null,
+          "dep": 586
+        },
+        {
+          "station": "GOX",
+          "arr": null,
+          "dep": 589
+        },
+        {
+          "station": "NHL",
+          "arr": null,
+          "dep": 594
+        },
+        {
+          "station": "BAV",
+          "arr": null,
+          "dep": 598
+        },
+        {
+          "station": "BAU",
+          "arr": 604,
+          "dep": null
+        },
+        {
+          "station": "BAU",
+          "arr": null,
+          "dep": 611
+        },
+        {
+          "station": "HUU",
+          "arr": 650,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "SAT_80",
+      "headcode": "",
+      "operator": "",
+      "days": [
+        "SAT"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "GMD",
+          "arr": null,
+          "dep": 557
+        },
+        {
+          "station": "GMB",
+          "arr": 389,
+          "dep": null
+        },
+        {
+          "station": "GMB",
+          "arr": null,
+          "dep": 390
+        },
+        {
+          "station": "GCT",
+          "arr": null,
+          "dep": 686
+        },
+        {
+          "station": "HLI",
+          "arr": null,
+          "dep": 689
+        },
+        {
+          "station": "SLL",
+          "arr": null,
+          "dep": 691
+        },
+        {
+          "station": "HAB",
+          "arr": null,
+          "dep": 400
+        },
+        {
+          "station": "BTB",
+          "arr": 408,
+          "dep": null
+        },
+        {
+          "station": "ULC",
+          "arr": null,
+          "dep": 701
+        },
+        {
+          "station": "TNA",
+          "arr": null,
+          "dep": 706
+        },
+        {
+          "station": "GOX",
+          "arr": null,
+          "dep": 709
+        },
+        {
+          "station": "NHL",
+          "arr": null,
+          "dep": 714
+        },
+        {
+          "station": "BAV",
+          "arr": null,
+          "dep": 718
+        },
+        {
+          "station": "BAU",
+          "arr": 724,
+          "dep": null
+        },
+        {
+          "station": "BAU",
+          "arr": null,
+          "dep": 731
+        },
+        {
+          "station": "HUU",
+          "arr": 770,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "SAT_81",
+      "headcode": "",
+      "operator": "",
+      "days": [
+        "SAT"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "GMD",
+          "arr": null,
+          "dep": 611
+        },
+        {
+          "station": "GMB",
+          "arr": 421,
+          "dep": null
+        },
+        {
+          "station": "GMB",
+          "arr": null,
+          "dep": 421
+        },
+        {
+          "station": "HAB",
+          "arr": null,
+          "dep": 437
+        },
+        {
+          "station": "BTB",
+          "arr": 459,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "SAT_82",
+      "headcode": "",
+      "operator": "",
+      "days": [
+        "SAT"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "GMD",
+          "arr": null,
+          "dep": 731
+        },
+        {
+          "station": "GMB",
+          "arr": 453,
+          "dep": null
+        },
+        {
+          "station": "GMB",
+          "arr": null,
+          "dep": 440
+        },
+        {
+          "station": "HAB",
+          "arr": null,
+          "dep": 450
+        },
+        {
+          "station": "BTB",
+          "arr": 472,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "SAT_83",
+      "headcode": "",
+      "operator": "",
+      "days": [
+        "SAT"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "GMB",
+          "arr": 494,
+          "dep": null
+        },
+        {
+          "station": "GMB",
+          "arr": null,
+          "dep": 454
+        },
+        {
+          "station": "HAB",
+          "arr": null,
+          "dep": 464
+        },
+        {
+          "station": "BTB",
+          "arr": 513,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "SAT_84",
+      "headcode": "",
+      "operator": "",
+      "days": [
+        "SAT"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "GMB",
+          "arr": 513,
+          "dep": null
+        },
+        {
+          "station": "GMB",
+          "arr": null,
+          "dep": 495
+        },
+        {
+          "station": "HAB",
+          "arr": null,
+          "dep": 505
+        },
+        {
+          "station": "BTB",
+          "arr": 532,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "SAT_85",
+      "headcode": "",
+      "operator": "",
+      "days": [
+        "SAT"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "GMB",
+          "arr": 561,
+          "dep": null
+        },
+        {
+          "station": "GMB",
+          "arr": null,
+          "dep": 514
+        },
+        {
+          "station": "HAB",
+          "arr": null,
+          "dep": 524
+        },
+        {
+          "station": "BTB",
+          "arr": 592,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "SAT_86",
+      "headcode": "",
+      "operator": "",
+      "days": [
+        "SAT"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "GMB",
+          "arr": 573,
+          "dep": null
+        },
+        {
+          "station": "GMB",
+          "arr": null,
+          "dep": 562
+        },
+        {
+          "station": "HAB",
+          "arr": null,
+          "dep": 577
+        },
+        {
+          "station": "BTB",
+          "arr": 633,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "SAT_87",
+      "headcode": "",
+      "operator": "",
+      "days": [
+        "SAT"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "GMB",
+          "arr": 614,
+          "dep": null
+        },
+        {
+          "station": "GMB",
+          "arr": null,
+          "dep": 574
+        },
+        {
+          "station": "HAB",
+          "arr": null,
+          "dep": 584
+        },
+        {
+          "station": "BTB",
+          "arr": 652,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "SAT_88",
+      "headcode": "",
+      "operator": "",
+      "days": [
+        "SAT"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "GMB",
+          "arr": 633,
+          "dep": null
+        },
+        {
+          "station": "GMB",
+          "arr": null,
+          "dep": 615
+        },
+        {
+          "station": "HAB",
+          "arr": null,
+          "dep": 625
+        },
+        {
+          "station": "BTB",
+          "arr": 712,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "SAT_89",
+      "headcode": "",
+      "operator": "",
+      "days": [
+        "SAT"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "GMB",
+          "arr": 681,
+          "dep": null
+        },
+        {
+          "station": "GMB",
+          "arr": null,
+          "dep": 634
+        },
+        {
+          "station": "HAB",
+          "arr": null,
+          "dep": 644
+        },
+        {
+          "station": "BTB",
+          "arr": 753,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "SAT_90",
+      "headcode": "",
+      "operator": "",
+      "days": [
+        "SAT"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "GMB",
+          "arr": 693,
+          "dep": null
+        },
+        {
+          "station": "GMB",
+          "arr": null,
+          "dep": 682
+        },
+        {
+          "station": "HAB",
+          "arr": null,
+          "dep": 697
+        }
+      ]
+    },
+    {
+      "id": "SAT_91",
+      "headcode": "",
+      "operator": "",
+      "days": [
+        "SAT"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "GMB",
+          "arr": 734,
+          "dep": null
+        },
+        {
+          "station": "GMB",
+          "arr": null,
+          "dep": 694
+        },
+        {
+          "station": "HAB",
+          "arr": null,
+          "dep": 704
+        }
+      ]
+    },
+    {
+      "id": "SAT_92",
+      "headcode": "",
+      "operator": "",
+      "days": [
+        "SAT"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "GMB",
+          "arr": null,
+          "dep": 735
+        },
+        {
+          "station": "HAB",
+          "arr": null,
+          "dep": 745
+        }
+      ]
+    },
+    {
+      "id": "SUN_93",
+      "headcode": "",
+      "operator": "",
+      "days": [
+        "SUN"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "GMD",
+          "arr": null,
+          "dep": 617
+        },
+        {
+          "station": "GMB",
+          "arr": 573,
+          "dep": null
+        },
+        {
+          "station": "GMB",
+          "arr": null,
+          "dep": 574
+        },
+        {
+          "station": "GCT",
+          "arr": null,
+          "dep": 626
+        },
+        {
+          "station": "HLI",
+          "arr": null,
+          "dep": 629
+        },
+        {
+          "station": "SLL",
+          "arr": null,
+          "dep": 631
+        },
+        {
+          "station": "HAB",
+          "arr": null,
+          "dep": 584
+        },
+        {
+          "station": "BTB",
+          "arr": 592,
+          "dep": null
+        },
+        {
+          "station": "ULC",
+          "arr": null,
+          "dep": 641
+        },
+        {
+          "station": "TNA",
+          "arr": null,
+          "dep": 646
+        },
+        {
+          "station": "GOX",
+          "arr": null,
+          "dep": 649
+        },
+        {
+          "station": "NHL",
+          "arr": null,
+          "dep": 654
+        },
+        {
+          "station": "BAV",
+          "arr": null,
+          "dep": 658
+        },
+        {
+          "station": "BAU",
+          "arr": 664,
+          "dep": null
+        },
+        {
+          "station": "BAU",
+          "arr": null,
+          "dep": 716
+        },
+        {
+          "station": "HUU",
+          "arr": 755,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "SUN_94",
+      "headcode": "",
+      "operator": "",
+      "days": [
+        "SUN"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "GMD",
+          "arr": null,
+          "dep": 797
+        },
+        {
+          "station": "GMB",
+          "arr": 621,
+          "dep": null
+        },
+        {
+          "station": "GMB",
+          "arr": null,
+          "dep": 622
+        },
+        {
+          "station": "GCT",
+          "arr": null,
+          "dep": 806
+        },
+        {
+          "station": "HLI",
+          "arr": null,
+          "dep": 809
+        },
+        {
+          "station": "SLL",
+          "arr": null,
+          "dep": 811
+        },
+        {
+          "station": "HAB",
+          "arr": null,
+          "dep": 637
+        },
+        {
+          "station": "BTB",
+          "arr": 652,
+          "dep": null
+        },
+        {
+          "station": "ULC",
+          "arr": null,
+          "dep": 821
+        },
+        {
+          "station": "TNA",
+          "arr": null,
+          "dep": 826
+        },
+        {
+          "station": "GOX",
+          "arr": null,
+          "dep": 829
+        },
+        {
+          "station": "NHL",
+          "arr": null,
+          "dep": 834
+        },
+        {
+          "station": "BAV",
+          "arr": null,
+          "dep": 838
+        },
+        {
+          "station": "BAU",
+          "arr": 844,
+          "dep": null
+        },
+        {
+          "station": "BAU",
+          "arr": null,
+          "dep": 896
+        },
+        {
+          "station": "HUU",
+          "arr": 935,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "SUN_95",
+      "headcode": "",
+      "operator": "",
+      "days": [
+        "SUN"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "GMD",
+          "arr": null,
+          "dep": 917
+        },
+        {
+          "station": "GMB",
+          "arr": 633,
+          "dep": null
+        },
+        {
+          "station": "GMB",
+          "arr": null,
+          "dep": 634
+        },
+        {
+          "station": "GCT",
+          "arr": null,
+          "dep": 926
+        },
+        {
+          "station": "HLI",
+          "arr": null,
+          "dep": 929
+        },
+        {
+          "station": "SLL",
+          "arr": null,
+          "dep": 931
+        },
+        {
+          "station": "HAB",
+          "arr": null,
+          "dep": 644
+        },
+        {
+          "station": "BTB",
+          "arr": 712,
+          "dep": null
+        },
+        {
+          "station": "ULC",
+          "arr": null,
+          "dep": 941
+        },
+        {
+          "station": "TNA",
+          "arr": null,
+          "dep": 946
+        },
+        {
+          "station": "GOX",
+          "arr": null,
+          "dep": 949
+        },
+        {
+          "station": "NHL",
+          "arr": null,
+          "dep": 954
+        },
+        {
+          "station": "BAV",
+          "arr": null,
+          "dep": 958
+        },
+        {
+          "station": "BAU",
+          "arr": 964,
+          "dep": null
+        },
+        {
+          "station": "BAU",
+          "arr": null,
+          "dep": 1016
+        },
+        {
+          "station": "HUU",
+          "arr": 1055,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "SUN_96",
+      "headcode": "",
+      "operator": "",
+      "days": [
+        "SUN"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "GMD",
+          "arr": null,
+          "dep": 1097
+        },
+        {
+          "station": "GMB",
+          "arr": 693,
+          "dep": null
+        },
+        {
+          "station": "GMB",
+          "arr": null,
+          "dep": 694
+        },
+        {
+          "station": "GCT",
+          "arr": null,
+          "dep": 1106
+        },
+        {
+          "station": "HLI",
+          "arr": null,
+          "dep": 1109
+        },
+        {
+          "station": "SLL",
+          "arr": null,
+          "dep": 1111
+        },
+        {
+          "station": "HAB",
+          "arr": null,
+          "dep": 704
+        },
+        {
+          "station": "BTB",
+          "arr": 771,
+          "dep": null
+        },
+        {
+          "station": "ULC",
+          "arr": null,
+          "dep": 1121
+        },
+        {
+          "station": "TNA",
+          "arr": null,
+          "dep": 1126
+        },
+        {
+          "station": "GOX",
+          "arr": null,
+          "dep": 1129
+        },
+        {
+          "station": "NHL",
+          "arr": null,
+          "dep": 1134
+        },
+        {
+          "station": "BAV",
+          "arr": null,
+          "dep": 1138
+        },
+        {
+          "station": "BAU",
+          "arr": 1144,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "SUN_97",
+      "headcode": "",
+      "operator": "",
+      "days": [
+        "SUN"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "GMB",
+          "arr": 752,
+          "dep": null
+        },
+        {
+          "station": "GMB",
+          "arr": null,
+          "dep": 753
+        },
+        {
+          "station": "HAB",
+          "arr": null,
+          "dep": 763
+        },
+        {
+          "station": "BTB",
+          "arr": 832,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "SUN_98",
+      "headcode": "",
+      "operator": "",
+      "days": [
+        "SUN"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "GMB",
+          "arr": 801,
+          "dep": null
+        },
+        {
+          "station": "GMB",
+          "arr": null,
+          "dep": 802
+        },
+        {
+          "station": "HAB",
+          "arr": null,
+          "dep": 817
+        },
+        {
+          "station": "BTB",
+          "arr": 872,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "SUN_99",
+      "headcode": "",
+      "operator": "",
+      "days": [
+        "SUN"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "GMB",
+          "arr": 813,
+          "dep": null
+        },
+        {
+          "station": "GMB",
+          "arr": null,
+          "dep": 814
+        },
+        {
+          "station": "HAB",
+          "arr": null,
+          "dep": 824
+        },
+        {
+          "station": "BTB",
+          "arr": 891,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "SUN_100",
+      "headcode": "",
+      "operator": "",
+      "days": [
+        "SUN"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "GMB",
+          "arr": 853,
+          "dep": null
+        },
+        {
+          "station": "GMB",
+          "arr": null,
+          "dep": 854
+        },
+        {
+          "station": "HAB",
+          "arr": null,
+          "dep": 864
+        },
+        {
+          "station": "BTB",
+          "arr": 952,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "SUN_101",
+      "headcode": "",
+      "operator": "",
+      "days": [
+        "SUN"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "GMB",
+          "arr": 872,
+          "dep": null
+        },
+        {
+          "station": "GMB",
+          "arr": null,
+          "dep": 873
+        },
+        {
+          "station": "HAB",
+          "arr": null,
+          "dep": 883
+        },
+        {
+          "station": "BTB",
+          "arr": 1012,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "SUN_102",
+      "headcode": "",
+      "operator": "",
+      "days": [
+        "SUN"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "GMB",
+          "arr": 921,
+          "dep": null
+        },
+        {
+          "station": "GMB",
+          "arr": null,
+          "dep": 922
+        },
+        {
+          "station": "HAB",
+          "arr": null,
+          "dep": 937
+        },
+        {
+          "station": "BTB",
+          "arr": 1052,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "SUN_103",
+      "headcode": "",
+      "operator": "",
+      "days": [
+        "SUN"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "GMB",
+          "arr": 933,
+          "dep": null
+        },
+        {
+          "station": "GMB",
+          "arr": null,
+          "dep": 934
+        },
+        {
+          "station": "HAB",
+          "arr": null,
+          "dep": 944
+        },
+        {
+          "station": "BTB",
+          "arr": 1072,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "SUN_104",
+      "headcode": "",
+      "operator": "",
+      "days": [
+        "SUN"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "GMB",
+          "arr": 993,
+          "dep": null
+        },
+        {
+          "station": "GMB",
+          "arr": null,
+          "dep": 994
+        },
+        {
+          "station": "HAB",
+          "arr": null,
+          "dep": 1004
+        }
+      ]
+    },
+    {
+      "id": "SUN_105",
+      "headcode": "",
+      "operator": "",
+      "days": [
+        "SUN"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "GMB",
+          "arr": 1033,
+          "dep": null
+        },
+        {
+          "station": "GMB",
+          "arr": null,
+          "dep": 1034
+        },
+        {
+          "station": "HAB",
+          "arr": null,
+          "dep": 1044
+        }
+      ]
+    },
+    {
+      "id": "SUN_106",
+      "headcode": "",
+      "operator": "",
+      "days": [
+        "SUN"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "GMB",
+          "arr": 1053,
+          "dep": null
+        },
+        {
+          "station": "GMB",
+          "arr": null,
+          "dep": 1054
+        },
+        {
+          "station": "HAB",
+          "arr": null,
+          "dep": 1064
+        }
+      ]
+    },
+    {
+      "id": "SUN_107",
+      "headcode": "",
+      "operator": "",
+      "days": [
+        "SUN"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "GMB",
+          "arr": 1101,
+          "dep": null
+        },
+        {
+          "station": "GMB",
+          "arr": null,
+          "dep": 1102
+        },
+        {
+          "station": "HAB",
+          "arr": null,
+          "dep": 1117
+        }
+      ]
+    }
+  ]
+}

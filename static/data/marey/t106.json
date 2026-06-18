@@ -1,0 +1,2269 @@
+{
+  "table": "106",
+  "route": "Route 106",
+  "route_id": "t106",
+  "stations": [
+    {
+      "name": "CNF",
+      "crs": "CNF",
+      "mileage": 0.0,
+      "type": "interchange"
+    },
+    {
+      "name": "LAN",
+      "crs": "LAN",
+      "mileage": 5.0,
+      "type": "major"
+    },
+    {
+      "name": "BAR",
+      "crs": "BAR",
+      "mileage": 10.0,
+      "type": "minor"
+    },
+    {
+      "name": "MCM",
+      "crs": "MCM",
+      "mileage": 15.0,
+      "type": "minor"
+    },
+    {
+      "name": "HHB",
+      "crs": "HHB",
+      "mileage": 20.0,
+      "type": "minor"
+    }
+  ],
+  "services": [
+    {
+      "id": "MF_0",
+      "headcode": "",
+      "operator": "NT",
+      "days": [
+        "MF"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "CNF",
+          "arr": null,
+          "dep": 333
+        },
+        {
+          "station": "LAN",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "LAN",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "BAR",
+          "arr": null,
+          "dep": 342
+        },
+        {
+          "station": "MCM",
+          "arr": 346,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "MF_1",
+      "headcode": "",
+      "operator": "NT",
+      "days": [
+        "MF"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "CNF",
+          "arr": null,
+          "dep": 344
+        },
+        {
+          "station": "LAN",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "LAN",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "BAR",
+          "arr": null,
+          "dep": 387
+        },
+        {
+          "station": "MCM",
+          "arr": 391,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "MF_2",
+      "headcode": "",
+      "operator": "NT",
+      "days": [
+        "MF"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "CNF",
+          "arr": null,
+          "dep": 381
+        },
+        {
+          "station": "LAN",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "LAN",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "BAR",
+          "arr": null,
+          "dep": 441
+        },
+        {
+          "station": "MCM",
+          "arr": 445,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "MF_3",
+      "headcode": "",
+      "operator": "NT",
+      "days": [
+        "MF"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "CNF",
+          "arr": null,
+          "dep": 404
+        },
+        {
+          "station": "LAN",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "LAN",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "BAR",
+          "arr": null,
+          "dep": 482
+        },
+        {
+          "station": "MCM",
+          "arr": 486,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "MF_4",
+      "headcode": "",
+      "operator": "NT",
+      "days": [
+        "MF"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "CNF",
+          "arr": null,
+          "dep": 426
+        },
+        {
+          "station": "LAN",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "LAN",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "BAR",
+          "arr": null,
+          "dep": 528
+        },
+        {
+          "station": "MCM",
+          "arr": 532,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "MF_5",
+      "headcode": "",
+      "operator": "NT",
+      "days": [
+        "MF"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "CNF",
+          "arr": null,
+          "dep": 463
+        },
+        {
+          "station": "LAN",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "LAN",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "BAR",
+          "arr": null,
+          "dep": 570
+        },
+        {
+          "station": "MCM",
+          "arr": 574,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "MF_6",
+      "headcode": "",
+      "operator": "NT",
+      "days": [
+        "MF"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "CNF",
+          "arr": null,
+          "dep": 482
+        },
+        {
+          "station": "LAN",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "LAN",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "BAR",
+          "arr": null,
+          "dep": 623
+        },
+        {
+          "station": "MCM",
+          "arr": 627,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "MF_7",
+      "headcode": "",
+      "operator": "NT",
+      "days": [
+        "MF"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "CNF",
+          "arr": null,
+          "dep": 507
+        },
+        {
+          "station": "LAN",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "LAN",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "BAR",
+          "arr": null,
+          "dep": 694
+        },
+        {
+          "station": "MCM",
+          "arr": 698,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "MF_8",
+      "headcode": "",
+      "operator": "NT",
+      "days": [
+        "MF"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "CNF",
+          "arr": null,
+          "dep": 519
+        },
+        {
+          "station": "LAN",
+          "arr": null,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "MF_9",
+      "headcode": "",
+      "operator": "NT",
+      "days": [
+        "MF"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "CNF",
+          "arr": null,
+          "dep": 580
+        },
+        {
+          "station": "LAN",
+          "arr": null,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "MF_10",
+      "headcode": "",
+      "operator": "NT",
+      "days": [
+        "MF"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "CNF",
+          "arr": null,
+          "dep": 596
+        },
+        {
+          "station": "LAN",
+          "arr": null,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "MF_11",
+      "headcode": "",
+      "operator": "NT",
+      "days": [
+        "MF"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "CNF",
+          "arr": null,
+          "dep": 655
+        }
+      ]
+    },
+    {
+      "id": "SAT_12",
+      "headcode": "",
+      "operator": "NT",
+      "days": [
+        "SAT"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "CNF",
+          "arr": null,
+          "dep": 333
+        },
+        {
+          "station": "LAN",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "LAN",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "BAR",
+          "arr": null,
+          "dep": 342
+        },
+        {
+          "station": "MCM",
+          "arr": 346,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "SAT_13",
+      "headcode": "",
+      "operator": "NT",
+      "days": [
+        "SAT"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "CNF",
+          "arr": null,
+          "dep": 344
+        },
+        {
+          "station": "LAN",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "LAN",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "BAR",
+          "arr": null,
+          "dep": 387
+        },
+        {
+          "station": "MCM",
+          "arr": 391,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "SAT_14",
+      "headcode": "",
+      "operator": "NT",
+      "days": [
+        "SAT"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "CNF",
+          "arr": null,
+          "dep": 381
+        },
+        {
+          "station": "LAN",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "LAN",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "BAR",
+          "arr": null,
+          "dep": 441
+        },
+        {
+          "station": "MCM",
+          "arr": 445,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "SAT_15",
+      "headcode": "",
+      "operator": "NT",
+      "days": [
+        "SAT"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "CNF",
+          "arr": null,
+          "dep": 402
+        },
+        {
+          "station": "LAN",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "LAN",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "BAR",
+          "arr": null,
+          "dep": 482
+        },
+        {
+          "station": "MCM",
+          "arr": 486,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "SAT_16",
+      "headcode": "",
+      "operator": "NT",
+      "days": [
+        "SAT"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "CNF",
+          "arr": null,
+          "dep": 426
+        },
+        {
+          "station": "LAN",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "LAN",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "BAR",
+          "arr": null,
+          "dep": 528
+        },
+        {
+          "station": "MCM",
+          "arr": 532,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "SAT_17",
+      "headcode": "",
+      "operator": "NT",
+      "days": [
+        "SAT"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "CNF",
+          "arr": null,
+          "dep": 463
+        },
+        {
+          "station": "LAN",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "LAN",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "BAR",
+          "arr": null,
+          "dep": 570
+        },
+        {
+          "station": "MCM",
+          "arr": 574,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "SAT_18",
+      "headcode": "",
+      "operator": "NT",
+      "days": [
+        "SAT"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "CNF",
+          "arr": null,
+          "dep": 482
+        },
+        {
+          "station": "LAN",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "LAN",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "BAR",
+          "arr": null,
+          "dep": 623
+        },
+        {
+          "station": "MCM",
+          "arr": 627,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "SAT_19",
+      "headcode": "",
+      "operator": "NT",
+      "days": [
+        "SAT"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "CNF",
+          "arr": null,
+          "dep": 507
+        },
+        {
+          "station": "LAN",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "LAN",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "BAR",
+          "arr": null,
+          "dep": 667
+        },
+        {
+          "station": "MCM",
+          "arr": 671,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "SAT_20",
+      "headcode": "",
+      "operator": "NT",
+      "days": [
+        "SAT"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "CNF",
+          "arr": null,
+          "dep": 519
+        },
+        {
+          "station": "LAN",
+          "arr": null,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "SAT_21",
+      "headcode": "",
+      "operator": "NT",
+      "days": [
+        "SAT"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "CNF",
+          "arr": null,
+          "dep": 580
+        },
+        {
+          "station": "LAN",
+          "arr": null,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "SAT_22",
+      "headcode": "",
+      "operator": "NT",
+      "days": [
+        "SAT"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "CNF",
+          "arr": null,
+          "dep": 596
+        },
+        {
+          "station": "LAN",
+          "arr": null,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "SAT_23",
+      "headcode": "",
+      "operator": "NT",
+      "days": [
+        "SAT"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "CNF",
+          "arr": null,
+          "dep": 655
+        }
+      ]
+    },
+    {
+      "id": "SUN_24",
+      "headcode": "",
+      "operator": "NT",
+      "days": [
+        "SUN"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "CNF",
+          "arr": null,
+          "dep": 571
+        },
+        {
+          "station": "LAN",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "LAN",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "BAR",
+          "arr": null,
+          "dep": 637
+        },
+        {
+          "station": "MCM",
+          "arr": 641,
+          "dep": null
+        },
+        {
+          "station": "MCM",
+          "arr": null,
+          "dep": 768
+        },
+        {
+          "station": "HHB",
+          "arr": 780,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "SUN_25",
+      "headcode": "",
+      "operator": "NT",
+      "days": [
+        "SUN"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "CNF",
+          "arr": null,
+          "dep": 591
+        },
+        {
+          "station": "LAN",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "LAN",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "BAR",
+          "arr": null,
+          "dep": 698
+        },
+        {
+          "station": "MCM",
+          "arr": 708,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "SUN_26",
+      "headcode": "",
+      "operator": "NT",
+      "days": [
+        "SUN"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "CNF",
+          "arr": null,
+          "dep": 617
+        },
+        {
+          "station": "LAN",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "LAN",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "BAR",
+          "arr": null,
+          "dep": 758
+        },
+        {
+          "station": "MCM",
+          "arr": 768,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "SUN_27",
+      "headcode": "",
+      "operator": "NT",
+      "days": [
+        "SUN"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "CNF",
+          "arr": null,
+          "dep": 703
+        },
+        {
+          "station": "LAN",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "LAN",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "BAR",
+          "arr": null,
+          "dep": 878
+        },
+        {
+          "station": "MCM",
+          "arr": 888,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "SUN_28",
+      "headcode": "",
+      "operator": "NT",
+      "days": [
+        "SUN"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "CNF",
+          "arr": null,
+          "dep": 730
+        },
+        {
+          "station": "LAN",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "LAN",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "BAR",
+          "arr": null,
+          "dep": 930
+        },
+        {
+          "station": "MCM",
+          "arr": 934,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "SUN_29",
+      "headcode": "",
+      "operator": "NT",
+      "days": [
+        "SUN"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "CNF",
+          "arr": null,
+          "dep": 760
+        },
+        {
+          "station": "LAN",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "LAN",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "BAR",
+          "arr": null,
+          "dep": 998
+        },
+        {
+          "station": "MCM",
+          "arr": 1008,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "SUN_30",
+      "headcode": "",
+      "operator": "NT",
+      "days": [
+        "SUN"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "CNF",
+          "arr": null,
+          "dep": 823
+        },
+        {
+          "station": "LAN",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "LAN",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "BAR",
+          "arr": null,
+          "dep": 1050
+        },
+        {
+          "station": "MCM",
+          "arr": 1054,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "SUN_31",
+      "headcode": "",
+      "operator": "NT",
+      "days": [
+        "SUN"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "CNF",
+          "arr": null,
+          "dep": 879
+        },
+        {
+          "station": "LAN",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "LAN",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "BAR",
+          "arr": null,
+          "dep": 1058
+        },
+        {
+          "station": "MCM",
+          "arr": 1068,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "SUN_32",
+      "headcode": "",
+      "operator": "NT",
+      "days": [
+        "SUN"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "CNF",
+          "arr": null,
+          "dep": 907
+        },
+        {
+          "station": "LAN",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "LAN",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "BAR",
+          "arr": null,
+          "dep": 1118
+        },
+        {
+          "station": "MCM",
+          "arr": 1128,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "SUN_33",
+      "headcode": "",
+      "operator": "NT",
+      "days": [
+        "SUN"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "CNF",
+          "arr": null,
+          "dep": 1002
+        },
+        {
+          "station": "LAN",
+          "arr": null,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "SUN_34",
+      "headcode": "",
+      "operator": "NT",
+      "days": [
+        "SUN"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "CNF",
+          "arr": null,
+          "dep": 1031
+        },
+        {
+          "station": "LAN",
+          "arr": null,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "SUN_35",
+      "headcode": "",
+      "operator": "NT",
+      "days": [
+        "SUN"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "CNF",
+          "arr": null,
+          "dep": 1057
+        },
+        {
+          "station": "LAN",
+          "arr": null,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "MF_36",
+      "headcode": "",
+      "operator": "NT",
+      "days": [
+        "MF"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "MCM",
+          "arr": null,
+          "dep": 357
+        },
+        {
+          "station": "BAR",
+          "arr": null,
+          "dep": 361
+        },
+        {
+          "station": "LAN",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "LAN",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "CNF",
+          "arr": 329,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "MF_37",
+      "headcode": "",
+      "operator": "NT",
+      "days": [
+        "MF"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "MCM",
+          "arr": null,
+          "dep": 419
+        },
+        {
+          "station": "BAR",
+          "arr": null,
+          "dep": 423
+        },
+        {
+          "station": "LAN",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "LAN",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "CNF",
+          "arr": 349,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "MF_38",
+      "headcode": "",
+      "operator": "NT",
+      "days": [
+        "MF"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "MCM",
+          "arr": null,
+          "dep": 455
+        },
+        {
+          "station": "BAR",
+          "arr": null,
+          "dep": 459
+        },
+        {
+          "station": "LAN",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "LAN",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "CNF",
+          "arr": 418,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "MF_39",
+      "headcode": "",
+      "operator": "NT",
+      "days": [
+        "MF"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "MCM",
+          "arr": null,
+          "dep": 501
+        },
+        {
+          "station": "BAR",
+          "arr": null,
+          "dep": 505
+        },
+        {
+          "station": "LAN",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "LAN",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "CNF",
+          "arr": 422,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "MF_40",
+      "headcode": "",
+      "operator": "NT",
+      "days": [
+        "MF"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "MCM",
+          "arr": null,
+          "dep": 541
+        },
+        {
+          "station": "BAR",
+          "arr": null,
+          "dep": 545
+        },
+        {
+          "station": "LAN",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "LAN",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "CNF",
+          "arr": 463,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "MF_41",
+      "headcode": "",
+      "operator": "NT",
+      "days": [
+        "MF"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "MCM",
+          "arr": null,
+          "dep": 581
+        },
+        {
+          "station": "BAR",
+          "arr": null,
+          "dep": 585
+        },
+        {
+          "station": "LAN",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "LAN",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "CNF",
+          "arr": 512,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "MF_42",
+      "headcode": "",
+      "operator": "NT",
+      "days": [
+        "MF"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "MCM",
+          "arr": null,
+          "dep": 632
+        },
+        {
+          "station": "BAR",
+          "arr": null,
+          "dep": 636
+        },
+        {
+          "station": "LAN",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "LAN",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "CNF",
+          "arr": 541,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "MF_43",
+      "headcode": "",
+      "operator": "NT",
+      "days": [
+        "MF"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "MCM",
+          "arr": null,
+          "dep": 702
+        },
+        {
+          "station": "BAR",
+          "arr": null,
+          "dep": 706
+        },
+        {
+          "station": "LAN",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "LAN",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "CNF",
+          "arr": 592,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "MF_44",
+      "headcode": "",
+      "operator": "NT",
+      "days": [
+        "MF"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "LAN",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "CNF",
+          "arr": 624,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "MF_45",
+      "headcode": "",
+      "operator": "NT",
+      "days": [
+        "MF"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "LAN",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "CNF",
+          "arr": 657,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "MF_46",
+      "headcode": "",
+      "operator": "NT",
+      "days": [
+        "MF"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "LAN",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "CNF",
+          "arr": 661,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "SAT_47",
+      "headcode": "",
+      "operator": "NT",
+      "days": [
+        "SAT"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "MCM",
+          "arr": null,
+          "dep": 357
+        },
+        {
+          "station": "BAR",
+          "arr": null,
+          "dep": 361
+        },
+        {
+          "station": "LAN",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "LAN",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "CNF",
+          "arr": 329,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "SAT_48",
+      "headcode": "",
+      "operator": "NT",
+      "days": [
+        "SAT"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "MCM",
+          "arr": null,
+          "dep": 419
+        },
+        {
+          "station": "BAR",
+          "arr": null,
+          "dep": 423
+        },
+        {
+          "station": "LAN",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "LAN",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "CNF",
+          "arr": 349,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "SAT_49",
+      "headcode": "",
+      "operator": "NT",
+      "days": [
+        "SAT"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "MCM",
+          "arr": null,
+          "dep": 455
+        },
+        {
+          "station": "BAR",
+          "arr": null,
+          "dep": 459
+        },
+        {
+          "station": "LAN",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "LAN",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "CNF",
+          "arr": 418,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "SAT_50",
+      "headcode": "",
+      "operator": "NT",
+      "days": [
+        "SAT"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "MCM",
+          "arr": null,
+          "dep": 501
+        },
+        {
+          "station": "BAR",
+          "arr": null,
+          "dep": 505
+        },
+        {
+          "station": "LAN",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "LAN",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "CNF",
+          "arr": 422,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "SAT_51",
+      "headcode": "",
+      "operator": "NT",
+      "days": [
+        "SAT"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "MCM",
+          "arr": null,
+          "dep": 541
+        },
+        {
+          "station": "BAR",
+          "arr": null,
+          "dep": 545
+        },
+        {
+          "station": "LAN",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "LAN",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "CNF",
+          "arr": 463,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "SAT_52",
+      "headcode": "",
+      "operator": "NT",
+      "days": [
+        "SAT"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "MCM",
+          "arr": null,
+          "dep": 581
+        },
+        {
+          "station": "BAR",
+          "arr": null,
+          "dep": 585
+        },
+        {
+          "station": "LAN",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "LAN",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "CNF",
+          "arr": 512,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "SAT_53",
+      "headcode": "",
+      "operator": "NT",
+      "days": [
+        "SAT"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "MCM",
+          "arr": null,
+          "dep": 632
+        },
+        {
+          "station": "BAR",
+          "arr": null,
+          "dep": 636
+        },
+        {
+          "station": "LAN",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "LAN",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "CNF",
+          "arr": 549,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "SAT_54",
+      "headcode": "",
+      "operator": "NT",
+      "days": [
+        "SAT"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "MCM",
+          "arr": null,
+          "dep": 675
+        },
+        {
+          "station": "BAR",
+          "arr": null,
+          "dep": 679
+        },
+        {
+          "station": "LAN",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "LAN",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "CNF",
+          "arr": 592,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "SAT_55",
+      "headcode": "",
+      "operator": "NT",
+      "days": [
+        "SAT"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "LAN",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "CNF",
+          "arr": 624,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "SAT_56",
+      "headcode": "",
+      "operator": "NT",
+      "days": [
+        "SAT"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "LAN",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "CNF",
+          "arr": 657,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "SAT_57",
+      "headcode": "",
+      "operator": "NT",
+      "days": [
+        "SAT"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "LAN",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "CNF",
+          "arr": 661,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "SUN_58",
+      "headcode": "",
+      "operator": "NT",
+      "days": [
+        "SUN"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "HHB",
+          "arr": null,
+          "dep": 784
+        },
+        {
+          "station": "MCM",
+          "arr": 796,
+          "dep": null
+        },
+        {
+          "station": "MCM",
+          "arr": null,
+          "dep": 649
+        },
+        {
+          "station": "BAR",
+          "arr": null,
+          "dep": 653
+        },
+        {
+          "station": "LAN",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "LAN",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "CNF",
+          "arr": 621,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "SUN_59",
+      "headcode": "",
+      "operator": "NT",
+      "days": [
+        "SUN"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "MCM",
+          "arr": null,
+          "dep": 713
+        },
+        {
+          "station": "BAR",
+          "arr": null,
+          "dep": 723
+        },
+        {
+          "station": "LAN",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "LAN",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "CNF",
+          "arr": 668,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "SUN_60",
+      "headcode": "",
+      "operator": "NT",
+      "days": [
+        "SUN"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "MCM",
+          "arr": null,
+          "dep": 796
+        },
+        {
+          "station": "BAR",
+          "arr": null,
+          "dep": 806
+        },
+        {
+          "station": "LAN",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "LAN",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "CNF",
+          "arr": 674,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "SUN_61",
+      "headcode": "",
+      "operator": "NT",
+      "days": [
+        "SUN"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "MCM",
+          "arr": null,
+          "dep": 893
+        },
+        {
+          "station": "BAR",
+          "arr": null,
+          "dep": 903
+        },
+        {
+          "station": "LAN",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "LAN",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "CNF",
+          "arr": 804,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "SUN_62",
+      "headcode": "",
+      "operator": "NT",
+      "days": [
+        "SUN"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "MCM",
+          "arr": null,
+          "dep": 939
+        },
+        {
+          "station": "BAR",
+          "arr": null,
+          "dep": 943
+        },
+        {
+          "station": "LAN",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "LAN",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "CNF",
+          "arr": 835,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "SUN_63",
+      "headcode": "",
+      "operator": "NT",
+      "days": [
+        "SUN"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "MCM",
+          "arr": null,
+          "dep": 1013
+        },
+        {
+          "station": "BAR",
+          "arr": null,
+          "dep": 1023
+        },
+        {
+          "station": "LAN",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "LAN",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "CNF",
+          "arr": 913,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "SUN_64",
+      "headcode": "",
+      "operator": "NT",
+      "days": [
+        "SUN"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "MCM",
+          "arr": null,
+          "dep": 1059
+        },
+        {
+          "station": "BAR",
+          "arr": null,
+          "dep": 1063
+        },
+        {
+          "station": "LAN",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "LAN",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "CNF",
+          "arr": 963,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "SUN_65",
+      "headcode": "",
+      "operator": "NT",
+      "days": [
+        "SUN"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "MCM",
+          "arr": null,
+          "dep": 1073
+        },
+        {
+          "station": "BAR",
+          "arr": null,
+          "dep": 1083
+        },
+        {
+          "station": "LAN",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "LAN",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "CNF",
+          "arr": 973,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "SUN_66",
+      "headcode": "",
+      "operator": "NT",
+      "days": [
+        "SUN"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "MCM",
+          "arr": null,
+          "dep": 1133
+        },
+        {
+          "station": "BAR",
+          "arr": null,
+          "dep": 1143
+        },
+        {
+          "station": "LAN",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "LAN",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "CNF",
+          "arr": 1036,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "SUN_67",
+      "headcode": "",
+      "operator": "NT",
+      "days": [
+        "SUN"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "LAN",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "CNF",
+          "arr": 1082,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "SUN_68",
+      "headcode": "",
+      "operator": "NT",
+      "days": [
+        "SUN"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "LAN",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "CNF",
+          "arr": 1093,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "SUN_69",
+      "headcode": "",
+      "operator": "NT",
+      "days": [
+        "SUN"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "LAN",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "CNF",
+          "arr": 1152,
+          "dep": null
+        }
+      ]
+    }
+  ]
+}

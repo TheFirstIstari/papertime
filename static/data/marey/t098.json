@@ -1,0 +1,2750 @@
+{
+  "table": "098",
+  "route": "Route 098",
+  "route_id": "t098",
+  "stations": [
+    {
+      "name": "WGW",
+      "crs": "WGW",
+      "mileage": 0.0,
+      "type": "interchange"
+    },
+    {
+      "name": "BON",
+      "crs": "BON",
+      "mileage": 5.0,
+      "type": "major"
+    },
+    {
+      "name": "SLD",
+      "crs": "SLD",
+      "mileage": 10.0,
+      "type": "major"
+    },
+    {
+      "name": "SFD",
+      "crs": "SFD",
+      "mileage": 15.0,
+      "type": "major"
+    },
+    {
+      "name": "MAN",
+      "crs": "MAN",
+      "mileage": 20.0,
+      "type": "major"
+    },
+    {
+      "name": "MCV",
+      "crs": "MCV",
+      "mileage": 25.0,
+      "type": "major"
+    },
+    {
+      "name": "AHN",
+      "crs": "AHN",
+      "mileage": 30.0,
+      "type": "interchange"
+    },
+    {
+      "name": "SYB",
+      "crs": "SYB",
+      "mileage": 35.0,
+      "type": "interchange"
+    }
+  ],
+  "services": [
+    {
+      "id": "MF_0",
+      "headcode": "",
+      "operator": "TP",
+      "days": [
+        "MF"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "WGW",
+          "arr": null,
+          "dep": 366
+        },
+        {
+          "station": "BON",
+          "arr": null,
+          "dep": 386
+        },
+        {
+          "station": "SLD",
+          "arr": null,
+          "dep": 404
+        },
+        {
+          "station": "SFD",
+          "arr": null,
+          "dep": 407
+        },
+        {
+          "station": "MAN",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "MCV",
+          "arr": null,
+          "dep": 330
+        },
+        {
+          "station": "AHN",
+          "arr": null,
+          "dep": 393
+        },
+        {
+          "station": "SYB",
+          "arr": 340,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "MF_1",
+      "headcode": "",
+      "operator": "TP",
+      "days": [
+        "MF"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "WGW",
+          "arr": null,
+          "dep": 425
+        },
+        {
+          "station": "BON",
+          "arr": null,
+          "dep": 446
+        },
+        {
+          "station": "SLD",
+          "arr": null,
+          "dep": 462
+        },
+        {
+          "station": "SFD",
+          "arr": null,
+          "dep": 466
+        },
+        {
+          "station": "MAN",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "MCV",
+          "arr": null,
+          "dep": 382
+        },
+        {
+          "station": "AHN",
+          "arr": null,
+          "dep": 421
+        },
+        {
+          "station": "SYB",
+          "arr": 349,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "MF_2",
+      "headcode": "",
+      "operator": "NT",
+      "days": [
+        "MF"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "WGW",
+          "arr": null,
+          "dep": 485
+        },
+        {
+          "station": "BON",
+          "arr": null,
+          "dep": 506
+        },
+        {
+          "station": "SLD",
+          "arr": null,
+          "dep": 524
+        },
+        {
+          "station": "SFD",
+          "arr": null,
+          "dep": 528
+        },
+        {
+          "station": "MAN",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "MCV",
+          "arr": null,
+          "dep": 390
+        },
+        {
+          "station": "AHN",
+          "arr": null,
+          "dep": 481
+        },
+        {
+          "station": "SYB",
+          "arr": 372,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "MF_3",
+      "headcode": "",
+      "operator": "TP",
+      "days": [
+        "MF"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "WGW",
+          "arr": null,
+          "dep": 544
+        },
+        {
+          "station": "BON",
+          "arr": null,
+          "dep": 565
+        },
+        {
+          "station": "SLD",
+          "arr": null,
+          "dep": 584
+        },
+        {
+          "station": "SFD",
+          "arr": null,
+          "dep": 586
+        },
+        {
+          "station": "MAN",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "MCV",
+          "arr": null,
+          "dep": 411
+        },
+        {
+          "station": "AHN",
+          "arr": null,
+          "dep": 542
+        },
+        {
+          "station": "SYB",
+          "arr": 396,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "MF_4",
+      "headcode": "",
+      "operator": "TP",
+      "days": [
+        "MF"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "MAN",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "MCV",
+          "arr": null,
+          "dep": 450
+        },
+        {
+          "station": "AHN",
+          "arr": null,
+          "dep": 601
+        },
+        {
+          "station": "SYB",
+          "arr": 400,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "MF_5",
+      "headcode": "",
+      "operator": "NT",
+      "days": [
+        "MF"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "MAN",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "MCV",
+          "arr": null,
+          "dep": 471
+        },
+        {
+          "station": "SYB",
+          "arr": 404,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "MF_6",
+      "headcode": "",
+      "operator": "TP",
+      "days": [
+        "MF"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "MAN",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "MCV",
+          "arr": null,
+          "dep": 510
+        },
+        {
+          "station": "SYB",
+          "arr": 424,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "MF_7",
+      "headcode": "",
+      "operator": "TP",
+      "days": [
+        "MF"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "MAN",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "MCV",
+          "arr": null,
+          "dep": 533
+        },
+        {
+          "station": "SYB",
+          "arr": 432,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "MF_8",
+      "headcode": "",
+      "operator": "TP",
+      "days": [
+        "MF"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "MCV",
+          "arr": null,
+          "dep": 570
+        },
+        {
+          "station": "SYB",
+          "arr": 459,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "MF_9",
+      "headcode": "",
+      "operator": "NT",
+      "days": [
+        "MF"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "MCV",
+          "arr": null,
+          "dep": 591
+        },
+        {
+          "station": "SYB",
+          "arr": 463,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "MF_10",
+      "headcode": "",
+      "operator": "TP",
+      "days": [
+        "MF"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "SYB",
+          "arr": 484,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "MF_11",
+      "headcode": "",
+      "operator": "TP",
+      "days": [
+        "MF"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "SYB",
+          "arr": 492,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "MF_12",
+      "headcode": "",
+      "operator": "TP",
+      "days": [
+        "MF"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "SYB",
+          "arr": 521,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "MF_13",
+      "headcode": "",
+      "operator": "NT",
+      "days": [
+        "MF"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "SYB",
+          "arr": 524,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "MF_14",
+      "headcode": "",
+      "operator": "TP",
+      "days": [
+        "MF"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "SYB",
+          "arr": 545,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "MF_15",
+      "headcode": "",
+      "operator": "TP",
+      "days": [
+        "MF"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "SYB",
+          "arr": 552,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "MF_16",
+      "headcode": "",
+      "operator": "NT",
+      "days": [
+        "MF"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "SYB",
+          "arr": 579,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "MF_17",
+      "headcode": "",
+      "operator": "",
+      "days": [
+        "MF"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "SYB",
+          "arr": 604,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "SAT_18",
+      "headcode": "",
+      "operator": "TP",
+      "days": [
+        "SAT"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "WGW",
+          "arr": null,
+          "dep": 366
+        },
+        {
+          "station": "BON",
+          "arr": null,
+          "dep": 386
+        },
+        {
+          "station": "SLD",
+          "arr": null,
+          "dep": 404
+        },
+        {
+          "station": "SFD",
+          "arr": null,
+          "dep": 407
+        },
+        {
+          "station": "MAN",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "MCV",
+          "arr": null,
+          "dep": 330
+        },
+        {
+          "station": "AHN",
+          "arr": null,
+          "dep": 388
+        },
+        {
+          "station": "SYB",
+          "arr": 340,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "SAT_19",
+      "headcode": "",
+      "operator": "TP",
+      "days": [
+        "SAT"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "WGW",
+          "arr": null,
+          "dep": 425
+        },
+        {
+          "station": "BON",
+          "arr": null,
+          "dep": 446
+        },
+        {
+          "station": "SLD",
+          "arr": null,
+          "dep": 462
+        },
+        {
+          "station": "SFD",
+          "arr": null,
+          "dep": 466
+        },
+        {
+          "station": "MAN",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "MCV",
+          "arr": null,
+          "dep": 378
+        },
+        {
+          "station": "AHN",
+          "arr": null,
+          "dep": 421
+        },
+        {
+          "station": "SYB",
+          "arr": 349,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "SAT_20",
+      "headcode": "",
+      "operator": "NT",
+      "days": [
+        "SAT"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "WGW",
+          "arr": null,
+          "dep": 485
+        },
+        {
+          "station": "BON",
+          "arr": null,
+          "dep": 506
+        },
+        {
+          "station": "SLD",
+          "arr": null,
+          "dep": 524
+        },
+        {
+          "station": "SFD",
+          "arr": null,
+          "dep": 528
+        },
+        {
+          "station": "MAN",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "MCV",
+          "arr": null,
+          "dep": 390
+        },
+        {
+          "station": "AHN",
+          "arr": null,
+          "dep": 481
+        },
+        {
+          "station": "SYB",
+          "arr": 372,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "SAT_21",
+      "headcode": "",
+      "operator": "TP",
+      "days": [
+        "SAT"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "WGW",
+          "arr": null,
+          "dep": 544
+        },
+        {
+          "station": "BON",
+          "arr": null,
+          "dep": 565
+        },
+        {
+          "station": "SLD",
+          "arr": null,
+          "dep": 584
+        },
+        {
+          "station": "SFD",
+          "arr": null,
+          "dep": 586
+        },
+        {
+          "station": "MAN",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "MCV",
+          "arr": null,
+          "dep": 411
+        },
+        {
+          "station": "AHN",
+          "arr": null,
+          "dep": 542
+        },
+        {
+          "station": "SYB",
+          "arr": 391,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "SAT_22",
+      "headcode": "",
+      "operator": "TP",
+      "days": [
+        "SAT"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "MAN",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "MCV",
+          "arr": null,
+          "dep": 450
+        },
+        {
+          "station": "AHN",
+          "arr": null,
+          "dep": 601
+        },
+        {
+          "station": "SYB",
+          "arr": 400,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "SAT_23",
+      "headcode": "",
+      "operator": "NT",
+      "days": [
+        "SAT"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "MAN",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "MCV",
+          "arr": null,
+          "dep": 471
+        },
+        {
+          "station": "SYB",
+          "arr": 404,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "SAT_24",
+      "headcode": "",
+      "operator": "TP",
+      "days": [
+        "SAT"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "MAN",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "MCV",
+          "arr": null,
+          "dep": 510
+        },
+        {
+          "station": "SYB",
+          "arr": 424,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "SAT_25",
+      "headcode": "",
+      "operator": "TP",
+      "days": [
+        "SAT"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "MAN",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "MCV",
+          "arr": null,
+          "dep": 533
+        },
+        {
+          "station": "SYB",
+          "arr": 432,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "SAT_26",
+      "headcode": "",
+      "operator": "TP",
+      "days": [
+        "SAT"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "MCV",
+          "arr": null,
+          "dep": 570
+        },
+        {
+          "station": "SYB",
+          "arr": 459,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "SAT_27",
+      "headcode": "",
+      "operator": "NT",
+      "days": [
+        "SAT"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "MCV",
+          "arr": null,
+          "dep": 591
+        },
+        {
+          "station": "SYB",
+          "arr": 463,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "SAT_28",
+      "headcode": "",
+      "operator": "TP",
+      "days": [
+        "SAT"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "SYB",
+          "arr": 484,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "SAT_29",
+      "headcode": "",
+      "operator": "TP",
+      "days": [
+        "SAT"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "SYB",
+          "arr": 492,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "SAT_30",
+      "headcode": "",
+      "operator": "TP",
+      "days": [
+        "SAT"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "SYB",
+          "arr": 521,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "SAT_31",
+      "headcode": "",
+      "operator": "NT",
+      "days": [
+        "SAT"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "SYB",
+          "arr": 524,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "SAT_32",
+      "headcode": "",
+      "operator": "TP",
+      "days": [
+        "SAT"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "SYB",
+          "arr": 545,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "SAT_33",
+      "headcode": "",
+      "operator": "TP",
+      "days": [
+        "SAT"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "SYB",
+          "arr": 552,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "SAT_34",
+      "headcode": "",
+      "operator": "NT",
+      "days": [
+        "SAT"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "SYB",
+          "arr": 579,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "SAT_35",
+      "headcode": "",
+      "operator": "",
+      "days": [
+        "SAT"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "SYB",
+          "arr": 604,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "SUN_36",
+      "headcode": "",
+      "operator": "TP",
+      "days": [
+        "SUN"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "MAN",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "MCV",
+          "arr": null,
+          "dep": 505
+        },
+        {
+          "station": "SYB",
+          "arr": 514,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "SUN_37",
+      "headcode": "",
+      "operator": "TP",
+      "days": [
+        "SUN"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "MAN",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "MCV",
+          "arr": null,
+          "dep": 505
+        },
+        {
+          "station": "SYB",
+          "arr": 514,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "SUN_38",
+      "headcode": "",
+      "operator": "TP",
+      "days": [
+        "SUN"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "MAN",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "MCV",
+          "arr": null,
+          "dep": 542
+        },
+        {
+          "station": "SYB",
+          "arr": 524,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "SUN_39",
+      "headcode": "",
+      "operator": "TP",
+      "days": [
+        "SUN"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "MAN",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "MCV",
+          "arr": null,
+          "dep": 602
+        },
+        {
+          "station": "SYB",
+          "arr": 551,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "SUN_40",
+      "headcode": "",
+      "operator": "TP",
+      "days": [
+        "SUN"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "MAN",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "MCV",
+          "arr": null,
+          "dep": 630
+        },
+        {
+          "station": "SYB",
+          "arr": 611,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "SUN_41",
+      "headcode": "",
+      "operator": "TP",
+      "days": [
+        "SUN"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "MAN",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "MCV",
+          "arr": null,
+          "dep": 690
+        },
+        {
+          "station": "SYB",
+          "arr": 639,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "SUN_42",
+      "headcode": "",
+      "operator": "TP",
+      "days": [
+        "SUN"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "MAN",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "MCV",
+          "arr": null,
+          "dep": 750
+        },
+        {
+          "station": "SYB",
+          "arr": 672,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "SUN_43",
+      "headcode": "",
+      "operator": "TP",
+      "days": [
+        "SUN"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "MAN",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "MCV",
+          "arr": null,
+          "dep": 810
+        },
+        {
+          "station": "SYB",
+          "arr": 699,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "SUN_44",
+      "headcode": "",
+      "operator": "TP",
+      "days": [
+        "SUN"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "MCV",
+          "arr": null,
+          "dep": 870
+        },
+        {
+          "station": "SYB",
+          "arr": 732,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "SUN_45",
+      "headcode": "",
+      "operator": "TP",
+      "days": [
+        "SUN"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "MCV",
+          "arr": null,
+          "dep": 930
+        },
+        {
+          "station": "SYB",
+          "arr": 759,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "SUN_46",
+      "headcode": "",
+      "operator": "TP",
+      "days": [
+        "SUN"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "MCV",
+          "arr": null,
+          "dep": 990
+        },
+        {
+          "station": "SYB",
+          "arr": 792,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "SUN_47",
+      "headcode": "",
+      "operator": "TP",
+      "days": [
+        "SUN"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "SYB",
+          "arr": 819,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "SUN_48",
+      "headcode": "",
+      "operator": "TP",
+      "days": [
+        "SUN"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "SYB",
+          "arr": 852,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "SUN_49",
+      "headcode": "",
+      "operator": "TP",
+      "days": [
+        "SUN"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "SYB",
+          "arr": 879,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "SUN_50",
+      "headcode": "",
+      "operator": "TP",
+      "days": [
+        "SUN"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "SYB",
+          "arr": 912,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "SUN_51",
+      "headcode": "",
+      "operator": "TP",
+      "days": [
+        "SUN"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "SYB",
+          "arr": 939,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "SUN_52",
+      "headcode": "",
+      "operator": "TP",
+      "days": [
+        "SUN"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "SYB",
+          "arr": 972,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "SUN_53",
+      "headcode": "",
+      "operator": "",
+      "days": [
+        "SUN"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "SYB",
+          "arr": 999,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "MF_54",
+      "headcode": "",
+      "operator": "TP",
+      "days": [
+        "MF"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "SYB",
+          "arr": null,
+          "dep": 379
+        },
+        {
+          "station": "AHN",
+          "arr": null,
+          "dep": 383
+        },
+        {
+          "station": "MCV",
+          "arr": 392,
+          "dep": null
+        },
+        {
+          "station": "MAN",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "SFD",
+          "arr": 432,
+          "dep": null
+        },
+        {
+          "station": "SLD",
+          "arr": 435,
+          "dep": null
+        },
+        {
+          "station": "BON",
+          "arr": 451,
+          "dep": null
+        },
+        {
+          "station": "WGW",
+          "arr": 472,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "MF_55",
+      "headcode": "",
+      "operator": "TP",
+      "days": [
+        "MF"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "SYB",
+          "arr": null,
+          "dep": 382
+        },
+        {
+          "station": "AHN",
+          "arr": null,
+          "dep": 415
+        },
+        {
+          "station": "MCV",
+          "arr": 411,
+          "dep": null
+        },
+        {
+          "station": "MAN",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "SFD",
+          "arr": 492,
+          "dep": null
+        },
+        {
+          "station": "SLD",
+          "arr": 495,
+          "dep": null
+        },
+        {
+          "station": "BON",
+          "arr": 511,
+          "dep": null
+        },
+        {
+          "station": "WGW",
+          "arr": 530,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "MF_56",
+      "headcode": "",
+      "operator": "NT",
+      "days": [
+        "MF"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "SYB",
+          "arr": null,
+          "dep": 400
+        },
+        {
+          "station": "AHN",
+          "arr": null,
+          "dep": 475
+        },
+        {
+          "station": "MCV",
+          "arr": 425,
+          "dep": null
+        },
+        {
+          "station": "MAN",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "SFD",
+          "arr": 552,
+          "dep": null
+        },
+        {
+          "station": "SLD",
+          "arr": 555,
+          "dep": null
+        },
+        {
+          "station": "BON",
+          "arr": 571,
+          "dep": null
+        },
+        {
+          "station": "WGW",
+          "arr": 590,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "MF_57",
+      "headcode": "",
+      "operator": "TP",
+      "days": [
+        "MF"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "SYB",
+          "arr": null,
+          "dep": 412
+        },
+        {
+          "station": "AHN",
+          "arr": null,
+          "dep": 535
+        },
+        {
+          "station": "MCV",
+          "arr": 429,
+          "dep": null
+        },
+        {
+          "station": "MAN",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "SFD",
+          "arr": 612,
+          "dep": null
+        },
+        {
+          "station": "SLD",
+          "arr": 615,
+          "dep": null
+        },
+        {
+          "station": "BON",
+          "arr": 631,
+          "dep": null
+        },
+        {
+          "station": "WGW",
+          "arr": 650,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "MF_58",
+      "headcode": "",
+      "operator": "TP",
+      "days": [
+        "MF"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "SYB",
+          "arr": null,
+          "dep": 415
+        },
+        {
+          "station": "AHN",
+          "arr": null,
+          "dep": 595
+        },
+        {
+          "station": "MCV",
+          "arr": 471,
+          "dep": null
+        },
+        {
+          "station": "MAN",
+          "arr": null,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "MF_59",
+      "headcode": "",
+      "operator": "TP",
+      "days": [
+        "MF"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "SYB",
+          "arr": null,
+          "dep": 418
+        },
+        {
+          "station": "MCV",
+          "arr": 485,
+          "dep": null
+        },
+        {
+          "station": "MAN",
+          "arr": null,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "MF_60",
+      "headcode": "",
+      "operator": "TP",
+      "days": [
+        "MF"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "SYB",
+          "arr": null,
+          "dep": 443
+        },
+        {
+          "station": "MCV",
+          "arr": 489,
+          "dep": null
+        },
+        {
+          "station": "MAN",
+          "arr": null,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "MF_61",
+      "headcode": "",
+      "operator": "NT",
+      "days": [
+        "MF"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "SYB",
+          "arr": null,
+          "dep": 460
+        },
+        {
+          "station": "MCV",
+          "arr": 531,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "MF_62",
+      "headcode": "",
+      "operator": "TP",
+      "days": [
+        "MF"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "SYB",
+          "arr": null,
+          "dep": 472
+        },
+        {
+          "station": "MCV",
+          "arr": 545,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "MF_63",
+      "headcode": "",
+      "operator": "TP",
+      "days": [
+        "MF"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "SYB",
+          "arr": null,
+          "dep": 474
+        },
+        {
+          "station": "MCV",
+          "arr": 592,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "MF_64",
+      "headcode": "",
+      "operator": "TP",
+      "days": [
+        "MF"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "SYB",
+          "arr": null,
+          "dep": 478
+        },
+        {
+          "station": "MCV",
+          "arr": 605,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "MF_65",
+      "headcode": "",
+      "operator": "TP",
+      "days": [
+        "MF"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "SYB",
+          "arr": null,
+          "dep": 503
+        }
+      ]
+    },
+    {
+      "id": "MF_66",
+      "headcode": "",
+      "operator": "NT",
+      "days": [
+        "MF"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "SYB",
+          "arr": null,
+          "dep": 520
+        }
+      ]
+    },
+    {
+      "id": "MF_67",
+      "headcode": "",
+      "operator": "TP",
+      "days": [
+        "MF"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "SYB",
+          "arr": null,
+          "dep": 532
+        }
+      ]
+    },
+    {
+      "id": "MF_68",
+      "headcode": "",
+      "operator": "TP",
+      "days": [
+        "MF"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "SYB",
+          "arr": null,
+          "dep": 534
+        }
+      ]
+    },
+    {
+      "id": "MF_69",
+      "headcode": "",
+      "operator": "TP",
+      "days": [
+        "MF"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "SYB",
+          "arr": null,
+          "dep": 563
+        }
+      ]
+    },
+    {
+      "id": "MF_70",
+      "headcode": "",
+      "operator": "NT",
+      "days": [
+        "MF"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "SYB",
+          "arr": null,
+          "dep": 581
+        }
+      ]
+    },
+    {
+      "id": "MF_71",
+      "headcode": "",
+      "operator": "",
+      "days": [
+        "MF"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "SYB",
+          "arr": null,
+          "dep": 592
+        }
+      ]
+    },
+    {
+      "id": "SAT_72",
+      "headcode": "",
+      "operator": "TP",
+      "days": [
+        "SAT"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "SYB",
+          "arr": null,
+          "dep": 379
+        },
+        {
+          "station": "AHN",
+          "arr": null,
+          "dep": 383
+        },
+        {
+          "station": "MCV",
+          "arr": 392,
+          "dep": null
+        },
+        {
+          "station": "MAN",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "SFD",
+          "arr": 432,
+          "dep": null
+        },
+        {
+          "station": "SLD",
+          "arr": 435,
+          "dep": null
+        },
+        {
+          "station": "BON",
+          "arr": 451,
+          "dep": null
+        },
+        {
+          "station": "WGW",
+          "arr": 472,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "SAT_73",
+      "headcode": "",
+      "operator": "TP",
+      "days": [
+        "SAT"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "SYB",
+          "arr": null,
+          "dep": 382
+        },
+        {
+          "station": "AHN",
+          "arr": null,
+          "dep": 415
+        },
+        {
+          "station": "MCV",
+          "arr": 411,
+          "dep": null
+        },
+        {
+          "station": "MAN",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "SFD",
+          "arr": 492,
+          "dep": null
+        },
+        {
+          "station": "SLD",
+          "arr": 495,
+          "dep": null
+        },
+        {
+          "station": "BON",
+          "arr": 511,
+          "dep": null
+        },
+        {
+          "station": "WGW",
+          "arr": 530,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "SAT_74",
+      "headcode": "",
+      "operator": "NT",
+      "days": [
+        "SAT"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "SYB",
+          "arr": null,
+          "dep": 400
+        },
+        {
+          "station": "AHN",
+          "arr": null,
+          "dep": 475
+        },
+        {
+          "station": "MCV",
+          "arr": 425,
+          "dep": null
+        },
+        {
+          "station": "MAN",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "SFD",
+          "arr": 552,
+          "dep": null
+        },
+        {
+          "station": "SLD",
+          "arr": 555,
+          "dep": null
+        },
+        {
+          "station": "BON",
+          "arr": 571,
+          "dep": null
+        },
+        {
+          "station": "WGW",
+          "arr": 590,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "SAT_75",
+      "headcode": "",
+      "operator": "TP",
+      "days": [
+        "SAT"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "SYB",
+          "arr": null,
+          "dep": 412
+        },
+        {
+          "station": "AHN",
+          "arr": null,
+          "dep": 535
+        },
+        {
+          "station": "MCV",
+          "arr": 429,
+          "dep": null
+        },
+        {
+          "station": "MAN",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "SFD",
+          "arr": 612,
+          "dep": null
+        },
+        {
+          "station": "SLD",
+          "arr": 615,
+          "dep": null
+        },
+        {
+          "station": "BON",
+          "arr": 631,
+          "dep": null
+        },
+        {
+          "station": "WGW",
+          "arr": 650,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "SAT_76",
+      "headcode": "",
+      "operator": "TP",
+      "days": [
+        "SAT"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "SYB",
+          "arr": null,
+          "dep": 415
+        },
+        {
+          "station": "AHN",
+          "arr": null,
+          "dep": 595
+        },
+        {
+          "station": "MCV",
+          "arr": 471,
+          "dep": null
+        },
+        {
+          "station": "MAN",
+          "arr": null,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "SAT_77",
+      "headcode": "",
+      "operator": "TP",
+      "days": [
+        "SAT"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "SYB",
+          "arr": null,
+          "dep": 418
+        },
+        {
+          "station": "MCV",
+          "arr": 485,
+          "dep": null
+        },
+        {
+          "station": "MAN",
+          "arr": null,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "SAT_78",
+      "headcode": "",
+      "operator": "TP",
+      "days": [
+        "SAT"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "SYB",
+          "arr": null,
+          "dep": 443
+        },
+        {
+          "station": "MCV",
+          "arr": 489,
+          "dep": null
+        },
+        {
+          "station": "MAN",
+          "arr": null,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "SAT_79",
+      "headcode": "",
+      "operator": "NT",
+      "days": [
+        "SAT"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "SYB",
+          "arr": null,
+          "dep": 460
+        },
+        {
+          "station": "MCV",
+          "arr": 531,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "SAT_80",
+      "headcode": "",
+      "operator": "TP",
+      "days": [
+        "SAT"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "SYB",
+          "arr": null,
+          "dep": 472
+        },
+        {
+          "station": "MCV",
+          "arr": 545,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "SAT_81",
+      "headcode": "",
+      "operator": "TP",
+      "days": [
+        "SAT"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "SYB",
+          "arr": null,
+          "dep": 474
+        },
+        {
+          "station": "MCV",
+          "arr": 592,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "SAT_82",
+      "headcode": "",
+      "operator": "TP",
+      "days": [
+        "SAT"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "SYB",
+          "arr": null,
+          "dep": 478
+        },
+        {
+          "station": "MCV",
+          "arr": 605,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "SAT_83",
+      "headcode": "",
+      "operator": "TP",
+      "days": [
+        "SAT"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "SYB",
+          "arr": null,
+          "dep": 503
+        }
+      ]
+    },
+    {
+      "id": "SAT_84",
+      "headcode": "",
+      "operator": "NT",
+      "days": [
+        "SAT"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "SYB",
+          "arr": null,
+          "dep": 520
+        }
+      ]
+    },
+    {
+      "id": "SAT_85",
+      "headcode": "",
+      "operator": "TP",
+      "days": [
+        "SAT"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "SYB",
+          "arr": null,
+          "dep": 532
+        }
+      ]
+    },
+    {
+      "id": "SAT_86",
+      "headcode": "",
+      "operator": "TP",
+      "days": [
+        "SAT"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "SYB",
+          "arr": null,
+          "dep": 534
+        }
+      ]
+    },
+    {
+      "id": "SAT_87",
+      "headcode": "",
+      "operator": "TP",
+      "days": [
+        "SAT"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "SYB",
+          "arr": null,
+          "dep": 563
+        }
+      ]
+    },
+    {
+      "id": "SAT_88",
+      "headcode": "",
+      "operator": "NT",
+      "days": [
+        "SAT"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "SYB",
+          "arr": null,
+          "dep": 581
+        }
+      ]
+    },
+    {
+      "id": "SAT_89",
+      "headcode": "",
+      "operator": "",
+      "days": [
+        "SAT"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "SYB",
+          "arr": null,
+          "dep": 592
+        }
+      ]
+    },
+    {
+      "id": "SUN_90",
+      "headcode": "",
+      "operator": "TP",
+      "days": [
+        "SUN"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "SYB",
+          "arr": null,
+          "dep": 579
+        },
+        {
+          "station": "MCV",
+          "arr": 590,
+          "dep": null
+        },
+        {
+          "station": "MAN",
+          "arr": null,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "SUN_91",
+      "headcode": "",
+      "operator": "TP",
+      "days": [
+        "SUN"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "SYB",
+          "arr": null,
+          "dep": 583
+        },
+        {
+          "station": "MCV",
+          "arr": 594,
+          "dep": null
+        },
+        {
+          "station": "MAN",
+          "arr": null,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "SUN_92",
+      "headcode": "",
+      "operator": "TP",
+      "days": [
+        "SUN"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "SYB",
+          "arr": null,
+          "dep": 597
+        },
+        {
+          "station": "MCV",
+          "arr": 608,
+          "dep": null
+        },
+        {
+          "station": "MAN",
+          "arr": null,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "SUN_93",
+      "headcode": "",
+      "operator": "TP",
+      "days": [
+        "SUN"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "SYB",
+          "arr": null,
+          "dep": 623
+        },
+        {
+          "station": "MCV",
+          "arr": 652,
+          "dep": null
+        },
+        {
+          "station": "MAN",
+          "arr": null,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "SUN_94",
+      "headcode": "",
+      "operator": "TP",
+      "days": [
+        "SUN"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "SYB",
+          "arr": null,
+          "dep": 641
+        },
+        {
+          "station": "MCV",
+          "arr": 711,
+          "dep": null
+        },
+        {
+          "station": "MAN",
+          "arr": null,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "SUN_95",
+      "headcode": "",
+      "operator": "TP",
+      "days": [
+        "SUN"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "SYB",
+          "arr": null,
+          "dep": 683
+        },
+        {
+          "station": "MCV",
+          "arr": 773,
+          "dep": null
+        },
+        {
+          "station": "MAN",
+          "arr": null,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "SUN_96",
+      "headcode": "",
+      "operator": "TP",
+      "days": [
+        "SUN"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "SYB",
+          "arr": null,
+          "dep": 700
+        },
+        {
+          "station": "MCV",
+          "arr": 832,
+          "dep": null
+        },
+        {
+          "station": "MAN",
+          "arr": null,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "SUN_97",
+      "headcode": "",
+      "operator": "TP",
+      "days": [
+        "SUN"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "SYB",
+          "arr": null,
+          "dep": 745
+        },
+        {
+          "station": "MCV",
+          "arr": 892,
+          "dep": null
+        },
+        {
+          "station": "MAN",
+          "arr": null,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "SUN_98",
+      "headcode": "",
+      "operator": "TP",
+      "days": [
+        "SUN"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "SYB",
+          "arr": null,
+          "dep": 762
+        },
+        {
+          "station": "MCV",
+          "arr": 952,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "SUN_99",
+      "headcode": "",
+      "operator": "TP",
+      "days": [
+        "SUN"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "SYB",
+          "arr": null,
+          "dep": 803
+        },
+        {
+          "station": "MCV",
+          "arr": 1012,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "SUN_100",
+      "headcode": "",
+      "operator": "TP",
+      "days": [
+        "SUN"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "SYB",
+          "arr": null,
+          "dep": 821
+        }
+      ]
+    },
+    {
+      "id": "SUN_101",
+      "headcode": "",
+      "operator": "TP",
+      "days": [
+        "SUN"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "SYB",
+          "arr": null,
+          "dep": 863
+        }
+      ]
+    },
+    {
+      "id": "SUN_102",
+      "headcode": "",
+      "operator": "TP",
+      "days": [
+        "SUN"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "SYB",
+          "arr": null,
+          "dep": 881
+        }
+      ]
+    },
+    {
+      "id": "SUN_103",
+      "headcode": "",
+      "operator": "TP",
+      "days": [
+        "SUN"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "SYB",
+          "arr": null,
+          "dep": 923
+        }
+      ]
+    },
+    {
+      "id": "SUN_104",
+      "headcode": "",
+      "operator": "TP",
+      "days": [
+        "SUN"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "SYB",
+          "arr": null,
+          "dep": 940
+        }
+      ]
+    },
+    {
+      "id": "SUN_105",
+      "headcode": "",
+      "operator": "TP",
+      "days": [
+        "SUN"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "SYB",
+          "arr": null,
+          "dep": 983
+        }
+      ]
+    },
+    {
+      "id": "SUN_106",
+      "headcode": "",
+      "operator": "TP",
+      "days": [
+        "SUN"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "SYB",
+          "arr": null,
+          "dep": 1001
+        }
+      ]
+    },
+    {
+      "id": "SUN_107",
+      "headcode": "",
+      "operator": "",
+      "days": [
+        "SUN"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "SYB",
+          "arr": null,
+          "dep": 1043
+        }
+      ]
+    }
+  ]
+}

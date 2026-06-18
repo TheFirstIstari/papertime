@@ -1,0 +1,8937 @@
+{
+  "table": "092",
+  "route": "Route 092",
+  "route_id": "t092",
+  "stations": [
+    {
+      "name": "MAN",
+      "crs": "MAN",
+      "mileage": 0.0,
+      "type": "major"
+    },
+    {
+      "name": "SPT",
+      "crs": "SPT",
+      "mileage": 5.0,
+      "type": "major"
+    },
+    {
+      "name": "NVR",
+      "crs": "NVR",
+      "mileage": 10.0,
+      "type": "minor"
+    },
+    {
+      "name": "ALT",
+      "crs": "ALT",
+      "mileage": 15.0,
+      "type": "minor"
+    },
+    {
+      "name": "HAL",
+      "crs": "HAL",
+      "mileage": 20.0,
+      "type": "minor"
+    },
+    {
+      "name": "ASY",
+      "crs": "ASY",
+      "mileage": 25.0,
+      "type": "minor"
+    },
+    {
+      "name": "MOB",
+      "crs": "MOB",
+      "mileage": 30.0,
+      "type": "minor"
+    },
+    {
+      "name": "PLM",
+      "crs": "PLM",
+      "mileage": 35.0,
+      "type": "minor"
+    },
+    {
+      "name": "LTG",
+      "crs": "LTG",
+      "mileage": 40.0,
+      "type": "minor"
+    },
+    {
+      "name": "NWI",
+      "crs": "NWI",
+      "mileage": 45.0,
+      "type": "minor"
+    },
+    {
+      "name": "CUD",
+      "crs": "CUD",
+      "mileage": 50.0,
+      "type": "minor"
+    },
+    {
+      "name": "DLM",
+      "crs": "DLM",
+      "mileage": 55.0,
+      "type": "minor"
+    },
+    {
+      "name": "MLD",
+      "crs": "MLD",
+      "mileage": 60.0,
+      "type": "minor"
+    },
+    {
+      "name": "CTR",
+      "crs": "CTR",
+      "mileage": 65.0,
+      "type": "major"
+    }
+  ],
+  "services": [
+    {
+      "id": "MF_0",
+      "headcode": "",
+      "operator": "NT",
+      "days": [
+        "MF"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "MAN",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "SPT",
+          "arr": null,
+          "dep": 379
+        },
+        {
+          "station": "NVR",
+          "arr": null,
+          "dep": 394
+        },
+        {
+          "station": "ALT",
+          "arr": null,
+          "dep": 396
+        },
+        {
+          "station": "HAL",
+          "arr": null,
+          "dep": 399
+        },
+        {
+          "station": "ASY",
+          "arr": null,
+          "dep": 403
+        },
+        {
+          "station": "MOB",
+          "arr": null,
+          "dep": 407
+        },
+        {
+          "station": "PLM",
+          "arr": null,
+          "dep": 416
+        },
+        {
+          "station": "LTG",
+          "arr": null,
+          "dep": 420
+        },
+        {
+          "station": "NWI",
+          "arr": null,
+          "dep": 425
+        },
+        {
+          "station": "CUD",
+          "arr": null,
+          "dep": 436
+        },
+        {
+          "station": "DLM",
+          "arr": null,
+          "dep": 441
+        },
+        {
+          "station": "MLD",
+          "arr": null,
+          "dep": 447
+        },
+        {
+          "station": "CTR",
+          "arr": 459,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "MF_1",
+      "headcode": "",
+      "operator": "NT",
+      "days": [
+        "MF"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "MAN",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "SPT",
+          "arr": null,
+          "dep": 439
+        },
+        {
+          "station": "NVR",
+          "arr": null,
+          "dep": 453
+        },
+        {
+          "station": "ALT",
+          "arr": null,
+          "dep": 456
+        },
+        {
+          "station": "HAL",
+          "arr": null,
+          "dep": 459
+        },
+        {
+          "station": "ASY",
+          "arr": null,
+          "dep": 463
+        },
+        {
+          "station": "MOB",
+          "arr": null,
+          "dep": 467
+        },
+        {
+          "station": "PLM",
+          "arr": null,
+          "dep": 476
+        },
+        {
+          "station": "LTG",
+          "arr": null,
+          "dep": 480
+        },
+        {
+          "station": "NWI",
+          "arr": null,
+          "dep": 485
+        },
+        {
+          "station": "CUD",
+          "arr": null,
+          "dep": 496
+        },
+        {
+          "station": "DLM",
+          "arr": null,
+          "dep": 501
+        },
+        {
+          "station": "MLD",
+          "arr": null,
+          "dep": 506
+        },
+        {
+          "station": "CTR",
+          "arr": 517,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "MF_2",
+      "headcode": "",
+      "operator": "NT",
+      "days": [
+        "MF"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "MAN",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "SPT",
+          "arr": null,
+          "dep": 500
+        },
+        {
+          "station": "NVR",
+          "arr": null,
+          "dep": 514
+        },
+        {
+          "station": "ALT",
+          "arr": null,
+          "dep": 516
+        },
+        {
+          "station": "HAL",
+          "arr": null,
+          "dep": 519
+        },
+        {
+          "station": "ASY",
+          "arr": null,
+          "dep": 523
+        },
+        {
+          "station": "MOB",
+          "arr": null,
+          "dep": 527
+        },
+        {
+          "station": "PLM",
+          "arr": null,
+          "dep": 536
+        },
+        {
+          "station": "LTG",
+          "arr": null,
+          "dep": 540
+        },
+        {
+          "station": "NWI",
+          "arr": null,
+          "dep": 545
+        },
+        {
+          "station": "CUD",
+          "arr": null,
+          "dep": 556
+        },
+        {
+          "station": "DLM",
+          "arr": null,
+          "dep": 561
+        },
+        {
+          "station": "MLD",
+          "arr": null,
+          "dep": 566
+        },
+        {
+          "station": "CTR",
+          "arr": 577,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "MF_3",
+      "headcode": "",
+      "operator": "NT",
+      "days": [
+        "MF"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "MAN",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "SPT",
+          "arr": null,
+          "dep": 559
+        },
+        {
+          "station": "NVR",
+          "arr": null,
+          "dep": 574
+        },
+        {
+          "station": "ALT",
+          "arr": null,
+          "dep": 576
+        },
+        {
+          "station": "HAL",
+          "arr": null,
+          "dep": 579
+        },
+        {
+          "station": "ASY",
+          "arr": null,
+          "dep": 583
+        },
+        {
+          "station": "MOB",
+          "arr": null,
+          "dep": 587
+        },
+        {
+          "station": "PLM",
+          "arr": null,
+          "dep": 596
+        },
+        {
+          "station": "LTG",
+          "arr": null,
+          "dep": 600
+        },
+        {
+          "station": "NWI",
+          "arr": null,
+          "dep": 605
+        },
+        {
+          "station": "CUD",
+          "arr": null,
+          "dep": 616
+        },
+        {
+          "station": "DLM",
+          "arr": null,
+          "dep": 621
+        },
+        {
+          "station": "MLD",
+          "arr": null,
+          "dep": 626
+        },
+        {
+          "station": "CTR",
+          "arr": 637,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "MF_4",
+      "headcode": "",
+      "operator": "NT",
+      "days": [
+        "MF"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "MAN",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "SPT",
+          "arr": null,
+          "dep": 619
+        },
+        {
+          "station": "NVR",
+          "arr": null,
+          "dep": 634
+        },
+        {
+          "station": "ALT",
+          "arr": null,
+          "dep": 636
+        },
+        {
+          "station": "HAL",
+          "arr": null,
+          "dep": 639
+        },
+        {
+          "station": "ASY",
+          "arr": null,
+          "dep": 643
+        },
+        {
+          "station": "MOB",
+          "arr": null,
+          "dep": 648
+        },
+        {
+          "station": "PLM",
+          "arr": null,
+          "dep": 657
+        },
+        {
+          "station": "LTG",
+          "arr": null,
+          "dep": 661
+        },
+        {
+          "station": "NWI",
+          "arr": null,
+          "dep": 666
+        },
+        {
+          "station": "CUD",
+          "arr": null,
+          "dep": 677
+        },
+        {
+          "station": "DLM",
+          "arr": null,
+          "dep": 682
+        },
+        {
+          "station": "MLD",
+          "arr": null,
+          "dep": 687
+        },
+        {
+          "station": "CTR",
+          "arr": 699,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "MF_5",
+      "headcode": "",
+      "operator": "NT",
+      "days": [
+        "MF"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "MAN",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "SPT",
+          "arr": null,
+          "dep": 679
+        },
+        {
+          "station": "NVR",
+          "arr": null,
+          "dep": 694
+        },
+        {
+          "station": "ALT",
+          "arr": null,
+          "dep": 696
+        },
+        {
+          "station": "HAL",
+          "arr": null,
+          "dep": 699
+        },
+        {
+          "station": "ASY",
+          "arr": null,
+          "dep": 703
+        },
+        {
+          "station": "MOB",
+          "arr": null,
+          "dep": 707
+        },
+        {
+          "station": "PLM",
+          "arr": null,
+          "dep": 716
+        },
+        {
+          "station": "LTG",
+          "arr": null,
+          "dep": 720
+        },
+        {
+          "station": "NWI",
+          "arr": null,
+          "dep": 725
+        },
+        {
+          "station": "CUD",
+          "arr": null,
+          "dep": 736
+        },
+        {
+          "station": "DLM",
+          "arr": null,
+          "dep": 741
+        },
+        {
+          "station": "MLD",
+          "arr": null,
+          "dep": 746
+        },
+        {
+          "station": "CTR",
+          "arr": 757,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "MF_6",
+      "headcode": "",
+      "operator": "NT",
+      "days": [
+        "MF"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "MAN",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "SPT",
+          "arr": null,
+          "dep": 739
+        },
+        {
+          "station": "NVR",
+          "arr": null,
+          "dep": 754
+        },
+        {
+          "station": "ALT",
+          "arr": null,
+          "dep": 756
+        },
+        {
+          "station": "HAL",
+          "arr": null,
+          "dep": 759
+        },
+        {
+          "station": "ASY",
+          "arr": null,
+          "dep": 763
+        },
+        {
+          "station": "MOB",
+          "arr": null,
+          "dep": 767
+        },
+        {
+          "station": "PLM",
+          "arr": null,
+          "dep": 776
+        },
+        {
+          "station": "LTG",
+          "arr": null,
+          "dep": 780
+        },
+        {
+          "station": "NWI",
+          "arr": null,
+          "dep": 785
+        },
+        {
+          "station": "CUD",
+          "arr": null,
+          "dep": 796
+        },
+        {
+          "station": "DLM",
+          "arr": null,
+          "dep": 801
+        },
+        {
+          "station": "MLD",
+          "arr": null,
+          "dep": 806
+        },
+        {
+          "station": "CTR",
+          "arr": 817,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "MF_7",
+      "headcode": "",
+      "operator": "NT",
+      "days": [
+        "MF"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "MAN",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "SPT",
+          "arr": null,
+          "dep": 799
+        },
+        {
+          "station": "NVR",
+          "arr": null,
+          "dep": 814
+        },
+        {
+          "station": "ALT",
+          "arr": null,
+          "dep": 816
+        },
+        {
+          "station": "HAL",
+          "arr": null,
+          "dep": 819
+        },
+        {
+          "station": "ASY",
+          "arr": null,
+          "dep": 823
+        },
+        {
+          "station": "MOB",
+          "arr": null,
+          "dep": 827
+        },
+        {
+          "station": "PLM",
+          "arr": null,
+          "dep": 836
+        },
+        {
+          "station": "LTG",
+          "arr": null,
+          "dep": 840
+        },
+        {
+          "station": "NWI",
+          "arr": null,
+          "dep": 845
+        },
+        {
+          "station": "CUD",
+          "arr": null,
+          "dep": 856
+        },
+        {
+          "station": "DLM",
+          "arr": null,
+          "dep": 861
+        },
+        {
+          "station": "MLD",
+          "arr": null,
+          "dep": 866
+        },
+        {
+          "station": "CTR",
+          "arr": 879,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "MF_8",
+      "headcode": "",
+      "operator": "NT",
+      "days": [
+        "MF"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "MAN",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "SPT",
+          "arr": null,
+          "dep": 859
+        },
+        {
+          "station": "NVR",
+          "arr": null,
+          "dep": 874
+        },
+        {
+          "station": "ALT",
+          "arr": null,
+          "dep": 876
+        },
+        {
+          "station": "HAL",
+          "arr": null,
+          "dep": 879
+        },
+        {
+          "station": "ASY",
+          "arr": null,
+          "dep": 883
+        },
+        {
+          "station": "MOB",
+          "arr": null,
+          "dep": 887
+        },
+        {
+          "station": "PLM",
+          "arr": null,
+          "dep": 896
+        },
+        {
+          "station": "LTG",
+          "arr": null,
+          "dep": 900
+        },
+        {
+          "station": "NWI",
+          "arr": null,
+          "dep": 905
+        },
+        {
+          "station": "CUD",
+          "arr": null,
+          "dep": 916
+        },
+        {
+          "station": "DLM",
+          "arr": null,
+          "dep": 921
+        },
+        {
+          "station": "MLD",
+          "arr": null,
+          "dep": 926
+        },
+        {
+          "station": "CTR",
+          "arr": 937,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "MF_9",
+      "headcode": "",
+      "operator": "NT",
+      "days": [
+        "MF"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "MAN",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "SPT",
+          "arr": null,
+          "dep": 919
+        },
+        {
+          "station": "NVR",
+          "arr": null,
+          "dep": 934
+        },
+        {
+          "station": "ALT",
+          "arr": null,
+          "dep": 936
+        },
+        {
+          "station": "HAL",
+          "arr": null,
+          "dep": 939
+        },
+        {
+          "station": "ASY",
+          "arr": null,
+          "dep": 943
+        },
+        {
+          "station": "MOB",
+          "arr": null,
+          "dep": 947
+        },
+        {
+          "station": "PLM",
+          "arr": null,
+          "dep": 956
+        },
+        {
+          "station": "LTG",
+          "arr": null,
+          "dep": 960
+        },
+        {
+          "station": "NWI",
+          "arr": null,
+          "dep": 965
+        },
+        {
+          "station": "CUD",
+          "arr": null,
+          "dep": 976
+        },
+        {
+          "station": "DLM",
+          "arr": null,
+          "dep": 981
+        },
+        {
+          "station": "MLD",
+          "arr": null,
+          "dep": 986
+        },
+        {
+          "station": "CTR",
+          "arr": 997,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "MF_10",
+      "headcode": "",
+      "operator": "NT",
+      "days": [
+        "MF"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "MAN",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "SPT",
+          "arr": null,
+          "dep": 979
+        },
+        {
+          "station": "NVR",
+          "arr": null,
+          "dep": 994
+        },
+        {
+          "station": "ALT",
+          "arr": null,
+          "dep": 996
+        },
+        {
+          "station": "HAL",
+          "arr": null,
+          "dep": 999
+        },
+        {
+          "station": "ASY",
+          "arr": null,
+          "dep": 1003
+        },
+        {
+          "station": "MOB",
+          "arr": null,
+          "dep": 1007
+        },
+        {
+          "station": "PLM",
+          "arr": null,
+          "dep": 1016
+        },
+        {
+          "station": "LTG",
+          "arr": null,
+          "dep": 1020
+        },
+        {
+          "station": "NWI",
+          "arr": null,
+          "dep": 1025
+        },
+        {
+          "station": "CUD",
+          "arr": null,
+          "dep": 1036
+        },
+        {
+          "station": "DLM",
+          "arr": null,
+          "dep": 1041
+        },
+        {
+          "station": "MLD",
+          "arr": null,
+          "dep": 1046
+        },
+        {
+          "station": "CTR",
+          "arr": 1060,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "MF_11",
+      "headcode": "",
+      "operator": "NT",
+      "days": [
+        "MF"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "MAN",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "SPT",
+          "arr": null,
+          "dep": 1028
+        },
+        {
+          "station": "NVR",
+          "arr": null,
+          "dep": 1043
+        },
+        {
+          "station": "ALT",
+          "arr": null,
+          "dep": 1046
+        },
+        {
+          "station": "HAL",
+          "arr": null,
+          "dep": 1048
+        },
+        {
+          "station": "ASY",
+          "arr": null,
+          "dep": 1052
+        },
+        {
+          "station": "MOB",
+          "arr": null,
+          "dep": 1055
+        },
+        {
+          "station": "PLM",
+          "arr": null,
+          "dep": 1065
+        },
+        {
+          "station": "LTG",
+          "arr": null,
+          "dep": 1068
+        },
+        {
+          "station": "NWI",
+          "arr": null,
+          "dep": 1073
+        },
+        {
+          "station": "CUD",
+          "arr": null,
+          "dep": 1096
+        },
+        {
+          "station": "DLM",
+          "arr": null,
+          "dep": 1101
+        },
+        {
+          "station": "MLD",
+          "arr": null,
+          "dep": 1089
+        },
+        {
+          "station": "CTR",
+          "arr": 1100,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "MF_12",
+      "headcode": "",
+      "operator": "NT",
+      "days": [
+        "MF"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "MAN",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "SPT",
+          "arr": null,
+          "dep": 1039
+        },
+        {
+          "station": "NVR",
+          "arr": null,
+          "dep": 1054
+        },
+        {
+          "station": "ALT",
+          "arr": null,
+          "dep": 1057
+        },
+        {
+          "station": "HAL",
+          "arr": null,
+          "dep": 1060
+        },
+        {
+          "station": "ASY",
+          "arr": null,
+          "dep": 1064
+        },
+        {
+          "station": "MOB",
+          "arr": null,
+          "dep": 1068
+        },
+        {
+          "station": "PLM",
+          "arr": null,
+          "dep": 1078
+        },
+        {
+          "station": "LTG",
+          "arr": null,
+          "dep": 1081
+        },
+        {
+          "station": "NWI",
+          "arr": null,
+          "dep": 1086
+        },
+        {
+          "station": "CUD",
+          "arr": null,
+          "dep": 1131
+        },
+        {
+          "station": "DLM",
+          "arr": null,
+          "dep": 1136
+        },
+        {
+          "station": "MLD",
+          "arr": null,
+          "dep": 1106
+        },
+        {
+          "station": "CTR",
+          "arr": 1117,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "MF_13",
+      "headcode": "",
+      "operator": "NT",
+      "days": [
+        "MF"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "MAN",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "SPT",
+          "arr": null,
+          "dep": 1074
+        },
+        {
+          "station": "NVR",
+          "arr": null,
+          "dep": 1089
+        },
+        {
+          "station": "ALT",
+          "arr": null,
+          "dep": 1092
+        },
+        {
+          "station": "HAL",
+          "arr": null,
+          "dep": 1095
+        },
+        {
+          "station": "ASY",
+          "arr": null,
+          "dep": 1098
+        },
+        {
+          "station": "MOB",
+          "arr": null,
+          "dep": 1102
+        },
+        {
+          "station": "PLM",
+          "arr": null,
+          "dep": 1112
+        },
+        {
+          "station": "LTG",
+          "arr": null,
+          "dep": 1116
+        },
+        {
+          "station": "NWI",
+          "arr": null,
+          "dep": 1120
+        },
+        {
+          "station": "CUD",
+          "arr": null,
+          "dep": 1156
+        },
+        {
+          "station": "DLM",
+          "arr": null,
+          "dep": 1161
+        },
+        {
+          "station": "MLD",
+          "arr": null,
+          "dep": 1166
+        },
+        {
+          "station": "CTR",
+          "arr": 1160,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "MF_14",
+      "headcode": "",
+      "operator": "NT",
+      "days": [
+        "MF"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "MAN",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "SPT",
+          "arr": null,
+          "dep": 1099
+        },
+        {
+          "station": "NVR",
+          "arr": null,
+          "dep": 1114
+        },
+        {
+          "station": "ALT",
+          "arr": null,
+          "dep": 1116
+        },
+        {
+          "station": "HAL",
+          "arr": null,
+          "dep": 1119
+        },
+        {
+          "station": "ASY",
+          "arr": null,
+          "dep": 1123
+        },
+        {
+          "station": "MOB",
+          "arr": null,
+          "dep": 1127
+        },
+        {
+          "station": "PLM",
+          "arr": null,
+          "dep": 1136
+        },
+        {
+          "station": "LTG",
+          "arr": null,
+          "dep": 1140
+        },
+        {
+          "station": "NWI",
+          "arr": null,
+          "dep": 1145
+        },
+        {
+          "station": "CUD",
+          "arr": null,
+          "dep": 1217
+        },
+        {
+          "station": "DLM",
+          "arr": null,
+          "dep": 1222
+        },
+        {
+          "station": "MLD",
+          "arr": null,
+          "dep": 1227
+        },
+        {
+          "station": "CTR",
+          "arr": 1177,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "MF_15",
+      "headcode": "",
+      "operator": "NT",
+      "days": [
+        "MF"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "MAN",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "SPT",
+          "arr": null,
+          "dep": 1159
+        },
+        {
+          "station": "NVR",
+          "arr": null,
+          "dep": 1174
+        },
+        {
+          "station": "ALT",
+          "arr": null,
+          "dep": 1176
+        },
+        {
+          "station": "HAL",
+          "arr": null,
+          "dep": 1179
+        },
+        {
+          "station": "ASY",
+          "arr": null,
+          "dep": 1183
+        },
+        {
+          "station": "MOB",
+          "arr": null,
+          "dep": 1188
+        },
+        {
+          "station": "PLM",
+          "arr": null,
+          "dep": 1197
+        },
+        {
+          "station": "LTG",
+          "arr": null,
+          "dep": 1201
+        },
+        {
+          "station": "NWI",
+          "arr": null,
+          "dep": 1206
+        },
+        {
+          "station": "CUD",
+          "arr": null,
+          "dep": 1276
+        },
+        {
+          "station": "DLM",
+          "arr": null,
+          "dep": 1281
+        },
+        {
+          "station": "MLD",
+          "arr": null,
+          "dep": 1286
+        },
+        {
+          "station": "CTR",
+          "arr": 1238,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "MF_16",
+      "headcode": "",
+      "operator": "NT",
+      "days": [
+        "MF"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "SPT",
+          "arr": null,
+          "dep": 1219
+        },
+        {
+          "station": "NVR",
+          "arr": null,
+          "dep": 1234
+        },
+        {
+          "station": "ALT",
+          "arr": null,
+          "dep": 1236
+        },
+        {
+          "station": "HAL",
+          "arr": null,
+          "dep": 1239
+        },
+        {
+          "station": "ASY",
+          "arr": null,
+          "dep": 1243
+        },
+        {
+          "station": "MOB",
+          "arr": null,
+          "dep": 1247
+        },
+        {
+          "station": "PLM",
+          "arr": null,
+          "dep": 1256
+        },
+        {
+          "station": "LTG",
+          "arr": null,
+          "dep": 1260
+        },
+        {
+          "station": "NWI",
+          "arr": null,
+          "dep": 1265
+        },
+        {
+          "station": "CUD",
+          "arr": null,
+          "dep": 1337
+        },
+        {
+          "station": "DLM",
+          "arr": null,
+          "dep": 1342
+        },
+        {
+          "station": "MLD",
+          "arr": null,
+          "dep": 1347
+        },
+        {
+          "station": "CTR",
+          "arr": 1297,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "MF_17",
+      "headcode": "",
+      "operator": "",
+      "days": [
+        "MF"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "SPT",
+          "arr": null,
+          "dep": 1279
+        },
+        {
+          "station": "NVR",
+          "arr": null,
+          "dep": 1294
+        },
+        {
+          "station": "ALT",
+          "arr": null,
+          "dep": 1296
+        },
+        {
+          "station": "HAL",
+          "arr": null,
+          "dep": 1299
+        },
+        {
+          "station": "ASY",
+          "arr": null,
+          "dep": 1303
+        },
+        {
+          "station": "MOB",
+          "arr": null,
+          "dep": 1308
+        },
+        {
+          "station": "PLM",
+          "arr": null,
+          "dep": 1317
+        },
+        {
+          "station": "LTG",
+          "arr": null,
+          "dep": 1321
+        },
+        {
+          "station": "NWI",
+          "arr": null,
+          "dep": 1326
+        },
+        {
+          "station": "CTR",
+          "arr": 1358,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "MF_18",
+      "headcode": "",
+      "operator": "",
+      "days": [
+        "MF"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "MOB",
+          "arr": null,
+          "dep": 412
+        },
+        {
+          "station": "NWI",
+          "arr": null,
+          "dep": 430
+        }
+      ]
+    },
+    {
+      "id": "MF_19",
+      "headcode": "",
+      "operator": "",
+      "days": [
+        "MF"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "MOB",
+          "arr": null,
+          "dep": 472
+        },
+        {
+          "station": "NWI",
+          "arr": null,
+          "dep": 490
+        }
+      ]
+    },
+    {
+      "id": "MF_20",
+      "headcode": "",
+      "operator": "",
+      "days": [
+        "MF"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "MOB",
+          "arr": null,
+          "dep": 532
+        },
+        {
+          "station": "NWI",
+          "arr": null,
+          "dep": 550
+        }
+      ]
+    },
+    {
+      "id": "MF_21",
+      "headcode": "",
+      "operator": "",
+      "days": [
+        "MF"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "MOB",
+          "arr": null,
+          "dep": 592
+        },
+        {
+          "station": "NWI",
+          "arr": null,
+          "dep": 610
+        }
+      ]
+    },
+    {
+      "id": "MF_22",
+      "headcode": "",
+      "operator": "",
+      "days": [
+        "MF"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "MOB",
+          "arr": null,
+          "dep": 653
+        },
+        {
+          "station": "NWI",
+          "arr": null,
+          "dep": 671
+        }
+      ]
+    },
+    {
+      "id": "MF_23",
+      "headcode": "",
+      "operator": "",
+      "days": [
+        "MF"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "MOB",
+          "arr": null,
+          "dep": 712
+        },
+        {
+          "station": "NWI",
+          "arr": null,
+          "dep": 730
+        }
+      ]
+    },
+    {
+      "id": "MF_24",
+      "headcode": "",
+      "operator": "",
+      "days": [
+        "MF"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "MOB",
+          "arr": null,
+          "dep": 772
+        },
+        {
+          "station": "NWI",
+          "arr": null,
+          "dep": 790
+        }
+      ]
+    },
+    {
+      "id": "MF_25",
+      "headcode": "",
+      "operator": "",
+      "days": [
+        "MF"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "MOB",
+          "arr": null,
+          "dep": 832
+        },
+        {
+          "station": "NWI",
+          "arr": null,
+          "dep": 850
+        }
+      ]
+    },
+    {
+      "id": "MF_26",
+      "headcode": "",
+      "operator": "",
+      "days": [
+        "MF"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "MOB",
+          "arr": null,
+          "dep": 892
+        },
+        {
+          "station": "NWI",
+          "arr": null,
+          "dep": 910
+        }
+      ]
+    },
+    {
+      "id": "MF_27",
+      "headcode": "",
+      "operator": "",
+      "days": [
+        "MF"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "MOB",
+          "arr": null,
+          "dep": 952
+        },
+        {
+          "station": "NWI",
+          "arr": null,
+          "dep": 970
+        }
+      ]
+    },
+    {
+      "id": "MF_28",
+      "headcode": "",
+      "operator": "",
+      "days": [
+        "MF"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "MOB",
+          "arr": null,
+          "dep": 1012
+        },
+        {
+          "station": "NWI",
+          "arr": null,
+          "dep": 1030
+        }
+      ]
+    },
+    {
+      "id": "MF_29",
+      "headcode": "",
+      "operator": "",
+      "days": [
+        "MF"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "MOB",
+          "arr": null,
+          "dep": 1060
+        },
+        {
+          "station": "NWI",
+          "arr": null,
+          "dep": 1078
+        }
+      ]
+    },
+    {
+      "id": "MF_30",
+      "headcode": "",
+      "operator": "",
+      "days": [
+        "MF"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "MOB",
+          "arr": null,
+          "dep": 1073
+        },
+        {
+          "station": "NWI",
+          "arr": null,
+          "dep": 1091
+        }
+      ]
+    },
+    {
+      "id": "MF_31",
+      "headcode": "",
+      "operator": "",
+      "days": [
+        "MF"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "MOB",
+          "arr": null,
+          "dep": 1107
+        },
+        {
+          "station": "NWI",
+          "arr": null,
+          "dep": 1126
+        }
+      ]
+    },
+    {
+      "id": "MF_32",
+      "headcode": "",
+      "operator": "",
+      "days": [
+        "MF"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "MOB",
+          "arr": null,
+          "dep": 1132
+        },
+        {
+          "station": "NWI",
+          "arr": null,
+          "dep": 1150
+        }
+      ]
+    },
+    {
+      "id": "MF_33",
+      "headcode": "",
+      "operator": "",
+      "days": [
+        "MF"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "MOB",
+          "arr": null,
+          "dep": 1193
+        },
+        {
+          "station": "NWI",
+          "arr": null,
+          "dep": 1211
+        }
+      ]
+    },
+    {
+      "id": "MF_34",
+      "headcode": "",
+      "operator": "",
+      "days": [
+        "MF"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "MOB",
+          "arr": null,
+          "dep": 1252
+        },
+        {
+          "station": "NWI",
+          "arr": null,
+          "dep": 1270
+        }
+      ]
+    },
+    {
+      "id": "MF_35",
+      "headcode": "",
+      "operator": "",
+      "days": [
+        "MF"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "MOB",
+          "arr": null,
+          "dep": 1313
+        },
+        {
+          "station": "NWI",
+          "arr": null,
+          "dep": 1331
+        }
+      ]
+    },
+    {
+      "id": "SAT_36",
+      "headcode": "",
+      "operator": "NT",
+      "days": [
+        "SAT"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "MAN",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "SPT",
+          "arr": null,
+          "dep": 375
+        },
+        {
+          "station": "NVR",
+          "arr": null,
+          "dep": 390
+        },
+        {
+          "station": "ALT",
+          "arr": null,
+          "dep": 392
+        },
+        {
+          "station": "HAL",
+          "arr": null,
+          "dep": 395
+        },
+        {
+          "station": "ASY",
+          "arr": null,
+          "dep": 398
+        },
+        {
+          "station": "MOB",
+          "arr": null,
+          "dep": 402
+        },
+        {
+          "station": "PLM",
+          "arr": null,
+          "dep": 412
+        },
+        {
+          "station": "LTG",
+          "arr": null,
+          "dep": 416
+        },
+        {
+          "station": "NWI",
+          "arr": null,
+          "dep": 420
+        },
+        {
+          "station": "CUD",
+          "arr": null,
+          "dep": 430
+        },
+        {
+          "station": "DLM",
+          "arr": null,
+          "dep": 435
+        },
+        {
+          "station": "MLD",
+          "arr": null,
+          "dep": 440
+        },
+        {
+          "station": "CTR",
+          "arr": 451,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "SAT_37",
+      "headcode": "",
+      "operator": "NT",
+      "days": [
+        "SAT"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "MAN",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "SPT",
+          "arr": null,
+          "dep": 439
+        },
+        {
+          "station": "NVR",
+          "arr": null,
+          "dep": 453
+        },
+        {
+          "station": "ALT",
+          "arr": null,
+          "dep": 456
+        },
+        {
+          "station": "HAL",
+          "arr": null,
+          "dep": 459
+        },
+        {
+          "station": "ASY",
+          "arr": null,
+          "dep": 463
+        },
+        {
+          "station": "MOB",
+          "arr": null,
+          "dep": 467
+        },
+        {
+          "station": "PLM",
+          "arr": null,
+          "dep": 476
+        },
+        {
+          "station": "LTG",
+          "arr": null,
+          "dep": 480
+        },
+        {
+          "station": "NWI",
+          "arr": null,
+          "dep": 485
+        },
+        {
+          "station": "CUD",
+          "arr": null,
+          "dep": 496
+        },
+        {
+          "station": "DLM",
+          "arr": null,
+          "dep": 501
+        },
+        {
+          "station": "MLD",
+          "arr": null,
+          "dep": 506
+        },
+        {
+          "station": "CTR",
+          "arr": 517,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "SAT_38",
+      "headcode": "",
+      "operator": "NT",
+      "days": [
+        "SAT"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "MAN",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "SPT",
+          "arr": null,
+          "dep": 500
+        },
+        {
+          "station": "NVR",
+          "arr": null,
+          "dep": 514
+        },
+        {
+          "station": "ALT",
+          "arr": null,
+          "dep": 516
+        },
+        {
+          "station": "HAL",
+          "arr": null,
+          "dep": 519
+        },
+        {
+          "station": "ASY",
+          "arr": null,
+          "dep": 523
+        },
+        {
+          "station": "MOB",
+          "arr": null,
+          "dep": 527
+        },
+        {
+          "station": "PLM",
+          "arr": null,
+          "dep": 536
+        },
+        {
+          "station": "LTG",
+          "arr": null,
+          "dep": 540
+        },
+        {
+          "station": "NWI",
+          "arr": null,
+          "dep": 545
+        },
+        {
+          "station": "CUD",
+          "arr": null,
+          "dep": 556
+        },
+        {
+          "station": "DLM",
+          "arr": null,
+          "dep": 561
+        },
+        {
+          "station": "MLD",
+          "arr": null,
+          "dep": 566
+        },
+        {
+          "station": "CTR",
+          "arr": 577,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "SAT_39",
+      "headcode": "",
+      "operator": "NT",
+      "days": [
+        "SAT"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "MAN",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "SPT",
+          "arr": null,
+          "dep": 559
+        },
+        {
+          "station": "NVR",
+          "arr": null,
+          "dep": 574
+        },
+        {
+          "station": "ALT",
+          "arr": null,
+          "dep": 576
+        },
+        {
+          "station": "HAL",
+          "arr": null,
+          "dep": 579
+        },
+        {
+          "station": "ASY",
+          "arr": null,
+          "dep": 583
+        },
+        {
+          "station": "MOB",
+          "arr": null,
+          "dep": 587
+        },
+        {
+          "station": "PLM",
+          "arr": null,
+          "dep": 596
+        },
+        {
+          "station": "LTG",
+          "arr": null,
+          "dep": 600
+        },
+        {
+          "station": "NWI",
+          "arr": null,
+          "dep": 605
+        },
+        {
+          "station": "CUD",
+          "arr": null,
+          "dep": 616
+        },
+        {
+          "station": "DLM",
+          "arr": null,
+          "dep": 621
+        },
+        {
+          "station": "MLD",
+          "arr": null,
+          "dep": 626
+        },
+        {
+          "station": "CTR",
+          "arr": 637,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "SAT_40",
+      "headcode": "",
+      "operator": "NT",
+      "days": [
+        "SAT"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "MAN",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "SPT",
+          "arr": null,
+          "dep": 619
+        },
+        {
+          "station": "NVR",
+          "arr": null,
+          "dep": 634
+        },
+        {
+          "station": "ALT",
+          "arr": null,
+          "dep": 636
+        },
+        {
+          "station": "HAL",
+          "arr": null,
+          "dep": 639
+        },
+        {
+          "station": "ASY",
+          "arr": null,
+          "dep": 643
+        },
+        {
+          "station": "MOB",
+          "arr": null,
+          "dep": 648
+        },
+        {
+          "station": "PLM",
+          "arr": null,
+          "dep": 657
+        },
+        {
+          "station": "LTG",
+          "arr": null,
+          "dep": 661
+        },
+        {
+          "station": "NWI",
+          "arr": null,
+          "dep": 666
+        },
+        {
+          "station": "CUD",
+          "arr": null,
+          "dep": 677
+        },
+        {
+          "station": "DLM",
+          "arr": null,
+          "dep": 682
+        },
+        {
+          "station": "MLD",
+          "arr": null,
+          "dep": 687
+        },
+        {
+          "station": "CTR",
+          "arr": 699,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "SAT_41",
+      "headcode": "",
+      "operator": "NT",
+      "days": [
+        "SAT"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "MAN",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "SPT",
+          "arr": null,
+          "dep": 679
+        },
+        {
+          "station": "NVR",
+          "arr": null,
+          "dep": 694
+        },
+        {
+          "station": "ALT",
+          "arr": null,
+          "dep": 696
+        },
+        {
+          "station": "HAL",
+          "arr": null,
+          "dep": 699
+        },
+        {
+          "station": "ASY",
+          "arr": null,
+          "dep": 703
+        },
+        {
+          "station": "MOB",
+          "arr": null,
+          "dep": 707
+        },
+        {
+          "station": "PLM",
+          "arr": null,
+          "dep": 716
+        },
+        {
+          "station": "LTG",
+          "arr": null,
+          "dep": 720
+        },
+        {
+          "station": "NWI",
+          "arr": null,
+          "dep": 725
+        },
+        {
+          "station": "CUD",
+          "arr": null,
+          "dep": 736
+        },
+        {
+          "station": "DLM",
+          "arr": null,
+          "dep": 741
+        },
+        {
+          "station": "MLD",
+          "arr": null,
+          "dep": 746
+        },
+        {
+          "station": "CTR",
+          "arr": 757,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "SAT_42",
+      "headcode": "",
+      "operator": "NT",
+      "days": [
+        "SAT"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "MAN",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "SPT",
+          "arr": null,
+          "dep": 739
+        },
+        {
+          "station": "NVR",
+          "arr": null,
+          "dep": 754
+        },
+        {
+          "station": "ALT",
+          "arr": null,
+          "dep": 756
+        },
+        {
+          "station": "HAL",
+          "arr": null,
+          "dep": 759
+        },
+        {
+          "station": "ASY",
+          "arr": null,
+          "dep": 763
+        },
+        {
+          "station": "MOB",
+          "arr": null,
+          "dep": 767
+        },
+        {
+          "station": "PLM",
+          "arr": null,
+          "dep": 776
+        },
+        {
+          "station": "LTG",
+          "arr": null,
+          "dep": 780
+        },
+        {
+          "station": "NWI",
+          "arr": null,
+          "dep": 785
+        },
+        {
+          "station": "CUD",
+          "arr": null,
+          "dep": 796
+        },
+        {
+          "station": "DLM",
+          "arr": null,
+          "dep": 801
+        },
+        {
+          "station": "MLD",
+          "arr": null,
+          "dep": 806
+        },
+        {
+          "station": "CTR",
+          "arr": 817,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "SAT_43",
+      "headcode": "",
+      "operator": "NT",
+      "days": [
+        "SAT"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "MAN",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "SPT",
+          "arr": null,
+          "dep": 799
+        },
+        {
+          "station": "NVR",
+          "arr": null,
+          "dep": 814
+        },
+        {
+          "station": "ALT",
+          "arr": null,
+          "dep": 816
+        },
+        {
+          "station": "HAL",
+          "arr": null,
+          "dep": 819
+        },
+        {
+          "station": "ASY",
+          "arr": null,
+          "dep": 823
+        },
+        {
+          "station": "MOB",
+          "arr": null,
+          "dep": 827
+        },
+        {
+          "station": "PLM",
+          "arr": null,
+          "dep": 836
+        },
+        {
+          "station": "LTG",
+          "arr": null,
+          "dep": 840
+        },
+        {
+          "station": "NWI",
+          "arr": null,
+          "dep": 845
+        },
+        {
+          "station": "CUD",
+          "arr": null,
+          "dep": 856
+        },
+        {
+          "station": "DLM",
+          "arr": null,
+          "dep": 861
+        },
+        {
+          "station": "MLD",
+          "arr": null,
+          "dep": 866
+        },
+        {
+          "station": "CTR",
+          "arr": 879,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "SAT_44",
+      "headcode": "",
+      "operator": "NT",
+      "days": [
+        "SAT"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "MAN",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "SPT",
+          "arr": null,
+          "dep": 859
+        },
+        {
+          "station": "NVR",
+          "arr": null,
+          "dep": 874
+        },
+        {
+          "station": "ALT",
+          "arr": null,
+          "dep": 876
+        },
+        {
+          "station": "HAL",
+          "arr": null,
+          "dep": 879
+        },
+        {
+          "station": "ASY",
+          "arr": null,
+          "dep": 883
+        },
+        {
+          "station": "MOB",
+          "arr": null,
+          "dep": 887
+        },
+        {
+          "station": "PLM",
+          "arr": null,
+          "dep": 896
+        },
+        {
+          "station": "LTG",
+          "arr": null,
+          "dep": 900
+        },
+        {
+          "station": "NWI",
+          "arr": null,
+          "dep": 905
+        },
+        {
+          "station": "CUD",
+          "arr": null,
+          "dep": 916
+        },
+        {
+          "station": "DLM",
+          "arr": null,
+          "dep": 921
+        },
+        {
+          "station": "MLD",
+          "arr": null,
+          "dep": 926
+        },
+        {
+          "station": "CTR",
+          "arr": 937,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "SAT_45",
+      "headcode": "",
+      "operator": "NT",
+      "days": [
+        "SAT"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "MAN",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "SPT",
+          "arr": null,
+          "dep": 919
+        },
+        {
+          "station": "NVR",
+          "arr": null,
+          "dep": 934
+        },
+        {
+          "station": "ALT",
+          "arr": null,
+          "dep": 936
+        },
+        {
+          "station": "HAL",
+          "arr": null,
+          "dep": 939
+        },
+        {
+          "station": "ASY",
+          "arr": null,
+          "dep": 943
+        },
+        {
+          "station": "MOB",
+          "arr": null,
+          "dep": 947
+        },
+        {
+          "station": "PLM",
+          "arr": null,
+          "dep": 956
+        },
+        {
+          "station": "LTG",
+          "arr": null,
+          "dep": 960
+        },
+        {
+          "station": "NWI",
+          "arr": null,
+          "dep": 965
+        },
+        {
+          "station": "CUD",
+          "arr": null,
+          "dep": 976
+        },
+        {
+          "station": "DLM",
+          "arr": null,
+          "dep": 981
+        },
+        {
+          "station": "MLD",
+          "arr": null,
+          "dep": 986
+        },
+        {
+          "station": "CTR",
+          "arr": 997,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "SAT_46",
+      "headcode": "",
+      "operator": "NT",
+      "days": [
+        "SAT"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "MAN",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "SPT",
+          "arr": null,
+          "dep": 979
+        },
+        {
+          "station": "NVR",
+          "arr": null,
+          "dep": 994
+        },
+        {
+          "station": "ALT",
+          "arr": null,
+          "dep": 996
+        },
+        {
+          "station": "HAL",
+          "arr": null,
+          "dep": 999
+        },
+        {
+          "station": "ASY",
+          "arr": null,
+          "dep": 1003
+        },
+        {
+          "station": "MOB",
+          "arr": null,
+          "dep": 1007
+        },
+        {
+          "station": "PLM",
+          "arr": null,
+          "dep": 1016
+        },
+        {
+          "station": "LTG",
+          "arr": null,
+          "dep": 1020
+        },
+        {
+          "station": "NWI",
+          "arr": null,
+          "dep": 1025
+        },
+        {
+          "station": "CUD",
+          "arr": null,
+          "dep": 1036
+        },
+        {
+          "station": "DLM",
+          "arr": null,
+          "dep": 1041
+        },
+        {
+          "station": "MLD",
+          "arr": null,
+          "dep": 1046
+        },
+        {
+          "station": "CTR",
+          "arr": 1060,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "SAT_47",
+      "headcode": "",
+      "operator": "NT",
+      "days": [
+        "SAT"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "MAN",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "SPT",
+          "arr": null,
+          "dep": 1039
+        },
+        {
+          "station": "NVR",
+          "arr": null,
+          "dep": 1054
+        },
+        {
+          "station": "ALT",
+          "arr": null,
+          "dep": 1057
+        },
+        {
+          "station": "HAL",
+          "arr": null,
+          "dep": 1060
+        },
+        {
+          "station": "ASY",
+          "arr": null,
+          "dep": 1064
+        },
+        {
+          "station": "MOB",
+          "arr": null,
+          "dep": 1068
+        },
+        {
+          "station": "PLM",
+          "arr": null,
+          "dep": 1078
+        },
+        {
+          "station": "LTG",
+          "arr": null,
+          "dep": 1081
+        },
+        {
+          "station": "NWI",
+          "arr": null,
+          "dep": 1086
+        },
+        {
+          "station": "CUD",
+          "arr": null,
+          "dep": 1096
+        },
+        {
+          "station": "DLM",
+          "arr": null,
+          "dep": 1101
+        },
+        {
+          "station": "MLD",
+          "arr": null,
+          "dep": 1106
+        },
+        {
+          "station": "CTR",
+          "arr": 1117,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "SAT_48",
+      "headcode": "",
+      "operator": "NT",
+      "days": [
+        "SAT"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "MAN",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "SPT",
+          "arr": null,
+          "dep": 1099
+        },
+        {
+          "station": "NVR",
+          "arr": null,
+          "dep": 1114
+        },
+        {
+          "station": "ALT",
+          "arr": null,
+          "dep": 1116
+        },
+        {
+          "station": "HAL",
+          "arr": null,
+          "dep": 1119
+        },
+        {
+          "station": "ASY",
+          "arr": null,
+          "dep": 1123
+        },
+        {
+          "station": "MOB",
+          "arr": null,
+          "dep": 1127
+        },
+        {
+          "station": "PLM",
+          "arr": null,
+          "dep": 1136
+        },
+        {
+          "station": "LTG",
+          "arr": null,
+          "dep": 1140
+        },
+        {
+          "station": "NWI",
+          "arr": null,
+          "dep": 1145
+        },
+        {
+          "station": "CUD",
+          "arr": null,
+          "dep": 1156
+        },
+        {
+          "station": "DLM",
+          "arr": null,
+          "dep": 1161
+        },
+        {
+          "station": "MLD",
+          "arr": null,
+          "dep": 1166
+        },
+        {
+          "station": "CTR",
+          "arr": 1177,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "SAT_49",
+      "headcode": "",
+      "operator": "NT",
+      "days": [
+        "SAT"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "MAN",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "SPT",
+          "arr": null,
+          "dep": 1159
+        },
+        {
+          "station": "NVR",
+          "arr": null,
+          "dep": 1174
+        },
+        {
+          "station": "ALT",
+          "arr": null,
+          "dep": 1176
+        },
+        {
+          "station": "HAL",
+          "arr": null,
+          "dep": 1179
+        },
+        {
+          "station": "ASY",
+          "arr": null,
+          "dep": 1183
+        },
+        {
+          "station": "MOB",
+          "arr": null,
+          "dep": 1188
+        },
+        {
+          "station": "PLM",
+          "arr": null,
+          "dep": 1197
+        },
+        {
+          "station": "LTG",
+          "arr": null,
+          "dep": 1201
+        },
+        {
+          "station": "NWI",
+          "arr": null,
+          "dep": 1206
+        },
+        {
+          "station": "CUD",
+          "arr": null,
+          "dep": 1217
+        },
+        {
+          "station": "DLM",
+          "arr": null,
+          "dep": 1222
+        },
+        {
+          "station": "MLD",
+          "arr": null,
+          "dep": 1227
+        },
+        {
+          "station": "CTR",
+          "arr": 1238,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "SAT_50",
+      "headcode": "",
+      "operator": "NT",
+      "days": [
+        "SAT"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "MAN",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "SPT",
+          "arr": null,
+          "dep": 1219
+        },
+        {
+          "station": "NVR",
+          "arr": null,
+          "dep": 1234
+        },
+        {
+          "station": "ALT",
+          "arr": null,
+          "dep": 1236
+        },
+        {
+          "station": "HAL",
+          "arr": null,
+          "dep": 1239
+        },
+        {
+          "station": "ASY",
+          "arr": null,
+          "dep": 1243
+        },
+        {
+          "station": "MOB",
+          "arr": null,
+          "dep": 1247
+        },
+        {
+          "station": "PLM",
+          "arr": null,
+          "dep": 1256
+        },
+        {
+          "station": "LTG",
+          "arr": null,
+          "dep": 1260
+        },
+        {
+          "station": "NWI",
+          "arr": null,
+          "dep": 1265
+        },
+        {
+          "station": "CUD",
+          "arr": null,
+          "dep": 1276
+        },
+        {
+          "station": "DLM",
+          "arr": null,
+          "dep": 1281
+        },
+        {
+          "station": "MLD",
+          "arr": null,
+          "dep": 1286
+        },
+        {
+          "station": "CTR",
+          "arr": 1297,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "SAT_51",
+      "headcode": "",
+      "operator": "NT",
+      "days": [
+        "SAT"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "MAN",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "SPT",
+          "arr": null,
+          "dep": 1279
+        },
+        {
+          "station": "NVR",
+          "arr": null,
+          "dep": 1294
+        },
+        {
+          "station": "ALT",
+          "arr": null,
+          "dep": 1296
+        },
+        {
+          "station": "HAL",
+          "arr": null,
+          "dep": 1299
+        },
+        {
+          "station": "ASY",
+          "arr": null,
+          "dep": 1303
+        },
+        {
+          "station": "MOB",
+          "arr": null,
+          "dep": 1308
+        },
+        {
+          "station": "PLM",
+          "arr": null,
+          "dep": 1317
+        },
+        {
+          "station": "LTG",
+          "arr": null,
+          "dep": 1321
+        },
+        {
+          "station": "NWI",
+          "arr": null,
+          "dep": 1326
+        },
+        {
+          "station": "CUD",
+          "arr": null,
+          "dep": 1337
+        },
+        {
+          "station": "DLM",
+          "arr": null,
+          "dep": 1342
+        },
+        {
+          "station": "MLD",
+          "arr": null,
+          "dep": 1347
+        },
+        {
+          "station": "CTR",
+          "arr": 1358,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "SAT_52",
+      "headcode": "",
+      "operator": "NT",
+      "days": [
+        "SAT"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "MAN",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "SPT",
+          "arr": null,
+          "dep": 1339
+        },
+        {
+          "station": "NVR",
+          "arr": null,
+          "dep": 1354
+        },
+        {
+          "station": "ALT",
+          "arr": null,
+          "dep": 1356
+        },
+        {
+          "station": "HAL",
+          "arr": null,
+          "dep": 1359
+        },
+        {
+          "station": "ASY",
+          "arr": null,
+          "dep": 1363
+        },
+        {
+          "station": "MOB",
+          "arr": null,
+          "dep": 1367
+        },
+        {
+          "station": "PLM",
+          "arr": null,
+          "dep": 1376
+        },
+        {
+          "station": "LTG",
+          "arr": null,
+          "dep": 1380
+        },
+        {
+          "station": "NWI",
+          "arr": null,
+          "dep": 1385
+        },
+        {
+          "station": "CUD",
+          "arr": null,
+          "dep": 1396
+        },
+        {
+          "station": "DLM",
+          "arr": null,
+          "dep": 1401
+        },
+        {
+          "station": "MLD",
+          "arr": null,
+          "dep": 1406
+        },
+        {
+          "station": "CTR",
+          "arr": 1417,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "SAT_53",
+      "headcode": "",
+      "operator": "",
+      "days": [
+        "SAT"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "MAN",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "SPT",
+          "arr": null,
+          "dep": 1409
+        },
+        {
+          "station": "NVR",
+          "arr": null,
+          "dep": 1425
+        },
+        {
+          "station": "ALT",
+          "arr": null,
+          "dep": 1427
+        },
+        {
+          "station": "HAL",
+          "arr": null,
+          "dep": 1430
+        },
+        {
+          "station": "ASY",
+          "arr": null,
+          "dep": 1434
+        },
+        {
+          "station": "MOB",
+          "arr": null,
+          "dep": 1437
+        },
+        {
+          "station": "PLM",
+          "arr": null,
+          "dep": 7
+        },
+        {
+          "station": "LTG",
+          "arr": null,
+          "dep": 11
+        },
+        {
+          "station": "NWI",
+          "arr": null,
+          "dep": 15
+        },
+        {
+          "station": "CUD",
+          "arr": null,
+          "dep": 26
+        },
+        {
+          "station": "DLM",
+          "arr": null,
+          "dep": 31
+        },
+        {
+          "station": "MLD",
+          "arr": null,
+          "dep": 36
+        },
+        {
+          "station": "CTR",
+          "arr": 47,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "SAT_54",
+      "headcode": "",
+      "operator": "",
+      "days": [
+        "SAT"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "MOB",
+          "arr": null,
+          "dep": 407
+        },
+        {
+          "station": "NWI",
+          "arr": null,
+          "dep": 425
+        }
+      ]
+    },
+    {
+      "id": "SAT_55",
+      "headcode": "",
+      "operator": "",
+      "days": [
+        "SAT"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "MOB",
+          "arr": null,
+          "dep": 472
+        },
+        {
+          "station": "NWI",
+          "arr": null,
+          "dep": 490
+        }
+      ]
+    },
+    {
+      "id": "SAT_56",
+      "headcode": "",
+      "operator": "",
+      "days": [
+        "SAT"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "MOB",
+          "arr": null,
+          "dep": 532
+        },
+        {
+          "station": "NWI",
+          "arr": null,
+          "dep": 550
+        }
+      ]
+    },
+    {
+      "id": "SAT_57",
+      "headcode": "",
+      "operator": "",
+      "days": [
+        "SAT"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "MOB",
+          "arr": null,
+          "dep": 592
+        },
+        {
+          "station": "NWI",
+          "arr": null,
+          "dep": 610
+        }
+      ]
+    },
+    {
+      "id": "SAT_58",
+      "headcode": "",
+      "operator": "",
+      "days": [
+        "SAT"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "MOB",
+          "arr": null,
+          "dep": 653
+        },
+        {
+          "station": "NWI",
+          "arr": null,
+          "dep": 671
+        }
+      ]
+    },
+    {
+      "id": "SAT_59",
+      "headcode": "",
+      "operator": "",
+      "days": [
+        "SAT"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "MOB",
+          "arr": null,
+          "dep": 712
+        },
+        {
+          "station": "NWI",
+          "arr": null,
+          "dep": 730
+        }
+      ]
+    },
+    {
+      "id": "SAT_60",
+      "headcode": "",
+      "operator": "",
+      "days": [
+        "SAT"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "MOB",
+          "arr": null,
+          "dep": 772
+        },
+        {
+          "station": "NWI",
+          "arr": null,
+          "dep": 790
+        }
+      ]
+    },
+    {
+      "id": "SAT_61",
+      "headcode": "",
+      "operator": "",
+      "days": [
+        "SAT"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "MOB",
+          "arr": null,
+          "dep": 832
+        },
+        {
+          "station": "NWI",
+          "arr": null,
+          "dep": 850
+        }
+      ]
+    },
+    {
+      "id": "SAT_62",
+      "headcode": "",
+      "operator": "",
+      "days": [
+        "SAT"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "MOB",
+          "arr": null,
+          "dep": 892
+        },
+        {
+          "station": "NWI",
+          "arr": null,
+          "dep": 910
+        }
+      ]
+    },
+    {
+      "id": "SAT_63",
+      "headcode": "",
+      "operator": "",
+      "days": [
+        "SAT"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "MOB",
+          "arr": null,
+          "dep": 952
+        },
+        {
+          "station": "NWI",
+          "arr": null,
+          "dep": 970
+        }
+      ]
+    },
+    {
+      "id": "SAT_64",
+      "headcode": "",
+      "operator": "",
+      "days": [
+        "SAT"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "MOB",
+          "arr": null,
+          "dep": 1012
+        },
+        {
+          "station": "NWI",
+          "arr": null,
+          "dep": 1030
+        }
+      ]
+    },
+    {
+      "id": "SAT_65",
+      "headcode": "",
+      "operator": "",
+      "days": [
+        "SAT"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "MOB",
+          "arr": null,
+          "dep": 1073
+        },
+        {
+          "station": "NWI",
+          "arr": null,
+          "dep": 1091
+        }
+      ]
+    },
+    {
+      "id": "SAT_66",
+      "headcode": "",
+      "operator": "",
+      "days": [
+        "SAT"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "MOB",
+          "arr": null,
+          "dep": 1132
+        },
+        {
+          "station": "NWI",
+          "arr": null,
+          "dep": 1150
+        }
+      ]
+    },
+    {
+      "id": "SAT_67",
+      "headcode": "",
+      "operator": "",
+      "days": [
+        "SAT"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "MOB",
+          "arr": null,
+          "dep": 1193
+        },
+        {
+          "station": "NWI",
+          "arr": null,
+          "dep": 1211
+        }
+      ]
+    },
+    {
+      "id": "SAT_68",
+      "headcode": "",
+      "operator": "",
+      "days": [
+        "SAT"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "MOB",
+          "arr": null,
+          "dep": 1252
+        },
+        {
+          "station": "NWI",
+          "arr": null,
+          "dep": 1270
+        }
+      ]
+    },
+    {
+      "id": "SAT_69",
+      "headcode": "",
+      "operator": "",
+      "days": [
+        "SAT"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "MOB",
+          "arr": null,
+          "dep": 1313
+        },
+        {
+          "station": "NWI",
+          "arr": null,
+          "dep": 1331
+        }
+      ]
+    },
+    {
+      "id": "SAT_70",
+      "headcode": "",
+      "operator": "",
+      "days": [
+        "SAT"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "MOB",
+          "arr": null,
+          "dep": 1372
+        },
+        {
+          "station": "NWI",
+          "arr": null,
+          "dep": 1390
+        }
+      ]
+    },
+    {
+      "id": "SAT_71",
+      "headcode": "",
+      "operator": "",
+      "days": [
+        "SAT"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "MOB",
+          "arr": null,
+          "dep": 2
+        },
+        {
+          "station": "NWI",
+          "arr": null,
+          "dep": 21
+        }
+      ]
+    },
+    {
+      "id": "SUN_72",
+      "headcode": "",
+      "operator": "NT",
+      "days": [
+        "SUN"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "MAN",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "SPT",
+          "arr": null,
+          "dep": 560
+        },
+        {
+          "station": "NVR",
+          "arr": null,
+          "dep": 574
+        },
+        {
+          "station": "ALT",
+          "arr": null,
+          "dep": 577
+        },
+        {
+          "station": "HAL",
+          "arr": null,
+          "dep": 579
+        },
+        {
+          "station": "ASY",
+          "arr": null,
+          "dep": 583
+        },
+        {
+          "station": "MOB",
+          "arr": null,
+          "dep": 587
+        },
+        {
+          "station": "PLM",
+          "arr": null,
+          "dep": 596
+        },
+        {
+          "station": "LTG",
+          "arr": null,
+          "dep": 600
+        },
+        {
+          "station": "NWI",
+          "arr": null,
+          "dep": 604
+        },
+        {
+          "station": "CUD",
+          "arr": null,
+          "dep": 615
+        },
+        {
+          "station": "DLM",
+          "arr": null,
+          "dep": 620
+        },
+        {
+          "station": "MLD",
+          "arr": null,
+          "dep": 625
+        },
+        {
+          "station": "CTR",
+          "arr": 636,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "SUN_73",
+      "headcode": "",
+      "operator": "NT",
+      "days": [
+        "SUN"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "MAN",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "SPT",
+          "arr": null,
+          "dep": 674
+        },
+        {
+          "station": "NVR",
+          "arr": null,
+          "dep": 688
+        },
+        {
+          "station": "ALT",
+          "arr": null,
+          "dep": 690
+        },
+        {
+          "station": "HAL",
+          "arr": null,
+          "dep": 693
+        },
+        {
+          "station": "ASY",
+          "arr": null,
+          "dep": 697
+        },
+        {
+          "station": "MOB",
+          "arr": null,
+          "dep": 700
+        },
+        {
+          "station": "PLM",
+          "arr": null,
+          "dep": 710
+        },
+        {
+          "station": "LTG",
+          "arr": null,
+          "dep": 714
+        },
+        {
+          "station": "NWI",
+          "arr": null,
+          "dep": 718
+        },
+        {
+          "station": "CUD",
+          "arr": null,
+          "dep": 729
+        },
+        {
+          "station": "DLM",
+          "arr": null,
+          "dep": 734
+        },
+        {
+          "station": "MLD",
+          "arr": null,
+          "dep": 739
+        },
+        {
+          "station": "CTR",
+          "arr": 750,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "SUN_74",
+      "headcode": "",
+      "operator": "NT",
+      "days": [
+        "SUN"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "MAN",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "SPT",
+          "arr": null,
+          "dep": 799
+        },
+        {
+          "station": "NVR",
+          "arr": null,
+          "dep": 813
+        },
+        {
+          "station": "ALT",
+          "arr": null,
+          "dep": 815
+        },
+        {
+          "station": "HAL",
+          "arr": null,
+          "dep": 818
+        },
+        {
+          "station": "ASY",
+          "arr": null,
+          "dep": 822
+        },
+        {
+          "station": "MOB",
+          "arr": null,
+          "dep": 825
+        },
+        {
+          "station": "PLM",
+          "arr": null,
+          "dep": 835
+        },
+        {
+          "station": "LTG",
+          "arr": null,
+          "dep": 839
+        },
+        {
+          "station": "NWI",
+          "arr": null,
+          "dep": 843
+        },
+        {
+          "station": "CUD",
+          "arr": null,
+          "dep": 854
+        },
+        {
+          "station": "DLM",
+          "arr": null,
+          "dep": 859
+        },
+        {
+          "station": "MLD",
+          "arr": null,
+          "dep": 864
+        },
+        {
+          "station": "CTR",
+          "arr": 875,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "SUN_75",
+      "headcode": "",
+      "operator": "NT",
+      "days": [
+        "SUN"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "MAN",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "SPT",
+          "arr": null,
+          "dep": 919
+        },
+        {
+          "station": "NVR",
+          "arr": null,
+          "dep": 933
+        },
+        {
+          "station": "ALT",
+          "arr": null,
+          "dep": 935
+        },
+        {
+          "station": "HAL",
+          "arr": null,
+          "dep": 938
+        },
+        {
+          "station": "ASY",
+          "arr": null,
+          "dep": 942
+        },
+        {
+          "station": "MOB",
+          "arr": null,
+          "dep": 945
+        },
+        {
+          "station": "PLM",
+          "arr": null,
+          "dep": 955
+        },
+        {
+          "station": "LTG",
+          "arr": null,
+          "dep": 959
+        },
+        {
+          "station": "NWI",
+          "arr": null,
+          "dep": 963
+        },
+        {
+          "station": "CUD",
+          "arr": null,
+          "dep": 974
+        },
+        {
+          "station": "DLM",
+          "arr": null,
+          "dep": 979
+        },
+        {
+          "station": "MLD",
+          "arr": null,
+          "dep": 984
+        },
+        {
+          "station": "CTR",
+          "arr": 995,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "SUN_76",
+      "headcode": "",
+      "operator": "NT",
+      "days": [
+        "SUN"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "MAN",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "SPT",
+          "arr": null,
+          "dep": 1039
+        },
+        {
+          "station": "NVR",
+          "arr": null,
+          "dep": 1053
+        },
+        {
+          "station": "ALT",
+          "arr": null,
+          "dep": 1055
+        },
+        {
+          "station": "HAL",
+          "arr": null,
+          "dep": 1058
+        },
+        {
+          "station": "ASY",
+          "arr": null,
+          "dep": 1062
+        },
+        {
+          "station": "MOB",
+          "arr": null,
+          "dep": 1065
+        },
+        {
+          "station": "PLM",
+          "arr": null,
+          "dep": 1075
+        },
+        {
+          "station": "LTG",
+          "arr": null,
+          "dep": 1079
+        },
+        {
+          "station": "NWI",
+          "arr": null,
+          "dep": 1083
+        },
+        {
+          "station": "CUD",
+          "arr": null,
+          "dep": 1094
+        },
+        {
+          "station": "DLM",
+          "arr": null,
+          "dep": 1099
+        },
+        {
+          "station": "MLD",
+          "arr": null,
+          "dep": 1104
+        },
+        {
+          "station": "CTR",
+          "arr": 1115,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "SUN_77",
+      "headcode": "",
+      "operator": "NT",
+      "days": [
+        "SUN"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "MAN",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "SPT",
+          "arr": null,
+          "dep": 1159
+        },
+        {
+          "station": "NVR",
+          "arr": null,
+          "dep": 1173
+        },
+        {
+          "station": "ALT",
+          "arr": null,
+          "dep": 1175
+        },
+        {
+          "station": "HAL",
+          "arr": null,
+          "dep": 1178
+        },
+        {
+          "station": "ASY",
+          "arr": null,
+          "dep": 1182
+        },
+        {
+          "station": "MOB",
+          "arr": null,
+          "dep": 1185
+        },
+        {
+          "station": "PLM",
+          "arr": null,
+          "dep": 1195
+        },
+        {
+          "station": "LTG",
+          "arr": null,
+          "dep": 1199
+        },
+        {
+          "station": "NWI",
+          "arr": null,
+          "dep": 1203
+        },
+        {
+          "station": "CUD",
+          "arr": null,
+          "dep": 1214
+        },
+        {
+          "station": "DLM",
+          "arr": null,
+          "dep": 1219
+        },
+        {
+          "station": "MLD",
+          "arr": null,
+          "dep": 1224
+        },
+        {
+          "station": "CTR",
+          "arr": 1235,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "SUN_78",
+      "headcode": "",
+      "operator": "",
+      "days": [
+        "SUN"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "MAN",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "SPT",
+          "arr": null,
+          "dep": 1273
+        },
+        {
+          "station": "NVR",
+          "arr": null,
+          "dep": 1287
+        },
+        {
+          "station": "ALT",
+          "arr": null,
+          "dep": 1290
+        },
+        {
+          "station": "HAL",
+          "arr": null,
+          "dep": 1292
+        },
+        {
+          "station": "ASY",
+          "arr": null,
+          "dep": 1296
+        },
+        {
+          "station": "MOB",
+          "arr": null,
+          "dep": 1299
+        },
+        {
+          "station": "PLM",
+          "arr": null,
+          "dep": 1309
+        },
+        {
+          "station": "LTG",
+          "arr": null,
+          "dep": 1313
+        },
+        {
+          "station": "NWI",
+          "arr": null,
+          "dep": 1318
+        },
+        {
+          "station": "CUD",
+          "arr": null,
+          "dep": 1328
+        },
+        {
+          "station": "DLM",
+          "arr": null,
+          "dep": 1334
+        },
+        {
+          "station": "MLD",
+          "arr": null,
+          "dep": 1339
+        },
+        {
+          "station": "CTR",
+          "arr": 1351,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "SUN_79",
+      "headcode": "",
+      "operator": "",
+      "days": [
+        "SUN"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "MOB",
+          "arr": null,
+          "dep": 592
+        },
+        {
+          "station": "NWI",
+          "arr": null,
+          "dep": 610
+        }
+      ]
+    },
+    {
+      "id": "SUN_80",
+      "headcode": "",
+      "operator": "",
+      "days": [
+        "SUN"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "MOB",
+          "arr": null,
+          "dep": 705
+        },
+        {
+          "station": "NWI",
+          "arr": null,
+          "dep": 724
+        }
+      ]
+    },
+    {
+      "id": "SUN_81",
+      "headcode": "",
+      "operator": "",
+      "days": [
+        "SUN"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "MOB",
+          "arr": null,
+          "dep": 830
+        },
+        {
+          "station": "NWI",
+          "arr": null,
+          "dep": 849
+        }
+      ]
+    },
+    {
+      "id": "SUN_82",
+      "headcode": "",
+      "operator": "",
+      "days": [
+        "SUN"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "MOB",
+          "arr": null,
+          "dep": 950
+        },
+        {
+          "station": "NWI",
+          "arr": null,
+          "dep": 969
+        }
+      ]
+    },
+    {
+      "id": "SUN_83",
+      "headcode": "",
+      "operator": "",
+      "days": [
+        "SUN"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "MOB",
+          "arr": null,
+          "dep": 1070
+        },
+        {
+          "station": "NWI",
+          "arr": null,
+          "dep": 1089
+        }
+      ]
+    },
+    {
+      "id": "SUN_84",
+      "headcode": "",
+      "operator": "",
+      "days": [
+        "SUN"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "MOB",
+          "arr": null,
+          "dep": 1190
+        },
+        {
+          "station": "NWI",
+          "arr": null,
+          "dep": 1209
+        }
+      ]
+    },
+    {
+      "id": "SUN_85",
+      "headcode": "",
+      "operator": "",
+      "days": [
+        "SUN"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "MOB",
+          "arr": null,
+          "dep": 1304
+        },
+        {
+          "station": "NWI",
+          "arr": null,
+          "dep": 1323
+        }
+      ]
+    },
+    {
+      "id": "MF_86",
+      "headcode": "",
+      "operator": "NT",
+      "days": [
+        "MF"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "CTR",
+          "arr": null,
+          "dep": 356
+        },
+        {
+          "station": "MLD",
+          "arr": null,
+          "dep": 367
+        },
+        {
+          "station": "DLM",
+          "arr": null,
+          "dep": 373
+        },
+        {
+          "station": "CUD",
+          "arr": null,
+          "dep": 378
+        },
+        {
+          "station": "NWI",
+          "arr": null,
+          "dep": 388
+        },
+        {
+          "station": "LTG",
+          "arr": null,
+          "dep": 392
+        },
+        {
+          "station": "PLM",
+          "arr": null,
+          "dep": 395
+        },
+        {
+          "station": "MOB",
+          "arr": null,
+          "dep": 406
+        },
+        {
+          "station": "ASY",
+          "arr": null,
+          "dep": 409
+        },
+        {
+          "station": "HAL",
+          "arr": null,
+          "dep": 413
+        },
+        {
+          "station": "ALT",
+          "arr": null,
+          "dep": 417
+        },
+        {
+          "station": "NVR",
+          "arr": null,
+          "dep": 420
+        },
+        {
+          "station": "SPT",
+          "arr": null,
+          "dep": 435
+        },
+        {
+          "station": "MAN",
+          "arr": null,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "MF_87",
+      "headcode": "",
+      "operator": "NT",
+      "days": [
+        "MF"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "CTR",
+          "arr": null,
+          "dep": 390
+        },
+        {
+          "station": "MLD",
+          "arr": null,
+          "dep": 402
+        },
+        {
+          "station": "DLM",
+          "arr": null,
+          "dep": 408
+        },
+        {
+          "station": "CUD",
+          "arr": null,
+          "dep": 413
+        },
+        {
+          "station": "NWI",
+          "arr": null,
+          "dep": 423
+        },
+        {
+          "station": "LTG",
+          "arr": null,
+          "dep": 427
+        },
+        {
+          "station": "PLM",
+          "arr": null,
+          "dep": 431
+        },
+        {
+          "station": "MOB",
+          "arr": null,
+          "dep": 442
+        },
+        {
+          "station": "ASY",
+          "arr": null,
+          "dep": 446
+        },
+        {
+          "station": "HAL",
+          "arr": null,
+          "dep": 450
+        },
+        {
+          "station": "ALT",
+          "arr": null,
+          "dep": 455
+        },
+        {
+          "station": "NVR",
+          "arr": null,
+          "dep": 457
+        },
+        {
+          "station": "SPT",
+          "arr": null,
+          "dep": 490
+        },
+        {
+          "station": "MAN",
+          "arr": null,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "MF_88",
+      "headcode": "",
+      "operator": "NT",
+      "days": [
+        "MF"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "CTR",
+          "arr": null,
+          "dep": 408
+        },
+        {
+          "station": "MLD",
+          "arr": null,
+          "dep": 421
+        },
+        {
+          "station": "DLM",
+          "arr": null,
+          "dep": 426
+        },
+        {
+          "station": "CUD",
+          "arr": null,
+          "dep": 431
+        },
+        {
+          "station": "NWI",
+          "arr": null,
+          "dep": 442
+        },
+        {
+          "station": "LTG",
+          "arr": null,
+          "dep": 445
+        },
+        {
+          "station": "PLM",
+          "arr": null,
+          "dep": 449
+        },
+        {
+          "station": "MOB",
+          "arr": null,
+          "dep": 460
+        },
+        {
+          "station": "ASY",
+          "arr": null,
+          "dep": 464
+        },
+        {
+          "station": "HAL",
+          "arr": null,
+          "dep": 468
+        },
+        {
+          "station": "ALT",
+          "arr": null,
+          "dep": 472
+        },
+        {
+          "station": "NVR",
+          "arr": null,
+          "dep": 475
+        },
+        {
+          "station": "SPT",
+          "arr": null,
+          "dep": 555
+        },
+        {
+          "station": "MAN",
+          "arr": null,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "MF_89",
+      "headcode": "",
+      "operator": "NT",
+      "days": [
+        "MF"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "CTR",
+          "arr": null,
+          "dep": 434
+        },
+        {
+          "station": "MLD",
+          "arr": null,
+          "dep": 487
+        },
+        {
+          "station": "DLM",
+          "arr": null,
+          "dep": 454
+        },
+        {
+          "station": "CUD",
+          "arr": null,
+          "dep": 459
+        },
+        {
+          "station": "NWI",
+          "arr": null,
+          "dep": 470
+        },
+        {
+          "station": "LTG",
+          "arr": null,
+          "dep": 473
+        },
+        {
+          "station": "PLM",
+          "arr": null,
+          "dep": 477
+        },
+        {
+          "station": "MOB",
+          "arr": null,
+          "dep": 488
+        },
+        {
+          "station": "ASY",
+          "arr": null,
+          "dep": 492
+        },
+        {
+          "station": "HAL",
+          "arr": null,
+          "dep": 496
+        },
+        {
+          "station": "ALT",
+          "arr": null,
+          "dep": 500
+        },
+        {
+          "station": "NVR",
+          "arr": null,
+          "dep": 502
+        },
+        {
+          "station": "SPT",
+          "arr": null,
+          "dep": 615
+        },
+        {
+          "station": "MAN",
+          "arr": null,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "MF_90",
+      "headcode": "",
+      "operator": "NT",
+      "days": [
+        "MF"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "CTR",
+          "arr": null,
+          "dep": 476
+        },
+        {
+          "station": "MLD",
+          "arr": null,
+          "dep": 547
+        },
+        {
+          "station": "DLM",
+          "arr": null,
+          "dep": 493
+        },
+        {
+          "station": "CUD",
+          "arr": null,
+          "dep": 498
+        },
+        {
+          "station": "NWI",
+          "arr": null,
+          "dep": 508
+        },
+        {
+          "station": "LTG",
+          "arr": null,
+          "dep": 512
+        },
+        {
+          "station": "PLM",
+          "arr": null,
+          "dep": 515
+        },
+        {
+          "station": "MOB",
+          "arr": null,
+          "dep": 525
+        },
+        {
+          "station": "ASY",
+          "arr": null,
+          "dep": 529
+        },
+        {
+          "station": "HAL",
+          "arr": null,
+          "dep": 533
+        },
+        {
+          "station": "ALT",
+          "arr": null,
+          "dep": 537
+        },
+        {
+          "station": "NVR",
+          "arr": null,
+          "dep": 539
+        },
+        {
+          "station": "SPT",
+          "arr": null,
+          "dep": 675
+        },
+        {
+          "station": "MAN",
+          "arr": null,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "MF_91",
+      "headcode": "",
+      "operator": "NT",
+      "days": [
+        "MF"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "CTR",
+          "arr": null,
+          "dep": 536
+        },
+        {
+          "station": "MLD",
+          "arr": null,
+          "dep": 607
+        },
+        {
+          "station": "DLM",
+          "arr": null,
+          "dep": 553
+        },
+        {
+          "station": "CUD",
+          "arr": null,
+          "dep": 558
+        },
+        {
+          "station": "NWI",
+          "arr": null,
+          "dep": 568
+        },
+        {
+          "station": "LTG",
+          "arr": null,
+          "dep": 572
+        },
+        {
+          "station": "PLM",
+          "arr": null,
+          "dep": 575
+        },
+        {
+          "station": "MOB",
+          "arr": null,
+          "dep": 586
+        },
+        {
+          "station": "ASY",
+          "arr": null,
+          "dep": 589
+        },
+        {
+          "station": "HAL",
+          "arr": null,
+          "dep": 593
+        },
+        {
+          "station": "ALT",
+          "arr": null,
+          "dep": 597
+        },
+        {
+          "station": "NVR",
+          "arr": null,
+          "dep": 600
+        },
+        {
+          "station": "SPT",
+          "arr": null,
+          "dep": 735
+        },
+        {
+          "station": "MAN",
+          "arr": null,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "MF_92",
+      "headcode": "",
+      "operator": "NT",
+      "days": [
+        "MF"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "CTR",
+          "arr": null,
+          "dep": 596
+        },
+        {
+          "station": "MLD",
+          "arr": null,
+          "dep": 667
+        },
+        {
+          "station": "DLM",
+          "arr": null,
+          "dep": 613
+        },
+        {
+          "station": "CUD",
+          "arr": null,
+          "dep": 617
+        },
+        {
+          "station": "NWI",
+          "arr": null,
+          "dep": 628
+        },
+        {
+          "station": "LTG",
+          "arr": null,
+          "dep": 631
+        },
+        {
+          "station": "PLM",
+          "arr": null,
+          "dep": 635
+        },
+        {
+          "station": "MOB",
+          "arr": null,
+          "dep": 645
+        },
+        {
+          "station": "ASY",
+          "arr": null,
+          "dep": 649
+        },
+        {
+          "station": "HAL",
+          "arr": null,
+          "dep": 653
+        },
+        {
+          "station": "ALT",
+          "arr": null,
+          "dep": 657
+        },
+        {
+          "station": "NVR",
+          "arr": null,
+          "dep": 660
+        },
+        {
+          "station": "SPT",
+          "arr": null,
+          "dep": 795
+        },
+        {
+          "station": "MAN",
+          "arr": null,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "MF_93",
+      "headcode": "",
+      "operator": "NT",
+      "days": [
+        "MF"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "CTR",
+          "arr": null,
+          "dep": 656
+        },
+        {
+          "station": "MLD",
+          "arr": null,
+          "dep": 727
+        },
+        {
+          "station": "DLM",
+          "arr": null,
+          "dep": 673
+        },
+        {
+          "station": "CUD",
+          "arr": null,
+          "dep": 677
+        },
+        {
+          "station": "NWI",
+          "arr": null,
+          "dep": 688
+        },
+        {
+          "station": "LTG",
+          "arr": null,
+          "dep": 691
+        },
+        {
+          "station": "PLM",
+          "arr": null,
+          "dep": 695
+        },
+        {
+          "station": "MOB",
+          "arr": null,
+          "dep": 705
+        },
+        {
+          "station": "ASY",
+          "arr": null,
+          "dep": 709
+        },
+        {
+          "station": "HAL",
+          "arr": null,
+          "dep": 713
+        },
+        {
+          "station": "ALT",
+          "arr": null,
+          "dep": 717
+        },
+        {
+          "station": "NVR",
+          "arr": null,
+          "dep": 719
+        },
+        {
+          "station": "SPT",
+          "arr": null,
+          "dep": 855
+        },
+        {
+          "station": "MAN",
+          "arr": null,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "MF_94",
+      "headcode": "",
+      "operator": "NT",
+      "days": [
+        "MF"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "CTR",
+          "arr": null,
+          "dep": 716
+        },
+        {
+          "station": "MLD",
+          "arr": null,
+          "dep": 788
+        },
+        {
+          "station": "DLM",
+          "arr": null,
+          "dep": 733
+        },
+        {
+          "station": "CUD",
+          "arr": null,
+          "dep": 738
+        },
+        {
+          "station": "NWI",
+          "arr": null,
+          "dep": 748
+        },
+        {
+          "station": "LTG",
+          "arr": null,
+          "dep": 752
+        },
+        {
+          "station": "PLM",
+          "arr": null,
+          "dep": 755
+        },
+        {
+          "station": "MOB",
+          "arr": null,
+          "dep": 766
+        },
+        {
+          "station": "ASY",
+          "arr": null,
+          "dep": 769
+        },
+        {
+          "station": "HAL",
+          "arr": null,
+          "dep": 773
+        },
+        {
+          "station": "ALT",
+          "arr": null,
+          "dep": 777
+        },
+        {
+          "station": "NVR",
+          "arr": null,
+          "dep": 780
+        },
+        {
+          "station": "SPT",
+          "arr": null,
+          "dep": 915
+        },
+        {
+          "station": "MAN",
+          "arr": null,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "MF_95",
+      "headcode": "",
+      "operator": "NT",
+      "days": [
+        "MF"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "CTR",
+          "arr": null,
+          "dep": 776
+        },
+        {
+          "station": "MLD",
+          "arr": null,
+          "dep": 847
+        },
+        {
+          "station": "DLM",
+          "arr": null,
+          "dep": 793
+        },
+        {
+          "station": "CUD",
+          "arr": null,
+          "dep": 798
+        },
+        {
+          "station": "NWI",
+          "arr": null,
+          "dep": 808
+        },
+        {
+          "station": "LTG",
+          "arr": null,
+          "dep": 812
+        },
+        {
+          "station": "PLM",
+          "arr": null,
+          "dep": 815
+        },
+        {
+          "station": "MOB",
+          "arr": null,
+          "dep": 826
+        },
+        {
+          "station": "ASY",
+          "arr": null,
+          "dep": 829
+        },
+        {
+          "station": "HAL",
+          "arr": null,
+          "dep": 833
+        },
+        {
+          "station": "ALT",
+          "arr": null,
+          "dep": 837
+        },
+        {
+          "station": "NVR",
+          "arr": null,
+          "dep": 840
+        },
+        {
+          "station": "SPT",
+          "arr": null,
+          "dep": 975
+        },
+        {
+          "station": "MAN",
+          "arr": null,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "MF_96",
+      "headcode": "",
+      "operator": "NT",
+      "days": [
+        "MF"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "CTR",
+          "arr": null,
+          "dep": 836
+        },
+        {
+          "station": "MLD",
+          "arr": null,
+          "dep": 907
+        },
+        {
+          "station": "DLM",
+          "arr": null,
+          "dep": 853
+        },
+        {
+          "station": "CUD",
+          "arr": null,
+          "dep": 858
+        },
+        {
+          "station": "NWI",
+          "arr": null,
+          "dep": 868
+        },
+        {
+          "station": "LTG",
+          "arr": null,
+          "dep": 872
+        },
+        {
+          "station": "PLM",
+          "arr": null,
+          "dep": 875
+        },
+        {
+          "station": "MOB",
+          "arr": null,
+          "dep": 886
+        },
+        {
+          "station": "ASY",
+          "arr": null,
+          "dep": 889
+        },
+        {
+          "station": "HAL",
+          "arr": null,
+          "dep": 893
+        },
+        {
+          "station": "ALT",
+          "arr": null,
+          "dep": 897
+        },
+        {
+          "station": "NVR",
+          "arr": null,
+          "dep": 900
+        },
+        {
+          "station": "SPT",
+          "arr": null,
+          "dep": 1035
+        },
+        {
+          "station": "MAN",
+          "arr": null,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "MF_97",
+      "headcode": "",
+      "operator": "NT",
+      "days": [
+        "MF"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "CTR",
+          "arr": null,
+          "dep": 896
+        },
+        {
+          "station": "MLD",
+          "arr": null,
+          "dep": 967
+        },
+        {
+          "station": "DLM",
+          "arr": null,
+          "dep": 913
+        },
+        {
+          "station": "CUD",
+          "arr": null,
+          "dep": 918
+        },
+        {
+          "station": "NWI",
+          "arr": null,
+          "dep": 928
+        },
+        {
+          "station": "LTG",
+          "arr": null,
+          "dep": 932
+        },
+        {
+          "station": "PLM",
+          "arr": null,
+          "dep": 935
+        },
+        {
+          "station": "MOB",
+          "arr": null,
+          "dep": 946
+        },
+        {
+          "station": "ASY",
+          "arr": null,
+          "dep": 949
+        },
+        {
+          "station": "HAL",
+          "arr": null,
+          "dep": 953
+        },
+        {
+          "station": "ALT",
+          "arr": null,
+          "dep": 957
+        },
+        {
+          "station": "NVR",
+          "arr": null,
+          "dep": 960
+        },
+        {
+          "station": "SPT",
+          "arr": null,
+          "dep": 1095
+        },
+        {
+          "station": "MAN",
+          "arr": null,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "MF_98",
+      "headcode": "",
+      "operator": "NT",
+      "days": [
+        "MF"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "CTR",
+          "arr": null,
+          "dep": 956
+        },
+        {
+          "station": "MLD",
+          "arr": null,
+          "dep": 1027
+        },
+        {
+          "station": "DLM",
+          "arr": null,
+          "dep": 973
+        },
+        {
+          "station": "CUD",
+          "arr": null,
+          "dep": 978
+        },
+        {
+          "station": "NWI",
+          "arr": null,
+          "dep": 988
+        },
+        {
+          "station": "LTG",
+          "arr": null,
+          "dep": 992
+        },
+        {
+          "station": "PLM",
+          "arr": null,
+          "dep": 995
+        },
+        {
+          "station": "MOB",
+          "arr": null,
+          "dep": 1006
+        },
+        {
+          "station": "ASY",
+          "arr": null,
+          "dep": 1009
+        },
+        {
+          "station": "HAL",
+          "arr": null,
+          "dep": 1013
+        },
+        {
+          "station": "ALT",
+          "arr": null,
+          "dep": 1017
+        },
+        {
+          "station": "NVR",
+          "arr": null,
+          "dep": 1020
+        },
+        {
+          "station": "SPT",
+          "arr": null,
+          "dep": 1155
+        },
+        {
+          "station": "MAN",
+          "arr": null,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "MF_99",
+      "headcode": "",
+      "operator": "NT",
+      "days": [
+        "MF"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "CTR",
+          "arr": null,
+          "dep": 1016
+        },
+        {
+          "station": "MLD",
+          "arr": null,
+          "dep": 1087
+        },
+        {
+          "station": "DLM",
+          "arr": null,
+          "dep": 1033
+        },
+        {
+          "station": "CUD",
+          "arr": null,
+          "dep": 1038
+        },
+        {
+          "station": "NWI",
+          "arr": null,
+          "dep": 1048
+        },
+        {
+          "station": "LTG",
+          "arr": null,
+          "dep": 1052
+        },
+        {
+          "station": "PLM",
+          "arr": null,
+          "dep": 1055
+        },
+        {
+          "station": "MOB",
+          "arr": null,
+          "dep": 1066
+        },
+        {
+          "station": "ASY",
+          "arr": null,
+          "dep": 1069
+        },
+        {
+          "station": "HAL",
+          "arr": null,
+          "dep": 1073
+        },
+        {
+          "station": "ALT",
+          "arr": null,
+          "dep": 1077
+        },
+        {
+          "station": "NVR",
+          "arr": null,
+          "dep": 1080
+        },
+        {
+          "station": "SPT",
+          "arr": null,
+          "dep": 1215
+        },
+        {
+          "station": "MAN",
+          "arr": null,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "MF_100",
+      "headcode": "",
+      "operator": "NT",
+      "days": [
+        "MF"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "CTR",
+          "arr": null,
+          "dep": 1076
+        },
+        {
+          "station": "MLD",
+          "arr": null,
+          "dep": 1147
+        },
+        {
+          "station": "DLM",
+          "arr": null,
+          "dep": 1093
+        },
+        {
+          "station": "CUD",
+          "arr": null,
+          "dep": 1098
+        },
+        {
+          "station": "NWI",
+          "arr": null,
+          "dep": 1108
+        },
+        {
+          "station": "LTG",
+          "arr": null,
+          "dep": 1112
+        },
+        {
+          "station": "PLM",
+          "arr": null,
+          "dep": 1115
+        },
+        {
+          "station": "MOB",
+          "arr": null,
+          "dep": 1126
+        },
+        {
+          "station": "ASY",
+          "arr": null,
+          "dep": 1129
+        },
+        {
+          "station": "HAL",
+          "arr": null,
+          "dep": 1133
+        },
+        {
+          "station": "ALT",
+          "arr": null,
+          "dep": 1137
+        },
+        {
+          "station": "NVR",
+          "arr": null,
+          "dep": 1140
+        },
+        {
+          "station": "SPT",
+          "arr": null,
+          "dep": 1275
+        },
+        {
+          "station": "MAN",
+          "arr": null,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "MF_101",
+      "headcode": "",
+      "operator": "NT",
+      "days": [
+        "MF"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "CTR",
+          "arr": null,
+          "dep": 1136
+        },
+        {
+          "station": "MLD",
+          "arr": null,
+          "dep": 1207
+        },
+        {
+          "station": "DLM",
+          "arr": null,
+          "dep": 1153
+        },
+        {
+          "station": "CUD",
+          "arr": null,
+          "dep": 1158
+        },
+        {
+          "station": "NWI",
+          "arr": null,
+          "dep": 1168
+        },
+        {
+          "station": "LTG",
+          "arr": null,
+          "dep": 1172
+        },
+        {
+          "station": "PLM",
+          "arr": null,
+          "dep": 1175
+        },
+        {
+          "station": "MOB",
+          "arr": null,
+          "dep": 1186
+        },
+        {
+          "station": "ASY",
+          "arr": null,
+          "dep": 1189
+        },
+        {
+          "station": "HAL",
+          "arr": null,
+          "dep": 1193
+        },
+        {
+          "station": "ALT",
+          "arr": null,
+          "dep": 1197
+        },
+        {
+          "station": "NVR",
+          "arr": null,
+          "dep": 1200
+        },
+        {
+          "station": "SPT",
+          "arr": null,
+          "dep": 1335
+        },
+        {
+          "station": "MAN",
+          "arr": null,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "MF_102",
+      "headcode": "",
+      "operator": "NT",
+      "days": [
+        "MF"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "CTR",
+          "arr": null,
+          "dep": 1196
+        },
+        {
+          "station": "MLD",
+          "arr": null,
+          "dep": 1267
+        },
+        {
+          "station": "DLM",
+          "arr": null,
+          "dep": 1213
+        },
+        {
+          "station": "CUD",
+          "arr": null,
+          "dep": 1218
+        },
+        {
+          "station": "NWI",
+          "arr": null,
+          "dep": 1228
+        },
+        {
+          "station": "LTG",
+          "arr": null,
+          "dep": 1232
+        },
+        {
+          "station": "PLM",
+          "arr": null,
+          "dep": 1235
+        },
+        {
+          "station": "MOB",
+          "arr": null,
+          "dep": 1246
+        },
+        {
+          "station": "ASY",
+          "arr": null,
+          "dep": 1249
+        },
+        {
+          "station": "HAL",
+          "arr": null,
+          "dep": 1253
+        },
+        {
+          "station": "ALT",
+          "arr": null,
+          "dep": 1257
+        },
+        {
+          "station": "NVR",
+          "arr": null,
+          "dep": 1260
+        }
+      ]
+    },
+    {
+      "id": "MF_103",
+      "headcode": "",
+      "operator": "",
+      "days": [
+        "MF"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "CTR",
+          "arr": null,
+          "dep": 1256
+        },
+        {
+          "station": "DLM",
+          "arr": null,
+          "dep": 1273
+        },
+        {
+          "station": "CUD",
+          "arr": null,
+          "dep": 1278
+        },
+        {
+          "station": "NWI",
+          "arr": null,
+          "dep": 1288
+        },
+        {
+          "station": "LTG",
+          "arr": null,
+          "dep": 1292
+        },
+        {
+          "station": "PLM",
+          "arr": null,
+          "dep": 1295
+        },
+        {
+          "station": "MOB",
+          "arr": null,
+          "dep": 1306
+        },
+        {
+          "station": "ASY",
+          "arr": null,
+          "dep": 1309
+        },
+        {
+          "station": "HAL",
+          "arr": null,
+          "dep": 1313
+        },
+        {
+          "station": "ALT",
+          "arr": null,
+          "dep": 1317
+        },
+        {
+          "station": "NVR",
+          "arr": null,
+          "dep": 1319
+        }
+      ]
+    },
+    {
+      "id": "MF_104",
+      "headcode": "",
+      "operator": "",
+      "days": [
+        "MF"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "CUD",
+          "arr": null,
+          "dep": 383
+        },
+        {
+          "station": "PLM",
+          "arr": null,
+          "dep": 401
+        }
+      ]
+    },
+    {
+      "id": "MF_105",
+      "headcode": "",
+      "operator": "",
+      "days": [
+        "MF"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "CUD",
+          "arr": null,
+          "dep": 418
+        },
+        {
+          "station": "PLM",
+          "arr": null,
+          "dep": 437
+        }
+      ]
+    },
+    {
+      "id": "MF_106",
+      "headcode": "",
+      "operator": "",
+      "days": [
+        "MF"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "CUD",
+          "arr": null,
+          "dep": 436
+        },
+        {
+          "station": "PLM",
+          "arr": null,
+          "dep": 455
+        }
+      ]
+    },
+    {
+      "id": "MF_107",
+      "headcode": "",
+      "operator": "",
+      "days": [
+        "MF"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "CUD",
+          "arr": null,
+          "dep": 464
+        },
+        {
+          "station": "PLM",
+          "arr": null,
+          "dep": 483
+        }
+      ]
+    },
+    {
+      "id": "MF_108",
+      "headcode": "",
+      "operator": "",
+      "days": [
+        "MF"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "CUD",
+          "arr": null,
+          "dep": 503
+        },
+        {
+          "station": "PLM",
+          "arr": null,
+          "dep": 521
+        }
+      ]
+    },
+    {
+      "id": "MF_109",
+      "headcode": "",
+      "operator": "",
+      "days": [
+        "MF"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "CUD",
+          "arr": null,
+          "dep": 563
+        },
+        {
+          "station": "PLM",
+          "arr": null,
+          "dep": 581
+        }
+      ]
+    },
+    {
+      "id": "MF_110",
+      "headcode": "",
+      "operator": "",
+      "days": [
+        "MF"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "CUD",
+          "arr": null,
+          "dep": 622
+        },
+        {
+          "station": "PLM",
+          "arr": null,
+          "dep": 640
+        }
+      ]
+    },
+    {
+      "id": "MF_111",
+      "headcode": "",
+      "operator": "",
+      "days": [
+        "MF"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "CUD",
+          "arr": null,
+          "dep": 682
+        },
+        {
+          "station": "PLM",
+          "arr": null,
+          "dep": 700
+        }
+      ]
+    },
+    {
+      "id": "MF_112",
+      "headcode": "",
+      "operator": "",
+      "days": [
+        "MF"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "CUD",
+          "arr": null,
+          "dep": 743
+        },
+        {
+          "station": "PLM",
+          "arr": null,
+          "dep": 761
+        }
+      ]
+    },
+    {
+      "id": "MF_113",
+      "headcode": "",
+      "operator": "",
+      "days": [
+        "MF"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "CUD",
+          "arr": null,
+          "dep": 803
+        },
+        {
+          "station": "PLM",
+          "arr": null,
+          "dep": 821
+        }
+      ]
+    },
+    {
+      "id": "MF_114",
+      "headcode": "",
+      "operator": "",
+      "days": [
+        "MF"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "CUD",
+          "arr": null,
+          "dep": 863
+        },
+        {
+          "station": "PLM",
+          "arr": null,
+          "dep": 881
+        }
+      ]
+    },
+    {
+      "id": "MF_115",
+      "headcode": "",
+      "operator": "",
+      "days": [
+        "MF"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "CUD",
+          "arr": null,
+          "dep": 923
+        },
+        {
+          "station": "PLM",
+          "arr": null,
+          "dep": 941
+        }
+      ]
+    },
+    {
+      "id": "MF_116",
+      "headcode": "",
+      "operator": "",
+      "days": [
+        "MF"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "CUD",
+          "arr": null,
+          "dep": 983
+        },
+        {
+          "station": "PLM",
+          "arr": null,
+          "dep": 1001
+        }
+      ]
+    },
+    {
+      "id": "MF_117",
+      "headcode": "",
+      "operator": "",
+      "days": [
+        "MF"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "CUD",
+          "arr": null,
+          "dep": 1043
+        },
+        {
+          "station": "PLM",
+          "arr": null,
+          "dep": 1061
+        }
+      ]
+    },
+    {
+      "id": "MF_118",
+      "headcode": "",
+      "operator": "",
+      "days": [
+        "MF"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "CUD",
+          "arr": null,
+          "dep": 1103
+        },
+        {
+          "station": "PLM",
+          "arr": null,
+          "dep": 1121
+        }
+      ]
+    },
+    {
+      "id": "MF_119",
+      "headcode": "",
+      "operator": "",
+      "days": [
+        "MF"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "CUD",
+          "arr": null,
+          "dep": 1163
+        },
+        {
+          "station": "PLM",
+          "arr": null,
+          "dep": 1181
+        }
+      ]
+    },
+    {
+      "id": "MF_120",
+      "headcode": "",
+      "operator": "",
+      "days": [
+        "MF"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "CUD",
+          "arr": null,
+          "dep": 1223
+        },
+        {
+          "station": "PLM",
+          "arr": null,
+          "dep": 1241
+        }
+      ]
+    },
+    {
+      "id": "MF_121",
+      "headcode": "",
+      "operator": "",
+      "days": [
+        "MF"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "CUD",
+          "arr": null,
+          "dep": 1283
+        },
+        {
+          "station": "PLM",
+          "arr": null,
+          "dep": 1301
+        }
+      ]
+    },
+    {
+      "id": "SAT_122",
+      "headcode": "",
+      "operator": "NT",
+      "days": [
+        "SAT"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "CTR",
+          "arr": null,
+          "dep": 356
+        },
+        {
+          "station": "MLD",
+          "arr": null,
+          "dep": 367
+        },
+        {
+          "station": "DLM",
+          "arr": null,
+          "dep": 373
+        },
+        {
+          "station": "CUD",
+          "arr": null,
+          "dep": 378
+        },
+        {
+          "station": "NWI",
+          "arr": null,
+          "dep": 388
+        },
+        {
+          "station": "LTG",
+          "arr": null,
+          "dep": 392
+        },
+        {
+          "station": "PLM",
+          "arr": null,
+          "dep": 395
+        },
+        {
+          "station": "MOB",
+          "arr": null,
+          "dep": 406
+        },
+        {
+          "station": "ASY",
+          "arr": null,
+          "dep": 409
+        },
+        {
+          "station": "HAL",
+          "arr": null,
+          "dep": 413
+        },
+        {
+          "station": "ALT",
+          "arr": null,
+          "dep": 417
+        },
+        {
+          "station": "NVR",
+          "arr": null,
+          "dep": 420
+        },
+        {
+          "station": "SPT",
+          "arr": 434,
+          "dep": null
+        },
+        {
+          "station": "MAN",
+          "arr": null,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "SAT_123",
+      "headcode": "",
+      "operator": "NT",
+      "days": [
+        "SAT"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "CTR",
+          "arr": null,
+          "dep": 408
+        },
+        {
+          "station": "MLD",
+          "arr": null,
+          "dep": 421
+        },
+        {
+          "station": "DLM",
+          "arr": null,
+          "dep": 426
+        },
+        {
+          "station": "CUD",
+          "arr": null,
+          "dep": 431
+        },
+        {
+          "station": "NWI",
+          "arr": null,
+          "dep": 442
+        },
+        {
+          "station": "LTG",
+          "arr": null,
+          "dep": 445
+        },
+        {
+          "station": "PLM",
+          "arr": null,
+          "dep": 449
+        },
+        {
+          "station": "MOB",
+          "arr": null,
+          "dep": 460
+        },
+        {
+          "station": "ASY",
+          "arr": null,
+          "dep": 464
+        },
+        {
+          "station": "HAL",
+          "arr": null,
+          "dep": 468
+        },
+        {
+          "station": "ALT",
+          "arr": null,
+          "dep": 472
+        },
+        {
+          "station": "NVR",
+          "arr": null,
+          "dep": 475
+        },
+        {
+          "station": "SPT",
+          "arr": 489,
+          "dep": null
+        },
+        {
+          "station": "MAN",
+          "arr": null,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "SAT_124",
+      "headcode": "",
+      "operator": "NT",
+      "days": [
+        "SAT"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "CTR",
+          "arr": null,
+          "dep": 476
+        },
+        {
+          "station": "MLD",
+          "arr": null,
+          "dep": 487
+        },
+        {
+          "station": "DLM",
+          "arr": null,
+          "dep": 493
+        },
+        {
+          "station": "CUD",
+          "arr": null,
+          "dep": 498
+        },
+        {
+          "station": "NWI",
+          "arr": null,
+          "dep": 508
+        },
+        {
+          "station": "LTG",
+          "arr": null,
+          "dep": 512
+        },
+        {
+          "station": "PLM",
+          "arr": null,
+          "dep": 515
+        },
+        {
+          "station": "MOB",
+          "arr": null,
+          "dep": 525
+        },
+        {
+          "station": "ASY",
+          "arr": null,
+          "dep": 529
+        },
+        {
+          "station": "HAL",
+          "arr": null,
+          "dep": 533
+        },
+        {
+          "station": "ALT",
+          "arr": null,
+          "dep": 537
+        },
+        {
+          "station": "NVR",
+          "arr": null,
+          "dep": 539
+        },
+        {
+          "station": "SPT",
+          "arr": 553,
+          "dep": null
+        },
+        {
+          "station": "MAN",
+          "arr": null,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "SAT_125",
+      "headcode": "",
+      "operator": "NT",
+      "days": [
+        "SAT"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "CTR",
+          "arr": null,
+          "dep": 536
+        },
+        {
+          "station": "MLD",
+          "arr": null,
+          "dep": 547
+        },
+        {
+          "station": "DLM",
+          "arr": null,
+          "dep": 553
+        },
+        {
+          "station": "CUD",
+          "arr": null,
+          "dep": 558
+        },
+        {
+          "station": "NWI",
+          "arr": null,
+          "dep": 568
+        },
+        {
+          "station": "LTG",
+          "arr": null,
+          "dep": 572
+        },
+        {
+          "station": "PLM",
+          "arr": null,
+          "dep": 575
+        },
+        {
+          "station": "MOB",
+          "arr": null,
+          "dep": 586
+        },
+        {
+          "station": "ASY",
+          "arr": null,
+          "dep": 589
+        },
+        {
+          "station": "HAL",
+          "arr": null,
+          "dep": 593
+        },
+        {
+          "station": "ALT",
+          "arr": null,
+          "dep": 597
+        },
+        {
+          "station": "NVR",
+          "arr": null,
+          "dep": 600
+        },
+        {
+          "station": "SPT",
+          "arr": 614,
+          "dep": null
+        },
+        {
+          "station": "MAN",
+          "arr": null,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "SAT_126",
+      "headcode": "",
+      "operator": "NT",
+      "days": [
+        "SAT"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "CTR",
+          "arr": null,
+          "dep": 596
+        },
+        {
+          "station": "MLD",
+          "arr": null,
+          "dep": 607
+        },
+        {
+          "station": "DLM",
+          "arr": null,
+          "dep": 613
+        },
+        {
+          "station": "CUD",
+          "arr": null,
+          "dep": 617
+        },
+        {
+          "station": "NWI",
+          "arr": null,
+          "dep": 628
+        },
+        {
+          "station": "LTG",
+          "arr": null,
+          "dep": 631
+        },
+        {
+          "station": "PLM",
+          "arr": null,
+          "dep": 635
+        },
+        {
+          "station": "MOB",
+          "arr": null,
+          "dep": 645
+        },
+        {
+          "station": "ASY",
+          "arr": null,
+          "dep": 649
+        },
+        {
+          "station": "HAL",
+          "arr": null,
+          "dep": 653
+        },
+        {
+          "station": "ALT",
+          "arr": null,
+          "dep": 657
+        },
+        {
+          "station": "NVR",
+          "arr": null,
+          "dep": 660
+        },
+        {
+          "station": "SPT",
+          "arr": 674,
+          "dep": null
+        },
+        {
+          "station": "MAN",
+          "arr": null,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "SAT_127",
+      "headcode": "",
+      "operator": "NT",
+      "days": [
+        "SAT"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "CTR",
+          "arr": null,
+          "dep": 656
+        },
+        {
+          "station": "MLD",
+          "arr": null,
+          "dep": 667
+        },
+        {
+          "station": "DLM",
+          "arr": null,
+          "dep": 673
+        },
+        {
+          "station": "CUD",
+          "arr": null,
+          "dep": 677
+        },
+        {
+          "station": "NWI",
+          "arr": null,
+          "dep": 688
+        },
+        {
+          "station": "LTG",
+          "arr": null,
+          "dep": 691
+        },
+        {
+          "station": "PLM",
+          "arr": null,
+          "dep": 695
+        },
+        {
+          "station": "MOB",
+          "arr": null,
+          "dep": 705
+        },
+        {
+          "station": "ASY",
+          "arr": null,
+          "dep": 709
+        },
+        {
+          "station": "HAL",
+          "arr": null,
+          "dep": 713
+        },
+        {
+          "station": "ALT",
+          "arr": null,
+          "dep": 717
+        },
+        {
+          "station": "NVR",
+          "arr": null,
+          "dep": 719
+        },
+        {
+          "station": "SPT",
+          "arr": 734,
+          "dep": null
+        },
+        {
+          "station": "MAN",
+          "arr": null,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "SAT_128",
+      "headcode": "",
+      "operator": "NT",
+      "days": [
+        "SAT"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "CTR",
+          "arr": null,
+          "dep": 716
+        },
+        {
+          "station": "MLD",
+          "arr": null,
+          "dep": 727
+        },
+        {
+          "station": "DLM",
+          "arr": null,
+          "dep": 733
+        },
+        {
+          "station": "CUD",
+          "arr": null,
+          "dep": 738
+        },
+        {
+          "station": "NWI",
+          "arr": null,
+          "dep": 748
+        },
+        {
+          "station": "LTG",
+          "arr": null,
+          "dep": 752
+        },
+        {
+          "station": "PLM",
+          "arr": null,
+          "dep": 755
+        },
+        {
+          "station": "MOB",
+          "arr": null,
+          "dep": 766
+        },
+        {
+          "station": "ASY",
+          "arr": null,
+          "dep": 769
+        },
+        {
+          "station": "HAL",
+          "arr": null,
+          "dep": 773
+        },
+        {
+          "station": "ALT",
+          "arr": null,
+          "dep": 777
+        },
+        {
+          "station": "NVR",
+          "arr": null,
+          "dep": 780
+        },
+        {
+          "station": "SPT",
+          "arr": 794,
+          "dep": null
+        },
+        {
+          "station": "MAN",
+          "arr": null,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "SAT_129",
+      "headcode": "",
+      "operator": "NT",
+      "days": [
+        "SAT"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "CTR",
+          "arr": null,
+          "dep": 776
+        },
+        {
+          "station": "MLD",
+          "arr": null,
+          "dep": 788
+        },
+        {
+          "station": "DLM",
+          "arr": null,
+          "dep": 793
+        },
+        {
+          "station": "CUD",
+          "arr": null,
+          "dep": 798
+        },
+        {
+          "station": "NWI",
+          "arr": null,
+          "dep": 808
+        },
+        {
+          "station": "LTG",
+          "arr": null,
+          "dep": 812
+        },
+        {
+          "station": "PLM",
+          "arr": null,
+          "dep": 815
+        },
+        {
+          "station": "MOB",
+          "arr": null,
+          "dep": 826
+        },
+        {
+          "station": "ASY",
+          "arr": null,
+          "dep": 829
+        },
+        {
+          "station": "HAL",
+          "arr": null,
+          "dep": 833
+        },
+        {
+          "station": "ALT",
+          "arr": null,
+          "dep": 837
+        },
+        {
+          "station": "NVR",
+          "arr": null,
+          "dep": 840
+        },
+        {
+          "station": "SPT",
+          "arr": 854,
+          "dep": null
+        },
+        {
+          "station": "MAN",
+          "arr": null,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "SAT_130",
+      "headcode": "",
+      "operator": "NT",
+      "days": [
+        "SAT"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "CTR",
+          "arr": null,
+          "dep": 836
+        },
+        {
+          "station": "MLD",
+          "arr": null,
+          "dep": 847
+        },
+        {
+          "station": "DLM",
+          "arr": null,
+          "dep": 853
+        },
+        {
+          "station": "CUD",
+          "arr": null,
+          "dep": 858
+        },
+        {
+          "station": "NWI",
+          "arr": null,
+          "dep": 868
+        },
+        {
+          "station": "LTG",
+          "arr": null,
+          "dep": 872
+        },
+        {
+          "station": "PLM",
+          "arr": null,
+          "dep": 875
+        },
+        {
+          "station": "MOB",
+          "arr": null,
+          "dep": 886
+        },
+        {
+          "station": "ASY",
+          "arr": null,
+          "dep": 889
+        },
+        {
+          "station": "HAL",
+          "arr": null,
+          "dep": 893
+        },
+        {
+          "station": "ALT",
+          "arr": null,
+          "dep": 897
+        },
+        {
+          "station": "NVR",
+          "arr": null,
+          "dep": 900
+        },
+        {
+          "station": "SPT",
+          "arr": 914,
+          "dep": null
+        },
+        {
+          "station": "MAN",
+          "arr": null,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "SAT_131",
+      "headcode": "",
+      "operator": "NT",
+      "days": [
+        "SAT"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "CTR",
+          "arr": null,
+          "dep": 896
+        },
+        {
+          "station": "MLD",
+          "arr": null,
+          "dep": 907
+        },
+        {
+          "station": "DLM",
+          "arr": null,
+          "dep": 913
+        },
+        {
+          "station": "CUD",
+          "arr": null,
+          "dep": 918
+        },
+        {
+          "station": "NWI",
+          "arr": null,
+          "dep": 928
+        },
+        {
+          "station": "LTG",
+          "arr": null,
+          "dep": 932
+        },
+        {
+          "station": "PLM",
+          "arr": null,
+          "dep": 935
+        },
+        {
+          "station": "MOB",
+          "arr": null,
+          "dep": 946
+        },
+        {
+          "station": "ASY",
+          "arr": null,
+          "dep": 949
+        },
+        {
+          "station": "HAL",
+          "arr": null,
+          "dep": 953
+        },
+        {
+          "station": "ALT",
+          "arr": null,
+          "dep": 957
+        },
+        {
+          "station": "NVR",
+          "arr": null,
+          "dep": 960
+        },
+        {
+          "station": "SPT",
+          "arr": 974,
+          "dep": null
+        },
+        {
+          "station": "MAN",
+          "arr": null,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "SAT_132",
+      "headcode": "",
+      "operator": "NT",
+      "days": [
+        "SAT"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "CTR",
+          "arr": null,
+          "dep": 956
+        },
+        {
+          "station": "MLD",
+          "arr": null,
+          "dep": 967
+        },
+        {
+          "station": "DLM",
+          "arr": null,
+          "dep": 973
+        },
+        {
+          "station": "CUD",
+          "arr": null,
+          "dep": 978
+        },
+        {
+          "station": "NWI",
+          "arr": null,
+          "dep": 988
+        },
+        {
+          "station": "LTG",
+          "arr": null,
+          "dep": 992
+        },
+        {
+          "station": "PLM",
+          "arr": null,
+          "dep": 995
+        },
+        {
+          "station": "MOB",
+          "arr": null,
+          "dep": 1006
+        },
+        {
+          "station": "ASY",
+          "arr": null,
+          "dep": 1009
+        },
+        {
+          "station": "HAL",
+          "arr": null,
+          "dep": 1013
+        },
+        {
+          "station": "ALT",
+          "arr": null,
+          "dep": 1017
+        },
+        {
+          "station": "NVR",
+          "arr": null,
+          "dep": 1020
+        },
+        {
+          "station": "SPT",
+          "arr": 1034,
+          "dep": null
+        },
+        {
+          "station": "MAN",
+          "arr": null,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "SAT_133",
+      "headcode": "",
+      "operator": "NT",
+      "days": [
+        "SAT"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "CTR",
+          "arr": null,
+          "dep": 1016
+        },
+        {
+          "station": "MLD",
+          "arr": null,
+          "dep": 1027
+        },
+        {
+          "station": "DLM",
+          "arr": null,
+          "dep": 1033
+        },
+        {
+          "station": "CUD",
+          "arr": null,
+          "dep": 1038
+        },
+        {
+          "station": "NWI",
+          "arr": null,
+          "dep": 1048
+        },
+        {
+          "station": "LTG",
+          "arr": null,
+          "dep": 1052
+        },
+        {
+          "station": "PLM",
+          "arr": null,
+          "dep": 1055
+        },
+        {
+          "station": "MOB",
+          "arr": null,
+          "dep": 1066
+        },
+        {
+          "station": "ASY",
+          "arr": null,
+          "dep": 1069
+        },
+        {
+          "station": "HAL",
+          "arr": null,
+          "dep": 1073
+        },
+        {
+          "station": "ALT",
+          "arr": null,
+          "dep": 1077
+        },
+        {
+          "station": "NVR",
+          "arr": null,
+          "dep": 1080
+        },
+        {
+          "station": "SPT",
+          "arr": 1094,
+          "dep": null
+        },
+        {
+          "station": "MAN",
+          "arr": null,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "SAT_134",
+      "headcode": "",
+      "operator": "NT",
+      "days": [
+        "SAT"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "CTR",
+          "arr": null,
+          "dep": 1076
+        },
+        {
+          "station": "MLD",
+          "arr": null,
+          "dep": 1087
+        },
+        {
+          "station": "DLM",
+          "arr": null,
+          "dep": 1093
+        },
+        {
+          "station": "CUD",
+          "arr": null,
+          "dep": 1098
+        },
+        {
+          "station": "NWI",
+          "arr": null,
+          "dep": 1108
+        },
+        {
+          "station": "LTG",
+          "arr": null,
+          "dep": 1112
+        },
+        {
+          "station": "PLM",
+          "arr": null,
+          "dep": 1115
+        },
+        {
+          "station": "MOB",
+          "arr": null,
+          "dep": 1126
+        },
+        {
+          "station": "ASY",
+          "arr": null,
+          "dep": 1129
+        },
+        {
+          "station": "HAL",
+          "arr": null,
+          "dep": 1133
+        },
+        {
+          "station": "ALT",
+          "arr": null,
+          "dep": 1137
+        },
+        {
+          "station": "NVR",
+          "arr": null,
+          "dep": 1140
+        },
+        {
+          "station": "SPT",
+          "arr": 1154,
+          "dep": null
+        },
+        {
+          "station": "MAN",
+          "arr": null,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "SAT_135",
+      "headcode": "",
+      "operator": "NT",
+      "days": [
+        "SAT"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "CTR",
+          "arr": null,
+          "dep": 1136
+        },
+        {
+          "station": "MLD",
+          "arr": null,
+          "dep": 1147
+        },
+        {
+          "station": "DLM",
+          "arr": null,
+          "dep": 1153
+        },
+        {
+          "station": "CUD",
+          "arr": null,
+          "dep": 1158
+        },
+        {
+          "station": "NWI",
+          "arr": null,
+          "dep": 1168
+        },
+        {
+          "station": "LTG",
+          "arr": null,
+          "dep": 1172
+        },
+        {
+          "station": "PLM",
+          "arr": null,
+          "dep": 1175
+        },
+        {
+          "station": "MOB",
+          "arr": null,
+          "dep": 1186
+        },
+        {
+          "station": "ASY",
+          "arr": null,
+          "dep": 1189
+        },
+        {
+          "station": "HAL",
+          "arr": null,
+          "dep": 1193
+        },
+        {
+          "station": "ALT",
+          "arr": null,
+          "dep": 1197
+        },
+        {
+          "station": "NVR",
+          "arr": null,
+          "dep": 1200
+        },
+        {
+          "station": "SPT",
+          "arr": 1214,
+          "dep": null
+        },
+        {
+          "station": "MAN",
+          "arr": null,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "SAT_136",
+      "headcode": "",
+      "operator": "NT",
+      "days": [
+        "SAT"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "CTR",
+          "arr": null,
+          "dep": 1196
+        },
+        {
+          "station": "MLD",
+          "arr": null,
+          "dep": 1207
+        },
+        {
+          "station": "DLM",
+          "arr": null,
+          "dep": 1213
+        },
+        {
+          "station": "CUD",
+          "arr": null,
+          "dep": 1218
+        },
+        {
+          "station": "NWI",
+          "arr": null,
+          "dep": 1228
+        },
+        {
+          "station": "LTG",
+          "arr": null,
+          "dep": 1232
+        },
+        {
+          "station": "PLM",
+          "arr": null,
+          "dep": 1235
+        },
+        {
+          "station": "MOB",
+          "arr": null,
+          "dep": 1246
+        },
+        {
+          "station": "ASY",
+          "arr": null,
+          "dep": 1249
+        },
+        {
+          "station": "HAL",
+          "arr": null,
+          "dep": 1253
+        },
+        {
+          "station": "ALT",
+          "arr": null,
+          "dep": 1257
+        },
+        {
+          "station": "NVR",
+          "arr": null,
+          "dep": 1260
+        },
+        {
+          "station": "SPT",
+          "arr": 1274,
+          "dep": null
+        },
+        {
+          "station": "MAN",
+          "arr": null,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "SAT_137",
+      "headcode": "",
+      "operator": "NT",
+      "days": [
+        "SAT"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "CTR",
+          "arr": null,
+          "dep": 1256
+        },
+        {
+          "station": "MLD",
+          "arr": null,
+          "dep": 1267
+        },
+        {
+          "station": "DLM",
+          "arr": null,
+          "dep": 1273
+        },
+        {
+          "station": "CUD",
+          "arr": null,
+          "dep": 1278
+        },
+        {
+          "station": "NWI",
+          "arr": null,
+          "dep": 1288
+        },
+        {
+          "station": "LTG",
+          "arr": null,
+          "dep": 1292
+        },
+        {
+          "station": "PLM",
+          "arr": null,
+          "dep": 1295
+        },
+        {
+          "station": "MOB",
+          "arr": null,
+          "dep": 1306
+        },
+        {
+          "station": "ASY",
+          "arr": null,
+          "dep": 1309
+        },
+        {
+          "station": "HAL",
+          "arr": null,
+          "dep": 1313
+        },
+        {
+          "station": "ALT",
+          "arr": null,
+          "dep": 1317
+        },
+        {
+          "station": "NVR",
+          "arr": null,
+          "dep": 1320
+        },
+        {
+          "station": "SPT",
+          "arr": 1334,
+          "dep": null
+        },
+        {
+          "station": "MAN",
+          "arr": null,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "SAT_138",
+      "headcode": "",
+      "operator": "NT",
+      "days": [
+        "SAT"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "CTR",
+          "arr": null,
+          "dep": 1316
+        },
+        {
+          "station": "MLD",
+          "arr": null,
+          "dep": 1327
+        },
+        {
+          "station": "DLM",
+          "arr": null,
+          "dep": 1333
+        },
+        {
+          "station": "CUD",
+          "arr": null,
+          "dep": 1338
+        },
+        {
+          "station": "NWI",
+          "arr": null,
+          "dep": 1348
+        },
+        {
+          "station": "LTG",
+          "arr": null,
+          "dep": 1352
+        },
+        {
+          "station": "PLM",
+          "arr": null,
+          "dep": 1355
+        },
+        {
+          "station": "MOB",
+          "arr": null,
+          "dep": 1366
+        },
+        {
+          "station": "ASY",
+          "arr": null,
+          "dep": 1369
+        },
+        {
+          "station": "HAL",
+          "arr": null,
+          "dep": 1373
+        },
+        {
+          "station": "ALT",
+          "arr": null,
+          "dep": 1377
+        },
+        {
+          "station": "NVR",
+          "arr": null,
+          "dep": 1380
+        },
+        {
+          "station": "SPT",
+          "arr": 1394,
+          "dep": null
+        },
+        {
+          "station": "MAN",
+          "arr": null,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "SAT_139",
+      "headcode": "",
+      "operator": "",
+      "days": [
+        "SAT"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "CTR",
+          "arr": null,
+          "dep": 1373
+        },
+        {
+          "station": "MLD",
+          "arr": null,
+          "dep": 1384
+        },
+        {
+          "station": "DLM",
+          "arr": null,
+          "dep": 1390
+        },
+        {
+          "station": "CUD",
+          "arr": null,
+          "dep": 1395
+        },
+        {
+          "station": "NWI",
+          "arr": null,
+          "dep": 1405
+        },
+        {
+          "station": "LTG",
+          "arr": null,
+          "dep": 1409
+        },
+        {
+          "station": "PLM",
+          "arr": null,
+          "dep": 1412
+        },
+        {
+          "station": "MOB",
+          "arr": null,
+          "dep": 1423
+        },
+        {
+          "station": "ASY",
+          "arr": null,
+          "dep": 1426
+        },
+        {
+          "station": "HAL",
+          "arr": null,
+          "dep": 1430
+        },
+        {
+          "station": "ALT",
+          "arr": null,
+          "dep": 1434
+        },
+        {
+          "station": "NVR",
+          "arr": null,
+          "dep": 1437
+        },
+        {
+          "station": "SPT",
+          "arr": 11,
+          "dep": null
+        },
+        {
+          "station": "MAN",
+          "arr": null,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "SAT_140",
+      "headcode": "",
+      "operator": "",
+      "days": [
+        "SAT"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "CUD",
+          "arr": null,
+          "dep": 383
+        },
+        {
+          "station": "PLM",
+          "arr": null,
+          "dep": 401
+        }
+      ]
+    },
+    {
+      "id": "SAT_141",
+      "headcode": "",
+      "operator": "",
+      "days": [
+        "SAT"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "CUD",
+          "arr": null,
+          "dep": 436
+        },
+        {
+          "station": "PLM",
+          "arr": null,
+          "dep": 455
+        }
+      ]
+    },
+    {
+      "id": "SAT_142",
+      "headcode": "",
+      "operator": "",
+      "days": [
+        "SAT"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "CUD",
+          "arr": null,
+          "dep": 503
+        },
+        {
+          "station": "PLM",
+          "arr": null,
+          "dep": 521
+        }
+      ]
+    },
+    {
+      "id": "SAT_143",
+      "headcode": "",
+      "operator": "",
+      "days": [
+        "SAT"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "CUD",
+          "arr": null,
+          "dep": 563
+        },
+        {
+          "station": "PLM",
+          "arr": null,
+          "dep": 581
+        }
+      ]
+    },
+    {
+      "id": "SAT_144",
+      "headcode": "",
+      "operator": "",
+      "days": [
+        "SAT"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "CUD",
+          "arr": null,
+          "dep": 622
+        },
+        {
+          "station": "PLM",
+          "arr": null,
+          "dep": 640
+        }
+      ]
+    },
+    {
+      "id": "SAT_145",
+      "headcode": "",
+      "operator": "",
+      "days": [
+        "SAT"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "CUD",
+          "arr": null,
+          "dep": 682
+        },
+        {
+          "station": "PLM",
+          "arr": null,
+          "dep": 700
+        }
+      ]
+    },
+    {
+      "id": "SAT_146",
+      "headcode": "",
+      "operator": "",
+      "days": [
+        "SAT"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "CUD",
+          "arr": null,
+          "dep": 743
+        },
+        {
+          "station": "PLM",
+          "arr": null,
+          "dep": 761
+        }
+      ]
+    },
+    {
+      "id": "SAT_147",
+      "headcode": "",
+      "operator": "",
+      "days": [
+        "SAT"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "CUD",
+          "arr": null,
+          "dep": 803
+        },
+        {
+          "station": "PLM",
+          "arr": null,
+          "dep": 821
+        }
+      ]
+    },
+    {
+      "id": "SAT_148",
+      "headcode": "",
+      "operator": "",
+      "days": [
+        "SAT"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "CUD",
+          "arr": null,
+          "dep": 863
+        },
+        {
+          "station": "PLM",
+          "arr": null,
+          "dep": 881
+        }
+      ]
+    },
+    {
+      "id": "SAT_149",
+      "headcode": "",
+      "operator": "",
+      "days": [
+        "SAT"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "CUD",
+          "arr": null,
+          "dep": 923
+        },
+        {
+          "station": "PLM",
+          "arr": null,
+          "dep": 941
+        }
+      ]
+    },
+    {
+      "id": "SAT_150",
+      "headcode": "",
+      "operator": "",
+      "days": [
+        "SAT"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "CUD",
+          "arr": null,
+          "dep": 983
+        },
+        {
+          "station": "PLM",
+          "arr": null,
+          "dep": 1001
+        }
+      ]
+    },
+    {
+      "id": "SAT_151",
+      "headcode": "",
+      "operator": "",
+      "days": [
+        "SAT"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "CUD",
+          "arr": null,
+          "dep": 1043
+        },
+        {
+          "station": "PLM",
+          "arr": null,
+          "dep": 1061
+        }
+      ]
+    },
+    {
+      "id": "SAT_152",
+      "headcode": "",
+      "operator": "",
+      "days": [
+        "SAT"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "CUD",
+          "arr": null,
+          "dep": 1103
+        },
+        {
+          "station": "PLM",
+          "arr": null,
+          "dep": 1121
+        }
+      ]
+    },
+    {
+      "id": "SAT_153",
+      "headcode": "",
+      "operator": "",
+      "days": [
+        "SAT"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "CUD",
+          "arr": null,
+          "dep": 1163
+        },
+        {
+          "station": "PLM",
+          "arr": null,
+          "dep": 1181
+        }
+      ]
+    },
+    {
+      "id": "SAT_154",
+      "headcode": "",
+      "operator": "",
+      "days": [
+        "SAT"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "CUD",
+          "arr": null,
+          "dep": 1223
+        },
+        {
+          "station": "PLM",
+          "arr": null,
+          "dep": 1241
+        }
+      ]
+    },
+    {
+      "id": "SAT_155",
+      "headcode": "",
+      "operator": "",
+      "days": [
+        "SAT"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "CUD",
+          "arr": null,
+          "dep": 1283
+        },
+        {
+          "station": "PLM",
+          "arr": null,
+          "dep": 1301
+        }
+      ]
+    },
+    {
+      "id": "SAT_156",
+      "headcode": "",
+      "operator": "",
+      "days": [
+        "SAT"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "CUD",
+          "arr": null,
+          "dep": 1343
+        },
+        {
+          "station": "PLM",
+          "arr": null,
+          "dep": 1361
+        }
+      ]
+    },
+    {
+      "id": "SAT_157",
+      "headcode": "",
+      "operator": "",
+      "days": [
+        "SAT"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "CUD",
+          "arr": null,
+          "dep": 1400
+        },
+        {
+          "station": "PLM",
+          "arr": null,
+          "dep": 1418
+        }
+      ]
+    },
+    {
+      "id": "SUN_158",
+      "headcode": "",
+      "operator": "NT",
+      "days": [
+        "SUN"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "CTR",
+          "arr": null,
+          "dep": 543
+        },
+        {
+          "station": "MLD",
+          "arr": null,
+          "dep": 554
+        },
+        {
+          "station": "DLM",
+          "arr": null,
+          "dep": 559
+        },
+        {
+          "station": "CUD",
+          "arr": null,
+          "dep": 564
+        },
+        {
+          "station": "NWI",
+          "arr": null,
+          "dep": 574
+        },
+        {
+          "station": "LTG",
+          "arr": null,
+          "dep": 577
+        },
+        {
+          "station": "PLM",
+          "arr": null,
+          "dep": 580
+        },
+        {
+          "station": "MOB",
+          "arr": null,
+          "dep": 590
+        },
+        {
+          "station": "ASY",
+          "arr": null,
+          "dep": 594
+        },
+        {
+          "station": "HAL",
+          "arr": null,
+          "dep": 597
+        },
+        {
+          "station": "ALT",
+          "arr": null,
+          "dep": 601
+        },
+        {
+          "station": "NVR",
+          "arr": null,
+          "dep": 603
+        },
+        {
+          "station": "SPT",
+          "arr": 618,
+          "dep": null
+        },
+        {
+          "station": "MAN",
+          "arr": null,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "SUN_159",
+      "headcode": "",
+      "operator": "NT",
+      "days": [
+        "SUN"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "CTR",
+          "arr": null,
+          "dep": 543
+        },
+        {
+          "station": "MLD",
+          "arr": null,
+          "dep": 554
+        },
+        {
+          "station": "DLM",
+          "arr": null,
+          "dep": 559
+        },
+        {
+          "station": "CUD",
+          "arr": null,
+          "dep": 564
+        },
+        {
+          "station": "NWI",
+          "arr": null,
+          "dep": 574
+        },
+        {
+          "station": "LTG",
+          "arr": null,
+          "dep": 577
+        },
+        {
+          "station": "PLM",
+          "arr": null,
+          "dep": 580
+        },
+        {
+          "station": "MOB",
+          "arr": null,
+          "dep": 590
+        },
+        {
+          "station": "ASY",
+          "arr": null,
+          "dep": 594
+        },
+        {
+          "station": "HAL",
+          "arr": null,
+          "dep": 597
+        },
+        {
+          "station": "ALT",
+          "arr": null,
+          "dep": 601
+        },
+        {
+          "station": "NVR",
+          "arr": null,
+          "dep": 603
+        },
+        {
+          "station": "SPT",
+          "arr": 618,
+          "dep": null
+        },
+        {
+          "station": "MAN",
+          "arr": null,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "SUN_160",
+      "headcode": "",
+      "operator": "NT",
+      "days": [
+        "SUN"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "CTR",
+          "arr": null,
+          "dep": 656
+        },
+        {
+          "station": "MLD",
+          "arr": null,
+          "dep": 667
+        },
+        {
+          "station": "DLM",
+          "arr": null,
+          "dep": 673
+        },
+        {
+          "station": "CUD",
+          "arr": null,
+          "dep": 677
+        },
+        {
+          "station": "NWI",
+          "arr": null,
+          "dep": 688
+        },
+        {
+          "station": "LTG",
+          "arr": null,
+          "dep": 691
+        },
+        {
+          "station": "PLM",
+          "arr": null,
+          "dep": 695
+        },
+        {
+          "station": "MOB",
+          "arr": null,
+          "dep": 705
+        },
+        {
+          "station": "ASY",
+          "arr": null,
+          "dep": 708
+        },
+        {
+          "station": "HAL",
+          "arr": null,
+          "dep": 712
+        },
+        {
+          "station": "ALT",
+          "arr": null,
+          "dep": 716
+        },
+        {
+          "station": "NVR",
+          "arr": null,
+          "dep": 718
+        },
+        {
+          "station": "SPT",
+          "arr": 733,
+          "dep": null
+        },
+        {
+          "station": "MAN",
+          "arr": null,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "SUN_161",
+      "headcode": "",
+      "operator": "NT",
+      "days": [
+        "SUN"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "CTR",
+          "arr": null,
+          "dep": 779
+        },
+        {
+          "station": "MLD",
+          "arr": null,
+          "dep": 791
+        },
+        {
+          "station": "DLM",
+          "arr": null,
+          "dep": 796
+        },
+        {
+          "station": "CUD",
+          "arr": null,
+          "dep": 801
+        },
+        {
+          "station": "NWI",
+          "arr": null,
+          "dep": 811
+        },
+        {
+          "station": "LTG",
+          "arr": null,
+          "dep": 814
+        },
+        {
+          "station": "PLM",
+          "arr": null,
+          "dep": 818
+        },
+        {
+          "station": "MOB",
+          "arr": null,
+          "dep": 828
+        },
+        {
+          "station": "ASY",
+          "arr": null,
+          "dep": 831
+        },
+        {
+          "station": "HAL",
+          "arr": null,
+          "dep": 835
+        },
+        {
+          "station": "ALT",
+          "arr": null,
+          "dep": 839
+        },
+        {
+          "station": "NVR",
+          "arr": null,
+          "dep": 841
+        },
+        {
+          "station": "SPT",
+          "arr": 856,
+          "dep": null
+        },
+        {
+          "station": "MAN",
+          "arr": null,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "SUN_162",
+      "headcode": "",
+      "operator": "NT",
+      "days": [
+        "SUN"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "CTR",
+          "arr": null,
+          "dep": 903
+        },
+        {
+          "station": "MLD",
+          "arr": null,
+          "dep": 914
+        },
+        {
+          "station": "DLM",
+          "arr": null,
+          "dep": 920
+        },
+        {
+          "station": "CUD",
+          "arr": null,
+          "dep": 924
+        },
+        {
+          "station": "NWI",
+          "arr": null,
+          "dep": 935
+        },
+        {
+          "station": "LTG",
+          "arr": null,
+          "dep": 938
+        },
+        {
+          "station": "PLM",
+          "arr": null,
+          "dep": 942
+        },
+        {
+          "station": "MOB",
+          "arr": null,
+          "dep": 952
+        },
+        {
+          "station": "ASY",
+          "arr": null,
+          "dep": 955
+        },
+        {
+          "station": "HAL",
+          "arr": null,
+          "dep": 959
+        },
+        {
+          "station": "ALT",
+          "arr": null,
+          "dep": 963
+        },
+        {
+          "station": "NVR",
+          "arr": null,
+          "dep": 966
+        },
+        {
+          "station": "SPT",
+          "arr": 980,
+          "dep": null
+        },
+        {
+          "station": "MAN",
+          "arr": null,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "SUN_163",
+      "headcode": "",
+      "operator": "NT",
+      "days": [
+        "SUN"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "CTR",
+          "arr": null,
+          "dep": 1023
+        },
+        {
+          "station": "MLD",
+          "arr": null,
+          "dep": 1034
+        },
+        {
+          "station": "DLM",
+          "arr": null,
+          "dep": 1040
+        },
+        {
+          "station": "CUD",
+          "arr": null,
+          "dep": 1044
+        },
+        {
+          "station": "NWI",
+          "arr": null,
+          "dep": 1055
+        },
+        {
+          "station": "LTG",
+          "arr": null,
+          "dep": 1058
+        },
+        {
+          "station": "PLM",
+          "arr": null,
+          "dep": 1062
+        },
+        {
+          "station": "MOB",
+          "arr": null,
+          "dep": 1072
+        },
+        {
+          "station": "ASY",
+          "arr": null,
+          "dep": 1075
+        },
+        {
+          "station": "HAL",
+          "arr": null,
+          "dep": 1079
+        },
+        {
+          "station": "ALT",
+          "arr": null,
+          "dep": 1083
+        },
+        {
+          "station": "NVR",
+          "arr": null,
+          "dep": 1086
+        },
+        {
+          "station": "SPT",
+          "arr": 1100,
+          "dep": null
+        },
+        {
+          "station": "MAN",
+          "arr": null,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "SUN_164",
+      "headcode": "",
+      "operator": "NT",
+      "days": [
+        "SUN"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "CTR",
+          "arr": null,
+          "dep": 1146
+        },
+        {
+          "station": "MLD",
+          "arr": null,
+          "dep": 1157
+        },
+        {
+          "station": "DLM",
+          "arr": null,
+          "dep": 1163
+        },
+        {
+          "station": "CUD",
+          "arr": null,
+          "dep": 1167
+        },
+        {
+          "station": "NWI",
+          "arr": null,
+          "dep": 1178
+        },
+        {
+          "station": "LTG",
+          "arr": null,
+          "dep": 1181
+        },
+        {
+          "station": "PLM",
+          "arr": null,
+          "dep": 1185
+        },
+        {
+          "station": "MOB",
+          "arr": null,
+          "dep": 1194
+        },
+        {
+          "station": "ASY",
+          "arr": null,
+          "dep": 1198
+        },
+        {
+          "station": "HAL",
+          "arr": null,
+          "dep": 1201
+        },
+        {
+          "station": "ALT",
+          "arr": null,
+          "dep": 1205
+        },
+        {
+          "station": "NVR",
+          "arr": null,
+          "dep": 1207
+        },
+        {
+          "station": "SPT",
+          "arr": 1222,
+          "dep": null
+        },
+        {
+          "station": "MAN",
+          "arr": null,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "SUN_165",
+      "headcode": "",
+      "operator": "",
+      "days": [
+        "SUN"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "CTR",
+          "arr": null,
+          "dep": 1259
+        },
+        {
+          "station": "MLD",
+          "arr": null,
+          "dep": 1270
+        },
+        {
+          "station": "DLM",
+          "arr": null,
+          "dep": 1276
+        },
+        {
+          "station": "CUD",
+          "arr": null,
+          "dep": 1280
+        },
+        {
+          "station": "NWI",
+          "arr": null,
+          "dep": 1291
+        },
+        {
+          "station": "LTG",
+          "arr": null,
+          "dep": 1294
+        },
+        {
+          "station": "PLM",
+          "arr": null,
+          "dep": 1298
+        },
+        {
+          "station": "MOB",
+          "arr": null,
+          "dep": 1308
+        },
+        {
+          "station": "ASY",
+          "arr": null,
+          "dep": 1311
+        },
+        {
+          "station": "HAL",
+          "arr": null,
+          "dep": 1315
+        },
+        {
+          "station": "ALT",
+          "arr": null,
+          "dep": 1319
+        },
+        {
+          "station": "NVR",
+          "arr": null,
+          "dep": 1322
+        },
+        {
+          "station": "SPT",
+          "arr": 1336,
+          "dep": null
+        },
+        {
+          "station": "MAN",
+          "arr": null,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "SUN_166",
+      "headcode": "",
+      "operator": "",
+      "days": [
+        "SUN"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "CUD",
+          "arr": null,
+          "dep": 568
+        },
+        {
+          "station": "PLM",
+          "arr": null,
+          "dep": 585
+        },
+        {
+          "station": "MAN",
+          "arr": null,
+          "dep": 861
+        }
+      ]
+    },
+    {
+      "id": "SUN_167",
+      "headcode": "",
+      "operator": "",
+      "days": [
+        "SUN"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "CUD",
+          "arr": null,
+          "dep": 568
+        },
+        {
+          "station": "PLM",
+          "arr": null,
+          "dep": 585
+        },
+        {
+          "station": "MAN",
+          "arr": null,
+          "dep": 865
+        }
+      ]
+    },
+    {
+      "id": "SUN_168",
+      "headcode": "",
+      "operator": "",
+      "days": [
+        "SUN"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "CUD",
+          "arr": null,
+          "dep": 682
+        },
+        {
+          "station": "PLM",
+          "arr": null,
+          "dep": 700
+        },
+        {
+          "station": "MAN",
+          "arr": null,
+          "dep": 1226
+        }
+      ]
+    },
+    {
+      "id": "SUN_169",
+      "headcode": "",
+      "operator": "",
+      "days": [
+        "SUN"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "CUD",
+          "arr": null,
+          "dep": 806
+        },
+        {
+          "station": "PLM",
+          "arr": null,
+          "dep": 823
+        },
+        {
+          "station": "MAN",
+          "arr": null,
+          "dep": 1229
+        }
+      ]
+    },
+    {
+      "id": "SUN_170",
+      "headcode": "",
+      "operator": "",
+      "days": [
+        "SUN"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "CUD",
+          "arr": null,
+          "dep": 929
+        },
+        {
+          "station": "PLM",
+          "arr": null,
+          "dep": 947
+        }
+      ]
+    },
+    {
+      "id": "SUN_171",
+      "headcode": "",
+      "operator": "",
+      "days": [
+        "SUN"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "CUD",
+          "arr": null,
+          "dep": 1049
+        },
+        {
+          "station": "PLM",
+          "arr": null,
+          "dep": 1067
+        }
+      ]
+    },
+    {
+      "id": "SUN_172",
+      "headcode": "",
+      "operator": "",
+      "days": [
+        "SUN"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "CUD",
+          "arr": null,
+          "dep": 1172
+        },
+        {
+          "station": "PLM",
+          "arr": null,
+          "dep": 1190
+        }
+      ]
+    },
+    {
+      "id": "SUN_173",
+      "headcode": "",
+      "operator": "",
+      "days": [
+        "SUN"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "CUD",
+          "arr": null,
+          "dep": 1285
+        },
+        {
+          "station": "PLM",
+          "arr": null,
+          "dep": 1303
+        }
+      ]
+    }
+  ]
+}

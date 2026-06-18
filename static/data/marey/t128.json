@@ -1,0 +1,7230 @@
+{
+  "table": "128",
+  "route": "Route 128",
+  "route_id": "t128",
+  "stations": [
+    {
+      "name": "CDF",
+      "crs": "CDF",
+      "mileage": 0.0,
+      "type": "major"
+    },
+    {
+      "name": "NWP",
+      "crs": "NWP",
+      "mileage": 11.0,
+      "type": "major"
+    },
+    {
+      "name": "PYE",
+      "crs": "PYE",
+      "mileage": 0.0,
+      "type": "minor"
+    },
+    {
+      "name": "ROR",
+      "crs": "ROR",
+      "mileage": 0.0,
+      "type": "minor"
+    },
+    {
+      "name": "RCA",
+      "crs": "RCA",
+      "mileage": 0.0,
+      "type": "minor"
+    },
+    {
+      "name": "CKY",
+      "crs": "CKY",
+      "mileage": 0.0,
+      "type": "minor"
+    },
+    {
+      "name": "NBE",
+      "crs": "NBE",
+      "mileage": 0.0,
+      "type": "minor"
+    },
+    {
+      "name": "LTH",
+      "crs": "LTH",
+      "mileage": 0.0,
+      "type": "minor"
+    },
+    {
+      "name": "EBV",
+      "crs": "EBV",
+      "mileage": 0.0,
+      "type": "minor"
+    },
+    {
+      "name": "EBB",
+      "crs": "EBB",
+      "mileage": 0.0,
+      "type": "minor"
+    },
+    {
+      "name": "STJ",
+      "crs": "STJ",
+      "mileage": 0.0,
+      "type": "minor"
+    }
+  ],
+  "services": [
+    {
+      "id": "MF_0",
+      "headcode": "",
+      "operator": "",
+      "days": [
+        "MF"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "CDF",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "NWP",
+          "arr": 291,
+          "dep": null
+        },
+        {
+          "station": "NWP",
+          "arr": null,
+          "dep": 384
+        },
+        {
+          "station": "PYE",
+          "arr": null,
+          "dep": 355
+        },
+        {
+          "station": "ROR",
+          "arr": null,
+          "dep": 359
+        },
+        {
+          "station": "RCA",
+          "arr": null,
+          "dep": 363
+        },
+        {
+          "station": "CKY",
+          "arr": null,
+          "dep": 368
+        },
+        {
+          "station": "NBE",
+          "arr": null,
+          "dep": 375
+        },
+        {
+          "station": "LTH",
+          "arr": null,
+          "dep": 381
+        },
+        {
+          "station": "EBV",
+          "arr": null,
+          "dep": 390
+        },
+        {
+          "station": "EBB",
+          "arr": 397,
+          "dep": null
+        },
+        {
+          "station": "STJ",
+          "arr": 394,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "MF_1",
+      "headcode": "",
+      "operator": "",
+      "days": [
+        "MF"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "CDF",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "NWP",
+          "arr": 324,
+          "dep": null
+        },
+        {
+          "station": "NWP",
+          "arr": null,
+          "dep": 402
+        },
+        {
+          "station": "PYE",
+          "arr": null,
+          "dep": 384
+        },
+        {
+          "station": "ROR",
+          "arr": null,
+          "dep": 388
+        },
+        {
+          "station": "RCA",
+          "arr": null,
+          "dep": 391
+        },
+        {
+          "station": "CKY",
+          "arr": null,
+          "dep": 397
+        },
+        {
+          "station": "NBE",
+          "arr": null,
+          "dep": 403
+        },
+        {
+          "station": "LTH",
+          "arr": null,
+          "dep": 410
+        },
+        {
+          "station": "EBV",
+          "arr": null,
+          "dep": 419
+        },
+        {
+          "station": "EBB",
+          "arr": 425,
+          "dep": null
+        },
+        {
+          "station": "STJ",
+          "arr": 412,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "MF_2",
+      "headcode": "",
+      "operator": "",
+      "days": [
+        "MF"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "CDF",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "NWP",
+          "arr": 337,
+          "dep": null
+        },
+        {
+          "station": "NWP",
+          "arr": null,
+          "dep": 407
+        },
+        {
+          "station": "PYE",
+          "arr": null,
+          "dep": 415
+        },
+        {
+          "station": "ROR",
+          "arr": null,
+          "dep": 419
+        },
+        {
+          "station": "RCA",
+          "arr": null,
+          "dep": 423
+        },
+        {
+          "station": "CKY",
+          "arr": null,
+          "dep": 428
+        },
+        {
+          "station": "NBE",
+          "arr": null,
+          "dep": 435
+        },
+        {
+          "station": "LTH",
+          "arr": null,
+          "dep": 441
+        },
+        {
+          "station": "EBV",
+          "arr": null,
+          "dep": 450
+        },
+        {
+          "station": "EBB",
+          "arr": 455,
+          "dep": null
+        },
+        {
+          "station": "STJ",
+          "arr": 424,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "MF_3",
+      "headcode": "",
+      "operator": "",
+      "days": [
+        "MF"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "CDF",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "NWP",
+          "arr": 361,
+          "dep": null
+        },
+        {
+          "station": "NWP",
+          "arr": null,
+          "dep": 414
+        },
+        {
+          "station": "PYE",
+          "arr": null,
+          "dep": 443
+        },
+        {
+          "station": "ROR",
+          "arr": null,
+          "dep": 447
+        },
+        {
+          "station": "RCA",
+          "arr": null,
+          "dep": 450
+        },
+        {
+          "station": "CKY",
+          "arr": null,
+          "dep": 456
+        },
+        {
+          "station": "NBE",
+          "arr": null,
+          "dep": 462
+        },
+        {
+          "station": "LTH",
+          "arr": null,
+          "dep": 469
+        },
+        {
+          "station": "EBV",
+          "arr": null,
+          "dep": 478
+        },
+        {
+          "station": "EBB",
+          "arr": 483,
+          "dep": null
+        },
+        {
+          "station": "STJ",
+          "arr": 440,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "MF_4",
+      "headcode": "",
+      "operator": "",
+      "days": [
+        "MF"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "CDF",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "NWP",
+          "arr": 364,
+          "dep": null
+        },
+        {
+          "station": "NWP",
+          "arr": null,
+          "dep": 430
+        },
+        {
+          "station": "PYE",
+          "arr": null,
+          "dep": 443
+        },
+        {
+          "station": "ROR",
+          "arr": null,
+          "dep": 447
+        },
+        {
+          "station": "RCA",
+          "arr": null,
+          "dep": 451
+        },
+        {
+          "station": "CKY",
+          "arr": null,
+          "dep": 456
+        },
+        {
+          "station": "NBE",
+          "arr": null,
+          "dep": 464
+        },
+        {
+          "station": "LTH",
+          "arr": null,
+          "dep": 470
+        },
+        {
+          "station": "EBV",
+          "arr": null,
+          "dep": 479
+        },
+        {
+          "station": "EBB",
+          "arr": 484,
+          "dep": null
+        },
+        {
+          "station": "STJ",
+          "arr": 453,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "MF_5",
+      "headcode": "",
+      "operator": "",
+      "days": [
+        "MF"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "CDF",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "NWP",
+          "arr": 384,
+          "dep": null
+        },
+        {
+          "station": "NWP",
+          "arr": null,
+          "dep": 443
+        }
+      ]
+    },
+    {
+      "id": "MF_6",
+      "headcode": "",
+      "operator": "",
+      "days": [
+        "MF"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "CDF",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "NWP",
+          "arr": 395,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "MF_7",
+      "headcode": "",
+      "operator": "",
+      "days": [
+        "MF"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "CDF",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "NWP",
+          "arr": 401,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "MF_8",
+      "headcode": "",
+      "operator": "",
+      "days": [
+        "MF"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "CDF",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "NWP",
+          "arr": 413,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "MF_9",
+      "headcode": "",
+      "operator": "",
+      "days": [
+        "MF"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "CDF",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "NWP",
+          "arr": 419,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "MF_10",
+      "headcode": "",
+      "operator": "",
+      "days": [
+        "MF"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "CDF",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "NWP",
+          "arr": 423,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "MF_11",
+      "headcode": "",
+      "operator": "",
+      "days": [
+        "MF"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "CDF",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "NWP",
+          "arr": 429,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "MF_12",
+      "headcode": "",
+      "operator": "",
+      "days": [
+        "MF"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "CDF",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "NWP",
+          "arr": 443,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "MF_13",
+      "headcode": "",
+      "operator": "",
+      "days": [
+        "MF"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "CDF",
+          "arr": null,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "MF_14",
+      "headcode": "",
+      "operator": "",
+      "days": [
+        "MF"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "CDF",
+          "arr": null,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "MF_15",
+      "headcode": "",
+      "operator": "",
+      "days": [
+        "MF"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "CDF",
+          "arr": null,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "MF_16",
+      "headcode": "",
+      "operator": "",
+      "days": [
+        "MF"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "CDF",
+          "arr": null,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "MF_17",
+      "headcode": "",
+      "operator": "",
+      "days": [
+        "MF"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "CDF",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "NWP",
+          "arr": 1191,
+          "dep": null
+        },
+        {
+          "station": "NWP",
+          "arr": null,
+          "dep": 1203
+        },
+        {
+          "station": "PYE",
+          "arr": null,
+          "dep": 1231
+        },
+        {
+          "station": "ROR",
+          "arr": null,
+          "dep": 1235
+        },
+        {
+          "station": "RCA",
+          "arr": null,
+          "dep": 1238
+        },
+        {
+          "station": "CKY",
+          "arr": null,
+          "dep": 1244
+        },
+        {
+          "station": "NBE",
+          "arr": null,
+          "dep": 1250
+        },
+        {
+          "station": "LTH",
+          "arr": null,
+          "dep": 1256
+        },
+        {
+          "station": "EBV",
+          "arr": null,
+          "dep": 1265
+        },
+        {
+          "station": "EBB",
+          "arr": 1270,
+          "dep": null
+        },
+        {
+          "station": "STJ",
+          "arr": 1213,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "MF_18",
+      "headcode": "",
+      "operator": "",
+      "days": [
+        "MF"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "CDF",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "NWP",
+          "arr": 1202,
+          "dep": null
+        },
+        {
+          "station": "NWP",
+          "arr": null,
+          "dep": 1213
+        },
+        {
+          "station": "PYE",
+          "arr": null,
+          "dep": 1231
+        },
+        {
+          "station": "ROR",
+          "arr": null,
+          "dep": 1235
+        },
+        {
+          "station": "RCA",
+          "arr": null,
+          "dep": 1239
+        },
+        {
+          "station": "CKY",
+          "arr": null,
+          "dep": 1244
+        },
+        {
+          "station": "NBE",
+          "arr": null,
+          "dep": 1252
+        },
+        {
+          "station": "LTH",
+          "arr": null,
+          "dep": 1257
+        },
+        {
+          "station": "EBV",
+          "arr": null,
+          "dep": 1266
+        },
+        {
+          "station": "EBB",
+          "arr": 1271,
+          "dep": null
+        },
+        {
+          "station": "STJ",
+          "arr": 1223,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "MF_19",
+      "headcode": "",
+      "operator": "",
+      "days": [
+        "MF"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "CDF",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "NWP",
+          "arr": 1212,
+          "dep": null
+        },
+        {
+          "station": "NWP",
+          "arr": null,
+          "dep": 1223
+        },
+        {
+          "station": "PYE",
+          "arr": null,
+          "dep": 1291
+        },
+        {
+          "station": "ROR",
+          "arr": null,
+          "dep": 1295
+        },
+        {
+          "station": "RCA",
+          "arr": null,
+          "dep": 1298
+        },
+        {
+          "station": "CKY",
+          "arr": null,
+          "dep": 1304
+        },
+        {
+          "station": "NBE",
+          "arr": null,
+          "dep": 1310
+        },
+        {
+          "station": "LTH",
+          "arr": null,
+          "dep": 1316
+        },
+        {
+          "station": "EBV",
+          "arr": null,
+          "dep": 1325
+        },
+        {
+          "station": "EBB",
+          "arr": 1330,
+          "dep": null
+        },
+        {
+          "station": "STJ",
+          "arr": 1254,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "MF_20",
+      "headcode": "",
+      "operator": "",
+      "days": [
+        "MF"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "CDF",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "NWP",
+          "arr": 1219,
+          "dep": null
+        },
+        {
+          "station": "NWP",
+          "arr": null,
+          "dep": 1223
+        },
+        {
+          "station": "PYE",
+          "arr": null,
+          "dep": 1351
+        },
+        {
+          "station": "ROR",
+          "arr": null,
+          "dep": 1355
+        },
+        {
+          "station": "RCA",
+          "arr": null,
+          "dep": 1358
+        },
+        {
+          "station": "CKY",
+          "arr": null,
+          "dep": 1364
+        },
+        {
+          "station": "NBE",
+          "arr": null,
+          "dep": 1370
+        },
+        {
+          "station": "LTH",
+          "arr": null,
+          "dep": 1376
+        },
+        {
+          "station": "EBV",
+          "arr": null,
+          "dep": 1385
+        },
+        {
+          "station": "EBB",
+          "arr": 1390,
+          "dep": null
+        },
+        {
+          "station": "STJ",
+          "arr": 1283,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "MF_21",
+      "headcode": "",
+      "operator": "",
+      "days": [
+        "MF"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "CDF",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "NWP",
+          "arr": 1219,
+          "dep": null
+        },
+        {
+          "station": "NWP",
+          "arr": null,
+          "dep": 1244
+        },
+        {
+          "station": "STJ",
+          "arr": 1294,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "MF_22",
+      "headcode": "",
+      "operator": "",
+      "days": [
+        "MF"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "CDF",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "NWP",
+          "arr": 1223,
+          "dep": null
+        },
+        {
+          "station": "NWP",
+          "arr": null,
+          "dep": 1273
+        },
+        {
+          "station": "STJ",
+          "arr": 1314,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "MF_23",
+      "headcode": "",
+      "operator": "",
+      "days": [
+        "MF"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "CDF",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "NWP",
+          "arr": 1230,
+          "dep": null
+        },
+        {
+          "station": "NWP",
+          "arr": null,
+          "dep": 1283
+        },
+        {
+          "station": "STJ",
+          "arr": 1329,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "MF_24",
+      "headcode": "",
+      "operator": "",
+      "days": [
+        "MF"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "CDF",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "NWP",
+          "arr": 1242,
+          "dep": null
+        },
+        {
+          "station": "NWP",
+          "arr": null,
+          "dep": 1284
+        },
+        {
+          "station": "STJ",
+          "arr": 1351,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "MF_25",
+      "headcode": "",
+      "operator": "",
+      "days": [
+        "MF"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "CDF",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "NWP",
+          "arr": 1257,
+          "dep": null
+        },
+        {
+          "station": "NWP",
+          "arr": null,
+          "dep": 1304
+        }
+      ]
+    },
+    {
+      "id": "MF_26",
+      "headcode": "",
+      "operator": "",
+      "days": [
+        "MF"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "CDF",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "NWP",
+          "arr": 1272,
+          "dep": null
+        },
+        {
+          "station": "NWP",
+          "arr": null,
+          "dep": 1319
+        }
+      ]
+    },
+    {
+      "id": "MF_27",
+      "headcode": "",
+      "operator": "",
+      "days": [
+        "MF"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "CDF",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "NWP",
+          "arr": 1278,
+          "dep": null
+        },
+        {
+          "station": "NWP",
+          "arr": null,
+          "dep": 1336
+        }
+      ]
+    },
+    {
+      "id": "MF_28",
+      "headcode": "",
+      "operator": "",
+      "days": [
+        "MF"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "CDF",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "NWP",
+          "arr": 1283,
+          "dep": null
+        },
+        {
+          "station": "NWP",
+          "arr": null,
+          "dep": 1343
+        }
+      ]
+    },
+    {
+      "id": "MF_29",
+      "headcode": "",
+      "operator": "",
+      "days": [
+        "MF"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "CDF",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "NWP",
+          "arr": 1291,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "MF_30",
+      "headcode": "",
+      "operator": "",
+      "days": [
+        "MF"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "CDF",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "NWP",
+          "arr": 1299,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "MF_31",
+      "headcode": "",
+      "operator": "",
+      "days": [
+        "MF"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "CDF",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "NWP",
+          "arr": 1302,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "MF_32",
+      "headcode": "",
+      "operator": "",
+      "days": [
+        "MF"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "CDF",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "NWP",
+          "arr": 1317,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "MF_33",
+      "headcode": "",
+      "operator": "",
+      "days": [
+        "MF"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "CDF",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "NWP",
+          "arr": 1335,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "MF_34",
+      "headcode": "",
+      "operator": "",
+      "days": [
+        "MF"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "CDF",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "NWP",
+          "arr": 1339,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "SAT_35",
+      "headcode": "",
+      "operator": "",
+      "days": [
+        "SAT"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "CDF",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "NWP",
+          "arr": 288,
+          "dep": null
+        },
+        {
+          "station": "NWP",
+          "arr": null,
+          "dep": 384
+        },
+        {
+          "station": "PYE",
+          "arr": null,
+          "dep": 354
+        },
+        {
+          "station": "ROR",
+          "arr": null,
+          "dep": 358
+        },
+        {
+          "station": "RCA",
+          "arr": null,
+          "dep": 362
+        },
+        {
+          "station": "CKY",
+          "arr": null,
+          "dep": 367
+        },
+        {
+          "station": "NBE",
+          "arr": null,
+          "dep": 374
+        },
+        {
+          "station": "LTH",
+          "arr": null,
+          "dep": 380
+        },
+        {
+          "station": "EBV",
+          "arr": null,
+          "dep": 389
+        },
+        {
+          "station": "EBB",
+          "arr": 396,
+          "dep": null
+        },
+        {
+          "station": "STJ",
+          "arr": 394,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "SAT_36",
+      "headcode": "",
+      "operator": "",
+      "days": [
+        "SAT"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "CDF",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "NWP",
+          "arr": 326,
+          "dep": null
+        },
+        {
+          "station": "NWP",
+          "arr": null,
+          "dep": 404
+        },
+        {
+          "station": "PYE",
+          "arr": null,
+          "dep": 383
+        },
+        {
+          "station": "ROR",
+          "arr": null,
+          "dep": 387
+        },
+        {
+          "station": "RCA",
+          "arr": null,
+          "dep": 390
+        },
+        {
+          "station": "CKY",
+          "arr": null,
+          "dep": 396
+        },
+        {
+          "station": "NBE",
+          "arr": null,
+          "dep": 402
+        },
+        {
+          "station": "LTH",
+          "arr": null,
+          "dep": 409
+        },
+        {
+          "station": "EBV",
+          "arr": null,
+          "dep": 418
+        },
+        {
+          "station": "EBB",
+          "arr": 425,
+          "dep": null
+        },
+        {
+          "station": "STJ",
+          "arr": 414,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "SAT_37",
+      "headcode": "",
+      "operator": "",
+      "days": [
+        "SAT"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "CDF",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "NWP",
+          "arr": 338,
+          "dep": null
+        },
+        {
+          "station": "NWP",
+          "arr": null,
+          "dep": 407
+        },
+        {
+          "station": "PYE",
+          "arr": null,
+          "dep": 415
+        },
+        {
+          "station": "ROR",
+          "arr": null,
+          "dep": 419
+        },
+        {
+          "station": "RCA",
+          "arr": null,
+          "dep": 422
+        },
+        {
+          "station": "CKY",
+          "arr": null,
+          "dep": 428
+        },
+        {
+          "station": "NBE",
+          "arr": null,
+          "dep": 434
+        },
+        {
+          "station": "LTH",
+          "arr": null,
+          "dep": 441
+        },
+        {
+          "station": "EBV",
+          "arr": null,
+          "dep": 450
+        },
+        {
+          "station": "EBB",
+          "arr": 455,
+          "dep": null
+        },
+        {
+          "station": "STJ",
+          "arr": 424,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "SAT_38",
+      "headcode": "",
+      "operator": "",
+      "days": [
+        "SAT"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "CDF",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "NWP",
+          "arr": 362,
+          "dep": null
+        },
+        {
+          "station": "NWP",
+          "arr": null,
+          "dep": 414
+        },
+        {
+          "station": "PYE",
+          "arr": null,
+          "dep": 443
+        },
+        {
+          "station": "ROR",
+          "arr": null,
+          "dep": 447
+        },
+        {
+          "station": "RCA",
+          "arr": null,
+          "dep": 450
+        },
+        {
+          "station": "CKY",
+          "arr": null,
+          "dep": 456
+        },
+        {
+          "station": "NBE",
+          "arr": null,
+          "dep": 462
+        },
+        {
+          "station": "LTH",
+          "arr": null,
+          "dep": 469
+        },
+        {
+          "station": "EBV",
+          "arr": null,
+          "dep": 478
+        },
+        {
+          "station": "EBB",
+          "arr": 483,
+          "dep": null
+        },
+        {
+          "station": "STJ",
+          "arr": 453,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "SAT_39",
+      "headcode": "",
+      "operator": "",
+      "days": [
+        "SAT"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "CDF",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "NWP",
+          "arr": 384,
+          "dep": null
+        },
+        {
+          "station": "NWP",
+          "arr": null,
+          "dep": 443
+        },
+        {
+          "station": "PYE",
+          "arr": null,
+          "dep": 443
+        },
+        {
+          "station": "ROR",
+          "arr": null,
+          "dep": 447
+        },
+        {
+          "station": "RCA",
+          "arr": null,
+          "dep": 451
+        },
+        {
+          "station": "CKY",
+          "arr": null,
+          "dep": 456
+        },
+        {
+          "station": "NBE",
+          "arr": null,
+          "dep": 464
+        },
+        {
+          "station": "LTH",
+          "arr": null,
+          "dep": 470
+        },
+        {
+          "station": "EBV",
+          "arr": null,
+          "dep": 479
+        },
+        {
+          "station": "EBB",
+          "arr": 484,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "SAT_40",
+      "headcode": "",
+      "operator": "",
+      "days": [
+        "SAT"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "CDF",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "NWP",
+          "arr": 391,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "SAT_41",
+      "headcode": "",
+      "operator": "",
+      "days": [
+        "SAT"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "CDF",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "NWP",
+          "arr": 402,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "SAT_42",
+      "headcode": "",
+      "operator": "",
+      "days": [
+        "SAT"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "CDF",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "NWP",
+          "arr": 412,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "SAT_43",
+      "headcode": "",
+      "operator": "",
+      "days": [
+        "SAT"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "CDF",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "NWP",
+          "arr": 417,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "SAT_44",
+      "headcode": "",
+      "operator": "",
+      "days": [
+        "SAT"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "CDF",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "NWP",
+          "arr": 419,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "SAT_45",
+      "headcode": "",
+      "operator": "",
+      "days": [
+        "SAT"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "CDF",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "NWP",
+          "arr": 443,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "SAT_46",
+      "headcode": "",
+      "operator": "",
+      "days": [
+        "SAT"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "CDF",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "NWP",
+          "arr": 449,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "SAT_47",
+      "headcode": "",
+      "operator": "",
+      "days": [
+        "SAT"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "CDF",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "NWP",
+          "arr": 455,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "SAT_48",
+      "headcode": "",
+      "operator": "",
+      "days": [
+        "SAT"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "CDF",
+          "arr": null,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "SAT_49",
+      "headcode": "",
+      "operator": "",
+      "days": [
+        "SAT"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "CDF",
+          "arr": null,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "SAT_50",
+      "headcode": "",
+      "operator": "",
+      "days": [
+        "SAT"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "CDF",
+          "arr": null,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "SAT_51",
+      "headcode": "",
+      "operator": "",
+      "days": [
+        "SAT"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "CDF",
+          "arr": null,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "SAT_52",
+      "headcode": "",
+      "operator": "",
+      "days": [
+        "SAT"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "CDF",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "NWP",
+          "arr": 803,
+          "dep": null
+        },
+        {
+          "station": "NWP",
+          "arr": null,
+          "dep": 804
+        },
+        {
+          "station": "PYE",
+          "arr": null,
+          "dep": 803
+        },
+        {
+          "station": "ROR",
+          "arr": null,
+          "dep": 807
+        },
+        {
+          "station": "RCA",
+          "arr": null,
+          "dep": 811
+        },
+        {
+          "station": "CKY",
+          "arr": null,
+          "dep": 816
+        },
+        {
+          "station": "NBE",
+          "arr": null,
+          "dep": 824
+        },
+        {
+          "station": "LTH",
+          "arr": null,
+          "dep": 830
+        },
+        {
+          "station": "EBV",
+          "arr": null,
+          "dep": 839
+        },
+        {
+          "station": "EBB",
+          "arr": 844,
+          "dep": null
+        },
+        {
+          "station": "STJ",
+          "arr": 814,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "SAT_53",
+      "headcode": "",
+      "operator": "",
+      "days": [
+        "SAT"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "CDF",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "NWP",
+          "arr": 811,
+          "dep": null
+        },
+        {
+          "station": "NWP",
+          "arr": null,
+          "dep": 827
+        },
+        {
+          "station": "PYE",
+          "arr": null,
+          "dep": 835
+        },
+        {
+          "station": "ROR",
+          "arr": null,
+          "dep": 839
+        },
+        {
+          "station": "RCA",
+          "arr": null,
+          "dep": 842
+        },
+        {
+          "station": "CKY",
+          "arr": null,
+          "dep": 848
+        },
+        {
+          "station": "NBE",
+          "arr": null,
+          "dep": 854
+        },
+        {
+          "station": "LTH",
+          "arr": null,
+          "dep": 861
+        },
+        {
+          "station": "EBV",
+          "arr": null,
+          "dep": 870
+        },
+        {
+          "station": "EBB",
+          "arr": 875,
+          "dep": null
+        },
+        {
+          "station": "STJ",
+          "arr": 863,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "SAT_54",
+      "headcode": "",
+      "operator": "",
+      "days": [
+        "SAT"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "CDF",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "NWP",
+          "arr": 818,
+          "dep": null
+        },
+        {
+          "station": "NWP",
+          "arr": null,
+          "dep": 853
+        },
+        {
+          "station": "PYE",
+          "arr": null,
+          "dep": 864
+        },
+        {
+          "station": "ROR",
+          "arr": null,
+          "dep": 868
+        },
+        {
+          "station": "RCA",
+          "arr": null,
+          "dep": 871
+        },
+        {
+          "station": "CKY",
+          "arr": null,
+          "dep": 877
+        },
+        {
+          "station": "NBE",
+          "arr": null,
+          "dep": 883
+        },
+        {
+          "station": "LTH",
+          "arr": null,
+          "dep": 890
+        },
+        {
+          "station": "EBV",
+          "arr": null,
+          "dep": 899
+        },
+        {
+          "station": "EBB",
+          "arr": 905,
+          "dep": null
+        },
+        {
+          "station": "STJ",
+          "arr": 874,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "SAT_55",
+      "headcode": "",
+      "operator": "",
+      "days": [
+        "SAT"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "CDF",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "NWP",
+          "arr": 822,
+          "dep": null
+        },
+        {
+          "station": "NWP",
+          "arr": null,
+          "dep": 864
+        },
+        {
+          "station": "PYE",
+          "arr": null,
+          "dep": 895
+        },
+        {
+          "station": "ROR",
+          "arr": null,
+          "dep": 899
+        },
+        {
+          "station": "RCA",
+          "arr": null,
+          "dep": 903
+        },
+        {
+          "station": "CKY",
+          "arr": null,
+          "dep": 908
+        },
+        {
+          "station": "NBE",
+          "arr": null,
+          "dep": 915
+        },
+        {
+          "station": "LTH",
+          "arr": null,
+          "dep": 921
+        },
+        {
+          "station": "EBV",
+          "arr": null,
+          "dep": 930
+        },
+        {
+          "station": "EBB",
+          "arr": 935,
+          "dep": null
+        },
+        {
+          "station": "STJ",
+          "arr": 922,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "SAT_56",
+      "headcode": "",
+      "operator": "",
+      "days": [
+        "SAT"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "CDF",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "NWP",
+          "arr": 837,
+          "dep": null
+        },
+        {
+          "station": "NWP",
+          "arr": null,
+          "dep": 887
+        }
+      ]
+    },
+    {
+      "id": "SAT_57",
+      "headcode": "",
+      "operator": "",
+      "days": [
+        "SAT"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "CDF",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "NWP",
+          "arr": 846,
+          "dep": null
+        },
+        {
+          "station": "NWP",
+          "arr": null,
+          "dep": 912
+        }
+      ]
+    },
+    {
+      "id": "SAT_58",
+      "headcode": "",
+      "operator": "",
+      "days": [
+        "SAT"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "CDF",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "NWP",
+          "arr": 852,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "SAT_59",
+      "headcode": "",
+      "operator": "",
+      "days": [
+        "SAT"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "CDF",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "NWP",
+          "arr": 864,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "SAT_60",
+      "headcode": "",
+      "operator": "",
+      "days": [
+        "SAT"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "CDF",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "NWP",
+          "arr": 872,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "SAT_61",
+      "headcode": "",
+      "operator": "",
+      "days": [
+        "SAT"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "CDF",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "NWP",
+          "arr": 882,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "SAT_62",
+      "headcode": "",
+      "operator": "",
+      "days": [
+        "SAT"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "CDF",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "NWP",
+          "arr": 894,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "SAT_63",
+      "headcode": "",
+      "operator": "",
+      "days": [
+        "SAT"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "CDF",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "NWP",
+          "arr": 898,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "SAT_64",
+      "headcode": "",
+      "operator": "",
+      "days": [
+        "SAT"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "CDF",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "NWP",
+          "arr": 906,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "SAT_65",
+      "headcode": "",
+      "operator": "",
+      "days": [
+        "SAT"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "CDF",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "NWP",
+          "arr": 911,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "SAT_66",
+      "headcode": "",
+      "operator": "",
+      "days": [
+        "SAT"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "CDF",
+          "arr": null,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "SAT_67",
+      "headcode": "",
+      "operator": "",
+      "days": [
+        "SAT"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "CDF",
+          "arr": null,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "SAT_68",
+      "headcode": "",
+      "operator": "",
+      "days": [
+        "SAT"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "CDF",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "NWP",
+          "arr": 1279,
+          "dep": null
+        },
+        {
+          "station": "NWP",
+          "arr": null,
+          "dep": 1283
+        },
+        {
+          "station": "PYE",
+          "arr": null,
+          "dep": 1291
+        },
+        {
+          "station": "ROR",
+          "arr": null,
+          "dep": 1295
+        },
+        {
+          "station": "RCA",
+          "arr": null,
+          "dep": 1298
+        },
+        {
+          "station": "CKY",
+          "arr": null,
+          "dep": 1304
+        },
+        {
+          "station": "NBE",
+          "arr": null,
+          "dep": 1310
+        },
+        {
+          "station": "LTH",
+          "arr": null,
+          "dep": 1316
+        },
+        {
+          "station": "EBV",
+          "arr": null,
+          "dep": 1325
+        },
+        {
+          "station": "EBB",
+          "arr": 1330,
+          "dep": null
+        },
+        {
+          "station": "STJ",
+          "arr": 1294,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "SAT_69",
+      "headcode": "",
+      "operator": "",
+      "days": [
+        "SAT"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "CDF",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "NWP",
+          "arr": 1279,
+          "dep": null
+        },
+        {
+          "station": "NWP",
+          "arr": null,
+          "dep": 1283
+        },
+        {
+          "station": "PYE",
+          "arr": null,
+          "dep": 1291
+        },
+        {
+          "station": "ROR",
+          "arr": null,
+          "dep": 1295
+        },
+        {
+          "station": "RCA",
+          "arr": null,
+          "dep": 1299
+        },
+        {
+          "station": "CKY",
+          "arr": null,
+          "dep": 1304
+        },
+        {
+          "station": "NBE",
+          "arr": null,
+          "dep": 1312
+        },
+        {
+          "station": "LTH",
+          "arr": null,
+          "dep": 1317
+        },
+        {
+          "station": "EBV",
+          "arr": null,
+          "dep": 1326
+        },
+        {
+          "station": "EBB",
+          "arr": 1331,
+          "dep": null
+        },
+        {
+          "station": "STJ",
+          "arr": 1345,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "SAT_70",
+      "headcode": "",
+      "operator": "",
+      "days": [
+        "SAT"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "CDF",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "NWP",
+          "arr": 1283,
+          "dep": null
+        },
+        {
+          "station": "NWP",
+          "arr": null,
+          "dep": 1284
+        },
+        {
+          "station": "PYE",
+          "arr": null,
+          "dep": 1350
+        },
+        {
+          "station": "ROR",
+          "arr": null,
+          "dep": 1354
+        },
+        {
+          "station": "RCA",
+          "arr": null,
+          "dep": 1358
+        },
+        {
+          "station": "CKY",
+          "arr": null,
+          "dep": 1363
+        },
+        {
+          "station": "NBE",
+          "arr": null,
+          "dep": 1370
+        },
+        {
+          "station": "LTH",
+          "arr": null,
+          "dep": 1376
+        },
+        {
+          "station": "EBV",
+          "arr": null,
+          "dep": 1385
+        },
+        {
+          "station": "EBB",
+          "arr": 1391,
+          "dep": null
+        },
+        {
+          "station": "STJ",
+          "arr": 1354,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "SAT_71",
+      "headcode": "",
+      "operator": "",
+      "days": [
+        "SAT"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "CDF",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "NWP",
+          "arr": 1290,
+          "dep": null
+        },
+        {
+          "station": "NWP",
+          "arr": null,
+          "dep": 1335
+        },
+        {
+          "station": "PYE",
+          "arr": null,
+          "dep": 1408
+        },
+        {
+          "station": "ROR",
+          "arr": null,
+          "dep": 1412
+        },
+        {
+          "station": "RCA",
+          "arr": null,
+          "dep": 1416
+        },
+        {
+          "station": "CKY",
+          "arr": null,
+          "dep": 1421
+        },
+        {
+          "station": "NBE",
+          "arr": null,
+          "dep": 1428
+        },
+        {
+          "station": "LTH",
+          "arr": null,
+          "dep": 1434
+        },
+        {
+          "station": "EBV",
+          "arr": null,
+          "dep": 3
+        },
+        {
+          "station": "EBB",
+          "arr": 8,
+          "dep": null
+        },
+        {
+          "station": "STJ",
+          "arr": 1433,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "SAT_72",
+      "headcode": "",
+      "operator": "",
+      "days": [
+        "SAT"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "CDF",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "NWP",
+          "arr": 1294,
+          "dep": null
+        },
+        {
+          "station": "NWP",
+          "arr": null,
+          "dep": 1342
+        }
+      ]
+    },
+    {
+      "id": "SAT_73",
+      "headcode": "",
+      "operator": "",
+      "days": [
+        "SAT"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "CDF",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "NWP",
+          "arr": 1307,
+          "dep": null
+        },
+        {
+          "station": "NWP",
+          "arr": null,
+          "dep": 1344
+        }
+      ]
+    },
+    {
+      "id": "SAT_74",
+      "headcode": "",
+      "operator": "",
+      "days": [
+        "SAT"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "CDF",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "NWP",
+          "arr": 1333,
+          "dep": null
+        },
+        {
+          "station": "NWP",
+          "arr": null,
+          "dep": 1416
+        }
+      ]
+    },
+    {
+      "id": "SAT_75",
+      "headcode": "",
+      "operator": "",
+      "days": [
+        "SAT"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "CDF",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "NWP",
+          "arr": 1339,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "SAT_76",
+      "headcode": "",
+      "operator": "",
+      "days": [
+        "SAT"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "CDF",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "NWP",
+          "arr": 1343,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "SAT_77",
+      "headcode": "",
+      "operator": "",
+      "days": [
+        "SAT"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "CDF",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "NWP",
+          "arr": 1353,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "SAT_78",
+      "headcode": "",
+      "operator": "",
+      "days": [
+        "SAT"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "CDF",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "NWP",
+          "arr": 1384,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "SAT_79",
+      "headcode": "",
+      "operator": "",
+      "days": [
+        "SAT"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "CDF",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "NWP",
+          "arr": 1416,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "SAT_80",
+      "headcode": "",
+      "operator": "",
+      "days": [
+        "SAT"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "CDF",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "NWP",
+          "arr": 1420,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "SAT_81",
+      "headcode": "",
+      "operator": "",
+      "days": [
+        "SAT"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "CDF",
+          "arr": null,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "SUN_82",
+      "headcode": "",
+      "operator": "",
+      "days": [
+        "SUN"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "CDF",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "NWP",
+          "arr": 521,
+          "dep": null
+        },
+        {
+          "station": "NWP",
+          "arr": null,
+          "dep": 522
+        },
+        {
+          "station": "PYE",
+          "arr": null,
+          "dep": 485
+        },
+        {
+          "station": "ROR",
+          "arr": null,
+          "dep": 489
+        },
+        {
+          "station": "RCA",
+          "arr": null,
+          "dep": 493
+        },
+        {
+          "station": "CKY",
+          "arr": null,
+          "dep": 499
+        },
+        {
+          "station": "NBE",
+          "arr": null,
+          "dep": 506
+        },
+        {
+          "station": "LTH",
+          "arr": null,
+          "dep": 512
+        },
+        {
+          "station": "EBV",
+          "arr": null,
+          "dep": 521
+        },
+        {
+          "station": "EBB",
+          "arr": 527,
+          "dep": null
+        },
+        {
+          "station": "STJ",
+          "arr": 542,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "SUN_83",
+      "headcode": "",
+      "operator": "",
+      "days": [
+        "SUN"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "CDF",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "NWP",
+          "arr": 540,
+          "dep": null
+        },
+        {
+          "station": "NWP",
+          "arr": null,
+          "dep": 613
+        },
+        {
+          "station": "PYE",
+          "arr": null,
+          "dep": 555
+        },
+        {
+          "station": "ROR",
+          "arr": null,
+          "dep": 559
+        },
+        {
+          "station": "RCA",
+          "arr": null,
+          "dep": 563
+        },
+        {
+          "station": "CKY",
+          "arr": null,
+          "dep": 568
+        },
+        {
+          "station": "NBE",
+          "arr": null,
+          "dep": 575
+        },
+        {
+          "station": "LTH",
+          "arr": null,
+          "dep": 582
+        },
+        {
+          "station": "EBV",
+          "arr": null,
+          "dep": 591
+        },
+        {
+          "station": "EBB",
+          "arr": 595,
+          "dep": null
+        },
+        {
+          "station": "STJ",
+          "arr": 623,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "SUN_84",
+      "headcode": "",
+      "operator": "",
+      "days": [
+        "SUN"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "CDF",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "NWP",
+          "arr": 546,
+          "dep": null
+        },
+        {
+          "station": "NWP",
+          "arr": null,
+          "dep": 621
+        },
+        {
+          "station": "PYE",
+          "arr": null,
+          "dep": 555
+        },
+        {
+          "station": "ROR",
+          "arr": null,
+          "dep": 559
+        },
+        {
+          "station": "RCA",
+          "arr": null,
+          "dep": 563
+        },
+        {
+          "station": "CKY",
+          "arr": null,
+          "dep": 569
+        },
+        {
+          "station": "NBE",
+          "arr": null,
+          "dep": 577
+        },
+        {
+          "station": "LTH",
+          "arr": null,
+          "dep": 583
+        },
+        {
+          "station": "EBV",
+          "arr": null,
+          "dep": 592
+        },
+        {
+          "station": "EBB",
+          "arr": 597,
+          "dep": null
+        },
+        {
+          "station": "STJ",
+          "arr": 655,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "SUN_85",
+      "headcode": "",
+      "operator": "",
+      "days": [
+        "SUN"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "CDF",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "NWP",
+          "arr": 574,
+          "dep": null
+        },
+        {
+          "station": "NWP",
+          "arr": null,
+          "dep": 621
+        },
+        {
+          "station": "PYE",
+          "arr": null,
+          "dep": 629
+        },
+        {
+          "station": "ROR",
+          "arr": null,
+          "dep": 633
+        },
+        {
+          "station": "RCA",
+          "arr": null,
+          "dep": 636
+        },
+        {
+          "station": "CKY",
+          "arr": null,
+          "dep": 642
+        },
+        {
+          "station": "NBE",
+          "arr": null,
+          "dep": 648
+        },
+        {
+          "station": "LTH",
+          "arr": null,
+          "dep": 655
+        },
+        {
+          "station": "EBV",
+          "arr": null,
+          "dep": 664
+        },
+        {
+          "station": "EBB",
+          "arr": 668,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "SUN_86",
+      "headcode": "",
+      "operator": "",
+      "days": [
+        "SUN"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "CDF",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "NWP",
+          "arr": 591,
+          "dep": null
+        },
+        {
+          "station": "NWP",
+          "arr": null,
+          "dep": 643
+        },
+        {
+          "station": "PYE",
+          "arr": null,
+          "dep": 629
+        },
+        {
+          "station": "ROR",
+          "arr": null,
+          "dep": 633
+        },
+        {
+          "station": "RCA",
+          "arr": null,
+          "dep": 637
+        },
+        {
+          "station": "CKY",
+          "arr": null,
+          "dep": 642
+        },
+        {
+          "station": "NBE",
+          "arr": null,
+          "dep": 650
+        },
+        {
+          "station": "LTH",
+          "arr": null,
+          "dep": 657
+        },
+        {
+          "station": "EBV",
+          "arr": null,
+          "dep": 666
+        },
+        {
+          "station": "EBB",
+          "arr": 670,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "SUN_87",
+      "headcode": "",
+      "operator": "",
+      "days": [
+        "SUN"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "CDF",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "NWP",
+          "arr": 597,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "SUN_88",
+      "headcode": "",
+      "operator": "",
+      "days": [
+        "SUN"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "CDF",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "NWP",
+          "arr": 603,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "SUN_89",
+      "headcode": "",
+      "operator": "",
+      "days": [
+        "SUN"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "CDF",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "NWP",
+          "arr": 612,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "SUN_90",
+      "headcode": "",
+      "operator": "",
+      "days": [
+        "SUN"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "CDF",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "NWP",
+          "arr": 619,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "SUN_91",
+      "headcode": "",
+      "operator": "",
+      "days": [
+        "SUN"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "CDF",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "NWP",
+          "arr": 619,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "SUN_92",
+      "headcode": "",
+      "operator": "",
+      "days": [
+        "SUN"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "CDF",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "NWP",
+          "arr": 631,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "SUN_93",
+      "headcode": "",
+      "operator": "",
+      "days": [
+        "SUN"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "CDF",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "NWP",
+          "arr": 637,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "SUN_94",
+      "headcode": "",
+      "operator": "",
+      "days": [
+        "SUN"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "CDF",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "NWP",
+          "arr": 643,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "SUN_95",
+      "headcode": "",
+      "operator": "",
+      "days": [
+        "SUN"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "CDF",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "NWP",
+          "arr": 656,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "SUN_96",
+      "headcode": "",
+      "operator": "",
+      "days": [
+        "SUN"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "CDF",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "NWP",
+          "arr": 665,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "SUN_97",
+      "headcode": "",
+      "operator": "",
+      "days": [
+        "SUN"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "CDF",
+          "arr": null,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "SUN_98",
+      "headcode": "",
+      "operator": "",
+      "days": [
+        "SUN"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "CDF",
+          "arr": null,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "SUN_99",
+      "headcode": "",
+      "operator": "",
+      "days": [
+        "SUN"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "CDF",
+          "arr": null,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "SUN_100",
+      "headcode": "",
+      "operator": "",
+      "days": [
+        "SUN"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "CDF",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "NWP",
+          "arr": 1117,
+          "dep": null
+        },
+        {
+          "station": "NWP",
+          "arr": null,
+          "dep": 1123
+        },
+        {
+          "station": "PYE",
+          "arr": null,
+          "dep": 1310
+        },
+        {
+          "station": "ROR",
+          "arr": null,
+          "dep": 1314
+        },
+        {
+          "station": "RCA",
+          "arr": null,
+          "dep": 1318
+        },
+        {
+          "station": "CKY",
+          "arr": null,
+          "dep": 1323
+        },
+        {
+          "station": "NBE",
+          "arr": null,
+          "dep": 1331
+        },
+        {
+          "station": "LTH",
+          "arr": null,
+          "dep": 1337
+        },
+        {
+          "station": "EBV",
+          "arr": null,
+          "dep": 1346
+        },
+        {
+          "station": "EBB",
+          "arr": 1351,
+          "dep": null
+        },
+        {
+          "station": "STJ",
+          "arr": 1134,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "SUN_101",
+      "headcode": "",
+      "operator": "",
+      "days": [
+        "SUN"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "CDF",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "NWP",
+          "arr": 1122,
+          "dep": null
+        },
+        {
+          "station": "NWP",
+          "arr": null,
+          "dep": 1153
+        },
+        {
+          "station": "STJ",
+          "arr": 1163,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "SUN_102",
+      "headcode": "",
+      "operator": "",
+      "days": [
+        "SUN"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "CDF",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "NWP",
+          "arr": 1135,
+          "dep": null
+        },
+        {
+          "station": "NWP",
+          "arr": null,
+          "dep": 1213
+        },
+        {
+          "station": "STJ",
+          "arr": 1223,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "SUN_103",
+      "headcode": "",
+      "operator": "",
+      "days": [
+        "SUN"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "CDF",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "NWP",
+          "arr": 1146,
+          "dep": null
+        },
+        {
+          "station": "NWP",
+          "arr": null,
+          "dep": 1237
+        },
+        {
+          "station": "STJ",
+          "arr": 1247,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "SUN_104",
+      "headcode": "",
+      "operator": "",
+      "days": [
+        "SUN"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "CDF",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "NWP",
+          "arr": 1152,
+          "dep": null
+        },
+        {
+          "station": "NWP",
+          "arr": null,
+          "dep": 1244
+        },
+        {
+          "station": "STJ",
+          "arr": 1254,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "SUN_105",
+      "headcode": "",
+      "operator": "",
+      "days": [
+        "SUN"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "CDF",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "NWP",
+          "arr": 1170,
+          "dep": null
+        },
+        {
+          "station": "NWP",
+          "arr": null,
+          "dep": 1304
+        },
+        {
+          "station": "STJ",
+          "arr": 1314,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "SUN_106",
+      "headcode": "",
+      "operator": "",
+      "days": [
+        "SUN"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "CDF",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "NWP",
+          "arr": 1177,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "SUN_107",
+      "headcode": "",
+      "operator": "",
+      "days": [
+        "SUN"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "CDF",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "NWP",
+          "arr": 1192,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "SUN_108",
+      "headcode": "",
+      "operator": "",
+      "days": [
+        "SUN"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "CDF",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "NWP",
+          "arr": 1197,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "SUN_109",
+      "headcode": "",
+      "operator": "",
+      "days": [
+        "SUN"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "CDF",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "NWP",
+          "arr": 1202,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "SUN_110",
+      "headcode": "",
+      "operator": "",
+      "days": [
+        "SUN"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "CDF",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "NWP",
+          "arr": 1212,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "SUN_111",
+      "headcode": "",
+      "operator": "",
+      "days": [
+        "SUN"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "CDF",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "NWP",
+          "arr": 1230,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "SUN_112",
+      "headcode": "",
+      "operator": "",
+      "days": [
+        "SUN"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "CDF",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "NWP",
+          "arr": 1237,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "SUN_113",
+      "headcode": "",
+      "operator": "",
+      "days": [
+        "SUN"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "CDF",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "NWP",
+          "arr": 1242,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "SUN_114",
+      "headcode": "",
+      "operator": "",
+      "days": [
+        "SUN"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "CDF",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "NWP",
+          "arr": 1284,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "SUN_115",
+      "headcode": "",
+      "operator": "",
+      "days": [
+        "SUN"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "CDF",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "NWP",
+          "arr": 1290,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "SUN_116",
+      "headcode": "",
+      "operator": "",
+      "days": [
+        "SUN"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "CDF",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "NWP",
+          "arr": 1302,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "SUN_117",
+      "headcode": "",
+      "operator": "",
+      "days": [
+        "SUN"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "CDF",
+          "arr": null,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "MF_118",
+      "headcode": "",
+      "operator": "",
+      "days": [
+        "MF"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "STJ",
+          "arr": null,
+          "dep": 810
+        },
+        {
+          "station": "EBB",
+          "arr": null,
+          "dep": 787
+        },
+        {
+          "station": "EBV",
+          "arr": null,
+          "dep": 790
+        },
+        {
+          "station": "LTH",
+          "arr": null,
+          "dep": 799
+        },
+        {
+          "station": "NBE",
+          "arr": null,
+          "dep": 805
+        },
+        {
+          "station": "CKY",
+          "arr": null,
+          "dep": 812
+        },
+        {
+          "station": "RCA",
+          "arr": null,
+          "dep": 817
+        },
+        {
+          "station": "ROR",
+          "arr": null,
+          "dep": 821
+        },
+        {
+          "station": "PYE",
+          "arr": null,
+          "dep": 825
+        },
+        {
+          "station": "NWP",
+          "arr": 826,
+          "dep": null
+        },
+        {
+          "station": "NWP",
+          "arr": null,
+          "dep": 826
+        },
+        {
+          "station": "CDF",
+          "arr": null,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "MF_119",
+      "headcode": "",
+      "operator": "",
+      "days": [
+        "MF"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "STJ",
+          "arr": null,
+          "dep": 833
+        },
+        {
+          "station": "EBB",
+          "arr": null,
+          "dep": 819
+        },
+        {
+          "station": "EBV",
+          "arr": null,
+          "dep": 822
+        },
+        {
+          "station": "LTH",
+          "arr": null,
+          "dep": 831
+        },
+        {
+          "station": "NBE",
+          "arr": null,
+          "dep": 837
+        },
+        {
+          "station": "CKY",
+          "arr": null,
+          "dep": 844
+        },
+        {
+          "station": "RCA",
+          "arr": null,
+          "dep": 849
+        },
+        {
+          "station": "ROR",
+          "arr": null,
+          "dep": 853
+        },
+        {
+          "station": "PYE",
+          "arr": null,
+          "dep": 856
+        },
+        {
+          "station": "NWP",
+          "arr": 842,
+          "dep": null
+        },
+        {
+          "station": "NWP",
+          "arr": null,
+          "dep": 835
+        },
+        {
+          "station": "CDF",
+          "arr": null,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "MF_120",
+      "headcode": "",
+      "operator": "",
+      "days": [
+        "MF"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "STJ",
+          "arr": null,
+          "dep": 869
+        },
+        {
+          "station": "EBB",
+          "arr": null,
+          "dep": 847
+        },
+        {
+          "station": "EBV",
+          "arr": null,
+          "dep": 850
+        },
+        {
+          "station": "LTH",
+          "arr": null,
+          "dep": 859
+        },
+        {
+          "station": "NBE",
+          "arr": null,
+          "dep": 865
+        },
+        {
+          "station": "CKY",
+          "arr": null,
+          "dep": 872
+        },
+        {
+          "station": "RCA",
+          "arr": null,
+          "dep": 877
+        },
+        {
+          "station": "ROR",
+          "arr": null,
+          "dep": 881
+        },
+        {
+          "station": "PYE",
+          "arr": null,
+          "dep": 885
+        },
+        {
+          "station": "NWP",
+          "arr": 868,
+          "dep": null
+        },
+        {
+          "station": "NWP",
+          "arr": null,
+          "dep": 843
+        },
+        {
+          "station": "CDF",
+          "arr": null,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "MF_121",
+      "headcode": "",
+      "operator": "",
+      "days": [
+        "MF"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "STJ",
+          "arr": null,
+          "dep": 894
+        },
+        {
+          "station": "EBB",
+          "arr": null,
+          "dep": 878
+        },
+        {
+          "station": "EBV",
+          "arr": null,
+          "dep": 881
+        },
+        {
+          "station": "LTH",
+          "arr": null,
+          "dep": 890
+        },
+        {
+          "station": "NBE",
+          "arr": null,
+          "dep": 896
+        },
+        {
+          "station": "CKY",
+          "arr": null,
+          "dep": 903
+        },
+        {
+          "station": "RCA",
+          "arr": null,
+          "dep": 908
+        },
+        {
+          "station": "ROR",
+          "arr": null,
+          "dep": 912
+        },
+        {
+          "station": "PYE",
+          "arr": null,
+          "dep": 915
+        },
+        {
+          "station": "NWP",
+          "arr": 880,
+          "dep": null
+        },
+        {
+          "station": "NWP",
+          "arr": null,
+          "dep": 852
+        },
+        {
+          "station": "CDF",
+          "arr": null,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "MF_122",
+      "headcode": "",
+      "operator": "",
+      "days": [
+        "MF"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "NWP",
+          "arr": 905,
+          "dep": null
+        },
+        {
+          "station": "NWP",
+          "arr": null,
+          "dep": 865
+        },
+        {
+          "station": "CDF",
+          "arr": null,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "MF_123",
+      "headcode": "",
+      "operator": "",
+      "days": [
+        "MF"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "NWP",
+          "arr": 928,
+          "dep": null
+        },
+        {
+          "station": "NWP",
+          "arr": null,
+          "dep": 870
+        },
+        {
+          "station": "CDF",
+          "arr": null,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "MF_124",
+      "headcode": "",
+      "operator": "",
+      "days": [
+        "MF"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "NWP",
+          "arr": null,
+          "dep": 875
+        },
+        {
+          "station": "CDF",
+          "arr": null,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "MF_125",
+      "headcode": "",
+      "operator": "",
+      "days": [
+        "MF"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "NWP",
+          "arr": null,
+          "dep": 880
+        },
+        {
+          "station": "CDF",
+          "arr": null,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "MF_126",
+      "headcode": "",
+      "operator": "",
+      "days": [
+        "MF"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "NWP",
+          "arr": null,
+          "dep": 895
+        },
+        {
+          "station": "CDF",
+          "arr": null,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "MF_127",
+      "headcode": "",
+      "operator": "",
+      "days": [
+        "MF"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "NWP",
+          "arr": null,
+          "dep": 905
+        },
+        {
+          "station": "CDF",
+          "arr": null,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "MF_128",
+      "headcode": "",
+      "operator": "",
+      "days": [
+        "MF"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "NWP",
+          "arr": null,
+          "dep": 908
+        },
+        {
+          "station": "CDF",
+          "arr": null,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "MF_129",
+      "headcode": "",
+      "operator": "",
+      "days": [
+        "MF"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "NWP",
+          "arr": null,
+          "dep": 912
+        },
+        {
+          "station": "CDF",
+          "arr": null,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "MF_130",
+      "headcode": "",
+      "operator": "",
+      "days": [
+        "MF"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "NWP",
+          "arr": null,
+          "dep": 923
+        },
+        {
+          "station": "CDF",
+          "arr": null,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "MF_131",
+      "headcode": "",
+      "operator": "",
+      "days": [
+        "MF"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "NWP",
+          "arr": null,
+          "dep": 928
+        },
+        {
+          "station": "CDF",
+          "arr": null,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "MF_132",
+      "headcode": "",
+      "operator": "",
+      "days": [
+        "MF"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "CDF",
+          "arr": null,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "MF_133",
+      "headcode": "",
+      "operator": "",
+      "days": [
+        "MF"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "CDF",
+          "arr": null,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "MF_134",
+      "headcode": "",
+      "operator": "",
+      "days": [
+        "MF"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "STJ",
+          "arr": null,
+          "dep": 1280
+        },
+        {
+          "station": "EBB",
+          "arr": null,
+          "dep": 1207
+        },
+        {
+          "station": "EBV",
+          "arr": null,
+          "dep": 1210
+        },
+        {
+          "station": "LTH",
+          "arr": null,
+          "dep": 1219
+        },
+        {
+          "station": "NBE",
+          "arr": null,
+          "dep": 1225
+        },
+        {
+          "station": "CKY",
+          "arr": null,
+          "dep": 1232
+        },
+        {
+          "station": "RCA",
+          "arr": null,
+          "dep": 1237
+        },
+        {
+          "station": "ROR",
+          "arr": null,
+          "dep": 1242
+        },
+        {
+          "station": "PYE",
+          "arr": null,
+          "dep": 1245
+        },
+        {
+          "station": "NWP",
+          "arr": 1256,
+          "dep": null
+        },
+        {
+          "station": "NWP",
+          "arr": null,
+          "dep": 1260
+        },
+        {
+          "station": "CDF",
+          "arr": null,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "MF_135",
+      "headcode": "",
+      "operator": "",
+      "days": [
+        "MF"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "STJ",
+          "arr": null,
+          "dep": 1295
+        },
+        {
+          "station": "EBB",
+          "arr": null,
+          "dep": 1273
+        },
+        {
+          "station": "EBV",
+          "arr": null,
+          "dep": 1276
+        },
+        {
+          "station": "LTH",
+          "arr": null,
+          "dep": 1285
+        },
+        {
+          "station": "NBE",
+          "arr": null,
+          "dep": 1291
+        },
+        {
+          "station": "CKY",
+          "arr": null,
+          "dep": 1298
+        },
+        {
+          "station": "RCA",
+          "arr": null,
+          "dep": 1303
+        },
+        {
+          "station": "ROR",
+          "arr": null,
+          "dep": 1307
+        },
+        {
+          "station": "PYE",
+          "arr": null,
+          "dep": 1311
+        },
+        {
+          "station": "NWP",
+          "arr": 1290,
+          "dep": null
+        },
+        {
+          "station": "NWP",
+          "arr": null,
+          "dep": 1266
+        },
+        {
+          "station": "CDF",
+          "arr": null,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "MF_136",
+      "headcode": "",
+      "operator": "",
+      "days": [
+        "MF"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "STJ",
+          "arr": null,
+          "dep": 1312
+        },
+        {
+          "station": "EBB",
+          "arr": null,
+          "dep": 1332
+        },
+        {
+          "station": "EBV",
+          "arr": null,
+          "dep": 1335
+        },
+        {
+          "station": "LTH",
+          "arr": null,
+          "dep": 1344
+        },
+        {
+          "station": "NBE",
+          "arr": null,
+          "dep": 1350
+        },
+        {
+          "station": "CKY",
+          "arr": null,
+          "dep": 1357
+        },
+        {
+          "station": "RCA",
+          "arr": null,
+          "dep": 1362
+        },
+        {
+          "station": "ROR",
+          "arr": null,
+          "dep": 1366
+        },
+        {
+          "station": "PYE",
+          "arr": null,
+          "dep": 1370
+        },
+        {
+          "station": "NWP",
+          "arr": 1306,
+          "dep": null
+        },
+        {
+          "station": "NWP",
+          "arr": null,
+          "dep": 1272
+        },
+        {
+          "station": "CDF",
+          "arr": null,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "MF_137",
+      "headcode": "",
+      "operator": "",
+      "days": [
+        "MF"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "STJ",
+          "arr": null,
+          "dep": 1324
+        },
+        {
+          "station": "NWP",
+          "arr": 1322,
+          "dep": null
+        },
+        {
+          "station": "NWP",
+          "arr": null,
+          "dep": 1282
+        },
+        {
+          "station": "CDF",
+          "arr": null,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "MF_138",
+      "headcode": "",
+      "operator": "",
+      "days": [
+        "MF"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "STJ",
+          "arr": null,
+          "dep": 1340
+        },
+        {
+          "station": "NWP",
+          "arr": 1322,
+          "dep": null
+        },
+        {
+          "station": "NWP",
+          "arr": null,
+          "dep": 1291
+        },
+        {
+          "station": "CDF",
+          "arr": null,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "MF_139",
+      "headcode": "",
+      "operator": "",
+      "days": [
+        "MF"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "STJ",
+          "arr": null,
+          "dep": 1376
+        },
+        {
+          "station": "NWP",
+          "arr": 1336,
+          "dep": null
+        },
+        {
+          "station": "NWP",
+          "arr": null,
+          "dep": 1299
+        },
+        {
+          "station": "CDF",
+          "arr": null,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "MF_140",
+      "headcode": "",
+      "operator": "",
+      "days": [
+        "MF"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "STJ",
+          "arr": null,
+          "dep": 1401
+        },
+        {
+          "station": "NWP",
+          "arr": 1356,
+          "dep": null
+        },
+        {
+          "station": "NWP",
+          "arr": null,
+          "dep": 1306
+        },
+        {
+          "station": "CDF",
+          "arr": null,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "MF_141",
+      "headcode": "",
+      "operator": "",
+      "days": [
+        "MF"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "NWP",
+          "arr": 1392,
+          "dep": null
+        },
+        {
+          "station": "NWP",
+          "arr": null,
+          "dep": 1323
+        },
+        {
+          "station": "CDF",
+          "arr": null,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "MF_142",
+      "headcode": "",
+      "operator": "",
+      "days": [
+        "MF"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "NWP",
+          "arr": 1417,
+          "dep": null
+        },
+        {
+          "station": "NWP",
+          "arr": null,
+          "dep": 1326
+        },
+        {
+          "station": "CDF",
+          "arr": null,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "MF_143",
+      "headcode": "",
+      "operator": "",
+      "days": [
+        "MF"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "NWP",
+          "arr": null,
+          "dep": 1337
+        },
+        {
+          "station": "CDF",
+          "arr": null,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "MF_144",
+      "headcode": "",
+      "operator": "",
+      "days": [
+        "MF"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "NWP",
+          "arr": null,
+          "dep": 1350
+        },
+        {
+          "station": "CDF",
+          "arr": null,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "MF_145",
+      "headcode": "",
+      "operator": "",
+      "days": [
+        "MF"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "NWP",
+          "arr": null,
+          "dep": 1357
+        },
+        {
+          "station": "CDF",
+          "arr": null,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "MF_146",
+      "headcode": "",
+      "operator": "",
+      "days": [
+        "MF"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "NWP",
+          "arr": null,
+          "dep": 1362
+        },
+        {
+          "station": "CDF",
+          "arr": null,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "MF_147",
+      "headcode": "",
+      "operator": "",
+      "days": [
+        "MF"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "NWP",
+          "arr": null,
+          "dep": 1393
+        },
+        {
+          "station": "CDF",
+          "arr": null,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "MF_148",
+      "headcode": "",
+      "operator": "",
+      "days": [
+        "MF"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "NWP",
+          "arr": null,
+          "dep": 1410
+        },
+        {
+          "station": "CDF",
+          "arr": null,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "MF_149",
+      "headcode": "",
+      "operator": "",
+      "days": [
+        "MF"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "NWP",
+          "arr": null,
+          "dep": 1418
+        },
+        {
+          "station": "CDF",
+          "arr": null,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "MF_150",
+      "headcode": "",
+      "operator": "",
+      "days": [
+        "MF"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "CDF",
+          "arr": null,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "SAT_151",
+      "headcode": "",
+      "operator": "",
+      "days": [
+        "SAT"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "STJ",
+          "arr": null,
+          "dep": 392
+        },
+        {
+          "station": "EBB",
+          "arr": null,
+          "dep": 360
+        },
+        {
+          "station": "EBV",
+          "arr": null,
+          "dep": 363
+        },
+        {
+          "station": "LTH",
+          "arr": null,
+          "dep": 372
+        },
+        {
+          "station": "NBE",
+          "arr": null,
+          "dep": 378
+        },
+        {
+          "station": "CKY",
+          "arr": null,
+          "dep": 385
+        },
+        {
+          "station": "RCA",
+          "arr": null,
+          "dep": 390
+        },
+        {
+          "station": "ROR",
+          "arr": null,
+          "dep": 394
+        },
+        {
+          "station": "PYE",
+          "arr": null,
+          "dep": 398
+        },
+        {
+          "station": "NWP",
+          "arr": 404,
+          "dep": null
+        },
+        {
+          "station": "NWP",
+          "arr": null,
+          "dep": 375
+        },
+        {
+          "station": "CDF",
+          "arr": null,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "SAT_152",
+      "headcode": "",
+      "operator": "",
+      "days": [
+        "SAT"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "STJ",
+          "arr": null,
+          "dep": 410
+        },
+        {
+          "station": "EBB",
+          "arr": null,
+          "dep": 398
+        },
+        {
+          "station": "EBV",
+          "arr": null,
+          "dep": 401
+        },
+        {
+          "station": "LTH",
+          "arr": null,
+          "dep": 410
+        },
+        {
+          "station": "NBE",
+          "arr": null,
+          "dep": 416
+        },
+        {
+          "station": "CKY",
+          "arr": null,
+          "dep": 423
+        },
+        {
+          "station": "RCA",
+          "arr": null,
+          "dep": 428
+        },
+        {
+          "station": "ROR",
+          "arr": null,
+          "dep": 432
+        },
+        {
+          "station": "PYE",
+          "arr": null,
+          "dep": 436
+        },
+        {
+          "station": "NWP",
+          "arr": 419,
+          "dep": null
+        },
+        {
+          "station": "NWP",
+          "arr": null,
+          "dep": 407
+        },
+        {
+          "station": "CDF",
+          "arr": null,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "SAT_153",
+      "headcode": "",
+      "operator": "",
+      "days": [
+        "SAT"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "STJ",
+          "arr": null,
+          "dep": 419
+        },
+        {
+          "station": "EBB",
+          "arr": null,
+          "dep": 427
+        },
+        {
+          "station": "EBV",
+          "arr": null,
+          "dep": 430
+        },
+        {
+          "station": "LTH",
+          "arr": null,
+          "dep": 439
+        },
+        {
+          "station": "NBE",
+          "arr": null,
+          "dep": 445
+        },
+        {
+          "station": "CKY",
+          "arr": null,
+          "dep": 452
+        },
+        {
+          "station": "RCA",
+          "arr": null,
+          "dep": 457
+        },
+        {
+          "station": "ROR",
+          "arr": null,
+          "dep": 461
+        },
+        {
+          "station": "PYE",
+          "arr": null,
+          "dep": 464
+        },
+        {
+          "station": "NWP",
+          "arr": 430,
+          "dep": null
+        },
+        {
+          "station": "NWP",
+          "arr": null,
+          "dep": 421
+        },
+        {
+          "station": "CDF",
+          "arr": null,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "SAT_154",
+      "headcode": "",
+      "operator": "",
+      "days": [
+        "SAT"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "STJ",
+          "arr": null,
+          "dep": 438
+        },
+        {
+          "station": "EBB",
+          "arr": null,
+          "dep": 458
+        },
+        {
+          "station": "EBV",
+          "arr": null,
+          "dep": 461
+        },
+        {
+          "station": "LTH",
+          "arr": null,
+          "dep": 470
+        },
+        {
+          "station": "NBE",
+          "arr": null,
+          "dep": 476
+        },
+        {
+          "station": "CKY",
+          "arr": null,
+          "dep": 483
+        },
+        {
+          "station": "RCA",
+          "arr": null,
+          "dep": 489
+        },
+        {
+          "station": "ROR",
+          "arr": null,
+          "dep": 493
+        },
+        {
+          "station": "PYE",
+          "arr": null,
+          "dep": 496
+        },
+        {
+          "station": "NWP",
+          "arr": 448,
+          "dep": null
+        },
+        {
+          "station": "NWP",
+          "arr": null,
+          "dep": 427
+        },
+        {
+          "station": "CDF",
+          "arr": null,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "SAT_155",
+      "headcode": "",
+      "operator": "",
+      "days": [
+        "SAT"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "STJ",
+          "arr": null,
+          "dep": 459
+        },
+        {
+          "station": "NWP",
+          "arr": 449,
+          "dep": null
+        },
+        {
+          "station": "NWP",
+          "arr": null,
+          "dep": 432
+        },
+        {
+          "station": "CDF",
+          "arr": null,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "SAT_156",
+      "headcode": "",
+      "operator": "",
+      "days": [
+        "SAT"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "STJ",
+          "arr": null,
+          "dep": 465
+        },
+        {
+          "station": "NWP",
+          "arr": 469,
+          "dep": null
+        },
+        {
+          "station": "NWP",
+          "arr": null,
+          "dep": 450
+        },
+        {
+          "station": "CDF",
+          "arr": null,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "SAT_157",
+      "headcode": "",
+      "operator": "",
+      "days": [
+        "SAT"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "STJ",
+          "arr": null,
+          "dep": 513
+        },
+        {
+          "station": "NWP",
+          "arr": 475,
+          "dep": null
+        },
+        {
+          "station": "NWP",
+          "arr": null,
+          "dep": 457
+        },
+        {
+          "station": "CDF",
+          "arr": null,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "SAT_158",
+      "headcode": "",
+      "operator": "",
+      "days": [
+        "SAT"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "NWP",
+          "arr": 508,
+          "dep": null
+        },
+        {
+          "station": "NWP",
+          "arr": null,
+          "dep": 465
+        },
+        {
+          "station": "CDF",
+          "arr": null,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "SAT_159",
+      "headcode": "",
+      "operator": "",
+      "days": [
+        "SAT"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "NWP",
+          "arr": 524,
+          "dep": null
+        },
+        {
+          "station": "NWP",
+          "arr": null,
+          "dep": 472
+        },
+        {
+          "station": "CDF",
+          "arr": null,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "SAT_160",
+      "headcode": "",
+      "operator": "",
+      "days": [
+        "SAT"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "NWP",
+          "arr": null,
+          "dep": 477
+        },
+        {
+          "station": "CDF",
+          "arr": null,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "SAT_161",
+      "headcode": "",
+      "operator": "",
+      "days": [
+        "SAT"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "NWP",
+          "arr": null,
+          "dep": 484
+        },
+        {
+          "station": "CDF",
+          "arr": null,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "SAT_162",
+      "headcode": "",
+      "operator": "",
+      "days": [
+        "SAT"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "NWP",
+          "arr": null,
+          "dep": 502
+        },
+        {
+          "station": "CDF",
+          "arr": null,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "SAT_163",
+      "headcode": "",
+      "operator": "",
+      "days": [
+        "SAT"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "NWP",
+          "arr": null,
+          "dep": 504
+        },
+        {
+          "station": "CDF",
+          "arr": null,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "SAT_164",
+      "headcode": "",
+      "operator": "",
+      "days": [
+        "SAT"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "NWP",
+          "arr": null,
+          "dep": 511
+        },
+        {
+          "station": "CDF",
+          "arr": null,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "SAT_165",
+      "headcode": "",
+      "operator": "",
+      "days": [
+        "SAT"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "NWP",
+          "arr": null,
+          "dep": 525
+        },
+        {
+          "station": "CDF",
+          "arr": null,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "SAT_166",
+      "headcode": "",
+      "operator": "",
+      "days": [
+        "SAT"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "CDF",
+          "arr": null,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "SAT_167",
+      "headcode": "",
+      "operator": "",
+      "days": [
+        "SAT"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "CDF",
+          "arr": null,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "SAT_168",
+      "headcode": "",
+      "operator": "",
+      "days": [
+        "SAT"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "STJ",
+          "arr": null,
+          "dep": 929
+        },
+        {
+          "station": "EBB",
+          "arr": null,
+          "dep": 878
+        },
+        {
+          "station": "EBV",
+          "arr": null,
+          "dep": 881
+        },
+        {
+          "station": "LTH",
+          "arr": null,
+          "dep": 890
+        },
+        {
+          "station": "NBE",
+          "arr": null,
+          "dep": 896
+        },
+        {
+          "station": "CKY",
+          "arr": null,
+          "dep": 903
+        },
+        {
+          "station": "RCA",
+          "arr": null,
+          "dep": 908
+        },
+        {
+          "station": "ROR",
+          "arr": null,
+          "dep": 912
+        },
+        {
+          "station": "PYE",
+          "arr": null,
+          "dep": 915
+        },
+        {
+          "station": "NWP",
+          "arr": 928,
+          "dep": null
+        },
+        {
+          "station": "NWP",
+          "arr": null,
+          "dep": 923
+        },
+        {
+          "station": "CDF",
+          "arr": null,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "SAT_169",
+      "headcode": "",
+      "operator": "",
+      "days": [
+        "SAT"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "STJ",
+          "arr": null,
+          "dep": 950
+        },
+        {
+          "station": "EBB",
+          "arr": null,
+          "dep": 907
+        },
+        {
+          "station": "EBV",
+          "arr": null,
+          "dep": 910
+        },
+        {
+          "station": "LTH",
+          "arr": null,
+          "dep": 919
+        },
+        {
+          "station": "NBE",
+          "arr": null,
+          "dep": 925
+        },
+        {
+          "station": "CKY",
+          "arr": null,
+          "dep": 932
+        },
+        {
+          "station": "RCA",
+          "arr": null,
+          "dep": 937
+        },
+        {
+          "station": "ROR",
+          "arr": null,
+          "dep": 941
+        },
+        {
+          "station": "PYE",
+          "arr": null,
+          "dep": 944
+        },
+        {
+          "station": "NWP",
+          "arr": 941,
+          "dep": null
+        },
+        {
+          "station": "NWP",
+          "arr": null,
+          "dep": 928
+        },
+        {
+          "station": "CDF",
+          "arr": null,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "SAT_170",
+      "headcode": "",
+      "operator": "",
+      "days": [
+        "SAT"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "STJ",
+          "arr": null,
+          "dep": 990
+        },
+        {
+          "station": "EBB",
+          "arr": null,
+          "dep": 938
+        },
+        {
+          "station": "EBV",
+          "arr": null,
+          "dep": 941
+        },
+        {
+          "station": "LTH",
+          "arr": null,
+          "dep": 950
+        },
+        {
+          "station": "NBE",
+          "arr": null,
+          "dep": 956
+        },
+        {
+          "station": "CKY",
+          "arr": null,
+          "dep": 963
+        },
+        {
+          "station": "RCA",
+          "arr": null,
+          "dep": 968
+        },
+        {
+          "station": "ROR",
+          "arr": null,
+          "dep": 972
+        },
+        {
+          "station": "PYE",
+          "arr": null,
+          "dep": 975
+        },
+        {
+          "station": "NWP",
+          "arr": 961,
+          "dep": null
+        },
+        {
+          "station": "NWP",
+          "arr": null,
+          "dep": 933
+        },
+        {
+          "station": "CDF",
+          "arr": null,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "SAT_171",
+      "headcode": "",
+      "operator": "",
+      "days": [
+        "SAT"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "STJ",
+          "arr": null,
+          "dep": 1004
+        },
+        {
+          "station": "EBB",
+          "arr": null,
+          "dep": 967
+        },
+        {
+          "station": "EBV",
+          "arr": null,
+          "dep": 970
+        },
+        {
+          "station": "LTH",
+          "arr": null,
+          "dep": 979
+        },
+        {
+          "station": "NBE",
+          "arr": null,
+          "dep": 985
+        },
+        {
+          "station": "CKY",
+          "arr": null,
+          "dep": 992
+        },
+        {
+          "station": "RCA",
+          "arr": null,
+          "dep": 997
+        },
+        {
+          "station": "ROR",
+          "arr": null,
+          "dep": 1001
+        },
+        {
+          "station": "PYE",
+          "arr": null,
+          "dep": 1005
+        },
+        {
+          "station": "NWP",
+          "arr": 988,
+          "dep": null
+        },
+        {
+          "station": "NWP",
+          "arr": null,
+          "dep": 943
+        },
+        {
+          "station": "CDF",
+          "arr": null,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "SAT_172",
+      "headcode": "",
+      "operator": "",
+      "days": [
+        "SAT"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "EBB",
+          "arr": null,
+          "dep": 998
+        },
+        {
+          "station": "EBV",
+          "arr": null,
+          "dep": 1001
+        },
+        {
+          "station": "LTH",
+          "arr": null,
+          "dep": 1010
+        },
+        {
+          "station": "NBE",
+          "arr": null,
+          "dep": 1016
+        },
+        {
+          "station": "CKY",
+          "arr": null,
+          "dep": 1023
+        },
+        {
+          "station": "RCA",
+          "arr": null,
+          "dep": 1028
+        },
+        {
+          "station": "ROR",
+          "arr": null,
+          "dep": 1032
+        },
+        {
+          "station": "PYE",
+          "arr": null,
+          "dep": 1035
+        },
+        {
+          "station": "NWP",
+          "arr": 1001,
+          "dep": null
+        },
+        {
+          "station": "NWP",
+          "arr": null,
+          "dep": 962
+        },
+        {
+          "station": "CDF",
+          "arr": null,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "SAT_173",
+      "headcode": "",
+      "operator": "",
+      "days": [
+        "SAT"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "NWP",
+          "arr": 1013,
+          "dep": null
+        },
+        {
+          "station": "NWP",
+          "arr": null,
+          "dep": 972
+        },
+        {
+          "station": "CDF",
+          "arr": null,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "SAT_174",
+      "headcode": "",
+      "operator": "",
+      "days": [
+        "SAT"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "NWP",
+          "arr": 1048,
+          "dep": null
+        },
+        {
+          "station": "NWP",
+          "arr": null,
+          "dep": 984
+        },
+        {
+          "station": "CDF",
+          "arr": null,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "SAT_175",
+      "headcode": "",
+      "operator": "",
+      "days": [
+        "SAT"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "NWP",
+          "arr": null,
+          "dep": 990
+        },
+        {
+          "station": "CDF",
+          "arr": null,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "SAT_176",
+      "headcode": "",
+      "operator": "",
+      "days": [
+        "SAT"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "NWP",
+          "arr": null,
+          "dep": 995
+        },
+        {
+          "station": "CDF",
+          "arr": null,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "SAT_177",
+      "headcode": "",
+      "operator": "",
+      "days": [
+        "SAT"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "NWP",
+          "arr": null,
+          "dep": 1003
+        },
+        {
+          "station": "CDF",
+          "arr": null,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "SAT_178",
+      "headcode": "",
+      "operator": "",
+      "days": [
+        "SAT"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "NWP",
+          "arr": null,
+          "dep": 1015
+        },
+        {
+          "station": "CDF",
+          "arr": null,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "SAT_179",
+      "headcode": "",
+      "operator": "",
+      "days": [
+        "SAT"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "NWP",
+          "arr": null,
+          "dep": 1022
+        },
+        {
+          "station": "CDF",
+          "arr": null,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "SAT_180",
+      "headcode": "",
+      "operator": "",
+      "days": [
+        "SAT"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "NWP",
+          "arr": null,
+          "dep": 1032
+        },
+        {
+          "station": "CDF",
+          "arr": null,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "SAT_181",
+      "headcode": "",
+      "operator": "",
+      "days": [
+        "SAT"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "NWP",
+          "arr": null,
+          "dep": 1044
+        },
+        {
+          "station": "CDF",
+          "arr": null,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "SAT_182",
+      "headcode": "",
+      "operator": "",
+      "days": [
+        "SAT"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "CDF",
+          "arr": null,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "SAT_183",
+      "headcode": "",
+      "operator": "",
+      "days": [
+        "SAT"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "CDF",
+          "arr": null,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "SUN_184",
+      "headcode": "",
+      "operator": "",
+      "days": [
+        "SUN"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "STJ",
+          "arr": null,
+          "dep": 565
+        },
+        {
+          "station": "EBB",
+          "arr": null,
+          "dep": 532
+        },
+        {
+          "station": "EBV",
+          "arr": null,
+          "dep": 535
+        },
+        {
+          "station": "LTH",
+          "arr": null,
+          "dep": 544
+        },
+        {
+          "station": "NBE",
+          "arr": null,
+          "dep": 551
+        },
+        {
+          "station": "CKY",
+          "arr": null,
+          "dep": 558
+        },
+        {
+          "station": "RCA",
+          "arr": null,
+          "dep": 563
+        },
+        {
+          "station": "ROR",
+          "arr": null,
+          "dep": 567
+        },
+        {
+          "station": "PYE",
+          "arr": null,
+          "dep": 571
+        },
+        {
+          "station": "NWP",
+          "arr": 582,
+          "dep": null
+        },
+        {
+          "station": "NWP",
+          "arr": null,
+          "dep": 565
+        },
+        {
+          "station": "CDF",
+          "arr": null,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "SUN_185",
+      "headcode": "",
+      "operator": "",
+      "days": [
+        "SUN"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "STJ",
+          "arr": null,
+          "dep": 570
+        },
+        {
+          "station": "EBB",
+          "arr": null,
+          "dep": 605
+        },
+        {
+          "station": "EBV",
+          "arr": null,
+          "dep": 608
+        },
+        {
+          "station": "LTH",
+          "arr": null,
+          "dep": 617
+        },
+        {
+          "station": "NBE",
+          "arr": null,
+          "dep": 623
+        },
+        {
+          "station": "CKY",
+          "arr": null,
+          "dep": 630
+        },
+        {
+          "station": "RCA",
+          "arr": null,
+          "dep": 636
+        },
+        {
+          "station": "ROR",
+          "arr": null,
+          "dep": 640
+        },
+        {
+          "station": "PYE",
+          "arr": null,
+          "dep": 644
+        },
+        {
+          "station": "NWP",
+          "arr": 587,
+          "dep": null
+        },
+        {
+          "station": "NWP",
+          "arr": null,
+          "dep": 570
+        },
+        {
+          "station": "CDF",
+          "arr": null,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "SUN_186",
+      "headcode": "",
+      "operator": "",
+      "days": [
+        "SUN"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "STJ",
+          "arr": null,
+          "dep": 630
+        },
+        {
+          "station": "NWP",
+          "arr": 639,
+          "dep": null
+        },
+        {
+          "station": "NWP",
+          "arr": null,
+          "dep": 570
+        },
+        {
+          "station": "CDF",
+          "arr": null,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "SUN_187",
+      "headcode": "",
+      "operator": "",
+      "days": [
+        "SUN"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "STJ",
+          "arr": null,
+          "dep": 688
+        },
+        {
+          "station": "NWP",
+          "arr": 654,
+          "dep": null
+        },
+        {
+          "station": "NWP",
+          "arr": null,
+          "dep": 583
+        },
+        {
+          "station": "CDF",
+          "arr": null,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "SUN_188",
+      "headcode": "",
+      "operator": "",
+      "days": [
+        "SUN"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "STJ",
+          "arr": null,
+          "dep": 696
+        },
+        {
+          "station": "NWP",
+          "arr": 700,
+          "dep": null
+        },
+        {
+          "station": "NWP",
+          "arr": null,
+          "dep": 589
+        },
+        {
+          "station": "CDF",
+          "arr": null,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "SUN_189",
+      "headcode": "",
+      "operator": "",
+      "days": [
+        "SUN"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "NWP",
+          "arr": 705,
+          "dep": null
+        },
+        {
+          "station": "NWP",
+          "arr": null,
+          "dep": 611
+        },
+        {
+          "station": "CDF",
+          "arr": null,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "SUN_190",
+      "headcode": "",
+      "operator": "",
+      "days": [
+        "SUN"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "NWP",
+          "arr": null,
+          "dep": 615
+        },
+        {
+          "station": "CDF",
+          "arr": null,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "SUN_191",
+      "headcode": "",
+      "operator": "",
+      "days": [
+        "SUN"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "NWP",
+          "arr": null,
+          "dep": 640
+        },
+        {
+          "station": "CDF",
+          "arr": null,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "SUN_192",
+      "headcode": "",
+      "operator": "",
+      "days": [
+        "SUN"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "NWP",
+          "arr": null,
+          "dep": 650
+        },
+        {
+          "station": "CDF",
+          "arr": null,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "SUN_193",
+      "headcode": "",
+      "operator": "",
+      "days": [
+        "SUN"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "NWP",
+          "arr": null,
+          "dep": 653
+        },
+        {
+          "station": "CDF",
+          "arr": null,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "SUN_194",
+      "headcode": "",
+      "operator": "",
+      "days": [
+        "SUN"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "NWP",
+          "arr": null,
+          "dep": 656
+        },
+        {
+          "station": "CDF",
+          "arr": null,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "SUN_195",
+      "headcode": "",
+      "operator": "",
+      "days": [
+        "SUN"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "NWP",
+          "arr": null,
+          "dep": 660
+        },
+        {
+          "station": "CDF",
+          "arr": null,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "SUN_196",
+      "headcode": "",
+      "operator": "",
+      "days": [
+        "SUN"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "NWP",
+          "arr": null,
+          "dep": 669
+        },
+        {
+          "station": "CDF",
+          "arr": null,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "SUN_197",
+      "headcode": "",
+      "operator": "",
+      "days": [
+        "SUN"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "NWP",
+          "arr": null,
+          "dep": 675
+        },
+        {
+          "station": "CDF",
+          "arr": null,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "SUN_198",
+      "headcode": "",
+      "operator": "",
+      "days": [
+        "SUN"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "NWP",
+          "arr": null,
+          "dep": 680
+        },
+        {
+          "station": "CDF",
+          "arr": null,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "SUN_199",
+      "headcode": "",
+      "operator": "",
+      "days": [
+        "SUN"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "NWP",
+          "arr": null,
+          "dep": 700
+        },
+        {
+          "station": "CDF",
+          "arr": null,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "SUN_200",
+      "headcode": "",
+      "operator": "",
+      "days": [
+        "SUN"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "NWP",
+          "arr": null,
+          "dep": 706
+        },
+        {
+          "station": "CDF",
+          "arr": null,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "SUN_201",
+      "headcode": "",
+      "operator": "",
+      "days": [
+        "SUN"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "CDF",
+          "arr": null,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "SUN_202",
+      "headcode": "",
+      "operator": "",
+      "days": [
+        "SUN"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "STJ",
+          "arr": null,
+          "dep": 1204
+        },
+        {
+          "station": "EBB",
+          "arr": null,
+          "dep": 1362
+        },
+        {
+          "station": "EBV",
+          "arr": null,
+          "dep": 1366
+        },
+        {
+          "station": "LTH",
+          "arr": null,
+          "dep": 1375
+        },
+        {
+          "station": "NBE",
+          "arr": null,
+          "dep": 1382
+        },
+        {
+          "station": "CKY",
+          "arr": null,
+          "dep": 1389
+        },
+        {
+          "station": "RCA",
+          "arr": null,
+          "dep": 1395
+        },
+        {
+          "station": "ROR",
+          "arr": null,
+          "dep": 1399
+        },
+        {
+          "station": "PYE",
+          "arr": null,
+          "dep": 1403
+        },
+        {
+          "station": "NWP",
+          "arr": 1215,
+          "dep": null
+        },
+        {
+          "station": "NWP",
+          "arr": null,
+          "dep": 1216
+        },
+        {
+          "station": "CDF",
+          "arr": null,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "SUN_203",
+      "headcode": "",
+      "operator": "",
+      "days": [
+        "SUN"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "STJ",
+          "arr": null,
+          "dep": 1264
+        },
+        {
+          "station": "NWP",
+          "arr": 1275,
+          "dep": null
+        },
+        {
+          "station": "NWP",
+          "arr": null,
+          "dep": 1221
+        },
+        {
+          "station": "CDF",
+          "arr": null,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "SUN_204",
+      "headcode": "",
+      "operator": "",
+      "days": [
+        "SUN"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "STJ",
+          "arr": null,
+          "dep": 1274
+        },
+        {
+          "station": "NWP",
+          "arr": 1286,
+          "dep": null
+        },
+        {
+          "station": "NWP",
+          "arr": null,
+          "dep": 1227
+        },
+        {
+          "station": "CDF",
+          "arr": null,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "SUN_205",
+      "headcode": "",
+      "operator": "",
+      "days": [
+        "SUN"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "STJ",
+          "arr": null,
+          "dep": 1328
+        },
+        {
+          "station": "NWP",
+          "arr": 1339,
+          "dep": null
+        },
+        {
+          "station": "NWP",
+          "arr": null,
+          "dep": 1235
+        },
+        {
+          "station": "CDF",
+          "arr": null,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "SUN_206",
+      "headcode": "",
+      "operator": "",
+      "days": [
+        "SUN"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "STJ",
+          "arr": null,
+          "dep": 1386
+        },
+        {
+          "station": "NWP",
+          "arr": 1396,
+          "dep": null
+        },
+        {
+          "station": "NWP",
+          "arr": null,
+          "dep": 1265
+        },
+        {
+          "station": "CDF",
+          "arr": null,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "SUN_207",
+      "headcode": "",
+      "operator": "",
+      "days": [
+        "SUN"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "NWP",
+          "arr": null,
+          "dep": 1269
+        },
+        {
+          "station": "CDF",
+          "arr": null,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "SUN_208",
+      "headcode": "",
+      "operator": "",
+      "days": [
+        "SUN"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "NWP",
+          "arr": null,
+          "dep": 1273
+        },
+        {
+          "station": "CDF",
+          "arr": null,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "SUN_209",
+      "headcode": "",
+      "operator": "",
+      "days": [
+        "SUN"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "NWP",
+          "arr": null,
+          "dep": 1277
+        },
+        {
+          "station": "CDF",
+          "arr": null,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "SUN_210",
+      "headcode": "",
+      "operator": "",
+      "days": [
+        "SUN"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "NWP",
+          "arr": null,
+          "dep": 1281
+        },
+        {
+          "station": "CDF",
+          "arr": null,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "SUN_211",
+      "headcode": "",
+      "operator": "",
+      "days": [
+        "SUN"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "NWP",
+          "arr": null,
+          "dep": 1286
+        },
+        {
+          "station": "CDF",
+          "arr": null,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "SUN_212",
+      "headcode": "",
+      "operator": "",
+      "days": [
+        "SUN"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "NWP",
+          "arr": null,
+          "dep": 1292
+        },
+        {
+          "station": "CDF",
+          "arr": null,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "SUN_213",
+      "headcode": "",
+      "operator": "",
+      "days": [
+        "SUN"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "NWP",
+          "arr": null,
+          "dep": 1340
+        },
+        {
+          "station": "CDF",
+          "arr": null,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "SUN_214",
+      "headcode": "",
+      "operator": "",
+      "days": [
+        "SUN"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "NWP",
+          "arr": null,
+          "dep": 1343
+        },
+        {
+          "station": "CDF",
+          "arr": null,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "SUN_215",
+      "headcode": "",
+      "operator": "",
+      "days": [
+        "SUN"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "NWP",
+          "arr": null,
+          "dep": 1353
+        },
+        {
+          "station": "CDF",
+          "arr": null,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "SUN_216",
+      "headcode": "",
+      "operator": "",
+      "days": [
+        "SUN"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "NWP",
+          "arr": null,
+          "dep": 1357
+        },
+        {
+          "station": "CDF",
+          "arr": null,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "SUN_217",
+      "headcode": "",
+      "operator": "",
+      "days": [
+        "SUN"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "NWP",
+          "arr": null,
+          "dep": 1398
+        },
+        {
+          "station": "CDF",
+          "arr": null,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "SUN_218",
+      "headcode": "",
+      "operator": "",
+      "days": [
+        "SUN"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "NWP",
+          "arr": null,
+          "dep": 1403
+        },
+        {
+          "station": "CDF",
+          "arr": null,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "SUN_219",
+      "headcode": "",
+      "operator": "",
+      "days": [
+        "SUN"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "CDF",
+          "arr": null,
+          "dep": null
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,4035 @@
+{
+  "table": "217",
+  "route": "Route 217",
+  "route_id": "t217",
+  "stations": [
+    {
+      "name": "EDB",
+      "crs": "EDB",
+      "mileage": 0.0,
+      "type": "major"
+    },
+    {
+      "name": "BSU",
+      "crs": "BSU",
+      "mileage": 5.0,
+      "type": "minor"
+    },
+    {
+      "name": "NEW",
+      "crs": "NEW",
+      "mileage": 10.0,
+      "type": "minor"
+    },
+    {
+      "name": "SFI",
+      "crs": "SFI",
+      "mileage": 15.0,
+      "type": "minor"
+    },
+    {
+      "name": "EKB",
+      "crs": "EKB",
+      "mileage": 20.0,
+      "type": "minor"
+    },
+    {
+      "name": "NEG",
+      "crs": "NEG",
+      "mileage": 25.0,
+      "type": "minor"
+    },
+    {
+      "name": "GBG",
+      "crs": "GBG",
+      "mileage": 30.0,
+      "type": "minor"
+    },
+    {
+      "name": "SOI",
+      "crs": "SOI",
+      "mileage": 35.0,
+      "type": "minor"
+    },
+    {
+      "name": "GAL",
+      "crs": "GAL",
+      "mileage": 40.0,
+      "type": "minor"
+    },
+    {
+      "name": "TWB",
+      "crs": "TWB",
+      "mileage": 45.0,
+      "type": "minor"
+    }
+  ],
+  "services": [
+    {
+      "id": "SAT_0",
+      "headcode": "",
+      "operator": "",
+      "days": [
+        "SAT"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "EDB",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "BSU",
+          "arr": null,
+          "dep": 380
+        },
+        {
+          "station": "NEW",
+          "arr": null,
+          "dep": 384
+        },
+        {
+          "station": "SFI",
+          "arr": null,
+          "dep": 387
+        },
+        {
+          "station": "EKB",
+          "arr": null,
+          "dep": 392
+        },
+        {
+          "station": "NEG",
+          "arr": null,
+          "dep": 395
+        },
+        {
+          "station": "GBG",
+          "arr": null,
+          "dep": 400
+        },
+        {
+          "station": "SOI",
+          "arr": null,
+          "dep": 417
+        },
+        {
+          "station": "GAL",
+          "arr": null,
+          "dep": 426
+        },
+        {
+          "station": "TWB",
+          "arr": 431,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "SAT_1",
+      "headcode": "",
+      "operator": "",
+      "days": [
+        "SAT"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "EDB",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "BSU",
+          "arr": null,
+          "dep": 407
+        },
+        {
+          "station": "NEW",
+          "arr": null,
+          "dep": 411
+        },
+        {
+          "station": "SFI",
+          "arr": null,
+          "dep": 450
+        },
+        {
+          "station": "EKB",
+          "arr": null,
+          "dep": 423
+        },
+        {
+          "station": "NEG",
+          "arr": null,
+          "dep": 426
+        },
+        {
+          "station": "GBG",
+          "arr": null,
+          "dep": 431
+        },
+        {
+          "station": "SOI",
+          "arr": null,
+          "dep": 448
+        },
+        {
+          "station": "GAL",
+          "arr": null,
+          "dep": 457
+        },
+        {
+          "station": "TWB",
+          "arr": 462,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "SAT_2",
+      "headcode": "",
+      "operator": "",
+      "days": [
+        "SAT"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "EDB",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "BSU",
+          "arr": null,
+          "dep": 443
+        },
+        {
+          "station": "NEW",
+          "arr": null,
+          "dep": 447
+        },
+        {
+          "station": "SFI",
+          "arr": null,
+          "dep": 477
+        },
+        {
+          "station": "EKB",
+          "arr": null,
+          "dep": 454
+        },
+        {
+          "station": "NEG",
+          "arr": null,
+          "dep": 457
+        },
+        {
+          "station": "GBG",
+          "arr": null,
+          "dep": 462
+        },
+        {
+          "station": "SOI",
+          "arr": null,
+          "dep": 480
+        },
+        {
+          "station": "GAL",
+          "arr": null,
+          "dep": 488
+        },
+        {
+          "station": "TWB",
+          "arr": 494,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "SAT_3",
+      "headcode": "",
+      "operator": "",
+      "days": [
+        "SAT"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "EDB",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "BSU",
+          "arr": null,
+          "dep": 468
+        },
+        {
+          "station": "NEW",
+          "arr": null,
+          "dep": 472
+        },
+        {
+          "station": "SFI",
+          "arr": null,
+          "dep": 509
+        },
+        {
+          "station": "EKB",
+          "arr": null,
+          "dep": 482
+        },
+        {
+          "station": "NEG",
+          "arr": null,
+          "dep": 485
+        },
+        {
+          "station": "GBG",
+          "arr": null,
+          "dep": 490
+        },
+        {
+          "station": "SOI",
+          "arr": null,
+          "dep": 507
+        },
+        {
+          "station": "GAL",
+          "arr": null,
+          "dep": 516
+        },
+        {
+          "station": "TWB",
+          "arr": 521,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "SAT_4",
+      "headcode": "",
+      "operator": "",
+      "days": [
+        "SAT"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "EDB",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "BSU",
+          "arr": null,
+          "dep": 502
+        },
+        {
+          "station": "NEW",
+          "arr": null,
+          "dep": 506
+        },
+        {
+          "station": "SFI",
+          "arr": null,
+          "dep": 539
+        },
+        {
+          "station": "EKB",
+          "arr": null,
+          "dep": 513
+        },
+        {
+          "station": "NEG",
+          "arr": null,
+          "dep": 516
+        },
+        {
+          "station": "GBG",
+          "arr": null,
+          "dep": 521
+        },
+        {
+          "station": "SOI",
+          "arr": null,
+          "dep": 539
+        },
+        {
+          "station": "GAL",
+          "arr": null,
+          "dep": 547
+        },
+        {
+          "station": "TWB",
+          "arr": 553,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "SAT_5",
+      "headcode": "",
+      "operator": "",
+      "days": [
+        "SAT"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "EDB",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "BSU",
+          "arr": null,
+          "dep": 531
+        },
+        {
+          "station": "NEW",
+          "arr": null,
+          "dep": 535
+        },
+        {
+          "station": "SFI",
+          "arr": null,
+          "dep": 570
+        },
+        {
+          "station": "EKB",
+          "arr": null,
+          "dep": 544
+        },
+        {
+          "station": "NEG",
+          "arr": null,
+          "dep": 547
+        },
+        {
+          "station": "GBG",
+          "arr": null,
+          "dep": 552
+        },
+        {
+          "station": "SOI",
+          "arr": null,
+          "dep": 569
+        },
+        {
+          "station": "GAL",
+          "arr": null,
+          "dep": 578
+        },
+        {
+          "station": "TWB",
+          "arr": 583,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "SAT_6",
+      "headcode": "",
+      "operator": "",
+      "days": [
+        "SAT"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "EDB",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "BSU",
+          "arr": null,
+          "dep": 563
+        },
+        {
+          "station": "NEW",
+          "arr": null,
+          "dep": 567
+        },
+        {
+          "station": "SFI",
+          "arr": null,
+          "dep": 600
+        },
+        {
+          "station": "EKB",
+          "arr": null,
+          "dep": 574
+        },
+        {
+          "station": "NEG",
+          "arr": null,
+          "dep": 577
+        },
+        {
+          "station": "GBG",
+          "arr": null,
+          "dep": 582
+        },
+        {
+          "station": "SOI",
+          "arr": null,
+          "dep": 600
+        },
+        {
+          "station": "GAL",
+          "arr": null,
+          "dep": 608
+        },
+        {
+          "station": "TWB",
+          "arr": 614,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "SAT_7",
+      "headcode": "",
+      "operator": "",
+      "days": [
+        "SAT"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "EDB",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "BSU",
+          "arr": null,
+          "dep": 593
+        },
+        {
+          "station": "NEW",
+          "arr": null,
+          "dep": 597
+        },
+        {
+          "station": "SFI",
+          "arr": null,
+          "dep": 631
+        },
+        {
+          "station": "EKB",
+          "arr": null,
+          "dep": 604
+        },
+        {
+          "station": "NEG",
+          "arr": null,
+          "dep": 607
+        },
+        {
+          "station": "GBG",
+          "arr": null,
+          "dep": 612
+        },
+        {
+          "station": "SOI",
+          "arr": null,
+          "dep": 630
+        },
+        {
+          "station": "GAL",
+          "arr": null,
+          "dep": 638
+        },
+        {
+          "station": "TWB",
+          "arr": 644,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "SAT_8",
+      "headcode": "",
+      "operator": "",
+      "days": [
+        "SAT"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "EDB",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "BSU",
+          "arr": null,
+          "dep": 623
+        },
+        {
+          "station": "NEW",
+          "arr": null,
+          "dep": 628
+        },
+        {
+          "station": "SFI",
+          "arr": null,
+          "dep": 659
+        },
+        {
+          "station": "EKB",
+          "arr": null,
+          "dep": 635
+        },
+        {
+          "station": "NEG",
+          "arr": null,
+          "dep": 638
+        },
+        {
+          "station": "GBG",
+          "arr": null,
+          "dep": 643
+        },
+        {
+          "station": "SOI",
+          "arr": null,
+          "dep": 661
+        },
+        {
+          "station": "GAL",
+          "arr": null,
+          "dep": 669
+        },
+        {
+          "station": "TWB",
+          "arr": 675,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "SAT_9",
+      "headcode": "",
+      "operator": "",
+      "days": [
+        "SAT"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "EDB",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "BSU",
+          "arr": null,
+          "dep": 652
+        },
+        {
+          "station": "NEW",
+          "arr": null,
+          "dep": 656
+        },
+        {
+          "station": "SFI",
+          "arr": null,
+          "dep": 689
+        },
+        {
+          "station": "EKB",
+          "arr": null,
+          "dep": 664
+        },
+        {
+          "station": "NEG",
+          "arr": null,
+          "dep": 667
+        },
+        {
+          "station": "GBG",
+          "arr": null,
+          "dep": 672
+        },
+        {
+          "station": "SOI",
+          "arr": null,
+          "dep": 689
+        },
+        {
+          "station": "GAL",
+          "arr": null,
+          "dep": 698
+        },
+        {
+          "station": "TWB",
+          "arr": 703,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "SAT_10",
+      "headcode": "",
+      "operator": "",
+      "days": [
+        "SAT"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "EDB",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "BSU",
+          "arr": null,
+          "dep": 681
+        },
+        {
+          "station": "NEW",
+          "arr": null,
+          "dep": 685
+        },
+        {
+          "station": "SFI",
+          "arr": null,
+          "dep": 719
+        },
+        {
+          "station": "EKB",
+          "arr": null,
+          "dep": 694
+        },
+        {
+          "station": "NEG",
+          "arr": null,
+          "dep": 697
+        },
+        {
+          "station": "GBG",
+          "arr": null,
+          "dep": 702
+        },
+        {
+          "station": "SOI",
+          "arr": null,
+          "dep": 719
+        },
+        {
+          "station": "GAL",
+          "arr": null,
+          "dep": 728
+        },
+        {
+          "station": "TWB",
+          "arr": 733,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "SAT_11",
+      "headcode": "",
+      "operator": "",
+      "days": [
+        "SAT"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "EDB",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "BSU",
+          "arr": null,
+          "dep": 710
+        },
+        {
+          "station": "NEW",
+          "arr": null,
+          "dep": 714
+        },
+        {
+          "station": "SFI",
+          "arr": null,
+          "dep": 752
+        },
+        {
+          "station": "EKB",
+          "arr": null,
+          "dep": 724
+        },
+        {
+          "station": "NEG",
+          "arr": null,
+          "dep": 727
+        },
+        {
+          "station": "GBG",
+          "arr": null,
+          "dep": 732
+        },
+        {
+          "station": "SOI",
+          "arr": null,
+          "dep": 749
+        },
+        {
+          "station": "GAL",
+          "arr": null,
+          "dep": 758
+        },
+        {
+          "station": "TWB",
+          "arr": 763,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "SAT_12",
+      "headcode": "",
+      "operator": "",
+      "days": [
+        "SAT"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "EDB",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "BSU",
+          "arr": null,
+          "dep": 745
+        },
+        {
+          "station": "NEW",
+          "arr": null,
+          "dep": 749
+        },
+        {
+          "station": "SFI",
+          "arr": null,
+          "dep": 778
+        },
+        {
+          "station": "EKB",
+          "arr": null,
+          "dep": 756
+        },
+        {
+          "station": "NEG",
+          "arr": null,
+          "dep": 759
+        },
+        {
+          "station": "GBG",
+          "arr": null,
+          "dep": 764
+        },
+        {
+          "station": "SOI",
+          "arr": null,
+          "dep": 782
+        },
+        {
+          "station": "GAL",
+          "arr": null,
+          "dep": 790
+        },
+        {
+          "station": "TWB",
+          "arr": 796,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "SAT_13",
+      "headcode": "",
+      "operator": "",
+      "days": [
+        "SAT"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "EDB",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "BSU",
+          "arr": null,
+          "dep": 770
+        },
+        {
+          "station": "NEW",
+          "arr": null,
+          "dep": 774
+        },
+        {
+          "station": "SFI",
+          "arr": null,
+          "dep": 810
+        },
+        {
+          "station": "EKB",
+          "arr": null,
+          "dep": 783
+        },
+        {
+          "station": "NEG",
+          "arr": null,
+          "dep": 786
+        },
+        {
+          "station": "GBG",
+          "arr": null,
+          "dep": 791
+        },
+        {
+          "station": "SOI",
+          "arr": null,
+          "dep": 809
+        },
+        {
+          "station": "GAL",
+          "arr": null,
+          "dep": 818
+        },
+        {
+          "station": "TWB",
+          "arr": 823,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "SAT_14",
+      "headcode": "",
+      "operator": "",
+      "days": [
+        "SAT"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "EDB",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "BSU",
+          "arr": null,
+          "dep": 803
+        },
+        {
+          "station": "NEW",
+          "arr": null,
+          "dep": 807
+        },
+        {
+          "station": "SFI",
+          "arr": null,
+          "dep": 870
+        },
+        {
+          "station": "EKB",
+          "arr": null,
+          "dep": 815
+        },
+        {
+          "station": "NEG",
+          "arr": null,
+          "dep": 818
+        },
+        {
+          "station": "GBG",
+          "arr": null,
+          "dep": 823
+        },
+        {
+          "station": "SOI",
+          "arr": null,
+          "dep": 840
+        },
+        {
+          "station": "GAL",
+          "arr": null,
+          "dep": 849
+        },
+        {
+          "station": "TWB",
+          "arr": 854,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "SAT_15",
+      "headcode": "",
+      "operator": "",
+      "days": [
+        "SAT"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "EDB",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "BSU",
+          "arr": null,
+          "dep": 830
+        },
+        {
+          "station": "NEW",
+          "arr": null,
+          "dep": 834
+        },
+        {
+          "station": "SFI",
+          "arr": null,
+          "dep": 898
+        },
+        {
+          "station": "EKB",
+          "arr": null,
+          "dep": 845
+        },
+        {
+          "station": "NEG",
+          "arr": null,
+          "dep": 848
+        },
+        {
+          "station": "GBG",
+          "arr": null,
+          "dep": 853
+        },
+        {
+          "station": "SOI",
+          "arr": null,
+          "dep": 870
+        },
+        {
+          "station": "GAL",
+          "arr": null,
+          "dep": 879
+        },
+        {
+          "station": "TWB",
+          "arr": 884,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "SAT_16",
+      "headcode": "",
+      "operator": "",
+      "days": [
+        "SAT"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "EDB",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "BSU",
+          "arr": null,
+          "dep": 863
+        },
+        {
+          "station": "NEW",
+          "arr": null,
+          "dep": 867
+        },
+        {
+          "station": "EKB",
+          "arr": null,
+          "dep": 874
+        },
+        {
+          "station": "NEG",
+          "arr": null,
+          "dep": 877
+        },
+        {
+          "station": "GBG",
+          "arr": null,
+          "dep": 882
+        },
+        {
+          "station": "SOI",
+          "arr": null,
+          "dep": 900
+        },
+        {
+          "station": "GAL",
+          "arr": null,
+          "dep": 908
+        },
+        {
+          "station": "TWB",
+          "arr": 914,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "SAT_17",
+      "headcode": "",
+      "operator": "",
+      "days": [
+        "SAT"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "EDB",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "BSU",
+          "arr": null,
+          "dep": 890
+        },
+        {
+          "station": "NEW",
+          "arr": null,
+          "dep": 894
+        },
+        {
+          "station": "EKB",
+          "arr": null,
+          "dep": 903
+        },
+        {
+          "station": "NEG",
+          "arr": null,
+          "dep": 906
+        },
+        {
+          "station": "GBG",
+          "arr": null,
+          "dep": 911
+        },
+        {
+          "station": "SOI",
+          "arr": null,
+          "dep": 928
+        },
+        {
+          "station": "GAL",
+          "arr": null,
+          "dep": 937
+        },
+        {
+          "station": "TWB",
+          "arr": 942,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "SUN_18",
+      "headcode": "",
+      "operator": "",
+      "days": [
+        "SUN"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "EDB",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "BSU",
+          "arr": null,
+          "dep": 559
+        },
+        {
+          "station": "NEW",
+          "arr": null,
+          "dep": 563
+        },
+        {
+          "station": "SFI",
+          "arr": null,
+          "dep": 566
+        },
+        {
+          "station": "EKB",
+          "arr": null,
+          "dep": 571
+        },
+        {
+          "station": "NEG",
+          "arr": null,
+          "dep": 574
+        },
+        {
+          "station": "GBG",
+          "arr": null,
+          "dep": 579
+        },
+        {
+          "station": "SOI",
+          "arr": null,
+          "dep": 596
+        },
+        {
+          "station": "GAL",
+          "arr": null,
+          "dep": 605
+        },
+        {
+          "station": "TWB",
+          "arr": 610,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "SUN_19",
+      "headcode": "",
+      "operator": "",
+      "days": [
+        "SUN"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "EDB",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "BSU",
+          "arr": null,
+          "dep": 622
+        },
+        {
+          "station": "NEW",
+          "arr": null,
+          "dep": 626
+        },
+        {
+          "station": "SFI",
+          "arr": null,
+          "dep": 629
+        },
+        {
+          "station": "EKB",
+          "arr": null,
+          "dep": 633
+        },
+        {
+          "station": "NEG",
+          "arr": null,
+          "dep": 636
+        },
+        {
+          "station": "GBG",
+          "arr": null,
+          "dep": 641
+        },
+        {
+          "station": "SOI",
+          "arr": null,
+          "dep": 659
+        },
+        {
+          "station": "GAL",
+          "arr": null,
+          "dep": 667
+        },
+        {
+          "station": "TWB",
+          "arr": 673,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "SUN_20",
+      "headcode": "",
+      "operator": "",
+      "days": [
+        "SUN"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "EDB",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "BSU",
+          "arr": null,
+          "dep": 679
+        },
+        {
+          "station": "NEW",
+          "arr": null,
+          "dep": 683
+        },
+        {
+          "station": "SFI",
+          "arr": null,
+          "dep": 686
+        },
+        {
+          "station": "EKB",
+          "arr": null,
+          "dep": 691
+        },
+        {
+          "station": "NEG",
+          "arr": null,
+          "dep": 694
+        },
+        {
+          "station": "GBG",
+          "arr": null,
+          "dep": 699
+        },
+        {
+          "station": "SOI",
+          "arr": null,
+          "dep": 716
+        },
+        {
+          "station": "GAL",
+          "arr": null,
+          "dep": 725
+        },
+        {
+          "station": "TWB",
+          "arr": 730,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "SUN_21",
+      "headcode": "",
+      "operator": "",
+      "days": [
+        "SUN"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "EDB",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "BSU",
+          "arr": null,
+          "dep": 739
+        },
+        {
+          "station": "NEW",
+          "arr": null,
+          "dep": 743
+        },
+        {
+          "station": "SFI",
+          "arr": null,
+          "dep": 746
+        },
+        {
+          "station": "EKB",
+          "arr": null,
+          "dep": 751
+        },
+        {
+          "station": "NEG",
+          "arr": null,
+          "dep": 754
+        },
+        {
+          "station": "GBG",
+          "arr": null,
+          "dep": 759
+        },
+        {
+          "station": "SOI",
+          "arr": null,
+          "dep": 776
+        },
+        {
+          "station": "GAL",
+          "arr": null,
+          "dep": 784
+        },
+        {
+          "station": "TWB",
+          "arr": 790,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "SUN_22",
+      "headcode": "",
+      "operator": "",
+      "days": [
+        "SUN"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "EDB",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "BSU",
+          "arr": null,
+          "dep": 799
+        },
+        {
+          "station": "NEW",
+          "arr": null,
+          "dep": 803
+        },
+        {
+          "station": "SFI",
+          "arr": null,
+          "dep": 806
+        },
+        {
+          "station": "EKB",
+          "arr": null,
+          "dep": 811
+        },
+        {
+          "station": "NEG",
+          "arr": null,
+          "dep": 814
+        },
+        {
+          "station": "GBG",
+          "arr": null,
+          "dep": 819
+        },
+        {
+          "station": "SOI",
+          "arr": null,
+          "dep": 836
+        },
+        {
+          "station": "GAL",
+          "arr": null,
+          "dep": 845
+        },
+        {
+          "station": "TWB",
+          "arr": 850,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "SUN_23",
+      "headcode": "",
+      "operator": "",
+      "days": [
+        "SUN"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "EDB",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "BSU",
+          "arr": null,
+          "dep": 859
+        },
+        {
+          "station": "NEW",
+          "arr": null,
+          "dep": 863
+        },
+        {
+          "station": "SFI",
+          "arr": null,
+          "dep": 866
+        },
+        {
+          "station": "EKB",
+          "arr": null,
+          "dep": 871
+        },
+        {
+          "station": "NEG",
+          "arr": null,
+          "dep": 874
+        },
+        {
+          "station": "GBG",
+          "arr": null,
+          "dep": 879
+        },
+        {
+          "station": "SOI",
+          "arr": null,
+          "dep": 896
+        },
+        {
+          "station": "GAL",
+          "arr": null,
+          "dep": 905
+        },
+        {
+          "station": "TWB",
+          "arr": 910,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "SUN_24",
+      "headcode": "",
+      "operator": "",
+      "days": [
+        "SUN"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "EDB",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "BSU",
+          "arr": null,
+          "dep": 919
+        },
+        {
+          "station": "NEW",
+          "arr": null,
+          "dep": 923
+        },
+        {
+          "station": "SFI",
+          "arr": null,
+          "dep": 926
+        },
+        {
+          "station": "EKB",
+          "arr": null,
+          "dep": 931
+        },
+        {
+          "station": "NEG",
+          "arr": null,
+          "dep": 934
+        },
+        {
+          "station": "GBG",
+          "arr": null,
+          "dep": 939
+        },
+        {
+          "station": "SOI",
+          "arr": null,
+          "dep": 956
+        },
+        {
+          "station": "GAL",
+          "arr": null,
+          "dep": 965
+        },
+        {
+          "station": "TWB",
+          "arr": 970,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "SUN_25",
+      "headcode": "",
+      "operator": "",
+      "days": [
+        "SUN"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "EDB",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "BSU",
+          "arr": null,
+          "dep": 981
+        },
+        {
+          "station": "NEW",
+          "arr": null,
+          "dep": 985
+        },
+        {
+          "station": "SFI",
+          "arr": null,
+          "dep": 988
+        },
+        {
+          "station": "EKB",
+          "arr": null,
+          "dep": 993
+        },
+        {
+          "station": "NEG",
+          "arr": null,
+          "dep": 996
+        },
+        {
+          "station": "GBG",
+          "arr": null,
+          "dep": 1001
+        },
+        {
+          "station": "SOI",
+          "arr": null,
+          "dep": 1018
+        },
+        {
+          "station": "GAL",
+          "arr": null,
+          "dep": 1027
+        },
+        {
+          "station": "TWB",
+          "arr": 1032,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "SUN_26",
+      "headcode": "",
+      "operator": "",
+      "days": [
+        "SUN"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "EDB",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "BSU",
+          "arr": null,
+          "dep": 1039
+        },
+        {
+          "station": "NEW",
+          "arr": null,
+          "dep": 1043
+        },
+        {
+          "station": "SFI",
+          "arr": null,
+          "dep": 1046
+        },
+        {
+          "station": "EKB",
+          "arr": null,
+          "dep": 1051
+        },
+        {
+          "station": "NEG",
+          "arr": null,
+          "dep": 1054
+        },
+        {
+          "station": "GBG",
+          "arr": null,
+          "dep": 1059
+        },
+        {
+          "station": "SOI",
+          "arr": null,
+          "dep": 1076
+        },
+        {
+          "station": "GAL",
+          "arr": null,
+          "dep": 1085
+        },
+        {
+          "station": "TWB",
+          "arr": 1090,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "SUN_27",
+      "headcode": "",
+      "operator": "",
+      "days": [
+        "SUN"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "EDB",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "BSU",
+          "arr": null,
+          "dep": 1099
+        },
+        {
+          "station": "NEW",
+          "arr": null,
+          "dep": 1103
+        },
+        {
+          "station": "SFI",
+          "arr": null,
+          "dep": 1106
+        },
+        {
+          "station": "EKB",
+          "arr": null,
+          "dep": 1111
+        },
+        {
+          "station": "NEG",
+          "arr": null,
+          "dep": 1114
+        },
+        {
+          "station": "GBG",
+          "arr": null,
+          "dep": 1119
+        },
+        {
+          "station": "SOI",
+          "arr": null,
+          "dep": 1136
+        },
+        {
+          "station": "GAL",
+          "arr": null,
+          "dep": 1145
+        },
+        {
+          "station": "TWB",
+          "arr": 1150,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "SUN_28",
+      "headcode": "",
+      "operator": "",
+      "days": [
+        "SUN"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "EDB",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "BSU",
+          "arr": null,
+          "dep": 1159
+        },
+        {
+          "station": "NEW",
+          "arr": null,
+          "dep": 1163
+        },
+        {
+          "station": "SFI",
+          "arr": null,
+          "dep": 1166
+        },
+        {
+          "station": "EKB",
+          "arr": null,
+          "dep": 1171
+        },
+        {
+          "station": "NEG",
+          "arr": null,
+          "dep": 1174
+        },
+        {
+          "station": "GBG",
+          "arr": null,
+          "dep": 1179
+        },
+        {
+          "station": "SOI",
+          "arr": null,
+          "dep": 1196
+        },
+        {
+          "station": "GAL",
+          "arr": null,
+          "dep": 1205
+        },
+        {
+          "station": "TWB",
+          "arr": 1210,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "SUN_29",
+      "headcode": "",
+      "operator": "",
+      "days": [
+        "SUN"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "EDB",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "BSU",
+          "arr": null,
+          "dep": 1219
+        },
+        {
+          "station": "NEW",
+          "arr": null,
+          "dep": 1223
+        },
+        {
+          "station": "SFI",
+          "arr": null,
+          "dep": 1226
+        },
+        {
+          "station": "EKB",
+          "arr": null,
+          "dep": 1231
+        },
+        {
+          "station": "NEG",
+          "arr": null,
+          "dep": 1234
+        },
+        {
+          "station": "GBG",
+          "arr": null,
+          "dep": 1239
+        },
+        {
+          "station": "SOI",
+          "arr": null,
+          "dep": 1256
+        },
+        {
+          "station": "GAL",
+          "arr": null,
+          "dep": 1265
+        },
+        {
+          "station": "TWB",
+          "arr": 1270,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "SUN_30",
+      "headcode": "",
+      "operator": "",
+      "days": [
+        "SUN"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "EDB",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "BSU",
+          "arr": null,
+          "dep": 1279
+        },
+        {
+          "station": "NEW",
+          "arr": null,
+          "dep": 1283
+        },
+        {
+          "station": "SFI",
+          "arr": null,
+          "dep": 1286
+        },
+        {
+          "station": "EKB",
+          "arr": null,
+          "dep": 1291
+        },
+        {
+          "station": "NEG",
+          "arr": null,
+          "dep": 1294
+        },
+        {
+          "station": "GBG",
+          "arr": null,
+          "dep": 1299
+        },
+        {
+          "station": "SOI",
+          "arr": null,
+          "dep": 1316
+        },
+        {
+          "station": "GAL",
+          "arr": null,
+          "dep": 1325
+        },
+        {
+          "station": "TWB",
+          "arr": 1330,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "SUN_31",
+      "headcode": "",
+      "operator": "",
+      "days": [
+        "SUN"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "EDB",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "BSU",
+          "arr": null,
+          "dep": 1339
+        },
+        {
+          "station": "NEW",
+          "arr": null,
+          "dep": 1343
+        },
+        {
+          "station": "SFI",
+          "arr": null,
+          "dep": 1346
+        },
+        {
+          "station": "EKB",
+          "arr": null,
+          "dep": 1351
+        },
+        {
+          "station": "NEG",
+          "arr": null,
+          "dep": 1354
+        },
+        {
+          "station": "GBG",
+          "arr": null,
+          "dep": 1359
+        },
+        {
+          "station": "SOI",
+          "arr": null,
+          "dep": 1376
+        },
+        {
+          "station": "GAL",
+          "arr": null,
+          "dep": 1385
+        },
+        {
+          "station": "TWB",
+          "arr": 1390,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "SUN_32",
+      "headcode": "",
+      "operator": "",
+      "days": [
+        "SUN"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "EDB",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "BSU",
+          "arr": null,
+          "dep": 1398
+        },
+        {
+          "station": "NEW",
+          "arr": null,
+          "dep": 1402
+        },
+        {
+          "station": "SFI",
+          "arr": null,
+          "dep": 1405
+        },
+        {
+          "station": "EKB",
+          "arr": null,
+          "dep": 1410
+        },
+        {
+          "station": "NEG",
+          "arr": null,
+          "dep": 1413
+        },
+        {
+          "station": "GBG",
+          "arr": null,
+          "dep": 1418
+        },
+        {
+          "station": "SOI",
+          "arr": null,
+          "dep": 1436
+        },
+        {
+          "station": "GAL",
+          "arr": null,
+          "dep": 5
+        },
+        {
+          "station": "TWB",
+          "arr": 10,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "SAT_33",
+      "headcode": "",
+      "operator": "",
+      "days": [
+        "SAT"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "TWB",
+          "arr": null,
+          "dep": 349
+        },
+        {
+          "station": "GAL",
+          "arr": null,
+          "dep": 353
+        },
+        {
+          "station": "SOI",
+          "arr": null,
+          "dep": 362
+        },
+        {
+          "station": "GBG",
+          "arr": null,
+          "dep": 379
+        },
+        {
+          "station": "NEG",
+          "arr": null,
+          "dep": 382
+        },
+        {
+          "station": "EKB",
+          "arr": null,
+          "dep": 385
+        },
+        {
+          "station": "SFI",
+          "arr": null,
+          "dep": 450
+        },
+        {
+          "station": "NEW",
+          "arr": null,
+          "dep": 395
+        },
+        {
+          "station": "BSU",
+          "arr": null,
+          "dep": 399
+        },
+        {
+          "station": "EDB",
+          "arr": null,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "SAT_34",
+      "headcode": "",
+      "operator": "",
+      "days": [
+        "SAT"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "TWB",
+          "arr": null,
+          "dep": 380
+        },
+        {
+          "station": "GAL",
+          "arr": null,
+          "dep": 384
+        },
+        {
+          "station": "SOI",
+          "arr": null,
+          "dep": 393
+        },
+        {
+          "station": "GBG",
+          "arr": null,
+          "dep": 410
+        },
+        {
+          "station": "NEG",
+          "arr": null,
+          "dep": 413
+        },
+        {
+          "station": "EKB",
+          "arr": null,
+          "dep": 416
+        },
+        {
+          "station": "SFI",
+          "arr": null,
+          "dep": 511
+        },
+        {
+          "station": "NEW",
+          "arr": null,
+          "dep": 427
+        },
+        {
+          "station": "BSU",
+          "arr": null,
+          "dep": 431
+        },
+        {
+          "station": "EDB",
+          "arr": null,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "SAT_35",
+      "headcode": "",
+      "operator": "",
+      "days": [
+        "SAT"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "TWB",
+          "arr": null,
+          "dep": 409
+        },
+        {
+          "station": "GAL",
+          "arr": null,
+          "dep": 413
+        },
+        {
+          "station": "SOI",
+          "arr": null,
+          "dep": 422
+        },
+        {
+          "station": "GBG",
+          "arr": null,
+          "dep": 439
+        },
+        {
+          "station": "NEG",
+          "arr": null,
+          "dep": 442
+        },
+        {
+          "station": "EKB",
+          "arr": null,
+          "dep": 445
+        },
+        {
+          "station": "SFI",
+          "arr": null,
+          "dep": 602
+        },
+        {
+          "station": "NEW",
+          "arr": null,
+          "dep": 453
+        },
+        {
+          "station": "BSU",
+          "arr": null,
+          "dep": 457
+        },
+        {
+          "station": "EDB",
+          "arr": null,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "SAT_36",
+      "headcode": "",
+      "operator": "",
+      "days": [
+        "SAT"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "TWB",
+          "arr": null,
+          "dep": 439
+        },
+        {
+          "station": "GAL",
+          "arr": null,
+          "dep": 443
+        },
+        {
+          "station": "SOI",
+          "arr": null,
+          "dep": 452
+        },
+        {
+          "station": "GBG",
+          "arr": null,
+          "dep": 469
+        },
+        {
+          "station": "NEG",
+          "arr": null,
+          "dep": 472
+        },
+        {
+          "station": "EKB",
+          "arr": null,
+          "dep": 475
+        },
+        {
+          "station": "SFI",
+          "arr": null,
+          "dep": 662
+        },
+        {
+          "station": "NEW",
+          "arr": null,
+          "dep": 485
+        },
+        {
+          "station": "BSU",
+          "arr": null,
+          "dep": 489
+        },
+        {
+          "station": "EDB",
+          "arr": null,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "SAT_37",
+      "headcode": "",
+      "operator": "",
+      "days": [
+        "SAT"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "TWB",
+          "arr": null,
+          "dep": 469
+        },
+        {
+          "station": "GAL",
+          "arr": null,
+          "dep": 473
+        },
+        {
+          "station": "SOI",
+          "arr": null,
+          "dep": 482
+        },
+        {
+          "station": "GBG",
+          "arr": null,
+          "dep": 499
+        },
+        {
+          "station": "NEG",
+          "arr": null,
+          "dep": 502
+        },
+        {
+          "station": "EKB",
+          "arr": null,
+          "dep": 505
+        },
+        {
+          "station": "SFI",
+          "arr": null,
+          "dep": 692
+        },
+        {
+          "station": "NEW",
+          "arr": null,
+          "dep": 515
+        },
+        {
+          "station": "BSU",
+          "arr": null,
+          "dep": 518
+        },
+        {
+          "station": "EDB",
+          "arr": null,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "SAT_38",
+      "headcode": "",
+      "operator": "",
+      "days": [
+        "SAT"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "TWB",
+          "arr": null,
+          "dep": 500
+        },
+        {
+          "station": "GAL",
+          "arr": null,
+          "dep": 504
+        },
+        {
+          "station": "SOI",
+          "arr": null,
+          "dep": 513
+        },
+        {
+          "station": "GBG",
+          "arr": null,
+          "dep": 530
+        },
+        {
+          "station": "NEG",
+          "arr": null,
+          "dep": 533
+        },
+        {
+          "station": "EKB",
+          "arr": null,
+          "dep": 536
+        },
+        {
+          "station": "SFI",
+          "arr": null,
+          "dep": 722
+        },
+        {
+          "station": "NEW",
+          "arr": null,
+          "dep": 547
+        },
+        {
+          "station": "BSU",
+          "arr": null,
+          "dep": 550
+        },
+        {
+          "station": "EDB",
+          "arr": null,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "SAT_39",
+      "headcode": "",
+      "operator": "",
+      "days": [
+        "SAT"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "TWB",
+          "arr": null,
+          "dep": 529
+        },
+        {
+          "station": "GAL",
+          "arr": null,
+          "dep": 533
+        },
+        {
+          "station": "SOI",
+          "arr": null,
+          "dep": 542
+        },
+        {
+          "station": "GBG",
+          "arr": null,
+          "dep": 559
+        },
+        {
+          "station": "NEG",
+          "arr": null,
+          "dep": 562
+        },
+        {
+          "station": "EKB",
+          "arr": null,
+          "dep": 565
+        },
+        {
+          "station": "SFI",
+          "arr": null,
+          "dep": 782
+        },
+        {
+          "station": "NEW",
+          "arr": null,
+          "dep": 575
+        },
+        {
+          "station": "BSU",
+          "arr": null,
+          "dep": 579
+        },
+        {
+          "station": "EDB",
+          "arr": null,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "SAT_40",
+      "headcode": "",
+      "operator": "",
+      "days": [
+        "SAT"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "TWB",
+          "arr": null,
+          "dep": 560
+        },
+        {
+          "station": "GAL",
+          "arr": null,
+          "dep": 564
+        },
+        {
+          "station": "SOI",
+          "arr": null,
+          "dep": 573
+        },
+        {
+          "station": "GBG",
+          "arr": null,
+          "dep": 590
+        },
+        {
+          "station": "NEG",
+          "arr": null,
+          "dep": 593
+        },
+        {
+          "station": "EKB",
+          "arr": null,
+          "dep": 596
+        },
+        {
+          "station": "SFI",
+          "arr": null,
+          "dep": 843
+        },
+        {
+          "station": "NEW",
+          "arr": null,
+          "dep": 606
+        },
+        {
+          "station": "BSU",
+          "arr": null,
+          "dep": 609
+        },
+        {
+          "station": "EDB",
+          "arr": null,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "SAT_41",
+      "headcode": "",
+      "operator": "",
+      "days": [
+        "SAT"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "TWB",
+          "arr": null,
+          "dep": 589
+        },
+        {
+          "station": "GAL",
+          "arr": null,
+          "dep": 593
+        },
+        {
+          "station": "SOI",
+          "arr": null,
+          "dep": 602
+        },
+        {
+          "station": "GBG",
+          "arr": null,
+          "dep": 619
+        },
+        {
+          "station": "NEG",
+          "arr": null,
+          "dep": 622
+        },
+        {
+          "station": "EKB",
+          "arr": null,
+          "dep": 625
+        },
+        {
+          "station": "SFI",
+          "arr": null,
+          "dep": 902
+        },
+        {
+          "station": "NEW",
+          "arr": null,
+          "dep": 635
+        },
+        {
+          "station": "BSU",
+          "arr": null,
+          "dep": 639
+        },
+        {
+          "station": "EDB",
+          "arr": null,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "SAT_42",
+      "headcode": "",
+      "operator": "",
+      "days": [
+        "SAT"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "TWB",
+          "arr": null,
+          "dep": 620
+        },
+        {
+          "station": "GAL",
+          "arr": null,
+          "dep": 624
+        },
+        {
+          "station": "SOI",
+          "arr": null,
+          "dep": 633
+        },
+        {
+          "station": "GBG",
+          "arr": null,
+          "dep": 650
+        },
+        {
+          "station": "NEG",
+          "arr": null,
+          "dep": 653
+        },
+        {
+          "station": "EKB",
+          "arr": null,
+          "dep": 656
+        },
+        {
+          "station": "NEW",
+          "arr": null,
+          "dep": 666
+        },
+        {
+          "station": "BSU",
+          "arr": null,
+          "dep": 669
+        },
+        {
+          "station": "EDB",
+          "arr": null,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "SAT_43",
+      "headcode": "",
+      "operator": "",
+      "days": [
+        "SAT"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "TWB",
+          "arr": null,
+          "dep": 650
+        },
+        {
+          "station": "GAL",
+          "arr": null,
+          "dep": 654
+        },
+        {
+          "station": "SOI",
+          "arr": null,
+          "dep": 663
+        },
+        {
+          "station": "GBG",
+          "arr": null,
+          "dep": 680
+        },
+        {
+          "station": "NEG",
+          "arr": null,
+          "dep": 683
+        },
+        {
+          "station": "EKB",
+          "arr": null,
+          "dep": 686
+        },
+        {
+          "station": "NEW",
+          "arr": null,
+          "dep": 695
+        },
+        {
+          "station": "BSU",
+          "arr": null,
+          "dep": 699
+        },
+        {
+          "station": "EDB",
+          "arr": null,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "SAT_44",
+      "headcode": "",
+      "operator": "",
+      "days": [
+        "SAT"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "TWB",
+          "arr": null,
+          "dep": 681
+        },
+        {
+          "station": "GAL",
+          "arr": null,
+          "dep": 685
+        },
+        {
+          "station": "SOI",
+          "arr": null,
+          "dep": 694
+        },
+        {
+          "station": "GBG",
+          "arr": null,
+          "dep": 711
+        },
+        {
+          "station": "NEG",
+          "arr": null,
+          "dep": 714
+        },
+        {
+          "station": "EKB",
+          "arr": null,
+          "dep": 717
+        },
+        {
+          "station": "NEW",
+          "arr": null,
+          "dep": 726
+        },
+        {
+          "station": "BSU",
+          "arr": null,
+          "dep": 729
+        },
+        {
+          "station": "EDB",
+          "arr": null,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "SAT_45",
+      "headcode": "",
+      "operator": "",
+      "days": [
+        "SAT"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "TWB",
+          "arr": null,
+          "dep": 709
+        },
+        {
+          "station": "GAL",
+          "arr": null,
+          "dep": 713
+        },
+        {
+          "station": "SOI",
+          "arr": null,
+          "dep": 722
+        },
+        {
+          "station": "GBG",
+          "arr": null,
+          "dep": 739
+        },
+        {
+          "station": "NEG",
+          "arr": null,
+          "dep": 742
+        },
+        {
+          "station": "EKB",
+          "arr": null,
+          "dep": 745
+        },
+        {
+          "station": "NEW",
+          "arr": null,
+          "dep": 755
+        },
+        {
+          "station": "BSU",
+          "arr": null,
+          "dep": 759
+        },
+        {
+          "station": "EDB",
+          "arr": null,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "SAT_46",
+      "headcode": "",
+      "operator": "",
+      "days": [
+        "SAT"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "TWB",
+          "arr": null,
+          "dep": 740
+        },
+        {
+          "station": "GAL",
+          "arr": null,
+          "dep": 744
+        },
+        {
+          "station": "SOI",
+          "arr": null,
+          "dep": 753
+        },
+        {
+          "station": "GBG",
+          "arr": null,
+          "dep": 770
+        },
+        {
+          "station": "NEG",
+          "arr": null,
+          "dep": 773
+        },
+        {
+          "station": "EKB",
+          "arr": null,
+          "dep": 776
+        },
+        {
+          "station": "NEW",
+          "arr": null,
+          "dep": 786
+        },
+        {
+          "station": "BSU",
+          "arr": null,
+          "dep": 789
+        },
+        {
+          "station": "EDB",
+          "arr": null,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "SAT_47",
+      "headcode": "",
+      "operator": "",
+      "days": [
+        "SAT"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "TWB",
+          "arr": null,
+          "dep": 769
+        },
+        {
+          "station": "GAL",
+          "arr": null,
+          "dep": 773
+        },
+        {
+          "station": "SOI",
+          "arr": null,
+          "dep": 782
+        },
+        {
+          "station": "GBG",
+          "arr": null,
+          "dep": 799
+        },
+        {
+          "station": "NEG",
+          "arr": null,
+          "dep": 802
+        },
+        {
+          "station": "EKB",
+          "arr": null,
+          "dep": 805
+        },
+        {
+          "station": "NEW",
+          "arr": null,
+          "dep": 819
+        },
+        {
+          "station": "BSU",
+          "arr": null,
+          "dep": 822
+        },
+        {
+          "station": "EDB",
+          "arr": null,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "SAT_48",
+      "headcode": "",
+      "operator": "",
+      "days": [
+        "SAT"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "TWB",
+          "arr": null,
+          "dep": 802
+        },
+        {
+          "station": "GAL",
+          "arr": null,
+          "dep": 806
+        },
+        {
+          "station": "SOI",
+          "arr": null,
+          "dep": 815
+        },
+        {
+          "station": "GBG",
+          "arr": null,
+          "dep": 832
+        },
+        {
+          "station": "NEG",
+          "arr": null,
+          "dep": 835
+        },
+        {
+          "station": "EKB",
+          "arr": null,
+          "dep": 838
+        },
+        {
+          "station": "NEW",
+          "arr": null,
+          "dep": 847
+        },
+        {
+          "station": "BSU",
+          "arr": null,
+          "dep": 850
+        },
+        {
+          "station": "EDB",
+          "arr": null,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "SAT_49",
+      "headcode": "",
+      "operator": "",
+      "days": [
+        "SAT"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "TWB",
+          "arr": null,
+          "dep": 829
+        },
+        {
+          "station": "GAL",
+          "arr": null,
+          "dep": 833
+        },
+        {
+          "station": "SOI",
+          "arr": null,
+          "dep": 842
+        },
+        {
+          "station": "GBG",
+          "arr": null,
+          "dep": 859
+        },
+        {
+          "station": "NEG",
+          "arr": null,
+          "dep": 862
+        },
+        {
+          "station": "EKB",
+          "arr": null,
+          "dep": 865
+        },
+        {
+          "station": "NEW",
+          "arr": null,
+          "dep": 875
+        },
+        {
+          "station": "BSU",
+          "arr": null,
+          "dep": 879
+        },
+        {
+          "station": "EDB",
+          "arr": null,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "SAT_50",
+      "headcode": "",
+      "operator": "",
+      "days": [
+        "SAT"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "TWB",
+          "arr": null,
+          "dep": 860
+        },
+        {
+          "station": "GAL",
+          "arr": null,
+          "dep": 864
+        },
+        {
+          "station": "SOI",
+          "arr": null,
+          "dep": 873
+        },
+        {
+          "station": "GBG",
+          "arr": null,
+          "dep": 890
+        },
+        {
+          "station": "NEG",
+          "arr": null,
+          "dep": 893
+        },
+        {
+          "station": "EKB",
+          "arr": null,
+          "dep": 896
+        },
+        {
+          "station": "NEW",
+          "arr": null,
+          "dep": 906
+        },
+        {
+          "station": "BSU",
+          "arr": null,
+          "dep": 909
+        },
+        {
+          "station": "EDB",
+          "arr": null,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "SUN_51",
+      "headcode": "",
+      "operator": "",
+      "days": [
+        "SUN"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "TWB",
+          "arr": null,
+          "dep": 528
+        },
+        {
+          "station": "GAL",
+          "arr": null,
+          "dep": 532
+        },
+        {
+          "station": "SOI",
+          "arr": null,
+          "dep": 541
+        },
+        {
+          "station": "GBG",
+          "arr": null,
+          "dep": 558
+        },
+        {
+          "station": "NEG",
+          "arr": null,
+          "dep": 561
+        },
+        {
+          "station": "EKB",
+          "arr": null,
+          "dep": 564
+        },
+        {
+          "station": "SFI",
+          "arr": null,
+          "dep": 568
+        },
+        {
+          "station": "NEW",
+          "arr": null,
+          "dep": 572
+        },
+        {
+          "station": "BSU",
+          "arr": null,
+          "dep": 575
+        },
+        {
+          "station": "EDB",
+          "arr": null,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "SUN_52",
+      "headcode": "",
+      "operator": "",
+      "days": [
+        "SUN"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "TWB",
+          "arr": null,
+          "dep": 588
+        },
+        {
+          "station": "GAL",
+          "arr": null,
+          "dep": 592
+        },
+        {
+          "station": "SOI",
+          "arr": null,
+          "dep": 601
+        },
+        {
+          "station": "GBG",
+          "arr": null,
+          "dep": 618
+        },
+        {
+          "station": "NEG",
+          "arr": null,
+          "dep": 621
+        },
+        {
+          "station": "EKB",
+          "arr": null,
+          "dep": 624
+        },
+        {
+          "station": "SFI",
+          "arr": null,
+          "dep": 628
+        },
+        {
+          "station": "NEW",
+          "arr": null,
+          "dep": 632
+        },
+        {
+          "station": "BSU",
+          "arr": null,
+          "dep": 635
+        },
+        {
+          "station": "EDB",
+          "arr": null,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "SUN_53",
+      "headcode": "",
+      "operator": "",
+      "days": [
+        "SUN"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "TWB",
+          "arr": null,
+          "dep": 648
+        },
+        {
+          "station": "GAL",
+          "arr": null,
+          "dep": 652
+        },
+        {
+          "station": "SOI",
+          "arr": null,
+          "dep": 661
+        },
+        {
+          "station": "GBG",
+          "arr": null,
+          "dep": 678
+        },
+        {
+          "station": "NEG",
+          "arr": null,
+          "dep": 681
+        },
+        {
+          "station": "EKB",
+          "arr": null,
+          "dep": 684
+        },
+        {
+          "station": "SFI",
+          "arr": null,
+          "dep": 688
+        },
+        {
+          "station": "NEW",
+          "arr": null,
+          "dep": 692
+        },
+        {
+          "station": "BSU",
+          "arr": null,
+          "dep": 695
+        },
+        {
+          "station": "EDB",
+          "arr": null,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "SUN_54",
+      "headcode": "",
+      "operator": "",
+      "days": [
+        "SUN"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "TWB",
+          "arr": null,
+          "dep": 708
+        },
+        {
+          "station": "GAL",
+          "arr": null,
+          "dep": 712
+        },
+        {
+          "station": "SOI",
+          "arr": null,
+          "dep": 721
+        },
+        {
+          "station": "GBG",
+          "arr": null,
+          "dep": 738
+        },
+        {
+          "station": "NEG",
+          "arr": null,
+          "dep": 741
+        },
+        {
+          "station": "EKB",
+          "arr": null,
+          "dep": 744
+        },
+        {
+          "station": "SFI",
+          "arr": null,
+          "dep": 748
+        },
+        {
+          "station": "NEW",
+          "arr": null,
+          "dep": 752
+        },
+        {
+          "station": "BSU",
+          "arr": null,
+          "dep": 755
+        },
+        {
+          "station": "EDB",
+          "arr": null,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "SUN_55",
+      "headcode": "",
+      "operator": "",
+      "days": [
+        "SUN"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "TWB",
+          "arr": null,
+          "dep": 768
+        },
+        {
+          "station": "GAL",
+          "arr": null,
+          "dep": 772
+        },
+        {
+          "station": "SOI",
+          "arr": null,
+          "dep": 781
+        },
+        {
+          "station": "GBG",
+          "arr": null,
+          "dep": 798
+        },
+        {
+          "station": "NEG",
+          "arr": null,
+          "dep": 801
+        },
+        {
+          "station": "EKB",
+          "arr": null,
+          "dep": 804
+        },
+        {
+          "station": "SFI",
+          "arr": null,
+          "dep": 808
+        },
+        {
+          "station": "NEW",
+          "arr": null,
+          "dep": 812
+        },
+        {
+          "station": "BSU",
+          "arr": null,
+          "dep": 815
+        },
+        {
+          "station": "EDB",
+          "arr": null,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "SUN_56",
+      "headcode": "",
+      "operator": "",
+      "days": [
+        "SUN"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "TWB",
+          "arr": null,
+          "dep": 828
+        },
+        {
+          "station": "GAL",
+          "arr": null,
+          "dep": 832
+        },
+        {
+          "station": "SOI",
+          "arr": null,
+          "dep": 841
+        },
+        {
+          "station": "GBG",
+          "arr": null,
+          "dep": 858
+        },
+        {
+          "station": "NEG",
+          "arr": null,
+          "dep": 861
+        },
+        {
+          "station": "EKB",
+          "arr": null,
+          "dep": 864
+        },
+        {
+          "station": "SFI",
+          "arr": null,
+          "dep": 868
+        },
+        {
+          "station": "NEW",
+          "arr": null,
+          "dep": 872
+        },
+        {
+          "station": "BSU",
+          "arr": null,
+          "dep": 875
+        },
+        {
+          "station": "EDB",
+          "arr": null,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "SUN_57",
+      "headcode": "",
+      "operator": "",
+      "days": [
+        "SUN"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "TWB",
+          "arr": null,
+          "dep": 888
+        },
+        {
+          "station": "GAL",
+          "arr": null,
+          "dep": 892
+        },
+        {
+          "station": "SOI",
+          "arr": null,
+          "dep": 901
+        },
+        {
+          "station": "GBG",
+          "arr": null,
+          "dep": 918
+        },
+        {
+          "station": "NEG",
+          "arr": null,
+          "dep": 921
+        },
+        {
+          "station": "EKB",
+          "arr": null,
+          "dep": 924
+        },
+        {
+          "station": "SFI",
+          "arr": null,
+          "dep": 928
+        },
+        {
+          "station": "NEW",
+          "arr": null,
+          "dep": 932
+        },
+        {
+          "station": "BSU",
+          "arr": null,
+          "dep": 935
+        },
+        {
+          "station": "EDB",
+          "arr": null,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "SUN_58",
+      "headcode": "",
+      "operator": "",
+      "days": [
+        "SUN"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "TWB",
+          "arr": null,
+          "dep": 948
+        },
+        {
+          "station": "GAL",
+          "arr": null,
+          "dep": 952
+        },
+        {
+          "station": "SOI",
+          "arr": null,
+          "dep": 961
+        },
+        {
+          "station": "GBG",
+          "arr": null,
+          "dep": 978
+        },
+        {
+          "station": "NEG",
+          "arr": null,
+          "dep": 981
+        },
+        {
+          "station": "EKB",
+          "arr": null,
+          "dep": 984
+        },
+        {
+          "station": "SFI",
+          "arr": null,
+          "dep": 988
+        },
+        {
+          "station": "NEW",
+          "arr": null,
+          "dep": 992
+        },
+        {
+          "station": "BSU",
+          "arr": null,
+          "dep": 995
+        },
+        {
+          "station": "EDB",
+          "arr": null,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "SUN_59",
+      "headcode": "",
+      "operator": "",
+      "days": [
+        "SUN"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "TWB",
+          "arr": null,
+          "dep": 1008
+        },
+        {
+          "station": "GAL",
+          "arr": null,
+          "dep": 1012
+        },
+        {
+          "station": "SOI",
+          "arr": null,
+          "dep": 1021
+        },
+        {
+          "station": "GBG",
+          "arr": null,
+          "dep": 1038
+        },
+        {
+          "station": "NEG",
+          "arr": null,
+          "dep": 1041
+        },
+        {
+          "station": "EKB",
+          "arr": null,
+          "dep": 1044
+        },
+        {
+          "station": "SFI",
+          "arr": null,
+          "dep": 1050
+        },
+        {
+          "station": "NEW",
+          "arr": null,
+          "dep": 1054
+        },
+        {
+          "station": "BSU",
+          "arr": null,
+          "dep": 1057
+        },
+        {
+          "station": "EDB",
+          "arr": null,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "SUN_60",
+      "headcode": "",
+      "operator": "",
+      "days": [
+        "SUN"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "TWB",
+          "arr": null,
+          "dep": 1068
+        },
+        {
+          "station": "GAL",
+          "arr": null,
+          "dep": 1072
+        },
+        {
+          "station": "SOI",
+          "arr": null,
+          "dep": 1081
+        },
+        {
+          "station": "GBG",
+          "arr": null,
+          "dep": 1098
+        },
+        {
+          "station": "NEG",
+          "arr": null,
+          "dep": 1101
+        },
+        {
+          "station": "EKB",
+          "arr": null,
+          "dep": 1104
+        },
+        {
+          "station": "SFI",
+          "arr": null,
+          "dep": 1108
+        },
+        {
+          "station": "NEW",
+          "arr": null,
+          "dep": 1112
+        },
+        {
+          "station": "BSU",
+          "arr": null,
+          "dep": 1115
+        },
+        {
+          "station": "EDB",
+          "arr": null,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "SUN_61",
+      "headcode": "",
+      "operator": "",
+      "days": [
+        "SUN"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "TWB",
+          "arr": null,
+          "dep": 1128
+        },
+        {
+          "station": "GAL",
+          "arr": null,
+          "dep": 1132
+        },
+        {
+          "station": "SOI",
+          "arr": null,
+          "dep": 1141
+        },
+        {
+          "station": "GBG",
+          "arr": null,
+          "dep": 1158
+        },
+        {
+          "station": "NEG",
+          "arr": null,
+          "dep": 1161
+        },
+        {
+          "station": "EKB",
+          "arr": null,
+          "dep": 1164
+        },
+        {
+          "station": "SFI",
+          "arr": null,
+          "dep": 1168
+        },
+        {
+          "station": "NEW",
+          "arr": null,
+          "dep": 1172
+        },
+        {
+          "station": "BSU",
+          "arr": null,
+          "dep": 1175
+        },
+        {
+          "station": "EDB",
+          "arr": null,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "SUN_62",
+      "headcode": "",
+      "operator": "",
+      "days": [
+        "SUN"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "TWB",
+          "arr": null,
+          "dep": 1188
+        },
+        {
+          "station": "GAL",
+          "arr": null,
+          "dep": 1192
+        },
+        {
+          "station": "SOI",
+          "arr": null,
+          "dep": 1201
+        },
+        {
+          "station": "GBG",
+          "arr": null,
+          "dep": 1218
+        },
+        {
+          "station": "NEG",
+          "arr": null,
+          "dep": 1221
+        },
+        {
+          "station": "EKB",
+          "arr": null,
+          "dep": 1224
+        },
+        {
+          "station": "SFI",
+          "arr": null,
+          "dep": 1229
+        },
+        {
+          "station": "NEW",
+          "arr": null,
+          "dep": 1233
+        },
+        {
+          "station": "BSU",
+          "arr": null,
+          "dep": 1236
+        },
+        {
+          "station": "EDB",
+          "arr": null,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "SUN_63",
+      "headcode": "",
+      "operator": "",
+      "days": [
+        "SUN"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "TWB",
+          "arr": null,
+          "dep": 1248
+        },
+        {
+          "station": "GAL",
+          "arr": null,
+          "dep": 1252
+        },
+        {
+          "station": "SOI",
+          "arr": null,
+          "dep": 1261
+        },
+        {
+          "station": "GBG",
+          "arr": null,
+          "dep": 1278
+        },
+        {
+          "station": "NEG",
+          "arr": null,
+          "dep": 1281
+        },
+        {
+          "station": "EKB",
+          "arr": null,
+          "dep": 1284
+        },
+        {
+          "station": "SFI",
+          "arr": null,
+          "dep": 1288
+        },
+        {
+          "station": "NEW",
+          "arr": null,
+          "dep": 1292
+        },
+        {
+          "station": "BSU",
+          "arr": null,
+          "dep": 1295
+        },
+        {
+          "station": "EDB",
+          "arr": null,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "SUN_64",
+      "headcode": "",
+      "operator": "",
+      "days": [
+        "SUN"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "TWB",
+          "arr": null,
+          "dep": 1303
+        },
+        {
+          "station": "GAL",
+          "arr": null,
+          "dep": 1307
+        },
+        {
+          "station": "SOI",
+          "arr": null,
+          "dep": 1316
+        },
+        {
+          "station": "GBG",
+          "arr": null,
+          "dep": 1333
+        },
+        {
+          "station": "NEG",
+          "arr": null,
+          "dep": 1336
+        },
+        {
+          "station": "EKB",
+          "arr": null,
+          "dep": 1339
+        },
+        {
+          "station": "SFI",
+          "arr": null,
+          "dep": 1408
+        },
+        {
+          "station": "NEW",
+          "arr": null,
+          "dep": 1353
+        },
+        {
+          "station": "BSU",
+          "arr": null,
+          "dep": 1356
+        },
+        {
+          "station": "EDB",
+          "arr": null,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "SUN_65",
+      "headcode": "",
+      "operator": "",
+      "days": [
+        "SUN"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "TWB",
+          "arr": null,
+          "dep": 1367
+        },
+        {
+          "station": "GAL",
+          "arr": null,
+          "dep": 1371
+        },
+        {
+          "station": "SOI",
+          "arr": null,
+          "dep": 1380
+        },
+        {
+          "station": "GBG",
+          "arr": null,
+          "dep": 1397
+        },
+        {
+          "station": "NEG",
+          "arr": null,
+          "dep": 1400
+        },
+        {
+          "station": "EKB",
+          "arr": null,
+          "dep": 1403
+        },
+        {
+          "station": "NEW",
+          "arr": null,
+          "dep": 1414
+        },
+        {
+          "station": "BSU",
+          "arr": null,
+          "dep": 1417
+        },
+        {
+          "station": "EDB",
+          "arr": null,
+          "dep": null
+        }
+      ]
+    }
+  ]
+}

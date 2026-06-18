@@ -1,0 +1,5852 @@
+{
+  "route": "Route 132",
+  "route_id": "r132",
+  "stations": [
+    {
+      "name": "CDF",
+      "crs": "CDF",
+      "mileage": 5163.2,
+      "type": "major"
+    },
+    {
+      "name": "NWP",
+      "crs": "NWP",
+      "mileage": 5152.2,
+      "type": "major"
+    },
+    {
+      "name": "STJ",
+      "crs": "STJ",
+      "mileage": 5148.1,
+      "type": "minor"
+    },
+    {
+      "name": "CDT",
+      "crs": "CDT",
+      "mileage": 5144.0,
+      "type": "minor"
+    },
+    {
+      "name": "CPW",
+      "crs": "CPW",
+      "mileage": 5139.9,
+      "type": "minor"
+    },
+    {
+      "name": "LYD",
+      "crs": "LYD",
+      "mileage": 5135.9,
+      "type": "minor"
+    },
+    {
+      "name": "BRI",
+      "crs": "BRI",
+      "mileage": 5131.8,
+      "type": "major"
+    },
+    {
+      "name": "FIT",
+      "crs": "FIT",
+      "mileage": 5128.9,
+      "type": "interchange"
+    },
+    {
+      "name": "BPW",
+      "crs": "BPW",
+      "mileage": 5125.9,
+      "type": "major"
+    },
+    {
+      "name": "YAE",
+      "crs": "YAE",
+      "mileage": 5120.2,
+      "type": "minor"
+    },
+    {
+      "name": "CDU",
+      "crs": "CDU",
+      "mileage": 5114.4,
+      "type": "minor"
+    },
+    {
+      "name": "GCR",
+      "crs": "GCR",
+      "mileage": 5108.6,
+      "type": "interchange"
+    },
+    {
+      "name": "GCR",
+      "crs": "GCR",
+      "mileage": 5108.6,
+      "type": "interchange"
+    },
+    {
+      "name": "CNM",
+      "crs": "CNM",
+      "mileage": 5101.7,
+      "type": "interchange"
+    },
+    {
+      "name": "CNM",
+      "crs": "CNM",
+      "mileage": 5101.7,
+      "type": "interchange"
+    },
+    {
+      "name": "ASC",
+      "crs": "ASC",
+      "mileage": 5087.9,
+      "type": "minor"
+    },
+    {
+      "name": "WOP",
+      "crs": "WOP",
+      "mileage": 5081.0,
+      "type": "interchange"
+    },
+    {
+      "name": "WOS",
+      "crs": "WOS",
+      "mileage": 5074.0,
+      "type": "interchange"
+    },
+    {
+      "name": "WOF",
+      "crs": "WOF",
+      "mileage": 5067.1,
+      "type": "interchange"
+    },
+    {
+      "name": "MVL",
+      "crs": "MVL",
+      "mileage": 5060.2,
+      "type": "interchange"
+    },
+    {
+      "name": "GMV",
+      "crs": "GMV",
+      "mileage": 5053.3,
+      "type": "interchange"
+    },
+    {
+      "name": "UNI",
+      "crs": "UNI",
+      "mileage": 5046.4,
+      "type": "interchange"
+    },
+    {
+      "name": "BHM",
+      "crs": "BHM",
+      "mileage": 5039.5,
+      "type": "major"
+    },
+    {
+      "name": "CDF",
+      "crs": "CDF",
+      "mileage": 5163.2,
+      "type": "major"
+    },
+    {
+      "name": "NWP",
+      "crs": "NWP",
+      "mileage": 5152.2,
+      "type": "major"
+    },
+    {
+      "name": "STJ",
+      "crs": "STJ",
+      "mileage": 5148.1,
+      "type": "minor"
+    },
+    {
+      "name": "CDT",
+      "crs": "CDT",
+      "mileage": 5144.0,
+      "type": "minor"
+    },
+    {
+      "name": "CPW",
+      "crs": "CPW",
+      "mileage": 5139.9,
+      "type": "minor"
+    },
+    {
+      "name": "LYD",
+      "crs": "LYD",
+      "mileage": 5135.9,
+      "type": "minor"
+    },
+    {
+      "name": "BRI",
+      "crs": "BRI",
+      "mileage": 5131.8,
+      "type": "major"
+    },
+    {
+      "name": "FIT",
+      "crs": "FIT",
+      "mileage": 5128.9,
+      "type": "interchange"
+    },
+    {
+      "name": "BPW",
+      "crs": "BPW",
+      "mileage": 5125.9,
+      "type": "major"
+    },
+    {
+      "name": "YAE",
+      "crs": "YAE",
+      "mileage": 5120.2,
+      "type": "minor"
+    },
+    {
+      "name": "CDU",
+      "crs": "CDU",
+      "mileage": 5114.4,
+      "type": "minor"
+    },
+    {
+      "name": "GCR",
+      "crs": "GCR",
+      "mileage": 5108.6,
+      "type": "interchange"
+    },
+    {
+      "name": "GCR",
+      "crs": "GCR",
+      "mileage": 5108.6,
+      "type": "interchange"
+    },
+    {
+      "name": "CNM",
+      "crs": "CNM",
+      "mileage": 5101.7,
+      "type": "interchange"
+    },
+    {
+      "name": "CNM",
+      "crs": "CNM",
+      "mileage": 5101.7,
+      "type": "interchange"
+    },
+    {
+      "name": "ASC",
+      "crs": "ASC",
+      "mileage": 5087.9,
+      "type": "minor"
+    },
+    {
+      "name": "WOP",
+      "crs": "WOP",
+      "mileage": 5081.0,
+      "type": "interchange"
+    },
+    {
+      "name": "WOS",
+      "crs": "WOS",
+      "mileage": 5074.0,
+      "type": "interchange"
+    },
+    {
+      "name": "WOF",
+      "crs": "WOF",
+      "mileage": 5067.1,
+      "type": "interchange"
+    },
+    {
+      "name": "MVL",
+      "crs": "MVL",
+      "mileage": 5060.2,
+      "type": "interchange"
+    },
+    {
+      "name": "GMV",
+      "crs": "GMV",
+      "mileage": 5053.3,
+      "type": "interchange"
+    },
+    {
+      "name": "UNI",
+      "crs": "UNI",
+      "mileage": 5046.4,
+      "type": "interchange"
+    },
+    {
+      "name": "BHM",
+      "crs": "BHM",
+      "mileage": 5039.5,
+      "type": "major"
+    },
+    {
+      "name": "CDF",
+      "crs": "CDF",
+      "mileage": 5163.2,
+      "type": "major"
+    },
+    {
+      "name": "NWP",
+      "crs": "NWP",
+      "mileage": 5152.2,
+      "type": "major"
+    },
+    {
+      "name": "STJ",
+      "crs": "STJ",
+      "mileage": 5148.1,
+      "type": "minor"
+    },
+    {
+      "name": "CDT",
+      "crs": "CDT",
+      "mileage": 5144.0,
+      "type": "minor"
+    },
+    {
+      "name": "CPW",
+      "crs": "CPW",
+      "mileage": 5139.9,
+      "type": "minor"
+    },
+    {
+      "name": "LYD",
+      "crs": "LYD",
+      "mileage": 5135.9,
+      "type": "minor"
+    },
+    {
+      "name": "BRI",
+      "crs": "BRI",
+      "mileage": 5131.8,
+      "type": "major"
+    },
+    {
+      "name": "FIT",
+      "crs": "FIT",
+      "mileage": 5128.9,
+      "type": "interchange"
+    },
+    {
+      "name": "BPW",
+      "crs": "BPW",
+      "mileage": 5125.9,
+      "type": "major"
+    },
+    {
+      "name": "YAE",
+      "crs": "YAE",
+      "mileage": 5120.2,
+      "type": "minor"
+    },
+    {
+      "name": "CDU",
+      "crs": "CDU",
+      "mileage": 5114.4,
+      "type": "minor"
+    },
+    {
+      "name": "GCR",
+      "crs": "GCR",
+      "mileage": 5108.6,
+      "type": "interchange"
+    },
+    {
+      "name": "GCR",
+      "crs": "GCR",
+      "mileage": 5108.6,
+      "type": "interchange"
+    },
+    {
+      "name": "CNM",
+      "crs": "CNM",
+      "mileage": 5101.7,
+      "type": "interchange"
+    },
+    {
+      "name": "CNM",
+      "crs": "CNM",
+      "mileage": 5101.7,
+      "type": "interchange"
+    },
+    {
+      "name": "ASC",
+      "crs": "ASC",
+      "mileage": 5087.9,
+      "type": "minor"
+    },
+    {
+      "name": "WOP",
+      "crs": "WOP",
+      "mileage": 5081.0,
+      "type": "interchange"
+    },
+    {
+      "name": "WOS",
+      "crs": "WOS",
+      "mileage": 5074.0,
+      "type": "interchange"
+    },
+    {
+      "name": "WOF",
+      "crs": "WOF",
+      "mileage": 5067.1,
+      "type": "interchange"
+    },
+    {
+      "name": "MVL",
+      "crs": "MVL",
+      "mileage": 5060.2,
+      "type": "interchange"
+    },
+    {
+      "name": "GMV",
+      "crs": "GMV",
+      "mileage": 5053.3,
+      "type": "interchange"
+    },
+    {
+      "name": "UNI",
+      "crs": "UNI",
+      "mileage": 5046.4,
+      "type": "interchange"
+    },
+    {
+      "name": "BHM",
+      "crs": "BHM",
+      "mileage": 5039.5,
+      "type": "major"
+    },
+    {
+      "name": "CDF",
+      "crs": "CDF",
+      "mileage": 5163.2,
+      "type": "major"
+    },
+    {
+      "name": "NWP",
+      "crs": "NWP",
+      "mileage": 5152.2,
+      "type": "major"
+    },
+    {
+      "name": "STJ",
+      "crs": "STJ",
+      "mileage": 5148.1,
+      "type": "minor"
+    },
+    {
+      "name": "CDT",
+      "crs": "CDT",
+      "mileage": 5144.0,
+      "type": "minor"
+    },
+    {
+      "name": "CPW",
+      "crs": "CPW",
+      "mileage": 5139.9,
+      "type": "minor"
+    },
+    {
+      "name": "LYD",
+      "crs": "LYD",
+      "mileage": 5135.9,
+      "type": "minor"
+    },
+    {
+      "name": "BRI",
+      "crs": "BRI",
+      "mileage": 5131.8,
+      "type": "major"
+    },
+    {
+      "name": "FIT",
+      "crs": "FIT",
+      "mileage": 5128.9,
+      "type": "interchange"
+    },
+    {
+      "name": "BPW",
+      "crs": "BPW",
+      "mileage": 5125.9,
+      "type": "major"
+    },
+    {
+      "name": "YAE",
+      "crs": "YAE",
+      "mileage": 5120.2,
+      "type": "minor"
+    },
+    {
+      "name": "CDU",
+      "crs": "CDU",
+      "mileage": 5114.4,
+      "type": "minor"
+    },
+    {
+      "name": "GCR",
+      "crs": "GCR",
+      "mileage": 5108.6,
+      "type": "interchange"
+    },
+    {
+      "name": "GCR",
+      "crs": "GCR",
+      "mileage": 5108.6,
+      "type": "interchange"
+    },
+    {
+      "name": "CNM",
+      "crs": "CNM",
+      "mileage": 5101.7,
+      "type": "interchange"
+    },
+    {
+      "name": "CNM",
+      "crs": "CNM",
+      "mileage": 5101.7,
+      "type": "interchange"
+    },
+    {
+      "name": "ASC",
+      "crs": "ASC",
+      "mileage": 5087.9,
+      "type": "minor"
+    },
+    {
+      "name": "WOP",
+      "crs": "WOP",
+      "mileage": 5081.0,
+      "type": "interchange"
+    },
+    {
+      "name": "WOS",
+      "crs": "WOS",
+      "mileage": 5074.0,
+      "type": "interchange"
+    },
+    {
+      "name": "WOF",
+      "crs": "WOF",
+      "mileage": 5067.1,
+      "type": "interchange"
+    },
+    {
+      "name": "MVL",
+      "crs": "MVL",
+      "mileage": 5060.2,
+      "type": "interchange"
+    },
+    {
+      "name": "GMV",
+      "crs": "GMV",
+      "mileage": 5053.3,
+      "type": "interchange"
+    },
+    {
+      "name": "UNI",
+      "crs": "UNI",
+      "mileage": 5046.4,
+      "type": "interchange"
+    },
+    {
+      "name": "BHM",
+      "crs": "BHM",
+      "mileage": 5039.5,
+      "type": "major"
+    },
+    {
+      "name": "CDF",
+      "crs": "CDF",
+      "mileage": 5163.2,
+      "type": "major"
+    },
+    {
+      "name": "NWP",
+      "crs": "NWP",
+      "mileage": 5152.2,
+      "type": "major"
+    },
+    {
+      "name": "STJ",
+      "crs": "STJ",
+      "mileage": 5148.1,
+      "type": "minor"
+    },
+    {
+      "name": "CDT",
+      "crs": "CDT",
+      "mileage": 5144.0,
+      "type": "minor"
+    },
+    {
+      "name": "CPW",
+      "crs": "CPW",
+      "mileage": 5139.9,
+      "type": "minor"
+    },
+    {
+      "name": "LYD",
+      "crs": "LYD",
+      "mileage": 5135.9,
+      "type": "minor"
+    },
+    {
+      "name": "BRI",
+      "crs": "BRI",
+      "mileage": 5131.8,
+      "type": "major"
+    },
+    {
+      "name": "FIT",
+      "crs": "FIT",
+      "mileage": 5128.9,
+      "type": "interchange"
+    },
+    {
+      "name": "BPW",
+      "crs": "BPW",
+      "mileage": 5125.9,
+      "type": "major"
+    },
+    {
+      "name": "YAE",
+      "crs": "YAE",
+      "mileage": 5120.2,
+      "type": "minor"
+    },
+    {
+      "name": "CDU",
+      "crs": "CDU",
+      "mileage": 5114.4,
+      "type": "minor"
+    },
+    {
+      "name": "GCR",
+      "crs": "GCR",
+      "mileage": 5108.6,
+      "type": "interchange"
+    },
+    {
+      "name": "GCR",
+      "crs": "GCR",
+      "mileage": 5108.6,
+      "type": "interchange"
+    },
+    {
+      "name": "CNM",
+      "crs": "CNM",
+      "mileage": 5101.7,
+      "type": "interchange"
+    },
+    {
+      "name": "CNM",
+      "crs": "CNM",
+      "mileage": 5101.7,
+      "type": "interchange"
+    },
+    {
+      "name": "ASC",
+      "crs": "ASC",
+      "mileage": 5087.9,
+      "type": "minor"
+    },
+    {
+      "name": "WOP",
+      "crs": "WOP",
+      "mileage": 5081.0,
+      "type": "interchange"
+    },
+    {
+      "name": "WOS",
+      "crs": "WOS",
+      "mileage": 5074.0,
+      "type": "interchange"
+    },
+    {
+      "name": "WOF",
+      "crs": "WOF",
+      "mileage": 5067.1,
+      "type": "interchange"
+    },
+    {
+      "name": "MVL",
+      "crs": "MVL",
+      "mileage": 5060.2,
+      "type": "interchange"
+    },
+    {
+      "name": "GMV",
+      "crs": "GMV",
+      "mileage": 5053.3,
+      "type": "interchange"
+    },
+    {
+      "name": "UNI",
+      "crs": "UNI",
+      "mileage": 5046.4,
+      "type": "interchange"
+    },
+    {
+      "name": "BHM",
+      "crs": "BHM",
+      "mileage": 5039.5,
+      "type": "major"
+    },
+    {
+      "name": "DBY",
+      "crs": "DBY",
+      "mileage": 5004.0,
+      "type": "major"
+    },
+    {
+      "name": "NOT",
+      "crs": "NOT",
+      "mileage": 4990.6,
+      "type": "major"
+    },
+    {
+      "name": "CDF",
+      "crs": "CDF",
+      "mileage": 5163.2,
+      "type": "major"
+    },
+    {
+      "name": "NWP",
+      "crs": "NWP",
+      "mileage": 5152.2,
+      "type": "major"
+    },
+    {
+      "name": "STJ",
+      "crs": "STJ",
+      "mileage": 5148.1,
+      "type": "minor"
+    },
+    {
+      "name": "CDT",
+      "crs": "CDT",
+      "mileage": 5144.0,
+      "type": "minor"
+    },
+    {
+      "name": "CPW",
+      "crs": "CPW",
+      "mileage": 5139.9,
+      "type": "minor"
+    },
+    {
+      "name": "LYD",
+      "crs": "LYD",
+      "mileage": 5135.9,
+      "type": "minor"
+    },
+    {
+      "name": "BRI",
+      "crs": "BRI",
+      "mileage": 5131.8,
+      "type": "major"
+    },
+    {
+      "name": "FIT",
+      "crs": "FIT",
+      "mileage": 5128.9,
+      "type": "interchange"
+    },
+    {
+      "name": "BPW",
+      "crs": "BPW",
+      "mileage": 5125.9,
+      "type": "major"
+    },
+    {
+      "name": "YAE",
+      "crs": "YAE",
+      "mileage": 5120.2,
+      "type": "minor"
+    },
+    {
+      "name": "CDU",
+      "crs": "CDU",
+      "mileage": 5114.4,
+      "type": "minor"
+    },
+    {
+      "name": "GCR",
+      "crs": "GCR",
+      "mileage": 5108.6,
+      "type": "interchange"
+    },
+    {
+      "name": "GCR",
+      "crs": "GCR",
+      "mileage": 5108.6,
+      "type": "interchange"
+    },
+    {
+      "name": "CNM",
+      "crs": "CNM",
+      "mileage": 5101.7,
+      "type": "interchange"
+    },
+    {
+      "name": "CNM",
+      "crs": "CNM",
+      "mileage": 5101.7,
+      "type": "interchange"
+    },
+    {
+      "name": "ASC",
+      "crs": "ASC",
+      "mileage": 5087.9,
+      "type": "minor"
+    },
+    {
+      "name": "WOP",
+      "crs": "WOP",
+      "mileage": 5081.0,
+      "type": "interchange"
+    },
+    {
+      "name": "WOS",
+      "crs": "WOS",
+      "mileage": 5074.0,
+      "type": "interchange"
+    },
+    {
+      "name": "WOF",
+      "crs": "WOF",
+      "mileage": 5067.1,
+      "type": "interchange"
+    },
+    {
+      "name": "MVL",
+      "crs": "MVL",
+      "mileage": 5060.2,
+      "type": "interchange"
+    },
+    {
+      "name": "GMV",
+      "crs": "GMV",
+      "mileage": 5053.3,
+      "type": "interchange"
+    },
+    {
+      "name": "UNI",
+      "crs": "UNI",
+      "mileage": 5046.4,
+      "type": "interchange"
+    },
+    {
+      "name": "BHM",
+      "crs": "BHM",
+      "mileage": 5039.5,
+      "type": "major"
+    },
+    {
+      "name": "DBY",
+      "crs": "DBY",
+      "mileage": 5004.0,
+      "type": "major"
+    },
+    {
+      "name": "NOT",
+      "crs": "NOT",
+      "mileage": 4990.6,
+      "type": "major"
+    },
+    {
+      "name": "CDF",
+      "crs": "CDF",
+      "mileage": 5163.2,
+      "type": "major"
+    },
+    {
+      "name": "NWP",
+      "crs": "NWP",
+      "mileage": 5152.2,
+      "type": "major"
+    },
+    {
+      "name": "STJ",
+      "crs": "STJ",
+      "mileage": 5148.1,
+      "type": "minor"
+    },
+    {
+      "name": "CDT",
+      "crs": "CDT",
+      "mileage": 5144.0,
+      "type": "minor"
+    },
+    {
+      "name": "CPW",
+      "crs": "CPW",
+      "mileage": 5139.9,
+      "type": "minor"
+    },
+    {
+      "name": "LYD",
+      "crs": "LYD",
+      "mileage": 5135.9,
+      "type": "minor"
+    },
+    {
+      "name": "BRI",
+      "crs": "BRI",
+      "mileage": 5131.8,
+      "type": "major"
+    },
+    {
+      "name": "FIT",
+      "crs": "FIT",
+      "mileage": 5128.9,
+      "type": "interchange"
+    },
+    {
+      "name": "BPW",
+      "crs": "BPW",
+      "mileage": 5125.9,
+      "type": "major"
+    },
+    {
+      "name": "YAE",
+      "crs": "YAE",
+      "mileage": 5120.2,
+      "type": "minor"
+    },
+    {
+      "name": "CDU",
+      "crs": "CDU",
+      "mileage": 5114.4,
+      "type": "minor"
+    },
+    {
+      "name": "GCR",
+      "crs": "GCR",
+      "mileage": 5108.6,
+      "type": "interchange"
+    },
+    {
+      "name": "GCR",
+      "crs": "GCR",
+      "mileage": 5108.6,
+      "type": "interchange"
+    },
+    {
+      "name": "CNM",
+      "crs": "CNM",
+      "mileage": 5101.7,
+      "type": "interchange"
+    },
+    {
+      "name": "CNM",
+      "crs": "CNM",
+      "mileage": 5101.7,
+      "type": "interchange"
+    },
+    {
+      "name": "ASC",
+      "crs": "ASC",
+      "mileage": 5087.9,
+      "type": "minor"
+    },
+    {
+      "name": "WOP",
+      "crs": "WOP",
+      "mileage": 5081.0,
+      "type": "interchange"
+    },
+    {
+      "name": "WOS",
+      "crs": "WOS",
+      "mileage": 5074.0,
+      "type": "interchange"
+    },
+    {
+      "name": "WOF",
+      "crs": "WOF",
+      "mileage": 5067.1,
+      "type": "interchange"
+    },
+    {
+      "name": "MVL",
+      "crs": "MVL",
+      "mileage": 5060.2,
+      "type": "interchange"
+    },
+    {
+      "name": "GMV",
+      "crs": "GMV",
+      "mileage": 5053.3,
+      "type": "interchange"
+    },
+    {
+      "name": "UNI",
+      "crs": "UNI",
+      "mileage": 5046.4,
+      "type": "interchange"
+    },
+    {
+      "name": "BHM",
+      "crs": "BHM",
+      "mileage": 5039.5,
+      "type": "major"
+    },
+    {
+      "name": "DBY",
+      "crs": "DBY",
+      "mileage": 5004.0,
+      "type": "major"
+    },
+    {
+      "name": "NOT",
+      "crs": "NOT",
+      "mileage": 4990.6,
+      "type": "major"
+    },
+    {
+      "name": "CDF",
+      "crs": "CDF",
+      "mileage": 5163.2,
+      "type": "major"
+    },
+    {
+      "name": "NWP",
+      "crs": "NWP",
+      "mileage": 5152.2,
+      "type": "major"
+    },
+    {
+      "name": "STJ",
+      "crs": "STJ",
+      "mileage": 5148.1,
+      "type": "minor"
+    },
+    {
+      "name": "CDT",
+      "crs": "CDT",
+      "mileage": 5144.0,
+      "type": "minor"
+    },
+    {
+      "name": "CPW",
+      "crs": "CPW",
+      "mileage": 5139.9,
+      "type": "minor"
+    },
+    {
+      "name": "LYD",
+      "crs": "LYD",
+      "mileage": 5135.9,
+      "type": "minor"
+    },
+    {
+      "name": "BRI",
+      "crs": "BRI",
+      "mileage": 5131.8,
+      "type": "major"
+    },
+    {
+      "name": "FIT",
+      "crs": "FIT",
+      "mileage": 5128.9,
+      "type": "interchange"
+    },
+    {
+      "name": "BPW",
+      "crs": "BPW",
+      "mileage": 5125.9,
+      "type": "major"
+    },
+    {
+      "name": "YAE",
+      "crs": "YAE",
+      "mileage": 5120.2,
+      "type": "minor"
+    },
+    {
+      "name": "CDU",
+      "crs": "CDU",
+      "mileage": 5114.4,
+      "type": "minor"
+    },
+    {
+      "name": "GCR",
+      "crs": "GCR",
+      "mileage": 5108.6,
+      "type": "interchange"
+    },
+    {
+      "name": "GCR",
+      "crs": "GCR",
+      "mileage": 5108.6,
+      "type": "interchange"
+    },
+    {
+      "name": "CNM",
+      "crs": "CNM",
+      "mileage": 5101.7,
+      "type": "interchange"
+    },
+    {
+      "name": "CNM",
+      "crs": "CNM",
+      "mileage": 5101.7,
+      "type": "interchange"
+    },
+    {
+      "name": "ASC",
+      "crs": "ASC",
+      "mileage": 5087.9,
+      "type": "minor"
+    },
+    {
+      "name": "WOP",
+      "crs": "WOP",
+      "mileage": 5081.0,
+      "type": "interchange"
+    },
+    {
+      "name": "WOS",
+      "crs": "WOS",
+      "mileage": 5074.0,
+      "type": "interchange"
+    },
+    {
+      "name": "WOF",
+      "crs": "WOF",
+      "mileage": 5067.1,
+      "type": "interchange"
+    },
+    {
+      "name": "MVL",
+      "crs": "MVL",
+      "mileage": 5060.2,
+      "type": "interchange"
+    },
+    {
+      "name": "GMV",
+      "crs": "GMV",
+      "mileage": 5053.3,
+      "type": "interchange"
+    },
+    {
+      "name": "UNI",
+      "crs": "UNI",
+      "mileage": 5046.4,
+      "type": "interchange"
+    },
+    {
+      "name": "BHM",
+      "crs": "BHM",
+      "mileage": 5039.5,
+      "type": "major"
+    },
+    {
+      "name": "DBY",
+      "crs": "DBY",
+      "mileage": 5004.0,
+      "type": "major"
+    },
+    {
+      "name": "NOT",
+      "crs": "NOT",
+      "mileage": 4990.6,
+      "type": "major"
+    },
+    {
+      "name": "CDF",
+      "crs": "CDF",
+      "mileage": 5163.2,
+      "type": "major"
+    },
+    {
+      "name": "NWP",
+      "crs": "NWP",
+      "mileage": 5152.2,
+      "type": "major"
+    },
+    {
+      "name": "STJ",
+      "crs": "STJ",
+      "mileage": 5148.1,
+      "type": "minor"
+    },
+    {
+      "name": "CDT",
+      "crs": "CDT",
+      "mileage": 5144.0,
+      "type": "minor"
+    },
+    {
+      "name": "CPW",
+      "crs": "CPW",
+      "mileage": 5139.9,
+      "type": "minor"
+    },
+    {
+      "name": "LYD",
+      "crs": "LYD",
+      "mileage": 5135.9,
+      "type": "minor"
+    },
+    {
+      "name": "BRI",
+      "crs": "BRI",
+      "mileage": 5131.8,
+      "type": "major"
+    },
+    {
+      "name": "FIT",
+      "crs": "FIT",
+      "mileage": 5128.9,
+      "type": "interchange"
+    },
+    {
+      "name": "BPW",
+      "crs": "BPW",
+      "mileage": 5125.9,
+      "type": "major"
+    },
+    {
+      "name": "YAE",
+      "crs": "YAE",
+      "mileage": 5120.2,
+      "type": "minor"
+    },
+    {
+      "name": "CDU",
+      "crs": "CDU",
+      "mileage": 5114.4,
+      "type": "minor"
+    },
+    {
+      "name": "GCR",
+      "crs": "GCR",
+      "mileage": 5108.6,
+      "type": "interchange"
+    },
+    {
+      "name": "GCR",
+      "crs": "GCR",
+      "mileage": 5108.6,
+      "type": "interchange"
+    },
+    {
+      "name": "CNM",
+      "crs": "CNM",
+      "mileage": 5101.7,
+      "type": "interchange"
+    },
+    {
+      "name": "CNM",
+      "crs": "CNM",
+      "mileage": 5101.7,
+      "type": "interchange"
+    },
+    {
+      "name": "ASC",
+      "crs": "ASC",
+      "mileage": 5087.9,
+      "type": "minor"
+    },
+    {
+      "name": "WOP",
+      "crs": "WOP",
+      "mileage": 5081.0,
+      "type": "interchange"
+    },
+    {
+      "name": "WOS",
+      "crs": "WOS",
+      "mileage": 5074.0,
+      "type": "interchange"
+    },
+    {
+      "name": "WOF",
+      "crs": "WOF",
+      "mileage": 5067.1,
+      "type": "interchange"
+    },
+    {
+      "name": "MVL",
+      "crs": "MVL",
+      "mileage": 5060.2,
+      "type": "interchange"
+    },
+    {
+      "name": "GMV",
+      "crs": "GMV",
+      "mileage": 5053.3,
+      "type": "interchange"
+    },
+    {
+      "name": "UNI",
+      "crs": "UNI",
+      "mileage": 5046.4,
+      "type": "interchange"
+    },
+    {
+      "name": "BHM",
+      "crs": "BHM",
+      "mileage": 5039.5,
+      "type": "major"
+    },
+    {
+      "name": "DBY",
+      "crs": "DBY",
+      "mileage": 5004.0,
+      "type": "major"
+    },
+    {
+      "name": "NOT",
+      "crs": "NOT",
+      "mileage": 4990.6,
+      "type": "major"
+    },
+    {
+      "name": "CDF",
+      "crs": "CDF",
+      "mileage": 5163.2,
+      "type": "major"
+    },
+    {
+      "name": "NWP",
+      "crs": "NWP",
+      "mileage": 5152.2,
+      "type": "major"
+    },
+    {
+      "name": "STJ",
+      "crs": "STJ",
+      "mileage": 5148.1,
+      "type": "minor"
+    },
+    {
+      "name": "CDT",
+      "crs": "CDT",
+      "mileage": 5144.0,
+      "type": "minor"
+    },
+    {
+      "name": "CPW",
+      "crs": "CPW",
+      "mileage": 5139.9,
+      "type": "minor"
+    },
+    {
+      "name": "LYD",
+      "crs": "LYD",
+      "mileage": 5135.9,
+      "type": "minor"
+    },
+    {
+      "name": "BRI",
+      "crs": "BRI",
+      "mileage": 5131.8,
+      "type": "major"
+    },
+    {
+      "name": "FIT",
+      "crs": "FIT",
+      "mileage": 5128.9,
+      "type": "interchange"
+    },
+    {
+      "name": "BPW",
+      "crs": "BPW",
+      "mileage": 5125.9,
+      "type": "major"
+    },
+    {
+      "name": "YAE",
+      "crs": "YAE",
+      "mileage": 5120.2,
+      "type": "minor"
+    },
+    {
+      "name": "CDU",
+      "crs": "CDU",
+      "mileage": 5114.4,
+      "type": "minor"
+    },
+    {
+      "name": "GCR",
+      "crs": "GCR",
+      "mileage": 5108.6,
+      "type": "interchange"
+    },
+    {
+      "name": "GCR",
+      "crs": "GCR",
+      "mileage": 5108.6,
+      "type": "interchange"
+    },
+    {
+      "name": "CNM",
+      "crs": "CNM",
+      "mileage": 5101.7,
+      "type": "interchange"
+    },
+    {
+      "name": "CNM",
+      "crs": "CNM",
+      "mileage": 5101.7,
+      "type": "interchange"
+    },
+    {
+      "name": "ASC",
+      "crs": "ASC",
+      "mileage": 5087.9,
+      "type": "minor"
+    },
+    {
+      "name": "WOP",
+      "crs": "WOP",
+      "mileage": 5081.0,
+      "type": "interchange"
+    },
+    {
+      "name": "WOS",
+      "crs": "WOS",
+      "mileage": 5074.0,
+      "type": "interchange"
+    },
+    {
+      "name": "WOF",
+      "crs": "WOF",
+      "mileage": 5067.1,
+      "type": "interchange"
+    },
+    {
+      "name": "MVL",
+      "crs": "MVL",
+      "mileage": 5060.2,
+      "type": "interchange"
+    },
+    {
+      "name": "GMV",
+      "crs": "GMV",
+      "mileage": 5053.3,
+      "type": "interchange"
+    },
+    {
+      "name": "UNI",
+      "crs": "UNI",
+      "mileage": 5046.4,
+      "type": "interchange"
+    },
+    {
+      "name": "BHM",
+      "crs": "BHM",
+      "mileage": 5039.5,
+      "type": "major"
+    },
+    {
+      "name": "DBY",
+      "crs": "DBY",
+      "mileage": 5004.0,
+      "type": "major"
+    },
+    {
+      "name": "NOT",
+      "crs": "NOT",
+      "mileage": 4990.6,
+      "type": "major"
+    },
+    {
+      "name": "NOT",
+      "crs": "NOT",
+      "mileage": 4990.6,
+      "type": "major"
+    },
+    {
+      "name": "DBY",
+      "crs": "DBY",
+      "mileage": 5004.0,
+      "type": "major"
+    },
+    {
+      "name": "BHM",
+      "crs": "BHM",
+      "mileage": 5039.5,
+      "type": "major"
+    },
+    {
+      "name": "UNI",
+      "crs": "UNI",
+      "mileage": 5046.4,
+      "type": "interchange"
+    },
+    {
+      "name": "GMV",
+      "crs": "GMV",
+      "mileage": 5053.3,
+      "type": "interchange"
+    },
+    {
+      "name": "MVL",
+      "crs": "MVL",
+      "mileage": 5060.2,
+      "type": "interchange"
+    },
+    {
+      "name": "WOF",
+      "crs": "WOF",
+      "mileage": 5067.1,
+      "type": "interchange"
+    },
+    {
+      "name": "WOS",
+      "crs": "WOS",
+      "mileage": 5074.0,
+      "type": "interchange"
+    },
+    {
+      "name": "WOP",
+      "crs": "WOP",
+      "mileage": 5081.0,
+      "type": "interchange"
+    },
+    {
+      "name": "ASC",
+      "crs": "ASC",
+      "mileage": 5087.9,
+      "type": "minor"
+    },
+    {
+      "name": "CNM",
+      "crs": "CNM",
+      "mileage": 5101.7,
+      "type": "interchange"
+    },
+    {
+      "name": "CNM",
+      "crs": "CNM",
+      "mileage": 5101.7,
+      "type": "interchange"
+    },
+    {
+      "name": "GCR",
+      "crs": "GCR",
+      "mileage": 5108.6,
+      "type": "interchange"
+    },
+    {
+      "name": "NOT",
+      "crs": "NOT",
+      "mileage": 4990.6,
+      "type": "major"
+    },
+    {
+      "name": "DBY",
+      "crs": "DBY",
+      "mileage": 5004.0,
+      "type": "major"
+    },
+    {
+      "name": "BHM",
+      "crs": "BHM",
+      "mileage": 5039.5,
+      "type": "major"
+    },
+    {
+      "name": "UNI",
+      "crs": "UNI",
+      "mileage": 5046.4,
+      "type": "interchange"
+    },
+    {
+      "name": "GMV",
+      "crs": "GMV",
+      "mileage": 5053.3,
+      "type": "interchange"
+    },
+    {
+      "name": "MVL",
+      "crs": "MVL",
+      "mileage": 5060.2,
+      "type": "interchange"
+    },
+    {
+      "name": "WOF",
+      "crs": "WOF",
+      "mileage": 5067.1,
+      "type": "interchange"
+    },
+    {
+      "name": "WOS",
+      "crs": "WOS",
+      "mileage": 5074.0,
+      "type": "interchange"
+    },
+    {
+      "name": "WOP",
+      "crs": "WOP",
+      "mileage": 5081.0,
+      "type": "interchange"
+    },
+    {
+      "name": "ASC",
+      "crs": "ASC",
+      "mileage": 5087.9,
+      "type": "minor"
+    },
+    {
+      "name": "CNM",
+      "crs": "CNM",
+      "mileage": 5101.7,
+      "type": "interchange"
+    },
+    {
+      "name": "CNM",
+      "crs": "CNM",
+      "mileage": 5101.7,
+      "type": "interchange"
+    },
+    {
+      "name": "GCR",
+      "crs": "GCR",
+      "mileage": 5108.6,
+      "type": "interchange"
+    },
+    {
+      "name": "NOT",
+      "crs": "NOT",
+      "mileage": 4990.6,
+      "type": "major"
+    },
+    {
+      "name": "DBY",
+      "crs": "DBY",
+      "mileage": 5004.0,
+      "type": "major"
+    },
+    {
+      "name": "BHM",
+      "crs": "BHM",
+      "mileage": 5039.5,
+      "type": "major"
+    },
+    {
+      "name": "UNI",
+      "crs": "UNI",
+      "mileage": 5046.4,
+      "type": "interchange"
+    },
+    {
+      "name": "GMV",
+      "crs": "GMV",
+      "mileage": 5053.3,
+      "type": "interchange"
+    },
+    {
+      "name": "MVL",
+      "crs": "MVL",
+      "mileage": 5060.2,
+      "type": "interchange"
+    },
+    {
+      "name": "WOF",
+      "crs": "WOF",
+      "mileage": 5067.1,
+      "type": "interchange"
+    },
+    {
+      "name": "WOS",
+      "crs": "WOS",
+      "mileage": 5074.0,
+      "type": "interchange"
+    },
+    {
+      "name": "WOP",
+      "crs": "WOP",
+      "mileage": 5081.0,
+      "type": "interchange"
+    },
+    {
+      "name": "ASC",
+      "crs": "ASC",
+      "mileage": 5087.9,
+      "type": "minor"
+    },
+    {
+      "name": "CNM",
+      "crs": "CNM",
+      "mileage": 5101.7,
+      "type": "interchange"
+    },
+    {
+      "name": "CNM",
+      "crs": "CNM",
+      "mileage": 5101.7,
+      "type": "interchange"
+    },
+    {
+      "name": "GCR",
+      "crs": "GCR",
+      "mileage": 5108.6,
+      "type": "interchange"
+    },
+    {
+      "name": "NOT",
+      "crs": "NOT",
+      "mileage": 4990.6,
+      "type": "major"
+    },
+    {
+      "name": "DBY",
+      "crs": "DBY",
+      "mileage": 5004.0,
+      "type": "major"
+    },
+    {
+      "name": "BHM",
+      "crs": "BHM",
+      "mileage": 5039.5,
+      "type": "major"
+    },
+    {
+      "name": "UNI",
+      "crs": "UNI",
+      "mileage": 5046.4,
+      "type": "interchange"
+    },
+    {
+      "name": "GMV",
+      "crs": "GMV",
+      "mileage": 5053.3,
+      "type": "interchange"
+    },
+    {
+      "name": "MVL",
+      "crs": "MVL",
+      "mileage": 5060.2,
+      "type": "interchange"
+    },
+    {
+      "name": "WOF",
+      "crs": "WOF",
+      "mileage": 5067.1,
+      "type": "interchange"
+    },
+    {
+      "name": "WOS",
+      "crs": "WOS",
+      "mileage": 5074.0,
+      "type": "interchange"
+    },
+    {
+      "name": "WOP",
+      "crs": "WOP",
+      "mileage": 5081.0,
+      "type": "interchange"
+    },
+    {
+      "name": "ASC",
+      "crs": "ASC",
+      "mileage": 5087.9,
+      "type": "minor"
+    },
+    {
+      "name": "CNM",
+      "crs": "CNM",
+      "mileage": 5101.7,
+      "type": "interchange"
+    },
+    {
+      "name": "CNM",
+      "crs": "CNM",
+      "mileage": 5101.7,
+      "type": "interchange"
+    },
+    {
+      "name": "GCR",
+      "crs": "GCR",
+      "mileage": 5108.6,
+      "type": "interchange"
+    },
+    {
+      "name": "NOT",
+      "crs": "NOT",
+      "mileage": 4990.6,
+      "type": "major"
+    },
+    {
+      "name": "DBY",
+      "crs": "DBY",
+      "mileage": 5004.0,
+      "type": "major"
+    },
+    {
+      "name": "BHM",
+      "crs": "BHM",
+      "mileage": 5039.5,
+      "type": "major"
+    },
+    {
+      "name": "UNI",
+      "crs": "UNI",
+      "mileage": 5046.4,
+      "type": "interchange"
+    },
+    {
+      "name": "GMV",
+      "crs": "GMV",
+      "mileage": 5053.3,
+      "type": "interchange"
+    },
+    {
+      "name": "MVL",
+      "crs": "MVL",
+      "mileage": 5060.2,
+      "type": "interchange"
+    },
+    {
+      "name": "WOF",
+      "crs": "WOF",
+      "mileage": 5067.1,
+      "type": "interchange"
+    },
+    {
+      "name": "WOS",
+      "crs": "WOS",
+      "mileage": 5074.0,
+      "type": "interchange"
+    },
+    {
+      "name": "WOP",
+      "crs": "WOP",
+      "mileage": 5081.0,
+      "type": "interchange"
+    },
+    {
+      "name": "ASC",
+      "crs": "ASC",
+      "mileage": 5087.9,
+      "type": "minor"
+    },
+    {
+      "name": "CNM",
+      "crs": "CNM",
+      "mileage": 5101.7,
+      "type": "interchange"
+    },
+    {
+      "name": "CNM",
+      "crs": "CNM",
+      "mileage": 5101.7,
+      "type": "interchange"
+    },
+    {
+      "name": "GCR",
+      "crs": "GCR",
+      "mileage": 5108.6,
+      "type": "interchange"
+    },
+    {
+      "name": "GCR",
+      "crs": "GCR",
+      "mileage": 5108.6,
+      "type": "interchange"
+    },
+    {
+      "name": "CDU",
+      "crs": "CDU",
+      "mileage": 5114.4,
+      "type": "minor"
+    },
+    {
+      "name": "YAE",
+      "crs": "YAE",
+      "mileage": 5120.2,
+      "type": "minor"
+    },
+    {
+      "name": "BPW",
+      "crs": "BPW",
+      "mileage": 5125.9,
+      "type": "major"
+    },
+    {
+      "name": "FIT",
+      "crs": "FIT",
+      "mileage": 5128.9,
+      "type": "interchange"
+    },
+    {
+      "name": "BRI",
+      "crs": "BRI",
+      "mileage": 5131.8,
+      "type": "major"
+    },
+    {
+      "name": "LYD",
+      "crs": "LYD",
+      "mileage": 5135.9,
+      "type": "minor"
+    },
+    {
+      "name": "CPW",
+      "crs": "CPW",
+      "mileage": 5139.9,
+      "type": "minor"
+    },
+    {
+      "name": "CDT",
+      "crs": "CDT",
+      "mileage": 5144.0,
+      "type": "minor"
+    },
+    {
+      "name": "STJ",
+      "crs": "STJ",
+      "mileage": 5148.1,
+      "type": "minor"
+    },
+    {
+      "name": "NWP",
+      "crs": "NWP",
+      "mileage": 5152.2,
+      "type": "major"
+    },
+    {
+      "name": "CDF",
+      "crs": "CDF",
+      "mileage": 5163.2,
+      "type": "major"
+    },
+    {
+      "name": "NOT",
+      "crs": "NOT",
+      "mileage": 4990.6,
+      "type": "major"
+    },
+    {
+      "name": "DBY",
+      "crs": "DBY",
+      "mileage": 5004.0,
+      "type": "major"
+    },
+    {
+      "name": "BHM",
+      "crs": "BHM",
+      "mileage": 5039.5,
+      "type": "major"
+    },
+    {
+      "name": "UNI",
+      "crs": "UNI",
+      "mileage": 5046.4,
+      "type": "interchange"
+    },
+    {
+      "name": "GMV",
+      "crs": "GMV",
+      "mileage": 5053.3,
+      "type": "interchange"
+    },
+    {
+      "name": "MVL",
+      "crs": "MVL",
+      "mileage": 5060.2,
+      "type": "interchange"
+    },
+    {
+      "name": "WOF",
+      "crs": "WOF",
+      "mileage": 5067.1,
+      "type": "interchange"
+    },
+    {
+      "name": "WOS",
+      "crs": "WOS",
+      "mileage": 5074.0,
+      "type": "interchange"
+    },
+    {
+      "name": "WOP",
+      "crs": "WOP",
+      "mileage": 5081.0,
+      "type": "interchange"
+    },
+    {
+      "name": "ASC",
+      "crs": "ASC",
+      "mileage": 5087.9,
+      "type": "minor"
+    },
+    {
+      "name": "CNM",
+      "crs": "CNM",
+      "mileage": 5101.7,
+      "type": "interchange"
+    },
+    {
+      "name": "CNM",
+      "crs": "CNM",
+      "mileage": 5101.7,
+      "type": "interchange"
+    },
+    {
+      "name": "GCR",
+      "crs": "GCR",
+      "mileage": 5108.6,
+      "type": "interchange"
+    },
+    {
+      "name": "GCR",
+      "crs": "GCR",
+      "mileage": 5108.6,
+      "type": "interchange"
+    },
+    {
+      "name": "CDU",
+      "crs": "CDU",
+      "mileage": 5114.4,
+      "type": "minor"
+    },
+    {
+      "name": "YAE",
+      "crs": "YAE",
+      "mileage": 5120.2,
+      "type": "minor"
+    },
+    {
+      "name": "BPW",
+      "crs": "BPW",
+      "mileage": 5125.9,
+      "type": "major"
+    },
+    {
+      "name": "FIT",
+      "crs": "FIT",
+      "mileage": 5128.9,
+      "type": "interchange"
+    },
+    {
+      "name": "BRI",
+      "crs": "BRI",
+      "mileage": 5131.8,
+      "type": "major"
+    },
+    {
+      "name": "LYD",
+      "crs": "LYD",
+      "mileage": 5135.9,
+      "type": "minor"
+    },
+    {
+      "name": "CPW",
+      "crs": "CPW",
+      "mileage": 5139.9,
+      "type": "minor"
+    },
+    {
+      "name": "CDT",
+      "crs": "CDT",
+      "mileage": 5144.0,
+      "type": "minor"
+    },
+    {
+      "name": "STJ",
+      "crs": "STJ",
+      "mileage": 5148.1,
+      "type": "minor"
+    },
+    {
+      "name": "NWP",
+      "crs": "NWP",
+      "mileage": 5152.2,
+      "type": "major"
+    },
+    {
+      "name": "CDF",
+      "crs": "CDF",
+      "mileage": 5163.2,
+      "type": "major"
+    },
+    {
+      "name": "NOT",
+      "crs": "NOT",
+      "mileage": 4990.6,
+      "type": "major"
+    },
+    {
+      "name": "DBY",
+      "crs": "DBY",
+      "mileage": 5004.0,
+      "type": "major"
+    },
+    {
+      "name": "BHM",
+      "crs": "BHM",
+      "mileage": 5039.5,
+      "type": "major"
+    },
+    {
+      "name": "UNI",
+      "crs": "UNI",
+      "mileage": 5046.4,
+      "type": "interchange"
+    },
+    {
+      "name": "GMV",
+      "crs": "GMV",
+      "mileage": 5053.3,
+      "type": "interchange"
+    },
+    {
+      "name": "MVL",
+      "crs": "MVL",
+      "mileage": 5060.2,
+      "type": "interchange"
+    },
+    {
+      "name": "WOF",
+      "crs": "WOF",
+      "mileage": 5067.1,
+      "type": "interchange"
+    },
+    {
+      "name": "WOS",
+      "crs": "WOS",
+      "mileage": 5074.0,
+      "type": "interchange"
+    },
+    {
+      "name": "WOP",
+      "crs": "WOP",
+      "mileage": 5081.0,
+      "type": "interchange"
+    },
+    {
+      "name": "ASC",
+      "crs": "ASC",
+      "mileage": 5087.9,
+      "type": "minor"
+    },
+    {
+      "name": "CNM",
+      "crs": "CNM",
+      "mileage": 5101.7,
+      "type": "interchange"
+    },
+    {
+      "name": "CNM",
+      "crs": "CNM",
+      "mileage": 5101.7,
+      "type": "interchange"
+    },
+    {
+      "name": "GCR",
+      "crs": "GCR",
+      "mileage": 5108.6,
+      "type": "interchange"
+    },
+    {
+      "name": "GCR",
+      "crs": "GCR",
+      "mileage": 5108.6,
+      "type": "interchange"
+    },
+    {
+      "name": "CDU",
+      "crs": "CDU",
+      "mileage": 5114.4,
+      "type": "minor"
+    },
+    {
+      "name": "YAE",
+      "crs": "YAE",
+      "mileage": 5120.2,
+      "type": "minor"
+    },
+    {
+      "name": "BPW",
+      "crs": "BPW",
+      "mileage": 5125.9,
+      "type": "major"
+    },
+    {
+      "name": "FIT",
+      "crs": "FIT",
+      "mileage": 5128.9,
+      "type": "interchange"
+    },
+    {
+      "name": "BRI",
+      "crs": "BRI",
+      "mileage": 5131.8,
+      "type": "major"
+    },
+    {
+      "name": "LYD",
+      "crs": "LYD",
+      "mileage": 5135.9,
+      "type": "minor"
+    },
+    {
+      "name": "CPW",
+      "crs": "CPW",
+      "mileage": 5139.9,
+      "type": "minor"
+    },
+    {
+      "name": "CDT",
+      "crs": "CDT",
+      "mileage": 5144.0,
+      "type": "minor"
+    },
+    {
+      "name": "STJ",
+      "crs": "STJ",
+      "mileage": 5148.1,
+      "type": "minor"
+    },
+    {
+      "name": "NWP",
+      "crs": "NWP",
+      "mileage": 5152.2,
+      "type": "major"
+    },
+    {
+      "name": "CDF",
+      "crs": "CDF",
+      "mileage": 5163.2,
+      "type": "major"
+    },
+    {
+      "name": "NOT",
+      "crs": "NOT",
+      "mileage": 4990.6,
+      "type": "major"
+    },
+    {
+      "name": "DBY",
+      "crs": "DBY",
+      "mileage": 5004.0,
+      "type": "major"
+    },
+    {
+      "name": "BHM",
+      "crs": "BHM",
+      "mileage": 5039.5,
+      "type": "major"
+    },
+    {
+      "name": "UNI",
+      "crs": "UNI",
+      "mileage": 5046.4,
+      "type": "interchange"
+    },
+    {
+      "name": "GMV",
+      "crs": "GMV",
+      "mileage": 5053.3,
+      "type": "interchange"
+    },
+    {
+      "name": "MVL",
+      "crs": "MVL",
+      "mileage": 5060.2,
+      "type": "interchange"
+    },
+    {
+      "name": "WOF",
+      "crs": "WOF",
+      "mileage": 5067.1,
+      "type": "interchange"
+    },
+    {
+      "name": "WOS",
+      "crs": "WOS",
+      "mileage": 5074.0,
+      "type": "interchange"
+    },
+    {
+      "name": "WOP",
+      "crs": "WOP",
+      "mileage": 5081.0,
+      "type": "interchange"
+    },
+    {
+      "name": "ASC",
+      "crs": "ASC",
+      "mileage": 5087.9,
+      "type": "minor"
+    },
+    {
+      "name": "CNM",
+      "crs": "CNM",
+      "mileage": 5101.7,
+      "type": "interchange"
+    },
+    {
+      "name": "CNM",
+      "crs": "CNM",
+      "mileage": 5101.7,
+      "type": "interchange"
+    },
+    {
+      "name": "GCR",
+      "crs": "GCR",
+      "mileage": 5108.6,
+      "type": "interchange"
+    },
+    {
+      "name": "GCR",
+      "crs": "GCR",
+      "mileage": 5108.6,
+      "type": "interchange"
+    },
+    {
+      "name": "CDU",
+      "crs": "CDU",
+      "mileage": 5114.4,
+      "type": "minor"
+    },
+    {
+      "name": "YAE",
+      "crs": "YAE",
+      "mileage": 5120.2,
+      "type": "minor"
+    },
+    {
+      "name": "BPW",
+      "crs": "BPW",
+      "mileage": 5125.9,
+      "type": "major"
+    },
+    {
+      "name": "FIT",
+      "crs": "FIT",
+      "mileage": 5128.9,
+      "type": "interchange"
+    },
+    {
+      "name": "BRI",
+      "crs": "BRI",
+      "mileage": 5131.8,
+      "type": "major"
+    },
+    {
+      "name": "LYD",
+      "crs": "LYD",
+      "mileage": 5135.9,
+      "type": "minor"
+    },
+    {
+      "name": "CPW",
+      "crs": "CPW",
+      "mileage": 5139.9,
+      "type": "minor"
+    },
+    {
+      "name": "CDT",
+      "crs": "CDT",
+      "mileage": 5144.0,
+      "type": "minor"
+    },
+    {
+      "name": "STJ",
+      "crs": "STJ",
+      "mileage": 5148.1,
+      "type": "minor"
+    },
+    {
+      "name": "NWP",
+      "crs": "NWP",
+      "mileage": 5152.2,
+      "type": "major"
+    },
+    {
+      "name": "CDF",
+      "crs": "CDF",
+      "mileage": 5163.2,
+      "type": "major"
+    },
+    {
+      "name": "NOT",
+      "crs": "NOT",
+      "mileage": 4990.6,
+      "type": "major"
+    },
+    {
+      "name": "DBY",
+      "crs": "DBY",
+      "mileage": 5004.0,
+      "type": "major"
+    },
+    {
+      "name": "BHM",
+      "crs": "BHM",
+      "mileage": 5039.5,
+      "type": "major"
+    },
+    {
+      "name": "UNI",
+      "crs": "UNI",
+      "mileage": 5046.4,
+      "type": "interchange"
+    },
+    {
+      "name": "GMV",
+      "crs": "GMV",
+      "mileage": 5053.3,
+      "type": "interchange"
+    },
+    {
+      "name": "MVL",
+      "crs": "MVL",
+      "mileage": 5060.2,
+      "type": "interchange"
+    },
+    {
+      "name": "WOF",
+      "crs": "WOF",
+      "mileage": 5067.1,
+      "type": "interchange"
+    },
+    {
+      "name": "WOS",
+      "crs": "WOS",
+      "mileage": 5074.0,
+      "type": "interchange"
+    },
+    {
+      "name": "WOP",
+      "crs": "WOP",
+      "mileage": 5081.0,
+      "type": "interchange"
+    },
+    {
+      "name": "ASC",
+      "crs": "ASC",
+      "mileage": 5087.9,
+      "type": "minor"
+    },
+    {
+      "name": "CNM",
+      "crs": "CNM",
+      "mileage": 5101.7,
+      "type": "interchange"
+    },
+    {
+      "name": "CNM",
+      "crs": "CNM",
+      "mileage": 5101.7,
+      "type": "interchange"
+    },
+    {
+      "name": "GCR",
+      "crs": "GCR",
+      "mileage": 5108.6,
+      "type": "interchange"
+    },
+    {
+      "name": "GCR",
+      "crs": "GCR",
+      "mileage": 5108.6,
+      "type": "interchange"
+    },
+    {
+      "name": "CDU",
+      "crs": "CDU",
+      "mileage": 5114.4,
+      "type": "minor"
+    },
+    {
+      "name": "YAE",
+      "crs": "YAE",
+      "mileage": 5120.2,
+      "type": "minor"
+    },
+    {
+      "name": "BPW",
+      "crs": "BPW",
+      "mileage": 5125.9,
+      "type": "major"
+    },
+    {
+      "name": "FIT",
+      "crs": "FIT",
+      "mileage": 5128.9,
+      "type": "interchange"
+    },
+    {
+      "name": "BRI",
+      "crs": "BRI",
+      "mileage": 5131.8,
+      "type": "major"
+    },
+    {
+      "name": "LYD",
+      "crs": "LYD",
+      "mileage": 5135.9,
+      "type": "minor"
+    },
+    {
+      "name": "CPW",
+      "crs": "CPW",
+      "mileage": 5139.9,
+      "type": "minor"
+    },
+    {
+      "name": "CDT",
+      "crs": "CDT",
+      "mileage": 5144.0,
+      "type": "minor"
+    },
+    {
+      "name": "STJ",
+      "crs": "STJ",
+      "mileage": 5148.1,
+      "type": "minor"
+    },
+    {
+      "name": "NWP",
+      "crs": "NWP",
+      "mileage": 5152.2,
+      "type": "major"
+    },
+    {
+      "name": "CDF",
+      "crs": "CDF",
+      "mileage": 5163.2,
+      "type": "major"
+    },
+    {
+      "name": "NOT",
+      "crs": "NOT",
+      "mileage": 4990.6,
+      "type": "major"
+    },
+    {
+      "name": "DBY",
+      "crs": "DBY",
+      "mileage": 5004.0,
+      "type": "major"
+    },
+    {
+      "name": "BHM",
+      "crs": "BHM",
+      "mileage": 5039.5,
+      "type": "major"
+    },
+    {
+      "name": "UNI",
+      "crs": "UNI",
+      "mileage": 5046.4,
+      "type": "interchange"
+    },
+    {
+      "name": "GMV",
+      "crs": "GMV",
+      "mileage": 5053.3,
+      "type": "interchange"
+    },
+    {
+      "name": "MVL",
+      "crs": "MVL",
+      "mileage": 5060.2,
+      "type": "interchange"
+    },
+    {
+      "name": "WOF",
+      "crs": "WOF",
+      "mileage": 5067.1,
+      "type": "interchange"
+    },
+    {
+      "name": "WOS",
+      "crs": "WOS",
+      "mileage": 5074.0,
+      "type": "interchange"
+    },
+    {
+      "name": "WOP",
+      "crs": "WOP",
+      "mileage": 5081.0,
+      "type": "interchange"
+    },
+    {
+      "name": "ASC",
+      "crs": "ASC",
+      "mileage": 5087.9,
+      "type": "minor"
+    },
+    {
+      "name": "CNM",
+      "crs": "CNM",
+      "mileage": 5101.7,
+      "type": "interchange"
+    },
+    {
+      "name": "CNM",
+      "crs": "CNM",
+      "mileage": 5101.7,
+      "type": "interchange"
+    },
+    {
+      "name": "GCR",
+      "crs": "GCR",
+      "mileage": 5108.6,
+      "type": "interchange"
+    },
+    {
+      "name": "GCR",
+      "crs": "GCR",
+      "mileage": 5108.6,
+      "type": "interchange"
+    },
+    {
+      "name": "CDU",
+      "crs": "CDU",
+      "mileage": 5114.4,
+      "type": "minor"
+    },
+    {
+      "name": "YAE",
+      "crs": "YAE",
+      "mileage": 5120.2,
+      "type": "minor"
+    },
+    {
+      "name": "BPW",
+      "crs": "BPW",
+      "mileage": 5125.9,
+      "type": "major"
+    },
+    {
+      "name": "FIT",
+      "crs": "FIT",
+      "mileage": 5128.9,
+      "type": "interchange"
+    },
+    {
+      "name": "BRI",
+      "crs": "BRI",
+      "mileage": 5131.8,
+      "type": "major"
+    },
+    {
+      "name": "LYD",
+      "crs": "LYD",
+      "mileage": 5135.9,
+      "type": "minor"
+    },
+    {
+      "name": "CPW",
+      "crs": "CPW",
+      "mileage": 5139.9,
+      "type": "minor"
+    },
+    {
+      "name": "CDT",
+      "crs": "CDT",
+      "mileage": 5144.0,
+      "type": "minor"
+    },
+    {
+      "name": "STJ",
+      "crs": "STJ",
+      "mileage": 5148.1,
+      "type": "minor"
+    },
+    {
+      "name": "NWP",
+      "crs": "NWP",
+      "mileage": 5152.2,
+      "type": "major"
+    },
+    {
+      "name": "CDF",
+      "crs": "CDF",
+      "mileage": 5163.2,
+      "type": "major"
+    }
+  ],
+  "services": [
+    {
+      "id": "MF_0",
+      "operator": "GW",
+      "direction": "",
+      "days": [
+        "MF"
+      ],
+      "stops": [
+        {
+          "station": "WOF",
+          "arr": 403,
+          "dep": null
+        },
+        {
+          "station": "BRI",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "BRI",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "BRI",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "BRI",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "BRI",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "BRI",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "BRI",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "BRI",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "FIT",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "FIT",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "FIT",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "FIT",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "BPW",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "BPW",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "BPW",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "BPW",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "BPW",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "BPW",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "BPW",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "BPW",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "YAE",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "YAE",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "YAE",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "YAE",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "GCR",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "GCR",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "GCR",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "WOF",
+          "arr": 741,
+          "dep": null
+        },
+        {
+          "station": "WOF",
+          "arr": 804,
+          "dep": null
+        },
+        {
+          "station": "BRI",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "BRI",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "BRI",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "BRI",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "BRI",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "BRI",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "BRI",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "BRI",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "BRI",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "BPW",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "BPW",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "BPW",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "BPW",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "BPW",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "BPW",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "BPW",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "BPW",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "BPW",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "CNM",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "CNM",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "CNM",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "CNM",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "CNM",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "CNM",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "CNM",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "CNM",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "CNM",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "CNM",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "CNM",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "CNM",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "WOP",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "WOP",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "WOP",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "WOP",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "WOP",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "WOF",
+          "arr": 980,
+          "dep": null
+        },
+        {
+          "station": "BHM",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "BHM",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "BHM",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "BHM",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "BHM",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "BHM",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "BHM",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "GCR",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "GCR",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "GCR",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "GCR",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "GCR",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "GCR",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "GCR",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "GCR",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "GCR",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "GCR",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "GCR",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "CNM",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "WOF",
+          "arr": 1221,
+          "dep": null
+        },
+        {
+          "station": "GCR",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "GCR",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "GCR",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "GCR",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "CNM",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "CNM",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "CNM",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "CNM",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "CNM",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "ASC",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "ASC",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "ASC",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "ASC",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "WOS",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "WOS",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "WOS",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "WOF",
+          "arr": 358,
+          "dep": null
+        },
+        {
+          "station": "WOF",
+          "arr": 561,
+          "dep": null
+        },
+        {
+          "station": "MVL",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "GMV",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "GCR",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "GCR",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "GCR",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "GCR",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "GCR",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "CNM",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "WOF",
+          "arr": 739,
+          "dep": null
+        },
+        {
+          "station": "WOF",
+          "arr": 799,
+          "dep": null
+        },
+        {
+          "station": "CDF",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "CDF",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "CDF",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "CDF",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "CDF",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "NWP",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "NWP",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "NWP",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "NWP",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "NWP",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "CPW",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "CPW",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "CPW",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "CPW",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "GCR",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "GCR",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "GCR",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "GCR",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "GCR",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "GCR",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "GCR",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "GCR",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "CNM",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "CNM",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "CNM",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "CNM",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "CNM",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "CNM",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "CNM",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "WOP",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "WOP",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "WOP",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "WOP",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "WOP",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "WOF",
+          "arr": 1043,
+          "dep": null
+        },
+        {
+          "station": "WOF",
+          "arr": 1099,
+          "dep": null
+        },
+        {
+          "station": "UNI",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "UNI",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "UNI",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "BHM",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "BHM",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "BHM",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "BHM",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "BHM",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "BHM",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "BHM",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "DBY",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "DBY",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "DBY",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "DBY",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "DBY",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "NOT",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "NOT",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "NOT",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "GCR",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "GCR",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "GCR",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "GCR",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "CNM",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "CNM",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "CNM",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "CNM",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "CDF",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "CDF",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "CDF",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "NWP",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "NWP",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "NWP",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "STJ",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "STJ",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "CDT",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "CDT",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "CPW",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "CPW",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "LYD",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "LYD",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "GCR",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "GCR",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "GCR",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "GCR",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "GCR",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "GCR",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "GCR",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "GCR",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "GCR",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "GCR",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "GCR",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "GCR",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "GCR",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "GCR",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "GCR",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "GCR",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "GCR",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "GCR",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "GCR",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "CNM",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "CNM",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "CNM",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "CNM",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "CNM",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "CNM",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "CNM",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "CNM",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "CNM",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "CNM",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "CNM",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "CNM",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "CNM",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "CNM",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "CNM",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "WOF",
+          "arr": 800,
+          "dep": null
+        },
+        {
+          "station": "CDF",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "CDF",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "CDF",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "CDF",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "NWP",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "NWP",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "NWP",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "NWP",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "GCR",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "GCR",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "GCR",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "GCR",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "GCR",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "GCR",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "GCR",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "GCR",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "GCR",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "GCR",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "GCR",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "GCR",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "GCR",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "CNM",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "CNM",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "CNM",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "CNM",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "CNM",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "CNM",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "CNM",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "CNM",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "CNM",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "CNM",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "CNM",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "CNM",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "CNM",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "CNM",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "CNM",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "WOP",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "WOP",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "WOF",
+          "arr": 1158,
+          "dep": null
+        },
+        {
+          "station": "UNI",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "UNI",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "BHM",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "BHM",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "BHM",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "BHM",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "BHM",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "BHM",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "BHM",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "BHM",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "DBY",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "DBY",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "DBY",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "DBY",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "DBY",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "DBY",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "NOT",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "NOT",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "WOF",
+          "arr": null,
+          "dep": 425
+        },
+        {
+          "station": "CNM",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "CNM",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "CNM",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "CNM",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "CNM",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "GCR",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "GCR",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "GCR",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "GCR",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "GCR",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "DBY",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "DBY",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "DBY",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "DBY",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "DBY",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "BHM",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "BHM",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "BHM",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "BHM",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "BHM",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "BHM",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "BHM",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "WOF",
+          "arr": null,
+          "dep": 653
+        },
+        {
+          "station": "WOF",
+          "arr": null,
+          "dep": 709
+        },
+        {
+          "station": "CNM",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "CNM",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "CNM",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "CNM",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "CNM",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "CNM",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "CNM",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "CNM",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "CNM",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "CNM",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "WOF",
+          "arr": null,
+          "dep": 890
+        },
+        {
+          "station": "WOF",
+          "arr": null,
+          "dep": 949
+        },
+        {
+          "station": "CNM",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "CNM",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "CNM",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "CNM",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "CNM",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "GCR",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "WOF",
+          "arr": null,
+          "dep": 1133
+        },
+        {
+          "station": "WOF",
+          "arr": null,
+          "dep": 1191
+        },
+        {
+          "station": "WOF",
+          "arr": null,
+          "dep": 1288
+        },
+        {
+          "station": "WOS",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "WOS",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "WOS",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "ASC",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "ASC",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "ASC",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "CNM",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "CNM",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "CNM",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "CNM",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "CNM",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "CNM",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "CNM",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "CNM",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "CNM",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "GCR",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "WOF",
+          "arr": null,
+          "dep": 408
+        },
+        {
+          "station": "WOF",
+          "arr": null,
+          "dep": 461
+        },
+        {
+          "station": "CNM",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "CNM",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "CNM",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "CNM",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "GCR",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "GCR",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "GCR",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "GCR",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "GCR",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "GCR",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "GCR",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "GCR",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "LYD",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "LYD",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "LYD",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "CPW",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "CPW",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "CPW",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "CPW",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "CDT",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "CDT",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "CDT",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "STJ",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "STJ",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "STJ",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "NWP",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "NWP",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "NWP",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "NWP",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "CDF",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "CDF",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "CDF",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "CDF",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "DBY",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "DBY",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "DBY",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "DBY",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "DBY",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "BHM",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "BHM",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "BHM",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "BHM",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "BHM",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "BHM",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "BHM",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "WOF",
+          "arr": null,
+          "dep": 652
+        },
+        {
+          "station": "WOF",
+          "arr": null,
+          "dep": 712
+        },
+        {
+          "station": "CNM",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "CNM",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "CNM",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "CNM",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "CNM",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "CNM",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "CNM",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "CNM",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "CNM",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "CNM",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "BPW",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "BPW",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "BPW",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "BPW",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "BPW",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "BRI",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "BRI",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "BRI",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "BRI",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "BRI",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "WOF",
+          "arr": null,
+          "dep": 892
+        },
+        {
+          "station": "WOF",
+          "arr": null,
+          "dep": 949
+        },
+        {
+          "station": "WOF",
+          "arr": null,
+          "dep": 1012
+        },
+        {
+          "station": "WOS",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "WOS",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "WOS",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "ASC",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "ASC",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "ASC",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "CNM",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "CNM",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "CNM",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "CNM",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "CNM",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "CNM",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "CNM",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "CNM",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "CNM",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "CNM",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "GCR",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "GCR",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "GCR",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "GCR",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "GCR",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "GCR",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "GCR",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "GCR",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "DBY",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "DBY",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "DBY",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "DBY",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "DBY",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "BHM",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "BHM",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "BHM",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "BHM",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "BHM",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "WOF",
+          "arr": null,
+          "dep": 1190
+        },
+        {
+          "station": "WOF",
+          "arr": null,
+          "dep": 1301
+        },
+        {
+          "station": "CNM",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "CNM",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "CNM",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "CNM",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "CNM",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "CNM",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "CNM",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "CNM",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "BPW",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "BPW",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "BPW",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "BPW",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "BRI",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "BRI",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "BRI",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "BRI",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "GCR",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "GCR",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "GCR",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "GCR",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "GCR",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "GCR",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "LYD",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "LYD",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "LYD",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "CPW",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "CPW",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "CPW",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "CDT",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "CDT",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "CDT",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "STJ",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "STJ",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "STJ",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "NWP",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "NWP",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "NWP",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "NWP",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "CDF",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "CDF",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "CDF",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "CDF",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "WOF",
+          "arr": null,
+          "dep": 1072
+        },
+        {
+          "station": "GCR",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "GCR",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "GCR",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "GCR",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "GCR",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "CDU",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "CDU",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "YAE",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "YAE",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "YAE",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "YAE",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "BPW",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "BPW",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "BPW",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "BPW",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "BPW",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "FIT",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "FIT",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "FIT",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "FIT",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "BRI",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "BRI",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "BRI",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "BRI",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "BRI",
+          "arr": null,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "SAT_1",
+      "operator": "XC",
+      "direction": "",
+      "days": [
+        "SAT"
+      ],
+      "stops": [
+        {
+          "station": "WOF",
+          "arr": 451,
+          "dep": null
+        },
+        {
+          "station": "GCR",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "GCR",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "GCR",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "GCR",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "GCR",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "GCR",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "GCR",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "GCR",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "GCR",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "GCR",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "CNM",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "CNM",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "CNM",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "GCR",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "GCR",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "GCR",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "CNM",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "CNM",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "CNM",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "CNM",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "CNM",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "CNM",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "CNM",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "CNM",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "GCR",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "GCR",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "GCR",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "CNM",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "CNM",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "CNM",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "CNM",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "CNM",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "CNM",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "CNM",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "CNM",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "CNM",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "CNM",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "GCR",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "CNM",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "CNM",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "CNM",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "CNM",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "CNM",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "CNM",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "CNM",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "CNM",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "CNM",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "CNM",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "CNM",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "GCR",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "GCR",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "GCR",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "GCR",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "GCR",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "GCR",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "LYD",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "CDT",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "STJ",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "NWP",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "CDF",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "CNM",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "CNM",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "CNM",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "CNM",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "CNM",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "CNM",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "BPW",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "BPW",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "BPW",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "BPW",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "BPW",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "BRI",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "BRI",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "BRI",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "BRI",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "BRI",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "CNM",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "CNM",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "CNM",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "CNM",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "CNM",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "CNM",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "CNM",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "CNM",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "GCR",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "GCR",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "GCR",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "GCR",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "CNM",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "CNM",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "CNM",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "CNM",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "BPW",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "BPW",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "BPW",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "BRI",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "BRI",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "BRI",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "GCR",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "GCR",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "GCR",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "GCR",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "GCR",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "BPW",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "BPW",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "BPW",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "BPW",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "BRI",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "BRI",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "BRI",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "BRI",
+          "arr": null,
+          "dep": null
+        }
+      ]
+    }
+  ]
+}
