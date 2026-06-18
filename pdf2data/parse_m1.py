@@ -91,6 +91,10 @@ def clean_name(raw: str) -> str:
     # Clean known OCR issues
     name = name.replace(' EL', '')  # Elizabeth line marker
     name = name.replace('\x10', '').replace('\x18', '').replace('\x0f', '').replace('\x1b', '')
+    # Apply OCR corrections from table names (subset relevant to station names)
+    name = name.replace('*', 'G').replace('3', 'P').replace('<', 'Y')
+    name = name.replace('+', 'H').replace(':', 'W')
+    name = name.replace('8', 'U').replace('9', 'V')
     name = name.strip()
     return name
 
@@ -110,10 +114,130 @@ def extract_table_name(lines, start_idx):
         name_parts.append(t)
     # Join, clean up OCR artifacts
     full = ' '.join(name_parts)
-    full = full.replace('8pminster', 'Upminster').replace('&entral', 'Central')
-    full = full.replace('\x18', '').replace('\x10', '').replace('\x0f', '').replace('\x1b', '').replace('\t', ' ')
-    full = re.sub(r'\s+', ' ', full).strip()
+    full = clean_table_name(full)
     return full.strip()
+
+
+# Comprehensive OCR correction for table name text
+_OCR_CORRECTIONS = {
+    # Special/symbol replacements (applied first)
+    '+': 'H', '&': 'C', ':': 'W', '*': 'G',
+    '[': '', ']': '', '\u0011': '-super-',
+    # Character replacements (applied per-character)
+    '8': 'U', '3': 'P', '<': 'Y', '9': 'V', '4': 'Q',
+    # Note: ',' and 'N' NOT in per-char repl — handled via _KNOWN_WORD_CORRECTIONS
+}
+
+_KNOWN_WORD_CORRECTIONS = {
+    '8pminster': 'Upminster', '&entral': 'Central',
+    'WestonS\u0011M': 'Weston-super-Mare',
+    '+ighbury': 'Highbury', '+uddersfield': 'Huddersfield',
+    '+ull': 'Hull', '+astings': 'Hastings', '+eath': 'Heath',
+    '+ill': 'Hill', '+orne': 'Horne', '+aywards': 'Haywards',
+    '+orsham': 'Horsham', '+elston': 'Helston', '+avant': 'Havant',
+    '-unction': 'Junction',
+    ',slington': 'Islington', ',lford': 'Ilford',
+    ',nternational': 'International', ',nverness': 'Inverness',
+    ',pswich': 'Ipswich', ',psZich': 'Ipswich',
+    ',lNley': 'Ilkley', ',nverness': 'Inverness',
+    '.ings': 'Kings', '.naresborough': 'Knaresborough',
+    '.nutsford': 'Knutsford', '.irkcaldy': 'Kirkcaldy',
+    '.ilkwinning': 'Kilwinning', '.ilmarnock': 'Kilmarnock',
+    '.yle': 'Kyle', '.irby': 'Kirby',
+    'StoNeonTrent': 'Stoke-on-Trent',
+    'StocNport': 'Stockport', 'PaddocN': 'Paddock',
+    'PecNham': 'Peckham', 'MatlocN': 'Matlock',
+    'CannocN': 'Cannock', 'MancKester': 'Manchester',
+    'GlenrotKes': 'Glenrothes', 'GlenrotNes': 'Glenrothes',
+    'CowdenbeatK': 'Cowdenbeath',
+    'FaYersham': 'Faversham',
+    'MineKead': 'Minehead', 'LoZestoft': 'Lowestoft',
+    '3reston': 'Preston', '3eterborough': 'Peterborough',
+    '3lymouth': 'Plymouth', '3aisley': 'Paisley',
+    '3en]ance': 'Penzance', '3ortsmouth': 'Portsmouth',
+    '3otters': 'Potters', '3erth': 'Perth', '3artick': 'Partick',
+    'HeathroZ': 'Heathrow', 'WoolZich': 'Woolwich',
+    'NorZicK': 'Norwich', 'NorZich': 'Norwich',
+    'CreZe': 'Crewe', 'ShreZsbury': 'Shrewsbury',
+    'AberystZyth': 'Aberystwyth', 'PZllheli': 'Pwllheli',
+    'CraZley': 'Crawley', 'LeZes': 'Lewes',
+    'edZay': 'edway', 'atZicN': 'atwick',
+    'K': 'K', 'LoZestoft': 'Lowestoft',
+    '3eterborougK': 'Peterborough', 'armoutK': 'Yarmouth',
+    'SKeringKam': 'Sheringham', 'PitlocKry': 'Pitlochry',
+    'EdinburgK': 'Edinburgh', 'PertK': 'Perth',
+    '<ork': 'York', '<eovil': 'Yeovil',
+    '<armouth': 'Yarmouth', '<orkshire': 'Yorkshire',
+    '*reat': 'Great', '*rimsby': 'Grimsby',
+    '*uide': 'Guide', '*lossop': 'Glossop',
+    '*alashiels': 'Galashiels', '*lasgow': 'Glasgow',
+    '*atwick': 'Gatwick', '*reenford': 'Greenford',
+    '*reenock': 'Greenock', '*ourock': 'Gourock',
+    '*ainsborough': 'Gainsborough', '*unnislaNe': 'Gunnislake',
+    '*oole': 'Goole', '*irvan': 'Girvan',
+    '*loucester': 'Gloucester', '*rove': 'Grove',
+    '&anary': 'Canary', '&ardiff': 'Cardiff',
+    '&anterbury': 'Canterbury', '&astleford': 'Castleford',
+    '&oatbridge': 'Coatbridge', '&romer': 'Cromer',
+    '&rewe': 'Crewe', '&ambridge': 'Cambridge',
+    '&roydon': 'Croydon', '&heltenham': 'Cheltenham',
+    ':itham': 'Witham', ':illesden': 'Willesden',
+    ':alton': 'Walton', ':indsor': 'Windsor',
+    ':igan': 'Wigan', ':estbury': 'Westbury',
+    ':ood': 'Wood', ':harf': 'Wharf',
+    ':ealdstone': 'Wealdstone', ':atford': 'Watford',
+    ':est': 'West', ':rexham': 'Wrexham',
+    ':eovil': 'Yeovil', ':atcKet': 'Watchet',
+    ':imble': 'Wimble', ':eston': 'Weston',
+    ':oolwich': 'Woolwich', ':imbledon': 'Wimbledon',
+    ':estonsuperMare': 'Weston-super-Mare',
+    ':ater': 'Water', ':hifflet': 'Whifflet',
+    ':ick': 'Wick', ':orcester': 'Worcester',
+    ':orNsop': 'Worksop', ':akefield': 'Wakefield',
+    '8cNfield': 'Uckfield', 'Bank 4uay': 'Bank Quay',
+    'Ebbw 9ale': 'Ebbw Vale',
+    '9ale': 'Vale', '9ictoria': 'Victoria',
+    '9alley': 'Valley', '9al': 'Val',
+    'Ha]el': 'Hazel',
+    'ononSea': '-on-Sea', 'onontheNa': '-on-the-Naze',
+    'onHumber': '-on-Humber', 'inFurness': '-in-Furness',
+    'LeWillows': 'le-Willows',
+    'M1': 'M1', 'M25': 'M25', 'M40': 'M40',
+    'StoNeonTrent': 'Stoke-on-Trent',
+    'LiYerpool': 'Liverpool',
+    'BlacNpool': 'Blackpool',
+    '*lasgoZ': 'Glasgow',
+    '*uildford': 'Guildford',
+    'tKis': 'this', 'otKer': 'other', 'all otKer': 'all other',
+    'PenartK': 'Penarth', 'CaerpKilly': 'Caerphilly',
+    'RKymney': 'Rhymney', 'TreKerbert': 'Treherbert',
+    'MertKyr': 'Merthyr', 'PencN': 'PencK',  # Keep as is
+    'edway': 'edway',  # Don't change
+}
+
+def clean_table_name(name: str) -> str:
+    """Apply OCR corrections to a table name."""
+    # First strip control characters
+    name = name.replace('\x18', '').replace('\x10', '').replace('\x0f', '').replace('\x1b', '').replace('\t', ' ')
+    # Then apply known word corrections
+    for wrong, right in _KNOWN_WORD_CORRECTIONS.items():
+        name = name.replace(wrong, right)
+    # Apply per-character OCR corrections
+    chars = []
+    for c in name:
+        if c in _OCR_CORRECTIONS:
+            corrected = _OCR_CORRECTIONS[c]
+            if corrected:
+                chars.append(corrected)
+        else:
+            chars.append(c)
+    name = ''.join(chars)
+    # Collapse multiple spaces
+    name = re.sub(r'\s+', ' ', name).strip()
+    # Fix common multi-word patterns
+    name = name.replace('ononSea', '-on-Sea')
+    name = name.replace('onontheNa', '-on-the-Naze')
+    return name.strip()
 
 
 def parse_all_tts():
