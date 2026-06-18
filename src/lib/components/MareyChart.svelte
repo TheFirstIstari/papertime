@@ -72,6 +72,7 @@
 			const points: { x: number; y: number }[] = [];
 			let prevTime = -1;
 			let timeOffset = 0;
+			let maxValidX = -1;
 
 			for (const stop of svc.stops) {
 				const station = stations.find((s) => s.crs === stop.station);
@@ -86,8 +87,15 @@
 				prevTime = time;
 
 				const x = time + timeOffset;
+				const y = station.mileage;
+
+				// Skip points where time goes backward (data quality issue from parser
+				// where arrival/departure column misalignment creates backward jumps)
+				if (x < maxValidX) continue;
+				maxValidX = x;
+
 				if (x > maxTime) maxTime = x;
-				points.push({ x, y: station.mileage });
+				points.push({ x, y });
 			}
 
 			if (points.length >= 2) {
