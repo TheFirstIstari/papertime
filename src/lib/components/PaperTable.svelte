@@ -3,14 +3,15 @@
 	import { loadTable } from '$lib/data';
 	import type { TableData } from '$lib/types';
 
-	let { tableNum, fromCrs, toCrs } = $props<{
-		tableNum: string;
+	let { tableNum, tableData: initialData, fromCrs, toCrs } = $props<{
+		tableNum?: string;
+		tableData?: TableData | null;
 		fromCrs?: string;
 		toCrs?: string;
 	}>();
 
-	let table = $state<TableData | null>(null);
-	let loading = $state(true);
+	let table = $state<TableData | null>(initialData ?? null);
+	let loading = $state(!initialData);
 	let error = $state('');
 	let activeDay = $state('MF');
 	let highlightedCol = $state<number | null>(null);
@@ -19,11 +20,15 @@
 	let searchQuery = $state('');
 
 	onMount(async () => {
+		if (initialData) {
+			if (initialData.days?.length) activeDay = initialData.days[0];
+			loading = false;
+			return;
+		}
+		if (!tableNum) { error = 'No table specified'; loading = false; return; }
 		try {
 			table = await loadTable(tableNum);
-			if (table?.days?.length) {
-				activeDay = table.days[0];
-			}
+			if (table?.days?.length) activeDay = table.days[0];
 		} catch (e) {
 			error = 'Failed to load timetable data';
 		}
