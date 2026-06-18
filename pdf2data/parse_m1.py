@@ -361,9 +361,13 @@ def parse_all_tts():
                         parts = tl.split()
                         if not parts:
                             continue
-                        if parts[0] in ('d', 'a'):
-                            direction = parts[0]
-                            parts = parts[1:]
+                        # Scan ALL parts for direction markers, not just parts[0]
+                        # This handles OCR noise like "ö d" where 'd' is the direction
+                        # but parts[0] is a garbage character
+                        dir_markers = [p for p in parts if p in ('d', 'a')]
+                        if dir_markers:
+                            direction = dir_markers[0]
+                            parts = [p for p in parts if p not in ('d', 'a')]
                         for p in parts:
                             m2 = re.match(r'^(\d{3,4})$', p)
                             if m2:
