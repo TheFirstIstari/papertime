@@ -1,0 +1,27 @@
+# PaperTime — mise toolchain config
+# https://mise.jdx.dev/
+
+[env]
+# Use the project Node.js for all mise tasks
+NODE_VERSION = "22"
+
+[tools]
+node = "22"
+
+[tasks.data]
+description = "Run the full data pipeline (Python pymupdf extraction + parsing)"
+run = "python3 pdf2data/parse_m1.py && python3 pdf2data/compute_marey.py"
+
+[tasks.build]
+description = "Build the SvelteKit static site"
+depends = ["data"]
+run = "npm run build"
+
+[tasks.deploy]
+description = "Commit data + push to GitHub (Render auto-deploys from main)"
+depends = ["build"]
+run = """
+git add static/services/ static/marey/ static/table-index.json static/stations.json
+git commit -m 'update timetable data'
+git push origin main
+"""
