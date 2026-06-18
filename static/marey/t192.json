@@ -1,0 +1,9629 @@
+{
+  "table": "192",
+  "route": "Route 192",
+  "route_id": "t192",
+  "stations": [
+    {
+      "name": "St Pancras International",
+      "crs": "STP",
+      "mileage": 0.0,
+      "type": "major"
+    },
+    {
+      "name": "Stratford International",
+      "crs": "SFA",
+      "mileage": 5.0,
+      "type": "interchange"
+    },
+    {
+      "name": "Ebbsfleet International",
+      "crs": "EBD",
+      "mileage": 10.0,
+      "type": "interchange"
+    },
+    {
+      "name": "Gravesend",
+      "crs": "GRV",
+      "mileage": 15.0,
+      "type": "major"
+    },
+    {
+      "name": "Gillingham",
+      "crs": "GLM",
+      "mileage": 20.0,
+      "type": "interchange"
+    },
+    {
+      "name": "Chatham",
+      "crs": "CTM",
+      "mileage": 25.0,
+      "type": "interchange"
+    },
+    {
+      "name": "Rochester",
+      "crs": "RTR",
+      "mileage": 30.0,
+      "type": "interchange"
+    },
+    {
+      "name": "Strood",
+      "crs": "SOO",
+      "mileage": 35.0,
+      "type": "interchange"
+    },
+    {
+      "name": "Cuxton",
+      "crs": "CUX",
+      "mileage": 40.0,
+      "type": "minor"
+    },
+    {
+      "name": "Halling",
+      "crs": "HAI",
+      "mileage": 45.0,
+      "type": "minor"
+    },
+    {
+      "name": "Snodland",
+      "crs": "SDA",
+      "mileage": 50.0,
+      "type": "minor"
+    },
+    {
+      "name": "New Hythe",
+      "crs": "NHE",
+      "mileage": 55.0,
+      "type": "minor"
+    },
+    {
+      "name": "Aylesford",
+      "crs": "AYL",
+      "mileage": 60.0,
+      "type": "minor"
+    },
+    {
+      "name": "Maidstone Barracks",
+      "crs": "MDB",
+      "mileage": 65.0,
+      "type": "minor"
+    },
+    {
+      "name": "Maidstone West",
+      "crs": "MDW",
+      "mileage": 70.0,
+      "type": "minor"
+    },
+    {
+      "name": "East Farleigh",
+      "crs": "EFL",
+      "mileage": 75.0,
+      "type": "minor"
+    },
+    {
+      "name": "Wateringbury",
+      "crs": "WTR",
+      "mileage": 80.0,
+      "type": "minor"
+    },
+    {
+      "name": "Yalding",
+      "crs": "YAL",
+      "mileage": 85.0,
+      "type": "minor"
+    },
+    {
+      "name": "Beltring",
+      "crs": "BEG",
+      "mileage": 90.0,
+      "type": "minor"
+    },
+    {
+      "name": "Paddock Wood",
+      "crs": "PDW",
+      "mileage": 95.0,
+      "type": "minor"
+    },
+    {
+      "name": "Tonbridge",
+      "crs": "TON",
+      "mileage": 100.0,
+      "type": "interchange"
+    }
+  ],
+  "services": [
+    {
+      "id": "MF_0",
+      "headcode": "",
+      "operator": "SE",
+      "days": [
+        "MF"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "GLM",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "CTM",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "RTR",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "SOO",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "CUX",
+          "arr": null,
+          "dep": 275
+        },
+        {
+          "station": "HAI",
+          "arr": null,
+          "dep": 278
+        },
+        {
+          "station": "SDA",
+          "arr": null,
+          "dep": 282
+        },
+        {
+          "station": "NHE",
+          "arr": null,
+          "dep": 285
+        },
+        {
+          "station": "AYL",
+          "arr": null,
+          "dep": 288
+        },
+        {
+          "station": "MDB",
+          "arr": null,
+          "dep": 293
+        },
+        {
+          "station": "MDW",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "MDW",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "EFL",
+          "arr": null,
+          "dep": 299
+        },
+        {
+          "station": "WTR",
+          "arr": null,
+          "dep": 305
+        },
+        {
+          "station": "YAL",
+          "arr": null,
+          "dep": 308
+        },
+        {
+          "station": "BEG",
+          "arr": null,
+          "dep": 311
+        },
+        {
+          "station": "PDW",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "PDW",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "TON",
+          "arr": null,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "MF_1",
+      "headcode": "",
+      "operator": "SE",
+      "days": [
+        "MF"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "GLM",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "CTM",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "RTR",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "SOO",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "CUX",
+          "arr": null,
+          "dep": 311
+        },
+        {
+          "station": "HAI",
+          "arr": null,
+          "dep": 314
+        },
+        {
+          "station": "SDA",
+          "arr": null,
+          "dep": 318
+        },
+        {
+          "station": "NHE",
+          "arr": null,
+          "dep": 321
+        },
+        {
+          "station": "AYL",
+          "arr": null,
+          "dep": 324
+        },
+        {
+          "station": "MDB",
+          "arr": null,
+          "dep": 329
+        },
+        {
+          "station": "MDW",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "MDW",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "EFL",
+          "arr": null,
+          "dep": 363
+        },
+        {
+          "station": "WTR",
+          "arr": null,
+          "dep": 368
+        },
+        {
+          "station": "YAL",
+          "arr": null,
+          "dep": 372
+        },
+        {
+          "station": "BEG",
+          "arr": null,
+          "dep": 375
+        },
+        {
+          "station": "PDW",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "PDW",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "TON",
+          "arr": null,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "MF_2",
+      "headcode": "",
+      "operator": "SE",
+      "days": [
+        "MF"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "GLM",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "CTM",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "RTR",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "SOO",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "CUX",
+          "arr": null,
+          "dep": 333
+        },
+        {
+          "station": "HAI",
+          "arr": null,
+          "dep": 336
+        },
+        {
+          "station": "SDA",
+          "arr": null,
+          "dep": 340
+        },
+        {
+          "station": "NHE",
+          "arr": null,
+          "dep": 343
+        },
+        {
+          "station": "AYL",
+          "arr": null,
+          "dep": 346
+        },
+        {
+          "station": "MDB",
+          "arr": null,
+          "dep": 351
+        },
+        {
+          "station": "MDW",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "MDW",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "EFL",
+          "arr": null,
+          "dep": 295
+        },
+        {
+          "station": "WTR",
+          "arr": null,
+          "dep": 301
+        },
+        {
+          "station": "YAL",
+          "arr": null,
+          "dep": 304
+        },
+        {
+          "station": "BEG",
+          "arr": null,
+          "dep": 307
+        },
+        {
+          "station": "PDW",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "PDW",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "TON",
+          "arr": null,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "MF_3",
+      "headcode": "",
+      "operator": "SE",
+      "days": [
+        "MF"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "GLM",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "CTM",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "RTR",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "SOO",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "CUX",
+          "arr": null,
+          "dep": 271
+        },
+        {
+          "station": "HAI",
+          "arr": null,
+          "dep": 274
+        },
+        {
+          "station": "SDA",
+          "arr": null,
+          "dep": 278
+        },
+        {
+          "station": "NHE",
+          "arr": null,
+          "dep": 281
+        },
+        {
+          "station": "AYL",
+          "arr": null,
+          "dep": 284
+        },
+        {
+          "station": "MDB",
+          "arr": null,
+          "dep": 289
+        },
+        {
+          "station": "MDW",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "MDW",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "EFL",
+          "arr": null,
+          "dep": 361
+        },
+        {
+          "station": "WTR",
+          "arr": null,
+          "dep": 367
+        },
+        {
+          "station": "YAL",
+          "arr": null,
+          "dep": 371
+        },
+        {
+          "station": "BEG",
+          "arr": null,
+          "dep": 375
+        },
+        {
+          "station": "PDW",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "PDW",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "TON",
+          "arr": null,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "MF_4",
+      "headcode": "",
+      "operator": "SE",
+      "days": [
+        "MF"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "SOO",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "CUX",
+          "arr": null,
+          "dep": 309
+        },
+        {
+          "station": "HAI",
+          "arr": null,
+          "dep": 313
+        },
+        {
+          "station": "SDA",
+          "arr": null,
+          "dep": 317
+        },
+        {
+          "station": "NHE",
+          "arr": null,
+          "dep": 320
+        },
+        {
+          "station": "AYL",
+          "arr": null,
+          "dep": 324
+        },
+        {
+          "station": "MDB",
+          "arr": null,
+          "dep": 329
+        },
+        {
+          "station": "MDW",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "MDW",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "EFL",
+          "arr": null,
+          "dep": 393
+        },
+        {
+          "station": "WTR",
+          "arr": null,
+          "dep": 399
+        },
+        {
+          "station": "YAL",
+          "arr": null,
+          "dep": 402
+        },
+        {
+          "station": "BEG",
+          "arr": null,
+          "dep": 405
+        },
+        {
+          "station": "PDW",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "PDW",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "TON",
+          "arr": null,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "MF_5",
+      "headcode": "",
+      "operator": "SE",
+      "days": [
+        "MF"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "SOO",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "CUX",
+          "arr": null,
+          "dep": 333
+        },
+        {
+          "station": "HAI",
+          "arr": null,
+          "dep": 337
+        },
+        {
+          "station": "SDA",
+          "arr": null,
+          "dep": 341
+        },
+        {
+          "station": "NHE",
+          "arr": null,
+          "dep": 344
+        },
+        {
+          "station": "AYL",
+          "arr": null,
+          "dep": 348
+        },
+        {
+          "station": "MDB",
+          "arr": null,
+          "dep": 353
+        },
+        {
+          "station": "MDW",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "PDW",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "TON",
+          "arr": null,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "MF_6",
+      "headcode": "",
+      "operator": "SE",
+      "days": [
+        "MF"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "SOO",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "CUX",
+          "arr": null,
+          "dep": 368
+        },
+        {
+          "station": "HAI",
+          "arr": null,
+          "dep": 371
+        },
+        {
+          "station": "SDA",
+          "arr": null,
+          "dep": 375
+        },
+        {
+          "station": "NHE",
+          "arr": null,
+          "dep": 378
+        },
+        {
+          "station": "AYL",
+          "arr": null,
+          "dep": 381
+        },
+        {
+          "station": "MDB",
+          "arr": null,
+          "dep": 386
+        },
+        {
+          "station": "MDW",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "PDW",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "TON",
+          "arr": null,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "MF_7",
+      "headcode": "",
+      "operator": "SE",
+      "days": [
+        "MF"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "PDW",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "TON",
+          "arr": null,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "MF_8",
+      "headcode": "",
+      "operator": "SE",
+      "days": [
+        "MF"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "PDW",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "TON",
+          "arr": null,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "MF_9",
+      "headcode": "",
+      "operator": "SE",
+      "days": [
+        "MF"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "PDW",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "TON",
+          "arr": null,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "MF_10",
+      "headcode": "",
+      "operator": "SE",
+      "days": [
+        "MF"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "PDW",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "TON",
+          "arr": null,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "MF_11",
+      "headcode": "",
+      "operator": "SE",
+      "days": [
+        "MF"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "SOO",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "CUX",
+          "arr": null,
+          "dep": 638
+        },
+        {
+          "station": "HAI",
+          "arr": null,
+          "dep": 641
+        },
+        {
+          "station": "SDA",
+          "arr": null,
+          "dep": 645
+        },
+        {
+          "station": "NHE",
+          "arr": null,
+          "dep": 648
+        },
+        {
+          "station": "AYL",
+          "arr": null,
+          "dep": 651
+        },
+        {
+          "station": "MDB",
+          "arr": null,
+          "dep": 656
+        },
+        {
+          "station": "MDW",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "MDW",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "EFL",
+          "arr": null,
+          "dep": 663
+        },
+        {
+          "station": "WTR",
+          "arr": null,
+          "dep": 669
+        },
+        {
+          "station": "YAL",
+          "arr": null,
+          "dep": 672
+        },
+        {
+          "station": "BEG",
+          "arr": null,
+          "dep": 675
+        },
+        {
+          "station": "PDW",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "PDW",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "TON",
+          "arr": null,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "MF_12",
+      "headcode": "",
+      "operator": "SE",
+      "days": [
+        "MF"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "SOO",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "CUX",
+          "arr": null,
+          "dep": 668
+        },
+        {
+          "station": "HAI",
+          "arr": null,
+          "dep": 671
+        },
+        {
+          "station": "SDA",
+          "arr": null,
+          "dep": 675
+        },
+        {
+          "station": "NHE",
+          "arr": null,
+          "dep": 678
+        },
+        {
+          "station": "AYL",
+          "arr": null,
+          "dep": 681
+        },
+        {
+          "station": "MDB",
+          "arr": null,
+          "dep": 686
+        },
+        {
+          "station": "MDW",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "MDW",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "EFL",
+          "arr": null,
+          "dep": 693
+        },
+        {
+          "station": "WTR",
+          "arr": null,
+          "dep": 699
+        },
+        {
+          "station": "YAL",
+          "arr": null,
+          "dep": 702
+        },
+        {
+          "station": "BEG",
+          "arr": null,
+          "dep": 705
+        },
+        {
+          "station": "PDW",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "PDW",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "TON",
+          "arr": null,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "MF_13",
+      "headcode": "",
+      "operator": "SE",
+      "days": [
+        "MF"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "SOO",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "CUX",
+          "arr": null,
+          "dep": 698
+        },
+        {
+          "station": "HAI",
+          "arr": null,
+          "dep": 701
+        },
+        {
+          "station": "SDA",
+          "arr": null,
+          "dep": 705
+        },
+        {
+          "station": "NHE",
+          "arr": null,
+          "dep": 708
+        },
+        {
+          "station": "AYL",
+          "arr": null,
+          "dep": 711
+        },
+        {
+          "station": "MDB",
+          "arr": null,
+          "dep": 716
+        },
+        {
+          "station": "MDW",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "MDW",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "EFL",
+          "arr": null,
+          "dep": 723
+        },
+        {
+          "station": "WTR",
+          "arr": null,
+          "dep": 729
+        },
+        {
+          "station": "YAL",
+          "arr": null,
+          "dep": 732
+        },
+        {
+          "station": "BEG",
+          "arr": null,
+          "dep": 735
+        },
+        {
+          "station": "PDW",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "PDW",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "TON",
+          "arr": null,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "MF_14",
+      "headcode": "",
+      "operator": "SE",
+      "days": [
+        "MF"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "SOO",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "CUX",
+          "arr": null,
+          "dep": 728
+        },
+        {
+          "station": "HAI",
+          "arr": null,
+          "dep": 731
+        },
+        {
+          "station": "SDA",
+          "arr": null,
+          "dep": 735
+        },
+        {
+          "station": "NHE",
+          "arr": null,
+          "dep": 738
+        },
+        {
+          "station": "AYL",
+          "arr": null,
+          "dep": 741
+        },
+        {
+          "station": "MDB",
+          "arr": null,
+          "dep": 746
+        },
+        {
+          "station": "MDW",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "MDW",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "EFL",
+          "arr": null,
+          "dep": 753
+        },
+        {
+          "station": "WTR",
+          "arr": null,
+          "dep": 759
+        },
+        {
+          "station": "YAL",
+          "arr": null,
+          "dep": 762
+        },
+        {
+          "station": "BEG",
+          "arr": null,
+          "dep": 765
+        },
+        {
+          "station": "PDW",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "PDW",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "TON",
+          "arr": null,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "MF_15",
+      "headcode": "",
+      "operator": "SE",
+      "days": [
+        "MF"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "SOO",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "CUX",
+          "arr": null,
+          "dep": 758
+        },
+        {
+          "station": "HAI",
+          "arr": null,
+          "dep": 761
+        },
+        {
+          "station": "SDA",
+          "arr": null,
+          "dep": 765
+        },
+        {
+          "station": "NHE",
+          "arr": null,
+          "dep": 768
+        },
+        {
+          "station": "AYL",
+          "arr": null,
+          "dep": 771
+        },
+        {
+          "station": "MDB",
+          "arr": null,
+          "dep": 776
+        },
+        {
+          "station": "MDW",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "MDW",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "EFL",
+          "arr": null,
+          "dep": 783
+        },
+        {
+          "station": "WTR",
+          "arr": null,
+          "dep": 789
+        },
+        {
+          "station": "YAL",
+          "arr": null,
+          "dep": 792
+        },
+        {
+          "station": "BEG",
+          "arr": null,
+          "dep": 795
+        },
+        {
+          "station": "PDW",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "PDW",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "TON",
+          "arr": null,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "MF_16",
+      "headcode": "",
+      "operator": "SE",
+      "days": [
+        "MF"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "SOO",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "CUX",
+          "arr": null,
+          "dep": 788
+        },
+        {
+          "station": "HAI",
+          "arr": null,
+          "dep": 791
+        },
+        {
+          "station": "SDA",
+          "arr": null,
+          "dep": 795
+        },
+        {
+          "station": "NHE",
+          "arr": null,
+          "dep": 798
+        },
+        {
+          "station": "AYL",
+          "arr": null,
+          "dep": 801
+        },
+        {
+          "station": "MDB",
+          "arr": null,
+          "dep": 806
+        },
+        {
+          "station": "MDW",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "MDW",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "EFL",
+          "arr": null,
+          "dep": 813
+        },
+        {
+          "station": "WTR",
+          "arr": null,
+          "dep": 819
+        },
+        {
+          "station": "YAL",
+          "arr": null,
+          "dep": 822
+        },
+        {
+          "station": "BEG",
+          "arr": null,
+          "dep": 825
+        },
+        {
+          "station": "PDW",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "PDW",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "TON",
+          "arr": null,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "MF_17",
+      "headcode": "",
+      "operator": "SE",
+      "days": [
+        "MF"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "SOO",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "CUX",
+          "arr": null,
+          "dep": 818
+        },
+        {
+          "station": "HAI",
+          "arr": null,
+          "dep": 821
+        },
+        {
+          "station": "SDA",
+          "arr": null,
+          "dep": 825
+        },
+        {
+          "station": "NHE",
+          "arr": null,
+          "dep": 828
+        },
+        {
+          "station": "AYL",
+          "arr": null,
+          "dep": 831
+        },
+        {
+          "station": "MDB",
+          "arr": null,
+          "dep": 836
+        },
+        {
+          "station": "MDW",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "MDW",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "EFL",
+          "arr": null,
+          "dep": 843
+        },
+        {
+          "station": "WTR",
+          "arr": null,
+          "dep": 849
+        },
+        {
+          "station": "YAL",
+          "arr": null,
+          "dep": 852
+        },
+        {
+          "station": "BEG",
+          "arr": null,
+          "dep": 855
+        },
+        {
+          "station": "PDW",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "PDW",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "TON",
+          "arr": null,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "MF_18",
+      "headcode": "",
+      "operator": "SE",
+      "days": [
+        "MF"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "SOO",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "CUX",
+          "arr": null,
+          "dep": 848
+        },
+        {
+          "station": "HAI",
+          "arr": null,
+          "dep": 851
+        },
+        {
+          "station": "SDA",
+          "arr": null,
+          "dep": 855
+        },
+        {
+          "station": "NHE",
+          "arr": null,
+          "dep": 858
+        },
+        {
+          "station": "AYL",
+          "arr": null,
+          "dep": 861
+        },
+        {
+          "station": "MDB",
+          "arr": null,
+          "dep": 866
+        },
+        {
+          "station": "MDW",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "MDW",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "EFL",
+          "arr": null,
+          "dep": 873
+        },
+        {
+          "station": "WTR",
+          "arr": null,
+          "dep": 879
+        },
+        {
+          "station": "YAL",
+          "arr": null,
+          "dep": 882
+        },
+        {
+          "station": "BEG",
+          "arr": null,
+          "dep": 885
+        },
+        {
+          "station": "PDW",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "PDW",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "TON",
+          "arr": null,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "MF_19",
+      "headcode": "",
+      "operator": "SE",
+      "days": [
+        "MF"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "SOO",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "CUX",
+          "arr": null,
+          "dep": 850
+        },
+        {
+          "station": "HAI",
+          "arr": null,
+          "dep": 853
+        },
+        {
+          "station": "SDA",
+          "arr": null,
+          "dep": 857
+        },
+        {
+          "station": "NHE",
+          "arr": null,
+          "dep": 860
+        },
+        {
+          "station": "AYL",
+          "arr": null,
+          "dep": 863
+        },
+        {
+          "station": "MDB",
+          "arr": null,
+          "dep": 868
+        },
+        {
+          "station": "MDW",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "MDW",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "EFL",
+          "arr": null,
+          "dep": 874
+        },
+        {
+          "station": "WTR",
+          "arr": null,
+          "dep": 880
+        },
+        {
+          "station": "YAL",
+          "arr": null,
+          "dep": 883
+        },
+        {
+          "station": "BEG",
+          "arr": null,
+          "dep": 886
+        },
+        {
+          "station": "PDW",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "PDW",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "TON",
+          "arr": null,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "MF_20",
+      "headcode": "",
+      "operator": "SE",
+      "days": [
+        "MF"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "STP",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "SFA",
+          "arr": null,
+          "dep": 1104
+        },
+        {
+          "station": "EBD",
+          "arr": null,
+          "dep": 1116
+        },
+        {
+          "station": "GRV",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "SOO",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "CUX",
+          "arr": null,
+          "dep": 1150
+        },
+        {
+          "station": "HAI",
+          "arr": null,
+          "dep": 1153
+        },
+        {
+          "station": "SDA",
+          "arr": null,
+          "dep": 1140
+        },
+        {
+          "station": "NHE",
+          "arr": null,
+          "dep": 1160
+        },
+        {
+          "station": "AYL",
+          "arr": null,
+          "dep": 1162
+        },
+        {
+          "station": "MDB",
+          "arr": null,
+          "dep": 1168
+        },
+        {
+          "station": "MDW",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "MDW",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "EFL",
+          "arr": null,
+          "dep": 1174
+        },
+        {
+          "station": "WTR",
+          "arr": null,
+          "dep": 1179
+        },
+        {
+          "station": "YAL",
+          "arr": null,
+          "dep": 1183
+        },
+        {
+          "station": "BEG",
+          "arr": null,
+          "dep": 1186
+        },
+        {
+          "station": "PDW",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "PDW",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "TON",
+          "arr": null,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "MF_21",
+      "headcode": "",
+      "operator": "SE",
+      "days": [
+        "MF"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "SOO",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "CUX",
+          "arr": null,
+          "dep": 1180
+        },
+        {
+          "station": "HAI",
+          "arr": null,
+          "dep": 1183
+        },
+        {
+          "station": "SDA",
+          "arr": null,
+          "dep": 1157
+        },
+        {
+          "station": "NHE",
+          "arr": null,
+          "dep": 1190
+        },
+        {
+          "station": "AYL",
+          "arr": null,
+          "dep": 1192
+        },
+        {
+          "station": "MDB",
+          "arr": null,
+          "dep": 1198
+        },
+        {
+          "station": "MDW",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "MDW",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "EFL",
+          "arr": null,
+          "dep": 1204
+        },
+        {
+          "station": "WTR",
+          "arr": null,
+          "dep": 1209
+        },
+        {
+          "station": "YAL",
+          "arr": null,
+          "dep": 1213
+        },
+        {
+          "station": "BEG",
+          "arr": null,
+          "dep": 1216
+        },
+        {
+          "station": "PDW",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "PDW",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "TON",
+          "arr": null,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "MF_22",
+      "headcode": "",
+      "operator": "SE",
+      "days": [
+        "MF"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "SOO",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "CUX",
+          "arr": null,
+          "dep": 1208
+        },
+        {
+          "station": "HAI",
+          "arr": null,
+          "dep": 1211
+        },
+        {
+          "station": "SDA",
+          "arr": null,
+          "dep": 1187
+        },
+        {
+          "station": "NHE",
+          "arr": null,
+          "dep": 1218
+        },
+        {
+          "station": "AYL",
+          "arr": null,
+          "dep": 1221
+        },
+        {
+          "station": "MDB",
+          "arr": null,
+          "dep": 1226
+        },
+        {
+          "station": "MDW",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "MDW",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "EFL",
+          "arr": null,
+          "dep": 1233
+        },
+        {
+          "station": "WTR",
+          "arr": null,
+          "dep": 1239
+        },
+        {
+          "station": "YAL",
+          "arr": null,
+          "dep": 1242
+        },
+        {
+          "station": "BEG",
+          "arr": null,
+          "dep": 1245
+        },
+        {
+          "station": "PDW",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "PDW",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "TON",
+          "arr": null,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "MF_23",
+      "headcode": "",
+      "operator": "SE",
+      "days": [
+        "MF"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "SOO",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "CUX",
+          "arr": null,
+          "dep": 1238
+        },
+        {
+          "station": "HAI",
+          "arr": null,
+          "dep": 1241
+        },
+        {
+          "station": "SDA",
+          "arr": null,
+          "dep": 1215
+        },
+        {
+          "station": "NHE",
+          "arr": null,
+          "dep": 1248
+        },
+        {
+          "station": "AYL",
+          "arr": null,
+          "dep": 1251
+        },
+        {
+          "station": "MDB",
+          "arr": null,
+          "dep": 1256
+        },
+        {
+          "station": "MDW",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "MDW",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "EFL",
+          "arr": null,
+          "dep": 1263
+        },
+        {
+          "station": "WTR",
+          "arr": null,
+          "dep": 1269
+        },
+        {
+          "station": "YAL",
+          "arr": null,
+          "dep": 1272
+        },
+        {
+          "station": "BEG",
+          "arr": null,
+          "dep": 1275
+        },
+        {
+          "station": "PDW",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "PDW",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "TON",
+          "arr": null,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "MF_24",
+      "headcode": "",
+      "operator": "SE",
+      "days": [
+        "MF"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "SOO",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "CUX",
+          "arr": null,
+          "dep": 1268
+        },
+        {
+          "station": "HAI",
+          "arr": null,
+          "dep": 1271
+        },
+        {
+          "station": "SDA",
+          "arr": null,
+          "dep": 1245
+        },
+        {
+          "station": "NHE",
+          "arr": null,
+          "dep": 1278
+        },
+        {
+          "station": "AYL",
+          "arr": null,
+          "dep": 1281
+        },
+        {
+          "station": "MDB",
+          "arr": null,
+          "dep": 1286
+        },
+        {
+          "station": "MDW",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "MDW",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "EFL",
+          "arr": null,
+          "dep": 1293
+        },
+        {
+          "station": "WTR",
+          "arr": null,
+          "dep": 1299
+        },
+        {
+          "station": "YAL",
+          "arr": null,
+          "dep": 1302
+        },
+        {
+          "station": "BEG",
+          "arr": null,
+          "dep": 1305
+        },
+        {
+          "station": "PDW",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "PDW",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "TON",
+          "arr": null,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "MF_25",
+      "headcode": "",
+      "operator": "SE",
+      "days": [
+        "MF"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "SOO",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "CUX",
+          "arr": null,
+          "dep": 1298
+        },
+        {
+          "station": "HAI",
+          "arr": null,
+          "dep": 1301
+        },
+        {
+          "station": "SDA",
+          "arr": null,
+          "dep": 1275
+        },
+        {
+          "station": "NHE",
+          "arr": null,
+          "dep": 1308
+        },
+        {
+          "station": "AYL",
+          "arr": null,
+          "dep": 1310
+        },
+        {
+          "station": "MDB",
+          "arr": null,
+          "dep": 1316
+        },
+        {
+          "station": "MDW",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "MDW",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "EFL",
+          "arr": null,
+          "dep": 1322
+        },
+        {
+          "station": "WTR",
+          "arr": null,
+          "dep": 1327
+        },
+        {
+          "station": "YAL",
+          "arr": null,
+          "dep": 1331
+        },
+        {
+          "station": "BEG",
+          "arr": null,
+          "dep": 1334
+        },
+        {
+          "station": "PDW",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "PDW",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "TON",
+          "arr": null,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "MF_26",
+      "headcode": "",
+      "operator": "SE",
+      "days": [
+        "MF"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "SOO",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "CUX",
+          "arr": null,
+          "dep": 1328
+        },
+        {
+          "station": "HAI",
+          "arr": null,
+          "dep": 1331
+        },
+        {
+          "station": "SDA",
+          "arr": null,
+          "dep": 1305
+        },
+        {
+          "station": "NHE",
+          "arr": null,
+          "dep": 1338
+        },
+        {
+          "station": "AYL",
+          "arr": null,
+          "dep": 1341
+        },
+        {
+          "station": "MDB",
+          "arr": null,
+          "dep": 1346
+        },
+        {
+          "station": "MDW",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "MDW",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "EFL",
+          "arr": null,
+          "dep": 1382
+        },
+        {
+          "station": "WTR",
+          "arr": null,
+          "dep": 1387
+        },
+        {
+          "station": "YAL",
+          "arr": null,
+          "dep": 1391
+        },
+        {
+          "station": "BEG",
+          "arr": null,
+          "dep": 1394
+        },
+        {
+          "station": "PDW",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "PDW",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "TON",
+          "arr": null,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "MF_27",
+      "headcode": "",
+      "operator": "SE",
+      "days": [
+        "MF"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "SOO",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "CUX",
+          "arr": null,
+          "dep": 1358
+        },
+        {
+          "station": "HAI",
+          "arr": null,
+          "dep": 1361
+        },
+        {
+          "station": "SDA",
+          "arr": null,
+          "dep": 1335
+        },
+        {
+          "station": "NHE",
+          "arr": null,
+          "dep": 1368
+        },
+        {
+          "station": "AYL",
+          "arr": null,
+          "dep": 1370
+        },
+        {
+          "station": "MDB",
+          "arr": null,
+          "dep": 1376
+        },
+        {
+          "station": "MDW",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "PDW",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "TON",
+          "arr": null,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "MF_28",
+      "headcode": "",
+      "operator": "SE",
+      "days": [
+        "MF"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "SOO",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "SDA",
+          "arr": null,
+          "dep": 1365
+        },
+        {
+          "station": "MDW",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "PDW",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "TON",
+          "arr": null,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "MF_29",
+      "headcode": "",
+      "operator": "SE",
+      "days": [
+        "MF"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "PDW",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "TON",
+          "arr": null,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "MF_30",
+      "headcode": "",
+      "operator": "SE",
+      "days": [
+        "MF"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "PDW",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "TON",
+          "arr": null,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "SAT_31",
+      "headcode": "",
+      "operator": "SE",
+      "days": [
+        "SAT"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "SOO",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "CUX",
+          "arr": null,
+          "dep": 369
+        },
+        {
+          "station": "HAI",
+          "arr": null,
+          "dep": 372
+        },
+        {
+          "station": "SDA",
+          "arr": null,
+          "dep": 376
+        },
+        {
+          "station": "NHE",
+          "arr": null,
+          "dep": 379
+        },
+        {
+          "station": "AYL",
+          "arr": null,
+          "dep": 382
+        },
+        {
+          "station": "MDB",
+          "arr": null,
+          "dep": 387
+        },
+        {
+          "station": "MDW",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "MDW",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "EFL",
+          "arr": null,
+          "dep": 393
+        },
+        {
+          "station": "WTR",
+          "arr": null,
+          "dep": 399
+        },
+        {
+          "station": "YAL",
+          "arr": null,
+          "dep": 402
+        },
+        {
+          "station": "BEG",
+          "arr": null,
+          "dep": 405
+        },
+        {
+          "station": "PDW",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "PDW",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "TON",
+          "arr": null,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "SAT_32",
+      "headcode": "",
+      "operator": "SE",
+      "days": [
+        "SAT"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "SOO",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "CUX",
+          "arr": null,
+          "dep": 398
+        },
+        {
+          "station": "HAI",
+          "arr": null,
+          "dep": 401
+        },
+        {
+          "station": "SDA",
+          "arr": null,
+          "dep": 405
+        },
+        {
+          "station": "NHE",
+          "arr": null,
+          "dep": 408
+        },
+        {
+          "station": "AYL",
+          "arr": null,
+          "dep": 411
+        },
+        {
+          "station": "MDB",
+          "arr": null,
+          "dep": 416
+        },
+        {
+          "station": "MDW",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "MDW",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "EFL",
+          "arr": null,
+          "dep": 423
+        },
+        {
+          "station": "WTR",
+          "arr": null,
+          "dep": 429
+        },
+        {
+          "station": "YAL",
+          "arr": null,
+          "dep": 432
+        },
+        {
+          "station": "BEG",
+          "arr": null,
+          "dep": 435
+        },
+        {
+          "station": "PDW",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "PDW",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "TON",
+          "arr": null,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "SAT_33",
+      "headcode": "",
+      "operator": "SE",
+      "days": [
+        "SAT"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "SOO",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "CUX",
+          "arr": null,
+          "dep": 428
+        },
+        {
+          "station": "HAI",
+          "arr": null,
+          "dep": 431
+        },
+        {
+          "station": "SDA",
+          "arr": null,
+          "dep": 435
+        },
+        {
+          "station": "NHE",
+          "arr": null,
+          "dep": 438
+        },
+        {
+          "station": "AYL",
+          "arr": null,
+          "dep": 441
+        },
+        {
+          "station": "MDB",
+          "arr": null,
+          "dep": 446
+        },
+        {
+          "station": "MDW",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "MDW",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "EFL",
+          "arr": null,
+          "dep": 453
+        },
+        {
+          "station": "WTR",
+          "arr": null,
+          "dep": 459
+        },
+        {
+          "station": "YAL",
+          "arr": null,
+          "dep": 462
+        },
+        {
+          "station": "BEG",
+          "arr": null,
+          "dep": 465
+        },
+        {
+          "station": "PDW",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "PDW",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "TON",
+          "arr": null,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "SAT_34",
+      "headcode": "",
+      "operator": "SE",
+      "days": [
+        "SAT"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "SOO",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "CUX",
+          "arr": null,
+          "dep": 458
+        },
+        {
+          "station": "HAI",
+          "arr": null,
+          "dep": 461
+        },
+        {
+          "station": "SDA",
+          "arr": null,
+          "dep": 465
+        },
+        {
+          "station": "NHE",
+          "arr": null,
+          "dep": 468
+        },
+        {
+          "station": "AYL",
+          "arr": null,
+          "dep": 471
+        },
+        {
+          "station": "MDB",
+          "arr": null,
+          "dep": 476
+        },
+        {
+          "station": "MDW",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "MDW",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "EFL",
+          "arr": null,
+          "dep": 483
+        },
+        {
+          "station": "WTR",
+          "arr": null,
+          "dep": 489
+        },
+        {
+          "station": "YAL",
+          "arr": null,
+          "dep": 492
+        },
+        {
+          "station": "BEG",
+          "arr": null,
+          "dep": 495
+        },
+        {
+          "station": "PDW",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "PDW",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "TON",
+          "arr": null,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "SAT_35",
+      "headcode": "",
+      "operator": "SE",
+      "days": [
+        "SAT"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "SOO",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "CUX",
+          "arr": null,
+          "dep": 488
+        },
+        {
+          "station": "HAI",
+          "arr": null,
+          "dep": 491
+        },
+        {
+          "station": "SDA",
+          "arr": null,
+          "dep": 495
+        },
+        {
+          "station": "NHE",
+          "arr": null,
+          "dep": 498
+        },
+        {
+          "station": "AYL",
+          "arr": null,
+          "dep": 501
+        },
+        {
+          "station": "MDB",
+          "arr": null,
+          "dep": 506
+        },
+        {
+          "station": "MDW",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "MDW",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "EFL",
+          "arr": null,
+          "dep": 513
+        },
+        {
+          "station": "WTR",
+          "arr": null,
+          "dep": 519
+        },
+        {
+          "station": "YAL",
+          "arr": null,
+          "dep": 522
+        },
+        {
+          "station": "BEG",
+          "arr": null,
+          "dep": 525
+        },
+        {
+          "station": "PDW",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "PDW",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "TON",
+          "arr": null,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "SAT_36",
+      "headcode": "",
+      "operator": "SE",
+      "days": [
+        "SAT"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "SOO",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "CUX",
+          "arr": null,
+          "dep": 518
+        },
+        {
+          "station": "HAI",
+          "arr": null,
+          "dep": 521
+        },
+        {
+          "station": "SDA",
+          "arr": null,
+          "dep": 525
+        },
+        {
+          "station": "NHE",
+          "arr": null,
+          "dep": 528
+        },
+        {
+          "station": "AYL",
+          "arr": null,
+          "dep": 531
+        },
+        {
+          "station": "MDB",
+          "arr": null,
+          "dep": 536
+        },
+        {
+          "station": "MDW",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "MDW",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "EFL",
+          "arr": null,
+          "dep": 543
+        },
+        {
+          "station": "WTR",
+          "arr": null,
+          "dep": 549
+        },
+        {
+          "station": "YAL",
+          "arr": null,
+          "dep": 552
+        },
+        {
+          "station": "BEG",
+          "arr": null,
+          "dep": 555
+        },
+        {
+          "station": "PDW",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "PDW",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "TON",
+          "arr": null,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "SAT_37",
+      "headcode": "",
+      "operator": "SE",
+      "days": [
+        "SAT"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "SOO",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "CUX",
+          "arr": null,
+          "dep": 548
+        },
+        {
+          "station": "HAI",
+          "arr": null,
+          "dep": 551
+        },
+        {
+          "station": "SDA",
+          "arr": null,
+          "dep": 555
+        },
+        {
+          "station": "NHE",
+          "arr": null,
+          "dep": 558
+        },
+        {
+          "station": "AYL",
+          "arr": null,
+          "dep": 561
+        },
+        {
+          "station": "MDB",
+          "arr": null,
+          "dep": 566
+        },
+        {
+          "station": "MDW",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "MDW",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "EFL",
+          "arr": null,
+          "dep": 573
+        },
+        {
+          "station": "WTR",
+          "arr": null,
+          "dep": 579
+        },
+        {
+          "station": "YAL",
+          "arr": null,
+          "dep": 582
+        },
+        {
+          "station": "BEG",
+          "arr": null,
+          "dep": 585
+        },
+        {
+          "station": "PDW",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "PDW",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "TON",
+          "arr": null,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "SAT_38",
+      "headcode": "",
+      "operator": "SE",
+      "days": [
+        "SAT"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "SOO",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "CUX",
+          "arr": null,
+          "dep": 578
+        },
+        {
+          "station": "HAI",
+          "arr": null,
+          "dep": 581
+        },
+        {
+          "station": "SDA",
+          "arr": null,
+          "dep": 585
+        },
+        {
+          "station": "NHE",
+          "arr": null,
+          "dep": 588
+        },
+        {
+          "station": "AYL",
+          "arr": null,
+          "dep": 591
+        },
+        {
+          "station": "MDB",
+          "arr": null,
+          "dep": 596
+        },
+        {
+          "station": "MDW",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "MDW",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "EFL",
+          "arr": null,
+          "dep": 603
+        },
+        {
+          "station": "WTR",
+          "arr": null,
+          "dep": 609
+        },
+        {
+          "station": "YAL",
+          "arr": null,
+          "dep": 612
+        },
+        {
+          "station": "BEG",
+          "arr": null,
+          "dep": 615
+        },
+        {
+          "station": "PDW",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "PDW",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "TON",
+          "arr": null,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "SAT_39",
+      "headcode": "",
+      "operator": "SE",
+      "days": [
+        "SAT"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "PDW",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "TON",
+          "arr": null,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "SAT_40",
+      "headcode": "",
+      "operator": "SE",
+      "days": [
+        "SAT"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "PDW",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "TON",
+          "arr": null,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "SAT_41",
+      "headcode": "",
+      "operator": "SE",
+      "days": [
+        "SAT"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "SOO",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "CUX",
+          "arr": null,
+          "dep": 878
+        },
+        {
+          "station": "HAI",
+          "arr": null,
+          "dep": 881
+        },
+        {
+          "station": "SDA",
+          "arr": null,
+          "dep": 885
+        },
+        {
+          "station": "NHE",
+          "arr": null,
+          "dep": 888
+        },
+        {
+          "station": "AYL",
+          "arr": null,
+          "dep": 891
+        },
+        {
+          "station": "MDB",
+          "arr": null,
+          "dep": 896
+        },
+        {
+          "station": "MDW",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "MDW",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "EFL",
+          "arr": null,
+          "dep": 903
+        },
+        {
+          "station": "WTR",
+          "arr": null,
+          "dep": 909
+        },
+        {
+          "station": "YAL",
+          "arr": null,
+          "dep": 912
+        },
+        {
+          "station": "BEG",
+          "arr": null,
+          "dep": 915
+        },
+        {
+          "station": "PDW",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "PDW",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "TON",
+          "arr": null,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "SAT_42",
+      "headcode": "",
+      "operator": "SE",
+      "days": [
+        "SAT"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "SOO",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "CUX",
+          "arr": null,
+          "dep": 908
+        },
+        {
+          "station": "HAI",
+          "arr": null,
+          "dep": 911
+        },
+        {
+          "station": "SDA",
+          "arr": null,
+          "dep": 915
+        },
+        {
+          "station": "NHE",
+          "arr": null,
+          "dep": 918
+        },
+        {
+          "station": "AYL",
+          "arr": null,
+          "dep": 921
+        },
+        {
+          "station": "MDB",
+          "arr": null,
+          "dep": 926
+        },
+        {
+          "station": "MDW",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "MDW",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "EFL",
+          "arr": null,
+          "dep": 933
+        },
+        {
+          "station": "WTR",
+          "arr": null,
+          "dep": 939
+        },
+        {
+          "station": "YAL",
+          "arr": null,
+          "dep": 942
+        },
+        {
+          "station": "BEG",
+          "arr": null,
+          "dep": 945
+        },
+        {
+          "station": "PDW",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "PDW",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "TON",
+          "arr": null,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "SAT_43",
+      "headcode": "",
+      "operator": "SE",
+      "days": [
+        "SAT"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "SOO",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "CUX",
+          "arr": null,
+          "dep": 938
+        },
+        {
+          "station": "HAI",
+          "arr": null,
+          "dep": 941
+        },
+        {
+          "station": "SDA",
+          "arr": null,
+          "dep": 945
+        },
+        {
+          "station": "NHE",
+          "arr": null,
+          "dep": 948
+        },
+        {
+          "station": "AYL",
+          "arr": null,
+          "dep": 951
+        },
+        {
+          "station": "MDB",
+          "arr": null,
+          "dep": 956
+        },
+        {
+          "station": "MDW",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "MDW",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "EFL",
+          "arr": null,
+          "dep": 963
+        },
+        {
+          "station": "WTR",
+          "arr": null,
+          "dep": 969
+        },
+        {
+          "station": "YAL",
+          "arr": null,
+          "dep": 972
+        },
+        {
+          "station": "BEG",
+          "arr": null,
+          "dep": 975
+        },
+        {
+          "station": "PDW",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "PDW",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "TON",
+          "arr": null,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "SAT_44",
+      "headcode": "",
+      "operator": "SE",
+      "days": [
+        "SAT"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "SOO",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "CUX",
+          "arr": null,
+          "dep": 968
+        },
+        {
+          "station": "HAI",
+          "arr": null,
+          "dep": 971
+        },
+        {
+          "station": "SDA",
+          "arr": null,
+          "dep": 975
+        },
+        {
+          "station": "NHE",
+          "arr": null,
+          "dep": 978
+        },
+        {
+          "station": "AYL",
+          "arr": null,
+          "dep": 981
+        },
+        {
+          "station": "MDB",
+          "arr": null,
+          "dep": 986
+        },
+        {
+          "station": "MDW",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "MDW",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "EFL",
+          "arr": null,
+          "dep": 993
+        },
+        {
+          "station": "WTR",
+          "arr": null,
+          "dep": 999
+        },
+        {
+          "station": "YAL",
+          "arr": null,
+          "dep": 1002
+        },
+        {
+          "station": "BEG",
+          "arr": null,
+          "dep": 1005
+        },
+        {
+          "station": "PDW",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "PDW",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "TON",
+          "arr": null,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "SAT_45",
+      "headcode": "",
+      "operator": "SE",
+      "days": [
+        "SAT"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "SOO",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "CUX",
+          "arr": null,
+          "dep": 998
+        },
+        {
+          "station": "HAI",
+          "arr": null,
+          "dep": 1001
+        },
+        {
+          "station": "SDA",
+          "arr": null,
+          "dep": 1005
+        },
+        {
+          "station": "NHE",
+          "arr": null,
+          "dep": 1008
+        },
+        {
+          "station": "AYL",
+          "arr": null,
+          "dep": 1011
+        },
+        {
+          "station": "MDB",
+          "arr": null,
+          "dep": 1016
+        },
+        {
+          "station": "MDW",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "MDW",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "EFL",
+          "arr": null,
+          "dep": 1023
+        },
+        {
+          "station": "WTR",
+          "arr": null,
+          "dep": 1029
+        },
+        {
+          "station": "YAL",
+          "arr": null,
+          "dep": 1032
+        },
+        {
+          "station": "BEG",
+          "arr": null,
+          "dep": 1035
+        },
+        {
+          "station": "PDW",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "PDW",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "TON",
+          "arr": null,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "SAT_46",
+      "headcode": "",
+      "operator": "SE",
+      "days": [
+        "SAT"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "SOO",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "CUX",
+          "arr": null,
+          "dep": 1028
+        },
+        {
+          "station": "HAI",
+          "arr": null,
+          "dep": 1031
+        },
+        {
+          "station": "SDA",
+          "arr": null,
+          "dep": 1035
+        },
+        {
+          "station": "NHE",
+          "arr": null,
+          "dep": 1038
+        },
+        {
+          "station": "AYL",
+          "arr": null,
+          "dep": 1041
+        },
+        {
+          "station": "MDB",
+          "arr": null,
+          "dep": 1046
+        },
+        {
+          "station": "MDW",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "MDW",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "EFL",
+          "arr": null,
+          "dep": 1053
+        },
+        {
+          "station": "WTR",
+          "arr": null,
+          "dep": 1059
+        },
+        {
+          "station": "YAL",
+          "arr": null,
+          "dep": 1062
+        },
+        {
+          "station": "BEG",
+          "arr": null,
+          "dep": 1065
+        },
+        {
+          "station": "PDW",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "PDW",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "TON",
+          "arr": null,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "SAT_47",
+      "headcode": "",
+      "operator": "SE",
+      "days": [
+        "SAT"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "SOO",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "CUX",
+          "arr": null,
+          "dep": 1058
+        },
+        {
+          "station": "HAI",
+          "arr": null,
+          "dep": 1061
+        },
+        {
+          "station": "SDA",
+          "arr": null,
+          "dep": 1065
+        },
+        {
+          "station": "NHE",
+          "arr": null,
+          "dep": 1068
+        },
+        {
+          "station": "AYL",
+          "arr": null,
+          "dep": 1071
+        },
+        {
+          "station": "MDB",
+          "arr": null,
+          "dep": 1076
+        },
+        {
+          "station": "MDW",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "MDW",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "EFL",
+          "arr": null,
+          "dep": 1083
+        },
+        {
+          "station": "WTR",
+          "arr": null,
+          "dep": 1089
+        },
+        {
+          "station": "YAL",
+          "arr": null,
+          "dep": 1092
+        },
+        {
+          "station": "BEG",
+          "arr": null,
+          "dep": 1095
+        },
+        {
+          "station": "PDW",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "PDW",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "TON",
+          "arr": null,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "SAT_48",
+      "headcode": "",
+      "operator": "SE",
+      "days": [
+        "SAT"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "SOO",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "CUX",
+          "arr": null,
+          "dep": 1088
+        },
+        {
+          "station": "HAI",
+          "arr": null,
+          "dep": 1091
+        },
+        {
+          "station": "SDA",
+          "arr": null,
+          "dep": 1095
+        },
+        {
+          "station": "NHE",
+          "arr": null,
+          "dep": 1098
+        },
+        {
+          "station": "AYL",
+          "arr": null,
+          "dep": 1101
+        },
+        {
+          "station": "MDB",
+          "arr": null,
+          "dep": 1106
+        },
+        {
+          "station": "MDW",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "MDW",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "EFL",
+          "arr": null,
+          "dep": 1113
+        },
+        {
+          "station": "WTR",
+          "arr": null,
+          "dep": 1119
+        },
+        {
+          "station": "YAL",
+          "arr": null,
+          "dep": 1122
+        },
+        {
+          "station": "BEG",
+          "arr": null,
+          "dep": 1125
+        },
+        {
+          "station": "PDW",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "PDW",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "TON",
+          "arr": null,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "SAT_49",
+      "headcode": "",
+      "operator": "SE",
+      "days": [
+        "SAT"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "SOO",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "CUX",
+          "arr": null,
+          "dep": 1118
+        },
+        {
+          "station": "HAI",
+          "arr": null,
+          "dep": 1121
+        },
+        {
+          "station": "SDA",
+          "arr": null,
+          "dep": 1125
+        },
+        {
+          "station": "NHE",
+          "arr": null,
+          "dep": 1128
+        },
+        {
+          "station": "AYL",
+          "arr": null,
+          "dep": 1131
+        },
+        {
+          "station": "MDB",
+          "arr": null,
+          "dep": 1136
+        },
+        {
+          "station": "MDW",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "MDW",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "EFL",
+          "arr": null,
+          "dep": 1143
+        },
+        {
+          "station": "WTR",
+          "arr": null,
+          "dep": 1149
+        },
+        {
+          "station": "YAL",
+          "arr": null,
+          "dep": 1152
+        },
+        {
+          "station": "BEG",
+          "arr": null,
+          "dep": 1155
+        },
+        {
+          "station": "PDW",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "PDW",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "TON",
+          "arr": null,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "SUN_50",
+      "headcode": "",
+      "operator": "SE",
+      "days": [
+        "SUN"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "SOO",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "CUX",
+          "arr": null,
+          "dep": 398
+        },
+        {
+          "station": "HAI",
+          "arr": null,
+          "dep": 401
+        },
+        {
+          "station": "SDA",
+          "arr": null,
+          "dep": 405
+        },
+        {
+          "station": "NHE",
+          "arr": null,
+          "dep": 408
+        },
+        {
+          "station": "AYL",
+          "arr": null,
+          "dep": 411
+        },
+        {
+          "station": "MDB",
+          "arr": null,
+          "dep": 416
+        },
+        {
+          "station": "MDW",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "MDW",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "EFL",
+          "arr": null,
+          "dep": 423
+        },
+        {
+          "station": "WTR",
+          "arr": null,
+          "dep": 429
+        },
+        {
+          "station": "YAL",
+          "arr": null,
+          "dep": 432
+        },
+        {
+          "station": "BEG",
+          "arr": null,
+          "dep": 435
+        },
+        {
+          "station": "PDW",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "PDW",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "TON",
+          "arr": null,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "SUN_51",
+      "headcode": "",
+      "operator": "SE",
+      "days": [
+        "SUN"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "SOO",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "CUX",
+          "arr": null,
+          "dep": 458
+        },
+        {
+          "station": "HAI",
+          "arr": null,
+          "dep": 461
+        },
+        {
+          "station": "SDA",
+          "arr": null,
+          "dep": 465
+        },
+        {
+          "station": "NHE",
+          "arr": null,
+          "dep": 468
+        },
+        {
+          "station": "AYL",
+          "arr": null,
+          "dep": 471
+        },
+        {
+          "station": "MDB",
+          "arr": null,
+          "dep": 476
+        },
+        {
+          "station": "MDW",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "MDW",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "EFL",
+          "arr": null,
+          "dep": 483
+        },
+        {
+          "station": "WTR",
+          "arr": null,
+          "dep": 489
+        },
+        {
+          "station": "YAL",
+          "arr": null,
+          "dep": 492
+        },
+        {
+          "station": "BEG",
+          "arr": null,
+          "dep": 495
+        },
+        {
+          "station": "PDW",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "PDW",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "TON",
+          "arr": null,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "SUN_52",
+      "headcode": "",
+      "operator": "SE",
+      "days": [
+        "SUN"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "SOO",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "CUX",
+          "arr": null,
+          "dep": 518
+        },
+        {
+          "station": "HAI",
+          "arr": null,
+          "dep": 521
+        },
+        {
+          "station": "SDA",
+          "arr": null,
+          "dep": 525
+        },
+        {
+          "station": "NHE",
+          "arr": null,
+          "dep": 528
+        },
+        {
+          "station": "AYL",
+          "arr": null,
+          "dep": 531
+        },
+        {
+          "station": "MDB",
+          "arr": null,
+          "dep": 536
+        },
+        {
+          "station": "MDW",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "MDW",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "EFL",
+          "arr": null,
+          "dep": 543
+        },
+        {
+          "station": "WTR",
+          "arr": null,
+          "dep": 549
+        },
+        {
+          "station": "YAL",
+          "arr": null,
+          "dep": 552
+        },
+        {
+          "station": "BEG",
+          "arr": null,
+          "dep": 555
+        },
+        {
+          "station": "PDW",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "PDW",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "TON",
+          "arr": null,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "SUN_53",
+      "headcode": "",
+      "operator": "SE",
+      "days": [
+        "SUN"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "SOO",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "CUX",
+          "arr": null,
+          "dep": 578
+        },
+        {
+          "station": "HAI",
+          "arr": null,
+          "dep": 581
+        },
+        {
+          "station": "SDA",
+          "arr": null,
+          "dep": 585
+        },
+        {
+          "station": "NHE",
+          "arr": null,
+          "dep": 588
+        },
+        {
+          "station": "AYL",
+          "arr": null,
+          "dep": 591
+        },
+        {
+          "station": "MDB",
+          "arr": null,
+          "dep": 596
+        },
+        {
+          "station": "MDW",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "MDW",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "EFL",
+          "arr": null,
+          "dep": 603
+        },
+        {
+          "station": "WTR",
+          "arr": null,
+          "dep": 609
+        },
+        {
+          "station": "YAL",
+          "arr": null,
+          "dep": 612
+        },
+        {
+          "station": "BEG",
+          "arr": null,
+          "dep": 615
+        },
+        {
+          "station": "PDW",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "PDW",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "TON",
+          "arr": null,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "SUN_54",
+      "headcode": "",
+      "operator": "SE",
+      "days": [
+        "SUN"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "SOO",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "CUX",
+          "arr": null,
+          "dep": 638
+        },
+        {
+          "station": "HAI",
+          "arr": null,
+          "dep": 641
+        },
+        {
+          "station": "SDA",
+          "arr": null,
+          "dep": 645
+        },
+        {
+          "station": "NHE",
+          "arr": null,
+          "dep": 648
+        },
+        {
+          "station": "AYL",
+          "arr": null,
+          "dep": 651
+        },
+        {
+          "station": "MDB",
+          "arr": null,
+          "dep": 656
+        },
+        {
+          "station": "MDW",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "MDW",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "EFL",
+          "arr": null,
+          "dep": 663
+        },
+        {
+          "station": "WTR",
+          "arr": null,
+          "dep": 669
+        },
+        {
+          "station": "YAL",
+          "arr": null,
+          "dep": 672
+        },
+        {
+          "station": "BEG",
+          "arr": null,
+          "dep": 675
+        },
+        {
+          "station": "PDW",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "PDW",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "TON",
+          "arr": null,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "SUN_55",
+      "headcode": "",
+      "operator": "SE",
+      "days": [
+        "SUN"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "SOO",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "CUX",
+          "arr": null,
+          "dep": 698
+        },
+        {
+          "station": "HAI",
+          "arr": null,
+          "dep": 701
+        },
+        {
+          "station": "SDA",
+          "arr": null,
+          "dep": 705
+        },
+        {
+          "station": "NHE",
+          "arr": null,
+          "dep": 708
+        },
+        {
+          "station": "AYL",
+          "arr": null,
+          "dep": 711
+        },
+        {
+          "station": "MDB",
+          "arr": null,
+          "dep": 716
+        },
+        {
+          "station": "MDW",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "MDW",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "EFL",
+          "arr": null,
+          "dep": 723
+        },
+        {
+          "station": "WTR",
+          "arr": null,
+          "dep": 729
+        },
+        {
+          "station": "YAL",
+          "arr": null,
+          "dep": 732
+        },
+        {
+          "station": "BEG",
+          "arr": null,
+          "dep": 735
+        },
+        {
+          "station": "PDW",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "PDW",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "TON",
+          "arr": null,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "SUN_56",
+      "headcode": "",
+      "operator": "SE",
+      "days": [
+        "SUN"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "PDW",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "TON",
+          "arr": null,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "SUN_57",
+      "headcode": "",
+      "operator": "SE",
+      "days": [
+        "SUN"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "PDW",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "TON",
+          "arr": null,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "SUN_58",
+      "headcode": "",
+      "operator": "SE",
+      "days": [
+        "SUN"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "PDW",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "TON",
+          "arr": null,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "SUN_59",
+      "headcode": "",
+      "operator": "SE",
+      "days": [
+        "SUN"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "PDW",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "TON",
+          "arr": null,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "SUN_60",
+      "headcode": "",
+      "operator": "SE",
+      "days": [
+        "SUN"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "PDW",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "TON",
+          "arr": null,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "SUN_61",
+      "headcode": "",
+      "operator": "SE",
+      "days": [
+        "SUN"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "PDW",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "TON",
+          "arr": null,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "SUN_62",
+      "headcode": "",
+      "operator": "SE",
+      "days": [
+        "SUN"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "PDW",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "TON",
+          "arr": null,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "SUN_63",
+      "headcode": "",
+      "operator": "SE",
+      "days": [
+        "SUN"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "PDW",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "TON",
+          "arr": null,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "MF_64",
+      "headcode": "",
+      "operator": "SE",
+      "days": [
+        "MF"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "TON",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "PDW",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "PDW",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "BEG",
+          "arr": null,
+          "dep": 367
+        },
+        {
+          "station": "YAL",
+          "arr": null,
+          "dep": 371
+        },
+        {
+          "station": "WTR",
+          "arr": null,
+          "dep": 374
+        },
+        {
+          "station": "EFL",
+          "arr": null,
+          "dep": 379
+        },
+        {
+          "station": "MDW",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "MDW",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "MDB",
+          "arr": null,
+          "dep": 332
+        },
+        {
+          "station": "AYL",
+          "arr": null,
+          "dep": 338
+        },
+        {
+          "station": "NHE",
+          "arr": null,
+          "dep": 340
+        },
+        {
+          "station": "SDA",
+          "arr": null,
+          "dep": 344
+        },
+        {
+          "station": "HAI",
+          "arr": null,
+          "dep": 347
+        },
+        {
+          "station": "CUX",
+          "arr": null,
+          "dep": 350
+        },
+        {
+          "station": "SOO",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "GRV",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "EBD",
+          "arr": 445,
+          "dep": null
+        },
+        {
+          "station": "SFA",
+          "arr": 458,
+          "dep": null
+        },
+        {
+          "station": "STP",
+          "arr": null,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "MF_65",
+      "headcode": "",
+      "operator": "SE",
+      "days": [
+        "MF"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "TON",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "PDW",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "PDW",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "BEG",
+          "arr": null,
+          "dep": 401
+        },
+        {
+          "station": "YAL",
+          "arr": null,
+          "dep": 405
+        },
+        {
+          "station": "WTR",
+          "arr": null,
+          "dep": 408
+        },
+        {
+          "station": "EFL",
+          "arr": null,
+          "dep": 413
+        },
+        {
+          "station": "MDW",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "MDW",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "MDB",
+          "arr": null,
+          "dep": 358
+        },
+        {
+          "station": "AYL",
+          "arr": null,
+          "dep": 363
+        },
+        {
+          "station": "NHE",
+          "arr": null,
+          "dep": 366
+        },
+        {
+          "station": "SDA",
+          "arr": null,
+          "dep": 369
+        },
+        {
+          "station": "HAI",
+          "arr": null,
+          "dep": 372
+        },
+        {
+          "station": "CUX",
+          "arr": null,
+          "dep": 376
+        },
+        {
+          "station": "SOO",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "GRV",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "EBD",
+          "arr": 445,
+          "dep": null
+        },
+        {
+          "station": "SFA",
+          "arr": 458,
+          "dep": null
+        },
+        {
+          "station": "STP",
+          "arr": null,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "MF_66",
+      "headcode": "",
+      "operator": "SE",
+      "days": [
+        "MF"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "TON",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "PDW",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "PDW",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "BEG",
+          "arr": null,
+          "dep": 427
+        },
+        {
+          "station": "YAL",
+          "arr": null,
+          "dep": 431
+        },
+        {
+          "station": "WTR",
+          "arr": null,
+          "dep": 434
+        },
+        {
+          "station": "EFL",
+          "arr": null,
+          "dep": 439
+        },
+        {
+          "station": "MDW",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "MDW",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "MDB",
+          "arr": null,
+          "dep": 387
+        },
+        {
+          "station": "AYL",
+          "arr": null,
+          "dep": 393
+        },
+        {
+          "station": "NHE",
+          "arr": null,
+          "dep": 395
+        },
+        {
+          "station": "SDA",
+          "arr": null,
+          "dep": 399
+        },
+        {
+          "station": "HAI",
+          "arr": null,
+          "dep": 402
+        },
+        {
+          "station": "CUX",
+          "arr": null,
+          "dep": 405
+        },
+        {
+          "station": "SOO",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "GRV",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "EBD",
+          "arr": 505,
+          "dep": null
+        },
+        {
+          "station": "SFA",
+          "arr": 518,
+          "dep": null
+        },
+        {
+          "station": "STP",
+          "arr": null,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "MF_67",
+      "headcode": "",
+      "operator": "SE",
+      "days": [
+        "MF"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "TON",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "PDW",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "PDW",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "BEG",
+          "arr": null,
+          "dep": 363
+        },
+        {
+          "station": "YAL",
+          "arr": null,
+          "dep": 367
+        },
+        {
+          "station": "WTR",
+          "arr": null,
+          "dep": 371
+        },
+        {
+          "station": "EFL",
+          "arr": null,
+          "dep": 377
+        },
+        {
+          "station": "MDW",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "MDW",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "MDB",
+          "arr": null,
+          "dep": 422
+        },
+        {
+          "station": "AYL",
+          "arr": null,
+          "dep": 427
+        },
+        {
+          "station": "NHE",
+          "arr": null,
+          "dep": 430
+        },
+        {
+          "station": "SDA",
+          "arr": null,
+          "dep": 423
+        },
+        {
+          "station": "HAI",
+          "arr": null,
+          "dep": 436
+        },
+        {
+          "station": "CUX",
+          "arr": null,
+          "dep": 440
+        },
+        {
+          "station": "SOO",
+          "arr": null,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "MF_68",
+      "headcode": "",
+      "operator": "SE",
+      "days": [
+        "MF"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "TON",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "PDW",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "PDW",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "BEG",
+          "arr": null,
+          "dep": 397
+        },
+        {
+          "station": "YAL",
+          "arr": null,
+          "dep": 401
+        },
+        {
+          "station": "WTR",
+          "arr": null,
+          "dep": 405
+        },
+        {
+          "station": "EFL",
+          "arr": null,
+          "dep": 411
+        },
+        {
+          "station": "MDW",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "MDW",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "MDB",
+          "arr": null,
+          "dep": 447
+        },
+        {
+          "station": "AYL",
+          "arr": null,
+          "dep": 453
+        },
+        {
+          "station": "NHE",
+          "arr": null,
+          "dep": 455
+        },
+        {
+          "station": "SDA",
+          "arr": null,
+          "dep": 433
+        },
+        {
+          "station": "HAI",
+          "arr": null,
+          "dep": 462
+        },
+        {
+          "station": "CUX",
+          "arr": null,
+          "dep": 465
+        },
+        {
+          "station": "SOO",
+          "arr": null,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "MF_69",
+      "headcode": "",
+      "operator": "SE",
+      "days": [
+        "MF"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "TON",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "PDW",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "PDW",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "BEG",
+          "arr": null,
+          "dep": 424
+        },
+        {
+          "station": "YAL",
+          "arr": null,
+          "dep": 428
+        },
+        {
+          "station": "WTR",
+          "arr": null,
+          "dep": 432
+        },
+        {
+          "station": "EFL",
+          "arr": null,
+          "dep": 438
+        },
+        {
+          "station": "MDW",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "MDW",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "MDB",
+          "arr": null,
+          "dep": 330
+        },
+        {
+          "station": "AYL",
+          "arr": null,
+          "dep": 336
+        },
+        {
+          "station": "NHE",
+          "arr": null,
+          "dep": 339
+        },
+        {
+          "station": "SDA",
+          "arr": null,
+          "dep": 459
+        },
+        {
+          "station": "HAI",
+          "arr": null,
+          "dep": 346
+        },
+        {
+          "station": "CUX",
+          "arr": null,
+          "dep": 350
+        },
+        {
+          "station": "SOO",
+          "arr": null,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "MF_70",
+      "headcode": "",
+      "operator": "SE",
+      "days": [
+        "MF"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "TON",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "PDW",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "PDW",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "MDW",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "MDW",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "MDB",
+          "arr": null,
+          "dep": 355
+        },
+        {
+          "station": "AYL",
+          "arr": null,
+          "dep": 360
+        },
+        {
+          "station": "NHE",
+          "arr": null,
+          "dep": 363
+        },
+        {
+          "station": "SDA",
+          "arr": null,
+          "dep": 342
+        },
+        {
+          "station": "HAI",
+          "arr": null,
+          "dep": 371
+        },
+        {
+          "station": "CUX",
+          "arr": null,
+          "dep": 375
+        },
+        {
+          "station": "SOO",
+          "arr": null,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "MF_71",
+      "headcode": "",
+      "operator": "SE",
+      "days": [
+        "MF"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "PDW",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "MDW",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "MDW",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "MDB",
+          "arr": null,
+          "dep": 385
+        },
+        {
+          "station": "AYL",
+          "arr": null,
+          "dep": 391
+        },
+        {
+          "station": "NHE",
+          "arr": null,
+          "dep": 394
+        },
+        {
+          "station": "SDA",
+          "arr": null,
+          "dep": 367
+        },
+        {
+          "station": "HAI",
+          "arr": null,
+          "dep": 401
+        },
+        {
+          "station": "CUX",
+          "arr": null,
+          "dep": 405
+        },
+        {
+          "station": "SOO",
+          "arr": null,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "MF_72",
+      "headcode": "",
+      "operator": "SE",
+      "days": [
+        "MF"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "MDW",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "MDB",
+          "arr": null,
+          "dep": 419
+        },
+        {
+          "station": "AYL",
+          "arr": null,
+          "dep": 425
+        },
+        {
+          "station": "NHE",
+          "arr": null,
+          "dep": 428
+        },
+        {
+          "station": "SDA",
+          "arr": null,
+          "dep": 398
+        },
+        {
+          "station": "HAI",
+          "arr": null,
+          "dep": 435
+        },
+        {
+          "station": "CUX",
+          "arr": null,
+          "dep": 439
+        },
+        {
+          "station": "SOO",
+          "arr": null,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "MF_73",
+      "headcode": "",
+      "operator": "SE",
+      "days": [
+        "MF"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "MDW",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "MDB",
+          "arr": null,
+          "dep": 446
+        },
+        {
+          "station": "AYL",
+          "arr": null,
+          "dep": 451
+        },
+        {
+          "station": "NHE",
+          "arr": null,
+          "dep": 454
+        },
+        {
+          "station": "SDA",
+          "arr": null,
+          "dep": 422
+        },
+        {
+          "station": "HAI",
+          "arr": null,
+          "dep": 461
+        },
+        {
+          "station": "CUX",
+          "arr": null,
+          "dep": 465
+        },
+        {
+          "station": "SOO",
+          "arr": null,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "MF_74",
+      "headcode": "",
+      "operator": "SE",
+      "days": [
+        "MF"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "MDW",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "SDA",
+          "arr": null,
+          "dep": 432
+        },
+        {
+          "station": "SOO",
+          "arr": null,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "MF_75",
+      "headcode": "",
+      "operator": "SE",
+      "days": [
+        "MF"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "MDW",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "SDA",
+          "arr": null,
+          "dep": 458
+        },
+        {
+          "station": "SOO",
+          "arr": null,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "MF_76",
+      "headcode": "",
+      "operator": "SE",
+      "days": [
+        "MF"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "MDW",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "SDA",
+          "arr": null,
+          "dep": 483
+        },
+        {
+          "station": "SOO",
+          "arr": null,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "MF_77",
+      "headcode": "",
+      "operator": "SE",
+      "days": [
+        "MF"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "TON",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "PDW",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "PDW",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "BEG",
+          "arr": null,
+          "dep": 727
+        },
+        {
+          "station": "YAL",
+          "arr": null,
+          "dep": 731
+        },
+        {
+          "station": "WTR",
+          "arr": null,
+          "dep": 734
+        },
+        {
+          "station": "EFL",
+          "arr": null,
+          "dep": 739
+        },
+        {
+          "station": "MDW",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "MDW",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "MDB",
+          "arr": null,
+          "dep": 747
+        },
+        {
+          "station": "AYL",
+          "arr": null,
+          "dep": 753
+        },
+        {
+          "station": "NHE",
+          "arr": null,
+          "dep": 755
+        },
+        {
+          "station": "SDA",
+          "arr": null,
+          "dep": 759
+        },
+        {
+          "station": "HAI",
+          "arr": null,
+          "dep": 762
+        },
+        {
+          "station": "CUX",
+          "arr": null,
+          "dep": 765
+        },
+        {
+          "station": "SOO",
+          "arr": null,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "MF_78",
+      "headcode": "",
+      "operator": "SE",
+      "days": [
+        "MF"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "TON",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "PDW",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "PDW",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "BEG",
+          "arr": null,
+          "dep": 757
+        },
+        {
+          "station": "YAL",
+          "arr": null,
+          "dep": 761
+        },
+        {
+          "station": "WTR",
+          "arr": null,
+          "dep": 764
+        },
+        {
+          "station": "EFL",
+          "arr": null,
+          "dep": 769
+        },
+        {
+          "station": "MDW",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "MDW",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "MDB",
+          "arr": null,
+          "dep": 777
+        },
+        {
+          "station": "AYL",
+          "arr": null,
+          "dep": 783
+        },
+        {
+          "station": "NHE",
+          "arr": null,
+          "dep": 785
+        },
+        {
+          "station": "SDA",
+          "arr": null,
+          "dep": 789
+        },
+        {
+          "station": "HAI",
+          "arr": null,
+          "dep": 792
+        },
+        {
+          "station": "CUX",
+          "arr": null,
+          "dep": 795
+        },
+        {
+          "station": "SOO",
+          "arr": null,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "MF_79",
+      "headcode": "",
+      "operator": "SE",
+      "days": [
+        "MF"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "TON",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "PDW",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "PDW",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "BEG",
+          "arr": null,
+          "dep": 787
+        },
+        {
+          "station": "YAL",
+          "arr": null,
+          "dep": 791
+        },
+        {
+          "station": "WTR",
+          "arr": null,
+          "dep": 794
+        },
+        {
+          "station": "EFL",
+          "arr": null,
+          "dep": 799
+        },
+        {
+          "station": "MDW",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "MDW",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "MDB",
+          "arr": null,
+          "dep": 807
+        },
+        {
+          "station": "AYL",
+          "arr": null,
+          "dep": 813
+        },
+        {
+          "station": "NHE",
+          "arr": null,
+          "dep": 815
+        },
+        {
+          "station": "SDA",
+          "arr": null,
+          "dep": 819
+        },
+        {
+          "station": "HAI",
+          "arr": null,
+          "dep": 822
+        },
+        {
+          "station": "CUX",
+          "arr": null,
+          "dep": 825
+        },
+        {
+          "station": "SOO",
+          "arr": null,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "MF_80",
+      "headcode": "",
+      "operator": "SE",
+      "days": [
+        "MF"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "TON",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "PDW",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "PDW",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "BEG",
+          "arr": null,
+          "dep": 817
+        },
+        {
+          "station": "YAL",
+          "arr": null,
+          "dep": 821
+        },
+        {
+          "station": "WTR",
+          "arr": null,
+          "dep": 824
+        },
+        {
+          "station": "EFL",
+          "arr": null,
+          "dep": 829
+        },
+        {
+          "station": "MDW",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "MDW",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "MDB",
+          "arr": null,
+          "dep": 837
+        },
+        {
+          "station": "AYL",
+          "arr": null,
+          "dep": 843
+        },
+        {
+          "station": "NHE",
+          "arr": null,
+          "dep": 845
+        },
+        {
+          "station": "SDA",
+          "arr": null,
+          "dep": 849
+        },
+        {
+          "station": "HAI",
+          "arr": null,
+          "dep": 852
+        },
+        {
+          "station": "CUX",
+          "arr": null,
+          "dep": 855
+        },
+        {
+          "station": "SOO",
+          "arr": null,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "MF_81",
+      "headcode": "",
+      "operator": "SE",
+      "days": [
+        "MF"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "TON",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "PDW",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "PDW",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "BEG",
+          "arr": null,
+          "dep": 847
+        },
+        {
+          "station": "YAL",
+          "arr": null,
+          "dep": 851
+        },
+        {
+          "station": "WTR",
+          "arr": null,
+          "dep": 854
+        },
+        {
+          "station": "EFL",
+          "arr": null,
+          "dep": 860
+        },
+        {
+          "station": "MDW",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "MDW",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "MDB",
+          "arr": null,
+          "dep": 868
+        },
+        {
+          "station": "AYL",
+          "arr": null,
+          "dep": 873
+        },
+        {
+          "station": "NHE",
+          "arr": null,
+          "dep": 875
+        },
+        {
+          "station": "SDA",
+          "arr": null,
+          "dep": 879
+        },
+        {
+          "station": "HAI",
+          "arr": null,
+          "dep": 882
+        },
+        {
+          "station": "CUX",
+          "arr": null,
+          "dep": 885
+        },
+        {
+          "station": "SOO",
+          "arr": null,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "MF_82",
+      "headcode": "",
+      "operator": "SE",
+      "days": [
+        "MF"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "TON",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "PDW",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "PDW",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "BEG",
+          "arr": null,
+          "dep": 877
+        },
+        {
+          "station": "YAL",
+          "arr": null,
+          "dep": 881
+        },
+        {
+          "station": "WTR",
+          "arr": null,
+          "dep": 884
+        },
+        {
+          "station": "EFL",
+          "arr": null,
+          "dep": 889
+        },
+        {
+          "station": "MDW",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "MDW",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "MDB",
+          "arr": null,
+          "dep": 897
+        },
+        {
+          "station": "AYL",
+          "arr": null,
+          "dep": 903
+        },
+        {
+          "station": "NHE",
+          "arr": null,
+          "dep": 905
+        },
+        {
+          "station": "SDA",
+          "arr": null,
+          "dep": 909
+        },
+        {
+          "station": "HAI",
+          "arr": null,
+          "dep": 912
+        },
+        {
+          "station": "CUX",
+          "arr": null,
+          "dep": 915
+        },
+        {
+          "station": "SOO",
+          "arr": null,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "MF_83",
+      "headcode": "",
+      "operator": "SE",
+      "days": [
+        "MF"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "TON",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "PDW",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "PDW",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "BEG",
+          "arr": null,
+          "dep": 907
+        },
+        {
+          "station": "YAL",
+          "arr": null,
+          "dep": 911
+        },
+        {
+          "station": "WTR",
+          "arr": null,
+          "dep": 914
+        },
+        {
+          "station": "EFL",
+          "arr": null,
+          "dep": 919
+        },
+        {
+          "station": "MDW",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "MDW",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "MDB",
+          "arr": null,
+          "dep": 927
+        },
+        {
+          "station": "AYL",
+          "arr": null,
+          "dep": 933
+        },
+        {
+          "station": "NHE",
+          "arr": null,
+          "dep": 935
+        },
+        {
+          "station": "SDA",
+          "arr": null,
+          "dep": 939
+        },
+        {
+          "station": "HAI",
+          "arr": null,
+          "dep": 942
+        },
+        {
+          "station": "CUX",
+          "arr": null,
+          "dep": 945
+        },
+        {
+          "station": "SOO",
+          "arr": null,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "MF_84",
+      "headcode": "",
+      "operator": "SE",
+      "days": [
+        "MF"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "TON",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "PDW",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "PDW",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "BEG",
+          "arr": null,
+          "dep": 937
+        },
+        {
+          "station": "YAL",
+          "arr": null,
+          "dep": 941
+        },
+        {
+          "station": "WTR",
+          "arr": null,
+          "dep": 944
+        },
+        {
+          "station": "EFL",
+          "arr": null,
+          "dep": 949
+        },
+        {
+          "station": "MDW",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "MDW",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "MDB",
+          "arr": null,
+          "dep": 957
+        },
+        {
+          "station": "AYL",
+          "arr": null,
+          "dep": 963
+        },
+        {
+          "station": "NHE",
+          "arr": null,
+          "dep": 965
+        },
+        {
+          "station": "SDA",
+          "arr": null,
+          "dep": 969
+        },
+        {
+          "station": "HAI",
+          "arr": null,
+          "dep": 972
+        },
+        {
+          "station": "CUX",
+          "arr": null,
+          "dep": 975
+        },
+        {
+          "station": "SOO",
+          "arr": null,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "MF_85",
+      "headcode": "",
+      "operator": "SE",
+      "days": [
+        "MF"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "TON",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "PDW",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "PDW",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "BEG",
+          "arr": null,
+          "dep": 974
+        },
+        {
+          "station": "YAL",
+          "arr": null,
+          "dep": 978
+        },
+        {
+          "station": "WTR",
+          "arr": null,
+          "dep": 982
+        },
+        {
+          "station": "EFL",
+          "arr": null,
+          "dep": 987
+        },
+        {
+          "station": "MDW",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "MDW",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "MDB",
+          "arr": null,
+          "dep": 994
+        },
+        {
+          "station": "AYL",
+          "arr": null,
+          "dep": 999
+        },
+        {
+          "station": "NHE",
+          "arr": null,
+          "dep": 1002
+        },
+        {
+          "station": "SDA",
+          "arr": null,
+          "dep": 1005
+        },
+        {
+          "station": "HAI",
+          "arr": null,
+          "dep": 1008
+        },
+        {
+          "station": "CUX",
+          "arr": null,
+          "dep": 1012
+        },
+        {
+          "station": "SOO",
+          "arr": null,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "MF_86",
+      "headcode": "",
+      "operator": "SE",
+      "days": [
+        "MF"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "TON",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "PDW",
+          "arr": null,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "MF_87",
+      "headcode": "",
+      "operator": "SE",
+      "days": [
+        "MF"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "TON",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "PDW",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "PDW",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "BEG",
+          "arr": null,
+          "dep": 1237
+        },
+        {
+          "station": "YAL",
+          "arr": null,
+          "dep": 1241
+        },
+        {
+          "station": "WTR",
+          "arr": null,
+          "dep": 1244
+        },
+        {
+          "station": "EFL",
+          "arr": null,
+          "dep": 1249
+        },
+        {
+          "station": "MDW",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "MDW",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "MDB",
+          "arr": null,
+          "dep": 1257
+        },
+        {
+          "station": "AYL",
+          "arr": null,
+          "dep": 1263
+        },
+        {
+          "station": "NHE",
+          "arr": null,
+          "dep": 1265
+        },
+        {
+          "station": "SDA",
+          "arr": null,
+          "dep": 1269
+        },
+        {
+          "station": "HAI",
+          "arr": null,
+          "dep": 1272
+        },
+        {
+          "station": "CUX",
+          "arr": null,
+          "dep": 1275
+        },
+        {
+          "station": "SOO",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "RTR",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "CTM",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "GLM",
+          "arr": null,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "MF_88",
+      "headcode": "",
+      "operator": "SE",
+      "days": [
+        "MF"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "TON",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "PDW",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "PDW",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "BEG",
+          "arr": null,
+          "dep": 1267
+        },
+        {
+          "station": "YAL",
+          "arr": null,
+          "dep": 1271
+        },
+        {
+          "station": "WTR",
+          "arr": null,
+          "dep": 1274
+        },
+        {
+          "station": "EFL",
+          "arr": null,
+          "dep": 1279
+        },
+        {
+          "station": "MDW",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "MDW",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "MDB",
+          "arr": null,
+          "dep": 1287
+        },
+        {
+          "station": "AYL",
+          "arr": null,
+          "dep": 1293
+        },
+        {
+          "station": "NHE",
+          "arr": null,
+          "dep": 1295
+        },
+        {
+          "station": "SDA",
+          "arr": null,
+          "dep": 1299
+        },
+        {
+          "station": "HAI",
+          "arr": null,
+          "dep": 1302
+        },
+        {
+          "station": "CUX",
+          "arr": null,
+          "dep": 1305
+        },
+        {
+          "station": "SOO",
+          "arr": null,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "MF_89",
+      "headcode": "",
+      "operator": "SE",
+      "days": [
+        "MF"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "TON",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "PDW",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "PDW",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "BEG",
+          "arr": null,
+          "dep": 1297
+        },
+        {
+          "station": "YAL",
+          "arr": null,
+          "dep": 1301
+        },
+        {
+          "station": "WTR",
+          "arr": null,
+          "dep": 1304
+        },
+        {
+          "station": "EFL",
+          "arr": null,
+          "dep": 1309
+        },
+        {
+          "station": "MDW",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "MDW",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "MDB",
+          "arr": null,
+          "dep": 1317
+        },
+        {
+          "station": "AYL",
+          "arr": null,
+          "dep": 1323
+        },
+        {
+          "station": "NHE",
+          "arr": null,
+          "dep": 1325
+        },
+        {
+          "station": "SDA",
+          "arr": null,
+          "dep": 1329
+        },
+        {
+          "station": "HAI",
+          "arr": null,
+          "dep": 1332
+        },
+        {
+          "station": "CUX",
+          "arr": null,
+          "dep": 1335
+        },
+        {
+          "station": "SOO",
+          "arr": null,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "MF_90",
+      "headcode": "",
+      "operator": "SE",
+      "days": [
+        "MF"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "TON",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "PDW",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "PDW",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "BEG",
+          "arr": null,
+          "dep": 1327
+        },
+        {
+          "station": "YAL",
+          "arr": null,
+          "dep": 1331
+        },
+        {
+          "station": "WTR",
+          "arr": null,
+          "dep": 1334
+        },
+        {
+          "station": "EFL",
+          "arr": null,
+          "dep": 1339
+        },
+        {
+          "station": "MDW",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "MDW",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "MDB",
+          "arr": null,
+          "dep": 1347
+        },
+        {
+          "station": "AYL",
+          "arr": null,
+          "dep": 1353
+        },
+        {
+          "station": "NHE",
+          "arr": null,
+          "dep": 1355
+        },
+        {
+          "station": "SDA",
+          "arr": null,
+          "dep": 1359
+        },
+        {
+          "station": "HAI",
+          "arr": null,
+          "dep": 1362
+        },
+        {
+          "station": "CUX",
+          "arr": null,
+          "dep": 1365
+        },
+        {
+          "station": "SOO",
+          "arr": null,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "MF_91",
+      "headcode": "",
+      "operator": "SE",
+      "days": [
+        "MF"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "TON",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "PDW",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "PDW",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "BEG",
+          "arr": null,
+          "dep": 1368
+        },
+        {
+          "station": "YAL",
+          "arr": null,
+          "dep": 1372
+        },
+        {
+          "station": "WTR",
+          "arr": null,
+          "dep": 1375
+        },
+        {
+          "station": "EFL",
+          "arr": null,
+          "dep": 1380
+        },
+        {
+          "station": "MDW",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "MDW",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "MDB",
+          "arr": null,
+          "dep": 1388
+        },
+        {
+          "station": "AYL",
+          "arr": null,
+          "dep": 1393
+        },
+        {
+          "station": "NHE",
+          "arr": null,
+          "dep": 1395
+        },
+        {
+          "station": "SDA",
+          "arr": null,
+          "dep": 1399
+        },
+        {
+          "station": "HAI",
+          "arr": null,
+          "dep": 1402
+        },
+        {
+          "station": "CUX",
+          "arr": null,
+          "dep": 1405
+        },
+        {
+          "station": "SOO",
+          "arr": null,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "MF_92",
+      "headcode": "",
+      "operator": "SE",
+      "days": [
+        "MF"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "TON",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "PDW",
+          "arr": null,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "MF_93",
+      "headcode": "",
+      "operator": "SE",
+      "days": [
+        "MF"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "TON",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "PDW",
+          "arr": null,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "MF_94",
+      "headcode": "",
+      "operator": "SE",
+      "days": [
+        "MF"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "TON",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "PDW",
+          "arr": null,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "MF_95",
+      "headcode": "",
+      "operator": "SE",
+      "days": [
+        "MF"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "TON",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "PDW",
+          "arr": null,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "MF_96",
+      "headcode": "",
+      "operator": "SE",
+      "days": [
+        "MF"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "TON",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "PDW",
+          "arr": null,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "SAT_97",
+      "headcode": "",
+      "operator": "SE",
+      "days": [
+        "SAT"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "TON",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "PDW",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "PDW",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "BEG",
+          "arr": null,
+          "dep": 367
+        },
+        {
+          "station": "YAL",
+          "arr": null,
+          "dep": 371
+        },
+        {
+          "station": "WTR",
+          "arr": null,
+          "dep": 374
+        },
+        {
+          "station": "EFL",
+          "arr": null,
+          "dep": 379
+        },
+        {
+          "station": "MDW",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "MDW",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "MDB",
+          "arr": null,
+          "dep": 387
+        },
+        {
+          "station": "AYL",
+          "arr": null,
+          "dep": 393
+        },
+        {
+          "station": "NHE",
+          "arr": null,
+          "dep": 395
+        },
+        {
+          "station": "SDA",
+          "arr": null,
+          "dep": 399
+        },
+        {
+          "station": "HAI",
+          "arr": null,
+          "dep": 402
+        },
+        {
+          "station": "CUX",
+          "arr": null,
+          "dep": 405
+        },
+        {
+          "station": "SOO",
+          "arr": null,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "SAT_98",
+      "headcode": "",
+      "operator": "SE",
+      "days": [
+        "SAT"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "TON",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "PDW",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "PDW",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "BEG",
+          "arr": null,
+          "dep": 427
+        },
+        {
+          "station": "YAL",
+          "arr": null,
+          "dep": 431
+        },
+        {
+          "station": "WTR",
+          "arr": null,
+          "dep": 434
+        },
+        {
+          "station": "EFL",
+          "arr": null,
+          "dep": 439
+        },
+        {
+          "station": "MDW",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "MDW",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "MDB",
+          "arr": null,
+          "dep": 418
+        },
+        {
+          "station": "AYL",
+          "arr": null,
+          "dep": 423
+        },
+        {
+          "station": "NHE",
+          "arr": null,
+          "dep": 425
+        },
+        {
+          "station": "SDA",
+          "arr": null,
+          "dep": 429
+        },
+        {
+          "station": "HAI",
+          "arr": null,
+          "dep": 432
+        },
+        {
+          "station": "CUX",
+          "arr": null,
+          "dep": 435
+        },
+        {
+          "station": "SOO",
+          "arr": null,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "SAT_99",
+      "headcode": "",
+      "operator": "SE",
+      "days": [
+        "SAT"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "TON",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "PDW",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "PDW",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "BEG",
+          "arr": null,
+          "dep": 457
+        },
+        {
+          "station": "YAL",
+          "arr": null,
+          "dep": 461
+        },
+        {
+          "station": "WTR",
+          "arr": null,
+          "dep": 464
+        },
+        {
+          "station": "EFL",
+          "arr": null,
+          "dep": 469
+        },
+        {
+          "station": "MDW",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "MDW",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "MDB",
+          "arr": null,
+          "dep": 447
+        },
+        {
+          "station": "AYL",
+          "arr": null,
+          "dep": 453
+        },
+        {
+          "station": "NHE",
+          "arr": null,
+          "dep": 455
+        },
+        {
+          "station": "SDA",
+          "arr": null,
+          "dep": 459
+        },
+        {
+          "station": "HAI",
+          "arr": null,
+          "dep": 462
+        },
+        {
+          "station": "CUX",
+          "arr": null,
+          "dep": 465
+        },
+        {
+          "station": "SOO",
+          "arr": null,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "SAT_100",
+      "headcode": "",
+      "operator": "SE",
+      "days": [
+        "SAT"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "TON",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "PDW",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "PDW",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "BEG",
+          "arr": null,
+          "dep": 487
+        },
+        {
+          "station": "YAL",
+          "arr": null,
+          "dep": 491
+        },
+        {
+          "station": "WTR",
+          "arr": null,
+          "dep": 494
+        },
+        {
+          "station": "EFL",
+          "arr": null,
+          "dep": 499
+        },
+        {
+          "station": "MDW",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "MDW",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "MDB",
+          "arr": null,
+          "dep": 477
+        },
+        {
+          "station": "AYL",
+          "arr": null,
+          "dep": 483
+        },
+        {
+          "station": "NHE",
+          "arr": null,
+          "dep": 485
+        },
+        {
+          "station": "SDA",
+          "arr": null,
+          "dep": 489
+        },
+        {
+          "station": "HAI",
+          "arr": null,
+          "dep": 492
+        },
+        {
+          "station": "CUX",
+          "arr": null,
+          "dep": 495
+        },
+        {
+          "station": "SOO",
+          "arr": null,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "SAT_101",
+      "headcode": "",
+      "operator": "SE",
+      "days": [
+        "SAT"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "TON",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "PDW",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "PDW",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "BEG",
+          "arr": null,
+          "dep": 517
+        },
+        {
+          "station": "YAL",
+          "arr": null,
+          "dep": 521
+        },
+        {
+          "station": "WTR",
+          "arr": null,
+          "dep": 524
+        },
+        {
+          "station": "EFL",
+          "arr": null,
+          "dep": 529
+        },
+        {
+          "station": "MDW",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "MDW",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "MDB",
+          "arr": null,
+          "dep": 507
+        },
+        {
+          "station": "AYL",
+          "arr": null,
+          "dep": 513
+        },
+        {
+          "station": "NHE",
+          "arr": null,
+          "dep": 515
+        },
+        {
+          "station": "SDA",
+          "arr": null,
+          "dep": 519
+        },
+        {
+          "station": "HAI",
+          "arr": null,
+          "dep": 522
+        },
+        {
+          "station": "CUX",
+          "arr": null,
+          "dep": 525
+        },
+        {
+          "station": "SOO",
+          "arr": null,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "SAT_102",
+      "headcode": "",
+      "operator": "SE",
+      "days": [
+        "SAT"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "TON",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "PDW",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "PDW",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "BEG",
+          "arr": null,
+          "dep": 547
+        },
+        {
+          "station": "YAL",
+          "arr": null,
+          "dep": 551
+        },
+        {
+          "station": "WTR",
+          "arr": null,
+          "dep": 554
+        },
+        {
+          "station": "EFL",
+          "arr": null,
+          "dep": 559
+        },
+        {
+          "station": "MDW",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "MDW",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "MDB",
+          "arr": null,
+          "dep": 537
+        },
+        {
+          "station": "AYL",
+          "arr": null,
+          "dep": 543
+        },
+        {
+          "station": "NHE",
+          "arr": null,
+          "dep": 545
+        },
+        {
+          "station": "SDA",
+          "arr": null,
+          "dep": 549
+        },
+        {
+          "station": "HAI",
+          "arr": null,
+          "dep": 552
+        },
+        {
+          "station": "CUX",
+          "arr": null,
+          "dep": 555
+        },
+        {
+          "station": "SOO",
+          "arr": null,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "SAT_103",
+      "headcode": "",
+      "operator": "SE",
+      "days": [
+        "SAT"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "TON",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "PDW",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "PDW",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "BEG",
+          "arr": null,
+          "dep": 577
+        },
+        {
+          "station": "YAL",
+          "arr": null,
+          "dep": 581
+        },
+        {
+          "station": "WTR",
+          "arr": null,
+          "dep": 584
+        },
+        {
+          "station": "EFL",
+          "arr": null,
+          "dep": 589
+        },
+        {
+          "station": "MDW",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "MDW",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "MDB",
+          "arr": null,
+          "dep": 567
+        },
+        {
+          "station": "AYL",
+          "arr": null,
+          "dep": 573
+        },
+        {
+          "station": "NHE",
+          "arr": null,
+          "dep": 575
+        },
+        {
+          "station": "SDA",
+          "arr": null,
+          "dep": 579
+        },
+        {
+          "station": "HAI",
+          "arr": null,
+          "dep": 582
+        },
+        {
+          "station": "CUX",
+          "arr": null,
+          "dep": 585
+        },
+        {
+          "station": "SOO",
+          "arr": null,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "SAT_104",
+      "headcode": "",
+      "operator": "SE",
+      "days": [
+        "SAT"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "TON",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "PDW",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "PDW",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "BEG",
+          "arr": null,
+          "dep": 607
+        },
+        {
+          "station": "YAL",
+          "arr": null,
+          "dep": 611
+        },
+        {
+          "station": "WTR",
+          "arr": null,
+          "dep": 614
+        },
+        {
+          "station": "EFL",
+          "arr": null,
+          "dep": 619
+        },
+        {
+          "station": "MDW",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "MDW",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "MDB",
+          "arr": null,
+          "dep": 597
+        },
+        {
+          "station": "AYL",
+          "arr": null,
+          "dep": 603
+        },
+        {
+          "station": "NHE",
+          "arr": null,
+          "dep": 605
+        },
+        {
+          "station": "SDA",
+          "arr": null,
+          "dep": 609
+        },
+        {
+          "station": "HAI",
+          "arr": null,
+          "dep": 612
+        },
+        {
+          "station": "CUX",
+          "arr": null,
+          "dep": 615
+        },
+        {
+          "station": "SOO",
+          "arr": null,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "SAT_105",
+      "headcode": "",
+      "operator": "SE",
+      "days": [
+        "SAT"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "TON",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "PDW",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "PDW",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "BEG",
+          "arr": null,
+          "dep": 637
+        },
+        {
+          "station": "YAL",
+          "arr": null,
+          "dep": 641
+        },
+        {
+          "station": "WTR",
+          "arr": null,
+          "dep": 644
+        },
+        {
+          "station": "EFL",
+          "arr": null,
+          "dep": 649
+        },
+        {
+          "station": "MDW",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "MDW",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "MDB",
+          "arr": null,
+          "dep": 627
+        },
+        {
+          "station": "AYL",
+          "arr": null,
+          "dep": 633
+        },
+        {
+          "station": "NHE",
+          "arr": null,
+          "dep": 635
+        },
+        {
+          "station": "SDA",
+          "arr": null,
+          "dep": 639
+        },
+        {
+          "station": "HAI",
+          "arr": null,
+          "dep": 642
+        },
+        {
+          "station": "CUX",
+          "arr": null,
+          "dep": 645
+        },
+        {
+          "station": "SOO",
+          "arr": null,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "SAT_106",
+      "headcode": "",
+      "operator": "SE",
+      "days": [
+        "SAT"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "MDW",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "MDB",
+          "arr": null,
+          "dep": 657
+        },
+        {
+          "station": "AYL",
+          "arr": null,
+          "dep": 663
+        },
+        {
+          "station": "NHE",
+          "arr": null,
+          "dep": 665
+        },
+        {
+          "station": "SDA",
+          "arr": null,
+          "dep": 669
+        },
+        {
+          "station": "HAI",
+          "arr": null,
+          "dep": 672
+        },
+        {
+          "station": "CUX",
+          "arr": null,
+          "dep": 675
+        },
+        {
+          "station": "SOO",
+          "arr": null,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "SAT_107",
+      "headcode": "",
+      "operator": "SE",
+      "days": [
+        "SAT"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "TON",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "PDW",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "PDW",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "BEG",
+          "arr": null,
+          "dep": 937
+        },
+        {
+          "station": "YAL",
+          "arr": null,
+          "dep": 941
+        },
+        {
+          "station": "WTR",
+          "arr": null,
+          "dep": 944
+        },
+        {
+          "station": "EFL",
+          "arr": null,
+          "dep": 949
+        },
+        {
+          "station": "MDW",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "MDW",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "MDB",
+          "arr": null,
+          "dep": 957
+        },
+        {
+          "station": "AYL",
+          "arr": null,
+          "dep": 963
+        },
+        {
+          "station": "NHE",
+          "arr": null,
+          "dep": 965
+        },
+        {
+          "station": "SDA",
+          "arr": null,
+          "dep": 969
+        },
+        {
+          "station": "HAI",
+          "arr": null,
+          "dep": 972
+        },
+        {
+          "station": "CUX",
+          "arr": null,
+          "dep": 975
+        },
+        {
+          "station": "SOO",
+          "arr": null,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "SAT_108",
+      "headcode": "",
+      "operator": "SE",
+      "days": [
+        "SAT"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "TON",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "PDW",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "PDW",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "BEG",
+          "arr": null,
+          "dep": 967
+        },
+        {
+          "station": "YAL",
+          "arr": null,
+          "dep": 971
+        },
+        {
+          "station": "WTR",
+          "arr": null,
+          "dep": 974
+        },
+        {
+          "station": "EFL",
+          "arr": null,
+          "dep": 979
+        },
+        {
+          "station": "MDW",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "MDW",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "MDB",
+          "arr": null,
+          "dep": 987
+        },
+        {
+          "station": "AYL",
+          "arr": null,
+          "dep": 993
+        },
+        {
+          "station": "NHE",
+          "arr": null,
+          "dep": 995
+        },
+        {
+          "station": "SDA",
+          "arr": null,
+          "dep": 999
+        },
+        {
+          "station": "HAI",
+          "arr": null,
+          "dep": 1002
+        },
+        {
+          "station": "CUX",
+          "arr": null,
+          "dep": 1005
+        },
+        {
+          "station": "SOO",
+          "arr": null,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "SAT_109",
+      "headcode": "",
+      "operator": "SE",
+      "days": [
+        "SAT"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "TON",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "PDW",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "PDW",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "BEG",
+          "arr": null,
+          "dep": 997
+        },
+        {
+          "station": "YAL",
+          "arr": null,
+          "dep": 1001
+        },
+        {
+          "station": "WTR",
+          "arr": null,
+          "dep": 1004
+        },
+        {
+          "station": "EFL",
+          "arr": null,
+          "dep": 1009
+        },
+        {
+          "station": "MDW",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "MDW",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "MDB",
+          "arr": null,
+          "dep": 1017
+        },
+        {
+          "station": "AYL",
+          "arr": null,
+          "dep": 1023
+        },
+        {
+          "station": "NHE",
+          "arr": null,
+          "dep": 1025
+        },
+        {
+          "station": "SDA",
+          "arr": null,
+          "dep": 1029
+        },
+        {
+          "station": "HAI",
+          "arr": null,
+          "dep": 1032
+        },
+        {
+          "station": "CUX",
+          "arr": null,
+          "dep": 1035
+        },
+        {
+          "station": "SOO",
+          "arr": null,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "SAT_110",
+      "headcode": "",
+      "operator": "SE",
+      "days": [
+        "SAT"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "TON",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "PDW",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "PDW",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "BEG",
+          "arr": null,
+          "dep": 1027
+        },
+        {
+          "station": "YAL",
+          "arr": null,
+          "dep": 1031
+        },
+        {
+          "station": "WTR",
+          "arr": null,
+          "dep": 1034
+        },
+        {
+          "station": "EFL",
+          "arr": null,
+          "dep": 1039
+        },
+        {
+          "station": "MDW",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "MDW",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "MDB",
+          "arr": null,
+          "dep": 1047
+        },
+        {
+          "station": "AYL",
+          "arr": null,
+          "dep": 1053
+        },
+        {
+          "station": "NHE",
+          "arr": null,
+          "dep": 1055
+        },
+        {
+          "station": "SDA",
+          "arr": null,
+          "dep": 1059
+        },
+        {
+          "station": "HAI",
+          "arr": null,
+          "dep": 1062
+        },
+        {
+          "station": "CUX",
+          "arr": null,
+          "dep": 1065
+        },
+        {
+          "station": "SOO",
+          "arr": null,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "SAT_111",
+      "headcode": "",
+      "operator": "SE",
+      "days": [
+        "SAT"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "TON",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "PDW",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "PDW",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "BEG",
+          "arr": null,
+          "dep": 1057
+        },
+        {
+          "station": "YAL",
+          "arr": null,
+          "dep": 1061
+        },
+        {
+          "station": "WTR",
+          "arr": null,
+          "dep": 1064
+        },
+        {
+          "station": "EFL",
+          "arr": null,
+          "dep": 1069
+        },
+        {
+          "station": "MDW",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "MDW",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "MDB",
+          "arr": null,
+          "dep": 1077
+        },
+        {
+          "station": "AYL",
+          "arr": null,
+          "dep": 1083
+        },
+        {
+          "station": "NHE",
+          "arr": null,
+          "dep": 1085
+        },
+        {
+          "station": "SDA",
+          "arr": null,
+          "dep": 1089
+        },
+        {
+          "station": "HAI",
+          "arr": null,
+          "dep": 1092
+        },
+        {
+          "station": "CUX",
+          "arr": null,
+          "dep": 1095
+        },
+        {
+          "station": "SOO",
+          "arr": null,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "SAT_112",
+      "headcode": "",
+      "operator": "SE",
+      "days": [
+        "SAT"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "TON",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "PDW",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "PDW",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "BEG",
+          "arr": null,
+          "dep": 1087
+        },
+        {
+          "station": "YAL",
+          "arr": null,
+          "dep": 1091
+        },
+        {
+          "station": "WTR",
+          "arr": null,
+          "dep": 1094
+        },
+        {
+          "station": "EFL",
+          "arr": null,
+          "dep": 1099
+        },
+        {
+          "station": "MDW",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "MDW",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "MDB",
+          "arr": null,
+          "dep": 1107
+        },
+        {
+          "station": "AYL",
+          "arr": null,
+          "dep": 1113
+        },
+        {
+          "station": "NHE",
+          "arr": null,
+          "dep": 1115
+        },
+        {
+          "station": "SDA",
+          "arr": null,
+          "dep": 1119
+        },
+        {
+          "station": "HAI",
+          "arr": null,
+          "dep": 1122
+        },
+        {
+          "station": "CUX",
+          "arr": null,
+          "dep": 1125
+        },
+        {
+          "station": "SOO",
+          "arr": null,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "SAT_113",
+      "headcode": "",
+      "operator": "SE",
+      "days": [
+        "SAT"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "TON",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "PDW",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "PDW",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "BEG",
+          "arr": null,
+          "dep": 1117
+        },
+        {
+          "station": "YAL",
+          "arr": null,
+          "dep": 1121
+        },
+        {
+          "station": "WTR",
+          "arr": null,
+          "dep": 1124
+        },
+        {
+          "station": "EFL",
+          "arr": null,
+          "dep": 1129
+        },
+        {
+          "station": "MDW",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "MDW",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "MDB",
+          "arr": null,
+          "dep": 1137
+        },
+        {
+          "station": "AYL",
+          "arr": null,
+          "dep": 1143
+        },
+        {
+          "station": "NHE",
+          "arr": null,
+          "dep": 1145
+        },
+        {
+          "station": "SDA",
+          "arr": null,
+          "dep": 1149
+        },
+        {
+          "station": "HAI",
+          "arr": null,
+          "dep": 1152
+        },
+        {
+          "station": "CUX",
+          "arr": null,
+          "dep": 1155
+        },
+        {
+          "station": "SOO",
+          "arr": null,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "SAT_114",
+      "headcode": "",
+      "operator": "SE",
+      "days": [
+        "SAT"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "TON",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "PDW",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "PDW",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "BEG",
+          "arr": null,
+          "dep": 1147
+        },
+        {
+          "station": "YAL",
+          "arr": null,
+          "dep": 1151
+        },
+        {
+          "station": "WTR",
+          "arr": null,
+          "dep": 1154
+        },
+        {
+          "station": "EFL",
+          "arr": null,
+          "dep": 1159
+        },
+        {
+          "station": "MDW",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "MDW",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "MDB",
+          "arr": null,
+          "dep": 1167
+        },
+        {
+          "station": "AYL",
+          "arr": null,
+          "dep": 1173
+        },
+        {
+          "station": "NHE",
+          "arr": null,
+          "dep": 1175
+        },
+        {
+          "station": "SDA",
+          "arr": null,
+          "dep": 1179
+        },
+        {
+          "station": "HAI",
+          "arr": null,
+          "dep": 1182
+        },
+        {
+          "station": "CUX",
+          "arr": null,
+          "dep": 1185
+        },
+        {
+          "station": "SOO",
+          "arr": null,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "SAT_115",
+      "headcode": "",
+      "operator": "SE",
+      "days": [
+        "SAT"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "TON",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "PDW",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "PDW",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "BEG",
+          "arr": null,
+          "dep": 1177
+        },
+        {
+          "station": "YAL",
+          "arr": null,
+          "dep": 1181
+        },
+        {
+          "station": "WTR",
+          "arr": null,
+          "dep": 1184
+        },
+        {
+          "station": "EFL",
+          "arr": null,
+          "dep": 1189
+        },
+        {
+          "station": "MDW",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "MDW",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "MDB",
+          "arr": null,
+          "dep": 1197
+        },
+        {
+          "station": "AYL",
+          "arr": null,
+          "dep": 1203
+        },
+        {
+          "station": "NHE",
+          "arr": null,
+          "dep": 1205
+        },
+        {
+          "station": "SDA",
+          "arr": null,
+          "dep": 1209
+        },
+        {
+          "station": "HAI",
+          "arr": null,
+          "dep": 1212
+        },
+        {
+          "station": "CUX",
+          "arr": null,
+          "dep": 1215
+        },
+        {
+          "station": "SOO",
+          "arr": null,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "SUN_116",
+      "headcode": "",
+      "operator": "SE",
+      "days": [
+        "SUN"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "TON",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "PDW",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "PDW",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "BEG",
+          "arr": null,
+          "dep": 404
+        },
+        {
+          "station": "YAL",
+          "arr": null,
+          "dep": 408
+        },
+        {
+          "station": "WTR",
+          "arr": null,
+          "dep": 412
+        },
+        {
+          "station": "EFL",
+          "arr": null,
+          "dep": 417
+        },
+        {
+          "station": "MDW",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "MDW",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "MDB",
+          "arr": null,
+          "dep": 425
+        },
+        {
+          "station": "AYL",
+          "arr": null,
+          "dep": 430
+        },
+        {
+          "station": "NHE",
+          "arr": null,
+          "dep": 433
+        },
+        {
+          "station": "SDA",
+          "arr": null,
+          "dep": 436
+        },
+        {
+          "station": "HAI",
+          "arr": null,
+          "dep": 439
+        },
+        {
+          "station": "CUX",
+          "arr": null,
+          "dep": 443
+        },
+        {
+          "station": "SOO",
+          "arr": null,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "SUN_117",
+      "headcode": "",
+      "operator": "SE",
+      "days": [
+        "SUN"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "TON",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "PDW",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "PDW",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "BEG",
+          "arr": null,
+          "dep": 464
+        },
+        {
+          "station": "YAL",
+          "arr": null,
+          "dep": 468
+        },
+        {
+          "station": "WTR",
+          "arr": null,
+          "dep": 472
+        },
+        {
+          "station": "EFL",
+          "arr": null,
+          "dep": 477
+        },
+        {
+          "station": "MDW",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "MDW",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "MDB",
+          "arr": null,
+          "dep": 485
+        },
+        {
+          "station": "AYL",
+          "arr": null,
+          "dep": 490
+        },
+        {
+          "station": "NHE",
+          "arr": null,
+          "dep": 493
+        },
+        {
+          "station": "SDA",
+          "arr": null,
+          "dep": 496
+        },
+        {
+          "station": "HAI",
+          "arr": null,
+          "dep": 499
+        },
+        {
+          "station": "CUX",
+          "arr": null,
+          "dep": 503
+        },
+        {
+          "station": "SOO",
+          "arr": null,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "SUN_118",
+      "headcode": "",
+      "operator": "SE",
+      "days": [
+        "SUN"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "TON",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "PDW",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "PDW",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "BEG",
+          "arr": null,
+          "dep": 524
+        },
+        {
+          "station": "YAL",
+          "arr": null,
+          "dep": 528
+        },
+        {
+          "station": "WTR",
+          "arr": null,
+          "dep": 532
+        },
+        {
+          "station": "EFL",
+          "arr": null,
+          "dep": 537
+        },
+        {
+          "station": "MDW",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "MDW",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "MDB",
+          "arr": null,
+          "dep": 545
+        },
+        {
+          "station": "AYL",
+          "arr": null,
+          "dep": 550
+        },
+        {
+          "station": "NHE",
+          "arr": null,
+          "dep": 553
+        },
+        {
+          "station": "SDA",
+          "arr": null,
+          "dep": 556
+        },
+        {
+          "station": "HAI",
+          "arr": null,
+          "dep": 559
+        },
+        {
+          "station": "CUX",
+          "arr": null,
+          "dep": 563
+        },
+        {
+          "station": "SOO",
+          "arr": null,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "SUN_119",
+      "headcode": "",
+      "operator": "SE",
+      "days": [
+        "SUN"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "TON",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "PDW",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "PDW",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "BEG",
+          "arr": null,
+          "dep": 577
+        },
+        {
+          "station": "YAL",
+          "arr": null,
+          "dep": 581
+        },
+        {
+          "station": "WTR",
+          "arr": null,
+          "dep": 584
+        },
+        {
+          "station": "EFL",
+          "arr": null,
+          "dep": 589
+        },
+        {
+          "station": "MDW",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "MDW",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "MDB",
+          "arr": null,
+          "dep": 597
+        },
+        {
+          "station": "AYL",
+          "arr": null,
+          "dep": 603
+        },
+        {
+          "station": "NHE",
+          "arr": null,
+          "dep": 605
+        },
+        {
+          "station": "SDA",
+          "arr": null,
+          "dep": 609
+        },
+        {
+          "station": "HAI",
+          "arr": null,
+          "dep": 612
+        },
+        {
+          "station": "CUX",
+          "arr": null,
+          "dep": 615
+        },
+        {
+          "station": "SOO",
+          "arr": null,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "SUN_120",
+      "headcode": "",
+      "operator": "SE",
+      "days": [
+        "SUN"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "TON",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "PDW",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "PDW",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "BEG",
+          "arr": null,
+          "dep": 637
+        },
+        {
+          "station": "YAL",
+          "arr": null,
+          "dep": 641
+        },
+        {
+          "station": "WTR",
+          "arr": null,
+          "dep": 644
+        },
+        {
+          "station": "EFL",
+          "arr": null,
+          "dep": 649
+        },
+        {
+          "station": "MDW",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "MDW",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "MDB",
+          "arr": null,
+          "dep": 657
+        },
+        {
+          "station": "AYL",
+          "arr": null,
+          "dep": 663
+        },
+        {
+          "station": "NHE",
+          "arr": null,
+          "dep": 665
+        },
+        {
+          "station": "SDA",
+          "arr": null,
+          "dep": 669
+        },
+        {
+          "station": "HAI",
+          "arr": null,
+          "dep": 672
+        },
+        {
+          "station": "CUX",
+          "arr": null,
+          "dep": 675
+        },
+        {
+          "station": "SOO",
+          "arr": null,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "SUN_121",
+      "headcode": "",
+      "operator": "SE",
+      "days": [
+        "SUN"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "TON",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "PDW",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "PDW",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "BEG",
+          "arr": null,
+          "dep": 697
+        },
+        {
+          "station": "YAL",
+          "arr": null,
+          "dep": 701
+        },
+        {
+          "station": "WTR",
+          "arr": null,
+          "dep": 704
+        },
+        {
+          "station": "EFL",
+          "arr": null,
+          "dep": 709
+        },
+        {
+          "station": "MDW",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "MDW",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "MDB",
+          "arr": null,
+          "dep": 717
+        },
+        {
+          "station": "AYL",
+          "arr": null,
+          "dep": 723
+        },
+        {
+          "station": "NHE",
+          "arr": null,
+          "dep": 725
+        },
+        {
+          "station": "SDA",
+          "arr": null,
+          "dep": 729
+        },
+        {
+          "station": "HAI",
+          "arr": null,
+          "dep": 732
+        },
+        {
+          "station": "CUX",
+          "arr": null,
+          "dep": 735
+        },
+        {
+          "station": "SOO",
+          "arr": null,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "SUN_122",
+      "headcode": "",
+      "operator": "SE",
+      "days": [
+        "SUN"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "TON",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "PDW",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "PDW",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "BEG",
+          "arr": null,
+          "dep": 757
+        },
+        {
+          "station": "YAL",
+          "arr": null,
+          "dep": 761
+        },
+        {
+          "station": "WTR",
+          "arr": null,
+          "dep": 764
+        },
+        {
+          "station": "EFL",
+          "arr": null,
+          "dep": 769
+        },
+        {
+          "station": "MDW",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "MDW",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "MDB",
+          "arr": null,
+          "dep": 777
+        },
+        {
+          "station": "AYL",
+          "arr": null,
+          "dep": 783
+        },
+        {
+          "station": "NHE",
+          "arr": null,
+          "dep": 785
+        },
+        {
+          "station": "SDA",
+          "arr": null,
+          "dep": 789
+        },
+        {
+          "station": "HAI",
+          "arr": null,
+          "dep": 792
+        },
+        {
+          "station": "CUX",
+          "arr": null,
+          "dep": 795
+        },
+        {
+          "station": "SOO",
+          "arr": null,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "SUN_123",
+      "headcode": "",
+      "operator": "SE",
+      "days": [
+        "SUN"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "TON",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "PDW",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "PDW",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "BEG",
+          "arr": null,
+          "dep": 817
+        },
+        {
+          "station": "YAL",
+          "arr": null,
+          "dep": 821
+        },
+        {
+          "station": "WTR",
+          "arr": null,
+          "dep": 824
+        },
+        {
+          "station": "EFL",
+          "arr": null,
+          "dep": 829
+        },
+        {
+          "station": "MDW",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "MDW",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "MDB",
+          "arr": null,
+          "dep": 837
+        },
+        {
+          "station": "AYL",
+          "arr": null,
+          "dep": 843
+        },
+        {
+          "station": "NHE",
+          "arr": null,
+          "dep": 845
+        },
+        {
+          "station": "SDA",
+          "arr": null,
+          "dep": 849
+        },
+        {
+          "station": "HAI",
+          "arr": null,
+          "dep": 852
+        },
+        {
+          "station": "CUX",
+          "arr": null,
+          "dep": 855
+        },
+        {
+          "station": "SOO",
+          "arr": null,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "SUN_124",
+      "headcode": "",
+      "operator": "SE",
+      "days": [
+        "SUN"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "TON",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "PDW",
+          "arr": null,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "SUN_125",
+      "headcode": "",
+      "operator": "SE",
+      "days": [
+        "SUN"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "TON",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "PDW",
+          "arr": null,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "SUN_126",
+      "headcode": "",
+      "operator": "SE",
+      "days": [
+        "SUN"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "TON",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "PDW",
+          "arr": null,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "SUN_127",
+      "headcode": "",
+      "operator": "SE",
+      "days": [
+        "SUN"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "TON",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "PDW",
+          "arr": null,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "SUN_128",
+      "headcode": "",
+      "operator": "SE",
+      "days": [
+        "SUN"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "TON",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "PDW",
+          "arr": null,
+          "dep": null
+        }
+      ]
+    }
+  ]
+}

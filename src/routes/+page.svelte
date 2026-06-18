@@ -13,6 +13,8 @@
 	let fuse: Fuse<StationEntry> | null = null;
 	let originQuery = '';
 	let destQuery = '';
+	let fromCrs = '';
+	let toCrs = '';
 	let originSuggestions: StationEntry[] = [];
 	let destSuggestions: StationEntry[] = [];
 	let matches: TableMatch[] = [];
@@ -28,9 +30,13 @@
 		const from = params.get('from');
 		const to = params.get('to');
 		if (from && to) {
-			originQuery = from;
-			destQuery = to;
-			runSearch(from, to);
+			fromCrs = from;
+			toCrs = to;
+			const fromStn = stations.find(s => s.id === from);
+			const toStn = stations.find(s => s.id === to);
+			originQuery = fromStn?.name ?? from;
+			destQuery = toStn?.name ?? to;
+			runSearch(fromCrs, toCrs);
 		}
 	});
 
@@ -48,7 +54,11 @@
 	function onSubmit() {
 		const fromStation = stations.find((s) => s.name === originQuery || s.id === originQuery);
 		const toStation = stations.find((s) => s.name === destQuery || s.id === destQuery);
-		if (fromStation && toStation) goto(`/?from=${fromStation.id}&to=${toStation.id}`);
+		if (fromStation && toStation) {
+			fromCrs = fromStation.id;
+			toCrs = toStation.id;
+			goto(`/?from=${fromCrs}&to=${toCrs}`);
+		}
 	}
 
 	const popularRoutes = [
@@ -121,7 +131,7 @@
 				<h2 class="text-lg font-semibold mb-4">Tables for {originQuery} → {destQuery}</h2>
 				<div class="space-y-3">
 					{#each matches as m}
-						<a href="/table/{m.table}?from={originQuery}&to={destQuery}" class="block bg-slate-800 border border-slate-700 rounded-lg p-4 hover:border-blue-500 transition-colors">
+						<a href="/table/{m.table}?from={fromCrs}&to={toCrs}" class="block bg-slate-800 border border-slate-700 rounded-lg p-4 hover:border-blue-500 transition-colors">
 							<div class="flex items-center justify-between">
 								<div>
 									<span class="text-lg font-medium">Table {m.table}</span>
@@ -149,7 +159,15 @@
 				<h2 class="text-lg font-semibold mb-4">Popular Routes</h2>
 				<div class="grid grid-cols-2 sm:grid-cols-4 gap-3">
 					{#each popularRoutes as route}
-						<button on:click={() => { originQuery = route.from; destQuery = route.to; runSearch(route.from, route.to); }}
+						<button on:click={() => {
+							fromCrs = route.from;
+							toCrs = route.to;
+							const fromStn = stations.find(s => s.id === route.from);
+							const toStn = stations.find(s => s.id === route.to);
+							originQuery = fromStn?.name ?? route.from;
+							destQuery = toStn?.name ?? route.to;
+							runSearch(fromCrs, toCrs);
+						}}
 							class="bg-slate-800 border border-slate-700 rounded-lg px-3 py-2 text-sm hover:border-blue-500 transition-colors text-left">{route.label}</button>
 					{/each}
 				</div>

@@ -1,0 +1,7039 @@
+{
+  "table": "099",
+  "route": "Route 099",
+  "route_id": "t099",
+  "stations": [
+    {
+      "name": "Manchester Airport",
+      "crs": "MIA",
+      "mileage": 0.0,
+      "type": "major"
+    },
+    {
+      "name": "Manchester Piccadilly",
+      "crs": "MAN",
+      "mileage": 168.8,
+      "type": "major"
+    },
+    {
+      "name": "Manchester Oxford Road",
+      "crs": "MCO",
+      "mileage": 0.0,
+      "type": "major"
+    },
+    {
+      "name": "Deansgate",
+      "crs": "DGT",
+      "mileage": 0.0,
+      "type": "major"
+    },
+    {
+      "name": "Rochdale",
+      "crs": "RCD",
+      "mileage": 0.0,
+      "type": "major"
+    },
+    {
+      "name": "Stalybridge",
+      "crs": "SYB",
+      "mileage": 0.0,
+      "type": "interchange"
+    },
+    {
+      "name": "Ashton-under-Lyne",
+      "crs": "AHN",
+      "mileage": 0.0,
+      "type": "interchange"
+    },
+    {
+      "name": "Manchester Victoria",
+      "crs": "MCV",
+      "mileage": 0.0,
+      "type": "major"
+    },
+    {
+      "name": "Salford Central",
+      "crs": "SFD",
+      "mileage": 0.0,
+      "type": "major"
+    },
+    {
+      "name": "Salford Crescent",
+      "crs": "SLD",
+      "mileage": 0.0,
+      "type": "major"
+    },
+    {
+      "name": "Clifton",
+      "crs": "CLI",
+      "mileage": 0.0,
+      "type": "minor"
+    },
+    {
+      "name": "Kearsley",
+      "crs": "KSL",
+      "mileage": 0.0,
+      "type": "minor"
+    },
+    {
+      "name": "Farnworth",
+      "crs": "FNW",
+      "mileage": 0.0,
+      "type": "minor"
+    },
+    {
+      "name": "Moses Gate",
+      "crs": "MSS",
+      "mileage": 0.0,
+      "type": "minor"
+    },
+    {
+      "name": "Bolton",
+      "crs": "BON",
+      "mileage": 0.0,
+      "type": "major"
+    }
+  ],
+  "services": [
+    {
+      "id": "MF_0",
+      "headcode": "",
+      "operator": "NT",
+      "days": [
+        "MF"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "MIA",
+          "arr": null,
+          "dep": 288
+        },
+        {
+          "station": "MAN",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "MCO",
+          "arr": null,
+          "dep": 308
+        },
+        {
+          "station": "DGT",
+          "arr": null,
+          "dep": 355
+        },
+        {
+          "station": "RCD",
+          "arr": null,
+          "dep": 351
+        },
+        {
+          "station": "SYB",
+          "arr": null,
+          "dep": 412
+        },
+        {
+          "station": "AHN",
+          "arr": null,
+          "dep": 415
+        },
+        {
+          "station": "MCV",
+          "arr": null,
+          "dep": 343
+        },
+        {
+          "station": "SFD",
+          "arr": null,
+          "dep": 346
+        },
+        {
+          "station": "SLD",
+          "arr": null,
+          "dep": 313
+        },
+        {
+          "station": "KSL",
+          "arr": null,
+          "dep": 382
+        },
+        {
+          "station": "FNW",
+          "arr": null,
+          "dep": 384
+        },
+        {
+          "station": "MSS",
+          "arr": null,
+          "dep": 387
+        },
+        {
+          "station": "BON",
+          "arr": 322,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "MF_1",
+      "headcode": "",
+      "operator": "NT",
+      "days": [
+        "MF"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "MIA",
+          "arr": null,
+          "dep": 329
+        },
+        {
+          "station": "MAN",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "MCO",
+          "arr": null,
+          "dep": 352
+        },
+        {
+          "station": "DGT",
+          "arr": null,
+          "dep": 399
+        },
+        {
+          "station": "RCD",
+          "arr": null,
+          "dep": 412
+        },
+        {
+          "station": "SYB",
+          "arr": null,
+          "dep": 472
+        },
+        {
+          "station": "AHN",
+          "arr": null,
+          "dep": 475
+        },
+        {
+          "station": "MCV",
+          "arr": null,
+          "dep": 368
+        },
+        {
+          "station": "SFD",
+          "arr": null,
+          "dep": 371
+        },
+        {
+          "station": "SLD",
+          "arr": null,
+          "dep": 351
+        },
+        {
+          "station": "KSL",
+          "arr": null,
+          "dep": 443
+        },
+        {
+          "station": "FNW",
+          "arr": null,
+          "dep": 445
+        },
+        {
+          "station": "MSS",
+          "arr": null,
+          "dep": 448
+        },
+        {
+          "station": "BON",
+          "arr": 362,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "MF_2",
+      "headcode": "",
+      "operator": "NT",
+      "days": [
+        "MF"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "MIA",
+          "arr": null,
+          "dep": 348
+        },
+        {
+          "station": "MAN",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "MCO",
+          "arr": null,
+          "dep": 366
+        },
+        {
+          "station": "DGT",
+          "arr": null,
+          "dep": 428
+        },
+        {
+          "station": "RCD",
+          "arr": null,
+          "dep": 441
+        },
+        {
+          "station": "MCV",
+          "arr": null,
+          "dep": 374
+        },
+        {
+          "station": "SFD",
+          "arr": null,
+          "dep": 377
+        },
+        {
+          "station": "SLD",
+          "arr": null,
+          "dep": 371
+        },
+        {
+          "station": "KSL",
+          "arr": null,
+          "dep": 503
+        },
+        {
+          "station": "FNW",
+          "arr": null,
+          "dep": 505
+        },
+        {
+          "station": "MSS",
+          "arr": null,
+          "dep": 508
+        },
+        {
+          "station": "BON",
+          "arr": 367,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "MF_3",
+      "headcode": "",
+      "operator": "NT",
+      "days": [
+        "MF"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "MIA",
+          "arr": null,
+          "dep": 377
+        },
+        {
+          "station": "MAN",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "MCO",
+          "arr": null,
+          "dep": 396
+        },
+        {
+          "station": "DGT",
+          "arr": null,
+          "dep": 453
+        },
+        {
+          "station": "RCD",
+          "arr": null,
+          "dep": 472
+        },
+        {
+          "station": "MCV",
+          "arr": null,
+          "dep": 392
+        },
+        {
+          "station": "SFD",
+          "arr": null,
+          "dep": 395
+        },
+        {
+          "station": "SLD",
+          "arr": null,
+          "dep": 375
+        },
+        {
+          "station": "BON",
+          "arr": 380,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "MF_4",
+      "headcode": "",
+      "operator": "NT",
+      "days": [
+        "MF"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "MIA",
+          "arr": null,
+          "dep": 408
+        },
+        {
+          "station": "MAN",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "MCO",
+          "arr": null,
+          "dep": 426
+        },
+        {
+          "station": "DGT",
+          "arr": null,
+          "dep": 459
+        },
+        {
+          "station": "MCV",
+          "arr": null,
+          "dep": 429
+        },
+        {
+          "station": "SFD",
+          "arr": null,
+          "dep": 432
+        },
+        {
+          "station": "SLD",
+          "arr": null,
+          "dep": 381
+        },
+        {
+          "station": "BON",
+          "arr": 390,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "MF_5",
+      "headcode": "",
+      "operator": "NT",
+      "days": [
+        "MF"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "MIA",
+          "arr": null,
+          "dep": 437
+        },
+        {
+          "station": "MAN",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "MCO",
+          "arr": null,
+          "dep": 447
+        },
+        {
+          "station": "DGT",
+          "arr": null,
+          "dep": 476
+        },
+        {
+          "station": "MCV",
+          "arr": null,
+          "dep": 435
+        },
+        {
+          "station": "SFD",
+          "arr": null,
+          "dep": 438
+        },
+        {
+          "station": "SLD",
+          "arr": null,
+          "dep": 399
+        },
+        {
+          "station": "BON",
+          "arr": 393,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "MF_6",
+      "headcode": "",
+      "operator": "NT",
+      "days": [
+        "MF"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "MIA",
+          "arr": null,
+          "dep": 449
+        },
+        {
+          "station": "MAN",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "MCO",
+          "arr": null,
+          "dep": 457
+        },
+        {
+          "station": "DGT",
+          "arr": null,
+          "dep": 488
+        },
+        {
+          "station": "MCV",
+          "arr": null,
+          "dep": 463
+        },
+        {
+          "station": "SFD",
+          "arr": null,
+          "dep": 466
+        },
+        {
+          "station": "SLD",
+          "arr": null,
+          "dep": 403
+        },
+        {
+          "station": "BON",
+          "arr": 409,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "MF_7",
+      "headcode": "",
+      "operator": "NT",
+      "days": [
+        "MF"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "MIA",
+          "arr": null,
+          "dep": 468
+        },
+        {
+          "station": "MAN",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "MCO",
+          "arr": null,
+          "dep": 473
+        },
+        {
+          "station": "MCV",
+          "arr": null,
+          "dep": 489
+        },
+        {
+          "station": "SFD",
+          "arr": null,
+          "dep": 492
+        },
+        {
+          "station": "SLD",
+          "arr": null,
+          "dep": 432
+        },
+        {
+          "station": "BON",
+          "arr": 413,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "MF_8",
+      "headcode": "",
+      "operator": "NT",
+      "days": [
+        "MF"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "MCO",
+          "arr": null,
+          "dep": 486
+        },
+        {
+          "station": "MCV",
+          "arr": null,
+          "dep": 495
+        },
+        {
+          "station": "SFD",
+          "arr": null,
+          "dep": 498
+        },
+        {
+          "station": "SLD",
+          "arr": null,
+          "dep": 436
+        },
+        {
+          "station": "BON",
+          "arr": 441,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "MF_9",
+      "headcode": "",
+      "operator": "NT",
+      "days": [
+        "MF"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "SLD",
+          "arr": null,
+          "dep": 442
+        },
+        {
+          "station": "BON",
+          "arr": 451,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "MF_10",
+      "headcode": "",
+      "operator": "NT",
+      "days": [
+        "MF"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "SLD",
+          "arr": null,
+          "dep": 458
+        },
+        {
+          "station": "BON",
+          "arr": 454,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "MF_11",
+      "headcode": "",
+      "operator": "NT",
+      "days": [
+        "MF"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "SLD",
+          "arr": null,
+          "dep": 463
+        },
+        {
+          "station": "BON",
+          "arr": 469,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "MF_12",
+      "headcode": "",
+      "operator": "NT",
+      "days": [
+        "MF"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "SLD",
+          "arr": null,
+          "dep": 472
+        },
+        {
+          "station": "BON",
+          "arr": 472,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "MF_13",
+      "headcode": "",
+      "operator": "NT",
+      "days": [
+        "MF"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "SLD",
+          "arr": null,
+          "dep": 492
+        },
+        {
+          "station": "BON",
+          "arr": 484,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "MF_14",
+      "headcode": "",
+      "operator": "NT",
+      "days": [
+        "MF"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "SLD",
+          "arr": null,
+          "dep": 496
+        },
+        {
+          "station": "BON",
+          "arr": 488,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "MF_15",
+      "headcode": "",
+      "operator": "NT",
+      "days": [
+        "MF"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "SLD",
+          "arr": null,
+          "dep": 502
+        },
+        {
+          "station": "BON",
+          "arr": 501,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "MF_16",
+      "headcode": "",
+      "operator": "NT",
+      "days": [
+        "MF"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "BON",
+          "arr": 511,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "MF_17",
+      "headcode": "",
+      "operator": "",
+      "days": [
+        "MF"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "BON",
+          "arr": 514,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "MF_18",
+      "headcode": "",
+      "operator": "NT",
+      "days": [
+        "MF"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "MIA",
+          "arr": null,
+          "dep": 977
+        },
+        {
+          "station": "MAN",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "MCO",
+          "arr": null,
+          "dep": 987
+        },
+        {
+          "station": "DGT",
+          "arr": null,
+          "dep": 993
+        },
+        {
+          "station": "RCD",
+          "arr": null,
+          "dep": 981
+        },
+        {
+          "station": "SYB",
+          "arr": null,
+          "dep": 1012
+        },
+        {
+          "station": "AHN",
+          "arr": null,
+          "dep": 1015
+        },
+        {
+          "station": "MCV",
+          "arr": null,
+          "dep": 1003
+        },
+        {
+          "station": "SFD",
+          "arr": null,
+          "dep": 1006
+        },
+        {
+          "station": "SLD",
+          "arr": null,
+          "dep": 998
+        },
+        {
+          "station": "CLI",
+          "arr": null,
+          "dep": 1100
+        },
+        {
+          "station": "KSL",
+          "arr": null,
+          "dep": 1043
+        },
+        {
+          "station": "FNW",
+          "arr": null,
+          "dep": 1045
+        },
+        {
+          "station": "MSS",
+          "arr": null,
+          "dep": 1048
+        },
+        {
+          "station": "BON",
+          "arr": 1009,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "MF_19",
+      "headcode": "",
+      "operator": "NT",
+      "days": [
+        "MF"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "MIA",
+          "arr": null,
+          "dep": 989
+        },
+        {
+          "station": "MAN",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "MCO",
+          "arr": null,
+          "dep": 997
+        },
+        {
+          "station": "DGT",
+          "arr": null,
+          "dep": 999
+        },
+        {
+          "station": "RCD",
+          "arr": null,
+          "dep": 1012
+        },
+        {
+          "station": "SYB",
+          "arr": null,
+          "dep": 1072
+        },
+        {
+          "station": "AHN",
+          "arr": null,
+          "dep": 1075
+        },
+        {
+          "station": "MCV",
+          "arr": null,
+          "dep": 1029
+        },
+        {
+          "station": "SFD",
+          "arr": null,
+          "dep": 1032
+        },
+        {
+          "station": "SLD",
+          "arr": null,
+          "dep": 1003
+        },
+        {
+          "station": "KSL",
+          "arr": null,
+          "dep": 1105
+        },
+        {
+          "station": "FNW",
+          "arr": null,
+          "dep": 1079
+        },
+        {
+          "station": "MSS",
+          "arr": null,
+          "dep": 1108
+        },
+        {
+          "station": "BON",
+          "arr": 1012,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "MF_20",
+      "headcode": "",
+      "operator": "NT",
+      "days": [
+        "MF"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "MIA",
+          "arr": null,
+          "dep": 1008
+        },
+        {
+          "station": "MAN",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "MCO",
+          "arr": null,
+          "dep": 1013
+        },
+        {
+          "station": "DGT",
+          "arr": null,
+          "dep": 1016
+        },
+        {
+          "station": "RCD",
+          "arr": null,
+          "dep": 1041
+        },
+        {
+          "station": "MCV",
+          "arr": null,
+          "dep": 1035
+        },
+        {
+          "station": "SFD",
+          "arr": null,
+          "dep": 1038
+        },
+        {
+          "station": "SLD",
+          "arr": null,
+          "dep": 1011
+        },
+        {
+          "station": "FNW",
+          "arr": null,
+          "dep": 1110
+        },
+        {
+          "station": "BON",
+          "arr": 1022,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "MF_21",
+      "headcode": "",
+      "operator": "NT",
+      "days": [
+        "MF"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "MIA",
+          "arr": null,
+          "dep": 1037
+        },
+        {
+          "station": "MAN",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "MCO",
+          "arr": null,
+          "dep": 1026
+        },
+        {
+          "station": "DGT",
+          "arr": null,
+          "dep": 1028
+        },
+        {
+          "station": "RCD",
+          "arr": null,
+          "dep": 1072
+        },
+        {
+          "station": "MCV",
+          "arr": null,
+          "dep": 1063
+        },
+        {
+          "station": "SFD",
+          "arr": null,
+          "dep": 1066
+        },
+        {
+          "station": "SLD",
+          "arr": null,
+          "dep": 1032
+        },
+        {
+          "station": "BON",
+          "arr": 1028,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "MF_22",
+      "headcode": "",
+      "operator": "NT",
+      "days": [
+        "MF"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "MIA",
+          "arr": null,
+          "dep": 1049
+        },
+        {
+          "station": "MAN",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "MCO",
+          "arr": null,
+          "dep": 1047
+        },
+        {
+          "station": "DGT",
+          "arr": null,
+          "dep": 1053
+        },
+        {
+          "station": "RCD",
+          "arr": null,
+          "dep": 1102
+        },
+        {
+          "station": "MCV",
+          "arr": null,
+          "dep": 1088
+        },
+        {
+          "station": "SFD",
+          "arr": null,
+          "dep": 1092
+        },
+        {
+          "station": "SLD",
+          "arr": null,
+          "dep": 1036
+        },
+        {
+          "station": "BON",
+          "arr": 1041,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "MF_23",
+      "headcode": "",
+      "operator": "NT",
+      "days": [
+        "MF"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "MIA",
+          "arr": null,
+          "dep": 1068
+        },
+        {
+          "station": "MAN",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "MCO",
+          "arr": null,
+          "dep": 1057
+        },
+        {
+          "station": "DGT",
+          "arr": null,
+          "dep": 1059
+        },
+        {
+          "station": "MCV",
+          "arr": null,
+          "dep": 1095
+        },
+        {
+          "station": "SFD",
+          "arr": null,
+          "dep": 1098
+        },
+        {
+          "station": "SLD",
+          "arr": null,
+          "dep": 1042
+        },
+        {
+          "station": "BON",
+          "arr": 1051,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "MF_24",
+      "headcode": "",
+      "operator": "NT",
+      "days": [
+        "MF"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "MIA",
+          "arr": null,
+          "dep": 1097
+        },
+        {
+          "station": "MAN",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "MCO",
+          "arr": null,
+          "dep": 1073
+        },
+        {
+          "station": "DGT",
+          "arr": null,
+          "dep": 1076
+        },
+        {
+          "station": "MCV",
+          "arr": null,
+          "dep": 1123
+        },
+        {
+          "station": "SFD",
+          "arr": null,
+          "dep": 1126
+        },
+        {
+          "station": "SLD",
+          "arr": null,
+          "dep": 1058
+        },
+        {
+          "station": "BON",
+          "arr": 1054,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "MF_25",
+      "headcode": "",
+      "operator": "NT",
+      "days": [
+        "MF"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "MIA",
+          "arr": null,
+          "dep": 1109
+        },
+        {
+          "station": "MAN",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "MCO",
+          "arr": null,
+          "dep": 1086
+        },
+        {
+          "station": "DGT",
+          "arr": null,
+          "dep": 1088
+        },
+        {
+          "station": "SLD",
+          "arr": null,
+          "dep": 1063
+        },
+        {
+          "station": "BON",
+          "arr": 1069,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "MF_26",
+      "headcode": "",
+      "operator": "NT",
+      "days": [
+        "MF"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "MCO",
+          "arr": null,
+          "dep": 1107
+        },
+        {
+          "station": "DGT",
+          "arr": null,
+          "dep": 1113
+        },
+        {
+          "station": "SLD",
+          "arr": null,
+          "dep": 1071
+        },
+        {
+          "station": "BON",
+          "arr": 1072,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "MF_27",
+      "headcode": "",
+      "operator": "NT",
+      "days": [
+        "MF"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "MCO",
+          "arr": null,
+          "dep": 1117
+        },
+        {
+          "station": "DGT",
+          "arr": null,
+          "dep": 1119
+        },
+        {
+          "station": "SLD",
+          "arr": null,
+          "dep": 1092
+        },
+        {
+          "station": "BON",
+          "arr": 1085,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "MF_28",
+      "headcode": "",
+      "operator": "NT",
+      "days": [
+        "MF"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "MCO",
+          "arr": null,
+          "dep": 1133
+        },
+        {
+          "station": "DGT",
+          "arr": null,
+          "dep": 1136
+        },
+        {
+          "station": "SLD",
+          "arr": null,
+          "dep": 1095
+        },
+        {
+          "station": "BON",
+          "arr": 1089,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "MF_29",
+      "headcode": "",
+      "operator": "NT",
+      "days": [
+        "MF"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "SLD",
+          "arr": null,
+          "dep": 1102
+        },
+        {
+          "station": "BON",
+          "arr": 1101,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "MF_30",
+      "headcode": "",
+      "operator": "NT",
+      "days": [
+        "MF"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "SLD",
+          "arr": null,
+          "dep": 1118
+        },
+        {
+          "station": "BON",
+          "arr": 1112,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "MF_31",
+      "headcode": "",
+      "operator": "NT",
+      "days": [
+        "MF"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "SLD",
+          "arr": null,
+          "dep": 1124
+        },
+        {
+          "station": "BON",
+          "arr": 1116,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "MF_32",
+      "headcode": "",
+      "operator": "NT",
+      "days": [
+        "MF"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "SLD",
+          "arr": null,
+          "dep": 1131
+        },
+        {
+          "station": "BON",
+          "arr": 1129,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "MF_33",
+      "headcode": "",
+      "operator": "NT",
+      "days": [
+        "MF"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "BON",
+          "arr": 1133,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "MF_34",
+      "headcode": "",
+      "operator": "NT",
+      "days": [
+        "MF"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "BON",
+          "arr": 1142,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "MF_35",
+      "headcode": "",
+      "operator": "",
+      "days": [
+        "MF"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "BON",
+          "arr": 1148,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "SAT_36",
+      "headcode": "",
+      "operator": "NT",
+      "days": [
+        "SAT"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "MIA",
+          "arr": null,
+          "dep": 288
+        },
+        {
+          "station": "MAN",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "MCO",
+          "arr": null,
+          "dep": 308
+        },
+        {
+          "station": "DGT",
+          "arr": null,
+          "dep": 355
+        },
+        {
+          "station": "RCD",
+          "arr": null,
+          "dep": 351
+        },
+        {
+          "station": "SYB",
+          "arr": null,
+          "dep": 412
+        },
+        {
+          "station": "AHN",
+          "arr": null,
+          "dep": 415
+        },
+        {
+          "station": "MCV",
+          "arr": null,
+          "dep": 343
+        },
+        {
+          "station": "SFD",
+          "arr": null,
+          "dep": 346
+        },
+        {
+          "station": "SLD",
+          "arr": null,
+          "dep": 313
+        },
+        {
+          "station": "KSL",
+          "arr": null,
+          "dep": 382
+        },
+        {
+          "station": "FNW",
+          "arr": null,
+          "dep": 384
+        },
+        {
+          "station": "MSS",
+          "arr": null,
+          "dep": 387
+        },
+        {
+          "station": "BON",
+          "arr": 322,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "SAT_37",
+      "headcode": "",
+      "operator": "NT",
+      "days": [
+        "SAT"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "MIA",
+          "arr": null,
+          "dep": 329
+        },
+        {
+          "station": "MAN",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "MCO",
+          "arr": null,
+          "dep": 352
+        },
+        {
+          "station": "DGT",
+          "arr": null,
+          "dep": 399
+        },
+        {
+          "station": "RCD",
+          "arr": null,
+          "dep": 412
+        },
+        {
+          "station": "SYB",
+          "arr": null,
+          "dep": 472
+        },
+        {
+          "station": "AHN",
+          "arr": null,
+          "dep": 475
+        },
+        {
+          "station": "MCV",
+          "arr": null,
+          "dep": 368
+        },
+        {
+          "station": "SFD",
+          "arr": null,
+          "dep": 371
+        },
+        {
+          "station": "SLD",
+          "arr": null,
+          "dep": 351
+        },
+        {
+          "station": "KSL",
+          "arr": null,
+          "dep": 443
+        },
+        {
+          "station": "FNW",
+          "arr": null,
+          "dep": 445
+        },
+        {
+          "station": "MSS",
+          "arr": null,
+          "dep": 448
+        },
+        {
+          "station": "BON",
+          "arr": 362,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "SAT_38",
+      "headcode": "",
+      "operator": "NT",
+      "days": [
+        "SAT"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "MIA",
+          "arr": null,
+          "dep": 348
+        },
+        {
+          "station": "MAN",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "MCO",
+          "arr": null,
+          "dep": 366
+        },
+        {
+          "station": "DGT",
+          "arr": null,
+          "dep": 428
+        },
+        {
+          "station": "RCD",
+          "arr": null,
+          "dep": 441
+        },
+        {
+          "station": "MCV",
+          "arr": null,
+          "dep": 374
+        },
+        {
+          "station": "SFD",
+          "arr": null,
+          "dep": 377
+        },
+        {
+          "station": "SLD",
+          "arr": null,
+          "dep": 371
+        },
+        {
+          "station": "KSL",
+          "arr": null,
+          "dep": 503
+        },
+        {
+          "station": "FNW",
+          "arr": null,
+          "dep": 505
+        },
+        {
+          "station": "MSS",
+          "arr": null,
+          "dep": 508
+        },
+        {
+          "station": "BON",
+          "arr": 367,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "SAT_39",
+      "headcode": "",
+      "operator": "NT",
+      "days": [
+        "SAT"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "MIA",
+          "arr": null,
+          "dep": 377
+        },
+        {
+          "station": "MAN",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "MCO",
+          "arr": null,
+          "dep": 396
+        },
+        {
+          "station": "DGT",
+          "arr": null,
+          "dep": 453
+        },
+        {
+          "station": "RCD",
+          "arr": null,
+          "dep": 472
+        },
+        {
+          "station": "MCV",
+          "arr": null,
+          "dep": 392
+        },
+        {
+          "station": "SFD",
+          "arr": null,
+          "dep": 395
+        },
+        {
+          "station": "SLD",
+          "arr": null,
+          "dep": 375
+        },
+        {
+          "station": "BON",
+          "arr": 380,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "SAT_40",
+      "headcode": "",
+      "operator": "NT",
+      "days": [
+        "SAT"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "MIA",
+          "arr": null,
+          "dep": 408
+        },
+        {
+          "station": "MAN",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "MCO",
+          "arr": null,
+          "dep": 426
+        },
+        {
+          "station": "DGT",
+          "arr": null,
+          "dep": 459
+        },
+        {
+          "station": "MCV",
+          "arr": null,
+          "dep": 429
+        },
+        {
+          "station": "SFD",
+          "arr": null,
+          "dep": 432
+        },
+        {
+          "station": "SLD",
+          "arr": null,
+          "dep": 381
+        },
+        {
+          "station": "BON",
+          "arr": 390,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "SAT_41",
+      "headcode": "",
+      "operator": "NT",
+      "days": [
+        "SAT"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "MIA",
+          "arr": null,
+          "dep": 437
+        },
+        {
+          "station": "MAN",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "MCO",
+          "arr": null,
+          "dep": 447
+        },
+        {
+          "station": "DGT",
+          "arr": null,
+          "dep": 476
+        },
+        {
+          "station": "MCV",
+          "arr": null,
+          "dep": 435
+        },
+        {
+          "station": "SFD",
+          "arr": null,
+          "dep": 438
+        },
+        {
+          "station": "SLD",
+          "arr": null,
+          "dep": 399
+        },
+        {
+          "station": "BON",
+          "arr": 393,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "SAT_42",
+      "headcode": "",
+      "operator": "NT",
+      "days": [
+        "SAT"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "MIA",
+          "arr": null,
+          "dep": 449
+        },
+        {
+          "station": "MAN",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "MCO",
+          "arr": null,
+          "dep": 457
+        },
+        {
+          "station": "DGT",
+          "arr": null,
+          "dep": 488
+        },
+        {
+          "station": "MCV",
+          "arr": null,
+          "dep": 463
+        },
+        {
+          "station": "SFD",
+          "arr": null,
+          "dep": 466
+        },
+        {
+          "station": "SLD",
+          "arr": null,
+          "dep": 403
+        },
+        {
+          "station": "BON",
+          "arr": 409,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "SAT_43",
+      "headcode": "",
+      "operator": "NT",
+      "days": [
+        "SAT"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "MIA",
+          "arr": null,
+          "dep": 468
+        },
+        {
+          "station": "MAN",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "MCO",
+          "arr": null,
+          "dep": 473
+        },
+        {
+          "station": "MCV",
+          "arr": null,
+          "dep": 489
+        },
+        {
+          "station": "SFD",
+          "arr": null,
+          "dep": 492
+        },
+        {
+          "station": "SLD",
+          "arr": null,
+          "dep": 432
+        },
+        {
+          "station": "BON",
+          "arr": 413,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "SAT_44",
+      "headcode": "",
+      "operator": "NT",
+      "days": [
+        "SAT"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "MCO",
+          "arr": null,
+          "dep": 486
+        },
+        {
+          "station": "MCV",
+          "arr": null,
+          "dep": 495
+        },
+        {
+          "station": "SFD",
+          "arr": null,
+          "dep": 498
+        },
+        {
+          "station": "SLD",
+          "arr": null,
+          "dep": 436
+        },
+        {
+          "station": "BON",
+          "arr": 441,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "SAT_45",
+      "headcode": "",
+      "operator": "NT",
+      "days": [
+        "SAT"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "SLD",
+          "arr": null,
+          "dep": 442
+        },
+        {
+          "station": "BON",
+          "arr": 451,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "SAT_46",
+      "headcode": "",
+      "operator": "NT",
+      "days": [
+        "SAT"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "SLD",
+          "arr": null,
+          "dep": 458
+        },
+        {
+          "station": "BON",
+          "arr": 454,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "SAT_47",
+      "headcode": "",
+      "operator": "NT",
+      "days": [
+        "SAT"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "SLD",
+          "arr": null,
+          "dep": 463
+        },
+        {
+          "station": "BON",
+          "arr": 469,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "SAT_48",
+      "headcode": "",
+      "operator": "NT",
+      "days": [
+        "SAT"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "SLD",
+          "arr": null,
+          "dep": 472
+        },
+        {
+          "station": "BON",
+          "arr": 472,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "SAT_49",
+      "headcode": "",
+      "operator": "NT",
+      "days": [
+        "SAT"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "SLD",
+          "arr": null,
+          "dep": 492
+        },
+        {
+          "station": "BON",
+          "arr": 484,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "SAT_50",
+      "headcode": "",
+      "operator": "NT",
+      "days": [
+        "SAT"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "SLD",
+          "arr": null,
+          "dep": 496
+        },
+        {
+          "station": "BON",
+          "arr": 488,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "SAT_51",
+      "headcode": "",
+      "operator": "NT",
+      "days": [
+        "SAT"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "SLD",
+          "arr": null,
+          "dep": 502
+        },
+        {
+          "station": "BON",
+          "arr": 501,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "SAT_52",
+      "headcode": "",
+      "operator": "NT",
+      "days": [
+        "SAT"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "BON",
+          "arr": 511,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "SAT_53",
+      "headcode": "",
+      "operator": "",
+      "days": [
+        "SAT"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "BON",
+          "arr": 514,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "SAT_54",
+      "headcode": "",
+      "operator": "NT",
+      "days": [
+        "SAT"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "MIA",
+          "arr": null,
+          "dep": 977
+        },
+        {
+          "station": "MAN",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "MCO",
+          "arr": null,
+          "dep": 987
+        },
+        {
+          "station": "DGT",
+          "arr": null,
+          "dep": 993
+        },
+        {
+          "station": "RCD",
+          "arr": null,
+          "dep": 952
+        },
+        {
+          "station": "SYB",
+          "arr": null,
+          "dep": 952
+        },
+        {
+          "station": "AHN",
+          "arr": null,
+          "dep": 955
+        },
+        {
+          "station": "MCV",
+          "arr": null,
+          "dep": 969
+        },
+        {
+          "station": "SFD",
+          "arr": null,
+          "dep": 972
+        },
+        {
+          "station": "SLD",
+          "arr": null,
+          "dep": 976
+        },
+        {
+          "station": "CLI",
+          "arr": null,
+          "dep": 1100
+        },
+        {
+          "station": "KSL",
+          "arr": null,
+          "dep": 983
+        },
+        {
+          "station": "FNW",
+          "arr": null,
+          "dep": 985
+        },
+        {
+          "station": "MSS",
+          "arr": null,
+          "dep": 988
+        },
+        {
+          "station": "BON",
+          "arr": 991,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "SAT_55",
+      "headcode": "",
+      "operator": "NT",
+      "days": [
+        "SAT"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "MIA",
+          "arr": null,
+          "dep": 989
+        },
+        {
+          "station": "MAN",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "MCO",
+          "arr": null,
+          "dep": 997
+        },
+        {
+          "station": "DGT",
+          "arr": null,
+          "dep": 999
+        },
+        {
+          "station": "RCD",
+          "arr": null,
+          "dep": 981
+        },
+        {
+          "station": "SYB",
+          "arr": null,
+          "dep": 1012
+        },
+        {
+          "station": "AHN",
+          "arr": null,
+          "dep": 1015
+        },
+        {
+          "station": "MCV",
+          "arr": null,
+          "dep": 975
+        },
+        {
+          "station": "SFD",
+          "arr": null,
+          "dep": 978
+        },
+        {
+          "station": "SLD",
+          "arr": null,
+          "dep": 982
+        },
+        {
+          "station": "KSL",
+          "arr": null,
+          "dep": 1043
+        },
+        {
+          "station": "FNW",
+          "arr": null,
+          "dep": 1045
+        },
+        {
+          "station": "MSS",
+          "arr": null,
+          "dep": 1048
+        },
+        {
+          "station": "BON",
+          "arr": 994,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "SAT_56",
+      "headcode": "",
+      "operator": "NT",
+      "days": [
+        "SAT"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "MIA",
+          "arr": null,
+          "dep": 1008
+        },
+        {
+          "station": "MAN",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "MCO",
+          "arr": null,
+          "dep": 1013
+        },
+        {
+          "station": "DGT",
+          "arr": null,
+          "dep": 1016
+        },
+        {
+          "station": "RCD",
+          "arr": null,
+          "dep": 1012
+        },
+        {
+          "station": "SYB",
+          "arr": null,
+          "dep": 1072
+        },
+        {
+          "station": "AHN",
+          "arr": null,
+          "dep": 1075
+        },
+        {
+          "station": "MCV",
+          "arr": null,
+          "dep": 1003
+        },
+        {
+          "station": "SFD",
+          "arr": null,
+          "dep": 1006
+        },
+        {
+          "station": "SLD",
+          "arr": null,
+          "dep": 998
+        },
+        {
+          "station": "KSL",
+          "arr": null,
+          "dep": 1105
+        },
+        {
+          "station": "FNW",
+          "arr": null,
+          "dep": 1079
+        },
+        {
+          "station": "MSS",
+          "arr": null,
+          "dep": 1108
+        },
+        {
+          "station": "BON",
+          "arr": 1009,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "SAT_57",
+      "headcode": "",
+      "operator": "NT",
+      "days": [
+        "SAT"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "MIA",
+          "arr": null,
+          "dep": 1037
+        },
+        {
+          "station": "MAN",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "MCO",
+          "arr": null,
+          "dep": 1026
+        },
+        {
+          "station": "DGT",
+          "arr": null,
+          "dep": 1028
+        },
+        {
+          "station": "RCD",
+          "arr": null,
+          "dep": 1041
+        },
+        {
+          "station": "MCV",
+          "arr": null,
+          "dep": 1029
+        },
+        {
+          "station": "SFD",
+          "arr": null,
+          "dep": 1032
+        },
+        {
+          "station": "SLD",
+          "arr": null,
+          "dep": 1003
+        },
+        {
+          "station": "FNW",
+          "arr": null,
+          "dep": 1110
+        },
+        {
+          "station": "BON",
+          "arr": 1012,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "SAT_58",
+      "headcode": "",
+      "operator": "NT",
+      "days": [
+        "SAT"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "MIA",
+          "arr": null,
+          "dep": 1049
+        },
+        {
+          "station": "MAN",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "MCO",
+          "arr": null,
+          "dep": 1047
+        },
+        {
+          "station": "DGT",
+          "arr": null,
+          "dep": 1053
+        },
+        {
+          "station": "RCD",
+          "arr": null,
+          "dep": 1072
+        },
+        {
+          "station": "MCV",
+          "arr": null,
+          "dep": 1035
+        },
+        {
+          "station": "SFD",
+          "arr": null,
+          "dep": 1038
+        },
+        {
+          "station": "SLD",
+          "arr": null,
+          "dep": 1011
+        },
+        {
+          "station": "BON",
+          "arr": 1022,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "SAT_59",
+      "headcode": "",
+      "operator": "NT",
+      "days": [
+        "SAT"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "MIA",
+          "arr": null,
+          "dep": 1068
+        },
+        {
+          "station": "MAN",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "MCO",
+          "arr": null,
+          "dep": 1057
+        },
+        {
+          "station": "DGT",
+          "arr": null,
+          "dep": 1059
+        },
+        {
+          "station": "MCV",
+          "arr": null,
+          "dep": 1063
+        },
+        {
+          "station": "SFD",
+          "arr": null,
+          "dep": 1066
+        },
+        {
+          "station": "SLD",
+          "arr": null,
+          "dep": 1032
+        },
+        {
+          "station": "BON",
+          "arr": 1028,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "SAT_60",
+      "headcode": "",
+      "operator": "NT",
+      "days": [
+        "SAT"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "MIA",
+          "arr": null,
+          "dep": 1097
+        },
+        {
+          "station": "MAN",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "MCO",
+          "arr": null,
+          "dep": 1073
+        },
+        {
+          "station": "DGT",
+          "arr": null,
+          "dep": 1076
+        },
+        {
+          "station": "MCV",
+          "arr": null,
+          "dep": 1088
+        },
+        {
+          "station": "SFD",
+          "arr": null,
+          "dep": 1092
+        },
+        {
+          "station": "SLD",
+          "arr": null,
+          "dep": 1036
+        },
+        {
+          "station": "BON",
+          "arr": 1041,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "SAT_61",
+      "headcode": "",
+      "operator": "NT",
+      "days": [
+        "SAT"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "MCO",
+          "arr": null,
+          "dep": 1086
+        },
+        {
+          "station": "DGT",
+          "arr": null,
+          "dep": 1088
+        },
+        {
+          "station": "MCV",
+          "arr": null,
+          "dep": 1095
+        },
+        {
+          "station": "SFD",
+          "arr": null,
+          "dep": 1098
+        },
+        {
+          "station": "SLD",
+          "arr": null,
+          "dep": 1042
+        },
+        {
+          "station": "BON",
+          "arr": 1051,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "SAT_62",
+      "headcode": "",
+      "operator": "NT",
+      "days": [
+        "SAT"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "MCO",
+          "arr": null,
+          "dep": 1107
+        },
+        {
+          "station": "DGT",
+          "arr": null,
+          "dep": 1113
+        },
+        {
+          "station": "SLD",
+          "arr": null,
+          "dep": 1058
+        },
+        {
+          "station": "BON",
+          "arr": 1054,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "SAT_63",
+      "headcode": "",
+      "operator": "NT",
+      "days": [
+        "SAT"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "MCO",
+          "arr": null,
+          "dep": 1117
+        },
+        {
+          "station": "DGT",
+          "arr": null,
+          "dep": 1119
+        },
+        {
+          "station": "SLD",
+          "arr": null,
+          "dep": 1063
+        },
+        {
+          "station": "BON",
+          "arr": 1069,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "SAT_64",
+      "headcode": "",
+      "operator": "NT",
+      "days": [
+        "SAT"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "SLD",
+          "arr": null,
+          "dep": 1071
+        },
+        {
+          "station": "BON",
+          "arr": 1072,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "SAT_65",
+      "headcode": "",
+      "operator": "NT",
+      "days": [
+        "SAT"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "SLD",
+          "arr": null,
+          "dep": 1092
+        },
+        {
+          "station": "BON",
+          "arr": 1085,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "SAT_66",
+      "headcode": "",
+      "operator": "NT",
+      "days": [
+        "SAT"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "SLD",
+          "arr": null,
+          "dep": 1095
+        },
+        {
+          "station": "BON",
+          "arr": 1089,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "SAT_67",
+      "headcode": "",
+      "operator": "NT",
+      "days": [
+        "SAT"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "SLD",
+          "arr": null,
+          "dep": 1102
+        },
+        {
+          "station": "BON",
+          "arr": 1101,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "SAT_68",
+      "headcode": "",
+      "operator": "NT",
+      "days": [
+        "SAT"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "SLD",
+          "arr": null,
+          "dep": 1118
+        },
+        {
+          "station": "BON",
+          "arr": 1112,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "SAT_69",
+      "headcode": "",
+      "operator": "NT",
+      "days": [
+        "SAT"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "SLD",
+          "arr": null,
+          "dep": 1124
+        },
+        {
+          "station": "BON",
+          "arr": 1116,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "SAT_70",
+      "headcode": "",
+      "operator": "NT",
+      "days": [
+        "SAT"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "BON",
+          "arr": 1129,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "SAT_71",
+      "headcode": "",
+      "operator": "",
+      "days": [
+        "SAT"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "BON",
+          "arr": 1133,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "SUN_72",
+      "headcode": "",
+      "operator": "NT",
+      "days": [
+        "SUN"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "MIA",
+          "arr": null,
+          "dep": 457
+        },
+        {
+          "station": "MAN",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "MCO",
+          "arr": null,
+          "dep": 483
+        },
+        {
+          "station": "DGT",
+          "arr": null,
+          "dep": 485
+        },
+        {
+          "station": "MCV",
+          "arr": null,
+          "dep": 475
+        },
+        {
+          "station": "SFD",
+          "arr": null,
+          "dep": 588
+        },
+        {
+          "station": "SLD",
+          "arr": null,
+          "dep": 482
+        },
+        {
+          "station": "BON",
+          "arr": 493,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "SUN_73",
+      "headcode": "",
+      "operator": "NT",
+      "days": [
+        "SUN"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "MIA",
+          "arr": null,
+          "dep": 524
+        },
+        {
+          "station": "MAN",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "MCO",
+          "arr": null,
+          "dep": 545
+        },
+        {
+          "station": "DGT",
+          "arr": null,
+          "dep": 548
+        },
+        {
+          "station": "MCV",
+          "arr": null,
+          "dep": 536
+        },
+        {
+          "station": "SFD",
+          "arr": null,
+          "dep": 708
+        },
+        {
+          "station": "SLD",
+          "arr": null,
+          "dep": 489
+        },
+        {
+          "station": "BON",
+          "arr": 498,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "SUN_74",
+      "headcode": "",
+      "operator": "NT",
+      "days": [
+        "SUN"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "MIA",
+          "arr": null,
+          "dep": 576
+        },
+        {
+          "station": "MAN",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "MCO",
+          "arr": null,
+          "dep": 598
+        },
+        {
+          "station": "DGT",
+          "arr": null,
+          "dep": 665
+        },
+        {
+          "station": "MCV",
+          "arr": null,
+          "dep": 585
+        },
+        {
+          "station": "SFD",
+          "arr": null,
+          "dep": 828
+        },
+        {
+          "station": "SLD",
+          "arr": null,
+          "dep": 552
+        },
+        {
+          "station": "BON",
+          "arr": 548,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "SUN_75",
+      "headcode": "",
+      "operator": "NT",
+      "days": [
+        "SUN"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "MIA",
+          "arr": null,
+          "dep": 767
+        },
+        {
+          "station": "MAN",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "MCO",
+          "arr": null,
+          "dep": 663
+        },
+        {
+          "station": "DGT",
+          "arr": null,
+          "dep": 725
+        },
+        {
+          "station": "MCV",
+          "arr": null,
+          "dep": 705
+        },
+        {
+          "station": "SFD",
+          "arr": null,
+          "dep": 948
+        },
+        {
+          "station": "SLD",
+          "arr": null,
+          "dep": 592
+        },
+        {
+          "station": "BON",
+          "arr": 561,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "SUN_76",
+      "headcode": "",
+      "operator": "NT",
+      "days": [
+        "SUN"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "MIA",
+          "arr": null,
+          "dep": 810
+        },
+        {
+          "station": "MAN",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "MCO",
+          "arr": null,
+          "dep": 714
+        },
+        {
+          "station": "DGT",
+          "arr": null,
+          "dep": 789
+        },
+        {
+          "station": "MCV",
+          "arr": null,
+          "dep": 825
+        },
+        {
+          "station": "SLD",
+          "arr": null,
+          "dep": 669
+        },
+        {
+          "station": "BON",
+          "arr": 603,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "SUN_77",
+      "headcode": "",
+      "operator": "NT",
+      "days": [
+        "SUN"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "MIA",
+          "arr": null,
+          "dep": 870
+        },
+        {
+          "station": "MAN",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "MCO",
+          "arr": null,
+          "dep": 723
+        },
+        {
+          "station": "DGT",
+          "arr": null,
+          "dep": 907
+        },
+        {
+          "station": "MCV",
+          "arr": null,
+          "dep": 945
+        },
+        {
+          "station": "SLD",
+          "arr": null,
+          "dep": 712
+        },
+        {
+          "station": "BON",
+          "arr": 611,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "SUN_78",
+      "headcode": "",
+      "operator": "NT",
+      "days": [
+        "SUN"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "MIA",
+          "arr": null,
+          "dep": 885
+        },
+        {
+          "station": "MAN",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "MCO",
+          "arr": null,
+          "dep": 786
+        },
+        {
+          "station": "DGT",
+          "arr": null,
+          "dep": 967
+        },
+        {
+          "station": "SLD",
+          "arr": null,
+          "dep": 729
+        },
+        {
+          "station": "BON",
+          "arr": 678,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "SUN_79",
+      "headcode": "",
+      "operator": "NT",
+      "days": [
+        "SUN"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "MIA",
+          "arr": null,
+          "dep": 930
+        },
+        {
+          "station": "MAN",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "MCO",
+          "arr": null,
+          "dep": 832
+        },
+        {
+          "station": "SLD",
+          "arr": null,
+          "dep": 793
+        },
+        {
+          "station": "BON",
+          "arr": 723,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "SUN_80",
+      "headcode": "",
+      "operator": "NT",
+      "days": [
+        "SUN"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "MIA",
+          "arr": null,
+          "dep": 945
+        },
+        {
+          "station": "MAN",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "MCO",
+          "arr": null,
+          "dep": 892
+        },
+        {
+          "station": "SLD",
+          "arr": null,
+          "dep": 832
+        },
+        {
+          "station": "BON",
+          "arr": 727,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "SUN_81",
+      "headcode": "",
+      "operator": "NT",
+      "days": [
+        "SUN"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "MCO",
+          "arr": null,
+          "dep": 904
+        },
+        {
+          "station": "SLD",
+          "arr": null,
+          "dep": 911
+        },
+        {
+          "station": "BON",
+          "arr": 738,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "SUN_82",
+      "headcode": "",
+      "operator": "NT",
+      "days": [
+        "SUN"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "MCO",
+          "arr": null,
+          "dep": 952
+        },
+        {
+          "station": "SLD",
+          "arr": null,
+          "dep": 952
+        },
+        {
+          "station": "BON",
+          "arr": 802,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "SUN_83",
+      "headcode": "",
+      "operator": "NT",
+      "days": [
+        "SUN"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "MCO",
+          "arr": null,
+          "dep": 964
+        },
+        {
+          "station": "SLD",
+          "arr": null,
+          "dep": 971
+        },
+        {
+          "station": "BON",
+          "arr": 843,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "SUN_84",
+      "headcode": "",
+      "operator": "NT",
+      "days": [
+        "SUN"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "BON",
+          "arr": 846,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "SUN_85",
+      "headcode": "",
+      "operator": "NT",
+      "days": [
+        "SUN"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "BON",
+          "arr": 906,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "SUN_86",
+      "headcode": "",
+      "operator": "NT",
+      "days": [
+        "SUN"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "BON",
+          "arr": 920,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "SUN_87",
+      "headcode": "",
+      "operator": "NT",
+      "days": [
+        "SUN"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "BON",
+          "arr": 963,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "SUN_88",
+      "headcode": "",
+      "operator": "NT",
+      "days": [
+        "SUN"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "BON",
+          "arr": 966,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "SUN_89",
+      "headcode": "",
+      "operator": "",
+      "days": [
+        "SUN"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "BON",
+          "arr": 980,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "MF_90",
+      "headcode": "",
+      "operator": "NT",
+      "days": [
+        "MF"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "BON",
+          "arr": null,
+          "dep": 354
+        },
+        {
+          "station": "MSS",
+          "arr": null,
+          "dep": 389
+        },
+        {
+          "station": "FNW",
+          "arr": null,
+          "dep": 391
+        },
+        {
+          "station": "KSL",
+          "arr": null,
+          "dep": 393
+        },
+        {
+          "station": "CLI",
+          "arr": null,
+          "dep": 516
+        },
+        {
+          "station": "SLD",
+          "arr": null,
+          "dep": 365
+        },
+        {
+          "station": "SFD",
+          "arr": 407,
+          "dep": null
+        },
+        {
+          "station": "MCV",
+          "arr": 410,
+          "dep": null
+        },
+        {
+          "station": "AHN",
+          "arr": 421,
+          "dep": null
+        },
+        {
+          "station": "SYB",
+          "arr": 424,
+          "dep": null
+        },
+        {
+          "station": "RCD",
+          "arr": 449,
+          "dep": null
+        },
+        {
+          "station": "DGT",
+          "arr": 369,
+          "dep": null
+        },
+        {
+          "station": "MCO",
+          "arr": 371,
+          "dep": null
+        },
+        {
+          "station": "MAN",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "MIA",
+          "arr": 391,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "MF_91",
+      "headcode": "",
+      "operator": "NT",
+      "days": [
+        "MF"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "BON",
+          "arr": null,
+          "dep": 381
+        },
+        {
+          "station": "MSS",
+          "arr": null,
+          "dep": 439
+        },
+        {
+          "station": "FNW",
+          "arr": null,
+          "dep": 449
+        },
+        {
+          "station": "KSL",
+          "arr": null,
+          "dep": 451
+        },
+        {
+          "station": "SLD",
+          "arr": null,
+          "dep": 394
+        },
+        {
+          "station": "SFD",
+          "arr": 422,
+          "dep": null
+        },
+        {
+          "station": "MCV",
+          "arr": 426,
+          "dep": null
+        },
+        {
+          "station": "AHN",
+          "arr": 480,
+          "dep": null
+        },
+        {
+          "station": "SYB",
+          "arr": 484,
+          "dep": null
+        },
+        {
+          "station": "RCD",
+          "arr": 482,
+          "dep": null
+        },
+        {
+          "station": "DGT",
+          "arr": 399,
+          "dep": null
+        },
+        {
+          "station": "MCO",
+          "arr": 401,
+          "dep": null
+        },
+        {
+          "station": "MAN",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "MIA",
+          "arr": 421,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "MF_92",
+      "headcode": "",
+      "operator": "NT",
+      "days": [
+        "MF"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "BON",
+          "arr": null,
+          "dep": 386
+        },
+        {
+          "station": "MSS",
+          "arr": null,
+          "dep": 499
+        },
+        {
+          "station": "FNW",
+          "arr": null,
+          "dep": 470
+        },
+        {
+          "station": "KSL",
+          "arr": null,
+          "dep": 512
+        },
+        {
+          "station": "SLD",
+          "arr": null,
+          "dep": 404
+        },
+        {
+          "station": "SFD",
+          "arr": 453,
+          "dep": null
+        },
+        {
+          "station": "MCV",
+          "arr": 459,
+          "dep": null
+        },
+        {
+          "station": "AHN",
+          "arr": 542,
+          "dep": null
+        },
+        {
+          "station": "SYB",
+          "arr": 545,
+          "dep": null
+        },
+        {
+          "station": "RCD",
+          "arr": 510,
+          "dep": null
+        },
+        {
+          "station": "DGT",
+          "arr": 411,
+          "dep": null
+        },
+        {
+          "station": "MCO",
+          "arr": 414,
+          "dep": null
+        },
+        {
+          "station": "MAN",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "MIA",
+          "arr": 435,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "MF_93",
+      "headcode": "",
+      "operator": "NT",
+      "days": [
+        "MF"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "BON",
+          "arr": null,
+          "dep": 396
+        },
+        {
+          "station": "FNW",
+          "arr": null,
+          "dep": 509
+        },
+        {
+          "station": "SLD",
+          "arr": null,
+          "dep": 420
+        },
+        {
+          "station": "SFD",
+          "arr": 465,
+          "dep": null
+        },
+        {
+          "station": "MCV",
+          "arr": 469,
+          "dep": null
+        },
+        {
+          "station": "RCD",
+          "arr": 542,
+          "dep": null
+        },
+        {
+          "station": "DGT",
+          "arr": 429,
+          "dep": null
+        },
+        {
+          "station": "MCO",
+          "arr": 431,
+          "dep": null
+        },
+        {
+          "station": "MAN",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "MIA",
+          "arr": 456,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "MF_94",
+      "headcode": "",
+      "operator": "NT",
+      "days": [
+        "MF"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "BON",
+          "arr": null,
+          "dep": 408
+        },
+        {
+          "station": "SLD",
+          "arr": null,
+          "dep": 425
+        },
+        {
+          "station": "SFD",
+          "arr": 484,
+          "dep": null
+        },
+        {
+          "station": "MCV",
+          "arr": 487,
+          "dep": null
+        },
+        {
+          "station": "DGT",
+          "arr": 433,
+          "dep": null
+        },
+        {
+          "station": "MCO",
+          "arr": 435,
+          "dep": null
+        },
+        {
+          "station": "MAN",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "MIA",
+          "arr": 480,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "MF_95",
+      "headcode": "",
+      "operator": "NT",
+      "days": [
+        "MF"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "BON",
+          "arr": null,
+          "dep": 414
+        },
+        {
+          "station": "SLD",
+          "arr": null,
+          "dep": 429
+        },
+        {
+          "station": "SFD",
+          "arr": 513,
+          "dep": null
+        },
+        {
+          "station": "MCV",
+          "arr": 519,
+          "dep": null
+        },
+        {
+          "station": "DGT",
+          "arr": 459,
+          "dep": null
+        },
+        {
+          "station": "MCO",
+          "arr": 461,
+          "dep": null
+        },
+        {
+          "station": "MAN",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "MIA",
+          "arr": 495,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "MF_96",
+      "headcode": "",
+      "operator": "NT",
+      "days": [
+        "MF"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "BON",
+          "arr": null,
+          "dep": 418
+        },
+        {
+          "station": "SLD",
+          "arr": null,
+          "dep": 451
+        },
+        {
+          "station": "SFD",
+          "arr": 526,
+          "dep": null
+        },
+        {
+          "station": "MCV",
+          "arr": 531,
+          "dep": null
+        },
+        {
+          "station": "DGT",
+          "arr": 471,
+          "dep": null
+        },
+        {
+          "station": "MCO",
+          "arr": 474,
+          "dep": null
+        },
+        {
+          "station": "MAN",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "MIA",
+          "arr": 516,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "MF_97",
+      "headcode": "",
+      "operator": "NT",
+      "days": [
+        "MF"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "BON",
+          "arr": null,
+          "dep": 436
+        },
+        {
+          "station": "SLD",
+          "arr": null,
+          "dep": 455
+        },
+        {
+          "station": "DGT",
+          "arr": 489,
+          "dep": null
+        },
+        {
+          "station": "MCO",
+          "arr": 491,
+          "dep": null
+        },
+        {
+          "station": "MAN",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "MIA",
+          "arr": 540,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "MF_98",
+      "headcode": "",
+      "operator": "NT",
+      "days": [
+        "MF"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "BON",
+          "arr": null,
+          "dep": 442
+        },
+        {
+          "station": "SLD",
+          "arr": null,
+          "dep": 462
+        },
+        {
+          "station": "DGT",
+          "arr": 493,
+          "dep": null
+        },
+        {
+          "station": "MCO",
+          "arr": 498,
+          "dep": null
+        },
+        {
+          "station": "MAN",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "MIA",
+          "arr": 555,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "MF_99",
+      "headcode": "",
+      "operator": "NT",
+      "days": [
+        "MF"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "BON",
+          "arr": null,
+          "dep": 446
+        },
+        {
+          "station": "SLD",
+          "arr": null,
+          "dep": 482
+        },
+        {
+          "station": "DGT",
+          "arr": 519,
+          "dep": null
+        },
+        {
+          "station": "MCO",
+          "arr": 521,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "MF_100",
+      "headcode": "",
+      "operator": "NT",
+      "days": [
+        "MF"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "BON",
+          "arr": null,
+          "dep": 458
+        },
+        {
+          "station": "SLD",
+          "arr": null,
+          "dep": 485
+        },
+        {
+          "station": "DGT",
+          "arr": 531,
+          "dep": null
+        },
+        {
+          "station": "MCO",
+          "arr": 534,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "MF_101",
+      "headcode": "",
+      "operator": "NT",
+      "days": [
+        "MF"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "BON",
+          "arr": null,
+          "dep": 467
+        },
+        {
+          "station": "SLD",
+          "arr": null,
+          "dep": 489
+        }
+      ]
+    },
+    {
+      "id": "MF_102",
+      "headcode": "",
+      "operator": "NT",
+      "days": [
+        "MF"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "BON",
+          "arr": null,
+          "dep": 473
+        },
+        {
+          "station": "SLD",
+          "arr": null,
+          "dep": 511
+        }
+      ]
+    },
+    {
+      "id": "MF_103",
+      "headcode": "",
+      "operator": "NT",
+      "days": [
+        "MF"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "BON",
+          "arr": null,
+          "dep": 477
+        },
+        {
+          "station": "SLD",
+          "arr": null,
+          "dep": 514
+        }
+      ]
+    },
+    {
+      "id": "MF_104",
+      "headcode": "",
+      "operator": "NT",
+      "days": [
+        "MF"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "BON",
+          "arr": null,
+          "dep": 496
+        },
+        {
+          "station": "SLD",
+          "arr": null,
+          "dep": 524
+        }
+      ]
+    },
+    {
+      "id": "MF_105",
+      "headcode": "",
+      "operator": "NT",
+      "days": [
+        "MF"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "BON",
+          "arr": null,
+          "dep": 502
+        }
+      ]
+    },
+    {
+      "id": "MF_106",
+      "headcode": "",
+      "operator": "NT",
+      "days": [
+        "MF"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "BON",
+          "arr": null,
+          "dep": 506
+        }
+      ]
+    },
+    {
+      "id": "MF_107",
+      "headcode": "",
+      "operator": "",
+      "days": [
+        "MF"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "BON",
+          "arr": null,
+          "dep": 517
+        }
+      ]
+    },
+    {
+      "id": "MF_108",
+      "headcode": "",
+      "operator": "NT",
+      "days": [
+        "MF"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "BON",
+          "arr": null,
+          "dep": 985
+        },
+        {
+          "station": "MSS",
+          "arr": null,
+          "dep": 989
+        },
+        {
+          "station": "FNW",
+          "arr": null,
+          "dep": 991
+        },
+        {
+          "station": "KSL",
+          "arr": null,
+          "dep": 993
+        },
+        {
+          "station": "SLD",
+          "arr": null,
+          "dep": 1004
+        },
+        {
+          "station": "SFD",
+          "arr": 1006,
+          "dep": null
+        },
+        {
+          "station": "MCV",
+          "arr": 1010,
+          "dep": null
+        },
+        {
+          "station": "AHN",
+          "arr": 1021,
+          "dep": null
+        },
+        {
+          "station": "SYB",
+          "arr": 1025,
+          "dep": null
+        },
+        {
+          "station": "RCD",
+          "arr": 1049,
+          "dep": null
+        },
+        {
+          "station": "DGT",
+          "arr": 1029,
+          "dep": null
+        },
+        {
+          "station": "MCO",
+          "arr": 1031,
+          "dep": null
+        },
+        {
+          "station": "MAN",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "MIA",
+          "arr": 1056,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "MF_109",
+      "headcode": "",
+      "operator": "NT",
+      "days": [
+        "MF"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "BON",
+          "arr": null,
+          "dep": 1008
+        },
+        {
+          "station": "MSS",
+          "arr": null,
+          "dep": 1049
+        },
+        {
+          "station": "FNW",
+          "arr": null,
+          "dep": 1051
+        },
+        {
+          "station": "KSL",
+          "arr": null,
+          "dep": 1053
+        },
+        {
+          "station": "SLD",
+          "arr": null,
+          "dep": 1020
+        },
+        {
+          "station": "SFD",
+          "arr": 1022,
+          "dep": null
+        },
+        {
+          "station": "MCV",
+          "arr": 1026,
+          "dep": null
+        },
+        {
+          "station": "AHN",
+          "arr": 1080,
+          "dep": null
+        },
+        {
+          "station": "SYB",
+          "arr": 1084,
+          "dep": null
+        },
+        {
+          "station": "RCD",
+          "arr": 1082,
+          "dep": null
+        },
+        {
+          "station": "DGT",
+          "arr": 1033,
+          "dep": null
+        },
+        {
+          "station": "MCO",
+          "arr": 1039,
+          "dep": null
+        },
+        {
+          "station": "MAN",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "MIA",
+          "arr": 1080,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "MF_110",
+      "headcode": "",
+      "operator": "NT",
+      "days": [
+        "MF"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "BON",
+          "arr": null,
+          "dep": 1014
+        },
+        {
+          "station": "MSS",
+          "arr": null,
+          "dep": 1109
+        },
+        {
+          "station": "FNW",
+          "arr": null,
+          "dep": 1111
+        },
+        {
+          "station": "KSL",
+          "arr": null,
+          "dep": 1113
+        },
+        {
+          "station": "SLD",
+          "arr": null,
+          "dep": 1025
+        },
+        {
+          "station": "SFD",
+          "arr": 1053,
+          "dep": null
+        },
+        {
+          "station": "MCV",
+          "arr": 1059,
+          "dep": null
+        },
+        {
+          "station": "AHN",
+          "arr": 1140,
+          "dep": null
+        },
+        {
+          "station": "SYB",
+          "arr": 1144,
+          "dep": null
+        },
+        {
+          "station": "RCD",
+          "arr": 1109,
+          "dep": null
+        },
+        {
+          "station": "DGT",
+          "arr": 1059,
+          "dep": null
+        },
+        {
+          "station": "MCO",
+          "arr": 1061,
+          "dep": null
+        },
+        {
+          "station": "MAN",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "MIA",
+          "arr": 1095,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "MF_111",
+      "headcode": "",
+      "operator": "NT",
+      "days": [
+        "MF"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "BON",
+          "arr": null,
+          "dep": 1018
+        },
+        {
+          "station": "SLD",
+          "arr": null,
+          "dep": 1029
+        },
+        {
+          "station": "SFD",
+          "arr": 1066,
+          "dep": null
+        },
+        {
+          "station": "MCV",
+          "arr": 1069,
+          "dep": null
+        },
+        {
+          "station": "RCD",
+          "arr": 1142,
+          "dep": null
+        },
+        {
+          "station": "DGT",
+          "arr": 1071,
+          "dep": null
+        },
+        {
+          "station": "MCO",
+          "arr": 1074,
+          "dep": null
+        },
+        {
+          "station": "MAN",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "MIA",
+          "arr": 1116,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "MF_112",
+      "headcode": "",
+      "operator": "NT",
+      "days": [
+        "MF"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "BON",
+          "arr": null,
+          "dep": 1038
+        },
+        {
+          "station": "SLD",
+          "arr": null,
+          "dep": 1051
+        },
+        {
+          "station": "SFD",
+          "arr": 1082,
+          "dep": null
+        },
+        {
+          "station": "MCV",
+          "arr": 1086,
+          "dep": null
+        },
+        {
+          "station": "RCD",
+          "arr": 1171,
+          "dep": null
+        },
+        {
+          "station": "DGT",
+          "arr": 1089,
+          "dep": null
+        },
+        {
+          "station": "MCO",
+          "arr": 1091,
+          "dep": null
+        },
+        {
+          "station": "MAN",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "MIA",
+          "arr": 1140,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "MF_113",
+      "headcode": "",
+      "operator": "NT",
+      "days": [
+        "MF"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "BON",
+          "arr": null,
+          "dep": 1041
+        },
+        {
+          "station": "SLD",
+          "arr": null,
+          "dep": 1055
+        },
+        {
+          "station": "SFD",
+          "arr": 1113,
+          "dep": null
+        },
+        {
+          "station": "MCV",
+          "arr": 1119,
+          "dep": null
+        },
+        {
+          "station": "DGT",
+          "arr": 1093,
+          "dep": null
+        },
+        {
+          "station": "MCO",
+          "arr": 1098,
+          "dep": null
+        },
+        {
+          "station": "MAN",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "MIA",
+          "arr": 1155,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "MF_114",
+      "headcode": "",
+      "operator": "NT",
+      "days": [
+        "MF"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "BON",
+          "arr": null,
+          "dep": 1045
+        },
+        {
+          "station": "SLD",
+          "arr": null,
+          "dep": 1064
+        },
+        {
+          "station": "SFD",
+          "arr": 1126,
+          "dep": null
+        },
+        {
+          "station": "MCV",
+          "arr": 1129,
+          "dep": null
+        },
+        {
+          "station": "DGT",
+          "arr": 1119,
+          "dep": null
+        },
+        {
+          "station": "MCO",
+          "arr": 1121,
+          "dep": null
+        },
+        {
+          "station": "MAN",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "MIA",
+          "arr": 1176,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "MF_115",
+      "headcode": "",
+      "operator": "NT",
+      "days": [
+        "MF"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "BON",
+          "arr": null,
+          "dep": 1056
+        },
+        {
+          "station": "SLD",
+          "arr": null,
+          "dep": 1080
+        },
+        {
+          "station": "SFD",
+          "arr": 1145,
+          "dep": null
+        },
+        {
+          "station": "MCV",
+          "arr": 1148,
+          "dep": null
+        },
+        {
+          "station": "DGT",
+          "arr": 1131,
+          "dep": null
+        },
+        {
+          "station": "MCO",
+          "arr": 1134,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "MF_116",
+      "headcode": "",
+      "operator": "NT",
+      "days": [
+        "MF"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "BON",
+          "arr": null,
+          "dep": 1068
+        },
+        {
+          "station": "SLD",
+          "arr": null,
+          "dep": 1085
+        },
+        {
+          "station": "DGT",
+          "arr": 1150,
+          "dep": null
+        },
+        {
+          "station": "MCO",
+          "arr": 1152,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "MF_117",
+      "headcode": "",
+      "operator": "NT",
+      "days": [
+        "MF"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "BON",
+          "arr": null,
+          "dep": 1074
+        },
+        {
+          "station": "SLD",
+          "arr": null,
+          "dep": 1089
+        },
+        {
+          "station": "DGT",
+          "arr": 1153,
+          "dep": null
+        },
+        {
+          "station": "MCO",
+          "arr": 1155,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "MF_118",
+      "headcode": "",
+      "operator": "NT",
+      "days": [
+        "MF"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "BON",
+          "arr": null,
+          "dep": 1078
+        },
+        {
+          "station": "SLD",
+          "arr": null,
+          "dep": 1111
+        }
+      ]
+    },
+    {
+      "id": "MF_119",
+      "headcode": "",
+      "operator": "NT",
+      "days": [
+        "MF"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "BON",
+          "arr": null,
+          "dep": 1098
+        },
+        {
+          "station": "SLD",
+          "arr": null,
+          "dep": 1115
+        }
+      ]
+    },
+    {
+      "id": "MF_120",
+      "headcode": "",
+      "operator": "NT",
+      "days": [
+        "MF"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "BON",
+          "arr": null,
+          "dep": 1101
+        },
+        {
+          "station": "SLD",
+          "arr": null,
+          "dep": 1124
+        }
+      ]
+    },
+    {
+      "id": "MF_121",
+      "headcode": "",
+      "operator": "NT",
+      "days": [
+        "MF"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "BON",
+          "arr": null,
+          "dep": 1105
+        },
+        {
+          "station": "SLD",
+          "arr": null,
+          "dep": 1143
+        }
+      ]
+    },
+    {
+      "id": "MF_122",
+      "headcode": "",
+      "operator": "NT",
+      "days": [
+        "MF"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "BON",
+          "arr": null,
+          "dep": 1116
+        },
+        {
+          "station": "SLD",
+          "arr": null,
+          "dep": 1146
+        }
+      ]
+    },
+    {
+      "id": "MF_123",
+      "headcode": "",
+      "operator": "NT",
+      "days": [
+        "MF"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "BON",
+          "arr": null,
+          "dep": 1129
+        },
+        {
+          "station": "SLD",
+          "arr": null,
+          "dep": 1150
+        }
+      ]
+    },
+    {
+      "id": "MF_124",
+      "headcode": "",
+      "operator": "NT",
+      "days": [
+        "MF"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "BON",
+          "arr": null,
+          "dep": 1134
+        }
+      ]
+    },
+    {
+      "id": "MF_125",
+      "headcode": "",
+      "operator": "",
+      "days": [
+        "MF"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "BON",
+          "arr": null,
+          "dep": 1138
+        }
+      ]
+    },
+    {
+      "id": "SAT_126",
+      "headcode": "",
+      "operator": "NT",
+      "days": [
+        "SAT"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "BON",
+          "arr": null,
+          "dep": 354
+        },
+        {
+          "station": "MSS",
+          "arr": null,
+          "dep": 389
+        },
+        {
+          "station": "FNW",
+          "arr": null,
+          "dep": 391
+        },
+        {
+          "station": "KSL",
+          "arr": null,
+          "dep": 393
+        },
+        {
+          "station": "CLI",
+          "arr": null,
+          "dep": 516
+        },
+        {
+          "station": "SLD",
+          "arr": null,
+          "dep": 365
+        },
+        {
+          "station": "SFD",
+          "arr": 407,
+          "dep": null
+        },
+        {
+          "station": "MCV",
+          "arr": 410,
+          "dep": null
+        },
+        {
+          "station": "AHN",
+          "arr": 421,
+          "dep": null
+        },
+        {
+          "station": "SYB",
+          "arr": 424,
+          "dep": null
+        },
+        {
+          "station": "RCD",
+          "arr": 449,
+          "dep": null
+        },
+        {
+          "station": "DGT",
+          "arr": 369,
+          "dep": null
+        },
+        {
+          "station": "MCO",
+          "arr": 371,
+          "dep": null
+        },
+        {
+          "station": "MAN",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "MIA",
+          "arr": 391,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "SAT_127",
+      "headcode": "",
+      "operator": "NT",
+      "days": [
+        "SAT"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "BON",
+          "arr": null,
+          "dep": 381
+        },
+        {
+          "station": "MSS",
+          "arr": null,
+          "dep": 439
+        },
+        {
+          "station": "FNW",
+          "arr": null,
+          "dep": 449
+        },
+        {
+          "station": "KSL",
+          "arr": null,
+          "dep": 451
+        },
+        {
+          "station": "SLD",
+          "arr": null,
+          "dep": 394
+        },
+        {
+          "station": "SFD",
+          "arr": 422,
+          "dep": null
+        },
+        {
+          "station": "MCV",
+          "arr": 426,
+          "dep": null
+        },
+        {
+          "station": "AHN",
+          "arr": 480,
+          "dep": null
+        },
+        {
+          "station": "SYB",
+          "arr": 484,
+          "dep": null
+        },
+        {
+          "station": "RCD",
+          "arr": 482,
+          "dep": null
+        },
+        {
+          "station": "DGT",
+          "arr": 399,
+          "dep": null
+        },
+        {
+          "station": "MCO",
+          "arr": 401,
+          "dep": null
+        },
+        {
+          "station": "MAN",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "MIA",
+          "arr": 421,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "SAT_128",
+      "headcode": "",
+      "operator": "NT",
+      "days": [
+        "SAT"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "BON",
+          "arr": null,
+          "dep": 386
+        },
+        {
+          "station": "MSS",
+          "arr": null,
+          "dep": 499
+        },
+        {
+          "station": "FNW",
+          "arr": null,
+          "dep": 470
+        },
+        {
+          "station": "KSL",
+          "arr": null,
+          "dep": 512
+        },
+        {
+          "station": "SLD",
+          "arr": null,
+          "dep": 404
+        },
+        {
+          "station": "SFD",
+          "arr": 453,
+          "dep": null
+        },
+        {
+          "station": "MCV",
+          "arr": 459,
+          "dep": null
+        },
+        {
+          "station": "AHN",
+          "arr": 542,
+          "dep": null
+        },
+        {
+          "station": "SYB",
+          "arr": 545,
+          "dep": null
+        },
+        {
+          "station": "RCD",
+          "arr": 510,
+          "dep": null
+        },
+        {
+          "station": "DGT",
+          "arr": 411,
+          "dep": null
+        },
+        {
+          "station": "MCO",
+          "arr": 414,
+          "dep": null
+        },
+        {
+          "station": "MAN",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "MIA",
+          "arr": 435,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "SAT_129",
+      "headcode": "",
+      "operator": "NT",
+      "days": [
+        "SAT"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "BON",
+          "arr": null,
+          "dep": 396
+        },
+        {
+          "station": "FNW",
+          "arr": null,
+          "dep": 509
+        },
+        {
+          "station": "SLD",
+          "arr": null,
+          "dep": 420
+        },
+        {
+          "station": "SFD",
+          "arr": 465,
+          "dep": null
+        },
+        {
+          "station": "MCV",
+          "arr": 469,
+          "dep": null
+        },
+        {
+          "station": "RCD",
+          "arr": 542,
+          "dep": null
+        },
+        {
+          "station": "DGT",
+          "arr": 429,
+          "dep": null
+        },
+        {
+          "station": "MCO",
+          "arr": 431,
+          "dep": null
+        },
+        {
+          "station": "MAN",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "MIA",
+          "arr": 456,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "SAT_130",
+      "headcode": "",
+      "operator": "NT",
+      "days": [
+        "SAT"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "BON",
+          "arr": null,
+          "dep": 408
+        },
+        {
+          "station": "SLD",
+          "arr": null,
+          "dep": 425
+        },
+        {
+          "station": "SFD",
+          "arr": 484,
+          "dep": null
+        },
+        {
+          "station": "MCV",
+          "arr": 487,
+          "dep": null
+        },
+        {
+          "station": "DGT",
+          "arr": 433,
+          "dep": null
+        },
+        {
+          "station": "MCO",
+          "arr": 435,
+          "dep": null
+        },
+        {
+          "station": "MAN",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "MIA",
+          "arr": 480,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "SAT_131",
+      "headcode": "",
+      "operator": "NT",
+      "days": [
+        "SAT"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "BON",
+          "arr": null,
+          "dep": 414
+        },
+        {
+          "station": "SLD",
+          "arr": null,
+          "dep": 429
+        },
+        {
+          "station": "SFD",
+          "arr": 513,
+          "dep": null
+        },
+        {
+          "station": "MCV",
+          "arr": 519,
+          "dep": null
+        },
+        {
+          "station": "DGT",
+          "arr": 459,
+          "dep": null
+        },
+        {
+          "station": "MCO",
+          "arr": 461,
+          "dep": null
+        },
+        {
+          "station": "MAN",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "MIA",
+          "arr": 495,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "SAT_132",
+      "headcode": "",
+      "operator": "NT",
+      "days": [
+        "SAT"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "BON",
+          "arr": null,
+          "dep": 418
+        },
+        {
+          "station": "SLD",
+          "arr": null,
+          "dep": 451
+        },
+        {
+          "station": "SFD",
+          "arr": 526,
+          "dep": null
+        },
+        {
+          "station": "MCV",
+          "arr": 531,
+          "dep": null
+        },
+        {
+          "station": "DGT",
+          "arr": 471,
+          "dep": null
+        },
+        {
+          "station": "MCO",
+          "arr": 474,
+          "dep": null
+        },
+        {
+          "station": "MAN",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "MIA",
+          "arr": 516,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "SAT_133",
+      "headcode": "",
+      "operator": "NT",
+      "days": [
+        "SAT"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "BON",
+          "arr": null,
+          "dep": 436
+        },
+        {
+          "station": "SLD",
+          "arr": null,
+          "dep": 455
+        },
+        {
+          "station": "DGT",
+          "arr": 489,
+          "dep": null
+        },
+        {
+          "station": "MCO",
+          "arr": 491,
+          "dep": null
+        },
+        {
+          "station": "MAN",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "MIA",
+          "arr": 540,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "SAT_134",
+      "headcode": "",
+      "operator": "NT",
+      "days": [
+        "SAT"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "BON",
+          "arr": null,
+          "dep": 442
+        },
+        {
+          "station": "SLD",
+          "arr": null,
+          "dep": 462
+        },
+        {
+          "station": "DGT",
+          "arr": 493,
+          "dep": null
+        },
+        {
+          "station": "MCO",
+          "arr": 498,
+          "dep": null
+        },
+        {
+          "station": "MAN",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "MIA",
+          "arr": 555,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "SAT_135",
+      "headcode": "",
+      "operator": "NT",
+      "days": [
+        "SAT"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "BON",
+          "arr": null,
+          "dep": 446
+        },
+        {
+          "station": "SLD",
+          "arr": null,
+          "dep": 482
+        },
+        {
+          "station": "DGT",
+          "arr": 519,
+          "dep": null
+        },
+        {
+          "station": "MCO",
+          "arr": 521,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "SAT_136",
+      "headcode": "",
+      "operator": "NT",
+      "days": [
+        "SAT"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "BON",
+          "arr": null,
+          "dep": 458
+        },
+        {
+          "station": "SLD",
+          "arr": null,
+          "dep": 485
+        },
+        {
+          "station": "DGT",
+          "arr": 531,
+          "dep": null
+        },
+        {
+          "station": "MCO",
+          "arr": 534,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "SAT_137",
+      "headcode": "",
+      "operator": "NT",
+      "days": [
+        "SAT"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "BON",
+          "arr": null,
+          "dep": 467
+        },
+        {
+          "station": "SLD",
+          "arr": null,
+          "dep": 489
+        }
+      ]
+    },
+    {
+      "id": "SAT_138",
+      "headcode": "",
+      "operator": "NT",
+      "days": [
+        "SAT"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "BON",
+          "arr": null,
+          "dep": 473
+        },
+        {
+          "station": "SLD",
+          "arr": null,
+          "dep": 511
+        }
+      ]
+    },
+    {
+      "id": "SAT_139",
+      "headcode": "",
+      "operator": "NT",
+      "days": [
+        "SAT"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "BON",
+          "arr": null,
+          "dep": 477
+        },
+        {
+          "station": "SLD",
+          "arr": null,
+          "dep": 514
+        }
+      ]
+    },
+    {
+      "id": "SAT_140",
+      "headcode": "",
+      "operator": "NT",
+      "days": [
+        "SAT"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "BON",
+          "arr": null,
+          "dep": 496
+        },
+        {
+          "station": "SLD",
+          "arr": null,
+          "dep": 524
+        }
+      ]
+    },
+    {
+      "id": "SAT_141",
+      "headcode": "",
+      "operator": "NT",
+      "days": [
+        "SAT"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "BON",
+          "arr": null,
+          "dep": 502
+        }
+      ]
+    },
+    {
+      "id": "SAT_142",
+      "headcode": "",
+      "operator": "NT",
+      "days": [
+        "SAT"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "BON",
+          "arr": null,
+          "dep": 506
+        }
+      ]
+    },
+    {
+      "id": "SAT_143",
+      "headcode": "",
+      "operator": "",
+      "days": [
+        "SAT"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "BON",
+          "arr": null,
+          "dep": 517
+        }
+      ]
+    },
+    {
+      "id": "SAT_144",
+      "headcode": "",
+      "operator": "NT",
+      "days": [
+        "SAT"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "BON",
+          "arr": null,
+          "dep": 985
+        },
+        {
+          "station": "MSS",
+          "arr": null,
+          "dep": 989
+        },
+        {
+          "station": "FNW",
+          "arr": null,
+          "dep": 991
+        },
+        {
+          "station": "KSL",
+          "arr": null,
+          "dep": 993
+        },
+        {
+          "station": "SLD",
+          "arr": null,
+          "dep": 1004
+        },
+        {
+          "station": "SFD",
+          "arr": 1006,
+          "dep": null
+        },
+        {
+          "station": "MCV",
+          "arr": 1010,
+          "dep": null
+        },
+        {
+          "station": "AHN",
+          "arr": 1021,
+          "dep": null
+        },
+        {
+          "station": "SYB",
+          "arr": 1025,
+          "dep": null
+        },
+        {
+          "station": "RCD",
+          "arr": 1049,
+          "dep": null
+        },
+        {
+          "station": "DGT",
+          "arr": 1011,
+          "dep": null
+        },
+        {
+          "station": "MCO",
+          "arr": 1014,
+          "dep": null
+        },
+        {
+          "station": "MAN",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "MIA",
+          "arr": 1035,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "SAT_145",
+      "headcode": "",
+      "operator": "NT",
+      "days": [
+        "SAT"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "BON",
+          "arr": null,
+          "dep": 996
+        },
+        {
+          "station": "MSS",
+          "arr": null,
+          "dep": 1049
+        },
+        {
+          "station": "FNW",
+          "arr": null,
+          "dep": 1051
+        },
+        {
+          "station": "KSL",
+          "arr": null,
+          "dep": 1053
+        },
+        {
+          "station": "SLD",
+          "arr": null,
+          "dep": 1020
+        },
+        {
+          "station": "SFD",
+          "arr": 1022,
+          "dep": null
+        },
+        {
+          "station": "MCV",
+          "arr": 1026,
+          "dep": null
+        },
+        {
+          "station": "AHN",
+          "arr": 1080,
+          "dep": null
+        },
+        {
+          "station": "SYB",
+          "arr": 1084,
+          "dep": null
+        },
+        {
+          "station": "RCD",
+          "arr": 1082,
+          "dep": null
+        },
+        {
+          "station": "DGT",
+          "arr": 1029,
+          "dep": null
+        },
+        {
+          "station": "MCO",
+          "arr": 1031,
+          "dep": null
+        },
+        {
+          "station": "MAN",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "MIA",
+          "arr": 1056,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "SAT_146",
+      "headcode": "",
+      "operator": "NT",
+      "days": [
+        "SAT"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "BON",
+          "arr": null,
+          "dep": 1008
+        },
+        {
+          "station": "MSS",
+          "arr": null,
+          "dep": 1109
+        },
+        {
+          "station": "FNW",
+          "arr": null,
+          "dep": 1111
+        },
+        {
+          "station": "KSL",
+          "arr": null,
+          "dep": 1113
+        },
+        {
+          "station": "SLD",
+          "arr": null,
+          "dep": 1025
+        },
+        {
+          "station": "SFD",
+          "arr": 1053,
+          "dep": null
+        },
+        {
+          "station": "MCV",
+          "arr": 1059,
+          "dep": null
+        },
+        {
+          "station": "AHN",
+          "arr": 1140,
+          "dep": null
+        },
+        {
+          "station": "SYB",
+          "arr": 1144,
+          "dep": null
+        },
+        {
+          "station": "RCD",
+          "arr": 1109,
+          "dep": null
+        },
+        {
+          "station": "DGT",
+          "arr": 1033,
+          "dep": null
+        },
+        {
+          "station": "MCO",
+          "arr": 1039,
+          "dep": null
+        },
+        {
+          "station": "MAN",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "MIA",
+          "arr": 1080,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "SAT_147",
+      "headcode": "",
+      "operator": "NT",
+      "days": [
+        "SAT"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "BON",
+          "arr": null,
+          "dep": 1014
+        },
+        {
+          "station": "SLD",
+          "arr": null,
+          "dep": 1029
+        },
+        {
+          "station": "SFD",
+          "arr": 1066,
+          "dep": null
+        },
+        {
+          "station": "MCV",
+          "arr": 1069,
+          "dep": null
+        },
+        {
+          "station": "RCD",
+          "arr": 1142,
+          "dep": null
+        },
+        {
+          "station": "DGT",
+          "arr": 1059,
+          "dep": null
+        },
+        {
+          "station": "MCO",
+          "arr": 1061,
+          "dep": null
+        },
+        {
+          "station": "MAN",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "MIA",
+          "arr": 1095,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "SAT_148",
+      "headcode": "",
+      "operator": "NT",
+      "days": [
+        "SAT"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "BON",
+          "arr": null,
+          "dep": 1018
+        },
+        {
+          "station": "SLD",
+          "arr": null,
+          "dep": 1051
+        },
+        {
+          "station": "SFD",
+          "arr": 1082,
+          "dep": null
+        },
+        {
+          "station": "MCV",
+          "arr": 1086,
+          "dep": null
+        },
+        {
+          "station": "RCD",
+          "arr": 1171,
+          "dep": null
+        },
+        {
+          "station": "DGT",
+          "arr": 1071,
+          "dep": null
+        },
+        {
+          "station": "MCO",
+          "arr": 1074,
+          "dep": null
+        },
+        {
+          "station": "MAN",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "MIA",
+          "arr": 1116,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "SAT_149",
+      "headcode": "",
+      "operator": "NT",
+      "days": [
+        "SAT"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "BON",
+          "arr": null,
+          "dep": 1038
+        },
+        {
+          "station": "SLD",
+          "arr": null,
+          "dep": 1055
+        },
+        {
+          "station": "SFD",
+          "arr": 1113,
+          "dep": null
+        },
+        {
+          "station": "MCV",
+          "arr": 1119,
+          "dep": null
+        },
+        {
+          "station": "DGT",
+          "arr": 1089,
+          "dep": null
+        },
+        {
+          "station": "MCO",
+          "arr": 1091,
+          "dep": null
+        },
+        {
+          "station": "MAN",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "MIA",
+          "arr": 1140,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "SAT_150",
+      "headcode": "",
+      "operator": "NT",
+      "days": [
+        "SAT"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "BON",
+          "arr": null,
+          "dep": 1041
+        },
+        {
+          "station": "SLD",
+          "arr": null,
+          "dep": 1064
+        },
+        {
+          "station": "SFD",
+          "arr": 1126,
+          "dep": null
+        },
+        {
+          "station": "MCV",
+          "arr": 1129,
+          "dep": null
+        },
+        {
+          "station": "DGT",
+          "arr": 1093,
+          "dep": null
+        },
+        {
+          "station": "MCO",
+          "arr": 1098,
+          "dep": null
+        },
+        {
+          "station": "MAN",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "MIA",
+          "arr": 1155,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "SAT_151",
+      "headcode": "",
+      "operator": "NT",
+      "days": [
+        "SAT"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "BON",
+          "arr": null,
+          "dep": 1045
+        },
+        {
+          "station": "SLD",
+          "arr": null,
+          "dep": 1080
+        },
+        {
+          "station": "SFD",
+          "arr": 1145,
+          "dep": null
+        },
+        {
+          "station": "MCV",
+          "arr": 1148,
+          "dep": null
+        },
+        {
+          "station": "DGT",
+          "arr": 1119,
+          "dep": null
+        },
+        {
+          "station": "MCO",
+          "arr": 1121,
+          "dep": null
+        },
+        {
+          "station": "MAN",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "MIA",
+          "arr": 1176,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "SAT_152",
+      "headcode": "",
+      "operator": "NT",
+      "days": [
+        "SAT"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "BON",
+          "arr": null,
+          "dep": 1056
+        },
+        {
+          "station": "SLD",
+          "arr": null,
+          "dep": 1085
+        },
+        {
+          "station": "DGT",
+          "arr": 1131,
+          "dep": null
+        },
+        {
+          "station": "MCO",
+          "arr": 1134,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "SAT_153",
+      "headcode": "",
+      "operator": "NT",
+      "days": [
+        "SAT"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "BON",
+          "arr": null,
+          "dep": 1068
+        },
+        {
+          "station": "SLD",
+          "arr": null,
+          "dep": 1089
+        },
+        {
+          "station": "DGT",
+          "arr": 1150,
+          "dep": null
+        },
+        {
+          "station": "MCO",
+          "arr": 1152,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "SAT_154",
+      "headcode": "",
+      "operator": "NT",
+      "days": [
+        "SAT"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "BON",
+          "arr": null,
+          "dep": 1074
+        },
+        {
+          "station": "SLD",
+          "arr": null,
+          "dep": 1111
+        }
+      ]
+    },
+    {
+      "id": "SAT_155",
+      "headcode": "",
+      "operator": "NT",
+      "days": [
+        "SAT"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "BON",
+          "arr": null,
+          "dep": 1078
+        },
+        {
+          "station": "SLD",
+          "arr": null,
+          "dep": 1115
+        }
+      ]
+    },
+    {
+      "id": "SAT_156",
+      "headcode": "",
+      "operator": "NT",
+      "days": [
+        "SAT"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "BON",
+          "arr": null,
+          "dep": 1098
+        },
+        {
+          "station": "SLD",
+          "arr": null,
+          "dep": 1124
+        }
+      ]
+    },
+    {
+      "id": "SAT_157",
+      "headcode": "",
+      "operator": "NT",
+      "days": [
+        "SAT"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "BON",
+          "arr": null,
+          "dep": 1101
+        },
+        {
+          "station": "SLD",
+          "arr": null,
+          "dep": 1143
+        }
+      ]
+    },
+    {
+      "id": "SAT_158",
+      "headcode": "",
+      "operator": "NT",
+      "days": [
+        "SAT"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "BON",
+          "arr": null,
+          "dep": 1105
+        },
+        {
+          "station": "SLD",
+          "arr": null,
+          "dep": 1146
+        }
+      ]
+    },
+    {
+      "id": "SAT_159",
+      "headcode": "",
+      "operator": "NT",
+      "days": [
+        "SAT"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "BON",
+          "arr": null,
+          "dep": 1116
+        }
+      ]
+    },
+    {
+      "id": "SAT_160",
+      "headcode": "",
+      "operator": "NT",
+      "days": [
+        "SAT"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "BON",
+          "arr": null,
+          "dep": 1129
+        }
+      ]
+    },
+    {
+      "id": "SAT_161",
+      "headcode": "",
+      "operator": "",
+      "days": [
+        "SAT"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "BON",
+          "arr": null,
+          "dep": 1134
+        }
+      ]
+    },
+    {
+      "id": "SUN_162",
+      "headcode": "",
+      "operator": "NT",
+      "days": [
+        "SUN"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "BON",
+          "arr": null,
+          "dep": 559
+        },
+        {
+          "station": "SLD",
+          "arr": null,
+          "dep": 572
+        },
+        {
+          "station": "SFD",
+          "arr": 575,
+          "dep": null
+        },
+        {
+          "station": "MCV",
+          "arr": 578,
+          "dep": null
+        },
+        {
+          "station": "DGT",
+          "arr": 613,
+          "dep": null
+        },
+        {
+          "station": "MCO",
+          "arr": 617,
+          "dep": null
+        },
+        {
+          "station": "MAN",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "MIA",
+          "arr": 759,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "SUN_163",
+      "headcode": "",
+      "operator": "NT",
+      "days": [
+        "SUN"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "BON",
+          "arr": null,
+          "dep": 598
+        },
+        {
+          "station": "SLD",
+          "arr": null,
+          "dep": 610
+        },
+        {
+          "station": "SFD",
+          "arr": 695,
+          "dep": null
+        },
+        {
+          "station": "MCV",
+          "arr": 698,
+          "dep": null
+        },
+        {
+          "station": "DGT",
+          "arr": 673,
+          "dep": null
+        },
+        {
+          "station": "MCO",
+          "arr": 646,
+          "dep": null
+        },
+        {
+          "station": "MAN",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "MIA",
+          "arr": 797,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "SUN_164",
+      "headcode": "",
+      "operator": "NT",
+      "days": [
+        "SUN"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "BON",
+          "arr": null,
+          "dep": 632
+        },
+        {
+          "station": "SLD",
+          "arr": null,
+          "dep": 669
+        },
+        {
+          "station": "SFD",
+          "arr": 815,
+          "dep": null
+        },
+        {
+          "station": "MCV",
+          "arr": 818,
+          "dep": null
+        },
+        {
+          "station": "DGT",
+          "arr": 732,
+          "dep": null
+        },
+        {
+          "station": "MCO",
+          "arr": 677,
+          "dep": null
+        },
+        {
+          "station": "MAN",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "MIA",
+          "arr": 856,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "SUN_165",
+      "headcode": "",
+      "operator": "NT",
+      "days": [
+        "SUN"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "BON",
+          "arr": null,
+          "dep": 658
+        },
+        {
+          "station": "SLD",
+          "arr": null,
+          "dep": 692
+        },
+        {
+          "station": "SFD",
+          "arr": 935,
+          "dep": null
+        },
+        {
+          "station": "MCV",
+          "arr": 938,
+          "dep": null
+        },
+        {
+          "station": "DGT",
+          "arr": 851,
+          "dep": null
+        },
+        {
+          "station": "MCO",
+          "arr": 736,
+          "dep": null
+        },
+        {
+          "station": "MAN",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "MIA",
+          "arr": 875,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "SUN_166",
+      "headcode": "",
+      "operator": "NT",
+      "days": [
+        "SUN"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "BON",
+          "arr": null,
+          "dep": 679
+        },
+        {
+          "station": "SLD",
+          "arr": null,
+          "dep": 728
+        },
+        {
+          "station": "SFD",
+          "arr": 1055,
+          "dep": null
+        },
+        {
+          "station": "MCV",
+          "arr": 1058,
+          "dep": null
+        },
+        {
+          "station": "DGT",
+          "arr": 911,
+          "dep": null
+        },
+        {
+          "station": "MCO",
+          "arr": 770,
+          "dep": null
+        },
+        {
+          "station": "MAN",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "MIA",
+          "arr": 914,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "SUN_167",
+      "headcode": "",
+      "operator": "NT",
+      "days": [
+        "SUN"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "BON",
+          "arr": null,
+          "dep": 717
+        },
+        {
+          "station": "SLD",
+          "arr": null,
+          "dep": 812
+        },
+        {
+          "station": "DGT",
+          "arr": 971,
+          "dep": null
+        },
+        {
+          "station": "MCO",
+          "arr": 830,
+          "dep": null
+        },
+        {
+          "station": "MAN",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "MIA",
+          "arr": 935,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "SUN_168",
+      "headcode": "",
+      "operator": "NT",
+      "days": [
+        "SUN"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "BON",
+          "arr": null,
+          "dep": 756
+        },
+        {
+          "station": "SLD",
+          "arr": null,
+          "dep": 847
+        },
+        {
+          "station": "DGT",
+          "arr": 1091,
+          "dep": null
+        },
+        {
+          "station": "MCO",
+          "arr": 853,
+          "dep": null
+        },
+        {
+          "station": "MAN",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "MIA",
+          "arr": 974,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "SUN_169",
+      "headcode": "",
+      "operator": "NT",
+      "days": [
+        "SUN"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "BON",
+          "arr": null,
+          "dep": 799
+        },
+        {
+          "station": "SLD",
+          "arr": null,
+          "dep": 907
+        },
+        {
+          "station": "MCO",
+          "arr": 892,
+          "dep": null
+        },
+        {
+          "station": "MAN",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "MIA",
+          "arr": 995,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "SUN_170",
+      "headcode": "",
+      "operator": "NT",
+      "days": [
+        "SUN"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "BON",
+          "arr": null,
+          "dep": 816
+        },
+        {
+          "station": "SLD",
+          "arr": null,
+          "dep": 932
+        },
+        {
+          "station": "MCO",
+          "arr": 913,
+          "dep": null
+        },
+        {
+          "station": "MAN",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "MIA",
+          "arr": 1094,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "SUN_171",
+      "headcode": "",
+      "operator": "NT",
+      "days": [
+        "SUN"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "BON",
+          "arr": null,
+          "dep": 836
+        },
+        {
+          "station": "SLD",
+          "arr": null,
+          "dep": 967
+        },
+        {
+          "station": "MCO",
+          "arr": 950,
+          "dep": null
+        },
+        {
+          "station": "MAN",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "MIA",
+          "arr": 1115,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "SUN_172",
+      "headcode": "",
+      "operator": "NT",
+      "days": [
+        "SUN"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "BON",
+          "arr": null,
+          "dep": 876
+        },
+        {
+          "station": "SLD",
+          "arr": null,
+          "dep": 1052
+        },
+        {
+          "station": "MCO",
+          "arr": 973,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "SUN_173",
+      "headcode": "",
+      "operator": "NT",
+      "days": [
+        "SUN"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "BON",
+          "arr": null,
+          "dep": 896
+        },
+        {
+          "station": "SLD",
+          "arr": null,
+          "dep": 1087
+        },
+        {
+          "station": "MCO",
+          "arr": 1070,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "SUN_174",
+      "headcode": "",
+      "operator": "NT",
+      "days": [
+        "SUN"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "BON",
+          "arr": null,
+          "dep": 919
+        },
+        {
+          "station": "MCO",
+          "arr": 1093,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "SUN_175",
+      "headcode": "",
+      "operator": "NT",
+      "days": [
+        "SUN"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "BON",
+          "arr": null,
+          "dep": 936
+        }
+      ]
+    },
+    {
+      "id": "SUN_176",
+      "headcode": "",
+      "operator": "NT",
+      "days": [
+        "SUN"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "BON",
+          "arr": null,
+          "dep": 956
+        }
+      ]
+    },
+    {
+      "id": "SUN_177",
+      "headcode": "",
+      "operator": "NT",
+      "days": [
+        "SUN"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "BON",
+          "arr": null,
+          "dep": 1039
+        }
+      ]
+    },
+    {
+      "id": "SUN_178",
+      "headcode": "",
+      "operator": "NT",
+      "days": [
+        "SUN"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "BON",
+          "arr": null,
+          "dep": 1056
+        }
+      ]
+    },
+    {
+      "id": "SUN_179",
+      "headcode": "",
+      "operator": "",
+      "days": [
+        "SUN"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "BON",
+          "arr": null,
+          "dep": 1076
+        }
+      ]
+    }
+  ]
+}

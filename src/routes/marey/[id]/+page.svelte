@@ -9,7 +9,7 @@
 
 	onMount(async () => {
 		try {
-			const resp = await fetch(`/data/marey/${id}.json`);
+			const resp = await fetch(`/marey/${id}.json`);
 			if (!resp.ok) throw new Error('Not found');
 			mareyData = await resp.json();
 		} catch (e) {

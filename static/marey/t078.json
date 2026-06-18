@@ -1,0 +1,1042 @@
+{
+  "table": "078",
+  "route": "Route 078",
+  "route_id": "t078",
+  "stations": [
+    {
+      "name": "Llandudno",
+      "crs": "LLD",
+      "mileage": 0.0,
+      "type": "interchange"
+    },
+    {
+      "name": "Deganwy",
+      "crs": "DGY",
+      "mileage": 5.0,
+      "type": "minor"
+    },
+    {
+      "name": "Llandudno Junction",
+      "crs": "LLJ",
+      "mileage": 10.0,
+      "type": "interchange"
+    },
+    {
+      "name": "Glan Conwy",
+      "crs": "GCW",
+      "mileage": 15.0,
+      "type": "minor"
+    },
+    {
+      "name": "Tal-y-Cafn",
+      "crs": "TLC",
+      "mileage": 20.0,
+      "type": "minor"
+    },
+    {
+      "name": "Dolgarrog",
+      "crs": "DLG",
+      "mileage": 25.0,
+      "type": "minor"
+    },
+    {
+      "name": "North Llanrwst",
+      "crs": "NLR",
+      "mileage": 30.0,
+      "type": "minor"
+    },
+    {
+      "name": "Llanrwst",
+      "crs": "LWR",
+      "mileage": 35.0,
+      "type": "minor"
+    },
+    {
+      "name": "Betws-y-Coed",
+      "crs": "BYC",
+      "mileage": 40.0,
+      "type": "minor"
+    },
+    {
+      "name": "Pont-y-Pant",
+      "crs": "PYP",
+      "mileage": 45.0,
+      "type": "minor"
+    },
+    {
+      "name": "Dolwyddelan",
+      "crs": "DWD",
+      "mileage": 50.0,
+      "type": "minor"
+    },
+    {
+      "name": "Roman Bridge",
+      "crs": "RMB",
+      "mileage": 55.0,
+      "type": "minor"
+    },
+    {
+      "name": "Blaenau Ffestiniog",
+      "crs": "BFF",
+      "mileage": 60.0,
+      "type": "minor"
+    }
+  ],
+  "services": [
+    {
+      "id": "MF_0",
+      "headcode": "",
+      "operator": "AW",
+      "days": [
+        "MF"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "LLD",
+          "arr": null,
+          "dep": 428
+        },
+        {
+          "station": "DGY",
+          "arr": null,
+          "dep": 433
+        },
+        {
+          "station": "LLJ",
+          "arr": 437,
+          "dep": null
+        },
+        {
+          "station": "LLJ",
+          "arr": null,
+          "dep": 315
+        },
+        {
+          "station": "TLC",
+          "arr": null,
+          "dep": 324
+        },
+        {
+          "station": "LWR",
+          "arr": null,
+          "dep": 336
+        },
+        {
+          "station": "BYC",
+          "arr": null,
+          "dep": 342
+        },
+        {
+          "station": "BFF",
+          "arr": 373,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "MF_1",
+      "headcode": "",
+      "operator": "AW",
+      "days": [
+        "MF"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "LLD",
+          "arr": null,
+          "dep": 610
+        },
+        {
+          "station": "DGY",
+          "arr": null,
+          "dep": 615
+        },
+        {
+          "station": "LLJ",
+          "arr": 619,
+          "dep": null
+        },
+        {
+          "station": "LLJ",
+          "arr": null,
+          "dep": 445
+        },
+        {
+          "station": "TLC",
+          "arr": null,
+          "dep": 455
+        },
+        {
+          "station": "LWR",
+          "arr": null,
+          "dep": 469
+        },
+        {
+          "station": "BYC",
+          "arr": null,
+          "dep": 475
+        },
+        {
+          "station": "BFF",
+          "arr": 509,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "MF_2",
+      "headcode": "",
+      "operator": "AW",
+      "days": [
+        "MF"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "LLD",
+          "arr": null,
+          "dep": 790
+        },
+        {
+          "station": "DGY",
+          "arr": null,
+          "dep": 795
+        },
+        {
+          "station": "LLJ",
+          "arr": 799,
+          "dep": null
+        },
+        {
+          "station": "LLJ",
+          "arr": null,
+          "dep": 623
+        },
+        {
+          "station": "TLC",
+          "arr": null,
+          "dep": 633
+        },
+        {
+          "station": "LWR",
+          "arr": null,
+          "dep": 647
+        },
+        {
+          "station": "BYC",
+          "arr": null,
+          "dep": 653
+        },
+        {
+          "station": "BFF",
+          "arr": 687,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "MF_3",
+      "headcode": "",
+      "operator": "AW",
+      "days": [
+        "MF"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "LLD",
+          "arr": null,
+          "dep": 970
+        },
+        {
+          "station": "DGY",
+          "arr": null,
+          "dep": 975
+        },
+        {
+          "station": "LLJ",
+          "arr": 980,
+          "dep": null
+        },
+        {
+          "station": "LLJ",
+          "arr": null,
+          "dep": 803
+        },
+        {
+          "station": "TLC",
+          "arr": null,
+          "dep": 813
+        },
+        {
+          "station": "LWR",
+          "arr": null,
+          "dep": 827
+        },
+        {
+          "station": "BYC",
+          "arr": null,
+          "dep": 833
+        },
+        {
+          "station": "BFF",
+          "arr": 867,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "MF_4",
+      "headcode": "",
+      "operator": "AW",
+      "days": [
+        "MF"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "LLD",
+          "arr": null,
+          "dep": 1150
+        },
+        {
+          "station": "DGY",
+          "arr": null,
+          "dep": 1155
+        },
+        {
+          "station": "LLJ",
+          "arr": 1160,
+          "dep": null
+        },
+        {
+          "station": "LLJ",
+          "arr": null,
+          "dep": 983
+        },
+        {
+          "station": "TLC",
+          "arr": null,
+          "dep": 993
+        },
+        {
+          "station": "LWR",
+          "arr": null,
+          "dep": 1007
+        },
+        {
+          "station": "BYC",
+          "arr": null,
+          "dep": 1013
+        },
+        {
+          "station": "BFF",
+          "arr": 1047,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "MF_5",
+      "headcode": "",
+      "operator": "",
+      "days": [
+        "MF"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "LLJ",
+          "arr": null,
+          "dep": 1163
+        },
+        {
+          "station": "TLC",
+          "arr": null,
+          "dep": 1173
+        },
+        {
+          "station": "LWR",
+          "arr": null,
+          "dep": 1187
+        },
+        {
+          "station": "BYC",
+          "arr": null,
+          "dep": 1193
+        },
+        {
+          "station": "BFF",
+          "arr": 1227,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "SUN_6",
+      "headcode": "",
+      "operator": "AW",
+      "days": [
+        "SUN"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "LLD",
+          "arr": null,
+          "dep": 618
+        },
+        {
+          "station": "DGY",
+          "arr": null,
+          "dep": 623
+        },
+        {
+          "station": "LLJ",
+          "arr": 628,
+          "dep": null
+        },
+        {
+          "station": "LLJ",
+          "arr": null,
+          "dep": 629
+        },
+        {
+          "station": "TLC",
+          "arr": null,
+          "dep": 638
+        },
+        {
+          "station": "LWR",
+          "arr": null,
+          "dep": 652
+        },
+        {
+          "station": "BYC",
+          "arr": null,
+          "dep": 658
+        },
+        {
+          "station": "BFF",
+          "arr": 691,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "SUN_7",
+      "headcode": "",
+      "operator": "AW",
+      "days": [
+        "SUN"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "LLD",
+          "arr": null,
+          "dep": 792
+        },
+        {
+          "station": "DGY",
+          "arr": null,
+          "dep": 797
+        },
+        {
+          "station": "LLJ",
+          "arr": 802,
+          "dep": null
+        },
+        {
+          "station": "LLJ",
+          "arr": null,
+          "dep": 807
+        },
+        {
+          "station": "TLC",
+          "arr": null,
+          "dep": 816
+        },
+        {
+          "station": "LWR",
+          "arr": null,
+          "dep": 830
+        },
+        {
+          "station": "BYC",
+          "arr": null,
+          "dep": 836
+        },
+        {
+          "station": "BFF",
+          "arr": 868,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "SUN_8",
+      "headcode": "",
+      "operator": "AW",
+      "days": [
+        "SUN"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "LLD",
+          "arr": null,
+          "dep": 947
+        },
+        {
+          "station": "DGY",
+          "arr": null,
+          "dep": 952
+        },
+        {
+          "station": "LLJ",
+          "arr": 957,
+          "dep": null
+        },
+        {
+          "station": "LLJ",
+          "arr": null,
+          "dep": 975
+        },
+        {
+          "station": "TLC",
+          "arr": null,
+          "dep": 984
+        },
+        {
+          "station": "LWR",
+          "arr": null,
+          "dep": 998
+        },
+        {
+          "station": "BYC",
+          "arr": null,
+          "dep": 1004
+        },
+        {
+          "station": "BFF",
+          "arr": 1038,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "SUN_9",
+      "headcode": "",
+      "operator": "",
+      "days": [
+        "SUN"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "LLD",
+          "arr": null,
+          "dep": 1139
+        },
+        {
+          "station": "DGY",
+          "arr": null,
+          "dep": 1144
+        },
+        {
+          "station": "LLJ",
+          "arr": 1149,
+          "dep": null
+        },
+        {
+          "station": "LLJ",
+          "arr": null,
+          "dep": 1155
+        },
+        {
+          "station": "TLC",
+          "arr": null,
+          "dep": 1164
+        },
+        {
+          "station": "LWR",
+          "arr": null,
+          "dep": 1178
+        },
+        {
+          "station": "BYC",
+          "arr": null,
+          "dep": 1184
+        },
+        {
+          "station": "BFF",
+          "arr": 1216,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "MF_10",
+      "headcode": "",
+      "operator": "AW",
+      "days": [
+        "MF"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "BFF",
+          "arr": null,
+          "dep": 379
+        },
+        {
+          "station": "BYC",
+          "arr": null,
+          "dep": 408
+        },
+        {
+          "station": "LWR",
+          "arr": null,
+          "dep": 414
+        },
+        {
+          "station": "LLJ",
+          "arr": 440,
+          "dep": null
+        },
+        {
+          "station": "LLJ",
+          "arr": null,
+          "dep": 441
+        },
+        {
+          "station": "DGY",
+          "arr": 445,
+          "dep": null
+        },
+        {
+          "station": "LLD",
+          "arr": 450,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "MF_11",
+      "headcode": "",
+      "operator": "AW",
+      "days": [
+        "MF"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "BFF",
+          "arr": null,
+          "dep": 518
+        },
+        {
+          "station": "BYC",
+          "arr": null,
+          "dep": 547
+        },
+        {
+          "station": "LWR",
+          "arr": null,
+          "dep": 553
+        },
+        {
+          "station": "LLJ",
+          "arr": 580,
+          "dep": null
+        },
+        {
+          "station": "LLJ",
+          "arr": null,
+          "dep": 590
+        },
+        {
+          "station": "DGY",
+          "arr": 593,
+          "dep": null
+        },
+        {
+          "station": "LLD",
+          "arr": 601,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "MF_12",
+      "headcode": "",
+      "operator": "AW",
+      "days": [
+        "MF"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "BFF",
+          "arr": null,
+          "dep": 698
+        },
+        {
+          "station": "BYC",
+          "arr": null,
+          "dep": 727
+        },
+        {
+          "station": "LWR",
+          "arr": null,
+          "dep": 733
+        },
+        {
+          "station": "LLJ",
+          "arr": 760,
+          "dep": null
+        },
+        {
+          "station": "LLJ",
+          "arr": null,
+          "dep": 770
+        },
+        {
+          "station": "DGY",
+          "arr": 773,
+          "dep": null
+        },
+        {
+          "station": "LLD",
+          "arr": 781,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "MF_13",
+      "headcode": "",
+      "operator": "AW",
+      "days": [
+        "MF"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "BFF",
+          "arr": null,
+          "dep": 878
+        },
+        {
+          "station": "BYC",
+          "arr": null,
+          "dep": 907
+        },
+        {
+          "station": "LWR",
+          "arr": null,
+          "dep": 913
+        },
+        {
+          "station": "LLJ",
+          "arr": 940,
+          "dep": null
+        },
+        {
+          "station": "LLJ",
+          "arr": null,
+          "dep": 950
+        },
+        {
+          "station": "DGY",
+          "arr": 953,
+          "dep": null
+        },
+        {
+          "station": "LLD",
+          "arr": 961,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "MF_14",
+      "headcode": "",
+      "operator": "AW",
+      "days": [
+        "MF"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "BFF",
+          "arr": null,
+          "dep": 1058
+        },
+        {
+          "station": "BYC",
+          "arr": null,
+          "dep": 1087
+        },
+        {
+          "station": "LWR",
+          "arr": null,
+          "dep": 1093
+        },
+        {
+          "station": "LLJ",
+          "arr": 1120,
+          "dep": null
+        },
+        {
+          "station": "LLJ",
+          "arr": null,
+          "dep": 1130
+        },
+        {
+          "station": "DGY",
+          "arr": 1133,
+          "dep": null
+        },
+        {
+          "station": "LLD",
+          "arr": 1141,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "MF_15",
+      "headcode": "",
+      "operator": "",
+      "days": [
+        "MF"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "BFF",
+          "arr": null,
+          "dep": 1238
+        },
+        {
+          "station": "BYC",
+          "arr": null,
+          "dep": 1267
+        },
+        {
+          "station": "LWR",
+          "arr": null,
+          "dep": 1273
+        },
+        {
+          "station": "LLJ",
+          "arr": 1300,
+          "dep": null
+        },
+        {
+          "station": "LLJ",
+          "arr": null,
+          "dep": 1310
+        },
+        {
+          "station": "DGY",
+          "arr": 1313,
+          "dep": null
+        },
+        {
+          "station": "LLD",
+          "arr": 1321,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "SUN_16",
+      "headcode": "",
+      "operator": "AW",
+      "days": [
+        "SUN"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "BFF",
+          "arr": null,
+          "dep": 702
+        },
+        {
+          "station": "BYC",
+          "arr": null,
+          "dep": 728
+        },
+        {
+          "station": "LWR",
+          "arr": null,
+          "dep": 734
+        },
+        {
+          "station": "LLJ",
+          "arr": 762,
+          "dep": null
+        },
+        {
+          "station": "LLJ",
+          "arr": null,
+          "dep": 764
+        },
+        {
+          "station": "DGY",
+          "arr": 767,
+          "dep": null
+        },
+        {
+          "station": "LLD",
+          "arr": 775,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "SUN_17",
+      "headcode": "",
+      "operator": "AW",
+      "days": [
+        "SUN"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "BFF",
+          "arr": null,
+          "dep": 899
+        },
+        {
+          "station": "BYC",
+          "arr": null,
+          "dep": 925
+        },
+        {
+          "station": "LWR",
+          "arr": null,
+          "dep": 931
+        },
+        {
+          "station": "LLJ",
+          "arr": 960,
+          "dep": null
+        },
+        {
+          "station": "LLJ",
+          "arr": null,
+          "dep": 964
+        },
+        {
+          "station": "DGY",
+          "arr": 967,
+          "dep": null
+        },
+        {
+          "station": "LLD",
+          "arr": 974,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "SUN_18",
+      "headcode": "",
+      "operator": "AW",
+      "days": [
+        "SUN"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "BFF",
+          "arr": null,
+          "dep": 1048
+        },
+        {
+          "station": "BYC",
+          "arr": null,
+          "dep": 1075
+        },
+        {
+          "station": "LWR",
+          "arr": null,
+          "dep": 1081
+        },
+        {
+          "station": "LLJ",
+          "arr": 1110,
+          "dep": null
+        },
+        {
+          "station": "LLJ",
+          "arr": null,
+          "dep": 1113
+        },
+        {
+          "station": "DGY",
+          "arr": 1116,
+          "dep": null
+        },
+        {
+          "station": "LLD",
+          "arr": 1124,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "SUN_19",
+      "headcode": "",
+      "operator": "",
+      "days": [
+        "SUN"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "BFF",
+          "arr": null,
+          "dep": 1220
+        },
+        {
+          "station": "BYC",
+          "arr": null,
+          "dep": 1247
+        },
+        {
+          "station": "LWR",
+          "arr": null,
+          "dep": 1253
+        },
+        {
+          "station": "LLJ",
+          "arr": 1282,
+          "dep": null
+        },
+        {
+          "station": "LLJ",
+          "arr": null,
+          "dep": 1285
+        },
+        {
+          "station": "DGY",
+          "arr": 1288,
+          "dep": null
+        },
+        {
+          "station": "LLD",
+          "arr": 1296,
+          "dep": null
+        }
+      ]
+    }
+  ]
+}

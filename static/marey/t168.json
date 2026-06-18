@@ -1,0 +1,8502 @@
+{
+  "table": "168",
+  "route": "Route 168",
+  "route_id": "t168",
+  "stations": [
+    {
+      "name": "Harrow & Wealdstone",
+      "crs": "HRW",
+      "mileage": 0.0,
+      "type": "interchange"
+    },
+    {
+      "name": "Wembley Central",
+      "crs": "WMB",
+      "mileage": 5.0,
+      "type": "interchange"
+    },
+    {
+      "name": "s Bush",
+      "crs": "SPB",
+      "mileage": 10.0,
+      "type": "interchange"
+    },
+    {
+      "name": "Kensington",
+      "crs": "KPA",
+      "mileage": 15.0,
+      "type": "interchange"
+    },
+    {
+      "name": "West Brompton",
+      "crs": "WBP",
+      "mileage": 20.0,
+      "type": "interchange"
+    },
+    {
+      "name": "Imperial Wharf",
+      "crs": "IMW",
+      "mileage": 25.0,
+      "type": "interchange"
+    },
+    {
+      "name": "Balham",
+      "crs": "BAL",
+      "mileage": 30.0,
+      "type": "interchange"
+    },
+    {
+      "name": "Streatham Common",
+      "crs": "SRC",
+      "mileage": 35.0,
+      "type": "minor"
+    },
+    {
+      "name": "Norbury",
+      "crs": "NRB",
+      "mileage": 40.0,
+      "type": "minor"
+    },
+    {
+      "name": "Thornton Heath",
+      "crs": "TTH",
+      "mileage": 45.0,
+      "type": "minor"
+    },
+    {
+      "name": "Selhurst",
+      "crs": "SRS",
+      "mileage": 50.0,
+      "type": "minor"
+    },
+    {
+      "name": "East Croydon",
+      "crs": "ECR",
+      "mileage": 55.0,
+      "type": "major"
+    }
+  ],
+  "services": [
+    {
+      "id": "MF_0",
+      "headcode": "",
+      "operator": "SN",
+      "days": [
+        "MF"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "HRW",
+          "arr": null,
+          "dep": 361
+        },
+        {
+          "station": "WMB",
+          "arr": null,
+          "dep": 366
+        },
+        {
+          "station": "SPB",
+          "arr": null,
+          "dep": 379
+        },
+        {
+          "station": "KPA",
+          "arr": null,
+          "dep": 382
+        },
+        {
+          "station": "WBP",
+          "arr": null,
+          "dep": 385
+        },
+        {
+          "station": "IMW",
+          "arr": null,
+          "dep": 388
+        },
+        {
+          "station": "BAL",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "SRC",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "NRB",
+          "arr": 408,
+          "dep": null
+        },
+        {
+          "station": "TTH",
+          "arr": 411,
+          "dep": null
+        },
+        {
+          "station": "SRS",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "ECR",
+          "arr": 421,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "MF_1",
+      "headcode": "",
+      "operator": "SN",
+      "days": [
+        "MF"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "HRW",
+          "arr": null,
+          "dep": 419
+        },
+        {
+          "station": "WMB",
+          "arr": null,
+          "dep": 423
+        },
+        {
+          "station": "SPB",
+          "arr": null,
+          "dep": 439
+        },
+        {
+          "station": "KPA",
+          "arr": null,
+          "dep": 441
+        },
+        {
+          "station": "WBP",
+          "arr": null,
+          "dep": 444
+        },
+        {
+          "station": "IMW",
+          "arr": null,
+          "dep": 447
+        },
+        {
+          "station": "BAL",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "SRC",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "NRB",
+          "arr": 469,
+          "dep": null
+        },
+        {
+          "station": "TTH",
+          "arr": 472,
+          "dep": null
+        },
+        {
+          "station": "SRS",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "ECR",
+          "arr": 483,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "MF_2",
+      "headcode": "",
+      "operator": "SN",
+      "days": [
+        "MF"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "HRW",
+          "arr": null,
+          "dep": 466
+        },
+        {
+          "station": "WMB",
+          "arr": null,
+          "dep": 470
+        },
+        {
+          "station": "SPB",
+          "arr": null,
+          "dep": 486
+        },
+        {
+          "station": "KPA",
+          "arr": null,
+          "dep": 489
+        },
+        {
+          "station": "WBP",
+          "arr": null,
+          "dep": 492
+        },
+        {
+          "station": "IMW",
+          "arr": null,
+          "dep": 495
+        },
+        {
+          "station": "BAL",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "SRC",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "NRB",
+          "arr": 528,
+          "dep": null
+        },
+        {
+          "station": "TTH",
+          "arr": 532,
+          "dep": null
+        },
+        {
+          "station": "SRS",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "ECR",
+          "arr": 541,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "MF_3",
+      "headcode": "",
+      "operator": "SN",
+      "days": [
+        "MF"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "HRW",
+          "arr": null,
+          "dep": 539
+        },
+        {
+          "station": "WMB",
+          "arr": null,
+          "dep": 544
+        },
+        {
+          "station": "SPB",
+          "arr": null,
+          "dep": 560
+        },
+        {
+          "station": "KPA",
+          "arr": null,
+          "dep": 563
+        },
+        {
+          "station": "WBP",
+          "arr": null,
+          "dep": 566
+        },
+        {
+          "station": "IMW",
+          "arr": null,
+          "dep": 569
+        },
+        {
+          "station": "BAL",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "SRC",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "NRB",
+          "arr": 588,
+          "dep": null
+        },
+        {
+          "station": "TTH",
+          "arr": 591,
+          "dep": null
+        },
+        {
+          "station": "SRS",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "ECR",
+          "arr": 601,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "MF_4",
+      "headcode": "",
+      "operator": "SN",
+      "days": [
+        "MF"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "HRW",
+          "arr": null,
+          "dep": 599
+        },
+        {
+          "station": "WMB",
+          "arr": null,
+          "dep": 603
+        },
+        {
+          "station": "SPB",
+          "arr": null,
+          "dep": 622
+        },
+        {
+          "station": "KPA",
+          "arr": null,
+          "dep": 624
+        },
+        {
+          "station": "WBP",
+          "arr": null,
+          "dep": 627
+        },
+        {
+          "station": "IMW",
+          "arr": null,
+          "dep": 630
+        },
+        {
+          "station": "BAL",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "SRC",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "NRB",
+          "arr": 648,
+          "dep": null
+        },
+        {
+          "station": "TTH",
+          "arr": 652,
+          "dep": null
+        },
+        {
+          "station": "SRS",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "ECR",
+          "arr": 661,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "MF_5",
+      "headcode": "",
+      "operator": "SN",
+      "days": [
+        "MF"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "HRW",
+          "arr": null,
+          "dep": 660
+        },
+        {
+          "station": "WMB",
+          "arr": null,
+          "dep": 664
+        },
+        {
+          "station": "SPB",
+          "arr": null,
+          "dep": 682
+        },
+        {
+          "station": "KPA",
+          "arr": null,
+          "dep": 684
+        },
+        {
+          "station": "WBP",
+          "arr": null,
+          "dep": 687
+        },
+        {
+          "station": "IMW",
+          "arr": null,
+          "dep": 690
+        },
+        {
+          "station": "BAL",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "SRC",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "NRB",
+          "arr": 708,
+          "dep": null
+        },
+        {
+          "station": "TTH",
+          "arr": 712,
+          "dep": null
+        },
+        {
+          "station": "SRS",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "ECR",
+          "arr": 721,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "MF_6",
+      "headcode": "",
+      "operator": "SN",
+      "days": [
+        "MF"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "HRW",
+          "arr": null,
+          "dep": 718
+        },
+        {
+          "station": "WMB",
+          "arr": null,
+          "dep": 723
+        },
+        {
+          "station": "SPB",
+          "arr": null,
+          "dep": 742
+        },
+        {
+          "station": "KPA",
+          "arr": null,
+          "dep": 744
+        },
+        {
+          "station": "WBP",
+          "arr": null,
+          "dep": 747
+        },
+        {
+          "station": "IMW",
+          "arr": null,
+          "dep": 750
+        },
+        {
+          "station": "BAL",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "SRC",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "NRB",
+          "arr": 768,
+          "dep": null
+        },
+        {
+          "station": "TTH",
+          "arr": 772,
+          "dep": null
+        },
+        {
+          "station": "SRS",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "ECR",
+          "arr": 781,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "MF_7",
+      "headcode": "",
+      "operator": "SN",
+      "days": [
+        "MF"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "HRW",
+          "arr": null,
+          "dep": 782
+        },
+        {
+          "station": "WMB",
+          "arr": null,
+          "dep": 788
+        },
+        {
+          "station": "SPB",
+          "arr": null,
+          "dep": 802
+        },
+        {
+          "station": "KPA",
+          "arr": null,
+          "dep": 804
+        },
+        {
+          "station": "WBP",
+          "arr": null,
+          "dep": 807
+        },
+        {
+          "station": "IMW",
+          "arr": null,
+          "dep": 810
+        },
+        {
+          "station": "BAL",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "SRC",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "NRB",
+          "arr": 828,
+          "dep": null
+        },
+        {
+          "station": "TTH",
+          "arr": 832,
+          "dep": null
+        },
+        {
+          "station": "SRS",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "ECR",
+          "arr": 841,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "MF_8",
+      "headcode": "",
+      "operator": "SN",
+      "days": [
+        "MF"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "HRW",
+          "arr": null,
+          "dep": 839
+        },
+        {
+          "station": "WMB",
+          "arr": null,
+          "dep": 844
+        },
+        {
+          "station": "SPB",
+          "arr": null,
+          "dep": 862
+        },
+        {
+          "station": "KPA",
+          "arr": null,
+          "dep": 864
+        },
+        {
+          "station": "WBP",
+          "arr": null,
+          "dep": 867
+        },
+        {
+          "station": "IMW",
+          "arr": null,
+          "dep": 870
+        },
+        {
+          "station": "BAL",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "SRC",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "NRB",
+          "arr": 888,
+          "dep": null
+        },
+        {
+          "station": "TTH",
+          "arr": 892,
+          "dep": null
+        },
+        {
+          "station": "SRS",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "ECR",
+          "arr": 901,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "MF_9",
+      "headcode": "",
+      "operator": "SN",
+      "days": [
+        "MF"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "HRW",
+          "arr": null,
+          "dep": 899
+        },
+        {
+          "station": "WMB",
+          "arr": null,
+          "dep": 903
+        },
+        {
+          "station": "SPB",
+          "arr": null,
+          "dep": 921
+        },
+        {
+          "station": "KPA",
+          "arr": null,
+          "dep": 923
+        },
+        {
+          "station": "WBP",
+          "arr": null,
+          "dep": 926
+        },
+        {
+          "station": "IMW",
+          "arr": null,
+          "dep": 929
+        },
+        {
+          "station": "BAL",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "SRC",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "NRB",
+          "arr": 948,
+          "dep": null
+        },
+        {
+          "station": "TTH",
+          "arr": 952,
+          "dep": null
+        },
+        {
+          "station": "SRS",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "ECR",
+          "arr": 961,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "MF_10",
+      "headcode": "",
+      "operator": "SN",
+      "days": [
+        "MF"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "HRW",
+          "arr": null,
+          "dep": 959
+        },
+        {
+          "station": "WMB",
+          "arr": null,
+          "dep": 964
+        },
+        {
+          "station": "SPB",
+          "arr": null,
+          "dep": 981
+        },
+        {
+          "station": "KPA",
+          "arr": null,
+          "dep": 983
+        },
+        {
+          "station": "WBP",
+          "arr": null,
+          "dep": 986
+        },
+        {
+          "station": "IMW",
+          "arr": null,
+          "dep": 989
+        },
+        {
+          "station": "BAL",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "SRC",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "NRB",
+          "arr": 1008,
+          "dep": null
+        },
+        {
+          "station": "TTH",
+          "arr": 1011,
+          "dep": null
+        },
+        {
+          "station": "SRS",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "ECR",
+          "arr": 1021,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "MF_11",
+      "headcode": "",
+      "operator": "SN",
+      "days": [
+        "MF"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "HRW",
+          "arr": null,
+          "dep": 1019
+        },
+        {
+          "station": "WMB",
+          "arr": null,
+          "dep": 1025
+        },
+        {
+          "station": "SPB",
+          "arr": null,
+          "dep": 1041
+        },
+        {
+          "station": "KPA",
+          "arr": null,
+          "dep": 1043
+        },
+        {
+          "station": "WBP",
+          "arr": null,
+          "dep": 1046
+        },
+        {
+          "station": "IMW",
+          "arr": null,
+          "dep": 1049
+        },
+        {
+          "station": "BAL",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "SRC",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "NRB",
+          "arr": 1068,
+          "dep": null
+        },
+        {
+          "station": "TTH",
+          "arr": 1071,
+          "dep": null
+        },
+        {
+          "station": "SRS",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "ECR",
+          "arr": 1081,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "MF_12",
+      "headcode": "",
+      "operator": "SN",
+      "days": [
+        "MF"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "HRW",
+          "arr": null,
+          "dep": 1080
+        },
+        {
+          "station": "WMB",
+          "arr": null,
+          "dep": 1085
+        },
+        {
+          "station": "SPB",
+          "arr": null,
+          "dep": 1101
+        },
+        {
+          "station": "KPA",
+          "arr": null,
+          "dep": 1103
+        },
+        {
+          "station": "WBP",
+          "arr": null,
+          "dep": 1106
+        },
+        {
+          "station": "IMW",
+          "arr": null,
+          "dep": 1109
+        },
+        {
+          "station": "BAL",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "SRC",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "NRB",
+          "arr": 1129,
+          "dep": null
+        },
+        {
+          "station": "TTH",
+          "arr": 1132,
+          "dep": null
+        },
+        {
+          "station": "SRS",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "ECR",
+          "arr": 1141,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "MF_13",
+      "headcode": "",
+      "operator": "SN",
+      "days": [
+        "MF"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "HRW",
+          "arr": null,
+          "dep": 1139
+        },
+        {
+          "station": "WMB",
+          "arr": null,
+          "dep": 1146
+        },
+        {
+          "station": "SPB",
+          "arr": null,
+          "dep": 1161
+        },
+        {
+          "station": "KPA",
+          "arr": null,
+          "dep": 1163
+        },
+        {
+          "station": "WBP",
+          "arr": null,
+          "dep": 1166
+        },
+        {
+          "station": "IMW",
+          "arr": null,
+          "dep": 1169
+        },
+        {
+          "station": "BAL",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "SRC",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "NRB",
+          "arr": 1188,
+          "dep": null
+        },
+        {
+          "station": "TTH",
+          "arr": 1192,
+          "dep": null
+        },
+        {
+          "station": "SRS",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "ECR",
+          "arr": 1202,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "MF_14",
+      "headcode": "",
+      "operator": "SN",
+      "days": [
+        "MF"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "HRW",
+          "arr": null,
+          "dep": 1199
+        },
+        {
+          "station": "WMB",
+          "arr": null,
+          "dep": 1204
+        },
+        {
+          "station": "SPB",
+          "arr": null,
+          "dep": 1220
+        },
+        {
+          "station": "KPA",
+          "arr": null,
+          "dep": 1223
+        },
+        {
+          "station": "WBP",
+          "arr": null,
+          "dep": 1226
+        },
+        {
+          "station": "IMW",
+          "arr": null,
+          "dep": 1229
+        },
+        {
+          "station": "BAL",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "SRC",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "NRB",
+          "arr": 1249,
+          "dep": null
+        },
+        {
+          "station": "TTH",
+          "arr": 1252,
+          "dep": null
+        },
+        {
+          "station": "SRS",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "ECR",
+          "arr": 1261,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "MF_15",
+      "headcode": "",
+      "operator": "SN",
+      "days": [
+        "MF"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "HRW",
+          "arr": null,
+          "dep": 1259
+        },
+        {
+          "station": "WMB",
+          "arr": null,
+          "dep": 1264
+        },
+        {
+          "station": "SPB",
+          "arr": null,
+          "dep": 1279
+        },
+        {
+          "station": "KPA",
+          "arr": null,
+          "dep": 1282
+        },
+        {
+          "station": "WBP",
+          "arr": null,
+          "dep": 1285
+        },
+        {
+          "station": "IMW",
+          "arr": null,
+          "dep": 1289
+        },
+        {
+          "station": "BAL",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "SRC",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "NRB",
+          "arr": 1308,
+          "dep": null
+        },
+        {
+          "station": "TTH",
+          "arr": 1311,
+          "dep": null
+        },
+        {
+          "station": "SRS",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "ECR",
+          "arr": 1321,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "MF_16",
+      "headcode": "",
+      "operator": "SN",
+      "days": [
+        "MF"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "HRW",
+          "arr": null,
+          "dep": 1318
+        },
+        {
+          "station": "SPB",
+          "arr": null,
+          "dep": 1338
+        },
+        {
+          "station": "KPA",
+          "arr": null,
+          "dep": 1341
+        },
+        {
+          "station": "WBP",
+          "arr": null,
+          "dep": 1344
+        },
+        {
+          "station": "IMW",
+          "arr": null,
+          "dep": 1347
+        },
+        {
+          "station": "BAL",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "SRC",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "NRB",
+          "arr": 1368,
+          "dep": null
+        },
+        {
+          "station": "TTH",
+          "arr": 1371,
+          "dep": null
+        },
+        {
+          "station": "SRS",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "ECR",
+          "arr": 1381,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "MF_17",
+      "headcode": "",
+      "operator": "SN",
+      "days": [
+        "MF"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "HRW",
+          "arr": null,
+          "dep": 1362
+        },
+        {
+          "station": "SPB",
+          "arr": null,
+          "dep": 1379
+        },
+        {
+          "station": "KPA",
+          "arr": null,
+          "dep": 1382
+        },
+        {
+          "station": "WBP",
+          "arr": null,
+          "dep": 1385
+        },
+        {
+          "station": "IMW",
+          "arr": null,
+          "dep": 1388
+        }
+      ]
+    },
+    {
+      "id": "MF_18",
+      "headcode": "",
+      "operator": "",
+      "days": [
+        "MF"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "HRW",
+          "arr": null,
+          "dep": 1428
+        },
+        {
+          "station": "SPB",
+          "arr": null,
+          "dep": 6
+        },
+        {
+          "station": "KPA",
+          "arr": null,
+          "dep": 9
+        },
+        {
+          "station": "WBP",
+          "arr": null,
+          "dep": 12
+        },
+        {
+          "station": "IMW",
+          "arr": null,
+          "dep": 15
+        }
+      ]
+    },
+    {
+      "id": "MF_19",
+      "headcode": "",
+      "operator": "",
+      "days": [
+        "MF"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "IMW",
+          "arr": null,
+          "dep": 392
+        }
+      ]
+    },
+    {
+      "id": "MF_20",
+      "headcode": "",
+      "operator": "",
+      "days": [
+        "MF"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "IMW",
+          "arr": null,
+          "dep": 452
+        }
+      ]
+    },
+    {
+      "id": "MF_21",
+      "headcode": "",
+      "operator": "",
+      "days": [
+        "MF"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "IMW",
+          "arr": null,
+          "dep": 500
+        }
+      ]
+    },
+    {
+      "id": "MF_22",
+      "headcode": "",
+      "operator": "",
+      "days": [
+        "MF"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "IMW",
+          "arr": null,
+          "dep": 573
+        }
+      ]
+    },
+    {
+      "id": "MF_23",
+      "headcode": "",
+      "operator": "",
+      "days": [
+        "MF"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "IMW",
+          "arr": null,
+          "dep": 635
+        }
+      ]
+    },
+    {
+      "id": "MF_24",
+      "headcode": "",
+      "operator": "",
+      "days": [
+        "MF"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "IMW",
+          "arr": null,
+          "dep": 695
+        }
+      ]
+    },
+    {
+      "id": "MF_25",
+      "headcode": "",
+      "operator": "",
+      "days": [
+        "MF"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "IMW",
+          "arr": null,
+          "dep": 755
+        }
+      ]
+    },
+    {
+      "id": "MF_26",
+      "headcode": "",
+      "operator": "",
+      "days": [
+        "MF"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "IMW",
+          "arr": null,
+          "dep": 815
+        }
+      ]
+    },
+    {
+      "id": "MF_27",
+      "headcode": "",
+      "operator": "",
+      "days": [
+        "MF"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "IMW",
+          "arr": null,
+          "dep": 875
+        }
+      ]
+    },
+    {
+      "id": "MF_28",
+      "headcode": "",
+      "operator": "",
+      "days": [
+        "MF"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "IMW",
+          "arr": null,
+          "dep": 934
+        }
+      ]
+    },
+    {
+      "id": "MF_29",
+      "headcode": "",
+      "operator": "",
+      "days": [
+        "MF"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "IMW",
+          "arr": null,
+          "dep": 994
+        }
+      ]
+    },
+    {
+      "id": "MF_30",
+      "headcode": "",
+      "operator": "",
+      "days": [
+        "MF"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "IMW",
+          "arr": null,
+          "dep": 1054
+        }
+      ]
+    },
+    {
+      "id": "MF_31",
+      "headcode": "",
+      "operator": "",
+      "days": [
+        "MF"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "IMW",
+          "arr": null,
+          "dep": 1114
+        }
+      ]
+    },
+    {
+      "id": "MF_32",
+      "headcode": "",
+      "operator": "",
+      "days": [
+        "MF"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "IMW",
+          "arr": null,
+          "dep": 1174
+        }
+      ]
+    },
+    {
+      "id": "MF_33",
+      "headcode": "",
+      "operator": "",
+      "days": [
+        "MF"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "IMW",
+          "arr": null,
+          "dep": 1233
+        }
+      ]
+    },
+    {
+      "id": "MF_34",
+      "headcode": "",
+      "operator": "",
+      "days": [
+        "MF"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "IMW",
+          "arr": null,
+          "dep": 1295
+        }
+      ]
+    },
+    {
+      "id": "MF_35",
+      "headcode": "",
+      "operator": "",
+      "days": [
+        "MF"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "IMW",
+          "arr": null,
+          "dep": 1351
+        }
+      ]
+    },
+    {
+      "id": "MF_36",
+      "headcode": "",
+      "operator": "",
+      "days": [
+        "MF"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "IMW",
+          "arr": null,
+          "dep": 1392
+        }
+      ]
+    },
+    {
+      "id": "MF_37",
+      "headcode": "",
+      "operator": "",
+      "days": [
+        "MF"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "IMW",
+          "arr": null,
+          "dep": 19
+        }
+      ]
+    },
+    {
+      "id": "SAT_38",
+      "headcode": "",
+      "operator": "SN",
+      "days": [
+        "SAT"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "HRW",
+          "arr": null,
+          "dep": 364
+        },
+        {
+          "station": "WMB",
+          "arr": null,
+          "dep": 369
+        },
+        {
+          "station": "SPB",
+          "arr": null,
+          "dep": 382
+        },
+        {
+          "station": "KPA",
+          "arr": null,
+          "dep": 385
+        },
+        {
+          "station": "WBP",
+          "arr": null,
+          "dep": 388
+        },
+        {
+          "station": "IMW",
+          "arr": null,
+          "dep": 391
+        },
+        {
+          "station": "BAL",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "SRC",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "NRB",
+          "arr": 408,
+          "dep": null
+        },
+        {
+          "station": "TTH",
+          "arr": 412,
+          "dep": null
+        },
+        {
+          "station": "SRS",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "ECR",
+          "arr": 421,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "SAT_39",
+      "headcode": "",
+      "operator": "SN",
+      "days": [
+        "SAT"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "HRW",
+          "arr": null,
+          "dep": 421
+        },
+        {
+          "station": "WMB",
+          "arr": null,
+          "dep": 426
+        },
+        {
+          "station": "SPB",
+          "arr": null,
+          "dep": 439
+        },
+        {
+          "station": "KPA",
+          "arr": null,
+          "dep": 442
+        },
+        {
+          "station": "WBP",
+          "arr": null,
+          "dep": 445
+        },
+        {
+          "station": "IMW",
+          "arr": null,
+          "dep": 448
+        },
+        {
+          "station": "BAL",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "SRC",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "NRB",
+          "arr": 468,
+          "dep": null
+        },
+        {
+          "station": "TTH",
+          "arr": 472,
+          "dep": null
+        },
+        {
+          "station": "SRS",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "ECR",
+          "arr": 480,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "SAT_40",
+      "headcode": "",
+      "operator": "SN",
+      "days": [
+        "SAT"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "HRW",
+          "arr": null,
+          "dep": 479
+        },
+        {
+          "station": "WMB",
+          "arr": null,
+          "dep": 484
+        },
+        {
+          "station": "SPB",
+          "arr": null,
+          "dep": 499
+        },
+        {
+          "station": "KPA",
+          "arr": null,
+          "dep": 502
+        },
+        {
+          "station": "WBP",
+          "arr": null,
+          "dep": 505
+        },
+        {
+          "station": "IMW",
+          "arr": null,
+          "dep": 508
+        },
+        {
+          "station": "BAL",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "SRC",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "NRB",
+          "arr": 528,
+          "dep": null
+        },
+        {
+          "station": "TTH",
+          "arr": 532,
+          "dep": null
+        },
+        {
+          "station": "SRS",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "ECR",
+          "arr": 540,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "SAT_41",
+      "headcode": "",
+      "operator": "SN",
+      "days": [
+        "SAT"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "HRW",
+          "arr": null,
+          "dep": 539
+        },
+        {
+          "station": "WMB",
+          "arr": null,
+          "dep": 544
+        },
+        {
+          "station": "SPB",
+          "arr": null,
+          "dep": 559
+        },
+        {
+          "station": "KPA",
+          "arr": null,
+          "dep": 562
+        },
+        {
+          "station": "WBP",
+          "arr": null,
+          "dep": 565
+        },
+        {
+          "station": "IMW",
+          "arr": null,
+          "dep": 568
+        },
+        {
+          "station": "BAL",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "SRC",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "NRB",
+          "arr": 588,
+          "dep": null
+        },
+        {
+          "station": "TTH",
+          "arr": 592,
+          "dep": null
+        },
+        {
+          "station": "SRS",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "ECR",
+          "arr": 600,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "SAT_42",
+      "headcode": "",
+      "operator": "SN",
+      "days": [
+        "SAT"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "HRW",
+          "arr": null,
+          "dep": 599
+        },
+        {
+          "station": "WMB",
+          "arr": null,
+          "dep": 604
+        },
+        {
+          "station": "SPB",
+          "arr": null,
+          "dep": 619
+        },
+        {
+          "station": "KPA",
+          "arr": null,
+          "dep": 622
+        },
+        {
+          "station": "WBP",
+          "arr": null,
+          "dep": 625
+        },
+        {
+          "station": "IMW",
+          "arr": null,
+          "dep": 628
+        },
+        {
+          "station": "BAL",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "SRC",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "NRB",
+          "arr": 648,
+          "dep": null
+        },
+        {
+          "station": "TTH",
+          "arr": 652,
+          "dep": null
+        },
+        {
+          "station": "SRS",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "ECR",
+          "arr": 660,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "SAT_43",
+      "headcode": "",
+      "operator": "SN",
+      "days": [
+        "SAT"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "HRW",
+          "arr": null,
+          "dep": 659
+        },
+        {
+          "station": "WMB",
+          "arr": null,
+          "dep": 664
+        },
+        {
+          "station": "SPB",
+          "arr": null,
+          "dep": 679
+        },
+        {
+          "station": "KPA",
+          "arr": null,
+          "dep": 682
+        },
+        {
+          "station": "WBP",
+          "arr": null,
+          "dep": 685
+        },
+        {
+          "station": "IMW",
+          "arr": null,
+          "dep": 688
+        },
+        {
+          "station": "BAL",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "SRC",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "NRB",
+          "arr": 708,
+          "dep": null
+        },
+        {
+          "station": "TTH",
+          "arr": 712,
+          "dep": null
+        },
+        {
+          "station": "SRS",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "ECR",
+          "arr": 720,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "SAT_44",
+      "headcode": "",
+      "operator": "SN",
+      "days": [
+        "SAT"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "HRW",
+          "arr": null,
+          "dep": 719
+        },
+        {
+          "station": "WMB",
+          "arr": null,
+          "dep": 724
+        },
+        {
+          "station": "SPB",
+          "arr": null,
+          "dep": 740
+        },
+        {
+          "station": "KPA",
+          "arr": null,
+          "dep": 742
+        },
+        {
+          "station": "WBP",
+          "arr": null,
+          "dep": 745
+        },
+        {
+          "station": "IMW",
+          "arr": null,
+          "dep": 748
+        },
+        {
+          "station": "BAL",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "SRC",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "NRB",
+          "arr": 768,
+          "dep": null
+        },
+        {
+          "station": "TTH",
+          "arr": 772,
+          "dep": null
+        },
+        {
+          "station": "SRS",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "ECR",
+          "arr": 780,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "SAT_45",
+      "headcode": "",
+      "operator": "SN",
+      "days": [
+        "SAT"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "HRW",
+          "arr": null,
+          "dep": 779
+        },
+        {
+          "station": "WMB",
+          "arr": null,
+          "dep": 784
+        },
+        {
+          "station": "SPB",
+          "arr": null,
+          "dep": 799
+        },
+        {
+          "station": "KPA",
+          "arr": null,
+          "dep": 802
+        },
+        {
+          "station": "WBP",
+          "arr": null,
+          "dep": 805
+        },
+        {
+          "station": "IMW",
+          "arr": null,
+          "dep": 808
+        },
+        {
+          "station": "BAL",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "SRC",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "NRB",
+          "arr": 828,
+          "dep": null
+        },
+        {
+          "station": "TTH",
+          "arr": 832,
+          "dep": null
+        },
+        {
+          "station": "SRS",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "ECR",
+          "arr": 840,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "SAT_46",
+      "headcode": "",
+      "operator": "SN",
+      "days": [
+        "SAT"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "HRW",
+          "arr": null,
+          "dep": 839
+        },
+        {
+          "station": "WMB",
+          "arr": null,
+          "dep": 844
+        },
+        {
+          "station": "SPB",
+          "arr": null,
+          "dep": 860
+        },
+        {
+          "station": "KPA",
+          "arr": null,
+          "dep": 862
+        },
+        {
+          "station": "WBP",
+          "arr": null,
+          "dep": 865
+        },
+        {
+          "station": "IMW",
+          "arr": null,
+          "dep": 868
+        },
+        {
+          "station": "BAL",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "SRC",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "NRB",
+          "arr": 888,
+          "dep": null
+        },
+        {
+          "station": "TTH",
+          "arr": 892,
+          "dep": null
+        },
+        {
+          "station": "SRS",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "ECR",
+          "arr": 900,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "SAT_47",
+      "headcode": "",
+      "operator": "SN",
+      "days": [
+        "SAT"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "HRW",
+          "arr": null,
+          "dep": 899
+        },
+        {
+          "station": "WMB",
+          "arr": null,
+          "dep": 904
+        },
+        {
+          "station": "SPB",
+          "arr": null,
+          "dep": 919
+        },
+        {
+          "station": "KPA",
+          "arr": null,
+          "dep": 922
+        },
+        {
+          "station": "WBP",
+          "arr": null,
+          "dep": 925
+        },
+        {
+          "station": "IMW",
+          "arr": null,
+          "dep": 928
+        },
+        {
+          "station": "BAL",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "SRC",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "NRB",
+          "arr": 948,
+          "dep": null
+        },
+        {
+          "station": "TTH",
+          "arr": 952,
+          "dep": null
+        },
+        {
+          "station": "SRS",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "ECR",
+          "arr": 960,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "SAT_48",
+      "headcode": "",
+      "operator": "SN",
+      "days": [
+        "SAT"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "HRW",
+          "arr": null,
+          "dep": 959
+        },
+        {
+          "station": "WMB",
+          "arr": null,
+          "dep": 964
+        },
+        {
+          "station": "SPB",
+          "arr": null,
+          "dep": 979
+        },
+        {
+          "station": "KPA",
+          "arr": null,
+          "dep": 982
+        },
+        {
+          "station": "WBP",
+          "arr": null,
+          "dep": 985
+        },
+        {
+          "station": "IMW",
+          "arr": null,
+          "dep": 988
+        },
+        {
+          "station": "BAL",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "SRC",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "NRB",
+          "arr": 1008,
+          "dep": null
+        },
+        {
+          "station": "TTH",
+          "arr": 1012,
+          "dep": null
+        },
+        {
+          "station": "SRS",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "ECR",
+          "arr": 1020,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "SAT_49",
+      "headcode": "",
+      "operator": "SN",
+      "days": [
+        "SAT"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "HRW",
+          "arr": null,
+          "dep": 1019
+        },
+        {
+          "station": "WMB",
+          "arr": null,
+          "dep": 1024
+        },
+        {
+          "station": "SPB",
+          "arr": null,
+          "dep": 1039
+        },
+        {
+          "station": "KPA",
+          "arr": null,
+          "dep": 1042
+        },
+        {
+          "station": "WBP",
+          "arr": null,
+          "dep": 1045
+        },
+        {
+          "station": "IMW",
+          "arr": null,
+          "dep": 1048
+        },
+        {
+          "station": "BAL",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "SRC",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "NRB",
+          "arr": 1068,
+          "dep": null
+        },
+        {
+          "station": "TTH",
+          "arr": 1072,
+          "dep": null
+        },
+        {
+          "station": "SRS",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "ECR",
+          "arr": 1080,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "SAT_50",
+      "headcode": "",
+      "operator": "SN",
+      "days": [
+        "SAT"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "HRW",
+          "arr": null,
+          "dep": 1079
+        },
+        {
+          "station": "WMB",
+          "arr": null,
+          "dep": 1084
+        },
+        {
+          "station": "SPB",
+          "arr": null,
+          "dep": 1099
+        },
+        {
+          "station": "KPA",
+          "arr": null,
+          "dep": 1102
+        },
+        {
+          "station": "WBP",
+          "arr": null,
+          "dep": 1105
+        },
+        {
+          "station": "IMW",
+          "arr": null,
+          "dep": 1108
+        },
+        {
+          "station": "BAL",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "SRC",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "NRB",
+          "arr": 1128,
+          "dep": null
+        },
+        {
+          "station": "TTH",
+          "arr": 1132,
+          "dep": null
+        },
+        {
+          "station": "SRS",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "ECR",
+          "arr": 1140,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "SAT_51",
+      "headcode": "",
+      "operator": "SN",
+      "days": [
+        "SAT"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "HRW",
+          "arr": null,
+          "dep": 1139
+        },
+        {
+          "station": "WMB",
+          "arr": null,
+          "dep": 1143
+        },
+        {
+          "station": "SPB",
+          "arr": null,
+          "dep": 1160
+        },
+        {
+          "station": "KPA",
+          "arr": null,
+          "dep": 1162
+        },
+        {
+          "station": "WBP",
+          "arr": null,
+          "dep": 1165
+        },
+        {
+          "station": "IMW",
+          "arr": null,
+          "dep": 1168
+        },
+        {
+          "station": "BAL",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "SRC",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "NRB",
+          "arr": 1188,
+          "dep": null
+        },
+        {
+          "station": "TTH",
+          "arr": 1192,
+          "dep": null
+        },
+        {
+          "station": "SRS",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "ECR",
+          "arr": 1200,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "SAT_52",
+      "headcode": "",
+      "operator": "SN",
+      "days": [
+        "SAT"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "HRW",
+          "arr": null,
+          "dep": 1199
+        },
+        {
+          "station": "WMB",
+          "arr": null,
+          "dep": 1204
+        },
+        {
+          "station": "SPB",
+          "arr": null,
+          "dep": 1220
+        },
+        {
+          "station": "KPA",
+          "arr": null,
+          "dep": 1222
+        },
+        {
+          "station": "WBP",
+          "arr": null,
+          "dep": 1225
+        },
+        {
+          "station": "IMW",
+          "arr": null,
+          "dep": 1228
+        },
+        {
+          "station": "BAL",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "SRC",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "NRB",
+          "arr": 1248,
+          "dep": null
+        },
+        {
+          "station": "TTH",
+          "arr": 1252,
+          "dep": null
+        },
+        {
+          "station": "SRS",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "ECR",
+          "arr": 1260,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "SAT_53",
+      "headcode": "",
+      "operator": "SN",
+      "days": [
+        "SAT"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "HRW",
+          "arr": null,
+          "dep": 1258
+        },
+        {
+          "station": "WMB",
+          "arr": null,
+          "dep": 1263
+        },
+        {
+          "station": "SPB",
+          "arr": null,
+          "dep": 1278
+        },
+        {
+          "station": "KPA",
+          "arr": null,
+          "dep": 1281
+        },
+        {
+          "station": "WBP",
+          "arr": null,
+          "dep": 1284
+        },
+        {
+          "station": "IMW",
+          "arr": null,
+          "dep": 1287
+        },
+        {
+          "station": "BAL",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "SRC",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "NRB",
+          "arr": 1308,
+          "dep": null
+        },
+        {
+          "station": "TTH",
+          "arr": 1312,
+          "dep": null
+        },
+        {
+          "station": "SRS",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "ECR",
+          "arr": 1320,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "SAT_54",
+      "headcode": "",
+      "operator": "SN",
+      "days": [
+        "SAT"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "HRW",
+          "arr": null,
+          "dep": 1313
+        },
+        {
+          "station": "WMB",
+          "arr": null,
+          "dep": 1318
+        },
+        {
+          "station": "SPB",
+          "arr": null,
+          "dep": 1339
+        },
+        {
+          "station": "KPA",
+          "arr": null,
+          "dep": 1342
+        },
+        {
+          "station": "WBP",
+          "arr": null,
+          "dep": 1345
+        },
+        {
+          "station": "IMW",
+          "arr": null,
+          "dep": 1348
+        },
+        {
+          "station": "BAL",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "SRC",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "NRB",
+          "arr": 1368,
+          "dep": null
+        },
+        {
+          "station": "TTH",
+          "arr": 1372,
+          "dep": null
+        },
+        {
+          "station": "SRS",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "ECR",
+          "arr": 1380,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "SAT_55",
+      "headcode": "",
+      "operator": "SN",
+      "days": [
+        "SAT"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "HRW",
+          "arr": null,
+          "dep": 1379
+        },
+        {
+          "station": "WMB",
+          "arr": null,
+          "dep": 1384
+        },
+        {
+          "station": "SPB",
+          "arr": null,
+          "dep": 1399
+        },
+        {
+          "station": "KPA",
+          "arr": null,
+          "dep": 1402
+        },
+        {
+          "station": "WBP",
+          "arr": null,
+          "dep": 1405
+        },
+        {
+          "station": "IMW",
+          "arr": null,
+          "dep": 1408
+        }
+      ]
+    },
+    {
+      "id": "SAT_56",
+      "headcode": "",
+      "operator": "",
+      "days": [
+        "SAT"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "HRW",
+          "arr": null,
+          "dep": 1412
+        },
+        {
+          "station": "WMB",
+          "arr": null,
+          "dep": 1417
+        },
+        {
+          "station": "SPB",
+          "arr": null,
+          "dep": 1430
+        },
+        {
+          "station": "KPA",
+          "arr": null,
+          "dep": 1433
+        },
+        {
+          "station": "WBP",
+          "arr": null,
+          "dep": 1436
+        },
+        {
+          "station": "IMW",
+          "arr": null,
+          "dep": 1439
+        }
+      ]
+    },
+    {
+      "id": "SAT_57",
+      "headcode": "",
+      "operator": "",
+      "days": [
+        "SAT"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "IMW",
+          "arr": null,
+          "dep": 395
+        }
+      ]
+    },
+    {
+      "id": "SAT_58",
+      "headcode": "",
+      "operator": "",
+      "days": [
+        "SAT"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "IMW",
+          "arr": null,
+          "dep": 452
+        }
+      ]
+    },
+    {
+      "id": "SAT_59",
+      "headcode": "",
+      "operator": "",
+      "days": [
+        "SAT"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "IMW",
+          "arr": null,
+          "dep": 514
+        }
+      ]
+    },
+    {
+      "id": "SAT_60",
+      "headcode": "",
+      "operator": "",
+      "days": [
+        "SAT"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "IMW",
+          "arr": null,
+          "dep": 572
+        }
+      ]
+    },
+    {
+      "id": "SAT_61",
+      "headcode": "",
+      "operator": "",
+      "days": [
+        "SAT"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "IMW",
+          "arr": null,
+          "dep": 632
+        }
+      ]
+    },
+    {
+      "id": "SAT_62",
+      "headcode": "",
+      "operator": "",
+      "days": [
+        "SAT"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "IMW",
+          "arr": null,
+          "dep": 692
+        }
+      ]
+    },
+    {
+      "id": "SAT_63",
+      "headcode": "",
+      "operator": "",
+      "days": [
+        "SAT"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "IMW",
+          "arr": null,
+          "dep": 753
+        }
+      ]
+    },
+    {
+      "id": "SAT_64",
+      "headcode": "",
+      "operator": "",
+      "days": [
+        "SAT"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "IMW",
+          "arr": null,
+          "dep": 814
+        }
+      ]
+    },
+    {
+      "id": "SAT_65",
+      "headcode": "",
+      "operator": "",
+      "days": [
+        "SAT"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "IMW",
+          "arr": null,
+          "dep": 873
+        }
+      ]
+    },
+    {
+      "id": "SAT_66",
+      "headcode": "",
+      "operator": "",
+      "days": [
+        "SAT"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "IMW",
+          "arr": null,
+          "dep": 932
+        }
+      ]
+    },
+    {
+      "id": "SAT_67",
+      "headcode": "",
+      "operator": "",
+      "days": [
+        "SAT"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "IMW",
+          "arr": null,
+          "dep": 992
+        }
+      ]
+    },
+    {
+      "id": "SAT_68",
+      "headcode": "",
+      "operator": "",
+      "days": [
+        "SAT"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "IMW",
+          "arr": null,
+          "dep": 1052
+        }
+      ]
+    },
+    {
+      "id": "SAT_69",
+      "headcode": "",
+      "operator": "",
+      "days": [
+        "SAT"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "IMW",
+          "arr": null,
+          "dep": 1112
+        }
+      ]
+    },
+    {
+      "id": "SAT_70",
+      "headcode": "",
+      "operator": "",
+      "days": [
+        "SAT"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "IMW",
+          "arr": null,
+          "dep": 1173
+        }
+      ]
+    },
+    {
+      "id": "SAT_71",
+      "headcode": "",
+      "operator": "",
+      "days": [
+        "SAT"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "IMW",
+          "arr": null,
+          "dep": 1233
+        }
+      ]
+    },
+    {
+      "id": "SAT_72",
+      "headcode": "",
+      "operator": "",
+      "days": [
+        "SAT"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "IMW",
+          "arr": null,
+          "dep": 1291
+        }
+      ]
+    },
+    {
+      "id": "SAT_73",
+      "headcode": "",
+      "operator": "",
+      "days": [
+        "SAT"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "IMW",
+          "arr": null,
+          "dep": 1352
+        }
+      ]
+    },
+    {
+      "id": "SAT_74",
+      "headcode": "",
+      "operator": "",
+      "days": [
+        "SAT"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "IMW",
+          "arr": null,
+          "dep": 1412
+        }
+      ]
+    },
+    {
+      "id": "SAT_75",
+      "headcode": "",
+      "operator": "",
+      "days": [
+        "SAT"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "IMW",
+          "arr": null,
+          "dep": 3
+        }
+      ]
+    },
+    {
+      "id": "SUN_76",
+      "headcode": "",
+      "operator": "SN",
+      "days": [
+        "SUN"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "HRW",
+          "arr": null,
+          "dep": 563
+        },
+        {
+          "station": "WMB",
+          "arr": null,
+          "dep": 568
+        },
+        {
+          "station": "SPB",
+          "arr": null,
+          "dep": 472
+        },
+        {
+          "station": "KPA",
+          "arr": null,
+          "dep": 475
+        },
+        {
+          "station": "WBP",
+          "arr": null,
+          "dep": 478
+        },
+        {
+          "station": "IMW",
+          "arr": null,
+          "dep": 481
+        },
+        {
+          "station": "ECR",
+          "arr": null,
+          "dep": 458
+        }
+      ]
+    },
+    {
+      "id": "SUN_77",
+      "headcode": "",
+      "operator": "SN",
+      "days": [
+        "SUN"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "HRW",
+          "arr": null,
+          "dep": 621
+        },
+        {
+          "station": "WMB",
+          "arr": null,
+          "dep": 626
+        },
+        {
+          "station": "SPB",
+          "arr": null,
+          "dep": 528
+        },
+        {
+          "station": "KPA",
+          "arr": null,
+          "dep": 531
+        },
+        {
+          "station": "WBP",
+          "arr": null,
+          "dep": 534
+        },
+        {
+          "station": "IMW",
+          "arr": null,
+          "dep": 537
+        }
+      ]
+    },
+    {
+      "id": "SUN_78",
+      "headcode": "",
+      "operator": "SN",
+      "days": [
+        "SUN"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "HRW",
+          "arr": null,
+          "dep": 686
+        },
+        {
+          "station": "WMB",
+          "arr": null,
+          "dep": 692
+        },
+        {
+          "station": "SPB",
+          "arr": null,
+          "dep": 585
+        },
+        {
+          "station": "KPA",
+          "arr": null,
+          "dep": 588
+        },
+        {
+          "station": "WBP",
+          "arr": null,
+          "dep": 591
+        },
+        {
+          "station": "IMW",
+          "arr": null,
+          "dep": 594
+        }
+      ]
+    },
+    {
+      "id": "SUN_79",
+      "headcode": "",
+      "operator": "SN",
+      "days": [
+        "SUN"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "HRW",
+          "arr": null,
+          "dep": 746
+        },
+        {
+          "station": "WMB",
+          "arr": null,
+          "dep": 751
+        },
+        {
+          "station": "SPB",
+          "arr": null,
+          "dep": 643
+        },
+        {
+          "station": "KPA",
+          "arr": null,
+          "dep": 646
+        },
+        {
+          "station": "WBP",
+          "arr": null,
+          "dep": 649
+        },
+        {
+          "station": "IMW",
+          "arr": null,
+          "dep": 652
+        }
+      ]
+    },
+    {
+      "id": "SUN_80",
+      "headcode": "",
+      "operator": "SN",
+      "days": [
+        "SUN"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "HRW",
+          "arr": null,
+          "dep": 806
+        },
+        {
+          "station": "WMB",
+          "arr": null,
+          "dep": 811
+        },
+        {
+          "station": "SPB",
+          "arr": null,
+          "dep": 707
+        },
+        {
+          "station": "KPA",
+          "arr": null,
+          "dep": 709
+        },
+        {
+          "station": "WBP",
+          "arr": null,
+          "dep": 712
+        },
+        {
+          "station": "IMW",
+          "arr": null,
+          "dep": 715
+        }
+      ]
+    },
+    {
+      "id": "SUN_81",
+      "headcode": "",
+      "operator": "SN",
+      "days": [
+        "SUN"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "HRW",
+          "arr": null,
+          "dep": 866
+        },
+        {
+          "station": "WMB",
+          "arr": null,
+          "dep": 871
+        },
+        {
+          "station": "SPB",
+          "arr": null,
+          "dep": 767
+        },
+        {
+          "station": "KPA",
+          "arr": null,
+          "dep": 770
+        },
+        {
+          "station": "WBP",
+          "arr": null,
+          "dep": 773
+        },
+        {
+          "station": "IMW",
+          "arr": null,
+          "dep": 776
+        }
+      ]
+    },
+    {
+      "id": "SUN_82",
+      "headcode": "",
+      "operator": "SN",
+      "days": [
+        "SUN"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "HRW",
+          "arr": null,
+          "dep": 926
+        },
+        {
+          "station": "WMB",
+          "arr": null,
+          "dep": 931
+        },
+        {
+          "station": "SPB",
+          "arr": null,
+          "dep": 827
+        },
+        {
+          "station": "KPA",
+          "arr": null,
+          "dep": 830
+        },
+        {
+          "station": "WBP",
+          "arr": null,
+          "dep": 833
+        },
+        {
+          "station": "IMW",
+          "arr": null,
+          "dep": 836
+        }
+      ]
+    },
+    {
+      "id": "SUN_83",
+      "headcode": "",
+      "operator": "SN",
+      "days": [
+        "SUN"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "HRW",
+          "arr": null,
+          "dep": 986
+        },
+        {
+          "station": "WMB",
+          "arr": null,
+          "dep": 991
+        },
+        {
+          "station": "SPB",
+          "arr": null,
+          "dep": 887
+        },
+        {
+          "station": "KPA",
+          "arr": null,
+          "dep": 890
+        },
+        {
+          "station": "WBP",
+          "arr": null,
+          "dep": 893
+        },
+        {
+          "station": "IMW",
+          "arr": null,
+          "dep": 896
+        }
+      ]
+    },
+    {
+      "id": "SUN_84",
+      "headcode": "",
+      "operator": "SN",
+      "days": [
+        "SUN"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "HRW",
+          "arr": null,
+          "dep": 1046
+        },
+        {
+          "station": "WMB",
+          "arr": null,
+          "dep": 1051
+        },
+        {
+          "station": "SPB",
+          "arr": null,
+          "dep": 947
+        },
+        {
+          "station": "KPA",
+          "arr": null,
+          "dep": 950
+        },
+        {
+          "station": "WBP",
+          "arr": null,
+          "dep": 953
+        },
+        {
+          "station": "IMW",
+          "arr": null,
+          "dep": 956
+        }
+      ]
+    },
+    {
+      "id": "SUN_85",
+      "headcode": "",
+      "operator": "SN",
+      "days": [
+        "SUN"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "HRW",
+          "arr": null,
+          "dep": 1106
+        },
+        {
+          "station": "WMB",
+          "arr": null,
+          "dep": 1111
+        },
+        {
+          "station": "SPB",
+          "arr": null,
+          "dep": 1007
+        },
+        {
+          "station": "KPA",
+          "arr": null,
+          "dep": 1010
+        },
+        {
+          "station": "WBP",
+          "arr": null,
+          "dep": 1013
+        },
+        {
+          "station": "IMW",
+          "arr": null,
+          "dep": 1016
+        }
+      ]
+    },
+    {
+      "id": "SUN_86",
+      "headcode": "",
+      "operator": "SN",
+      "days": [
+        "SUN"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "HRW",
+          "arr": null,
+          "dep": 1166
+        },
+        {
+          "station": "WMB",
+          "arr": null,
+          "dep": 1171
+        },
+        {
+          "station": "SPB",
+          "arr": null,
+          "dep": 1069
+        },
+        {
+          "station": "KPA",
+          "arr": null,
+          "dep": 1071
+        },
+        {
+          "station": "WBP",
+          "arr": null,
+          "dep": 1074
+        },
+        {
+          "station": "IMW",
+          "arr": null,
+          "dep": 1077
+        }
+      ]
+    },
+    {
+      "id": "SUN_87",
+      "headcode": "",
+      "operator": "SN",
+      "days": [
+        "SUN"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "HRW",
+          "arr": null,
+          "dep": 1229
+        },
+        {
+          "station": "WMB",
+          "arr": null,
+          "dep": 1234
+        },
+        {
+          "station": "SPB",
+          "arr": null,
+          "dep": 1127
+        },
+        {
+          "station": "KPA",
+          "arr": null,
+          "dep": 1132
+        },
+        {
+          "station": "WBP",
+          "arr": null,
+          "dep": 1135
+        },
+        {
+          "station": "IMW",
+          "arr": null,
+          "dep": 1138
+        }
+      ]
+    },
+    {
+      "id": "SUN_88",
+      "headcode": "",
+      "operator": "SN",
+      "days": [
+        "SUN"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "HRW",
+          "arr": null,
+          "dep": 1284
+        },
+        {
+          "station": "SPB",
+          "arr": null,
+          "dep": 1187
+        },
+        {
+          "station": "KPA",
+          "arr": null,
+          "dep": 1190
+        },
+        {
+          "station": "WBP",
+          "arr": null,
+          "dep": 1193
+        },
+        {
+          "station": "IMW",
+          "arr": null,
+          "dep": 1196
+        }
+      ]
+    },
+    {
+      "id": "SUN_89",
+      "headcode": "",
+      "operator": "SN",
+      "days": [
+        "SUN"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "HRW",
+          "arr": null,
+          "dep": 1344
+        },
+        {
+          "station": "SPB",
+          "arr": null,
+          "dep": 1250
+        },
+        {
+          "station": "KPA",
+          "arr": null,
+          "dep": 1252
+        },
+        {
+          "station": "WBP",
+          "arr": null,
+          "dep": 1255
+        },
+        {
+          "station": "IMW",
+          "arr": null,
+          "dep": 1258
+        }
+      ]
+    },
+    {
+      "id": "SUN_90",
+      "headcode": "",
+      "operator": "SN",
+      "days": [
+        "SUN"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "HRW",
+          "arr": null,
+          "dep": 1398
+        },
+        {
+          "station": "SPB",
+          "arr": null,
+          "dep": 1304
+        },
+        {
+          "station": "KPA",
+          "arr": null,
+          "dep": 1306
+        },
+        {
+          "station": "WBP",
+          "arr": null,
+          "dep": 1309
+        },
+        {
+          "station": "IMW",
+          "arr": null,
+          "dep": 1312
+        }
+      ]
+    },
+    {
+      "id": "SUN_91",
+      "headcode": "",
+      "operator": "SN",
+      "days": [
+        "SUN"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "SPB",
+          "arr": null,
+          "dep": 1364
+        },
+        {
+          "station": "KPA",
+          "arr": null,
+          "dep": 1367
+        },
+        {
+          "station": "WBP",
+          "arr": null,
+          "dep": 1370
+        },
+        {
+          "station": "IMW",
+          "arr": null,
+          "dep": 1373
+        }
+      ]
+    },
+    {
+      "id": "SUN_92",
+      "headcode": "",
+      "operator": "",
+      "days": [
+        "SUN"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "SPB",
+          "arr": null,
+          "dep": 1425
+        },
+        {
+          "station": "KPA",
+          "arr": null,
+          "dep": 1427
+        },
+        {
+          "station": "WBP",
+          "arr": null,
+          "dep": 1430
+        },
+        {
+          "station": "IMW",
+          "arr": null,
+          "dep": 1433
+        }
+      ]
+    },
+    {
+      "id": "SUN_93",
+      "headcode": "",
+      "operator": "",
+      "days": [
+        "SUN"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "IMW",
+          "arr": null,
+          "dep": 485
+        }
+      ]
+    },
+    {
+      "id": "SUN_94",
+      "headcode": "",
+      "operator": "",
+      "days": [
+        "SUN"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "IMW",
+          "arr": null,
+          "dep": 541
+        }
+      ]
+    },
+    {
+      "id": "SUN_95",
+      "headcode": "",
+      "operator": "",
+      "days": [
+        "SUN"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "IMW",
+          "arr": null,
+          "dep": 598
+        }
+      ]
+    },
+    {
+      "id": "SUN_96",
+      "headcode": "",
+      "operator": "",
+      "days": [
+        "SUN"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "IMW",
+          "arr": null,
+          "dep": 656
+        }
+      ]
+    },
+    {
+      "id": "SUN_97",
+      "headcode": "",
+      "operator": "",
+      "days": [
+        "SUN"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "IMW",
+          "arr": null,
+          "dep": 720
+        }
+      ]
+    },
+    {
+      "id": "SUN_98",
+      "headcode": "",
+      "operator": "",
+      "days": [
+        "SUN"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "IMW",
+          "arr": null,
+          "dep": 780
+        }
+      ]
+    },
+    {
+      "id": "SUN_99",
+      "headcode": "",
+      "operator": "",
+      "days": [
+        "SUN"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "IMW",
+          "arr": null,
+          "dep": 840
+        }
+      ]
+    },
+    {
+      "id": "SUN_100",
+      "headcode": "",
+      "operator": "",
+      "days": [
+        "SUN"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "IMW",
+          "arr": null,
+          "dep": 900
+        }
+      ]
+    },
+    {
+      "id": "SUN_101",
+      "headcode": "",
+      "operator": "",
+      "days": [
+        "SUN"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "IMW",
+          "arr": null,
+          "dep": 960
+        }
+      ]
+    },
+    {
+      "id": "SUN_102",
+      "headcode": "",
+      "operator": "",
+      "days": [
+        "SUN"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "IMW",
+          "arr": null,
+          "dep": 1020
+        }
+      ]
+    },
+    {
+      "id": "SUN_103",
+      "headcode": "",
+      "operator": "",
+      "days": [
+        "SUN"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "IMW",
+          "arr": null,
+          "dep": 1082
+        }
+      ]
+    },
+    {
+      "id": "SUN_104",
+      "headcode": "",
+      "operator": "",
+      "days": [
+        "SUN"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "IMW",
+          "arr": null,
+          "dep": 1142
+        }
+      ]
+    },
+    {
+      "id": "SUN_105",
+      "headcode": "",
+      "operator": "",
+      "days": [
+        "SUN"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "IMW",
+          "arr": null,
+          "dep": 1200
+        }
+      ]
+    },
+    {
+      "id": "SUN_106",
+      "headcode": "",
+      "operator": "",
+      "days": [
+        "SUN"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "IMW",
+          "arr": null,
+          "dep": 1263
+        }
+      ]
+    },
+    {
+      "id": "SUN_107",
+      "headcode": "",
+      "operator": "",
+      "days": [
+        "SUN"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "IMW",
+          "arr": null,
+          "dep": 1317
+        }
+      ]
+    },
+    {
+      "id": "SUN_108",
+      "headcode": "",
+      "operator": "",
+      "days": [
+        "SUN"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "IMW",
+          "arr": null,
+          "dep": 1377
+        }
+      ]
+    },
+    {
+      "id": "SUN_109",
+      "headcode": "",
+      "operator": "",
+      "days": [
+        "SUN"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "IMW",
+          "arr": null,
+          "dep": 1438
+        }
+      ]
+    },
+    {
+      "id": "MF_110",
+      "headcode": "",
+      "operator": "SN",
+      "days": [
+        "MF"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "ECR",
+          "arr": null,
+          "dep": 430
+        },
+        {
+          "station": "SRS",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "TTH",
+          "arr": null,
+          "dep": 379
+        },
+        {
+          "station": "NRB",
+          "arr": null,
+          "dep": 382
+        },
+        {
+          "station": "SRC",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "BAL",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "IMW",
+          "arr": null,
+          "dep": 308
+        },
+        {
+          "station": "WBP",
+          "arr": null,
+          "dep": 311
+        },
+        {
+          "station": "KPA",
+          "arr": null,
+          "dep": 314
+        },
+        {
+          "station": "SPB",
+          "arr": null,
+          "dep": 317
+        },
+        {
+          "station": "WMB",
+          "arr": null,
+          "dep": 386
+        },
+        {
+          "station": "HRW",
+          "arr": null,
+          "dep": 336
+        }
+      ]
+    },
+    {
+      "id": "MF_111",
+      "headcode": "",
+      "operator": "SN",
+      "days": [
+        "MF"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "ECR",
+          "arr": null,
+          "dep": 490
+        },
+        {
+          "station": "SRS",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "TTH",
+          "arr": null,
+          "dep": 438
+        },
+        {
+          "station": "NRB",
+          "arr": null,
+          "dep": 442
+        },
+        {
+          "station": "SRC",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "BAL",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "IMW",
+          "arr": null,
+          "dep": 358
+        },
+        {
+          "station": "WBP",
+          "arr": null,
+          "dep": 361
+        },
+        {
+          "station": "KPA",
+          "arr": null,
+          "dep": 365
+        },
+        {
+          "station": "SPB",
+          "arr": null,
+          "dep": 368
+        },
+        {
+          "station": "WMB",
+          "arr": null,
+          "dep": 427
+        },
+        {
+          "station": "HRW",
+          "arr": null,
+          "dep": 393
+        }
+      ]
+    },
+    {
+      "id": "MF_112",
+      "headcode": "",
+      "operator": "SN",
+      "days": [
+        "MF"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "ECR",
+          "arr": null,
+          "dep": 550
+        },
+        {
+          "station": "SRS",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "TTH",
+          "arr": null,
+          "dep": 498
+        },
+        {
+          "station": "NRB",
+          "arr": null,
+          "dep": 502
+        },
+        {
+          "station": "SRC",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "BAL",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "IMW",
+          "arr": null,
+          "dep": 403
+        },
+        {
+          "station": "WBP",
+          "arr": null,
+          "dep": 406
+        },
+        {
+          "station": "KPA",
+          "arr": null,
+          "dep": 409
+        },
+        {
+          "station": "SPB",
+          "arr": null,
+          "dep": 412
+        },
+        {
+          "station": "WMB",
+          "arr": null,
+          "dep": 488
+        },
+        {
+          "station": "HRW",
+          "arr": null,
+          "dep": 432
+        }
+      ]
+    },
+    {
+      "id": "MF_113",
+      "headcode": "",
+      "operator": "SN",
+      "days": [
+        "MF"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "ECR",
+          "arr": null,
+          "dep": 610
+        },
+        {
+          "station": "SRS",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "TTH",
+          "arr": null,
+          "dep": 556
+        },
+        {
+          "station": "NRB",
+          "arr": null,
+          "dep": 560
+        },
+        {
+          "station": "SRC",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "BAL",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "IMW",
+          "arr": null,
+          "dep": 464
+        },
+        {
+          "station": "WBP",
+          "arr": null,
+          "dep": 467
+        },
+        {
+          "station": "KPA",
+          "arr": null,
+          "dep": 470
+        },
+        {
+          "station": "SPB",
+          "arr": null,
+          "dep": 473
+        },
+        {
+          "station": "WMB",
+          "arr": null,
+          "dep": 548
+        },
+        {
+          "station": "HRW",
+          "arr": null,
+          "dep": 492
+        }
+      ]
+    },
+    {
+      "id": "MF_114",
+      "headcode": "",
+      "operator": "SN",
+      "days": [
+        "MF"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "ECR",
+          "arr": null,
+          "dep": 670
+        },
+        {
+          "station": "SRS",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "TTH",
+          "arr": null,
+          "dep": 618
+        },
+        {
+          "station": "NRB",
+          "arr": null,
+          "dep": 622
+        },
+        {
+          "station": "SRC",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "BAL",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "IMW",
+          "arr": null,
+          "dep": 523
+        },
+        {
+          "station": "WBP",
+          "arr": null,
+          "dep": 526
+        },
+        {
+          "station": "KPA",
+          "arr": null,
+          "dep": 530
+        },
+        {
+          "station": "SPB",
+          "arr": null,
+          "dep": 533
+        },
+        {
+          "station": "WMB",
+          "arr": null,
+          "dep": 608
+        },
+        {
+          "station": "HRW",
+          "arr": null,
+          "dep": 553
+        }
+      ]
+    },
+    {
+      "id": "MF_115",
+      "headcode": "",
+      "operator": "SN",
+      "days": [
+        "MF"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "ECR",
+          "arr": null,
+          "dep": 730
+        },
+        {
+          "station": "SRS",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "TTH",
+          "arr": null,
+          "dep": 678
+        },
+        {
+          "station": "NRB",
+          "arr": null,
+          "dep": 682
+        },
+        {
+          "station": "SRC",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "BAL",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "IMW",
+          "arr": null,
+          "dep": 584
+        },
+        {
+          "station": "WBP",
+          "arr": null,
+          "dep": 587
+        },
+        {
+          "station": "KPA",
+          "arr": null,
+          "dep": 590
+        },
+        {
+          "station": "SPB",
+          "arr": null,
+          "dep": 593
+        },
+        {
+          "station": "WMB",
+          "arr": null,
+          "dep": 669
+        },
+        {
+          "station": "HRW",
+          "arr": null,
+          "dep": 613
+        }
+      ]
+    },
+    {
+      "id": "MF_116",
+      "headcode": "",
+      "operator": "SN",
+      "days": [
+        "MF"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "ECR",
+          "arr": null,
+          "dep": 790
+        },
+        {
+          "station": "SRS",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "TTH",
+          "arr": null,
+          "dep": 738
+        },
+        {
+          "station": "NRB",
+          "arr": null,
+          "dep": 742
+        },
+        {
+          "station": "SRC",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "BAL",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "IMW",
+          "arr": null,
+          "dep": 644
+        },
+        {
+          "station": "WBP",
+          "arr": null,
+          "dep": 647
+        },
+        {
+          "station": "KPA",
+          "arr": null,
+          "dep": 651
+        },
+        {
+          "station": "SPB",
+          "arr": null,
+          "dep": 654
+        },
+        {
+          "station": "WMB",
+          "arr": null,
+          "dep": 731
+        },
+        {
+          "station": "HRW",
+          "arr": null,
+          "dep": 673
+        }
+      ]
+    },
+    {
+      "id": "MF_117",
+      "headcode": "",
+      "operator": "SN",
+      "days": [
+        "MF"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "ECR",
+          "arr": null,
+          "dep": 850
+        },
+        {
+          "station": "SRS",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "TTH",
+          "arr": null,
+          "dep": 798
+        },
+        {
+          "station": "NRB",
+          "arr": null,
+          "dep": 802
+        },
+        {
+          "station": "SRC",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "BAL",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "IMW",
+          "arr": null,
+          "dep": 705
+        },
+        {
+          "station": "WBP",
+          "arr": null,
+          "dep": 708
+        },
+        {
+          "station": "KPA",
+          "arr": null,
+          "dep": 712
+        },
+        {
+          "station": "SPB",
+          "arr": null,
+          "dep": 715
+        },
+        {
+          "station": "WMB",
+          "arr": null,
+          "dep": 790
+        },
+        {
+          "station": "HRW",
+          "arr": null,
+          "dep": 736
+        }
+      ]
+    },
+    {
+      "id": "MF_118",
+      "headcode": "",
+      "operator": "SN",
+      "days": [
+        "MF"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "ECR",
+          "arr": null,
+          "dep": 910
+        },
+        {
+          "station": "SRS",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "TTH",
+          "arr": null,
+          "dep": 858
+        },
+        {
+          "station": "NRB",
+          "arr": null,
+          "dep": 862
+        },
+        {
+          "station": "SRC",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "BAL",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "IMW",
+          "arr": null,
+          "dep": 764
+        },
+        {
+          "station": "WBP",
+          "arr": null,
+          "dep": 767
+        },
+        {
+          "station": "KPA",
+          "arr": null,
+          "dep": 770
+        },
+        {
+          "station": "SPB",
+          "arr": null,
+          "dep": 773
+        },
+        {
+          "station": "WMB",
+          "arr": null,
+          "dep": 849
+        },
+        {
+          "station": "HRW",
+          "arr": null,
+          "dep": 795
+        }
+      ]
+    },
+    {
+      "id": "MF_119",
+      "headcode": "",
+      "operator": "SN",
+      "days": [
+        "MF"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "ECR",
+          "arr": null,
+          "dep": 970
+        },
+        {
+          "station": "SRS",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "TTH",
+          "arr": null,
+          "dep": 918
+        },
+        {
+          "station": "NRB",
+          "arr": null,
+          "dep": 922
+        },
+        {
+          "station": "SRC",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "BAL",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "IMW",
+          "arr": null,
+          "dep": 824
+        },
+        {
+          "station": "WBP",
+          "arr": null,
+          "dep": 828
+        },
+        {
+          "station": "KPA",
+          "arr": null,
+          "dep": 831
+        },
+        {
+          "station": "SPB",
+          "arr": null,
+          "dep": 834
+        },
+        {
+          "station": "WMB",
+          "arr": null,
+          "dep": 911
+        },
+        {
+          "station": "HRW",
+          "arr": null,
+          "dep": 853
+        }
+      ]
+    },
+    {
+      "id": "MF_120",
+      "headcode": "",
+      "operator": "SN",
+      "days": [
+        "MF"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "ECR",
+          "arr": null,
+          "dep": 1030
+        },
+        {
+          "station": "SRS",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "TTH",
+          "arr": null,
+          "dep": 978
+        },
+        {
+          "station": "NRB",
+          "arr": null,
+          "dep": 982
+        },
+        {
+          "station": "SRC",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "BAL",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "IMW",
+          "arr": null,
+          "dep": 886
+        },
+        {
+          "station": "WBP",
+          "arr": null,
+          "dep": 889
+        },
+        {
+          "station": "KPA",
+          "arr": null,
+          "dep": 892
+        },
+        {
+          "station": "SPB",
+          "arr": null,
+          "dep": 896
+        },
+        {
+          "station": "WMB",
+          "arr": null,
+          "dep": 967
+        },
+        {
+          "station": "HRW",
+          "arr": null,
+          "dep": 915
+        }
+      ]
+    },
+    {
+      "id": "MF_121",
+      "headcode": "",
+      "operator": "SN",
+      "days": [
+        "MF"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "ECR",
+          "arr": null,
+          "dep": 1090
+        },
+        {
+          "station": "SRS",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "TTH",
+          "arr": null,
+          "dep": 1038
+        },
+        {
+          "station": "NRB",
+          "arr": null,
+          "dep": 1042
+        },
+        {
+          "station": "SRC",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "BAL",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "IMW",
+          "arr": null,
+          "dep": 944
+        },
+        {
+          "station": "WBP",
+          "arr": null,
+          "dep": 947
+        },
+        {
+          "station": "KPA",
+          "arr": null,
+          "dep": 950
+        },
+        {
+          "station": "SPB",
+          "arr": null,
+          "dep": 953
+        },
+        {
+          "station": "WMB",
+          "arr": null,
+          "dep": 1027
+        },
+        {
+          "station": "HRW",
+          "arr": null,
+          "dep": 971
+        }
+      ]
+    },
+    {
+      "id": "MF_122",
+      "headcode": "",
+      "operator": "SN",
+      "days": [
+        "MF"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "ECR",
+          "arr": null,
+          "dep": 1150
+        },
+        {
+          "station": "SRS",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "TTH",
+          "arr": null,
+          "dep": 1098
+        },
+        {
+          "station": "NRB",
+          "arr": null,
+          "dep": 1102
+        },
+        {
+          "station": "SRC",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "BAL",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "IMW",
+          "arr": null,
+          "dep": 1002
+        },
+        {
+          "station": "WBP",
+          "arr": null,
+          "dep": 1005
+        },
+        {
+          "station": "KPA",
+          "arr": null,
+          "dep": 1009
+        },
+        {
+          "station": "SPB",
+          "arr": null,
+          "dep": 1012
+        },
+        {
+          "station": "WMB",
+          "arr": null,
+          "dep": 1089
+        },
+        {
+          "station": "HRW",
+          "arr": null,
+          "dep": 1032
+        }
+      ]
+    },
+    {
+      "id": "MF_123",
+      "headcode": "",
+      "operator": "SN",
+      "days": [
+        "MF"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "ECR",
+          "arr": null,
+          "dep": 1210
+        },
+        {
+          "station": "SRS",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "TTH",
+          "arr": null,
+          "dep": 1158
+        },
+        {
+          "station": "NRB",
+          "arr": null,
+          "dep": 1162
+        },
+        {
+          "station": "SRC",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "BAL",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "IMW",
+          "arr": null,
+          "dep": 1064
+        },
+        {
+          "station": "WBP",
+          "arr": null,
+          "dep": 1067
+        },
+        {
+          "station": "KPA",
+          "arr": null,
+          "dep": 1071
+        },
+        {
+          "station": "SPB",
+          "arr": null,
+          "dep": 1074
+        },
+        {
+          "station": "WMB",
+          "arr": null,
+          "dep": 1150
+        },
+        {
+          "station": "HRW",
+          "arr": null,
+          "dep": 1093
+        }
+      ]
+    },
+    {
+      "id": "MF_124",
+      "headcode": "",
+      "operator": "SN",
+      "days": [
+        "MF"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "ECR",
+          "arr": null,
+          "dep": 1271
+        },
+        {
+          "station": "SRS",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "TTH",
+          "arr": null,
+          "dep": 1218
+        },
+        {
+          "station": "NRB",
+          "arr": null,
+          "dep": 1222
+        },
+        {
+          "station": "SRC",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "BAL",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "IMW",
+          "arr": null,
+          "dep": 1124
+        },
+        {
+          "station": "WBP",
+          "arr": null,
+          "dep": 1127
+        },
+        {
+          "station": "KPA",
+          "arr": null,
+          "dep": 1131
+        },
+        {
+          "station": "SPB",
+          "arr": null,
+          "dep": 1134
+        },
+        {
+          "station": "WMB",
+          "arr": null,
+          "dep": 1208
+        },
+        {
+          "station": "HRW",
+          "arr": null,
+          "dep": 1155
+        }
+      ]
+    },
+    {
+      "id": "MF_125",
+      "headcode": "",
+      "operator": "SN",
+      "days": [
+        "MF"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "ECR",
+          "arr": null,
+          "dep": 1330
+        },
+        {
+          "station": "SRS",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "TTH",
+          "arr": null,
+          "dep": 1279
+        },
+        {
+          "station": "NRB",
+          "arr": null,
+          "dep": 1282
+        },
+        {
+          "station": "SRC",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "BAL",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "IMW",
+          "arr": null,
+          "dep": 1185
+        },
+        {
+          "station": "WBP",
+          "arr": null,
+          "dep": 1188
+        },
+        {
+          "station": "KPA",
+          "arr": null,
+          "dep": 1191
+        },
+        {
+          "station": "SPB",
+          "arr": null,
+          "dep": 1194
+        },
+        {
+          "station": "WMB",
+          "arr": null,
+          "dep": 1268
+        },
+        {
+          "station": "HRW",
+          "arr": null,
+          "dep": 1213
+        }
+      ]
+    },
+    {
+      "id": "MF_126",
+      "headcode": "",
+      "operator": "SN",
+      "days": [
+        "MF"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "SRS",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "TTH",
+          "arr": null,
+          "dep": 1338
+        },
+        {
+          "station": "NRB",
+          "arr": null,
+          "dep": 1342
+        },
+        {
+          "station": "SRC",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "BAL",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "IMW",
+          "arr": null,
+          "dep": 1242
+        },
+        {
+          "station": "WBP",
+          "arr": null,
+          "dep": 1245
+        },
+        {
+          "station": "KPA",
+          "arr": null,
+          "dep": 1249
+        },
+        {
+          "station": "SPB",
+          "arr": null,
+          "dep": 1252
+        },
+        {
+          "station": "HRW",
+          "arr": null,
+          "dep": 1272
+        }
+      ]
+    },
+    {
+      "id": "MF_127",
+      "headcode": "",
+      "operator": "SN",
+      "days": [
+        "MF"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "BAL",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "IMW",
+          "arr": null,
+          "dep": 1303
+        },
+        {
+          "station": "WBP",
+          "arr": null,
+          "dep": 1306
+        },
+        {
+          "station": "KPA",
+          "arr": null,
+          "dep": 1309
+        },
+        {
+          "station": "SPB",
+          "arr": null,
+          "dep": 1312
+        },
+        {
+          "station": "HRW",
+          "arr": null,
+          "dep": 1335
+        }
+      ]
+    },
+    {
+      "id": "MF_128",
+      "headcode": "",
+      "operator": "",
+      "days": [
+        "MF"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "BAL",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "IMW",
+          "arr": null,
+          "dep": 1363
+        },
+        {
+          "station": "WBP",
+          "arr": null,
+          "dep": 1366
+        },
+        {
+          "station": "KPA",
+          "arr": null,
+          "dep": 1370
+        },
+        {
+          "station": "SPB",
+          "arr": null,
+          "dep": 1373
+        },
+        {
+          "station": "HRW",
+          "arr": null,
+          "dep": 1397
+        }
+      ]
+    },
+    {
+      "id": "MF_129",
+      "headcode": "",
+      "operator": "",
+      "days": [
+        "MF"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "BAL",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "HRW",
+          "arr": 344,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "MF_130",
+      "headcode": "",
+      "operator": "",
+      "days": [
+        "MF"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "BAL",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "HRW",
+          "arr": 402,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "MF_131",
+      "headcode": "",
+      "operator": "",
+      "days": [
+        "MF"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "BAL",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "HRW",
+          "arr": 443,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "MF_132",
+      "headcode": "",
+      "operator": "",
+      "days": [
+        "MF"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "BAL",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "HRW",
+          "arr": 500,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "MF_133",
+      "headcode": "",
+      "operator": "",
+      "days": [
+        "MF"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "BAL",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "HRW",
+          "arr": 561,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "MF_134",
+      "headcode": "",
+      "operator": "",
+      "days": [
+        "MF"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "BAL",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "HRW",
+          "arr": 624,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "MF_135",
+      "headcode": "",
+      "operator": "",
+      "days": [
+        "MF"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "BAL",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "HRW",
+          "arr": 681,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "MF_136",
+      "headcode": "",
+      "operator": "",
+      "days": [
+        "MF"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "BAL",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "HRW",
+          "arr": 744,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "MF_137",
+      "headcode": "",
+      "operator": "",
+      "days": [
+        "MF"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "BAL",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "HRW",
+          "arr": 804,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "MF_138",
+      "headcode": "",
+      "operator": "",
+      "days": [
+        "MF"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "BAL",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "HRW",
+          "arr": 861,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "MF_139",
+      "headcode": "",
+      "operator": "",
+      "days": [
+        "MF"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "BAL",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "HRW",
+          "arr": 925,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "MF_140",
+      "headcode": "",
+      "operator": "",
+      "days": [
+        "MF"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "BAL",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "HRW",
+          "arr": 979,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "MF_141",
+      "headcode": "",
+      "operator": "",
+      "days": [
+        "MF"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "BAL",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "HRW",
+          "arr": 1040,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "MF_142",
+      "headcode": "",
+      "operator": "",
+      "days": [
+        "MF"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "BAL",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "HRW",
+          "arr": 1101,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "MF_143",
+      "headcode": "",
+      "operator": "",
+      "days": [
+        "MF"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "BAL",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "HRW",
+          "arr": 1163,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "MF_144",
+      "headcode": "",
+      "operator": "",
+      "days": [
+        "MF"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "BAL",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "HRW",
+          "arr": 1223,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "MF_145",
+      "headcode": "",
+      "operator": "",
+      "days": [
+        "MF"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "BAL",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "HRW",
+          "arr": 1280,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "MF_146",
+      "headcode": "",
+      "operator": "",
+      "days": [
+        "MF"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "HRW",
+          "arr": 1343,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "MF_147",
+      "headcode": "",
+      "operator": "",
+      "days": [
+        "MF"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "HRW",
+          "arr": 1405,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "SAT_148",
+      "headcode": "",
+      "operator": "SN",
+      "days": [
+        "SAT"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "ECR",
+          "arr": null,
+          "dep": 370
+        },
+        {
+          "station": "SRS",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "TTH",
+          "arr": null,
+          "dep": 378
+        },
+        {
+          "station": "NRB",
+          "arr": null,
+          "dep": 382
+        },
+        {
+          "station": "SRC",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "BAL",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "IMW",
+          "arr": null,
+          "dep": 314
+        },
+        {
+          "station": "WBP",
+          "arr": null,
+          "dep": 317
+        },
+        {
+          "station": "KPA",
+          "arr": null,
+          "dep": 320
+        },
+        {
+          "station": "SPB",
+          "arr": null,
+          "dep": 323
+        },
+        {
+          "station": "WMB",
+          "arr": null,
+          "dep": 371
+        },
+        {
+          "station": "HRW",
+          "arr": null,
+          "dep": 341
+        }
+      ]
+    },
+    {
+      "id": "SAT_149",
+      "headcode": "",
+      "operator": "SN",
+      "days": [
+        "SAT"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "ECR",
+          "arr": null,
+          "dep": 430
+        },
+        {
+          "station": "SRS",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "TTH",
+          "arr": null,
+          "dep": 438
+        },
+        {
+          "station": "NRB",
+          "arr": null,
+          "dep": 442
+        },
+        {
+          "station": "SRC",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "BAL",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "IMW",
+          "arr": null,
+          "dep": 344
+        },
+        {
+          "station": "WBP",
+          "arr": null,
+          "dep": 347
+        },
+        {
+          "station": "KPA",
+          "arr": null,
+          "dep": 350
+        },
+        {
+          "station": "SPB",
+          "arr": null,
+          "dep": 353
+        },
+        {
+          "station": "WMB",
+          "arr": null,
+          "dep": 429
+        },
+        {
+          "station": "HRW",
+          "arr": null,
+          "dep": 376
+        }
+      ]
+    },
+    {
+      "id": "SAT_150",
+      "headcode": "",
+      "operator": "SN",
+      "days": [
+        "SAT"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "ECR",
+          "arr": null,
+          "dep": 490
+        },
+        {
+          "station": "SRS",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "TTH",
+          "arr": null,
+          "dep": 498
+        },
+        {
+          "station": "NRB",
+          "arr": null,
+          "dep": 502
+        },
+        {
+          "station": "SRC",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "BAL",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "IMW",
+          "arr": null,
+          "dep": 405
+        },
+        {
+          "station": "WBP",
+          "arr": null,
+          "dep": 408
+        },
+        {
+          "station": "KPA",
+          "arr": null,
+          "dep": 411
+        },
+        {
+          "station": "SPB",
+          "arr": null,
+          "dep": 414
+        },
+        {
+          "station": "WMB",
+          "arr": null,
+          "dep": 489
+        },
+        {
+          "station": "HRW",
+          "arr": null,
+          "dep": 434
+        }
+      ]
+    },
+    {
+      "id": "SAT_151",
+      "headcode": "",
+      "operator": "SN",
+      "days": [
+        "SAT"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "ECR",
+          "arr": null,
+          "dep": 550
+        },
+        {
+          "station": "SRS",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "TTH",
+          "arr": null,
+          "dep": 558
+        },
+        {
+          "station": "NRB",
+          "arr": null,
+          "dep": 562
+        },
+        {
+          "station": "SRC",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "BAL",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "IMW",
+          "arr": null,
+          "dep": 464
+        },
+        {
+          "station": "WBP",
+          "arr": null,
+          "dep": 467
+        },
+        {
+          "station": "KPA",
+          "arr": null,
+          "dep": 470
+        },
+        {
+          "station": "SPB",
+          "arr": null,
+          "dep": 473
+        },
+        {
+          "station": "WMB",
+          "arr": null,
+          "dep": 549
+        },
+        {
+          "station": "HRW",
+          "arr": null,
+          "dep": 494
+        }
+      ]
+    },
+    {
+      "id": "SAT_152",
+      "headcode": "",
+      "operator": "SN",
+      "days": [
+        "SAT"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "ECR",
+          "arr": null,
+          "dep": 610
+        },
+        {
+          "station": "SRS",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "TTH",
+          "arr": null,
+          "dep": 618
+        },
+        {
+          "station": "NRB",
+          "arr": null,
+          "dep": 622
+        },
+        {
+          "station": "SRC",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "BAL",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "IMW",
+          "arr": null,
+          "dep": 525
+        },
+        {
+          "station": "WBP",
+          "arr": null,
+          "dep": 528
+        },
+        {
+          "station": "KPA",
+          "arr": null,
+          "dep": 531
+        },
+        {
+          "station": "SPB",
+          "arr": null,
+          "dep": 534
+        },
+        {
+          "station": "WMB",
+          "arr": null,
+          "dep": 609
+        },
+        {
+          "station": "HRW",
+          "arr": null,
+          "dep": 554
+        }
+      ]
+    },
+    {
+      "id": "SAT_153",
+      "headcode": "",
+      "operator": "SN",
+      "days": [
+        "SAT"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "ECR",
+          "arr": null,
+          "dep": 670
+        },
+        {
+          "station": "SRS",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "TTH",
+          "arr": null,
+          "dep": 678
+        },
+        {
+          "station": "NRB",
+          "arr": null,
+          "dep": 682
+        },
+        {
+          "station": "SRC",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "BAL",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "IMW",
+          "arr": null,
+          "dep": 585
+        },
+        {
+          "station": "WBP",
+          "arr": null,
+          "dep": 588
+        },
+        {
+          "station": "KPA",
+          "arr": null,
+          "dep": 591
+        },
+        {
+          "station": "SPB",
+          "arr": null,
+          "dep": 594
+        },
+        {
+          "station": "WMB",
+          "arr": null,
+          "dep": 669
+        },
+        {
+          "station": "HRW",
+          "arr": null,
+          "dep": 614
+        }
+      ]
+    },
+    {
+      "id": "SAT_154",
+      "headcode": "",
+      "operator": "SN",
+      "days": [
+        "SAT"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "ECR",
+          "arr": null,
+          "dep": 730
+        },
+        {
+          "station": "SRS",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "TTH",
+          "arr": null,
+          "dep": 738
+        },
+        {
+          "station": "NRB",
+          "arr": null,
+          "dep": 742
+        },
+        {
+          "station": "SRC",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "BAL",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "IMW",
+          "arr": null,
+          "dep": 645
+        },
+        {
+          "station": "WBP",
+          "arr": null,
+          "dep": 648
+        },
+        {
+          "station": "KPA",
+          "arr": null,
+          "dep": 651
+        },
+        {
+          "station": "SPB",
+          "arr": null,
+          "dep": 654
+        },
+        {
+          "station": "WMB",
+          "arr": null,
+          "dep": 731
+        },
+        {
+          "station": "HRW",
+          "arr": null,
+          "dep": 674
+        }
+      ]
+    },
+    {
+      "id": "SAT_155",
+      "headcode": "",
+      "operator": "SN",
+      "days": [
+        "SAT"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "ECR",
+          "arr": null,
+          "dep": 790
+        },
+        {
+          "station": "SRS",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "TTH",
+          "arr": null,
+          "dep": 798
+        },
+        {
+          "station": "NRB",
+          "arr": null,
+          "dep": 802
+        },
+        {
+          "station": "SRC",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "BAL",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "IMW",
+          "arr": null,
+          "dep": 705
+        },
+        {
+          "station": "WBP",
+          "arr": null,
+          "dep": 708
+        },
+        {
+          "station": "KPA",
+          "arr": null,
+          "dep": 712
+        },
+        {
+          "station": "SPB",
+          "arr": null,
+          "dep": 716
+        },
+        {
+          "station": "WMB",
+          "arr": null,
+          "dep": 789
+        },
+        {
+          "station": "HRW",
+          "arr": null,
+          "dep": 736
+        }
+      ]
+    },
+    {
+      "id": "SAT_156",
+      "headcode": "",
+      "operator": "SN",
+      "days": [
+        "SAT"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "ECR",
+          "arr": null,
+          "dep": 850
+        },
+        {
+          "station": "SRS",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "TTH",
+          "arr": null,
+          "dep": 858
+        },
+        {
+          "station": "NRB",
+          "arr": null,
+          "dep": 862
+        },
+        {
+          "station": "SRC",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "BAL",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "IMW",
+          "arr": null,
+          "dep": 765
+        },
+        {
+          "station": "WBP",
+          "arr": null,
+          "dep": 769
+        },
+        {
+          "station": "KPA",
+          "arr": null,
+          "dep": 772
+        },
+        {
+          "station": "SPB",
+          "arr": null,
+          "dep": 775
+        },
+        {
+          "station": "WMB",
+          "arr": null,
+          "dep": 849
+        },
+        {
+          "station": "HRW",
+          "arr": null,
+          "dep": 794
+        }
+      ]
+    },
+    {
+      "id": "SAT_157",
+      "headcode": "",
+      "operator": "SN",
+      "days": [
+        "SAT"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "ECR",
+          "arr": null,
+          "dep": 910
+        },
+        {
+          "station": "SRS",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "TTH",
+          "arr": null,
+          "dep": 918
+        },
+        {
+          "station": "NRB",
+          "arr": null,
+          "dep": 922
+        },
+        {
+          "station": "SRC",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "BAL",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "IMW",
+          "arr": null,
+          "dep": 825
+        },
+        {
+          "station": "WBP",
+          "arr": null,
+          "dep": 829
+        },
+        {
+          "station": "KPA",
+          "arr": null,
+          "dep": 832
+        },
+        {
+          "station": "SPB",
+          "arr": null,
+          "dep": 835
+        },
+        {
+          "station": "WMB",
+          "arr": null,
+          "dep": 909
+        },
+        {
+          "station": "HRW",
+          "arr": null,
+          "dep": 854
+        }
+      ]
+    },
+    {
+      "id": "SAT_158",
+      "headcode": "",
+      "operator": "SN",
+      "days": [
+        "SAT"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "ECR",
+          "arr": null,
+          "dep": 970
+        },
+        {
+          "station": "SRS",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "TTH",
+          "arr": null,
+          "dep": 978
+        },
+        {
+          "station": "NRB",
+          "arr": null,
+          "dep": 982
+        },
+        {
+          "station": "SRC",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "BAL",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "IMW",
+          "arr": null,
+          "dep": 885
+        },
+        {
+          "station": "WBP",
+          "arr": null,
+          "dep": 888
+        },
+        {
+          "station": "KPA",
+          "arr": null,
+          "dep": 891
+        },
+        {
+          "station": "SPB",
+          "arr": null,
+          "dep": 894
+        },
+        {
+          "station": "WMB",
+          "arr": null,
+          "dep": 969
+        },
+        {
+          "station": "HRW",
+          "arr": null,
+          "dep": 914
+        }
+      ]
+    },
+    {
+      "id": "SAT_159",
+      "headcode": "",
+      "operator": "SN",
+      "days": [
+        "SAT"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "ECR",
+          "arr": null,
+          "dep": 1030
+        },
+        {
+          "station": "SRS",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "TTH",
+          "arr": null,
+          "dep": 1038
+        },
+        {
+          "station": "NRB",
+          "arr": null,
+          "dep": 1042
+        },
+        {
+          "station": "SRC",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "BAL",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "IMW",
+          "arr": null,
+          "dep": 945
+        },
+        {
+          "station": "WBP",
+          "arr": null,
+          "dep": 948
+        },
+        {
+          "station": "KPA",
+          "arr": null,
+          "dep": 951
+        },
+        {
+          "station": "SPB",
+          "arr": null,
+          "dep": 954
+        },
+        {
+          "station": "WMB",
+          "arr": null,
+          "dep": 1029
+        },
+        {
+          "station": "HRW",
+          "arr": null,
+          "dep": 974
+        }
+      ]
+    },
+    {
+      "id": "SAT_160",
+      "headcode": "",
+      "operator": "SN",
+      "days": [
+        "SAT"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "ECR",
+          "arr": null,
+          "dep": 1090
+        },
+        {
+          "station": "SRS",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "TTH",
+          "arr": null,
+          "dep": 1098
+        },
+        {
+          "station": "NRB",
+          "arr": null,
+          "dep": 1102
+        },
+        {
+          "station": "SRC",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "BAL",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "IMW",
+          "arr": null,
+          "dep": 1005
+        },
+        {
+          "station": "WBP",
+          "arr": null,
+          "dep": 1008
+        },
+        {
+          "station": "KPA",
+          "arr": null,
+          "dep": 1011
+        },
+        {
+          "station": "SPB",
+          "arr": null,
+          "dep": 1014
+        },
+        {
+          "station": "WMB",
+          "arr": null,
+          "dep": 1089
+        },
+        {
+          "station": "HRW",
+          "arr": null,
+          "dep": 1034
+        }
+      ]
+    },
+    {
+      "id": "SAT_161",
+      "headcode": "",
+      "operator": "SN",
+      "days": [
+        "SAT"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "ECR",
+          "arr": null,
+          "dep": 1150
+        },
+        {
+          "station": "SRS",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "TTH",
+          "arr": null,
+          "dep": 1158
+        },
+        {
+          "station": "NRB",
+          "arr": null,
+          "dep": 1162
+        },
+        {
+          "station": "SRC",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "BAL",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "IMW",
+          "arr": null,
+          "dep": 1065
+        },
+        {
+          "station": "WBP",
+          "arr": null,
+          "dep": 1068
+        },
+        {
+          "station": "KPA",
+          "arr": null,
+          "dep": 1071
+        },
+        {
+          "station": "SPB",
+          "arr": null,
+          "dep": 1074
+        },
+        {
+          "station": "WMB",
+          "arr": null,
+          "dep": 1149
+        },
+        {
+          "station": "HRW",
+          "arr": null,
+          "dep": 1094
+        }
+      ]
+    },
+    {
+      "id": "SAT_162",
+      "headcode": "",
+      "operator": "SN",
+      "days": [
+        "SAT"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "ECR",
+          "arr": null,
+          "dep": 1210
+        },
+        {
+          "station": "SRS",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "TTH",
+          "arr": null,
+          "dep": 1218
+        },
+        {
+          "station": "NRB",
+          "arr": null,
+          "dep": 1222
+        },
+        {
+          "station": "SRC",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "BAL",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "IMW",
+          "arr": null,
+          "dep": 1125
+        },
+        {
+          "station": "WBP",
+          "arr": null,
+          "dep": 1128
+        },
+        {
+          "station": "KPA",
+          "arr": null,
+          "dep": 1131
+        },
+        {
+          "station": "SPB",
+          "arr": null,
+          "dep": 1134
+        },
+        {
+          "station": "WMB",
+          "arr": null,
+          "dep": 1283
+        },
+        {
+          "station": "HRW",
+          "arr": null,
+          "dep": 1154
+        }
+      ]
+    },
+    {
+      "id": "SAT_163",
+      "headcode": "",
+      "operator": "SN",
+      "days": [
+        "SAT"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "ECR",
+          "arr": null,
+          "dep": 1270
+        },
+        {
+          "station": "SRS",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "TTH",
+          "arr": null,
+          "dep": 1278
+        },
+        {
+          "station": "NRB",
+          "arr": null,
+          "dep": 1282
+        },
+        {
+          "station": "SRC",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "BAL",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "IMW",
+          "arr": null,
+          "dep": 1181
+        },
+        {
+          "station": "WBP",
+          "arr": null,
+          "dep": 1184
+        },
+        {
+          "station": "KPA",
+          "arr": null,
+          "dep": 1187
+        },
+        {
+          "station": "SPB",
+          "arr": null,
+          "dep": 1190
+        },
+        {
+          "station": "WMB",
+          "arr": null,
+          "dep": 1328
+        },
+        {
+          "station": "HRW",
+          "arr": null,
+          "dep": 1208
+        }
+      ]
+    },
+    {
+      "id": "SAT_164",
+      "headcode": "",
+      "operator": "SN",
+      "days": [
+        "SAT"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "ECR",
+          "arr": null,
+          "dep": 1330
+        },
+        {
+          "station": "SRS",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "TTH",
+          "arr": null,
+          "dep": 1338
+        },
+        {
+          "station": "NRB",
+          "arr": null,
+          "dep": 1342
+        },
+        {
+          "station": "SRC",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "BAL",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "IMW",
+          "arr": null,
+          "dep": 1257
+        },
+        {
+          "station": "WBP",
+          "arr": null,
+          "dep": 1260
+        },
+        {
+          "station": "KPA",
+          "arr": null,
+          "dep": 1264
+        },
+        {
+          "station": "SPB",
+          "arr": null,
+          "dep": 1267
+        },
+        {
+          "station": "WMB",
+          "arr": null,
+          "dep": 1387
+        },
+        {
+          "station": "HRW",
+          "arr": null,
+          "dep": 1288
+        }
+      ]
+    },
+    {
+      "id": "SAT_165",
+      "headcode": "",
+      "operator": "SN",
+      "days": [
+        "SAT"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "BAL",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "IMW",
+          "arr": null,
+          "dep": 1304
+        },
+        {
+          "station": "WBP",
+          "arr": null,
+          "dep": 1307
+        },
+        {
+          "station": "KPA",
+          "arr": null,
+          "dep": 1310
+        },
+        {
+          "station": "SPB",
+          "arr": null,
+          "dep": 1313
+        },
+        {
+          "station": "HRW",
+          "arr": null,
+          "dep": 1333
+        }
+      ]
+    },
+    {
+      "id": "SAT_166",
+      "headcode": "",
+      "operator": "",
+      "days": [
+        "SAT"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "BAL",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "IMW",
+          "arr": null,
+          "dep": 1364
+        },
+        {
+          "station": "WBP",
+          "arr": null,
+          "dep": 1367
+        },
+        {
+          "station": "KPA",
+          "arr": null,
+          "dep": 1370
+        },
+        {
+          "station": "SPB",
+          "arr": null,
+          "dep": 1373
+        },
+        {
+          "station": "HRW",
+          "arr": null,
+          "dep": 1391
+        }
+      ]
+    },
+    {
+      "id": "SAT_167",
+      "headcode": "",
+      "operator": "",
+      "days": [
+        "SAT"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "BAL",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "HRW",
+          "arr": 349,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "SAT_168",
+      "headcode": "",
+      "operator": "",
+      "days": [
+        "SAT"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "BAL",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "HRW",
+          "arr": 384,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "SAT_169",
+      "headcode": "",
+      "operator": "",
+      "days": [
+        "SAT"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "BAL",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "HRW",
+          "arr": 443,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "SAT_170",
+      "headcode": "",
+      "operator": "",
+      "days": [
+        "SAT"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "BAL",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "HRW",
+          "arr": 504,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "SAT_171",
+      "headcode": "",
+      "operator": "",
+      "days": [
+        "SAT"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "BAL",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "HRW",
+          "arr": 562,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "SAT_172",
+      "headcode": "",
+      "operator": "",
+      "days": [
+        "SAT"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "BAL",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "HRW",
+          "arr": 622,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "SAT_173",
+      "headcode": "",
+      "operator": "",
+      "days": [
+        "SAT"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "BAL",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "HRW",
+          "arr": 682,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "SAT_174",
+      "headcode": "",
+      "operator": "",
+      "days": [
+        "SAT"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "BAL",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "HRW",
+          "arr": 744,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "SAT_175",
+      "headcode": "",
+      "operator": "",
+      "days": [
+        "SAT"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "BAL",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "HRW",
+          "arr": 802,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "SAT_176",
+      "headcode": "",
+      "operator": "",
+      "days": [
+        "SAT"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "BAL",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "HRW",
+          "arr": 862,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "SAT_177",
+      "headcode": "",
+      "operator": "",
+      "days": [
+        "SAT"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "BAL",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "HRW",
+          "arr": 923,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "SAT_178",
+      "headcode": "",
+      "operator": "",
+      "days": [
+        "SAT"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "BAL",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "HRW",
+          "arr": 984,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "SAT_179",
+      "headcode": "",
+      "operator": "",
+      "days": [
+        "SAT"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "BAL",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "HRW",
+          "arr": 1042,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "SAT_180",
+      "headcode": "",
+      "operator": "",
+      "days": [
+        "SAT"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "BAL",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "HRW",
+          "arr": 1102,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "SAT_181",
+      "headcode": "",
+      "operator": "",
+      "days": [
+        "SAT"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "BAL",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "HRW",
+          "arr": 1162,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "SAT_182",
+      "headcode": "",
+      "operator": "",
+      "days": [
+        "SAT"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "BAL",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "HRW",
+          "arr": 1216,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "SAT_183",
+      "headcode": "",
+      "operator": "",
+      "days": [
+        "SAT"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "BAL",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "HRW",
+          "arr": 1296,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "SAT_184",
+      "headcode": "",
+      "operator": "",
+      "days": [
+        "SAT"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "BAL",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "HRW",
+          "arr": 1341,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "SAT_185",
+      "headcode": "",
+      "operator": "",
+      "days": [
+        "SAT"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "HRW",
+          "arr": 1399,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "SUN_186",
+      "headcode": "",
+      "operator": "SN",
+      "days": [
+        "SUN"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "BAL",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "IMW",
+          "arr": null,
+          "dep": 456
+        },
+        {
+          "station": "WBP",
+          "arr": null,
+          "dep": 459
+        },
+        {
+          "station": "KPA",
+          "arr": null,
+          "dep": 462
+        },
+        {
+          "station": "SPB",
+          "arr": null,
+          "dep": 508
+        },
+        {
+          "station": "WMB",
+          "arr": null,
+          "dep": 524
+        },
+        {
+          "station": "HRW",
+          "arr": null,
+          "dep": 529
+        }
+      ]
+    },
+    {
+      "id": "SUN_187",
+      "headcode": "",
+      "operator": "SN",
+      "days": [
+        "SUN"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "BAL",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "IMW",
+          "arr": null,
+          "dep": 499
+        },
+        {
+          "station": "WBP",
+          "arr": null,
+          "dep": 502
+        },
+        {
+          "station": "KPA",
+          "arr": null,
+          "dep": 505
+        },
+        {
+          "station": "SPB",
+          "arr": null,
+          "dep": 564
+        },
+        {
+          "station": "WMB",
+          "arr": null,
+          "dep": 581
+        },
+        {
+          "station": "HRW",
+          "arr": null,
+          "dep": 586
+        }
+      ]
+    },
+    {
+      "id": "SUN_188",
+      "headcode": "",
+      "operator": "SN",
+      "days": [
+        "SUN"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "BAL",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "IMW",
+          "arr": null,
+          "dep": 505
+        },
+        {
+          "station": "WBP",
+          "arr": null,
+          "dep": 508
+        },
+        {
+          "station": "KPA",
+          "arr": null,
+          "dep": 511
+        },
+        {
+          "station": "SPB",
+          "arr": null,
+          "dep": 631
+        },
+        {
+          "station": "WMB",
+          "arr": null,
+          "dep": 645
+        },
+        {
+          "station": "HRW",
+          "arr": null,
+          "dep": 650
+        }
+      ]
+    },
+    {
+      "id": "SUN_189",
+      "headcode": "",
+      "operator": "SN",
+      "days": [
+        "SUN"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "BAL",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "IMW",
+          "arr": null,
+          "dep": 555
+        },
+        {
+          "station": "WBP",
+          "arr": null,
+          "dep": 558
+        },
+        {
+          "station": "KPA",
+          "arr": null,
+          "dep": 561
+        },
+        {
+          "station": "SPB",
+          "arr": null,
+          "dep": 692
+        },
+        {
+          "station": "WMB",
+          "arr": null,
+          "dep": 705
+        },
+        {
+          "station": "HRW",
+          "arr": null,
+          "dep": 710
+        }
+      ]
+    },
+    {
+      "id": "SUN_190",
+      "headcode": "",
+      "operator": "SN",
+      "days": [
+        "SUN"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "BAL",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "IMW",
+          "arr": null,
+          "dep": 621
+        },
+        {
+          "station": "WBP",
+          "arr": null,
+          "dep": 624
+        },
+        {
+          "station": "KPA",
+          "arr": null,
+          "dep": 628
+        },
+        {
+          "station": "SPB",
+          "arr": null,
+          "dep": 739
+        },
+        {
+          "station": "WMB",
+          "arr": null,
+          "dep": 755
+        },
+        {
+          "station": "HRW",
+          "arr": null,
+          "dep": 760
+        }
+      ]
+    },
+    {
+      "id": "SUN_191",
+      "headcode": "",
+      "operator": "SN",
+      "days": [
+        "SUN"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "BAL",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "IMW",
+          "arr": null,
+          "dep": 682
+        },
+        {
+          "station": "WBP",
+          "arr": null,
+          "dep": 685
+        },
+        {
+          "station": "KPA",
+          "arr": null,
+          "dep": 689
+        },
+        {
+          "station": "SPB",
+          "arr": null,
+          "dep": 799
+        },
+        {
+          "station": "WMB",
+          "arr": null,
+          "dep": 815
+        },
+        {
+          "station": "HRW",
+          "arr": null,
+          "dep": 820
+        }
+      ]
+    },
+    {
+      "id": "SUN_192",
+      "headcode": "",
+      "operator": "SN",
+      "days": [
+        "SUN"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "BAL",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "IMW",
+          "arr": null,
+          "dep": 730
+        },
+        {
+          "station": "WBP",
+          "arr": null,
+          "dep": 733
+        },
+        {
+          "station": "KPA",
+          "arr": null,
+          "dep": 736
+        },
+        {
+          "station": "SPB",
+          "arr": null,
+          "dep": 859
+        },
+        {
+          "station": "WMB",
+          "arr": null,
+          "dep": 875
+        },
+        {
+          "station": "HRW",
+          "arr": null,
+          "dep": 880
+        }
+      ]
+    },
+    {
+      "id": "SUN_193",
+      "headcode": "",
+      "operator": "SN",
+      "days": [
+        "SUN"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "BAL",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "IMW",
+          "arr": null,
+          "dep": 790
+        },
+        {
+          "station": "WBP",
+          "arr": null,
+          "dep": 793
+        },
+        {
+          "station": "KPA",
+          "arr": null,
+          "dep": 796
+        },
+        {
+          "station": "SPB",
+          "arr": null,
+          "dep": 919
+        },
+        {
+          "station": "WMB",
+          "arr": null,
+          "dep": 935
+        },
+        {
+          "station": "HRW",
+          "arr": null,
+          "dep": 940
+        }
+      ]
+    },
+    {
+      "id": "SUN_194",
+      "headcode": "",
+      "operator": "SN",
+      "days": [
+        "SUN"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "BAL",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "IMW",
+          "arr": null,
+          "dep": 850
+        },
+        {
+          "station": "WBP",
+          "arr": null,
+          "dep": 853
+        },
+        {
+          "station": "KPA",
+          "arr": null,
+          "dep": 856
+        },
+        {
+          "station": "SPB",
+          "arr": null,
+          "dep": 979
+        },
+        {
+          "station": "WMB",
+          "arr": null,
+          "dep": 995
+        },
+        {
+          "station": "HRW",
+          "arr": null,
+          "dep": 1000
+        }
+      ]
+    },
+    {
+      "id": "SUN_195",
+      "headcode": "",
+      "operator": "SN",
+      "days": [
+        "SUN"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "BAL",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "IMW",
+          "arr": null,
+          "dep": 910
+        },
+        {
+          "station": "WBP",
+          "arr": null,
+          "dep": 913
+        },
+        {
+          "station": "KPA",
+          "arr": null,
+          "dep": 916
+        },
+        {
+          "station": "SPB",
+          "arr": null,
+          "dep": 1039
+        },
+        {
+          "station": "WMB",
+          "arr": null,
+          "dep": 1055
+        },
+        {
+          "station": "HRW",
+          "arr": null,
+          "dep": 1060
+        }
+      ]
+    },
+    {
+      "id": "SUN_196",
+      "headcode": "",
+      "operator": "SN",
+      "days": [
+        "SUN"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "BAL",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "IMW",
+          "arr": null,
+          "dep": 970
+        },
+        {
+          "station": "WBP",
+          "arr": null,
+          "dep": 973
+        },
+        {
+          "station": "KPA",
+          "arr": null,
+          "dep": 976
+        },
+        {
+          "station": "SPB",
+          "arr": null,
+          "dep": 1100
+        },
+        {
+          "station": "WMB",
+          "arr": null,
+          "dep": 1115
+        },
+        {
+          "station": "HRW",
+          "arr": null,
+          "dep": 1120
+        }
+      ]
+    },
+    {
+      "id": "SUN_197",
+      "headcode": "",
+      "operator": "SN",
+      "days": [
+        "SUN"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "BAL",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "IMW",
+          "arr": null,
+          "dep": 1030
+        },
+        {
+          "station": "WBP",
+          "arr": null,
+          "dep": 1033
+        },
+        {
+          "station": "KPA",
+          "arr": null,
+          "dep": 1036
+        },
+        {
+          "station": "SPB",
+          "arr": null,
+          "dep": 1160
+        },
+        {
+          "station": "WMB",
+          "arr": null,
+          "dep": 1175
+        },
+        {
+          "station": "HRW",
+          "arr": null,
+          "dep": 1180
+        }
+      ]
+    },
+    {
+      "id": "SUN_198",
+      "headcode": "",
+      "operator": "SN",
+      "days": [
+        "SUN"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "BAL",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "IMW",
+          "arr": null,
+          "dep": 1091
+        },
+        {
+          "station": "WBP",
+          "arr": null,
+          "dep": 1094
+        },
+        {
+          "station": "KPA",
+          "arr": null,
+          "dep": 1097
+        },
+        {
+          "station": "SPB",
+          "arr": null,
+          "dep": 1219
+        },
+        {
+          "station": "WMB",
+          "arr": null,
+          "dep": 1235
+        },
+        {
+          "station": "HRW",
+          "arr": null,
+          "dep": 1240
+        }
+      ]
+    },
+    {
+      "id": "SUN_199",
+      "headcode": "",
+      "operator": "SN",
+      "days": [
+        "SUN"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "BAL",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "IMW",
+          "arr": null,
+          "dep": 1151
+        },
+        {
+          "station": "WBP",
+          "arr": null,
+          "dep": 1154
+        },
+        {
+          "station": "KPA",
+          "arr": null,
+          "dep": 1157
+        },
+        {
+          "station": "SPB",
+          "arr": null,
+          "dep": 1294
+        },
+        {
+          "station": "HRW",
+          "arr": null,
+          "dep": 1311
+        }
+      ]
+    },
+    {
+      "id": "SUN_200",
+      "headcode": "",
+      "operator": "SN",
+      "days": [
+        "SUN"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "BAL",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "IMW",
+          "arr": null,
+          "dep": 1210
+        },
+        {
+          "station": "WBP",
+          "arr": null,
+          "dep": 1213
+        },
+        {
+          "station": "KPA",
+          "arr": null,
+          "dep": 1216
+        },
+        {
+          "station": "SPB",
+          "arr": null,
+          "dep": 1354
+        },
+        {
+          "station": "HRW",
+          "arr": null,
+          "dep": 1370
+        }
+      ]
+    },
+    {
+      "id": "SUN_201",
+      "headcode": "",
+      "operator": "SN",
+      "days": [
+        "SUN"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "BAL",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "IMW",
+          "arr": null,
+          "dep": 1284
+        },
+        {
+          "station": "WBP",
+          "arr": null,
+          "dep": 1287
+        },
+        {
+          "station": "KPA",
+          "arr": null,
+          "dep": 1291
+        },
+        {
+          "station": "HRW",
+          "arr": 537,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "SUN_202",
+      "headcode": "",
+      "operator": "",
+      "days": [
+        "SUN"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "BAL",
+          "arr": null,
+          "dep": null
+        },
+        {
+          "station": "IMW",
+          "arr": null,
+          "dep": 1344
+        },
+        {
+          "station": "WBP",
+          "arr": null,
+          "dep": 1347
+        },
+        {
+          "station": "KPA",
+          "arr": null,
+          "dep": 1351
+        },
+        {
+          "station": "HRW",
+          "arr": 594,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "SUN_203",
+      "headcode": "",
+      "operator": "",
+      "days": [
+        "SUN"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "HRW",
+          "arr": 658,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "SUN_204",
+      "headcode": "",
+      "operator": "",
+      "days": [
+        "SUN"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "HRW",
+          "arr": 718,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "SUN_205",
+      "headcode": "",
+      "operator": "",
+      "days": [
+        "SUN"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "HRW",
+          "arr": 768,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "SUN_206",
+      "headcode": "",
+      "operator": "",
+      "days": [
+        "SUN"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "HRW",
+          "arr": 828,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "SUN_207",
+      "headcode": "",
+      "operator": "",
+      "days": [
+        "SUN"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "HRW",
+          "arr": 888,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "SUN_208",
+      "headcode": "",
+      "operator": "",
+      "days": [
+        "SUN"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "HRW",
+          "arr": 948,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "SUN_209",
+      "headcode": "",
+      "operator": "",
+      "days": [
+        "SUN"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "HRW",
+          "arr": 1008,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "SUN_210",
+      "headcode": "",
+      "operator": "",
+      "days": [
+        "SUN"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "HRW",
+          "arr": 1068,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "SUN_211",
+      "headcode": "",
+      "operator": "",
+      "days": [
+        "SUN"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "HRW",
+          "arr": 1128,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "SUN_212",
+      "headcode": "",
+      "operator": "",
+      "days": [
+        "SUN"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "HRW",
+          "arr": 1188,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "SUN_213",
+      "headcode": "",
+      "operator": "",
+      "days": [
+        "SUN"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "HRW",
+          "arr": 1248,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "SUN_214",
+      "headcode": "",
+      "operator": "",
+      "days": [
+        "SUN"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "HRW",
+          "arr": 1319,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "SUN_215",
+      "headcode": "",
+      "operator": "",
+      "days": [
+        "SUN"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "HRW",
+          "arr": 1378,
+          "dep": null
+        }
+      ]
+    }
+  ]
+}

@@ -1,17 +1,17 @@
 {
   "table": "029",
-  "name": "",
+  "name": "Wakefield to Leeds (summary) Mondays to Fridays until 2 October",
   "period": "",
   "operators": [
     {
       "code": "NT",
-      "name": "NT",
-      "color": "#999"
+      "name": "Northern Trains",
+      "color": "#0072B2"
     },
     {
       "code": "XC",
-      "name": "XC",
-      "color": "#999"
+      "name": "CrossCountry",
+      "color": "#009E73"
     }
   ],
   "days": [
@@ -20,10 +20,7 @@
   "stations": [
     "WKK",
     "WKF",
-    "LDS",
-    "LDS",
-    "WKF",
-    "WKK"
+    "LDS"
   ],
   "services": [
     {

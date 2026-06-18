@@ -1,0 +1,3857 @@
+{
+  "table": "144",
+  "route": "Route 144",
+  "route_id": "t144",
+  "stations": [
+    {
+      "name": "Truro",
+      "crs": "TRU",
+      "mileage": 0.0,
+      "type": "minor"
+    },
+    {
+      "name": "Perranwell",
+      "crs": "PRW",
+      "mileage": 5.0,
+      "type": "minor"
+    },
+    {
+      "name": "Penryn",
+      "crs": "PYN",
+      "mileage": 10.0,
+      "type": "minor"
+    },
+    {
+      "name": "Penmere",
+      "crs": "PNM",
+      "mileage": 15.0,
+      "type": "minor"
+    },
+    {
+      "name": "Falmouth Town",
+      "crs": "FMT",
+      "mileage": 20.0,
+      "type": "minor"
+    },
+    {
+      "name": "Falmouth Docks",
+      "crs": "FAL",
+      "mileage": 25.0,
+      "type": "minor"
+    }
+  ],
+  "services": [
+    {
+      "id": "MF_0",
+      "headcode": "",
+      "operator": "GW",
+      "days": [
+        "MF"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "TRU",
+          "arr": null,
+          "dep": 362
+        },
+        {
+          "station": "PRW",
+          "arr": null,
+          "dep": 369
+        },
+        {
+          "station": "PYN",
+          "arr": null,
+          "dep": 376
+        },
+        {
+          "station": "PNM",
+          "arr": null,
+          "dep": 380
+        },
+        {
+          "station": "FMT",
+          "arr": null,
+          "dep": 383
+        },
+        {
+          "station": "FAL",
+          "arr": 386,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "MF_1",
+      "headcode": "",
+      "operator": "GW",
+      "days": [
+        "MF"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "TRU",
+          "arr": null,
+          "dep": 390
+        },
+        {
+          "station": "PRW",
+          "arr": null,
+          "dep": 397
+        },
+        {
+          "station": "PYN",
+          "arr": null,
+          "dep": 404
+        },
+        {
+          "station": "PNM",
+          "arr": null,
+          "dep": 408
+        },
+        {
+          "station": "FMT",
+          "arr": null,
+          "dep": 411
+        },
+        {
+          "station": "FAL",
+          "arr": 414,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "MF_2",
+      "headcode": "",
+      "operator": "GW",
+      "days": [
+        "MF"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "TRU",
+          "arr": null,
+          "dep": 433
+        },
+        {
+          "station": "PRW",
+          "arr": null,
+          "dep": 440
+        },
+        {
+          "station": "PYN",
+          "arr": null,
+          "dep": 447
+        },
+        {
+          "station": "PNM",
+          "arr": null,
+          "dep": 451
+        },
+        {
+          "station": "FMT",
+          "arr": null,
+          "dep": 454
+        },
+        {
+          "station": "FAL",
+          "arr": 457,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "MF_3",
+      "headcode": "",
+      "operator": "GW",
+      "days": [
+        "MF"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "TRU",
+          "arr": null,
+          "dep": 463
+        },
+        {
+          "station": "PRW",
+          "arr": null,
+          "dep": 470
+        },
+        {
+          "station": "PYN",
+          "arr": null,
+          "dep": 477
+        },
+        {
+          "station": "PNM",
+          "arr": null,
+          "dep": 481
+        },
+        {
+          "station": "FMT",
+          "arr": null,
+          "dep": 484
+        },
+        {
+          "station": "FAL",
+          "arr": 487,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "MF_4",
+      "headcode": "",
+      "operator": "GW",
+      "days": [
+        "MF"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "TRU",
+          "arr": null,
+          "dep": 495
+        },
+        {
+          "station": "PRW",
+          "arr": null,
+          "dep": 502
+        },
+        {
+          "station": "PYN",
+          "arr": null,
+          "dep": 509
+        },
+        {
+          "station": "PNM",
+          "arr": null,
+          "dep": 513
+        },
+        {
+          "station": "FMT",
+          "arr": null,
+          "dep": 516
+        },
+        {
+          "station": "FAL",
+          "arr": 519,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "MF_5",
+      "headcode": "",
+      "operator": "GW",
+      "days": [
+        "MF"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "TRU",
+          "arr": null,
+          "dep": 525
+        },
+        {
+          "station": "PRW",
+          "arr": null,
+          "dep": 562
+        },
+        {
+          "station": "PYN",
+          "arr": null,
+          "dep": 539
+        },
+        {
+          "station": "PNM",
+          "arr": null,
+          "dep": 543
+        },
+        {
+          "station": "FMT",
+          "arr": null,
+          "dep": 546
+        },
+        {
+          "station": "FAL",
+          "arr": 549,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "MF_6",
+      "headcode": "",
+      "operator": "GW",
+      "days": [
+        "MF"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "TRU",
+          "arr": null,
+          "dep": 555
+        },
+        {
+          "station": "PRW",
+          "arr": null,
+          "dep": 622
+        },
+        {
+          "station": "PYN",
+          "arr": null,
+          "dep": 569
+        },
+        {
+          "station": "PNM",
+          "arr": null,
+          "dep": 573
+        },
+        {
+          "station": "FMT",
+          "arr": null,
+          "dep": 576
+        },
+        {
+          "station": "FAL",
+          "arr": 579,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "MF_7",
+      "headcode": "",
+      "operator": "GW",
+      "days": [
+        "MF"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "TRU",
+          "arr": null,
+          "dep": 585
+        },
+        {
+          "station": "PRW",
+          "arr": null,
+          "dep": 682
+        },
+        {
+          "station": "PYN",
+          "arr": null,
+          "dep": 599
+        },
+        {
+          "station": "PNM",
+          "arr": null,
+          "dep": 603
+        },
+        {
+          "station": "FMT",
+          "arr": null,
+          "dep": 606
+        },
+        {
+          "station": "FAL",
+          "arr": 609,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "MF_8",
+      "headcode": "",
+      "operator": "GW",
+      "days": [
+        "MF"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "TRU",
+          "arr": null,
+          "dep": 615
+        },
+        {
+          "station": "PRW",
+          "arr": null,
+          "dep": 742
+        },
+        {
+          "station": "PYN",
+          "arr": null,
+          "dep": 629
+        },
+        {
+          "station": "PNM",
+          "arr": null,
+          "dep": 633
+        },
+        {
+          "station": "FMT",
+          "arr": null,
+          "dep": 636
+        },
+        {
+          "station": "FAL",
+          "arr": 639,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "MF_9",
+      "headcode": "",
+      "operator": "GW",
+      "days": [
+        "MF"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "TRU",
+          "arr": null,
+          "dep": 645
+        },
+        {
+          "station": "PRW",
+          "arr": null,
+          "dep": 802
+        },
+        {
+          "station": "PYN",
+          "arr": null,
+          "dep": 659
+        },
+        {
+          "station": "PNM",
+          "arr": null,
+          "dep": 663
+        },
+        {
+          "station": "FMT",
+          "arr": null,
+          "dep": 666
+        },
+        {
+          "station": "FAL",
+          "arr": 669,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "MF_10",
+      "headcode": "",
+      "operator": "GW",
+      "days": [
+        "MF"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "TRU",
+          "arr": null,
+          "dep": 675
+        },
+        {
+          "station": "PRW",
+          "arr": null,
+          "dep": 862
+        },
+        {
+          "station": "PYN",
+          "arr": null,
+          "dep": 689
+        },
+        {
+          "station": "PNM",
+          "arr": null,
+          "dep": 693
+        },
+        {
+          "station": "FMT",
+          "arr": null,
+          "dep": 696
+        },
+        {
+          "station": "FAL",
+          "arr": 699,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "MF_11",
+      "headcode": "",
+      "operator": "GW",
+      "days": [
+        "MF"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "TRU",
+          "arr": null,
+          "dep": 705
+        },
+        {
+          "station": "PYN",
+          "arr": null,
+          "dep": 719
+        },
+        {
+          "station": "PNM",
+          "arr": null,
+          "dep": 723
+        },
+        {
+          "station": "FMT",
+          "arr": null,
+          "dep": 726
+        },
+        {
+          "station": "FAL",
+          "arr": 729,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "MF_12",
+      "headcode": "",
+      "operator": "GW",
+      "days": [
+        "MF"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "TRU",
+          "arr": null,
+          "dep": 735
+        },
+        {
+          "station": "PYN",
+          "arr": null,
+          "dep": 749
+        },
+        {
+          "station": "PNM",
+          "arr": null,
+          "dep": 753
+        },
+        {
+          "station": "FMT",
+          "arr": null,
+          "dep": 756
+        },
+        {
+          "station": "FAL",
+          "arr": 759,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "MF_13",
+      "headcode": "",
+      "operator": "GW",
+      "days": [
+        "MF"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "TRU",
+          "arr": null,
+          "dep": 765
+        },
+        {
+          "station": "PYN",
+          "arr": null,
+          "dep": 779
+        },
+        {
+          "station": "PNM",
+          "arr": null,
+          "dep": 783
+        },
+        {
+          "station": "FMT",
+          "arr": null,
+          "dep": 786
+        },
+        {
+          "station": "FAL",
+          "arr": 789,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "MF_14",
+      "headcode": "",
+      "operator": "GW",
+      "days": [
+        "MF"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "TRU",
+          "arr": null,
+          "dep": 795
+        },
+        {
+          "station": "PYN",
+          "arr": null,
+          "dep": 809
+        },
+        {
+          "station": "PNM",
+          "arr": null,
+          "dep": 813
+        },
+        {
+          "station": "FMT",
+          "arr": null,
+          "dep": 816
+        },
+        {
+          "station": "FAL",
+          "arr": 819,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "MF_15",
+      "headcode": "",
+      "operator": "GW",
+      "days": [
+        "MF"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "TRU",
+          "arr": null,
+          "dep": 825
+        },
+        {
+          "station": "PYN",
+          "arr": null,
+          "dep": 839
+        },
+        {
+          "station": "PNM",
+          "arr": null,
+          "dep": 843
+        },
+        {
+          "station": "FMT",
+          "arr": null,
+          "dep": 846
+        },
+        {
+          "station": "FAL",
+          "arr": 849,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "MF_16",
+      "headcode": "",
+      "operator": "GW",
+      "days": [
+        "MF"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "TRU",
+          "arr": null,
+          "dep": 855
+        },
+        {
+          "station": "PYN",
+          "arr": null,
+          "dep": 869
+        },
+        {
+          "station": "PNM",
+          "arr": null,
+          "dep": 873
+        },
+        {
+          "station": "FMT",
+          "arr": null,
+          "dep": 876
+        },
+        {
+          "station": "FAL",
+          "arr": 879,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "MF_17",
+      "headcode": "",
+      "operator": "",
+      "days": [
+        "MF"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "TRU",
+          "arr": null,
+          "dep": 885
+        },
+        {
+          "station": "PYN",
+          "arr": null,
+          "dep": 899
+        },
+        {
+          "station": "PNM",
+          "arr": null,
+          "dep": 903
+        },
+        {
+          "station": "FMT",
+          "arr": null,
+          "dep": 906
+        },
+        {
+          "station": "FAL",
+          "arr": 909,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "SAT_18",
+      "headcode": "",
+      "operator": "GW",
+      "days": [
+        "SAT"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "TRU",
+          "arr": null,
+          "dep": 364
+        },
+        {
+          "station": "PRW",
+          "arr": null,
+          "dep": 371
+        },
+        {
+          "station": "PYN",
+          "arr": null,
+          "dep": 378
+        },
+        {
+          "station": "PNM",
+          "arr": null,
+          "dep": 382
+        },
+        {
+          "station": "FMT",
+          "arr": null,
+          "dep": 385
+        },
+        {
+          "station": "FAL",
+          "arr": 389,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "SAT_19",
+      "headcode": "",
+      "operator": "GW",
+      "days": [
+        "SAT"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "TRU",
+          "arr": null,
+          "dep": 396
+        },
+        {
+          "station": "PRW",
+          "arr": null,
+          "dep": 403
+        },
+        {
+          "station": "PYN",
+          "arr": null,
+          "dep": 410
+        },
+        {
+          "station": "PNM",
+          "arr": null,
+          "dep": 414
+        },
+        {
+          "station": "FMT",
+          "arr": null,
+          "dep": 417
+        },
+        {
+          "station": "FAL",
+          "arr": 420,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "SAT_20",
+      "headcode": "",
+      "operator": "GW",
+      "days": [
+        "SAT"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "TRU",
+          "arr": null,
+          "dep": 435
+        },
+        {
+          "station": "PRW",
+          "arr": null,
+          "dep": 442
+        },
+        {
+          "station": "PYN",
+          "arr": null,
+          "dep": 449
+        },
+        {
+          "station": "PNM",
+          "arr": null,
+          "dep": 453
+        },
+        {
+          "station": "FMT",
+          "arr": null,
+          "dep": 456
+        },
+        {
+          "station": "FAL",
+          "arr": 459,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "SAT_21",
+      "headcode": "",
+      "operator": "GW",
+      "days": [
+        "SAT"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "TRU",
+          "arr": null,
+          "dep": 465
+        },
+        {
+          "station": "PRW",
+          "arr": null,
+          "dep": 472
+        },
+        {
+          "station": "PYN",
+          "arr": null,
+          "dep": 479
+        },
+        {
+          "station": "PNM",
+          "arr": null,
+          "dep": 483
+        },
+        {
+          "station": "FMT",
+          "arr": null,
+          "dep": 486
+        },
+        {
+          "station": "FAL",
+          "arr": 489,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "SAT_22",
+      "headcode": "",
+      "operator": "GW",
+      "days": [
+        "SAT"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "TRU",
+          "arr": null,
+          "dep": 495
+        },
+        {
+          "station": "PRW",
+          "arr": null,
+          "dep": 502
+        },
+        {
+          "station": "PYN",
+          "arr": null,
+          "dep": 509
+        },
+        {
+          "station": "PNM",
+          "arr": null,
+          "dep": 513
+        },
+        {
+          "station": "FMT",
+          "arr": null,
+          "dep": 516
+        },
+        {
+          "station": "FAL",
+          "arr": 519,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "SAT_23",
+      "headcode": "",
+      "operator": "GW",
+      "days": [
+        "SAT"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "TRU",
+          "arr": null,
+          "dep": 525
+        },
+        {
+          "station": "PRW",
+          "arr": null,
+          "dep": 562
+        },
+        {
+          "station": "PYN",
+          "arr": null,
+          "dep": 539
+        },
+        {
+          "station": "PNM",
+          "arr": null,
+          "dep": 543
+        },
+        {
+          "station": "FMT",
+          "arr": null,
+          "dep": 546
+        },
+        {
+          "station": "FAL",
+          "arr": 549,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "SAT_24",
+      "headcode": "",
+      "operator": "GW",
+      "days": [
+        "SAT"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "TRU",
+          "arr": null,
+          "dep": 555
+        },
+        {
+          "station": "PRW",
+          "arr": null,
+          "dep": 622
+        },
+        {
+          "station": "PYN",
+          "arr": null,
+          "dep": 569
+        },
+        {
+          "station": "PNM",
+          "arr": null,
+          "dep": 573
+        },
+        {
+          "station": "FMT",
+          "arr": null,
+          "dep": 576
+        },
+        {
+          "station": "FAL",
+          "arr": 579,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "SAT_25",
+      "headcode": "",
+      "operator": "GW",
+      "days": [
+        "SAT"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "TRU",
+          "arr": null,
+          "dep": 585
+        },
+        {
+          "station": "PRW",
+          "arr": null,
+          "dep": 682
+        },
+        {
+          "station": "PYN",
+          "arr": null,
+          "dep": 599
+        },
+        {
+          "station": "PNM",
+          "arr": null,
+          "dep": 603
+        },
+        {
+          "station": "FMT",
+          "arr": null,
+          "dep": 606
+        },
+        {
+          "station": "FAL",
+          "arr": 609,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "SAT_26",
+      "headcode": "",
+      "operator": "GW",
+      "days": [
+        "SAT"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "TRU",
+          "arr": null,
+          "dep": 615
+        },
+        {
+          "station": "PRW",
+          "arr": null,
+          "dep": 742
+        },
+        {
+          "station": "PYN",
+          "arr": null,
+          "dep": 629
+        },
+        {
+          "station": "PNM",
+          "arr": null,
+          "dep": 633
+        },
+        {
+          "station": "FMT",
+          "arr": null,
+          "dep": 636
+        },
+        {
+          "station": "FAL",
+          "arr": 639,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "SAT_27",
+      "headcode": "",
+      "operator": "GW",
+      "days": [
+        "SAT"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "TRU",
+          "arr": null,
+          "dep": 645
+        },
+        {
+          "station": "PRW",
+          "arr": null,
+          "dep": 802
+        },
+        {
+          "station": "PYN",
+          "arr": null,
+          "dep": 659
+        },
+        {
+          "station": "PNM",
+          "arr": null,
+          "dep": 663
+        },
+        {
+          "station": "FMT",
+          "arr": null,
+          "dep": 666
+        },
+        {
+          "station": "FAL",
+          "arr": 669,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "SAT_28",
+      "headcode": "",
+      "operator": "GW",
+      "days": [
+        "SAT"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "TRU",
+          "arr": null,
+          "dep": 675
+        },
+        {
+          "station": "PRW",
+          "arr": null,
+          "dep": 862
+        },
+        {
+          "station": "PYN",
+          "arr": null,
+          "dep": 689
+        },
+        {
+          "station": "PNM",
+          "arr": null,
+          "dep": 693
+        },
+        {
+          "station": "FMT",
+          "arr": null,
+          "dep": 696
+        },
+        {
+          "station": "FAL",
+          "arr": 699,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "SAT_29",
+      "headcode": "",
+      "operator": "GW",
+      "days": [
+        "SAT"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "TRU",
+          "arr": null,
+          "dep": 705
+        },
+        {
+          "station": "PYN",
+          "arr": null,
+          "dep": 719
+        },
+        {
+          "station": "PNM",
+          "arr": null,
+          "dep": 723
+        },
+        {
+          "station": "FMT",
+          "arr": null,
+          "dep": 726
+        },
+        {
+          "station": "FAL",
+          "arr": 729,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "SAT_30",
+      "headcode": "",
+      "operator": "GW",
+      "days": [
+        "SAT"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "TRU",
+          "arr": null,
+          "dep": 735
+        },
+        {
+          "station": "PYN",
+          "arr": null,
+          "dep": 749
+        },
+        {
+          "station": "PNM",
+          "arr": null,
+          "dep": 753
+        },
+        {
+          "station": "FMT",
+          "arr": null,
+          "dep": 756
+        },
+        {
+          "station": "FAL",
+          "arr": 759,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "SAT_31",
+      "headcode": "",
+      "operator": "GW",
+      "days": [
+        "SAT"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "TRU",
+          "arr": null,
+          "dep": 765
+        },
+        {
+          "station": "PYN",
+          "arr": null,
+          "dep": 779
+        },
+        {
+          "station": "PNM",
+          "arr": null,
+          "dep": 783
+        },
+        {
+          "station": "FMT",
+          "arr": null,
+          "dep": 786
+        },
+        {
+          "station": "FAL",
+          "arr": 789,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "SAT_32",
+      "headcode": "",
+      "operator": "GW",
+      "days": [
+        "SAT"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "TRU",
+          "arr": null,
+          "dep": 795
+        },
+        {
+          "station": "PYN",
+          "arr": null,
+          "dep": 809
+        },
+        {
+          "station": "PNM",
+          "arr": null,
+          "dep": 813
+        },
+        {
+          "station": "FMT",
+          "arr": null,
+          "dep": 816
+        },
+        {
+          "station": "FAL",
+          "arr": 819,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "SAT_33",
+      "headcode": "",
+      "operator": "GW",
+      "days": [
+        "SAT"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "TRU",
+          "arr": null,
+          "dep": 825
+        },
+        {
+          "station": "PYN",
+          "arr": null,
+          "dep": 839
+        },
+        {
+          "station": "PNM",
+          "arr": null,
+          "dep": 843
+        },
+        {
+          "station": "FMT",
+          "arr": null,
+          "dep": 846
+        },
+        {
+          "station": "FAL",
+          "arr": 849,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "SAT_34",
+      "headcode": "",
+      "operator": "GW",
+      "days": [
+        "SAT"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "TRU",
+          "arr": null,
+          "dep": 855
+        },
+        {
+          "station": "PYN",
+          "arr": null,
+          "dep": 869
+        },
+        {
+          "station": "PNM",
+          "arr": null,
+          "dep": 873
+        },
+        {
+          "station": "FMT",
+          "arr": null,
+          "dep": 876
+        },
+        {
+          "station": "FAL",
+          "arr": 879,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "SAT_35",
+      "headcode": "",
+      "operator": "",
+      "days": [
+        "SAT"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "TRU",
+          "arr": null,
+          "dep": 885
+        },
+        {
+          "station": "PYN",
+          "arr": null,
+          "dep": 899
+        },
+        {
+          "station": "PNM",
+          "arr": null,
+          "dep": 903
+        },
+        {
+          "station": "FMT",
+          "arr": null,
+          "dep": 906
+        },
+        {
+          "station": "FAL",
+          "arr": 909,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "SUN_36",
+      "headcode": "",
+      "operator": "GW",
+      "days": [
+        "SUN"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "TRU",
+          "arr": null,
+          "dep": 530
+        },
+        {
+          "station": "PRW",
+          "arr": null,
+          "dep": 537
+        },
+        {
+          "station": "PYN",
+          "arr": null,
+          "dep": 544
+        },
+        {
+          "station": "PNM",
+          "arr": null,
+          "dep": 548
+        },
+        {
+          "station": "FMT",
+          "arr": null,
+          "dep": 551
+        },
+        {
+          "station": "FAL",
+          "arr": 553,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "SUN_37",
+      "headcode": "",
+      "operator": "GW",
+      "days": [
+        "SUN"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "TRU",
+          "arr": null,
+          "dep": 590
+        },
+        {
+          "station": "PRW",
+          "arr": null,
+          "dep": 597
+        },
+        {
+          "station": "PYN",
+          "arr": null,
+          "dep": 604
+        },
+        {
+          "station": "PNM",
+          "arr": null,
+          "dep": 608
+        },
+        {
+          "station": "FMT",
+          "arr": null,
+          "dep": 611
+        },
+        {
+          "station": "FAL",
+          "arr": 613,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "SUN_38",
+      "headcode": "",
+      "operator": "GW",
+      "days": [
+        "SUN"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "TRU",
+          "arr": null,
+          "dep": 655
+        },
+        {
+          "station": "PRW",
+          "arr": null,
+          "dep": 662
+        },
+        {
+          "station": "PYN",
+          "arr": null,
+          "dep": 669
+        },
+        {
+          "station": "PNM",
+          "arr": null,
+          "dep": 673
+        },
+        {
+          "station": "FMT",
+          "arr": null,
+          "dep": 676
+        },
+        {
+          "station": "FAL",
+          "arr": 678,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "SUN_39",
+      "headcode": "",
+      "operator": "GW",
+      "days": [
+        "SUN"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "TRU",
+          "arr": null,
+          "dep": 715
+        },
+        {
+          "station": "PRW",
+          "arr": null,
+          "dep": 722
+        },
+        {
+          "station": "PYN",
+          "arr": null,
+          "dep": 729
+        },
+        {
+          "station": "PNM",
+          "arr": null,
+          "dep": 733
+        },
+        {
+          "station": "FMT",
+          "arr": null,
+          "dep": 736
+        },
+        {
+          "station": "FAL",
+          "arr": 738,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "SUN_40",
+      "headcode": "",
+      "operator": "GW",
+      "days": [
+        "SUN"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "TRU",
+          "arr": null,
+          "dep": 775
+        },
+        {
+          "station": "PRW",
+          "arr": null,
+          "dep": 782
+        },
+        {
+          "station": "PYN",
+          "arr": null,
+          "dep": 789
+        },
+        {
+          "station": "PNM",
+          "arr": null,
+          "dep": 793
+        },
+        {
+          "station": "FMT",
+          "arr": null,
+          "dep": 796
+        },
+        {
+          "station": "FAL",
+          "arr": 798,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "SUN_41",
+      "headcode": "",
+      "operator": "GW",
+      "days": [
+        "SUN"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "TRU",
+          "arr": null,
+          "dep": 835
+        },
+        {
+          "station": "PRW",
+          "arr": null,
+          "dep": 842
+        },
+        {
+          "station": "PYN",
+          "arr": null,
+          "dep": 849
+        },
+        {
+          "station": "PNM",
+          "arr": null,
+          "dep": 853
+        },
+        {
+          "station": "FMT",
+          "arr": null,
+          "dep": 856
+        },
+        {
+          "station": "FAL",
+          "arr": 858,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "SUN_42",
+      "headcode": "",
+      "operator": "GW",
+      "days": [
+        "SUN"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "TRU",
+          "arr": null,
+          "dep": 900
+        },
+        {
+          "station": "PRW",
+          "arr": null,
+          "dep": 907
+        },
+        {
+          "station": "PYN",
+          "arr": null,
+          "dep": 914
+        },
+        {
+          "station": "PNM",
+          "arr": null,
+          "dep": 918
+        },
+        {
+          "station": "FMT",
+          "arr": null,
+          "dep": 921
+        },
+        {
+          "station": "FAL",
+          "arr": 923,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "SUN_43",
+      "headcode": "",
+      "operator": "GW",
+      "days": [
+        "SUN"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "TRU",
+          "arr": null,
+          "dep": 960
+        },
+        {
+          "station": "PRW",
+          "arr": null,
+          "dep": 967
+        },
+        {
+          "station": "PYN",
+          "arr": null,
+          "dep": 974
+        },
+        {
+          "station": "PNM",
+          "arr": null,
+          "dep": 978
+        },
+        {
+          "station": "FMT",
+          "arr": null,
+          "dep": 981
+        },
+        {
+          "station": "FAL",
+          "arr": 983,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "SUN_44",
+      "headcode": "",
+      "operator": "GW",
+      "days": [
+        "SUN"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "TRU",
+          "arr": null,
+          "dep": 1020
+        },
+        {
+          "station": "PRW",
+          "arr": null,
+          "dep": 1027
+        },
+        {
+          "station": "PYN",
+          "arr": null,
+          "dep": 1034
+        },
+        {
+          "station": "PNM",
+          "arr": null,
+          "dep": 1038
+        },
+        {
+          "station": "FMT",
+          "arr": null,
+          "dep": 1041
+        },
+        {
+          "station": "FAL",
+          "arr": 1043,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "SUN_45",
+      "headcode": "",
+      "operator": "GW",
+      "days": [
+        "SUN"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "TRU",
+          "arr": null,
+          "dep": 1078
+        },
+        {
+          "station": "PRW",
+          "arr": null,
+          "dep": 1085
+        },
+        {
+          "station": "PYN",
+          "arr": null,
+          "dep": 1092
+        },
+        {
+          "station": "PNM",
+          "arr": null,
+          "dep": 1096
+        },
+        {
+          "station": "FMT",
+          "arr": null,
+          "dep": 1099
+        },
+        {
+          "station": "FAL",
+          "arr": 1101,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "SUN_46",
+      "headcode": "",
+      "operator": "GW",
+      "days": [
+        "SUN"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "TRU",
+          "arr": null,
+          "dep": 1140
+        },
+        {
+          "station": "PRW",
+          "arr": null,
+          "dep": 1147
+        },
+        {
+          "station": "PYN",
+          "arr": null,
+          "dep": 1154
+        },
+        {
+          "station": "PNM",
+          "arr": null,
+          "dep": 1158
+        },
+        {
+          "station": "FMT",
+          "arr": null,
+          "dep": 1161
+        },
+        {
+          "station": "FAL",
+          "arr": 1163,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "SUN_47",
+      "headcode": "",
+      "operator": "GW",
+      "days": [
+        "SUN"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "TRU",
+          "arr": null,
+          "dep": 1200
+        },
+        {
+          "station": "PRW",
+          "arr": null,
+          "dep": 1207
+        },
+        {
+          "station": "PYN",
+          "arr": null,
+          "dep": 1214
+        },
+        {
+          "station": "PNM",
+          "arr": null,
+          "dep": 1218
+        },
+        {
+          "station": "FMT",
+          "arr": null,
+          "dep": 1221
+        },
+        {
+          "station": "FAL",
+          "arr": 1223,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "SUN_48",
+      "headcode": "",
+      "operator": "GW",
+      "days": [
+        "SUN"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "TRU",
+          "arr": null,
+          "dep": 1262
+        },
+        {
+          "station": "PRW",
+          "arr": null,
+          "dep": 1269
+        },
+        {
+          "station": "PYN",
+          "arr": null,
+          "dep": 1276
+        },
+        {
+          "station": "PNM",
+          "arr": null,
+          "dep": 1280
+        },
+        {
+          "station": "FMT",
+          "arr": null,
+          "dep": 1283
+        },
+        {
+          "station": "FAL",
+          "arr": 1285,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "SUN_49",
+      "headcode": "",
+      "operator": "",
+      "days": [
+        "SUN"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "TRU",
+          "arr": null,
+          "dep": 1324
+        },
+        {
+          "station": "PRW",
+          "arr": null,
+          "dep": 1332
+        },
+        {
+          "station": "PYN",
+          "arr": null,
+          "dep": 1339
+        },
+        {
+          "station": "PNM",
+          "arr": null,
+          "dep": 1343
+        },
+        {
+          "station": "FMT",
+          "arr": null,
+          "dep": 1346
+        },
+        {
+          "station": "FAL",
+          "arr": 1349,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "SUN_50",
+      "headcode": "",
+      "operator": "",
+      "days": [
+        "SUN"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "FAL",
+          "arr": 95,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "MF_51",
+      "headcode": "",
+      "operator": "GW",
+      "days": [
+        "MF"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "FAL",
+          "arr": null,
+          "dep": 390
+        },
+        {
+          "station": "FMT",
+          "arr": null,
+          "dep": 393
+        },
+        {
+          "station": "PNM",
+          "arr": null,
+          "dep": 396
+        },
+        {
+          "station": "PRW",
+          "arr": null,
+          "dep": 410
+        },
+        {
+          "station": "TRU",
+          "arr": 417,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "MF_52",
+      "headcode": "",
+      "operator": "GW",
+      "days": [
+        "MF"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "FAL",
+          "arr": null,
+          "dep": 433
+        },
+        {
+          "station": "FMT",
+          "arr": null,
+          "dep": 436
+        },
+        {
+          "station": "PNM",
+          "arr": null,
+          "dep": 439
+        },
+        {
+          "station": "PRW",
+          "arr": null,
+          "dep": 453
+        },
+        {
+          "station": "TRU",
+          "arr": 461,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "MF_53",
+      "headcode": "",
+      "operator": "GW",
+      "days": [
+        "MF"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "FAL",
+          "arr": null,
+          "dep": 463
+        },
+        {
+          "station": "FMT",
+          "arr": null,
+          "dep": 466
+        },
+        {
+          "station": "PNM",
+          "arr": null,
+          "dep": 469
+        },
+        {
+          "station": "PRW",
+          "arr": null,
+          "dep": 483
+        },
+        {
+          "station": "TRU",
+          "arr": 491,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "MF_54",
+      "headcode": "",
+      "operator": "GW",
+      "days": [
+        "MF"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "FAL",
+          "arr": null,
+          "dep": 495
+        },
+        {
+          "station": "FMT",
+          "arr": null,
+          "dep": 498
+        },
+        {
+          "station": "PNM",
+          "arr": null,
+          "dep": 501
+        },
+        {
+          "station": "PRW",
+          "arr": null,
+          "dep": 515
+        },
+        {
+          "station": "TRU",
+          "arr": 523,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "MF_55",
+      "headcode": "",
+      "operator": "GW",
+      "days": [
+        "MF"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "FAL",
+          "arr": null,
+          "dep": 525
+        },
+        {
+          "station": "FMT",
+          "arr": null,
+          "dep": 528
+        },
+        {
+          "station": "PNM",
+          "arr": null,
+          "dep": 531
+        },
+        {
+          "station": "PRW",
+          "arr": null,
+          "dep": 575
+        },
+        {
+          "station": "TRU",
+          "arr": 552,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "MF_56",
+      "headcode": "",
+      "operator": "GW",
+      "days": [
+        "MF"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "FAL",
+          "arr": null,
+          "dep": 555
+        },
+        {
+          "station": "FMT",
+          "arr": null,
+          "dep": 558
+        },
+        {
+          "station": "PNM",
+          "arr": null,
+          "dep": 561
+        },
+        {
+          "station": "PRW",
+          "arr": null,
+          "dep": 635
+        },
+        {
+          "station": "TRU",
+          "arr": 582,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "MF_57",
+      "headcode": "",
+      "operator": "GW",
+      "days": [
+        "MF"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "FAL",
+          "arr": null,
+          "dep": 585
+        },
+        {
+          "station": "FMT",
+          "arr": null,
+          "dep": 588
+        },
+        {
+          "station": "PNM",
+          "arr": null,
+          "dep": 591
+        },
+        {
+          "station": "PRW",
+          "arr": null,
+          "dep": 695
+        },
+        {
+          "station": "TRU",
+          "arr": 613,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "MF_58",
+      "headcode": "",
+      "operator": "GW",
+      "days": [
+        "MF"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "FAL",
+          "arr": null,
+          "dep": 615
+        },
+        {
+          "station": "FMT",
+          "arr": null,
+          "dep": 618
+        },
+        {
+          "station": "PNM",
+          "arr": null,
+          "dep": 621
+        },
+        {
+          "station": "PRW",
+          "arr": null,
+          "dep": 755
+        },
+        {
+          "station": "TRU",
+          "arr": 642,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "MF_59",
+      "headcode": "",
+      "operator": "GW",
+      "days": [
+        "MF"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "FAL",
+          "arr": null,
+          "dep": 645
+        },
+        {
+          "station": "FMT",
+          "arr": null,
+          "dep": 648
+        },
+        {
+          "station": "PNM",
+          "arr": null,
+          "dep": 651
+        },
+        {
+          "station": "PRW",
+          "arr": null,
+          "dep": 815
+        },
+        {
+          "station": "TRU",
+          "arr": 673,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "MF_60",
+      "headcode": "",
+      "operator": "GW",
+      "days": [
+        "MF"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "FAL",
+          "arr": null,
+          "dep": 675
+        },
+        {
+          "station": "FMT",
+          "arr": null,
+          "dep": 678
+        },
+        {
+          "station": "PNM",
+          "arr": null,
+          "dep": 681
+        },
+        {
+          "station": "PRW",
+          "arr": null,
+          "dep": 875
+        },
+        {
+          "station": "TRU",
+          "arr": 703,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "MF_61",
+      "headcode": "",
+      "operator": "GW",
+      "days": [
+        "MF"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "FAL",
+          "arr": null,
+          "dep": 705
+        },
+        {
+          "station": "FMT",
+          "arr": null,
+          "dep": 708
+        },
+        {
+          "station": "PNM",
+          "arr": null,
+          "dep": 711
+        },
+        {
+          "station": "PRW",
+          "arr": null,
+          "dep": 935
+        },
+        {
+          "station": "TRU",
+          "arr": 733,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "MF_62",
+      "headcode": "",
+      "operator": "GW",
+      "days": [
+        "MF"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "FAL",
+          "arr": null,
+          "dep": 735
+        },
+        {
+          "station": "FMT",
+          "arr": null,
+          "dep": 738
+        },
+        {
+          "station": "PNM",
+          "arr": null,
+          "dep": 741
+        },
+        {
+          "station": "TRU",
+          "arr": 763,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "MF_63",
+      "headcode": "",
+      "operator": "GW",
+      "days": [
+        "MF"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "FAL",
+          "arr": null,
+          "dep": 765
+        },
+        {
+          "station": "FMT",
+          "arr": null,
+          "dep": 768
+        },
+        {
+          "station": "PNM",
+          "arr": null,
+          "dep": 771
+        },
+        {
+          "station": "TRU",
+          "arr": 793,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "MF_64",
+      "headcode": "",
+      "operator": "GW",
+      "days": [
+        "MF"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "FAL",
+          "arr": null,
+          "dep": 795
+        },
+        {
+          "station": "FMT",
+          "arr": null,
+          "dep": 798
+        },
+        {
+          "station": "PNM",
+          "arr": null,
+          "dep": 801
+        },
+        {
+          "station": "TRU",
+          "arr": 823,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "MF_65",
+      "headcode": "",
+      "operator": "GW",
+      "days": [
+        "MF"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "FAL",
+          "arr": null,
+          "dep": 825
+        },
+        {
+          "station": "FMT",
+          "arr": null,
+          "dep": 828
+        },
+        {
+          "station": "PNM",
+          "arr": null,
+          "dep": 831
+        },
+        {
+          "station": "TRU",
+          "arr": 853,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "MF_66",
+      "headcode": "",
+      "operator": "GW",
+      "days": [
+        "MF"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "FAL",
+          "arr": null,
+          "dep": 855
+        },
+        {
+          "station": "FMT",
+          "arr": null,
+          "dep": 858
+        },
+        {
+          "station": "PNM",
+          "arr": null,
+          "dep": 861
+        },
+        {
+          "station": "TRU",
+          "arr": 883,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "MF_67",
+      "headcode": "",
+      "operator": "GW",
+      "days": [
+        "MF"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "FAL",
+          "arr": null,
+          "dep": 885
+        },
+        {
+          "station": "FMT",
+          "arr": null,
+          "dep": 888
+        },
+        {
+          "station": "PNM",
+          "arr": null,
+          "dep": 891
+        },
+        {
+          "station": "TRU",
+          "arr": 913,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "MF_68",
+      "headcode": "",
+      "operator": "",
+      "days": [
+        "MF"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "FAL",
+          "arr": null,
+          "dep": 915
+        },
+        {
+          "station": "FMT",
+          "arr": null,
+          "dep": 918
+        },
+        {
+          "station": "PNM",
+          "arr": null,
+          "dep": 921
+        },
+        {
+          "station": "TRU",
+          "arr": 943,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "SAT_69",
+      "headcode": "",
+      "operator": "GW",
+      "days": [
+        "SAT"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "FAL",
+          "arr": null,
+          "dep": 396
+        },
+        {
+          "station": "FMT",
+          "arr": null,
+          "dep": 399
+        },
+        {
+          "station": "PNM",
+          "arr": null,
+          "dep": 402
+        },
+        {
+          "station": "PRW",
+          "arr": null,
+          "dep": 416
+        },
+        {
+          "station": "TRU",
+          "arr": 424,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "SAT_70",
+      "headcode": "",
+      "operator": "GW",
+      "days": [
+        "SAT"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "FAL",
+          "arr": null,
+          "dep": 435
+        },
+        {
+          "station": "FMT",
+          "arr": null,
+          "dep": 438
+        },
+        {
+          "station": "PNM",
+          "arr": null,
+          "dep": 441
+        },
+        {
+          "station": "PRW",
+          "arr": null,
+          "dep": 455
+        },
+        {
+          "station": "TRU",
+          "arr": 463,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "SAT_71",
+      "headcode": "",
+      "operator": "GW",
+      "days": [
+        "SAT"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "FAL",
+          "arr": null,
+          "dep": 465
+        },
+        {
+          "station": "FMT",
+          "arr": null,
+          "dep": 468
+        },
+        {
+          "station": "PNM",
+          "arr": null,
+          "dep": 471
+        },
+        {
+          "station": "PRW",
+          "arr": null,
+          "dep": 485
+        },
+        {
+          "station": "TRU",
+          "arr": 493,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "SAT_72",
+      "headcode": "",
+      "operator": "GW",
+      "days": [
+        "SAT"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "FAL",
+          "arr": null,
+          "dep": 495
+        },
+        {
+          "station": "FMT",
+          "arr": null,
+          "dep": 498
+        },
+        {
+          "station": "PNM",
+          "arr": null,
+          "dep": 501
+        },
+        {
+          "station": "PRW",
+          "arr": null,
+          "dep": 515
+        },
+        {
+          "station": "TRU",
+          "arr": 523,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "SAT_73",
+      "headcode": "",
+      "operator": "GW",
+      "days": [
+        "SAT"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "FAL",
+          "arr": null,
+          "dep": 525
+        },
+        {
+          "station": "FMT",
+          "arr": null,
+          "dep": 528
+        },
+        {
+          "station": "PNM",
+          "arr": null,
+          "dep": 531
+        },
+        {
+          "station": "PRW",
+          "arr": null,
+          "dep": 575
+        },
+        {
+          "station": "TRU",
+          "arr": 553,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "SAT_74",
+      "headcode": "",
+      "operator": "GW",
+      "days": [
+        "SAT"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "FAL",
+          "arr": null,
+          "dep": 555
+        },
+        {
+          "station": "FMT",
+          "arr": null,
+          "dep": 558
+        },
+        {
+          "station": "PNM",
+          "arr": null,
+          "dep": 561
+        },
+        {
+          "station": "PRW",
+          "arr": null,
+          "dep": 635
+        },
+        {
+          "station": "TRU",
+          "arr": 583,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "SAT_75",
+      "headcode": "",
+      "operator": "GW",
+      "days": [
+        "SAT"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "FAL",
+          "arr": null,
+          "dep": 585
+        },
+        {
+          "station": "FMT",
+          "arr": null,
+          "dep": 588
+        },
+        {
+          "station": "PNM",
+          "arr": null,
+          "dep": 591
+        },
+        {
+          "station": "PRW",
+          "arr": null,
+          "dep": 695
+        },
+        {
+          "station": "TRU",
+          "arr": 613,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "SAT_76",
+      "headcode": "",
+      "operator": "GW",
+      "days": [
+        "SAT"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "FAL",
+          "arr": null,
+          "dep": 615
+        },
+        {
+          "station": "FMT",
+          "arr": null,
+          "dep": 618
+        },
+        {
+          "station": "PNM",
+          "arr": null,
+          "dep": 621
+        },
+        {
+          "station": "PRW",
+          "arr": null,
+          "dep": 755
+        },
+        {
+          "station": "TRU",
+          "arr": 643,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "SAT_77",
+      "headcode": "",
+      "operator": "GW",
+      "days": [
+        "SAT"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "FAL",
+          "arr": null,
+          "dep": 645
+        },
+        {
+          "station": "FMT",
+          "arr": null,
+          "dep": 648
+        },
+        {
+          "station": "PNM",
+          "arr": null,
+          "dep": 651
+        },
+        {
+          "station": "PRW",
+          "arr": null,
+          "dep": 815
+        },
+        {
+          "station": "TRU",
+          "arr": 673,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "SAT_78",
+      "headcode": "",
+      "operator": "GW",
+      "days": [
+        "SAT"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "FAL",
+          "arr": null,
+          "dep": 675
+        },
+        {
+          "station": "FMT",
+          "arr": null,
+          "dep": 678
+        },
+        {
+          "station": "PNM",
+          "arr": null,
+          "dep": 681
+        },
+        {
+          "station": "PRW",
+          "arr": null,
+          "dep": 875
+        },
+        {
+          "station": "TRU",
+          "arr": 703,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "SAT_79",
+      "headcode": "",
+      "operator": "GW",
+      "days": [
+        "SAT"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "FAL",
+          "arr": null,
+          "dep": 705
+        },
+        {
+          "station": "FMT",
+          "arr": null,
+          "dep": 708
+        },
+        {
+          "station": "PNM",
+          "arr": null,
+          "dep": 711
+        },
+        {
+          "station": "PRW",
+          "arr": null,
+          "dep": 935
+        },
+        {
+          "station": "TRU",
+          "arr": 733,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "SAT_80",
+      "headcode": "",
+      "operator": "GW",
+      "days": [
+        "SAT"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "FAL",
+          "arr": null,
+          "dep": 735
+        },
+        {
+          "station": "FMT",
+          "arr": null,
+          "dep": 738
+        },
+        {
+          "station": "PNM",
+          "arr": null,
+          "dep": 741
+        },
+        {
+          "station": "TRU",
+          "arr": 763,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "SAT_81",
+      "headcode": "",
+      "operator": "GW",
+      "days": [
+        "SAT"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "FAL",
+          "arr": null,
+          "dep": 765
+        },
+        {
+          "station": "FMT",
+          "arr": null,
+          "dep": 768
+        },
+        {
+          "station": "PNM",
+          "arr": null,
+          "dep": 771
+        },
+        {
+          "station": "TRU",
+          "arr": 793,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "SAT_82",
+      "headcode": "",
+      "operator": "GW",
+      "days": [
+        "SAT"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "FAL",
+          "arr": null,
+          "dep": 795
+        },
+        {
+          "station": "FMT",
+          "arr": null,
+          "dep": 798
+        },
+        {
+          "station": "PNM",
+          "arr": null,
+          "dep": 801
+        },
+        {
+          "station": "TRU",
+          "arr": 823,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "SAT_83",
+      "headcode": "",
+      "operator": "GW",
+      "days": [
+        "SAT"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "FAL",
+          "arr": null,
+          "dep": 825
+        },
+        {
+          "station": "FMT",
+          "arr": null,
+          "dep": 828
+        },
+        {
+          "station": "PNM",
+          "arr": null,
+          "dep": 831
+        },
+        {
+          "station": "TRU",
+          "arr": 853,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "SAT_84",
+      "headcode": "",
+      "operator": "GW",
+      "days": [
+        "SAT"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "FAL",
+          "arr": null,
+          "dep": 855
+        },
+        {
+          "station": "FMT",
+          "arr": null,
+          "dep": 858
+        },
+        {
+          "station": "PNM",
+          "arr": null,
+          "dep": 861
+        },
+        {
+          "station": "TRU",
+          "arr": 883,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "SAT_85",
+      "headcode": "",
+      "operator": "GW",
+      "days": [
+        "SAT"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "FAL",
+          "arr": null,
+          "dep": 885
+        },
+        {
+          "station": "FMT",
+          "arr": null,
+          "dep": 888
+        },
+        {
+          "station": "PNM",
+          "arr": null,
+          "dep": 891
+        },
+        {
+          "station": "TRU",
+          "arr": 913,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "SAT_86",
+      "headcode": "",
+      "operator": "",
+      "days": [
+        "SAT"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "FAL",
+          "arr": null,
+          "dep": 915
+        },
+        {
+          "station": "FMT",
+          "arr": null,
+          "dep": 918
+        },
+        {
+          "station": "PNM",
+          "arr": null,
+          "dep": 921
+        },
+        {
+          "station": "TRU",
+          "arr": 943,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "SUN_87",
+      "headcode": "",
+      "operator": "GW",
+      "days": [
+        "SUN"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "FAL",
+          "arr": null,
+          "dep": 558
+        },
+        {
+          "station": "FMT",
+          "arr": null,
+          "dep": 561
+        },
+        {
+          "station": "PNM",
+          "arr": null,
+          "dep": 564
+        },
+        {
+          "station": "PYN",
+          "arr": null,
+          "dep": 569
+        },
+        {
+          "station": "PRW",
+          "arr": null,
+          "dep": 576
+        },
+        {
+          "station": "TRU",
+          "arr": 583,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "SUN_88",
+      "headcode": "",
+      "operator": "GW",
+      "days": [
+        "SUN"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "FAL",
+          "arr": null,
+          "dep": 621
+        },
+        {
+          "station": "FMT",
+          "arr": null,
+          "dep": 624
+        },
+        {
+          "station": "PNM",
+          "arr": null,
+          "dep": 627
+        },
+        {
+          "station": "PYN",
+          "arr": null,
+          "dep": 632
+        },
+        {
+          "station": "PRW",
+          "arr": null,
+          "dep": 639
+        },
+        {
+          "station": "TRU",
+          "arr": 646,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "SUN_89",
+      "headcode": "",
+      "operator": "GW",
+      "days": [
+        "SUN"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "FAL",
+          "arr": null,
+          "dep": 681
+        },
+        {
+          "station": "FMT",
+          "arr": null,
+          "dep": 684
+        },
+        {
+          "station": "PNM",
+          "arr": null,
+          "dep": 687
+        },
+        {
+          "station": "PYN",
+          "arr": null,
+          "dep": 692
+        },
+        {
+          "station": "PRW",
+          "arr": null,
+          "dep": 699
+        },
+        {
+          "station": "TRU",
+          "arr": 707,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "SUN_90",
+      "headcode": "",
+      "operator": "GW",
+      "days": [
+        "SUN"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "FAL",
+          "arr": null,
+          "dep": 741
+        },
+        {
+          "station": "FMT",
+          "arr": null,
+          "dep": 744
+        },
+        {
+          "station": "PNM",
+          "arr": null,
+          "dep": 747
+        },
+        {
+          "station": "PYN",
+          "arr": null,
+          "dep": 752
+        },
+        {
+          "station": "PRW",
+          "arr": null,
+          "dep": 759
+        },
+        {
+          "station": "TRU",
+          "arr": 766,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "SUN_91",
+      "headcode": "",
+      "operator": "GW",
+      "days": [
+        "SUN"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "FAL",
+          "arr": null,
+          "dep": 801
+        },
+        {
+          "station": "FMT",
+          "arr": null,
+          "dep": 804
+        },
+        {
+          "station": "PNM",
+          "arr": null,
+          "dep": 807
+        },
+        {
+          "station": "PYN",
+          "arr": null,
+          "dep": 812
+        },
+        {
+          "station": "PRW",
+          "arr": null,
+          "dep": 819
+        },
+        {
+          "station": "TRU",
+          "arr": 826,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "SUN_92",
+      "headcode": "",
+      "operator": "GW",
+      "days": [
+        "SUN"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "FAL",
+          "arr": null,
+          "dep": 861
+        },
+        {
+          "station": "FMT",
+          "arr": null,
+          "dep": 864
+        },
+        {
+          "station": "PNM",
+          "arr": null,
+          "dep": 867
+        },
+        {
+          "station": "PYN",
+          "arr": null,
+          "dep": 873
+        },
+        {
+          "station": "PRW",
+          "arr": null,
+          "dep": 880
+        },
+        {
+          "station": "TRU",
+          "arr": 887,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "SUN_93",
+      "headcode": "",
+      "operator": "GW",
+      "days": [
+        "SUN"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "FAL",
+          "arr": null,
+          "dep": 926
+        },
+        {
+          "station": "FMT",
+          "arr": null,
+          "dep": 929
+        },
+        {
+          "station": "PNM",
+          "arr": null,
+          "dep": 932
+        },
+        {
+          "station": "PYN",
+          "arr": null,
+          "dep": 937
+        },
+        {
+          "station": "PRW",
+          "arr": null,
+          "dep": 944
+        },
+        {
+          "station": "TRU",
+          "arr": 951,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "SUN_94",
+      "headcode": "",
+      "operator": "GW",
+      "days": [
+        "SUN"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "FAL",
+          "arr": null,
+          "dep": 986
+        },
+        {
+          "station": "FMT",
+          "arr": null,
+          "dep": 989
+        },
+        {
+          "station": "PNM",
+          "arr": null,
+          "dep": 992
+        },
+        {
+          "station": "PYN",
+          "arr": null,
+          "dep": 997
+        },
+        {
+          "station": "PRW",
+          "arr": null,
+          "dep": 1004
+        },
+        {
+          "station": "TRU",
+          "arr": 1011,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "SUN_95",
+      "headcode": "",
+      "operator": "GW",
+      "days": [
+        "SUN"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "FAL",
+          "arr": null,
+          "dep": 1046
+        },
+        {
+          "station": "FMT",
+          "arr": null,
+          "dep": 1049
+        },
+        {
+          "station": "PNM",
+          "arr": null,
+          "dep": 1052
+        },
+        {
+          "station": "PYN",
+          "arr": null,
+          "dep": 1057
+        },
+        {
+          "station": "PRW",
+          "arr": null,
+          "dep": 1064
+        },
+        {
+          "station": "TRU",
+          "arr": 1072,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "SUN_96",
+      "headcode": "",
+      "operator": "GW",
+      "days": [
+        "SUN"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "FAL",
+          "arr": null,
+          "dep": 1104
+        },
+        {
+          "station": "FMT",
+          "arr": null,
+          "dep": 1107
+        },
+        {
+          "station": "PNM",
+          "arr": null,
+          "dep": 1110
+        },
+        {
+          "station": "PYN",
+          "arr": null,
+          "dep": 1115
+        },
+        {
+          "station": "PRW",
+          "arr": null,
+          "dep": 1122
+        },
+        {
+          "station": "TRU",
+          "arr": 1129,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "SUN_97",
+      "headcode": "",
+      "operator": "GW",
+      "days": [
+        "SUN"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "FAL",
+          "arr": null,
+          "dep": 1166
+        },
+        {
+          "station": "FMT",
+          "arr": null,
+          "dep": 1169
+        },
+        {
+          "station": "PNM",
+          "arr": null,
+          "dep": 1172
+        },
+        {
+          "station": "PYN",
+          "arr": null,
+          "dep": 1177
+        },
+        {
+          "station": "PRW",
+          "arr": null,
+          "dep": 1184
+        },
+        {
+          "station": "TRU",
+          "arr": 1191,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "SUN_98",
+      "headcode": "",
+      "operator": "GW",
+      "days": [
+        "SUN"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "FAL",
+          "arr": null,
+          "dep": 1226
+        },
+        {
+          "station": "FMT",
+          "arr": null,
+          "dep": 1229
+        },
+        {
+          "station": "PNM",
+          "arr": null,
+          "dep": 1232
+        },
+        {
+          "station": "PYN",
+          "arr": null,
+          "dep": 1237
+        },
+        {
+          "station": "PRW",
+          "arr": null,
+          "dep": 1244
+        },
+        {
+          "station": "TRU",
+          "arr": 1251,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "SUN_99",
+      "headcode": "",
+      "operator": "GW",
+      "days": [
+        "SUN"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "FAL",
+          "arr": null,
+          "dep": 1288
+        },
+        {
+          "station": "FMT",
+          "arr": null,
+          "dep": 1291
+        },
+        {
+          "station": "PNM",
+          "arr": null,
+          "dep": 1294
+        },
+        {
+          "station": "PYN",
+          "arr": null,
+          "dep": 1299
+        },
+        {
+          "station": "PRW",
+          "arr": null,
+          "dep": 1306
+        },
+        {
+          "station": "TRU",
+          "arr": 1314,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "SUN_100",
+      "headcode": "",
+      "operator": "",
+      "days": [
+        "SUN"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "FAL",
+          "arr": null,
+          "dep": 1353
+        },
+        {
+          "station": "FMT",
+          "arr": null,
+          "dep": 1356
+        },
+        {
+          "station": "PNM",
+          "arr": null,
+          "dep": 1359
+        },
+        {
+          "station": "PYN",
+          "arr": null,
+          "dep": 1364
+        },
+        {
+          "station": "PRW",
+          "arr": null,
+          "dep": 1371
+        },
+        {
+          "station": "TRU",
+          "arr": 1379,
+          "dep": null
+        }
+      ]
+    },
+    {
+      "id": "SUN_101",
+      "headcode": "",
+      "operator": "",
+      "days": [
+        "SUN"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "TRU",
+          "arr": 95,
+          "dep": null
+        }
+      ]
+    }
+  ]
+}

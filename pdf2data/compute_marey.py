@@ -10,7 +10,7 @@ from pathlib import Path
 
 BASE = Path(__file__).parent.parent
 STATIC = BASE / "static"
-OUT = STATIC / "data" / "marey"
+OUT = STATIC / "marey"
 STATIONS_FILE = STATIC / "stations.json"
 TABLES_FILE = STATIC / "table-index.json"
 SERVICES_DIR = STATIC / "services"
@@ -114,7 +114,7 @@ def main():
             "route": f"Route {table_num}",
             "route_id": f"t{table_num}",
             "stations": [
-                {"name": crs, "crs": crs, "mileage": round(mileages.get(crs, 0), 1),
+                {"name": station_lookup.get(crs, {}).get("name", crs), "crs": crs, "mileage": round(mileages.get(crs, 0), 1),
                  "type": station_lookup.get(crs, {}).get("type", "minor")}
                 for crs in unique_stations
             ],
