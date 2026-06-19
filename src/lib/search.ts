@@ -1,4 +1,24 @@
-import type { StationEntry, TableEntry, TableMatch } from './types';
+import type { Station, StationEntry, TableEntry, TableMatch } from './types';
+
+// Station-centric search
+
+export function findStationsByQuery(query: string, stations: Station[]): Station[] {
+  if (!query || query.length < 2) return [];
+  const q = query.toLowerCase();
+  return stations
+    .filter(s => 
+      s.name.toLowerCase().includes(q) || 
+      s.crs.toLowerCase().includes(q) ||
+      s.id.toLowerCase().includes(q)
+    )
+    .slice(0, 10);
+}
+
+export function getStationByCrs(crs: string, stations: Station[]): Station | undefined {
+  return stations.find(s => s.crs === crs || s.id === crrs);
+}
+
+// Legacy table-centric search (kept for compatibility)
 
 export function findMatchingTables(fromCrs: string, toCrs: string, stations: StationEntry[], tableIndex: TableEntry[]): TableMatch[] {
   const fromStation = stations.find(s => s.id === fromCrs);
@@ -15,7 +35,7 @@ export function findMatchingTables(fromCrs: string, toCrs: string, stations: Sta
   const matches: TableMatch[] = matchingTables.map(tableId => {
     const tableEntry = tableIndex.find(t => t.table === tableId);
     if (!tableEntry) {
-      return null; // will be filtered out
+      return null;
     }
     return {
       table: tableEntry.table,
@@ -29,10 +49,9 @@ export function findMatchingTables(fromCrs: string, toCrs: string, stations: Sta
     };
   }).filter((match): match is TableMatch => match !== null);
 
-  // Sort by: !gap first (so gap=false comes first), then n_services descending
   matches.sort((a, b) => {
     if (a.gap !== b.gap) {
-      return a.gap ? 1 : -1; // false (non-gap) comes first
+      return a.gap ? 1 : -1;
     }
     return b.n_services - a.n_services;
   });

@@ -1,5 +1,8 @@
 # PaperTime — Render Blueprint
 # https://render.com/docs/blueprint-spec
+#
+# Note: The data pipeline (darwin2data) runs locally via `mise run data`.
+# The resulting JSON is committed to git. Render only builds the static site.
 services:
   - type: static_site
     name: papertime
@@ -11,4 +14,3 @@ services:
     domains:
       - papertime.tweak.wiki
     envVars: []
-# Force rebuild

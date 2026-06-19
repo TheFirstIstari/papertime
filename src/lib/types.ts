@@ -1,3 +1,48 @@
+// Station-centric data types for PaperTime
+
+export interface Station {
+  id: string;       // CRS code
+  name: string;
+  crs: string;
+  tiploc: string;
+  lat: number | null;
+  lng: number | null;
+  type: string;      // terminal, major, interchange, minor, airport
+  n_services: number;
+  operators: string[];
+  destinations: string[];
+  file: string;      // services/{crs}.json
+}
+
+export interface StationIndex {
+  stations: Station[];
+}
+
+export interface ServiceRef {
+  id: string;
+  headcode: string;
+  operator: string;
+  origin: string;
+  origin_name: string;
+  destination: string;
+  destination_name: string;
+  calls: CallRef[];
+  days: string[];
+}
+
+export interface CallRef {
+  crs: string;
+  arr: string | null;   // HH:MM format
+  dep: string | null;   // HH:MM format
+}
+
+export interface StationServices {
+  station: string;
+  name: string;
+  services: ServiceRef[];
+}
+
+// Legacy types (kept for compatibility during migration)
 export interface StationEntry {
   id: string;
   name: string;

@@ -11,13 +11,7 @@ pub struct S3Config<'a> {
 
 /// Download the Darwin timetable ZIP from S3
 pub fn download(config: &S3Config) -> Result<PathBuf> {
-    // Construct S3 URL
-    // Format: https://{bucket}.s3.{region}.amazonaws.com/{prefix}timetable.zip
-    // Or: https://s3.{region}.amazonrail.co.uk/{bucket}/{prefix}timetable.zip
-
-    // For National Rail's Darwin feed, the URL format is typically:
-    // https://s3-eu-west-1.amazonaws.com/darwin.xmltimetable/PPTimetable/timetable.zip
-
+    // National Rail Darwin S3 feed URL format
     let url = format!(
         "https://s3.{}.amazonaws.com/{}/{}timetable.zip",
         config.region, config.bucket, config.prefix
@@ -25,30 +19,27 @@ pub fn download(config: &S3Config) -> Result<PathBuf> {
 
     log::info!("Downloading from: {}", url);
 
-    // Create temp directory for download
     let temp_dir = std::env::temp_dir().join("darwin2data");
     std::fs::create_dir_all(&temp_dir)?;
     let zip_path = temp_dir.join("timetable.zip");
 
-    // Download using reqwest with basic auth
+    // Download with basic auth (National Rail uses HTTP Basic Auth, not AWS signatures)
     let client = reqwest::blocking::Client::new();
     let response = client
         .get(&url)
         .basic_auth(config.access_key, Some(config.secret_key))
         .send()?;
 
-    if !response.status().is_success() {
-        anyhow::bail!(
-            "Failed to download: HTTP {} - {}",
-            response.status(),
-            response.text()?
-        );
+    let status = response.status();
+    if !status.is_success() {
+        let body = response.text().unwrap_or_default();
+        anyhow::bail!("Download failed: HTTP {} - {}", status, body);
     }
 
     let bytes = response.bytes()?;
     std::fs::write(&zip_path, &bytes)?;
 
-    log::info!("Downloaded {} bytes", bytes.len());
+    log::info!("Downloaded {} bytes to {}", bytes.len(), zip_path.display());
 
     Ok(zip_path)
 }
