@@ -388,10 +388,17 @@ def parse_all_tts():
                                     })
                                 if is_merge:
                                     # Same station appears again (arrival then departure).
-                                    # Update the LAST stop for this service with departure time.
+                                    # Only merge dep into existing arr if dep >= arr (same service).
+                                    # If dep < arr, this departure belongs to a different service
+                                    # (column shift or service starting at this station).
+                                    # Skip it — don't create a misleading stop entry.
                                     stops = all_services[col]['stops']
                                     if stops and stops[-1]['station'] == crs:
-                                        stops[-1]['dep'] = mins
+                                        existing_arr = stops[-1].get('arr')
+                                        if existing_arr is not None and mins < existing_arr:
+                                            pass  # skip — wrong pairing
+                                        else:
+                                            stops[-1]['dep'] = mins
                                     else:
                                         stops.append({
                                             'station': crs,

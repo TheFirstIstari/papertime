@@ -116,66 +116,6 @@
           "station": "FIT",
           "arr": null,
           "dep": 408
-        },
-        {
-          "station": "SVB",
-          "arr": null,
-          "dep": 781
-        },
-        {
-          "station": "SAR",
-          "arr": null,
-          "dep": 787
-        },
-        {
-          "station": "AVN",
-          "arr": null,
-          "dep": 946
-        },
-        {
-          "station": "PRI",
-          "arr": null,
-          "dep": 948
-        },
-        {
-          "station": "SHH",
-          "arr": null,
-          "dep": 950
-        },
-        {
-          "station": "SML",
-          "arr": null,
-          "dep": 954
-        },
-        {
-          "station": "CFN",
-          "arr": null,
-          "dep": 961
-        },
-        {
-          "station": "RDA",
-          "arr": null,
-          "dep": 964
-        },
-        {
-          "station": "MTP",
-          "arr": null,
-          "dep": 966
-        },
-        {
-          "station": "SRD",
-          "arr": null,
-          "dep": 972
-        },
-        {
-          "station": "LWH",
-          "arr": null,
-          "dep": 975
-        },
-        {
-          "station": "BRI",
-          "arr": 929,
-          "dep": 985
         }
       ]
     },
@@ -282,8 +222,33 @@
         },
         {
           "station": "BRI",
+          "arr": 438,
+          "dep": null
+        },
+        {
+          "station": "NLS",
           "arr": null,
-          "dep": 440
+          "dep": 453
+        },
+        {
+          "station": "YAT",
+          "arr": null,
+          "dep": 459
+        },
+        {
+          "station": "WSM",
+          "arr": 473,
+          "dep": null
+        },
+        {
+          "station": "TAU",
+          "arr": 496,
+          "dep": null
+        },
+        {
+          "station": "EXD",
+          "arr": 532,
+          "dep": null
         }
       ]
     },
@@ -303,8 +268,13 @@
         },
         {
           "station": "BRI",
+          "arr": 438,
+          "dep": null
+        },
+        {
+          "station": "YAT",
           "arr": null,
-          "dep": 423
+          "dep": 459
         },
         {
           "station": "WSM",
@@ -318,7 +288,7 @@
         },
         {
           "station": "EXD",
-          "arr": 1038,
+          "arr": 532,
           "dep": null
         }
       ]
@@ -349,7 +319,7 @@
         },
         {
           "station": "EXD",
-          "arr": 1038,
+          "arr": 532,
           "dep": null
         }
       ]
@@ -412,8 +382,8 @@
         },
         {
           "station": "BPW",
-          "arr": null,
-          "dep": 526
+          "arr": 478,
+          "dep": null
         },
         {
           "station": "FIT",
@@ -786,27 +756,7 @@
         },
         {
           "station": "BPW",
-          "arr": null,
-          "dep": 584
-        },
-        {
-          "station": "FIT",
-          "arr": null,
-          "dep": 588
-        },
-        {
-          "station": "SRD",
-          "arr": null,
-          "dep": 611
-        },
-        {
-          "station": "LWH",
-          "arr": null,
-          "dep": 614
-        },
-        {
-          "station": "BRI",
-          "arr": 709,
+          "arr": 594,
           "dep": null
         }
       ]
@@ -839,56 +789,6 @@
           "station": "FIT",
           "arr": null,
           "dep": 560
-        },
-        {
-          "station": "AVN",
-          "arr": null,
-          "dep": 586
-        },
-        {
-          "station": "PRI",
-          "arr": null,
-          "dep": 588
-        },
-        {
-          "station": "SHH",
-          "arr": null,
-          "dep": 590
-        },
-        {
-          "station": "SML",
-          "arr": null,
-          "dep": 594
-        },
-        {
-          "station": "CFN",
-          "arr": null,
-          "dep": 600
-        },
-        {
-          "station": "RDA",
-          "arr": null,
-          "dep": 603
-        },
-        {
-          "station": "MTP",
-          "arr": null,
-          "dep": 606
-        },
-        {
-          "station": "SRD",
-          "arr": null,
-          "dep": 611
-        },
-        {
-          "station": "LWH",
-          "arr": null,
-          "dep": 614
-        },
-        {
-          "station": "BRI",
-          "arr": 709,
-          "dep": null
         }
       ]
     },
@@ -914,61 +814,6 @@
         {
           "station": "BPW",
           "arr": 594,
-          "dep": 561
-        },
-        {
-          "station": "FIT",
-          "arr": null,
-          "dep": 582
-        },
-        {
-          "station": "AVN",
-          "arr": null,
-          "dep": 586
-        },
-        {
-          "station": "PRI",
-          "arr": null,
-          "dep": 588
-        },
-        {
-          "station": "SHH",
-          "arr": null,
-          "dep": 590
-        },
-        {
-          "station": "SML",
-          "arr": null,
-          "dep": 594
-        },
-        {
-          "station": "CFN",
-          "arr": null,
-          "dep": 600
-        },
-        {
-          "station": "RDA",
-          "arr": null,
-          "dep": 603
-        },
-        {
-          "station": "MTP",
-          "arr": null,
-          "dep": 606
-        },
-        {
-          "station": "SRD",
-          "arr": null,
-          "dep": 611
-        },
-        {
-          "station": "LWH",
-          "arr": null,
-          "dep": 614
-        },
-        {
-          "station": "BRI",
-          "arr": 709,
           "dep": null
         }
       ]
@@ -1011,11 +856,6 @@
           "station": "LWH",
           "arr": null,
           "dep": 614
-        },
-        {
-          "station": "BRI",
-          "arr": 709,
-          "dep": null
         }
       ]
     },
@@ -1042,16 +882,6 @@
           "station": "BPW",
           "arr": null,
           "dep": 602
-        },
-        {
-          "station": "FIT",
-          "arr": null,
-          "dep": 707
-        },
-        {
-          "station": "BRI",
-          "arr": 709,
-          "dep": null
         }
       ]
     },
@@ -1099,16 +929,6 @@
           "station": "BPW",
           "arr": null,
           "dep": 623
-        },
-        {
-          "station": "FIT",
-          "arr": null,
-          "dep": 707
-        },
-        {
-          "station": "BRI",
-          "arr": 709,
-          "dep": null
         }
       ]
     },
@@ -1257,16 +1077,6 @@
           "station": "BPW",
           "arr": 623,
           "dep": 648
-        },
-        {
-          "station": "FIT",
-          "arr": null,
-          "dep": 707
-        },
-        {
-          "station": "BRI",
-          "arr": 709,
-          "dep": null
         }
       ]
     },
@@ -1296,17 +1106,7 @@
         },
         {
           "station": "BPW",
-          "arr": null,
-          "dep": 704
-        },
-        {
-          "station": "FIT",
-          "arr": null,
-          "dep": 707
-        },
-        {
-          "station": "BRI",
-          "arr": 709,
+          "arr": 714,
           "dep": null
         }
       ]
@@ -1333,16 +1133,6 @@
         {
           "station": "BPW",
           "arr": 683,
-          "dep": 675
-        },
-        {
-          "station": "FIT",
-          "arr": null,
-          "dep": 707
-        },
-        {
-          "station": "BRI",
-          "arr": 709,
           "dep": null
         }
       ]
@@ -1369,16 +1159,6 @@
         {
           "station": "BPW",
           "arr": 714,
-          "dep": 682
-        },
-        {
-          "station": "FIT",
-          "arr": null,
-          "dep": 707
-        },
-        {
-          "station": "BRI",
-          "arr": 709,
           "dep": null
         }
       ]
@@ -1613,17 +1393,7 @@
         },
         {
           "station": "BPW",
-          "arr": null,
-          "dep": 1065
-        },
-        {
-          "station": "FIT",
-          "arr": null,
-          "dep": 1280
-        },
-        {
-          "station": "BRI",
-          "arr": 1281,
+          "arr": 774,
           "dep": null
         }
       ]
@@ -1650,72 +1420,7 @@
         {
           "station": "BPW",
           "arr": 774,
-          "dep": 736
-        },
-        {
-          "station": "FIT",
-          "arr": null,
-          "dep": 740
-        },
-        {
-          "station": "SVB",
-          "arr": null,
-          "dep": 781
-        },
-        {
-          "station": "SAR",
-          "arr": null,
-          "dep": 787
-        },
-        {
-          "station": "AVN",
-          "arr": null,
-          "dep": 946
-        },
-        {
-          "station": "PRI",
-          "arr": null,
-          "dep": 948
-        },
-        {
-          "station": "SHH",
-          "arr": null,
-          "dep": 950
-        },
-        {
-          "station": "SML",
-          "arr": null,
-          "dep": 954
-        },
-        {
-          "station": "CFN",
-          "arr": null,
-          "dep": 961
-        },
-        {
-          "station": "RDA",
-          "arr": null,
-          "dep": 964
-        },
-        {
-          "station": "MTP",
-          "arr": null,
-          "dep": 966
-        },
-        {
-          "station": "SRD",
-          "arr": null,
-          "dep": 972
-        },
-        {
-          "station": "LWH",
-          "arr": null,
-          "dep": 975
-        },
-        {
-          "station": "BRI",
-          "arr": 929,
-          "dep": 985
+          "dep": null
         }
       ]
     },
@@ -1740,17 +1445,7 @@
         },
         {
           "station": "BPW",
-          "arr": null,
-          "dep": 1065
-        },
-        {
-          "station": "FIT",
-          "arr": null,
-          "dep": 1280
-        },
-        {
-          "station": "BRI",
-          "arr": 1281,
+          "arr": 804,
           "dep": null
         }
       ]
@@ -1773,21 +1468,6 @@
           "station": "NWP",
           "arr": null,
           "dep": 784
-        },
-        {
-          "station": "BPW",
-          "arr": null,
-          "dep": 1065
-        },
-        {
-          "station": "FIT",
-          "arr": null,
-          "dep": 1280
-        },
-        {
-          "station": "BRI",
-          "arr": 1281,
-          "dep": null
         }
       ]
     },
@@ -1817,17 +1497,7 @@
         },
         {
           "station": "BPW",
-          "arr": null,
-          "dep": 1065
-        },
-        {
-          "station": "FIT",
-          "arr": null,
-          "dep": 1280
-        },
-        {
-          "station": "BRI",
-          "arr": 1281,
+          "arr": 1074,
           "dep": null
         }
       ]
@@ -1850,16 +1520,6 @@
           "station": "BPW",
           "arr": null,
           "dep": 797
-        },
-        {
-          "station": "FIT",
-          "arr": null,
-          "dep": 1280
-        },
-        {
-          "station": "BRI",
-          "arr": 1281,
-          "dep": null
         }
       ]
     },
@@ -1876,16 +1536,6 @@
           "station": "BPW",
           "arr": null,
           "dep": 802
-        },
-        {
-          "station": "FIT",
-          "arr": null,
-          "dep": 1280
-        },
-        {
-          "station": "BRI",
-          "arr": 1281,
-          "dep": null
         }
       ]
     },
@@ -2043,17 +1693,7 @@
         },
         {
           "station": "BPW",
-          "arr": null,
-          "dep": 1065
-        },
-        {
-          "station": "FIT",
-          "arr": null,
-          "dep": 1280
-        },
-        {
-          "station": "BRI",
-          "arr": 1281,
+          "arr": 1074,
           "dep": null
         }
       ]
@@ -2084,17 +1724,7 @@
         },
         {
           "station": "BPW",
-          "arr": null,
-          "dep": 1065
-        },
-        {
-          "station": "FIT",
-          "arr": null,
-          "dep": 1280
-        },
-        {
-          "station": "BRI",
-          "arr": 1281,
+          "arr": 1074,
           "dep": null
         }
       ]
@@ -2121,12 +1751,17 @@
         {
           "station": "BPW",
           "arr": 987,
-          "dep": 948
+          "dep": null
         },
         {
           "station": "FIT",
           "arr": null,
-          "dep": 951
+          "dep": 1001
+        },
+        {
+          "station": "BRI",
+          "arr": 964,
+          "dep": 1012
         }
       ]
     },
@@ -2407,17 +2042,7 @@
         },
         {
           "station": "BPW",
-          "arr": null,
-          "dep": 1065
-        },
-        {
-          "station": "FIT",
-          "arr": null,
-          "dep": 1280
-        },
-        {
-          "station": "BRI",
-          "arr": 1281,
+          "arr": 1074,
           "dep": null
         }
       ]
@@ -2444,16 +2069,6 @@
         {
           "station": "BPW",
           "arr": 1045,
-          "dep": 1020
-        },
-        {
-          "station": "FIT",
-          "arr": null,
-          "dep": 1280
-        },
-        {
-          "station": "BRI",
-          "arr": 1281,
           "dep": null
         }
       ]
@@ -2479,17 +2094,7 @@
         },
         {
           "station": "BPW",
-          "arr": null,
-          "dep": 1065
-        },
-        {
-          "station": "FIT",
-          "arr": null,
-          "dep": 1280
-        },
-        {
-          "station": "BRI",
-          "arr": 1281,
+          "arr": 1074,
           "dep": null
         }
       ]
@@ -2517,16 +2122,6 @@
           "station": "BPW",
           "arr": null,
           "dep": 1065
-        },
-        {
-          "station": "FIT",
-          "arr": null,
-          "dep": 1280
-        },
-        {
-          "station": "BRI",
-          "arr": 1281,
-          "dep": null
         }
       ]
     },
@@ -2553,16 +2148,6 @@
           "station": "BPW",
           "arr": null,
           "dep": 1065
-        },
-        {
-          "station": "FIT",
-          "arr": null,
-          "dep": 1280
-        },
-        {
-          "station": "BRI",
-          "arr": 1281,
-          "dep": null
         }
       ]
     },
@@ -2579,16 +2164,6 @@
           "station": "BPW",
           "arr": null,
           "dep": 1080
-        },
-        {
-          "station": "FIT",
-          "arr": null,
-          "dep": 1280
-        },
-        {
-          "station": "BRI",
-          "arr": 1281,
-          "dep": null
         }
       ]
     },
@@ -2719,8 +2294,8 @@
         },
         {
           "station": "BPW",
-          "arr": null,
-          "dep": 1245
+          "arr": 1251,
+          "dep": null
         },
         {
           "station": "FIT",
@@ -2760,8 +2335,8 @@
         },
         {
           "station": "BPW",
-          "arr": null,
-          "dep": 1245
+          "arr": 1251,
+          "dep": null
         },
         {
           "station": "FIT",
@@ -3099,8 +2674,8 @@
         },
         {
           "station": "BPW",
-          "arr": null,
-          "dep": 1245
+          "arr": 1251,
+          "dep": null
         },
         {
           "station": "FIT",
@@ -3136,7 +2711,7 @@
         {
           "station": "BPW",
           "arr": 1251,
-          "dep": 1199
+          "dep": null
         },
         {
           "station": "FIT",
@@ -3463,8 +3038,28 @@
         },
         {
           "station": "BPW",
+          "arr": 1312,
+          "dep": null
+        },
+        {
+          "station": "FIT",
           "arr": null,
-          "dep": 1405
+          "dep": 1374
+        },
+        {
+          "station": "SRD",
+          "arr": null,
+          "dep": 1379
+        },
+        {
+          "station": "LWH",
+          "arr": null,
+          "dep": 1383
+        },
+        {
+          "station": "BRI",
+          "arr": 1401,
+          "dep": null
         }
       ]
     },
@@ -3494,8 +3089,28 @@
         },
         {
           "station": "BPW",
+          "arr": 1374,
+          "dep": null
+        },
+        {
+          "station": "FIT",
           "arr": null,
-          "dep": 1405
+          "dep": 1374
+        },
+        {
+          "station": "SRD",
+          "arr": null,
+          "dep": 1379
+        },
+        {
+          "station": "LWH",
+          "arr": null,
+          "dep": 1383
+        },
+        {
+          "station": "BRI",
+          "arr": 1401,
+          "dep": null
         }
       ]
     },
@@ -3984,66 +3599,6 @@
           "station": "FIT",
           "arr": null,
           "dep": 392
-        },
-        {
-          "station": "SVB",
-          "arr": null,
-          "dep": 935
-        },
-        {
-          "station": "SAR",
-          "arr": null,
-          "dep": 941
-        },
-        {
-          "station": "AVN",
-          "arr": null,
-          "dep": 946
-        },
-        {
-          "station": "PRI",
-          "arr": null,
-          "dep": 948
-        },
-        {
-          "station": "SHH",
-          "arr": null,
-          "dep": 950
-        },
-        {
-          "station": "SML",
-          "arr": null,
-          "dep": 954
-        },
-        {
-          "station": "CFN",
-          "arr": null,
-          "dep": 961
-        },
-        {
-          "station": "RDA",
-          "arr": null,
-          "dep": 964
-        },
-        {
-          "station": "MTP",
-          "arr": null,
-          "dep": 966
-        },
-        {
-          "station": "SRD",
-          "arr": null,
-          "dep": 972
-        },
-        {
-          "station": "LWH",
-          "arr": null,
-          "dep": 975
-        },
-        {
-          "station": "BRI",
-          "arr": 929,
-          "dep": 985
         }
       ]
     },
@@ -4069,72 +3624,12 @@
         {
           "station": "BPW",
           "arr": 413,
-          "dep": 412
+          "dep": null
         },
         {
           "station": "FIT",
           "arr": null,
           "dep": 416
-        },
-        {
-          "station": "SVB",
-          "arr": null,
-          "dep": 935
-        },
-        {
-          "station": "SAR",
-          "arr": null,
-          "dep": 941
-        },
-        {
-          "station": "AVN",
-          "arr": null,
-          "dep": 946
-        },
-        {
-          "station": "PRI",
-          "arr": null,
-          "dep": 948
-        },
-        {
-          "station": "SHH",
-          "arr": null,
-          "dep": 950
-        },
-        {
-          "station": "SML",
-          "arr": null,
-          "dep": 954
-        },
-        {
-          "station": "CFN",
-          "arr": null,
-          "dep": 961
-        },
-        {
-          "station": "RDA",
-          "arr": null,
-          "dep": 964
-        },
-        {
-          "station": "MTP",
-          "arr": null,
-          "dep": 966
-        },
-        {
-          "station": "SRD",
-          "arr": null,
-          "dep": 972
-        },
-        {
-          "station": "LWH",
-          "arr": null,
-          "dep": 975
-        },
-        {
-          "station": "BRI",
-          "arr": 929,
-          "dep": 985
         }
       ]
     },
@@ -4195,13 +3690,28 @@
         },
         {
           "station": "BRI",
-          "arr": 465,
-          "dep": 435
+          "arr": 436,
+          "dep": null
+        },
+        {
+          "station": "NLS",
+          "arr": null,
+          "dep": 486
+        },
+        {
+          "station": "YAT",
+          "arr": null,
+          "dep": 491
+        },
+        {
+          "station": "WOR",
+          "arr": null,
+          "dep": 497
         },
         {
           "station": "WSM",
           "arr": 503,
-          "dep": 474
+          "dep": null
         },
         {
           "station": "TAU",
@@ -4226,17 +3736,22 @@
         },
         {
           "station": "BRI",
-          "arr": 465,
-          "dep": 435
+          "arr": 438,
+          "dep": null
         },
         {
           "station": "WSM",
-          "arr": 503,
+          "arr": 472,
           "dep": 474
         },
         {
           "station": "TAU",
-          "arr": 503,
+          "arr": 487,
+          "dep": null
+        },
+        {
+          "station": "EXD",
+          "arr": 532,
           "dep": null
         }
       ]
@@ -4253,12 +3768,12 @@
         {
           "station": "BRI",
           "arr": 465,
-          "dep": 435
+          "dep": null
         },
         {
           "station": "WSM",
           "arr": 503,
-          "dep": 474
+          "dep": null
         },
         {
           "station": "TAU",
@@ -4335,8 +3850,8 @@
         },
         {
           "station": "BPW",
-          "arr": null,
-          "dep": 526
+          "arr": 535,
+          "dep": null
         },
         {
           "station": "FIT",
@@ -4372,7 +3887,7 @@
         {
           "station": "BPW",
           "arr": 504,
-          "dep": 478
+          "dep": null
         },
         {
           "station": "FIT",
@@ -4408,7 +3923,7 @@
         {
           "station": "BPW",
           "arr": 535,
-          "dep": 494
+          "dep": null
         },
         {
           "station": "FIT",
@@ -5063,17 +4578,7 @@
         },
         {
           "station": "BPW",
-          "arr": null,
-          "dep": 705
-        },
-        {
-          "station": "FIT",
-          "arr": null,
-          "dep": 831
-        },
-        {
-          "station": "BRI",
-          "arr": 839,
+          "arr": 714,
           "dep": null
         }
       ]
@@ -5104,17 +4609,7 @@
         },
         {
           "station": "BPW",
-          "arr": null,
-          "dep": 705
-        },
-        {
-          "station": "FIT",
-          "arr": null,
-          "dep": 831
-        },
-        {
-          "station": "BRI",
-          "arr": 839,
+          "arr": 714,
           "dep": null
         }
       ]
@@ -5142,16 +4637,6 @@
           "station": "BPW",
           "arr": null,
           "dep": 685
-        },
-        {
-          "station": "FIT",
-          "arr": null,
-          "dep": 831
-        },
-        {
-          "station": "BRI",
-          "arr": 839,
-          "dep": null
         }
       ]
     },
@@ -5178,16 +4663,6 @@
           "station": "BPW",
           "arr": null,
           "dep": 705
-        },
-        {
-          "station": "FIT",
-          "arr": null,
-          "dep": 831
-        },
-        {
-          "station": "BRI",
-          "arr": 839,
-          "dep": null
         }
       ]
     },
@@ -5214,16 +4689,6 @@
           "station": "BPW",
           "arr": null,
           "dep": 718
-        },
-        {
-          "station": "FIT",
-          "arr": null,
-          "dep": 831
-        },
-        {
-          "station": "BRI",
-          "arr": 839,
-          "dep": null
         }
       ]
     },
@@ -5253,17 +4718,7 @@
         },
         {
           "station": "BPW",
-          "arr": null,
-          "dep": 828
-        },
-        {
-          "station": "FIT",
-          "arr": null,
-          "dep": 831
-        },
-        {
-          "station": "BRI",
-          "arr": 839,
+          "arr": 773,
           "dep": null
         }
       ]
@@ -5437,17 +4892,7 @@
         },
         {
           "station": "BPW",
-          "arr": null,
-          "dep": 828
-        },
-        {
-          "station": "FIT",
-          "arr": null,
-          "dep": 831
-        },
-        {
-          "station": "BRI",
-          "arr": 839,
+          "arr": 773,
           "dep": null
         }
       ]
@@ -5478,17 +4923,7 @@
         },
         {
           "station": "BPW",
-          "arr": null,
-          "dep": 828
-        },
-        {
-          "station": "FIT",
-          "arr": null,
-          "dep": 831
-        },
-        {
-          "station": "BRI",
-          "arr": 839,
+          "arr": 833,
           "dep": null
         }
       ]
@@ -5822,17 +5257,7 @@
         },
         {
           "station": "BPW",
-          "arr": 954,
-          "dep": 945
-        },
-        {
-          "station": "FIT",
-          "arr": null,
-          "dep": 1310
-        },
-        {
-          "station": "BRI",
-          "arr": 1312,
+          "arr": 893,
           "dep": null
         }
       ]
@@ -5859,62 +5284,7 @@
         {
           "station": "BPW",
           "arr": 915,
-          "dep": 856
-        },
-        {
-          "station": "FIT",
-          "arr": null,
-          "dep": 860
-        },
-        {
-          "station": "AVN",
-          "arr": null,
-          "dep": 946
-        },
-        {
-          "station": "PRI",
-          "arr": null,
-          "dep": 948
-        },
-        {
-          "station": "SHH",
-          "arr": null,
-          "dep": 950
-        },
-        {
-          "station": "SML",
-          "arr": null,
-          "dep": 954
-        },
-        {
-          "station": "CFN",
-          "arr": null,
-          "dep": 961
-        },
-        {
-          "station": "RDA",
-          "arr": null,
-          "dep": 964
-        },
-        {
-          "station": "MTP",
-          "arr": null,
-          "dep": 966
-        },
-        {
-          "station": "SRD",
-          "arr": null,
-          "dep": 972
-        },
-        {
-          "station": "LWH",
-          "arr": null,
-          "dep": 975
-        },
-        {
-          "station": "BRI",
-          "arr": 929,
-          "dep": 985
+          "dep": null
         }
       ]
     },
@@ -5940,16 +5310,6 @@
         {
           "station": "BPW",
           "arr": 954,
-          "dep": 945
-        },
-        {
-          "station": "FIT",
-          "arr": null,
-          "dep": 1310
-        },
-        {
-          "station": "BRI",
-          "arr": 1312,
           "dep": null
         }
       ]
@@ -5976,16 +5336,6 @@
         {
           "station": "BPW",
           "arr": 954,
-          "dep": 945
-        },
-        {
-          "station": "FIT",
-          "arr": null,
-          "dep": 1310
-        },
-        {
-          "station": "BRI",
-          "arr": 1312,
           "dep": null
         }
       ]
@@ -6022,16 +5372,6 @@
         {
           "station": "BPW",
           "arr": 954,
-          "dep": 945
-        },
-        {
-          "station": "FIT",
-          "arr": null,
-          "dep": 1310
-        },
-        {
-          "station": "BRI",
-          "arr": 1312,
           "dep": null
         }
       ]
@@ -6049,16 +5389,6 @@
           "station": "BPW",
           "arr": null,
           "dep": 917
-        },
-        {
-          "station": "FIT",
-          "arr": null,
-          "dep": 1310
-        },
-        {
-          "station": "BRI",
-          "arr": 1312,
-          "dep": null
         }
       ]
     },
@@ -6075,16 +5405,6 @@
           "station": "BPW",
           "arr": null,
           "dep": 925
-        },
-        {
-          "station": "FIT",
-          "arr": null,
-          "dep": 1310
-        },
-        {
-          "station": "BRI",
-          "arr": 1312,
-          "dep": null
         }
       ]
     },
@@ -6232,16 +5552,6 @@
         {
           "station": "BPW",
           "arr": 954,
-          "dep": 945
-        },
-        {
-          "station": "FIT",
-          "arr": null,
-          "dep": 1310
-        },
-        {
-          "station": "BRI",
-          "arr": 1312,
           "dep": null
         }
       ]
@@ -6272,17 +5582,7 @@
         },
         {
           "station": "BPW",
-          "arr": null,
-          "dep": 1005
-        },
-        {
-          "station": "FIT",
-          "arr": null,
-          "dep": 1310
-        },
-        {
-          "station": "BRI",
-          "arr": 1312,
+          "arr": 1015,
           "dep": null
         }
       ]
@@ -6310,16 +5610,6 @@
           "station": "BPW",
           "arr": null,
           "dep": 977
-        },
-        {
-          "station": "FIT",
-          "arr": null,
-          "dep": 1310
-        },
-        {
-          "station": "BRI",
-          "arr": 1312,
-          "dep": null
         }
       ]
     },
@@ -6346,16 +5636,6 @@
           "station": "BPW",
           "arr": null,
           "dep": 982
-        },
-        {
-          "station": "FIT",
-          "arr": null,
-          "dep": 1310
-        },
-        {
-          "station": "BRI",
-          "arr": 1312,
-          "dep": null
         }
       ]
     },
@@ -6382,16 +5662,6 @@
           "station": "BPW",
           "arr": null,
           "dep": 1005
-        },
-        {
-          "station": "FIT",
-          "arr": null,
-          "dep": 1310
-        },
-        {
-          "station": "BRI",
-          "arr": 1312,
-          "dep": null
         }
       ]
     },
@@ -6413,16 +5683,6 @@
           "station": "BPW",
           "arr": null,
           "dep": 1018
-        },
-        {
-          "station": "FIT",
-          "arr": null,
-          "dep": 1310
-        },
-        {
-          "station": "BRI",
-          "arr": 1312,
-          "dep": null
         }
       ]
     },
@@ -6595,17 +5855,7 @@
         },
         {
           "station": "BPW",
-          "arr": null,
-          "dep": 1307
-        },
-        {
-          "station": "FIT",
-          "arr": null,
-          "dep": 1310
-        },
-        {
-          "station": "BRI",
-          "arr": 1312,
+          "arr": 1073,
           "dep": null
         }
       ]
@@ -6636,17 +5886,7 @@
         },
         {
           "station": "BPW",
-          "arr": null,
-          "dep": 1307
-        },
-        {
-          "station": "FIT",
-          "arr": null,
-          "dep": 1310
-        },
-        {
-          "station": "BRI",
-          "arr": 1312,
+          "arr": 1193,
           "dep": null
         }
       ]
@@ -6955,17 +6195,7 @@
         },
         {
           "station": "BPW",
-          "arr": null,
-          "dep": 1307
-        },
-        {
-          "station": "FIT",
-          "arr": null,
-          "dep": 1310
-        },
-        {
-          "station": "BRI",
-          "arr": 1312,
+          "arr": 1193,
           "dep": null
         }
       ]
@@ -6992,16 +6222,6 @@
         {
           "station": "BPW",
           "arr": 1193,
-          "dep": 1138
-        },
-        {
-          "station": "FIT",
-          "arr": null,
-          "dep": 1310
-        },
-        {
-          "station": "BRI",
-          "arr": 1312,
           "dep": null
         }
       ]
@@ -7029,16 +6249,6 @@
           "station": "BPW",
           "arr": null,
           "dep": 1157
-        },
-        {
-          "station": "FIT",
-          "arr": null,
-          "dep": 1310
-        },
-        {
-          "station": "BRI",
-          "arr": 1312,
-          "dep": null
         }
       ]
     },
@@ -7063,18 +6273,13 @@
         },
         {
           "station": "BPW",
-          "arr": null,
-          "dep": 1307
+          "arr": 1255,
+          "dep": null
         },
         {
           "station": "FIT",
           "arr": null,
-          "dep": 1310
-        },
-        {
-          "station": "BRI",
-          "arr": 1312,
-          "dep": null
+          "dep": 1388
         }
       ]
     },
@@ -7104,18 +6309,13 @@
         },
         {
           "station": "BPW",
-          "arr": null,
-          "dep": 1307
+          "arr": 1255,
+          "dep": null
         },
         {
           "station": "FIT",
           "arr": null,
-          "dep": 1310
-        },
-        {
-          "station": "BRI",
-          "arr": 1312,
-          "dep": null
+          "dep": 1388
         }
       ]
     },
@@ -7314,18 +6514,13 @@
         },
         {
           "station": "BPW",
-          "arr": null,
-          "dep": 1307
+          "arr": 1255,
+          "dep": null
         },
         {
           "station": "FIT",
           "arr": null,
-          "dep": 1310
-        },
-        {
-          "station": "BRI",
-          "arr": 1312,
-          "dep": null
+          "dep": 1388
         }
       ]
     },
@@ -7355,18 +6550,13 @@
         },
         {
           "station": "BPW",
-          "arr": null,
-          "dep": 1307
+          "arr": 1311,
+          "dep": null
         },
         {
           "station": "FIT",
           "arr": null,
-          "dep": 1310
-        },
-        {
-          "station": "BRI",
-          "arr": 1312,
-          "dep": null
+          "dep": 1388
         }
       ]
     },
@@ -7861,8 +7051,18 @@
         },
         {
           "station": "BRI",
+          "arr": 680,
+          "dep": null
+        },
+        {
+          "station": "YAT",
           "arr": null,
-          "dep": 685
+          "dep": 705
+        },
+        {
+          "station": "WSM",
+          "arr": 719,
+          "dep": null
         }
       ]
     },
@@ -7897,8 +7097,18 @@
         },
         {
           "station": "BRI",
+          "arr": 680,
+          "dep": null
+        },
+        {
+          "station": "YAT",
           "arr": null,
-          "dep": 685
+          "dep": 705
+        },
+        {
+          "station": "WSM",
+          "arr": 719,
+          "dep": null
         }
       ]
     },
@@ -7933,8 +7143,18 @@
         },
         {
           "station": "BRI",
+          "arr": 680,
+          "dep": null
+        },
+        {
+          "station": "YAT",
           "arr": null,
-          "dep": 685
+          "dep": 705
+        },
+        {
+          "station": "WSM",
+          "arr": 719,
+          "dep": null
         }
       ]
     },
@@ -7969,8 +7189,18 @@
         },
         {
           "station": "BRI",
+          "arr": 680,
+          "dep": null
+        },
+        {
+          "station": "YAT",
           "arr": null,
-          "dep": 685
+          "dep": 705
+        },
+        {
+          "station": "WSM",
+          "arr": 719,
+          "dep": null
         }
       ]
     },
@@ -8000,8 +7230,18 @@
         },
         {
           "station": "BRI",
+          "arr": 680,
+          "dep": null
+        },
+        {
+          "station": "YAT",
           "arr": null,
-          "dep": 685
+          "dep": 705
+        },
+        {
+          "station": "WSM",
+          "arr": 719,
+          "dep": null
         }
       ]
     },
@@ -8026,8 +7266,13 @@
         },
         {
           "station": "BRI",
-          "arr": 680,
-          "dep": 646
+          "arr": 672,
+          "dep": null
+        },
+        {
+          "station": "NLS",
+          "arr": null,
+          "dep": 699
         },
         {
           "station": "YAT",
@@ -8063,7 +7308,7 @@
         {
           "station": "BRI",
           "arr": 680,
-          "dep": 646
+          "dep": null
         },
         {
           "station": "YAT",
@@ -8094,7 +7339,7 @@
         {
           "station": "BRI",
           "arr": 688,
-          "dep": 655
+          "dep": null
         }
       ]
     },
@@ -8157,12 +7402,12 @@
         {
           "station": "BPW",
           "arr": 713,
-          "dep": 701
+          "dep": null
         },
         {
           "station": "FIT",
           "arr": null,
-          "dep": 981
+          "dep": 842
         },
         {
           "station": "BRI",
@@ -8197,13 +7442,13 @@
         },
         {
           "station": "BPW",
-          "arr": null,
-          "dep": 977
+          "arr": 773,
+          "dep": null
         },
         {
           "station": "FIT",
           "arr": null,
-          "dep": 981
+          "dep": 842
         },
         {
           "station": "BRI",
@@ -8238,13 +7483,13 @@
         },
         {
           "station": "BPW",
-          "arr": null,
-          "dep": 977
+          "arr": 833,
+          "dep": null
         },
         {
           "station": "FIT",
           "arr": null,
-          "dep": 981
+          "dep": 842
         },
         {
           "station": "BRI",
@@ -8348,11 +7593,6 @@
           "station": "FIT",
           "arr": null,
           "dep": 797
-        },
-        {
-          "station": "BRI",
-          "arr": 929,
-          "dep": 985
         }
       ]
     },
@@ -8444,8 +7684,8 @@
         },
         {
           "station": "BPW",
-          "arr": null,
-          "dep": 977
+          "arr": 894,
+          "dep": null
         },
         {
           "station": "FIT",
@@ -8559,8 +7799,8 @@
         },
         {
           "station": "BPW",
-          "arr": null,
-          "dep": 977
+          "arr": 894,
+          "dep": null
         },
         {
           "station": "FIT",
@@ -8600,8 +7840,8 @@
         },
         {
           "station": "BPW",
-          "arr": null,
-          "dep": 977
+          "arr": 953,
+          "dep": null
         },
         {
           "station": "FIT",
@@ -9075,8 +8315,8 @@
         },
         {
           "station": "BPW",
-          "arr": null,
-          "dep": 1075
+          "arr": 1073,
+          "dep": null
         },
         {
           "station": "FIT",
@@ -9112,7 +8352,7 @@
         {
           "station": "BPW",
           "arr": 1073,
-          "dep": 1045
+          "dep": null
         },
         {
           "station": "FIT",
@@ -9425,26 +8665,6 @@
           "station": "BPW",
           "arr": 1133,
           "dep": 1139
-        },
-        {
-          "station": "FIT",
-          "arr": null,
-          "dep": 1325
-        },
-        {
-          "station": "PWY",
-          "arr": null,
-          "dep": 1340
-        },
-        {
-          "station": "NWP",
-          "arr": 1356,
-          "dep": null
-        },
-        {
-          "station": "CDF",
-          "arr": 1376,
-          "dep": null
         }
       ]
     },
@@ -9474,13 +8694,13 @@
         },
         {
           "station": "BPW",
-          "arr": 1313,
-          "dep": 1277
+          "arr": 1193,
+          "dep": null
         },
         {
           "station": "FIT",
           "arr": null,
-          "dep": 1325
+          "dep": 1320
         },
         {
           "station": "PWY",
@@ -9489,12 +8709,12 @@
         },
         {
           "station": "NWP",
-          "arr": 1356,
+          "arr": 1351,
           "dep": null
         },
         {
           "station": "CDF",
-          "arr": 1376,
+          "arr": 1365,
           "dep": null
         }
       ]
@@ -9525,13 +8745,13 @@
         },
         {
           "station": "BPW",
-          "arr": 1313,
-          "dep": 1277
+          "arr": 1253,
+          "dep": null
         },
         {
           "station": "FIT",
           "arr": null,
-          "dep": 1325
+          "dep": 1320
         },
         {
           "station": "PWY",
@@ -9540,12 +8760,12 @@
         },
         {
           "station": "NWP",
-          "arr": 1356,
+          "arr": 1351,
           "dep": null
         },
         {
           "station": "CDF",
-          "arr": 1376,
+          "arr": 1365,
           "dep": null
         }
       ]
@@ -9572,12 +8792,12 @@
         {
           "station": "BPW",
           "arr": 1313,
-          "dep": 1277
+          "dep": null
         },
         {
           "station": "FIT",
           "arr": null,
-          "dep": 1325
+          "dep": 1320
         },
         {
           "station": "PWY",
@@ -9586,12 +8806,12 @@
         },
         {
           "station": "NWP",
-          "arr": 1356,
+          "arr": 1351,
           "dep": null
         },
         {
           "station": "CDF",
-          "arr": 1376,
+          "arr": 1365,
           "dep": null
         }
       ]
@@ -9833,12 +9053,12 @@
         {
           "station": "BPW",
           "arr": 1313,
-          "dep": 1277
+          "dep": null
         },
         {
           "station": "FIT",
           "arr": null,
-          "dep": 1325
+          "dep": 1320
         },
         {
           "station": "PWY",
@@ -9847,12 +9067,12 @@
         },
         {
           "station": "NWP",
-          "arr": 1356,
+          "arr": 1351,
           "dep": null
         },
         {
           "station": "CDF",
-          "arr": 1376,
+          "arr": 1365,
           "dep": null
         }
       ]
@@ -9925,13 +9145,13 @@
         },
         {
           "station": "NWP",
-          "arr": 1402,
-          "dep": null
+          "arr": null,
+          "dep": 1374
         },
         {
-          "station": "CDF",
-          "arr": 1414,
-          "dep": null
+          "station": "BPW",
+          "arr": null,
+          "dep": 1401
         }
       ]
     },
@@ -9948,16 +9168,6 @@
           "station": "CDF",
           "arr": null,
           "dep": 1391
-        },
-        {
-          "station": "NWP",
-          "arr": 1402,
-          "dep": null
-        },
-        {
-          "station": "CDF",
-          "arr": 1414,
-          "dep": null
         }
       ]
     },
@@ -10123,8 +9333,23 @@
         },
         {
           "station": "BRI",
+          "arr": 380,
+          "dep": null
+        },
+        {
+          "station": "LWH",
           "arr": null,
-          "dep": 404
+          "dep": 419
+        },
+        {
+          "station": "SRD",
+          "arr": null,
+          "dep": 422
+        },
+        {
+          "station": "BPW",
+          "arr": 427,
+          "dep": null
         }
       ]
     },
@@ -10164,8 +9389,23 @@
         },
         {
           "station": "BRI",
+          "arr": 414,
+          "dep": null
+        },
+        {
+          "station": "LWH",
           "arr": null,
-          "dep": 404
+          "dep": 419
+        },
+        {
+          "station": "SRD",
+          "arr": null,
+          "dep": 422
+        },
+        {
+          "station": "BPW",
+          "arr": 427,
+          "dep": null
         }
       ]
     },
@@ -10232,26 +9472,6 @@
           "station": "SVB",
           "arr": 443,
           "dep": null
-        },
-        {
-          "station": "FIT",
-          "arr": null,
-          "dep": 1325
-        },
-        {
-          "station": "PWY",
-          "arr": null,
-          "dep": 1340
-        },
-        {
-          "station": "NWP",
-          "arr": 1356,
-          "dep": null
-        },
-        {
-          "station": "CDF",
-          "arr": 1376,
-          "dep": null
         }
       ]
     },
@@ -10312,26 +9532,6 @@
         {
           "station": "SVB",
           "arr": 443,
-          "dep": null
-        },
-        {
-          "station": "FIT",
-          "arr": null,
-          "dep": 1325
-        },
-        {
-          "station": "PWY",
-          "arr": null,
-          "dep": 1340
-        },
-        {
-          "station": "NWP",
-          "arr": 1356,
-          "dep": null
-        },
-        {
-          "station": "CDF",
-          "arr": 1376,
           "dep": null
         }
       ]
@@ -10628,37 +9828,62 @@
         },
         {
           "station": "BRI",
-          "arr": 472,
-          "dep": 453
+          "arr": 439,
+          "dep": null
         },
         {
           "station": "LWH",
           "arr": null,
-          "dep": 487
+          "dep": 513
         },
         {
           "station": "SRD",
           "arr": null,
-          "dep": 498
+          "dep": 516
         },
         {
-          "station": "FIT",
+          "station": "MTP",
           "arr": null,
-          "dep": 1325
+          "dep": 536
         },
         {
-          "station": "PWY",
+          "station": "RDA",
           "arr": null,
-          "dep": 1340
+          "dep": 538
         },
         {
-          "station": "NWP",
-          "arr": 1356,
-          "dep": null
+          "station": "CFN",
+          "arr": null,
+          "dep": 541
         },
         {
-          "station": "CDF",
-          "arr": 1376,
+          "station": "SML",
+          "arr": null,
+          "dep": 545
+        },
+        {
+          "station": "SHH",
+          "arr": null,
+          "dep": 549
+        },
+        {
+          "station": "PRI",
+          "arr": null,
+          "dep": 551
+        },
+        {
+          "station": "AVN",
+          "arr": null,
+          "dep": 554
+        },
+        {
+          "station": "SAR",
+          "arr": null,
+          "dep": 557
+        },
+        {
+          "station": "SVB",
+          "arr": 564,
           "dep": null
         }
       ]
@@ -10694,42 +9919,97 @@
         },
         {
           "station": "WSM",
+          "arr": 425,
+          "dep": null
+        },
+        {
+          "station": "WNM",
           "arr": null,
-          "dep": 444
+          "dep": 463
+        },
+        {
+          "station": "WOR",
+          "arr": null,
+          "dep": 467
+        },
+        {
+          "station": "YAT",
+          "arr": null,
+          "dep": 473
+        },
+        {
+          "station": "NLS",
+          "arr": null,
+          "dep": 479
+        },
+        {
+          "station": "PSN",
+          "arr": null,
+          "dep": 488
+        },
+        {
+          "station": "BMT",
+          "arr": null,
+          "dep": 492
         },
         {
           "station": "BRI",
-          "arr": 472,
-          "dep": 453
+          "arr": 497,
+          "dep": 509
         },
         {
           "station": "LWH",
           "arr": null,
-          "dep": 487
+          "dep": 513
         },
         {
           "station": "SRD",
           "arr": null,
-          "dep": 498
+          "dep": 516
         },
         {
-          "station": "FIT",
+          "station": "MTP",
           "arr": null,
-          "dep": 1325
+          "dep": 536
         },
         {
-          "station": "PWY",
+          "station": "RDA",
           "arr": null,
-          "dep": 1340
+          "dep": 538
         },
         {
-          "station": "NWP",
-          "arr": 1356,
-          "dep": null
+          "station": "CFN",
+          "arr": null,
+          "dep": 541
         },
         {
-          "station": "CDF",
-          "arr": 1376,
+          "station": "SML",
+          "arr": null,
+          "dep": 545
+        },
+        {
+          "station": "SHH",
+          "arr": null,
+          "dep": 549
+        },
+        {
+          "station": "PRI",
+          "arr": null,
+          "dep": 551
+        },
+        {
+          "station": "AVN",
+          "arr": null,
+          "dep": 554
+        },
+        {
+          "station": "SAR",
+          "arr": null,
+          "dep": 557
+        },
+        {
+          "station": "SVB",
+          "arr": 564,
           "dep": null
         }
       ]
@@ -10760,42 +10040,97 @@
         },
         {
           "station": "WSM",
+          "arr": 443,
+          "dep": null
+        },
+        {
+          "station": "WNM",
           "arr": null,
-          "dep": 444
+          "dep": 463
+        },
+        {
+          "station": "WOR",
+          "arr": null,
+          "dep": 467
+        },
+        {
+          "station": "YAT",
+          "arr": null,
+          "dep": 473
+        },
+        {
+          "station": "NLS",
+          "arr": null,
+          "dep": 479
+        },
+        {
+          "station": "PSN",
+          "arr": null,
+          "dep": 488
+        },
+        {
+          "station": "BMT",
+          "arr": null,
+          "dep": 492
         },
         {
           "station": "BRI",
-          "arr": 472,
-          "dep": 453
+          "arr": 497,
+          "dep": 509
         },
         {
           "station": "LWH",
           "arr": null,
-          "dep": 487
+          "dep": 513
         },
         {
           "station": "SRD",
           "arr": null,
-          "dep": 498
+          "dep": 516
         },
         {
-          "station": "FIT",
+          "station": "MTP",
           "arr": null,
-          "dep": 1325
+          "dep": 536
         },
         {
-          "station": "PWY",
+          "station": "RDA",
           "arr": null,
-          "dep": 1340
+          "dep": 538
         },
         {
-          "station": "NWP",
-          "arr": 1356,
-          "dep": null
+          "station": "CFN",
+          "arr": null,
+          "dep": 541
         },
         {
-          "station": "CDF",
-          "arr": 1376,
+          "station": "SML",
+          "arr": null,
+          "dep": 545
+        },
+        {
+          "station": "SHH",
+          "arr": null,
+          "dep": 549
+        },
+        {
+          "station": "PRI",
+          "arr": null,
+          "dep": 551
+        },
+        {
+          "station": "AVN",
+          "arr": null,
+          "dep": 554
+        },
+        {
+          "station": "SAR",
+          "arr": null,
+          "dep": 557
+        },
+        {
+          "station": "SVB",
+          "arr": 564,
           "dep": null
         }
       ]
@@ -10836,8 +10171,18 @@
         },
         {
           "station": "BRI",
+          "arr": 464,
+          "dep": null
+        },
+        {
+          "station": "LWH",
           "arr": null,
-          "dep": 466
+          "dep": 469
+        },
+        {
+          "station": "SRD",
+          "arr": null,
+          "dep": 490
         }
       ]
     },
@@ -10858,7 +10203,7 @@
         {
           "station": "BRI",
           "arr": 472,
-          "dep": 453
+          "dep": null
         },
         {
           "station": "LWH",
@@ -10869,26 +10214,6 @@
           "station": "SRD",
           "arr": null,
           "dep": 498
-        },
-        {
-          "station": "FIT",
-          "arr": null,
-          "dep": 1325
-        },
-        {
-          "station": "PWY",
-          "arr": null,
-          "dep": 1340
-        },
-        {
-          "station": "NWP",
-          "arr": 1356,
-          "dep": null
-        },
-        {
-          "station": "CDF",
-          "arr": 1376,
-          "dep": null
         }
       ]
     },
@@ -11211,8 +10536,18 @@
         },
         {
           "station": "BRI",
-          "arr": null,
-          "dep": 573
+          "arr": 584,
+          "dep": null
+        },
+        {
+          "station": "NWP",
+          "arr": 638,
+          "dep": null
+        },
+        {
+          "station": "CDF",
+          "arr": 652,
+          "dep": null
         }
       ]
     },
@@ -11262,8 +10597,18 @@
         },
         {
           "station": "BRI",
-          "arr": null,
-          "dep": 573
+          "arr": 584,
+          "dep": null
+        },
+        {
+          "station": "NWP",
+          "arr": 638,
+          "dep": null
+        },
+        {
+          "station": "CDF",
+          "arr": 652,
+          "dep": null
         }
       ]
     },
@@ -11318,8 +10663,18 @@
         },
         {
           "station": "BRI",
-          "arr": null,
-          "dep": 586
+          "arr": 584,
+          "dep": null
+        },
+        {
+          "station": "NWP",
+          "arr": 638,
+          "dep": null
+        },
+        {
+          "station": "CDF",
+          "arr": 652,
+          "dep": null
         }
       ]
     },
@@ -11364,8 +10719,18 @@
         },
         {
           "station": "BRI",
-          "arr": null,
-          "dep": 573
+          "arr": 584,
+          "dep": null
+        },
+        {
+          "station": "NWP",
+          "arr": 638,
+          "dep": null
+        },
+        {
+          "station": "CDF",
+          "arr": 652,
+          "dep": null
         }
       ]
     },
@@ -11381,7 +10746,7 @@
         {
           "station": "BRI",
           "arr": 566,
-          "dep": 540
+          "dep": null
         },
         {
           "station": "BPW",
@@ -11412,7 +10777,7 @@
         {
           "station": "BRI",
           "arr": 584,
-          "dep": 544
+          "dep": null
         },
         {
           "station": "NWP",
@@ -11569,8 +10934,8 @@
         },
         {
           "station": "WSM",
-          "arr": null,
-          "dep": 648
+          "arr": 646,
+          "dep": null
         },
         {
           "station": "WOR",
@@ -11589,8 +10954,68 @@
         },
         {
           "station": "BRI",
+          "arr": 677,
+          "dep": null
+        },
+        {
+          "station": "LWH",
           "arr": null,
-          "dep": 668
+          "dep": 829
+        },
+        {
+          "station": "SRD",
+          "arr": null,
+          "dep": 832
+        },
+        {
+          "station": "MTP",
+          "arr": null,
+          "dep": 861
+        },
+        {
+          "station": "RDA",
+          "arr": null,
+          "dep": 864
+        },
+        {
+          "station": "CFN",
+          "arr": null,
+          "dep": 867
+        },
+        {
+          "station": "SML",
+          "arr": null,
+          "dep": 871
+        },
+        {
+          "station": "SHH",
+          "arr": null,
+          "dep": 875
+        },
+        {
+          "station": "PRI",
+          "arr": null,
+          "dep": 877
+        },
+        {
+          "station": "FIT",
+          "arr": null,
+          "dep": 1036
+        },
+        {
+          "station": "BPW",
+          "arr": 1100,
+          "dep": null
+        },
+        {
+          "station": "NWP",
+          "arr": 1135,
+          "dep": null
+        },
+        {
+          "station": "CDF",
+          "arr": 1150,
+          "dep": null
         }
       ]
     },
@@ -11620,8 +11045,8 @@
         },
         {
           "station": "WSM",
-          "arr": null,
-          "dep": 648
+          "arr": 646,
+          "dep": null
         },
         {
           "station": "WOR",
@@ -11640,8 +11065,68 @@
         },
         {
           "station": "BRI",
+          "arr": 677,
+          "dep": null
+        },
+        {
+          "station": "LWH",
           "arr": null,
-          "dep": 668
+          "dep": 829
+        },
+        {
+          "station": "SRD",
+          "arr": null,
+          "dep": 832
+        },
+        {
+          "station": "MTP",
+          "arr": null,
+          "dep": 861
+        },
+        {
+          "station": "RDA",
+          "arr": null,
+          "dep": 864
+        },
+        {
+          "station": "CFN",
+          "arr": null,
+          "dep": 867
+        },
+        {
+          "station": "SML",
+          "arr": null,
+          "dep": 871
+        },
+        {
+          "station": "SHH",
+          "arr": null,
+          "dep": 875
+        },
+        {
+          "station": "PRI",
+          "arr": null,
+          "dep": 877
+        },
+        {
+          "station": "FIT",
+          "arr": null,
+          "dep": 1036
+        },
+        {
+          "station": "BPW",
+          "arr": 1100,
+          "dep": null
+        },
+        {
+          "station": "NWP",
+          "arr": 1135,
+          "dep": null
+        },
+        {
+          "station": "CDF",
+          "arr": 1150,
+          "dep": null
         }
       ]
     },
@@ -11681,8 +11166,68 @@
         },
         {
           "station": "BRI",
+          "arr": 677,
+          "dep": null
+        },
+        {
+          "station": "LWH",
           "arr": null,
-          "dep": 668
+          "dep": 829
+        },
+        {
+          "station": "SRD",
+          "arr": null,
+          "dep": 832
+        },
+        {
+          "station": "MTP",
+          "arr": null,
+          "dep": 861
+        },
+        {
+          "station": "RDA",
+          "arr": null,
+          "dep": 864
+        },
+        {
+          "station": "CFN",
+          "arr": null,
+          "dep": 867
+        },
+        {
+          "station": "SML",
+          "arr": null,
+          "dep": 871
+        },
+        {
+          "station": "SHH",
+          "arr": null,
+          "dep": 875
+        },
+        {
+          "station": "PRI",
+          "arr": null,
+          "dep": 877
+        },
+        {
+          "station": "FIT",
+          "arr": null,
+          "dep": 1036
+        },
+        {
+          "station": "BPW",
+          "arr": 1100,
+          "dep": null
+        },
+        {
+          "station": "NWP",
+          "arr": 1135,
+          "dep": null
+        },
+        {
+          "station": "CDF",
+          "arr": 1150,
+          "dep": null
         }
       ]
     },
@@ -11717,8 +11262,68 @@
         },
         {
           "station": "BRI",
+          "arr": 677,
+          "dep": null
+        },
+        {
+          "station": "LWH",
           "arr": null,
-          "dep": 668
+          "dep": 829
+        },
+        {
+          "station": "SRD",
+          "arr": null,
+          "dep": 832
+        },
+        {
+          "station": "MTP",
+          "arr": null,
+          "dep": 861
+        },
+        {
+          "station": "RDA",
+          "arr": null,
+          "dep": 864
+        },
+        {
+          "station": "CFN",
+          "arr": null,
+          "dep": 867
+        },
+        {
+          "station": "SML",
+          "arr": null,
+          "dep": 871
+        },
+        {
+          "station": "SHH",
+          "arr": null,
+          "dep": 875
+        },
+        {
+          "station": "PRI",
+          "arr": null,
+          "dep": 877
+        },
+        {
+          "station": "FIT",
+          "arr": null,
+          "dep": 1036
+        },
+        {
+          "station": "BPW",
+          "arr": 1100,
+          "dep": null
+        },
+        {
+          "station": "NWP",
+          "arr": 1135,
+          "dep": null
+        },
+        {
+          "station": "CDF",
+          "arr": 1150,
+          "dep": null
         }
       ]
     },
@@ -11734,31 +11339,66 @@
         {
           "station": "BRI",
           "arr": 677,
-          "dep": 628
+          "dep": null
         },
         {
           "station": "LWH",
           "arr": null,
-          "dep": 676
+          "dep": 829
         },
         {
           "station": "SRD",
           "arr": null,
-          "dep": 678
+          "dep": 832
+        },
+        {
+          "station": "MTP",
+          "arr": null,
+          "dep": 861
+        },
+        {
+          "station": "RDA",
+          "arr": null,
+          "dep": 864
+        },
+        {
+          "station": "CFN",
+          "arr": null,
+          "dep": 867
+        },
+        {
+          "station": "SML",
+          "arr": null,
+          "dep": 871
+        },
+        {
+          "station": "SHH",
+          "arr": null,
+          "dep": 875
+        },
+        {
+          "station": "PRI",
+          "arr": null,
+          "dep": 877
+        },
+        {
+          "station": "FIT",
+          "arr": null,
+          "dep": 1036
         },
         {
           "station": "BPW",
-          "arr": 679,
+          "arr": 1100,
           "dep": null
         },
         {
           "station": "NWP",
-          "arr": 723,
+          "arr": 1135,
           "dep": null
         },
         {
           "station": "CDF",
-          "arr": 737,
+          "arr": 1150,
           "dep": null
         }
       ]
@@ -11953,28 +11593,13 @@
         },
         {
           "station": "WSM",
-          "arr": null,
-          "dep": 708
+          "arr": 697,
+          "dep": null
         },
         {
-          "station": "WOR",
+          "station": "WNM",
           "arr": null,
-          "dep": 714
-        },
-        {
-          "station": "YAT",
-          "arr": null,
-          "dep": 720
-        },
-        {
-          "station": "NLS",
-          "arr": null,
-          "dep": 726
-        },
-        {
-          "station": "BRI",
-          "arr": null,
-          "dep": 731
+          "dep": 733
         }
       ]
     },
@@ -12006,46 +11631,6 @@
           "station": "WNM",
           "arr": null,
           "dep": 733
-        },
-        {
-          "station": "WOR",
-          "arr": null,
-          "dep": 1277
-        },
-        {
-          "station": "YAT",
-          "arr": null,
-          "dep": 1283
-        },
-        {
-          "station": "NLS",
-          "arr": null,
-          "dep": 1289
-        },
-        {
-          "station": "BRI",
-          "arr": 1315,
-          "dep": 1303
-        },
-        {
-          "station": "FIT",
-          "arr": null,
-          "dep": 1325
-        },
-        {
-          "station": "PWY",
-          "arr": null,
-          "dep": 1340
-        },
-        {
-          "station": "NWP",
-          "arr": 1356,
-          "dep": null
-        },
-        {
-          "station": "CDF",
-          "arr": 1376,
-          "dep": null
         }
       ]
     },
@@ -12090,8 +11675,23 @@
         },
         {
           "station": "BRI",
-          "arr": null,
-          "dep": 731
+          "arr": 735,
+          "dep": null
+        },
+        {
+          "station": "BPW",
+          "arr": 759,
+          "dep": null
+        },
+        {
+          "station": "NWP",
+          "arr": 803,
+          "dep": null
+        },
+        {
+          "station": "CDF",
+          "arr": 816,
+          "dep": null
         }
       ]
     },
@@ -12121,8 +11721,23 @@
         },
         {
           "station": "BRI",
-          "arr": null,
-          "dep": 731
+          "arr": 735,
+          "dep": null
+        },
+        {
+          "station": "BPW",
+          "arr": 759,
+          "dep": null
+        },
+        {
+          "station": "NWP",
+          "arr": 803,
+          "dep": null
+        },
+        {
+          "station": "CDF",
+          "arr": 816,
+          "dep": null
         }
       ]
     },
@@ -12142,8 +11757,23 @@
         },
         {
           "station": "BRI",
-          "arr": null,
-          "dep": 731
+          "arr": 735,
+          "dep": null
+        },
+        {
+          "station": "BPW",
+          "arr": 759,
+          "dep": null
+        },
+        {
+          "station": "NWP",
+          "arr": 803,
+          "dep": null
+        },
+        {
+          "station": "CDF",
+          "arr": 816,
+          "dep": null
         }
       ]
     },
@@ -12159,7 +11789,7 @@
         {
           "station": "BRI",
           "arr": 744,
-          "dep": 724
+          "dep": null
         },
         {
           "station": "BPW",
@@ -12180,7 +11810,7 @@
         {
           "station": "BRI",
           "arr": 764,
-          "dep": 728
+          "dep": null
         }
       ]
     },
@@ -12302,46 +11932,6 @@
           "station": "WNM",
           "arr": null,
           "dep": 973
-        },
-        {
-          "station": "WOR",
-          "arr": null,
-          "dep": 1277
-        },
-        {
-          "station": "YAT",
-          "arr": null,
-          "dep": 1283
-        },
-        {
-          "station": "NLS",
-          "arr": null,
-          "dep": 1289
-        },
-        {
-          "station": "BRI",
-          "arr": 1315,
-          "dep": 1303
-        },
-        {
-          "station": "FIT",
-          "arr": null,
-          "dep": 1325
-        },
-        {
-          "station": "PWY",
-          "arr": null,
-          "dep": 1340
-        },
-        {
-          "station": "NWP",
-          "arr": 1356,
-          "dep": null
-        },
-        {
-          "station": "CDF",
-          "arr": 1376,
-          "dep": null
         }
       ]
     },
@@ -12381,8 +11971,68 @@
         },
         {
           "station": "BRI",
+          "arr": 824,
+          "dep": null
+        },
+        {
+          "station": "LWH",
           "arr": null,
-          "dep": 826
+          "dep": 829
+        },
+        {
+          "station": "SRD",
+          "arr": null,
+          "dep": 832
+        },
+        {
+          "station": "MTP",
+          "arr": null,
+          "dep": 861
+        },
+        {
+          "station": "RDA",
+          "arr": null,
+          "dep": 864
+        },
+        {
+          "station": "CFN",
+          "arr": null,
+          "dep": 867
+        },
+        {
+          "station": "SML",
+          "arr": null,
+          "dep": 871
+        },
+        {
+          "station": "SHH",
+          "arr": null,
+          "dep": 875
+        },
+        {
+          "station": "PRI",
+          "arr": null,
+          "dep": 877
+        },
+        {
+          "station": "FIT",
+          "arr": null,
+          "dep": 1036
+        },
+        {
+          "station": "BPW",
+          "arr": 1100,
+          "dep": null
+        },
+        {
+          "station": "NWP",
+          "arr": 1135,
+          "dep": null
+        },
+        {
+          "station": "CDF",
+          "arr": 1150,
+          "dep": null
         }
       ]
     },
@@ -12417,8 +12067,68 @@
         },
         {
           "station": "BRI",
+          "arr": 824,
+          "dep": null
+        },
+        {
+          "station": "LWH",
           "arr": null,
-          "dep": 826
+          "dep": 829
+        },
+        {
+          "station": "SRD",
+          "arr": null,
+          "dep": 832
+        },
+        {
+          "station": "MTP",
+          "arr": null,
+          "dep": 861
+        },
+        {
+          "station": "RDA",
+          "arr": null,
+          "dep": 864
+        },
+        {
+          "station": "CFN",
+          "arr": null,
+          "dep": 867
+        },
+        {
+          "station": "SML",
+          "arr": null,
+          "dep": 871
+        },
+        {
+          "station": "SHH",
+          "arr": null,
+          "dep": 875
+        },
+        {
+          "station": "PRI",
+          "arr": null,
+          "dep": 877
+        },
+        {
+          "station": "FIT",
+          "arr": null,
+          "dep": 1036
+        },
+        {
+          "station": "BPW",
+          "arr": 1100,
+          "dep": null
+        },
+        {
+          "station": "NWP",
+          "arr": 1135,
+          "dep": null
+        },
+        {
+          "station": "CDF",
+          "arr": 1150,
+          "dep": null
         }
       ]
     },
@@ -12434,7 +12144,7 @@
         {
           "station": "BRI",
           "arr": 834,
-          "dep": 789
+          "dep": null
         },
         {
           "station": "LWH",
@@ -12445,26 +12155,6 @@
           "station": "SRD",
           "arr": null,
           "dep": 851
-        },
-        {
-          "station": "FIT",
-          "arr": null,
-          "dep": 1325
-        },
-        {
-          "station": "PWY",
-          "arr": null,
-          "dep": 1340
-        },
-        {
-          "station": "NWP",
-          "arr": 1356,
-          "dep": null
-        },
-        {
-          "station": "CDF",
-          "arr": 1376,
-          "dep": null
         }
       ]
     },
@@ -12495,21 +12185,21 @@
         {
           "station": "FIT",
           "arr": null,
-          "dep": 1325
+          "dep": 1036
         },
         {
-          "station": "PWY",
-          "arr": null,
-          "dep": 1340
+          "station": "BPW",
+          "arr": 1100,
+          "dep": null
         },
         {
           "station": "NWP",
-          "arr": 1356,
+          "arr": 1135,
           "dep": null
         },
         {
           "station": "CDF",
-          "arr": 1376,
+          "arr": 1150,
           "dep": null
         }
       ]
@@ -12711,46 +12401,6 @@
           "station": "WNM",
           "arr": null,
           "dep": 973
-        },
-        {
-          "station": "WOR",
-          "arr": null,
-          "dep": 1277
-        },
-        {
-          "station": "YAT",
-          "arr": null,
-          "dep": 1283
-        },
-        {
-          "station": "NLS",
-          "arr": null,
-          "dep": 1289
-        },
-        {
-          "station": "BRI",
-          "arr": 1315,
-          "dep": 1303
-        },
-        {
-          "station": "FIT",
-          "arr": null,
-          "dep": 1325
-        },
-        {
-          "station": "PWY",
-          "arr": null,
-          "dep": 1340
-        },
-        {
-          "station": "NWP",
-          "arr": 1356,
-          "dep": null
-        },
-        {
-          "station": "CDF",
-          "arr": 1376,
-          "dep": null
         }
       ]
     },
@@ -12792,46 +12442,6 @@
           "station": "WNM",
           "arr": null,
           "dep": 973
-        },
-        {
-          "station": "WOR",
-          "arr": null,
-          "dep": 1277
-        },
-        {
-          "station": "YAT",
-          "arr": null,
-          "dep": 1283
-        },
-        {
-          "station": "NLS",
-          "arr": null,
-          "dep": 1289
-        },
-        {
-          "station": "BRI",
-          "arr": 1315,
-          "dep": 1303
-        },
-        {
-          "station": "FIT",
-          "arr": null,
-          "dep": 1325
-        },
-        {
-          "station": "PWY",
-          "arr": null,
-          "dep": 1340
-        },
-        {
-          "station": "NWP",
-          "arr": 1356,
-          "dep": null
-        },
-        {
-          "station": "CDF",
-          "arr": 1376,
-          "dep": null
         }
       ]
     },
@@ -12871,8 +12481,18 @@
         },
         {
           "station": "BRI",
-          "arr": null,
-          "dep": 946
+          "arr": 957,
+          "dep": null
+        },
+        {
+          "station": "NWP",
+          "arr": 995,
+          "dep": null
+        },
+        {
+          "station": "CDF",
+          "arr": 1010,
+          "dep": null
         }
       ]
     },
@@ -12912,8 +12532,18 @@
         },
         {
           "station": "BRI",
-          "arr": null,
-          "dep": 946
+          "arr": 957,
+          "dep": null
+        },
+        {
+          "station": "NWP",
+          "arr": 995,
+          "dep": null
+        },
+        {
+          "station": "CDF",
+          "arr": 1010,
+          "dep": null
         }
       ]
     },
@@ -12948,8 +12578,18 @@
         },
         {
           "station": "BRI",
-          "arr": null,
-          "dep": 946
+          "arr": 957,
+          "dep": null
+        },
+        {
+          "station": "NWP",
+          "arr": 995,
+          "dep": null
+        },
+        {
+          "station": "CDF",
+          "arr": 1010,
+          "dep": null
         }
       ]
     },
@@ -12965,7 +12605,7 @@
         {
           "station": "BRI",
           "arr": 944,
-          "dep": 900
+          "dep": null
         },
         {
           "station": "BPW",
@@ -12996,7 +12636,7 @@
         {
           "station": "BRI",
           "arr": 957,
-          "dep": 904
+          "dep": null
         },
         {
           "station": "NWP",
@@ -13160,46 +12800,6 @@
           "station": "WNM",
           "arr": null,
           "dep": 973
-        },
-        {
-          "station": "WOR",
-          "arr": null,
-          "dep": 1277
-        },
-        {
-          "station": "YAT",
-          "arr": null,
-          "dep": 1283
-        },
-        {
-          "station": "NLS",
-          "arr": null,
-          "dep": 1289
-        },
-        {
-          "station": "BRI",
-          "arr": 1315,
-          "dep": 1303
-        },
-        {
-          "station": "FIT",
-          "arr": null,
-          "dep": 1325
-        },
-        {
-          "station": "PWY",
-          "arr": null,
-          "dep": 1340
-        },
-        {
-          "station": "NWP",
-          "arr": 1356,
-          "dep": null
-        },
-        {
-          "station": "CDF",
-          "arr": 1376,
-          "dep": null
         }
       ]
     },
@@ -13231,16 +12831,6 @@
           "station": "HIG",
           "arr": null,
           "dep": 995
-        },
-        {
-          "station": "WSM",
-          "arr": null,
-          "dep": 1188
-        },
-        {
-          "station": "BRI",
-          "arr": null,
-          "dep": 1197
         }
       ]
     },
@@ -13270,8 +12860,8 @@
         },
         {
           "station": "BRI",
-          "arr": null,
-          "dep": 1197
+          "arr": 1201,
+          "dep": null
         }
       ]
     },
@@ -13296,8 +12886,38 @@
         },
         {
           "station": "BRI",
+          "arr": 1009,
+          "dep": null
+        },
+        {
+          "station": "LWH",
           "arr": null,
-          "dep": 1006
+          "dep": 1027
+        },
+        {
+          "station": "SRD",
+          "arr": null,
+          "dep": 1031
+        },
+        {
+          "station": "FIT",
+          "arr": null,
+          "dep": 1036
+        },
+        {
+          "station": "BPW",
+          "arr": 1100,
+          "dep": null
+        },
+        {
+          "station": "NWP",
+          "arr": 1135,
+          "dep": null
+        },
+        {
+          "station": "CDF",
+          "arr": 1150,
+          "dep": null
         }
       ]
     },
@@ -13318,26 +12938,31 @@
         {
           "station": "BRI",
           "arr": 1040,
-          "dep": 988
+          "dep": null
         },
         {
           "station": "LWH",
           "arr": null,
-          "dep": 1035
+          "dep": 1087
         },
         {
           "station": "SRD",
           "arr": null,
-          "dep": 1038
-        },
-        {
-          "station": "FIT",
-          "arr": null,
-          "dep": 1052
+          "dep": 1090
         },
         {
           "station": "BPW",
-          "arr": 1061,
+          "arr": 1100,
+          "dep": null
+        },
+        {
+          "station": "NWP",
+          "arr": 1135,
+          "dep": null
+        },
+        {
+          "station": "CDF",
+          "arr": 1150,
           "dep": null
         }
       ]
@@ -13354,21 +12979,11 @@
         {
           "station": "BRI",
           "arr": 1044,
-          "dep": 993
+          "dep": null
         },
         {
           "station": "BPW",
-          "arr": 1039,
-          "dep": null
-        },
-        {
-          "station": "NWP",
-          "arr": 1076,
-          "dep": null
-        },
-        {
-          "station": "CDF",
-          "arr": 1092,
+          "arr": 1061,
           "dep": null
         }
       ]
@@ -13543,8 +13158,8 @@
         },
         {
           "station": "BRI",
-          "arr": null,
-          "dep": 1197
+          "arr": 1216,
+          "dep": null
         }
       ]
     },
@@ -13569,8 +13184,8 @@
         },
         {
           "station": "BRI",
-          "arr": null,
-          "dep": 1197
+          "arr": 1216,
+          "dep": null
         }
       ]
     },
@@ -13595,8 +13210,8 @@
         },
         {
           "station": "BRI",
-          "arr": null,
-          "dep": 1197
+          "arr": 1216,
+          "dep": null
         }
       ]
     },
@@ -13621,8 +13236,8 @@
         },
         {
           "station": "BRI",
-          "arr": null,
-          "dep": 1197
+          "arr": 1201,
+          "dep": null
         }
       ]
     },
@@ -13642,8 +13257,8 @@
         },
         {
           "station": "BRI",
-          "arr": null,
-          "dep": 1197
+          "arr": 1216,
+          "dep": null
         }
       ]
     },
@@ -13659,26 +13274,6 @@
         {
           "station": "BRI",
           "arr": 1225,
-          "dep": 1179
-        },
-        {
-          "station": "LWH",
-          "arr": null,
-          "dep": 1215
-        },
-        {
-          "station": "SRD",
-          "arr": null,
-          "dep": 1218
-        },
-        {
-          "station": "NWP",
-          "arr": 1255,
-          "dep": null
-        },
-        {
-          "station": "CDF",
-          "arr": 1269,
           "dep": null
         }
       ]
@@ -13826,13 +13421,38 @@
         },
         {
           "station": "WSM",
-          "arr": 1320,
-          "dep": 1322
+          "arr": 1245,
+          "dep": null
         },
         {
           "station": "WNM",
           "arr": null,
-          "dep": 1334
+          "dep": 1273
+        },
+        {
+          "station": "WOR",
+          "arr": null,
+          "dep": 1436
+        },
+        {
+          "station": "YAT",
+          "arr": null,
+          "dep": 2
+        },
+        {
+          "station": "NLS",
+          "arr": null,
+          "dep": 8
+        },
+        {
+          "station": "PSN",
+          "arr": null,
+          "dep": 16
+        },
+        {
+          "station": "BMT",
+          "arr": null,
+          "dep": 19
         }
       ]
     },
@@ -13863,7 +13483,7 @@
         {
           "station": "WSM",
           "arr": 1245,
-          "dep": 1229
+          "dep": null
         },
         {
           "station": "WNM",
@@ -13873,42 +13493,27 @@
         {
           "station": "WOR",
           "arr": null,
-          "dep": 1277
+          "dep": 1436
         },
         {
           "station": "YAT",
           "arr": null,
-          "dep": 1283
+          "dep": 2
         },
         {
           "station": "NLS",
           "arr": null,
-          "dep": 1289
+          "dep": 8
         },
         {
-          "station": "BRI",
-          "arr": 1315,
-          "dep": 1303
-        },
-        {
-          "station": "FIT",
+          "station": "PSN",
           "arr": null,
-          "dep": 1325
+          "dep": 16
         },
         {
-          "station": "PWY",
+          "station": "BMT",
           "arr": null,
-          "dep": 1340
-        },
-        {
-          "station": "NWP",
-          "arr": 1356,
-          "dep": null
-        },
-        {
-          "station": "CDF",
-          "arr": 1376,
-          "dep": null
+          "dep": 19
         }
       ]
     },
@@ -13940,6 +13545,31 @@
           "station": "WNM",
           "arr": null,
           "dep": 1334
+        },
+        {
+          "station": "WOR",
+          "arr": null,
+          "dep": 1436
+        },
+        {
+          "station": "YAT",
+          "arr": null,
+          "dep": 2
+        },
+        {
+          "station": "NLS",
+          "arr": null,
+          "dep": 8
+        },
+        {
+          "station": "PSN",
+          "arr": null,
+          "dep": 16
+        },
+        {
+          "station": "BMT",
+          "arr": null,
+          "dep": 19
         }
       ]
     },
@@ -13971,6 +13601,31 @@
           "station": "WNM",
           "arr": null,
           "dep": 1334
+        },
+        {
+          "station": "WOR",
+          "arr": null,
+          "dep": 1436
+        },
+        {
+          "station": "YAT",
+          "arr": null,
+          "dep": 2
+        },
+        {
+          "station": "NLS",
+          "arr": null,
+          "dep": 8
+        },
+        {
+          "station": "PSN",
+          "arr": null,
+          "dep": 16
+        },
+        {
+          "station": "BMT",
+          "arr": null,
+          "dep": 19
         }
       ]
     },
@@ -14005,27 +13660,27 @@
         },
         {
           "station": "BRI",
-          "arr": 1315,
-          "dep": 1303
+          "arr": 1304,
+          "dep": null
         },
         {
           "station": "FIT",
           "arr": null,
-          "dep": 1325
+          "dep": 1311
         },
         {
           "station": "PWY",
           "arr": null,
-          "dep": 1340
+          "dep": 1312
         },
         {
           "station": "NWP",
-          "arr": 1356,
+          "arr": 1348,
           "dep": null
         },
         {
           "station": "CDF",
-          "arr": 1376,
+          "arr": 1367,
           "dep": null
         }
       ]
@@ -14042,7 +13697,7 @@
         {
           "station": "BRI",
           "arr": 1310,
-          "dep": 1288
+          "dep": null
         },
         {
           "station": "FIT",
@@ -14078,7 +13733,7 @@
         {
           "station": "BRI",
           "arr": 1315,
-          "dep": 1303
+          "dep": null
         },
         {
           "station": "FIT",
@@ -14209,6 +13864,31 @@
           "station": "WNM",
           "arr": null,
           "dep": 1334
+        },
+        {
+          "station": "WOR",
+          "arr": null,
+          "dep": 1436
+        },
+        {
+          "station": "YAT",
+          "arr": null,
+          "dep": 2
+        },
+        {
+          "station": "NLS",
+          "arr": null,
+          "dep": 8
+        },
+        {
+          "station": "PSN",
+          "arr": null,
+          "dep": 16
+        },
+        {
+          "station": "BMT",
+          "arr": null,
+          "dep": 19
         }
       ]
     },
@@ -14243,8 +13923,38 @@
         },
         {
           "station": "WSM",
+          "arr": 1392,
+          "dep": null
+        },
+        {
+          "station": "WNM",
           "arr": null,
-          "dep": 1421
+          "dep": 1396
+        },
+        {
+          "station": "WOR",
+          "arr": null,
+          "dep": 1436
+        },
+        {
+          "station": "YAT",
+          "arr": null,
+          "dep": 2
+        },
+        {
+          "station": "NLS",
+          "arr": null,
+          "dep": 8
+        },
+        {
+          "station": "PSN",
+          "arr": null,
+          "dep": 16
+        },
+        {
+          "station": "BMT",
+          "arr": null,
+          "dep": 19
         }
       ]
     },
@@ -14279,8 +13989,33 @@
         },
         {
           "station": "WSM",
+          "arr": 1417,
+          "dep": null
+        },
+        {
+          "station": "WOR",
           "arr": null,
-          "dep": 1421
+          "dep": 1436
+        },
+        {
+          "station": "YAT",
+          "arr": null,
+          "dep": 2
+        },
+        {
+          "station": "NLS",
+          "arr": null,
+          "dep": 8
+        },
+        {
+          "station": "PSN",
+          "arr": null,
+          "dep": 16
+        },
+        {
+          "station": "BMT",
+          "arr": null,
+          "dep": 19
         }
       ]
     },
@@ -14349,6 +14084,11 @@
           "station": "WSM",
           "arr": null,
           "dep": 1421
+        },
+        {
+          "station": "BRI",
+          "arr": 1428,
+          "dep": null
         }
       ]
     },
@@ -14420,13 +14160,53 @@
         },
         {
           "station": "WSM",
+          "arr": 487,
+          "dep": null
+        },
+        {
+          "station": "WNM",
           "arr": null,
-          "dep": 507
+          "dep": 493
+        },
+        {
+          "station": "WOR",
+          "arr": null,
+          "dep": 513
+        },
+        {
+          "station": "YAT",
+          "arr": null,
+          "dep": 519
+        },
+        {
+          "station": "NLS",
+          "arr": null,
+          "dep": 525
         },
         {
           "station": "BRI",
+          "arr": 535,
+          "dep": null
+        },
+        {
+          "station": "LWH",
           "arr": null,
-          "dep": 513
+          "dep": 547
+        },
+        {
+          "station": "SRD",
+          "arr": null,
+          "dep": 550
+        },
+        {
+          "station": "FIT",
+          "arr": null,
+          "dep": 645
+        },
+        {
+          "station": "BPW",
+          "arr": 649,
+          "dep": null
         }
       ]
     },
@@ -14451,13 +14231,53 @@
         },
         {
           "station": "WSM",
+          "arr": 487,
+          "dep": null
+        },
+        {
+          "station": "WNM",
           "arr": null,
-          "dep": 507
+          "dep": 493
+        },
+        {
+          "station": "WOR",
+          "arr": null,
+          "dep": 513
+        },
+        {
+          "station": "YAT",
+          "arr": null,
+          "dep": 519
+        },
+        {
+          "station": "NLS",
+          "arr": null,
+          "dep": 525
         },
         {
           "station": "BRI",
+          "arr": 535,
+          "dep": null
+        },
+        {
+          "station": "LWH",
           "arr": null,
-          "dep": 513
+          "dep": 547
+        },
+        {
+          "station": "SRD",
+          "arr": null,
+          "dep": 550
+        },
+        {
+          "station": "FIT",
+          "arr": null,
+          "dep": 645
+        },
+        {
+          "station": "BPW",
+          "arr": 649,
+          "dep": null
         }
       ]
     },
@@ -14477,13 +14297,53 @@
         },
         {
           "station": "WSM",
+          "arr": 487,
+          "dep": null
+        },
+        {
+          "station": "WNM",
           "arr": null,
-          "dep": 507
+          "dep": 493
+        },
+        {
+          "station": "WOR",
+          "arr": null,
+          "dep": 513
+        },
+        {
+          "station": "YAT",
+          "arr": null,
+          "dep": 519
+        },
+        {
+          "station": "NLS",
+          "arr": null,
+          "dep": 525
         },
         {
           "station": "BRI",
+          "arr": 535,
+          "dep": null
+        },
+        {
+          "station": "LWH",
           "arr": null,
-          "dep": 513
+          "dep": 547
+        },
+        {
+          "station": "SRD",
+          "arr": null,
+          "dep": 550
+        },
+        {
+          "station": "FIT",
+          "arr": null,
+          "dep": 645
+        },
+        {
+          "station": "BPW",
+          "arr": 649,
+          "dep": null
         }
       ]
     },
@@ -14499,66 +14359,26 @@
         {
           "station": "BRI",
           "arr": 444,
-          "dep": 375
+          "dep": null
         },
         {
           "station": "LWH",
           "arr": null,
-          "dep": 408
+          "dep": 547
         },
         {
           "station": "SRD",
           "arr": null,
-          "dep": 411
+          "dep": 550
         },
         {
-          "station": "MTP",
+          "station": "FIT",
           "arr": null,
-          "dep": 414
-        },
-        {
-          "station": "RDA",
-          "arr": null,
-          "dep": 416
-        },
-        {
-          "station": "CFN",
-          "arr": null,
-          "dep": 420
-        },
-        {
-          "station": "SML",
-          "arr": null,
-          "dep": 424
-        },
-        {
-          "station": "SHH",
-          "arr": null,
-          "dep": 427
-        },
-        {
-          "station": "PRI",
-          "arr": null,
-          "dep": 429
-        },
-        {
-          "station": "AVN",
-          "arr": null,
-          "dep": 433
-        },
-        {
-          "station": "SAR",
-          "arr": null,
-          "dep": 436
-        },
-        {
-          "station": "SVB",
-          "arr": 443,
-          "dep": null
+          "dep": 645
         },
         {
           "station": "BPW",
-          "arr": 473,
+          "arr": 649,
           "dep": null
         }
       ]
@@ -14871,13 +14691,53 @@
         },
         {
           "station": "WSM",
+          "arr": 487,
+          "dep": null
+        },
+        {
+          "station": "WNM",
           "arr": null,
-          "dep": 507
+          "dep": 493
+        },
+        {
+          "station": "WOR",
+          "arr": null,
+          "dep": 513
+        },
+        {
+          "station": "YAT",
+          "arr": null,
+          "dep": 519
+        },
+        {
+          "station": "NLS",
+          "arr": null,
+          "dep": 525
         },
         {
           "station": "BRI",
+          "arr": 535,
+          "dep": null
+        },
+        {
+          "station": "LWH",
           "arr": null,
-          "dep": 513
+          "dep": 547
+        },
+        {
+          "station": "SRD",
+          "arr": null,
+          "dep": 550
+        },
+        {
+          "station": "FIT",
+          "arr": null,
+          "dep": 645
+        },
+        {
+          "station": "BPW",
+          "arr": 649,
+          "dep": null
         }
       ]
     },
@@ -14912,13 +14772,53 @@
         },
         {
           "station": "WSM",
+          "arr": 487,
+          "dep": null
+        },
+        {
+          "station": "WNM",
           "arr": null,
-          "dep": 507
+          "dep": 493
+        },
+        {
+          "station": "WOR",
+          "arr": null,
+          "dep": 513
+        },
+        {
+          "station": "YAT",
+          "arr": null,
+          "dep": 519
+        },
+        {
+          "station": "NLS",
+          "arr": null,
+          "dep": 525
         },
         {
           "station": "BRI",
+          "arr": 535,
+          "dep": null
+        },
+        {
+          "station": "LWH",
           "arr": null,
-          "dep": 513
+          "dep": 547
+        },
+        {
+          "station": "SRD",
+          "arr": null,
+          "dep": 550
+        },
+        {
+          "station": "FIT",
+          "arr": null,
+          "dep": 645
+        },
+        {
+          "station": "BPW",
+          "arr": 649,
+          "dep": null
         }
       ]
     },
@@ -14948,13 +14848,48 @@
         },
         {
           "station": "WSM",
+          "arr": 505,
+          "dep": null
+        },
+        {
+          "station": "WOR",
           "arr": null,
-          "dep": 507
+          "dep": 513
+        },
+        {
+          "station": "YAT",
+          "arr": null,
+          "dep": 519
+        },
+        {
+          "station": "NLS",
+          "arr": null,
+          "dep": 525
         },
         {
           "station": "BRI",
+          "arr": 535,
+          "dep": null
+        },
+        {
+          "station": "LWH",
           "arr": null,
-          "dep": 513
+          "dep": 547
+        },
+        {
+          "station": "SRD",
+          "arr": null,
+          "dep": 550
+        },
+        {
+          "station": "FIT",
+          "arr": null,
+          "dep": 645
+        },
+        {
+          "station": "BPW",
+          "arr": 649,
+          "dep": null
         }
       ]
     },
@@ -14994,8 +14929,28 @@
         },
         {
           "station": "BRI",
+          "arr": 535,
+          "dep": null
+        },
+        {
+          "station": "LWH",
           "arr": null,
-          "dep": 526
+          "dep": 547
+        },
+        {
+          "station": "SRD",
+          "arr": null,
+          "dep": 550
+        },
+        {
+          "station": "FIT",
+          "arr": null,
+          "dep": 645
+        },
+        {
+          "station": "BPW",
+          "arr": 649,
+          "dep": null
         }
       ]
     },
@@ -15015,8 +14970,28 @@
         },
         {
           "station": "BRI",
+          "arr": 535,
+          "dep": null
+        },
+        {
+          "station": "LWH",
           "arr": null,
-          "dep": 513
+          "dep": 547
+        },
+        {
+          "station": "SRD",
+          "arr": null,
+          "dep": 550
+        },
+        {
+          "station": "FIT",
+          "arr": null,
+          "dep": 645
+        },
+        {
+          "station": "BPW",
+          "arr": 649,
+          "dep": null
         }
       ]
     },
@@ -15179,28 +15154,43 @@
         },
         {
           "station": "WSM",
+          "arr": 583,
+          "dep": null
+        },
+        {
+          "station": "WNM",
           "arr": null,
-          "dep": 598
+          "dep": 613
         },
         {
           "station": "WOR",
           "arr": null,
-          "dep": 604
+          "dep": 617
         },
         {
           "station": "YAT",
           "arr": null,
-          "dep": 610
+          "dep": 623
         },
         {
           "station": "NLS",
           "arr": null,
-          "dep": 616
+          "dep": 629
         },
         {
           "station": "BRI",
+          "arr": 630,
+          "dep": null
+        },
+        {
+          "station": "FIT",
           "arr": null,
-          "dep": 633
+          "dep": 645
+        },
+        {
+          "station": "BPW",
+          "arr": 649,
+          "dep": null
         }
       ]
     },
@@ -15235,28 +15225,43 @@
         },
         {
           "station": "WSM",
+          "arr": 583,
+          "dep": null
+        },
+        {
+          "station": "WNM",
           "arr": null,
-          "dep": 598
+          "dep": 613
         },
         {
           "station": "WOR",
           "arr": null,
-          "dep": 604
+          "dep": 617
         },
         {
           "station": "YAT",
           "arr": null,
-          "dep": 610
+          "dep": 623
         },
         {
           "station": "NLS",
           "arr": null,
-          "dep": 616
+          "dep": 629
         },
         {
           "station": "BRI",
+          "arr": 630,
+          "dep": null
+        },
+        {
+          "station": "FIT",
           "arr": null,
-          "dep": 633
+          "dep": 645
+        },
+        {
+          "station": "BPW",
+          "arr": 649,
+          "dep": null
         }
       ]
     },
@@ -15301,8 +15306,18 @@
         },
         {
           "station": "BRI",
+          "arr": 630,
+          "dep": null
+        },
+        {
+          "station": "FIT",
           "arr": null,
-          "dep": 633
+          "dep": 645
+        },
+        {
+          "station": "BPW",
+          "arr": 649,
+          "dep": null
         }
       ]
     },
@@ -15337,8 +15352,18 @@
         },
         {
           "station": "BRI",
+          "arr": 630,
+          "dep": null
+        },
+        {
+          "station": "FIT",
           "arr": null,
-          "dep": 633
+          "dep": 645
+        },
+        {
+          "station": "BPW",
+          "arr": 649,
+          "dep": null
         }
       ]
     },
@@ -15373,8 +15398,18 @@
         },
         {
           "station": "BRI",
+          "arr": 630,
+          "dep": null
+        },
+        {
+          "station": "FIT",
           "arr": null,
-          "dep": 633
+          "dep": 645
+        },
+        {
+          "station": "BPW",
+          "arr": 649,
+          "dep": null
         }
       ]
     },
@@ -15390,7 +15425,7 @@
         {
           "station": "BRI",
           "arr": 630,
-          "dep": 586
+          "dep": null
         },
         {
           "station": "FIT",
@@ -15416,7 +15451,7 @@
         {
           "station": "BRI",
           "arr": 644,
-          "dep": 598
+          "dep": null
         },
         {
           "station": "BPW",
@@ -15584,28 +15619,48 @@
         },
         {
           "station": "WSM",
-          "arr": 714,
-          "dep": 705
+          "arr": 695,
+          "dep": null
         },
         {
           "station": "WOR",
           "arr": null,
-          "dep": 712
+          "dep": 724
         },
         {
           "station": "YAT",
           "arr": null,
-          "dep": 718
+          "dep": 730
         },
         {
           "station": "NLS",
           "arr": null,
-          "dep": 725
+          "dep": 736
         },
         {
           "station": "BRI",
+          "arr": 736,
+          "dep": null
+        },
+        {
+          "station": "LWH",
           "arr": null,
-          "dep": 743
+          "dep": 829
+        },
+        {
+          "station": "SRD",
+          "arr": null,
+          "dep": 832
+        },
+        {
+          "station": "FIT",
+          "arr": null,
+          "dep": 848
+        },
+        {
+          "station": "BPW",
+          "arr": 848,
+          "dep": null
         }
       ]
     },
@@ -15640,28 +15695,48 @@
         },
         {
           "station": "WSM",
-          "arr": 714,
-          "dep": 705
+          "arr": 695,
+          "dep": null
         },
         {
           "station": "WOR",
           "arr": null,
-          "dep": 712
+          "dep": 724
         },
         {
           "station": "YAT",
           "arr": null,
-          "dep": 718
+          "dep": 730
         },
         {
           "station": "NLS",
           "arr": null,
-          "dep": 725
+          "dep": 736
         },
         {
           "station": "BRI",
+          "arr": 736,
+          "dep": null
+        },
+        {
+          "station": "LWH",
           "arr": null,
-          "dep": 743
+          "dep": 829
+        },
+        {
+          "station": "SRD",
+          "arr": null,
+          "dep": 832
+        },
+        {
+          "station": "FIT",
+          "arr": null,
+          "dep": 848
+        },
+        {
+          "station": "BPW",
+          "arr": 848,
+          "dep": null
         }
       ]
     },
@@ -15697,27 +15772,47 @@
         {
           "station": "WSM",
           "arr": 714,
-          "dep": 705
+          "dep": null
         },
         {
           "station": "WOR",
           "arr": null,
-          "dep": 712
+          "dep": 724
         },
         {
           "station": "YAT",
           "arr": null,
-          "dep": 718
+          "dep": 730
         },
         {
           "station": "NLS",
           "arr": null,
-          "dep": 725
+          "dep": 736
         },
         {
           "station": "BRI",
+          "arr": 736,
+          "dep": null
+        },
+        {
+          "station": "LWH",
           "arr": null,
-          "dep": 743
+          "dep": 829
+        },
+        {
+          "station": "SRD",
+          "arr": null,
+          "dep": 832
+        },
+        {
+          "station": "FIT",
+          "arr": null,
+          "dep": 848
+        },
+        {
+          "station": "BPW",
+          "arr": 848,
+          "dep": null
         }
       ]
     },
@@ -15762,8 +15857,28 @@
         },
         {
           "station": "BRI",
+          "arr": 736,
+          "dep": null
+        },
+        {
+          "station": "LWH",
           "arr": null,
-          "dep": 743
+          "dep": 829
+        },
+        {
+          "station": "SRD",
+          "arr": null,
+          "dep": 832
+        },
+        {
+          "station": "FIT",
+          "arr": null,
+          "dep": 848
+        },
+        {
+          "station": "BPW",
+          "arr": 848,
+          "dep": null
         }
       ]
     },
@@ -15783,8 +15898,28 @@
         },
         {
           "station": "BRI",
+          "arr": 736,
+          "dep": null
+        },
+        {
+          "station": "LWH",
           "arr": null,
-          "dep": 720
+          "dep": 829
+        },
+        {
+          "station": "SRD",
+          "arr": null,
+          "dep": 832
+        },
+        {
+          "station": "FIT",
+          "arr": null,
+          "dep": 848
+        },
+        {
+          "station": "BPW",
+          "arr": 848,
+          "dep": null
         }
       ]
     },
@@ -15800,7 +15935,7 @@
         {
           "station": "BRI",
           "arr": 745,
-          "dep": 685
+          "dep": null
         },
         {
           "station": "FIT",
@@ -15989,28 +16124,8 @@
         },
         {
           "station": "WSM",
-          "arr": null,
-          "dep": 782
-        },
-        {
-          "station": "WOR",
-          "arr": null,
-          "dep": 797
-        },
-        {
-          "station": "YAT",
-          "arr": null,
-          "dep": 803
-        },
-        {
-          "station": "NLS",
-          "arr": null,
-          "dep": 809
-        },
-        {
-          "station": "BRI",
-          "arr": null,
-          "dep": 813
+          "arr": 766,
+          "dep": null
         }
       ]
     },
@@ -16055,8 +16170,18 @@
         },
         {
           "station": "BRI",
+          "arr": 824,
+          "dep": null
+        },
+        {
+          "station": "FIT",
           "arr": null,
-          "dep": 813
+          "dep": 848
+        },
+        {
+          "station": "BPW",
+          "arr": 848,
+          "dep": null
         }
       ]
     },
@@ -16096,8 +16221,18 @@
         },
         {
           "station": "BRI",
+          "arr": 824,
+          "dep": null
+        },
+        {
+          "station": "FIT",
           "arr": null,
-          "dep": 813
+          "dep": 848
+        },
+        {
+          "station": "BPW",
+          "arr": 848,
+          "dep": null
         }
       ]
     },
@@ -16117,8 +16252,28 @@
         },
         {
           "station": "BRI",
+          "arr": 800,
+          "dep": null
+        },
+        {
+          "station": "LWH",
           "arr": null,
-          "dep": 792
+          "dep": 829
+        },
+        {
+          "station": "SRD",
+          "arr": null,
+          "dep": 832
+        },
+        {
+          "station": "FIT",
+          "arr": null,
+          "dep": 848
+        },
+        {
+          "station": "BPW",
+          "arr": 848,
+          "dep": null
         }
       ]
     },
@@ -16134,7 +16289,7 @@
         {
           "station": "BRI",
           "arr": 804,
-          "dep": 780
+          "dep": null
         },
         {
           "station": "FIT",
@@ -16160,7 +16315,7 @@
         {
           "station": "BRI",
           "arr": 824,
-          "dep": 784
+          "dep": null
         },
         {
           "station": "FIT",
@@ -16338,13 +16493,23 @@
         },
         {
           "station": "WSM",
+          "arr": 875,
+          "dep": null
+        },
+        {
+          "station": "WOR",
           "arr": null,
-          "dep": 888
+          "dep": 977
+        },
+        {
+          "station": "YAT",
+          "arr": null,
+          "dep": 983
         },
         {
           "station": "BRI",
-          "arr": null,
-          "dep": 898
+          "arr": 985,
+          "dep": null
         }
       ]
     },
@@ -16379,13 +16544,23 @@
         },
         {
           "station": "WSM",
+          "arr": 875,
+          "dep": null
+        },
+        {
+          "station": "WOR",
           "arr": null,
-          "dep": 888
+          "dep": 977
+        },
+        {
+          "station": "YAT",
+          "arr": null,
+          "dep": 983
         },
         {
           "station": "BRI",
-          "arr": null,
-          "dep": 898
+          "arr": 985,
+          "dep": null
         }
       ]
     },
@@ -16420,13 +16595,28 @@
         },
         {
           "station": "WSM",
-          "arr": null,
-          "dep": 888
+          "arr": 887,
+          "dep": null
         },
         {
           "station": "BRI",
+          "arr": 895,
+          "dep": null
+        },
+        {
+          "station": "LWH",
           "arr": null,
-          "dep": 898
+          "dep": 915
+        },
+        {
+          "station": "SRD",
+          "arr": null,
+          "dep": 918
+        },
+        {
+          "station": "BPW",
+          "arr": 920,
+          "dep": null
         }
       ]
     },
@@ -16451,8 +16641,23 @@
         },
         {
           "station": "BRI",
+          "arr": 895,
+          "dep": null
+        },
+        {
+          "station": "LWH",
           "arr": null,
-          "dep": 898
+          "dep": 915
+        },
+        {
+          "station": "SRD",
+          "arr": null,
+          "dep": 918
+        },
+        {
+          "station": "BPW",
+          "arr": 920,
+          "dep": null
         }
       ]
     },
@@ -16477,8 +16682,23 @@
         },
         {
           "station": "BRI",
+          "arr": 895,
+          "dep": null
+        },
+        {
+          "station": "LWH",
           "arr": null,
-          "dep": 898
+          "dep": 915
+        },
+        {
+          "station": "SRD",
+          "arr": null,
+          "dep": 918
+        },
+        {
+          "station": "BPW",
+          "arr": 920,
+          "dep": null
         }
       ]
     },
@@ -16646,13 +16866,28 @@
         },
         {
           "station": "WSM",
+          "arr": 949,
+          "dep": null
+        },
+        {
+          "station": "WNM",
           "arr": null,
-          "dep": 962
+          "dep": 973
+        },
+        {
+          "station": "WOR",
+          "arr": null,
+          "dep": 977
+        },
+        {
+          "station": "YAT",
+          "arr": null,
+          "dep": 983
         },
         {
           "station": "BRI",
-          "arr": 1003,
-          "dep": 972
+          "arr": 985,
+          "dep": null
         }
       ]
     },
@@ -16677,13 +16912,28 @@
         },
         {
           "station": "WSM",
+          "arr": 949,
+          "dep": null
+        },
+        {
+          "station": "WNM",
           "arr": null,
-          "dep": 962
+          "dep": 973
+        },
+        {
+          "station": "WOR",
+          "arr": null,
+          "dep": 977
+        },
+        {
+          "station": "YAT",
+          "arr": null,
+          "dep": 983
         },
         {
           "station": "BRI",
-          "arr": 1003,
-          "dep": 972
+          "arr": 985,
+          "dep": null
         }
       ]
     },
@@ -16713,8 +16963,13 @@
         },
         {
           "station": "BRI",
-          "arr": 1003,
-          "dep": 972
+          "arr": 978,
+          "dep": null
+        },
+        {
+          "station": "FIT",
+          "arr": null,
+          "dep": 1005
         }
       ]
     },
@@ -16739,8 +16994,13 @@
         },
         {
           "station": "BRI",
-          "arr": 1003,
-          "dep": 972
+          "arr": 978,
+          "dep": null
+        },
+        {
+          "station": "FIT",
+          "arr": null,
+          "dep": 1005
         }
       ]
     },
@@ -16770,8 +17030,8 @@
         },
         {
           "station": "BRI",
-          "arr": null,
-          "dep": 993
+          "arr": 985,
+          "dep": null
         }
       ]
     },
@@ -16796,8 +17056,8 @@
         },
         {
           "station": "BRI",
-          "arr": null,
-          "dep": 993
+          "arr": 985,
+          "dep": null
         }
       ]
     },
@@ -16817,8 +17077,13 @@
         },
         {
           "station": "BRI",
-          "arr": 1003,
-          "dep": 972
+          "arr": 978,
+          "dep": null
+        },
+        {
+          "station": "FIT",
+          "arr": null,
+          "dep": 1005
         }
       ]
     },
@@ -16838,8 +17103,8 @@
         },
         {
           "station": "BRI",
-          "arr": 1003,
-          "dep": 972
+          "arr": 985,
+          "dep": null
         }
       ]
     },
@@ -16855,7 +17120,7 @@
         {
           "station": "BRI",
           "arr": 985,
-          "dep": 968
+          "dep": null
         }
       ]
     },
@@ -16871,7 +17136,7 @@
         {
           "station": "BRI",
           "arr": 1003,
-          "dep": 972
+          "dep": null
         }
       ]
     },
@@ -17005,8 +17270,33 @@
         },
         {
           "station": "BRI",
+          "arr": 1064,
+          "dep": null
+        },
+        {
+          "station": "LWH",
           "arr": null,
-          "dep": 1067
+          "dep": 1087
+        },
+        {
+          "station": "SRD",
+          "arr": null,
+          "dep": 1090
+        },
+        {
+          "station": "BPW",
+          "arr": 1100,
+          "dep": null
+        },
+        {
+          "station": "NWP",
+          "arr": 1135,
+          "dep": null
+        },
+        {
+          "station": "CDF",
+          "arr": 1150,
+          "dep": null
         }
       ]
     },
@@ -17061,39 +17351,18 @@
         },
         {
           "station": "BRI",
-          "arr": null,
-          "dep": 1067
-        }
-      ]
-    },
-    {
-      "id": "SAT_604",
-      "headcode": "",
-      "operator": "",
-      "days": [
-        "SAT"
-      ],
-      "direction": "",
-      "stops": [
-        {
-          "station": "WSM",
-          "arr": null,
-          "dep": 1030
-        },
-        {
-          "station": "BRI",
-          "arr": null,
-          "dep": 1032
+          "arr": 1064,
+          "dep": null
         },
         {
           "station": "LWH",
           "arr": null,
-          "dep": 1095
+          "dep": 1087
         },
         {
           "station": "SRD",
           "arr": null,
-          "dep": 1098
+          "dep": 1090
         },
         {
           "station": "BPW",
@@ -17113,6 +17382,77 @@
       ]
     },
     {
+      "id": "SAT_604",
+      "headcode": "",
+      "operator": "",
+      "days": [
+        "SAT"
+      ],
+      "direction": "",
+      "stops": [
+        {
+          "station": "WSM",
+          "arr": null,
+          "dep": 1030
+        },
+        {
+          "station": "BRI",
+          "arr": 1046,
+          "dep": null
+        },
+        {
+          "station": "LWH",
+          "arr": null,
+          "dep": 1070
+        },
+        {
+          "station": "SRD",
+          "arr": null,
+          "dep": 1073
+        },
+        {
+          "station": "MTP",
+          "arr": null,
+          "dep": 1101
+        },
+        {
+          "station": "RDA",
+          "arr": null,
+          "dep": 1103
+        },
+        {
+          "station": "CFN",
+          "arr": null,
+          "dep": 1107
+        },
+        {
+          "station": "SML",
+          "arr": null,
+          "dep": 1111
+        },
+        {
+          "station": "SHH",
+          "arr": null,
+          "dep": 1114
+        },
+        {
+          "station": "PRI",
+          "arr": null,
+          "dep": 1116
+        },
+        {
+          "station": "FIT",
+          "arr": null,
+          "dep": 1126
+        },
+        {
+          "station": "BPW",
+          "arr": 1130,
+          "dep": null
+        }
+      ]
+    },
+    {
       "id": "SAT_605",
       "headcode": "",
       "operator": "",
@@ -17124,7 +17464,7 @@
         {
           "station": "BRI",
           "arr": 1064,
-          "dep": 1028
+          "dep": null
         },
         {
           "station": "LWH",
@@ -17384,18 +17724,43 @@
         },
         {
           "station": "WSM",
+          "arr": 1125,
+          "dep": null
+        },
+        {
+          "station": "WNM",
           "arr": null,
-          "dep": 1140
+          "dep": 1153
+        },
+        {
+          "station": "WOR",
+          "arr": null,
+          "dep": 1303
         },
         {
           "station": "YAT",
           "arr": null,
-          "dep": 1163
+          "dep": 1309
+        },
+        {
+          "station": "NLS",
+          "arr": null,
+          "dep": 1315
+        },
+        {
+          "station": "PSN",
+          "arr": null,
+          "dep": 1323
+        },
+        {
+          "station": "BMT",
+          "arr": null,
+          "dep": 1326
         },
         {
           "station": "BRI",
-          "arr": null,
-          "dep": 1163
+          "arr": 1369,
+          "dep": 1377
         }
       ]
     },
@@ -17430,18 +17795,43 @@
         },
         {
           "station": "WSM",
+          "arr": 1125,
+          "dep": null
+        },
+        {
+          "station": "WNM",
           "arr": null,
-          "dep": 1140
+          "dep": 1153
+        },
+        {
+          "station": "WOR",
+          "arr": null,
+          "dep": 1303
         },
         {
           "station": "YAT",
           "arr": null,
-          "dep": 1163
+          "dep": 1309
+        },
+        {
+          "station": "NLS",
+          "arr": null,
+          "dep": 1315
+        },
+        {
+          "station": "PSN",
+          "arr": null,
+          "dep": 1323
+        },
+        {
+          "station": "BMT",
+          "arr": null,
+          "dep": 1326
         },
         {
           "station": "BRI",
-          "arr": null,
-          "dep": 1163
+          "arr": 1369,
+          "dep": 1377
         }
       ]
     },
@@ -17476,18 +17866,38 @@
         },
         {
           "station": "WSM",
+          "arr": 1135,
+          "dep": null
+        },
+        {
+          "station": "WOR",
           "arr": null,
-          "dep": 1140
+          "dep": 1303
         },
         {
           "station": "YAT",
           "arr": null,
-          "dep": 1163
+          "dep": 1309
+        },
+        {
+          "station": "NLS",
+          "arr": null,
+          "dep": 1315
+        },
+        {
+          "station": "PSN",
+          "arr": null,
+          "dep": 1323
+        },
+        {
+          "station": "BMT",
+          "arr": null,
+          "dep": 1326
         },
         {
           "station": "BRI",
-          "arr": null,
-          "dep": 1163
+          "arr": 1369,
+          "dep": 1377
         }
       ]
     },
@@ -17522,8 +17932,23 @@
         },
         {
           "station": "BRI",
-          "arr": null,
-          "dep": 1163
+          "arr": 1163,
+          "dep": null
+        },
+        {
+          "station": "BPW",
+          "arr": 1189,
+          "dep": null
+        },
+        {
+          "station": "NWP",
+          "arr": 1222,
+          "dep": null
+        },
+        {
+          "station": "CDF",
+          "arr": 1237,
+          "dep": null
         }
       ]
     },
@@ -17548,8 +17973,23 @@
         },
         {
           "station": "BRI",
-          "arr": null,
-          "dep": 1163
+          "arr": 1163,
+          "dep": null
+        },
+        {
+          "station": "BPW",
+          "arr": 1189,
+          "dep": null
+        },
+        {
+          "station": "NWP",
+          "arr": 1222,
+          "dep": null
+        },
+        {
+          "station": "CDF",
+          "arr": 1237,
+          "dep": null
         }
       ]
     },
@@ -17569,8 +18009,23 @@
         },
         {
           "station": "BRI",
-          "arr": 1183,
-          "dep": 1150
+          "arr": 1163,
+          "dep": null
+        },
+        {
+          "station": "BPW",
+          "arr": 1189,
+          "dep": null
+        },
+        {
+          "station": "NWP",
+          "arr": 1222,
+          "dep": null
+        },
+        {
+          "station": "CDF",
+          "arr": 1237,
+          "dep": null
         }
       ]
     },
@@ -17586,7 +18041,7 @@
         {
           "station": "BRI",
           "arr": 1166,
-          "dep": 1146
+          "dep": null
         }
       ]
     },
@@ -17602,7 +18057,7 @@
         {
           "station": "BRI",
           "arr": 1183,
-          "dep": 1150
+          "dep": null
         }
       ]
     },
@@ -17717,13 +18172,33 @@
         },
         {
           "station": "WSM",
+          "arr": 1269,
+          "dep": null
+        },
+        {
+          "station": "YAT",
           "arr": null,
-          "dep": 1271
+          "dep": 1309
+        },
+        {
+          "station": "NLS",
+          "arr": null,
+          "dep": 1315
+        },
+        {
+          "station": "PSN",
+          "arr": null,
+          "dep": 1323
+        },
+        {
+          "station": "BMT",
+          "arr": null,
+          "dep": 1326
         },
         {
           "station": "BRI",
-          "arr": null,
-          "dep": 1288
+          "arr": 1369,
+          "dep": 1377
         }
       ]
     },
@@ -17758,13 +18233,33 @@
         },
         {
           "station": "WSM",
+          "arr": 1269,
+          "dep": null
+        },
+        {
+          "station": "YAT",
           "arr": null,
-          "dep": 1271
+          "dep": 1309
+        },
+        {
+          "station": "NLS",
+          "arr": null,
+          "dep": 1315
+        },
+        {
+          "station": "PSN",
+          "arr": null,
+          "dep": 1323
+        },
+        {
+          "station": "BMT",
+          "arr": null,
+          "dep": 1326
         },
         {
           "station": "BRI",
-          "arr": null,
-          "dep": 1288
+          "arr": 1369,
+          "dep": 1377
         }
       ]
     },
@@ -17799,13 +18294,33 @@
         },
         {
           "station": "WSM",
+          "arr": 1269,
+          "dep": null
+        },
+        {
+          "station": "YAT",
           "arr": null,
-          "dep": 1271
+          "dep": 1309
+        },
+        {
+          "station": "NLS",
+          "arr": null,
+          "dep": 1315
+        },
+        {
+          "station": "PSN",
+          "arr": null,
+          "dep": 1323
+        },
+        {
+          "station": "BMT",
+          "arr": null,
+          "dep": 1326
         },
         {
           "station": "BRI",
-          "arr": null,
-          "dep": 1288
+          "arr": 1369,
+          "dep": 1377
         }
       ]
     },
@@ -17840,13 +18355,33 @@
         },
         {
           "station": "WSM",
+          "arr": 1269,
+          "dep": null
+        },
+        {
+          "station": "YAT",
           "arr": null,
-          "dep": 1271
+          "dep": 1309
+        },
+        {
+          "station": "NLS",
+          "arr": null,
+          "dep": 1315
+        },
+        {
+          "station": "PSN",
+          "arr": null,
+          "dep": 1323
+        },
+        {
+          "station": "BMT",
+          "arr": null,
+          "dep": 1326
         },
         {
           "station": "BRI",
-          "arr": null,
-          "dep": 1288
+          "arr": 1369,
+          "dep": 1377
         }
       ]
     },
@@ -17871,8 +18406,18 @@
         },
         {
           "station": "BRI",
-          "arr": null,
-          "dep": 1288
+          "arr": 1266,
+          "dep": null
+        },
+        {
+          "station": "NWP",
+          "arr": 1322,
+          "dep": null
+        },
+        {
+          "station": "CDF",
+          "arr": 1336,
+          "dep": null
         }
       ]
     },
@@ -17897,8 +18442,8 @@
         },
         {
           "station": "BRI",
-          "arr": null,
-          "dep": 1288
+          "arr": 1285,
+          "dep": null
         }
       ]
     },
@@ -17914,7 +18459,7 @@
         {
           "station": "BRI",
           "arr": 1292,
-          "dep": 1242
+          "dep": null
         }
       ]
     },
@@ -18084,8 +18629,28 @@
         },
         {
           "station": "WSM",
+          "arr": 1319,
+          "dep": null
+        },
+        {
+          "station": "WNM",
           "arr": null,
-          "dep": 1334
+          "dep": 1337
+        },
+        {
+          "station": "WOR",
+          "arr": null,
+          "dep": 1341
+        },
+        {
+          "station": "YAT",
+          "arr": null,
+          "dep": 1347
+        },
+        {
+          "station": "NLS",
+          "arr": null,
+          "dep": 1353
         },
         {
           "station": "BRI",
@@ -18125,8 +18690,23 @@
         },
         {
           "station": "WSM",
+          "arr": 1334,
+          "dep": null
+        },
+        {
+          "station": "WOR",
           "arr": null,
-          "dep": 1334
+          "dep": 1341
+        },
+        {
+          "station": "YAT",
+          "arr": null,
+          "dep": 1347
+        },
+        {
+          "station": "NLS",
+          "arr": null,
+          "dep": 1353
         },
         {
           "station": "BRI",
@@ -18157,7 +18737,7 @@
         {
           "station": "BRI",
           "arr": 1348,
-          "dep": 1338
+          "dep": null
         },
         {
           "station": "PWY",
@@ -18218,13 +18798,13 @@
         },
         {
           "station": "WSM",
-          "arr": null,
-          "dep": 790
+          "arr": 536,
+          "dep": null
         },
         {
-          "station": "BRI",
+          "station": "WNM",
           "arr": null,
-          "dep": 799
+          "dep": 540
         }
       ]
     },
@@ -18259,13 +18839,33 @@
         },
         {
           "station": "WSM",
+          "arr": 640,
+          "dep": null
+        },
+        {
+          "station": "WNM",
           "arr": null,
-          "dep": 790
+          "dep": 793
+        },
+        {
+          "station": "WOR",
+          "arr": null,
+          "dep": 797
+        },
+        {
+          "station": "YAT",
+          "arr": null,
+          "dep": 803
+        },
+        {
+          "station": "NLS",
+          "arr": null,
+          "dep": 809
         },
         {
           "station": "BRI",
-          "arr": null,
-          "dep": 799
+          "arr": 824,
+          "dep": null
         }
       ]
     },
@@ -18290,13 +18890,33 @@
         },
         {
           "station": "WSM",
+          "arr": 704,
+          "dep": null
+        },
+        {
+          "station": "WNM",
           "arr": null,
-          "dep": 790
+          "dep": 793
+        },
+        {
+          "station": "WOR",
+          "arr": null,
+          "dep": 797
+        },
+        {
+          "station": "YAT",
+          "arr": null,
+          "dep": 803
+        },
+        {
+          "station": "NLS",
+          "arr": null,
+          "dep": 809
         },
         {
           "station": "BRI",
-          "arr": null,
-          "dep": 799
+          "arr": 824,
+          "dep": null
         }
       ]
     },
@@ -18331,8 +18951,23 @@
         },
         {
           "station": "BRI",
+          "arr": 668,
+          "dep": null
+        },
+        {
+          "station": "FIT",
           "arr": null,
-          "dep": 671
+          "dep": 826
+        },
+        {
+          "station": "NWP",
+          "arr": 860,
+          "dep": null
+        },
+        {
+          "station": "CDF",
+          "arr": 875,
+          "dep": null
         }
       ]
     },
@@ -18348,16 +18983,21 @@
         {
           "station": "BRI",
           "arr": 684,
-          "dep": 579
+          "dep": null
         },
         {
           "station": "FIT",
           "arr": null,
-          "dep": 646
+          "dep": 826
         },
         {
-          "station": "BPW",
-          "arr": 698,
+          "station": "NWP",
+          "arr": 860,
+          "dep": null
+        },
+        {
+          "station": "CDF",
+          "arr": 875,
           "dep": null
         }
       ]
@@ -18587,13 +19227,33 @@
         },
         {
           "station": "WSM",
+          "arr": 704,
+          "dep": null
+        },
+        {
+          "station": "WNM",
           "arr": null,
-          "dep": 790
+          "dep": 793
+        },
+        {
+          "station": "WOR",
+          "arr": null,
+          "dep": 797
+        },
+        {
+          "station": "YAT",
+          "arr": null,
+          "dep": 803
+        },
+        {
+          "station": "NLS",
+          "arr": null,
+          "dep": 809
         },
         {
           "station": "BRI",
-          "arr": null,
-          "dep": 799
+          "arr": 824,
+          "dep": null
         }
       ]
     },
@@ -18628,13 +19288,33 @@
         },
         {
           "station": "WSM",
+          "arr": 762,
+          "dep": null
+        },
+        {
+          "station": "WNM",
           "arr": null,
-          "dep": 790
+          "dep": 793
+        },
+        {
+          "station": "WOR",
+          "arr": null,
+          "dep": 797
+        },
+        {
+          "station": "YAT",
+          "arr": null,
+          "dep": 803
+        },
+        {
+          "station": "NLS",
+          "arr": null,
+          "dep": 809
         },
         {
           "station": "BRI",
-          "arr": null,
-          "dep": 799
+          "arr": 824,
+          "dep": null
         }
       ]
     },
@@ -18659,13 +19339,33 @@
         },
         {
           "station": "WSM",
+          "arr": 762,
+          "dep": null
+        },
+        {
+          "station": "WNM",
           "arr": null,
-          "dep": 790
+          "dep": 793
+        },
+        {
+          "station": "WOR",
+          "arr": null,
+          "dep": 797
+        },
+        {
+          "station": "YAT",
+          "arr": null,
+          "dep": 803
+        },
+        {
+          "station": "NLS",
+          "arr": null,
+          "dep": 809
         },
         {
           "station": "BRI",
-          "arr": null,
-          "dep": 799
+          "arr": 824,
+          "dep": null
         }
       ]
     },
@@ -18695,8 +19395,23 @@
         },
         {
           "station": "BRI",
+          "arr": 791,
+          "dep": null
+        },
+        {
+          "station": "FIT",
           "arr": null,
-          "dep": 799
+          "dep": 826
+        },
+        {
+          "station": "NWP",
+          "arr": 860,
+          "dep": null
+        },
+        {
+          "station": "CDF",
+          "arr": 875,
+          "dep": null
         }
       ]
     },
@@ -18726,8 +19441,23 @@
         },
         {
           "station": "BRI",
+          "arr": 791,
+          "dep": null
+        },
+        {
+          "station": "FIT",
           "arr": null,
-          "dep": 799
+          "dep": 826
+        },
+        {
+          "station": "NWP",
+          "arr": 860,
+          "dep": null
+        },
+        {
+          "station": "CDF",
+          "arr": 875,
+          "dep": null
         }
       ]
     },
@@ -18762,8 +19492,8 @@
         },
         {
           "station": "BRI",
-          "arr": null,
-          "dep": 811
+          "arr": 824,
+          "dep": null
         }
       ]
     },
@@ -18783,8 +19513,23 @@
         },
         {
           "station": "BRI",
+          "arr": 791,
+          "dep": null
+        },
+        {
+          "station": "FIT",
           "arr": null,
-          "dep": 799
+          "dep": 826
+        },
+        {
+          "station": "NWP",
+          "arr": 860,
+          "dep": null
+        },
+        {
+          "station": "CDF",
+          "arr": 875,
+          "dep": null
         }
       ]
     },
@@ -18800,7 +19545,7 @@
         {
           "station": "BRI",
           "arr": 804,
-          "dep": 776
+          "dep": null
         },
         {
           "station": "FIT",
@@ -18831,7 +19576,7 @@
         {
           "station": "BRI",
           "arr": 824,
-          "dep": 780
+          "dep": null
         }
       ]
     },
@@ -18946,13 +19691,13 @@
         },
         {
           "station": "WSM",
-          "arr": null,
-          "dep": 909
+          "arr": 824,
+          "dep": null
         },
         {
-          "station": "BRI",
-          "arr": 924,
-          "dep": 915
+          "station": "WNM",
+          "arr": null,
+          "dep": 852
         }
       ]
     },
@@ -18987,13 +19732,13 @@
         },
         {
           "station": "WSM",
-          "arr": null,
-          "dep": 909
+          "arr": 882,
+          "dep": null
         },
         {
-          "station": "BRI",
-          "arr": 924,
-          "dep": 915
+          "station": "WNM",
+          "arr": null,
+          "dep": 912
         }
       ]
     },
@@ -19023,8 +19768,18 @@
         },
         {
           "station": "BRI",
-          "arr": 924,
-          "dep": 915
+          "arr": 911,
+          "dep": null
+        },
+        {
+          "station": "NWP",
+          "arr": 986,
+          "dep": null
+        },
+        {
+          "station": "CDF",
+          "arr": 1001,
+          "dep": null
         }
       ]
     },
@@ -19054,8 +19809,18 @@
         },
         {
           "station": "BRI",
-          "arr": 924,
-          "dep": 915
+          "arr": 911,
+          "dep": null
+        },
+        {
+          "station": "NWP",
+          "arr": 986,
+          "dep": null
+        },
+        {
+          "station": "CDF",
+          "arr": 1001,
+          "dep": null
         }
       ]
     },
@@ -19085,8 +19850,18 @@
         },
         {
           "station": "BRI",
-          "arr": 924,
-          "dep": 915
+          "arr": 911,
+          "dep": null
+        },
+        {
+          "station": "NWP",
+          "arr": 986,
+          "dep": null
+        },
+        {
+          "station": "CDF",
+          "arr": 1001,
+          "dep": null
         }
       ]
     },
@@ -19107,7 +19882,7 @@
         {
           "station": "BRI",
           "arr": 898,
-          "dep": 896
+          "dep": null
         },
         {
           "station": "FIT",
@@ -19147,8 +19922,18 @@
         },
         {
           "station": "BRI",
-          "arr": 924,
-          "dep": 915
+          "arr": 911,
+          "dep": null
+        },
+        {
+          "station": "NWP",
+          "arr": 986,
+          "dep": null
+        },
+        {
+          "station": "CDF",
+          "arr": 1001,
+          "dep": null
         }
       ]
     },
@@ -19164,7 +19949,7 @@
         {
           "station": "BRI",
           "arr": 924,
-          "dep": 915
+          "dep": null
         }
       ]
     },
@@ -19180,7 +19965,7 @@
         {
           "station": "BRI",
           "arr": 943,
-          "dep": 931
+          "dep": null
         }
       ]
     },
@@ -19263,58 +20048,13 @@
         },
         {
           "station": "WSM",
-          "arr": null,
-          "dep": 1245
+          "arr": 1003,
+          "dep": null
         },
         {
           "station": "WNM",
           "arr": null,
-          "dep": 1248
-        },
-        {
-          "station": "WOR",
-          "arr": null,
-          "dep": 1252
-        },
-        {
-          "station": "YAT",
-          "arr": null,
-          "dep": 1258
-        },
-        {
-          "station": "NLS",
-          "arr": null,
-          "dep": 1264
-        },
-        {
-          "station": "PSN",
-          "arr": null,
-          "dep": 1271
-        },
-        {
-          "station": "BMT",
-          "arr": null,
-          "dep": 1274
-        },
-        {
-          "station": "BRI",
-          "arr": 1392,
-          "dep": 1362
-        },
-        {
-          "station": "FIT",
-          "arr": null,
-          "dep": 1373
-        },
-        {
-          "station": "NWP",
-          "arr": 1402,
-          "dep": null
-        },
-        {
-          "station": "CDF",
-          "arr": 1414,
-          "dep": null
+          "dep": 1032
         }
       ]
     },
@@ -19349,58 +20089,13 @@
         },
         {
           "station": "WSM",
-          "arr": null,
-          "dep": 1245
+          "arr": 1003,
+          "dep": null
         },
         {
           "station": "WNM",
           "arr": null,
-          "dep": 1248
-        },
-        {
-          "station": "WOR",
-          "arr": null,
-          "dep": 1252
-        },
-        {
-          "station": "YAT",
-          "arr": null,
-          "dep": 1258
-        },
-        {
-          "station": "NLS",
-          "arr": null,
-          "dep": 1264
-        },
-        {
-          "station": "PSN",
-          "arr": null,
-          "dep": 1271
-        },
-        {
-          "station": "BMT",
-          "arr": null,
-          "dep": 1274
-        },
-        {
-          "station": "BRI",
-          "arr": 1392,
-          "dep": 1362
-        },
-        {
-          "station": "FIT",
-          "arr": null,
-          "dep": 1373
-        },
-        {
-          "station": "NWP",
-          "arr": 1402,
-          "dep": null
-        },
-        {
-          "station": "CDF",
-          "arr": 1414,
-          "dep": null
+          "dep": 1032
         }
       ]
     },
@@ -19435,57 +20130,7 @@
         },
         {
           "station": "WSM",
-          "arr": null,
-          "dep": 1245
-        },
-        {
-          "station": "WNM",
-          "arr": null,
-          "dep": 1248
-        },
-        {
-          "station": "WOR",
-          "arr": null,
-          "dep": 1252
-        },
-        {
-          "station": "YAT",
-          "arr": null,
-          "dep": 1258
-        },
-        {
-          "station": "NLS",
-          "arr": null,
-          "dep": 1264
-        },
-        {
-          "station": "PSN",
-          "arr": null,
-          "dep": 1271
-        },
-        {
-          "station": "BMT",
-          "arr": null,
-          "dep": 1274
-        },
-        {
-          "station": "BRI",
-          "arr": 1392,
-          "dep": 1362
-        },
-        {
-          "station": "FIT",
-          "arr": null,
-          "dep": 1373
-        },
-        {
-          "station": "NWP",
-          "arr": 1402,
-          "dep": null
-        },
-        {
-          "station": "CDF",
-          "arr": 1414,
+          "arr": 1067,
           "dep": null
         }
       ]
@@ -19546,22 +20191,7 @@
         },
         {
           "station": "BRI",
-          "arr": 1392,
-          "dep": 1362
-        },
-        {
-          "station": "FIT",
-          "arr": null,
-          "dep": 1373
-        },
-        {
-          "station": "NWP",
-          "arr": 1402,
-          "dep": null
-        },
-        {
-          "station": "CDF",
-          "arr": 1414,
+          "arr": 1278,
           "dep": null
         }
       ]
@@ -19602,8 +20232,28 @@
         },
         {
           "station": "BRI",
+          "arr": 1095,
+          "dep": null
+        },
+        {
+          "station": "FIT",
           "arr": null,
-          "dep": 1098
+          "dep": 1108
+        },
+        {
+          "station": "BPW",
+          "arr": 1118,
+          "dep": null
+        },
+        {
+          "station": "NWP",
+          "arr": 1130,
+          "dep": null
+        },
+        {
+          "station": "CDF",
+          "arr": 1145,
+          "dep": null
         }
       ]
     },
@@ -19623,8 +20273,33 @@
         },
         {
           "station": "BRI",
+          "arr": 1063,
+          "dep": null
+        },
+        {
+          "station": "FIT",
           "arr": null,
-          "dep": 1051
+          "dep": 1074
+        },
+        {
+          "station": "BPW",
+          "arr": 1087,
+          "dep": null
+        },
+        {
+          "station": "PWY",
+          "arr": null,
+          "dep": 1121
+        },
+        {
+          "station": "NWP",
+          "arr": 1130,
+          "dep": null
+        },
+        {
+          "station": "CDF",
+          "arr": 1145,
+          "dep": null
         }
       ]
     },
@@ -19640,7 +20315,7 @@
         {
           "station": "BRI",
           "arr": 1095,
-          "dep": 1035
+          "dep": null
         },
         {
           "station": "FIT",
@@ -19676,7 +20351,7 @@
         {
           "station": "BRI",
           "arr": 1104,
-          "dep": 1036
+          "dep": null
         },
         {
           "station": "FIT",
@@ -19839,8 +20514,13 @@
         },
         {
           "station": "BRI",
+          "arr": 1228,
+          "dep": null
+        },
+        {
+          "station": "FIT",
           "arr": null,
-          "dep": 1232
+          "dep": 1251
         }
       ]
     },
@@ -19865,8 +20545,13 @@
         },
         {
           "station": "BRI",
+          "arr": 1228,
+          "dep": null
+        },
+        {
+          "station": "FIT",
           "arr": null,
-          "dep": 1232
+          "dep": 1251
         }
       ]
     },
@@ -19891,8 +20576,13 @@
         },
         {
           "station": "BRI",
+          "arr": 1228,
+          "dep": null
+        },
+        {
+          "station": "FIT",
           "arr": null,
-          "dep": 1232
+          "dep": 1251
         }
       ]
     },
@@ -19947,22 +20637,7 @@
         },
         {
           "station": "BRI",
-          "arr": 1392,
-          "dep": 1362
-        },
-        {
-          "station": "FIT",
-          "arr": null,
-          "dep": 1373
-        },
-        {
-          "station": "NWP",
-          "arr": 1402,
-          "dep": null
-        },
-        {
-          "station": "CDF",
-          "arr": 1414,
+          "arr": 1278,
           "dep": null
         }
       ]
@@ -19983,8 +20658,13 @@
         },
         {
           "station": "BRI",
+          "arr": 1228,
+          "dep": null
+        },
+        {
+          "station": "FIT",
           "arr": null,
-          "dep": 1232
+          "dep": 1251
         }
       ]
     },
@@ -20004,8 +20684,23 @@
         },
         {
           "station": "BRI",
-          "arr": null,
-          "dep": 1232
+          "arr": 1228,
+          "dep": null
+        },
+        {
+          "station": "BPW",
+          "arr": 1250,
+          "dep": null
+        },
+        {
+          "station": "NWP",
+          "arr": 1280,
+          "dep": null
+        },
+        {
+          "station": "CDF",
+          "arr": 1294,
+          "dep": null
         }
       ]
     },
@@ -20021,7 +20716,7 @@
         {
           "station": "BRI",
           "arr": 1278,
-          "dep": 1186
+          "dep": null
         }
       ]
     },
@@ -20136,27 +20831,42 @@
         },
         {
           "station": "WSM",
+          "arr": 1283,
+          "dep": null
+        },
+        {
+          "station": "WNM",
           "arr": null,
-          "dep": 1359
+          "dep": 1288
+        },
+        {
+          "station": "WOR",
+          "arr": null,
+          "dep": 1292
+        },
+        {
+          "station": "YAT",
+          "arr": null,
+          "dep": 1298
+        },
+        {
+          "station": "NLS",
+          "arr": null,
+          "dep": 1304
+        },
+        {
+          "station": "PSN",
+          "arr": null,
+          "dep": 1312
+        },
+        {
+          "station": "BMT",
+          "arr": null,
+          "dep": 1315
         },
         {
           "station": "BRI",
           "arr": 1392,
-          "dep": 1362
-        },
-        {
-          "station": "FIT",
-          "arr": null,
-          "dep": 1373
-        },
-        {
-          "station": "NWP",
-          "arr": 1402,
-          "dep": null
-        },
-        {
-          "station": "CDF",
-          "arr": 1414,
           "dep": null
         }
       ]
@@ -20192,28 +20902,38 @@
         },
         {
           "station": "WSM",
-          "arr": null,
-          "dep": 1359
-        },
-        {
-          "station": "BRI",
-          "arr": 1392,
-          "dep": 1362
-        },
-        {
-          "station": "FIT",
-          "arr": null,
-          "dep": 1373
-        },
-        {
-          "station": "NWP",
-          "arr": 1402,
+          "arr": 1358,
           "dep": null
         },
         {
-          "station": "CDF",
-          "arr": 1414,
-          "dep": null
+          "station": "WNM",
+          "arr": null,
+          "dep": 1432
+        },
+        {
+          "station": "WOR",
+          "arr": null,
+          "dep": 1436
+        },
+        {
+          "station": "YAT",
+          "arr": null,
+          "dep": 2
+        },
+        {
+          "station": "NLS",
+          "arr": null,
+          "dep": 8
+        },
+        {
+          "station": "PSN",
+          "arr": null,
+          "dep": 16
+        },
+        {
+          "station": "BMT",
+          "arr": null,
+          "dep": 19
         }
       ]
     },
@@ -20233,28 +20953,38 @@
         },
         {
           "station": "WSM",
-          "arr": null,
-          "dep": 1359
-        },
-        {
-          "station": "BRI",
-          "arr": 1392,
-          "dep": 1362
-        },
-        {
-          "station": "FIT",
-          "arr": null,
-          "dep": 1373
-        },
-        {
-          "station": "NWP",
-          "arr": 1402,
+          "arr": 1358,
           "dep": null
         },
         {
-          "station": "CDF",
-          "arr": 1414,
-          "dep": null
+          "station": "WNM",
+          "arr": null,
+          "dep": 1432
+        },
+        {
+          "station": "WOR",
+          "arr": null,
+          "dep": 1436
+        },
+        {
+          "station": "YAT",
+          "arr": null,
+          "dep": 2
+        },
+        {
+          "station": "NLS",
+          "arr": null,
+          "dep": 8
+        },
+        {
+          "station": "PSN",
+          "arr": null,
+          "dep": 16
+        },
+        {
+          "station": "BMT",
+          "arr": null,
+          "dep": 19
         }
       ]
     },
@@ -20275,21 +21005,6 @@
         {
           "station": "BRI",
           "arr": 1392,
-          "dep": 1362
-        },
-        {
-          "station": "FIT",
-          "arr": null,
-          "dep": 1373
-        },
-        {
-          "station": "NWP",
-          "arr": 1402,
-          "dep": null
-        },
-        {
-          "station": "CDF",
-          "arr": 1414,
           "dep": null
         }
       ]

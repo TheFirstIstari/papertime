@@ -67,9 +67,10 @@ def get_station_time(stops, station):
                 return i, t
     return None, None
 
-
 def merge_same_station_stops(services):
-    """Merge consecutive same-station stops (arrival + departure split)."""
+    """Merge consecutive same-station stops (arrival + departure split).
+    Only merges when departure time >= arrival time (same service).
+    Otherwise keeps them separate (different services)."""
     changes = 0
     for svc in services:
         merged = []
@@ -78,13 +79,21 @@ def merge_same_station_stops(services):
             stop = svc["stops"][i]
             if i + 1 < len(svc["stops"]) and svc["stops"][i+1]["station"] == stop["station"]:
                 nxt = svc["stops"][i+1]
-                merged.append({
-                    "station": stop["station"],
-                    "arr": stop.get("arr") or nxt.get("arr"),
-                    "dep": stop.get("dep") or nxt.get("dep"),
-                })
+                arr = stop.get("arr") or nxt.get("arr")
+                dep = stop.get("dep") or nxt.get("dep")
+                # Only merge if dep >= arr (correct service pairing)
+                if dep is not None and arr is not None and dep < arr:
+                    # Wrong pairing — keep as separate stops
+                    merged.append(stop)
+                    merged.append(nxt)
+                else:
+                    merged.append({
+                        "station": stop["station"],
+                        "arr": arr,
+                        "dep": dep,
+                    })
+                    changes += 1
                 i += 2
-                changes += 1
             else:
                 merged.append(stop)
                 i += 1
@@ -114,10 +123,13 @@ def fix_column_shifts(services):
     """
     Fix column-shifted data by iterative borrowing from the FIRST clean service.
     Processes from last to first so fixed data cascades correctly.
+    Then applies a large-gap filter to catch anomalously long station-to-station
+    times that indicate column-shifted data from wrong services.
     """
     borrowed = 0
     truncated = 0
 
+    # Pass 1: Fix backward-time via borrowing
     for i in range(len(services) - 1, -1, -1):
         svc = services[i]
         max_iter = 15
@@ -144,7 +156,7 @@ def fix_column_shifts(services):
                         break
                 
                 if prev_raw is not None:
-                    prev_adj = prev_raw + 1440  # post-midnight
+                    prev_adj = prev_raw + 1440
                     bad_adj = bad_raw + 1440
                     diff = prev_adj - bad_adj
                     
@@ -189,6 +201,32 @@ def fix_column_shifts(services):
                 svc["stops"] = svc["stops"][:fix_idx]
                 truncated += 1
                 break
+
+    # Pass 2: Filter abnormally large station-to-station gaps (> 3 hours)
+    # These indicate column-shifted data from wrong times of day that
+    # the backward-time fix didn't catch (times are forward but wrong).
+    MAX_GAP = 180  # minutes
+    for svc in services:
+        new_stops = []
+        prev_t = 0
+        prev_stn = None
+        for s in svc["stops"]:
+            t = s.get("dep") or s.get("arr")
+            if t is None:
+                new_stops.append(s)
+                continue
+            if prev_stn is not None and prev_t > 0:
+                # Handle midnight crossing in gap check
+                adj_prev = prev_t + 1440 if prev_t < 240 and t >= 720 else prev_t
+                adj_cur = t + 1440 if prev_t >= 720 and t < 240 else t
+                gap = abs(adj_cur - adj_prev)
+                if gap > MAX_GAP:
+                    truncated += 1
+                    break  # truncate at this point
+            new_stops.append(s)
+            prev_t = t
+            prev_stn = s["station"]
+        svc["stops"] = new_stops
 
     return borrowed, truncated
 
