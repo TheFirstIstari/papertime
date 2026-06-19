@@ -1,0 +1,33 @@
+[package]
+name = "darwin2data"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+# HTTP client for S3
+reqwest = { version = "0.12", features = ["blocking"] }
+
+# ZIP extraction
+zip = "2"
+
+# XML parsing
+quick-xml = "0.37"
+serde = { version = "1", features = ["derive"] }
+serde_json = "1"
+
+# Error handling
+anyhow = "1"
+
+# Date/time parsing
+chrono = "0.4"
+
+# Environment variables
+dotenvy = "0.15"
+
+# Logging
+env_logger = "0.11"
+log = "0.4"
+
+# Async runtime (for future STOMP support)
+# tokio = { version = "1", features = ["full"] }
+# stomp = "0.6"
