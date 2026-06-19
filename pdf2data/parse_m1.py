@@ -90,11 +90,15 @@ def clean_name(raw: str) -> str:
     name = re.sub(r'[^A-Za-z0-9\s\'\-\.&]+$', '', name)
     # Clean known OCR issues
     name = name.replace(' EL', '')  # Elizabeth line marker
-    name = name.replace('\x10', '').replace('\x18', '').replace('\x0f', '').replace('\x1b', '')
+    for ch in ['\x10', '\x18', '\x0f', '\x1b']:
+        name = name.replace(ch, '')
     # Apply OCR corrections from table names (subset relevant to station names)
     name = name.replace('*', 'G').replace('3', 'P').replace('<', 'Y')
     name = name.replace('+', 'H').replace(':', 'W')
     name = name.replace('8', 'U').replace('9', 'V')
+    # Word corrections after per-char replacements
+    name = name.replace('Terminals 2 P', 'Terminals 2 & 3')
+    name = name.replace('7rent', 'Trent')
     name = name.strip()
     return name
 
@@ -200,7 +204,6 @@ _KNOWN_WORD_CORRECTIONS = {
     '9alley': 'Valley', '9al': 'Val',
     'Ha]el': 'Hazel',
     'ononSea': '-on-Sea', 'onontheNa': '-on-the-Naze',
-    'onHumber': '-on-Humber', 'inFurness': '-in-Furness',
     'LeWillows': 'le-Willows',
     'M1': 'M1', 'M25': 'M25', 'M40': 'M40',
     'StoNeonTrent': 'Stoke-on-Trent',
@@ -211,8 +214,10 @@ _KNOWN_WORD_CORRECTIONS = {
     'tKis': 'this', 'otKer': 'other', 'all otKer': 'all other',
     'PenartK': 'Penarth', 'CaerpKilly': 'Caerphilly',
     'RKymney': 'Rhymney', 'TreKerbert': 'Treherbert',
-    'MertKyr': 'Merthyr', 'PencN': 'PencK',  # Keep as is
-    'edway': 'edway',  # Don't change
+    'MertKyr': 'Merthyr', 'PencN': 'PencK',
+    'edway': 'edway',
+    '7rent': 'Trent',  # OCR: Lichfield 7rent Valley
+    'Terminals 2 P': 'Terminals 2 & 3',  # Heathrow
 }
 
 def clean_table_name(name: str) -> str:
