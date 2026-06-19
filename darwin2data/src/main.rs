@@ -1,7 +1,7 @@
-/// Darwin Timetable Feed → PaperTime JSON
+/// Darwin Timetable Feed → PaperTime JSON (Station-Centric)
 ///
 /// Connects to National Rail's Darwin S3 static feed, downloads the timetable ZIP,
-/// parses the XML schedule files, and outputs structured JSON for the PaperTime frontend.
+/// parses the XML schedule files, and outputs structured JSON indexed by station.
 ///
 /// Usage:
 ///   cd darwin2data
@@ -10,25 +10,19 @@
 ///   cargo run --release
 ///
 /// Output:
-///   ../static/stations.json
-///   ../static/table-index.json
-///   ../static/route-index.json
-///   ../static/services/{nnn}.json
-///   ../static/marey/{route-id}.json
+///   ../static/station-index.json
+///   ../static/services/{crs}.json   (one per station)
+///   ../static/marey/{crs}.json      (one per station)
 
 mod types;
 mod feed;
 mod parse;
 mod stations;
-mod table_index;
-mod route_index;
-mod marey;
 
 use anyhow::Result;
 use std::path::PathBuf;
 
 fn main() -> Result<()> {
-    // Load credentials from .env
     dotenvy::dotenv().ok();
     env_logger::init();
 
@@ -45,11 +39,12 @@ fn main() -> Result<()> {
 
     let output_dir = PathBuf::from("../static");
     std::fs::create_dir_all(&output_dir)?;
+    std::fs::create_dir_all(output_dir.join("services"))?;
+    std::fs::create_dir_all(output_dir.join("marey"))?;
 
     log::info!("Darwin2data starting...");
     log::info!("Bucket: {}/{}", bucket, prefix);
     log::info!("Region: {}", region);
-    log::info!("Output: {}", output_dir.display());
 
     // Phase 1: Download ZIP from S3
     log::info!("Phase 1: Downloading Darwin timetable feed...");
@@ -62,44 +57,21 @@ fn main() -> Result<()> {
     })?;
     log::info!("  Downloaded: {}", zip_path.display());
 
-    // Phase 2: Extract and parse XML
+    // Phase 2: Extract and parse XML → services
     log::info!("Phase 2: Parsing XML schedules...");
-    let schedules = parse::extract_schedules(&zip_path)?;
-    log::info!("  Parsed {} schedules", schedules.len());
+    let services = parse::extract_schedules(&zip_path)?;
+    log::info!("  Parsed {} services", services.len());
 
-    // Phase 3: Build station index
-    log::info!("Phase 3: Building station index...");
-    let station_index = stations::build_index(&schedules);
-    log::info!("  {} unique stations", station_index.len());
+    // Phase 3: Index services by station
+    log::info!("Phase 3: Indexing services by station...");
+    let station_index = stations::index_services(&services);
+    log::info!("  {} stations", station_index.len());
 
-    // Phase 4: Group into tables and generate indexes
-    log::info!("Phase 4: Building table index...");
-    let table_index = table_index::build(&schedules, &station_index);
-    log::info!("  {} tables", table_index.len());
-
-    // Phase 5: Build route index
-    log::info!("Phase 5: Building route index...");
-    let route_index = route_index::build(&table_index);
-    log::info!("  {} routes", route_index.len());
-
-    // Phase 6: Generate Marey data
-    log::info!("Phase 6: Generating Marey chart data...");
-    let marey_data = marey::generate(&schedules, &route_index);
-    log::info!("  {} Marey charts", marey_data.len());
-
-    // Phase 7: Write all output
-    log::info!("Phase 7: Writing JSON output...");
-    stations::write(&station_index, &output_dir)?;
-    table_index::write(&table_index, &output_dir)?;
-    route_index::write(&route_index, &output_dir)?;
-    marey::write(&marey_data, &output_dir)?;
-
-    // Write per-table service files
-    for table in &table_index {
-        if !table.gap {
-            table_index::write_services(table, &schedules, &output_dir)?;
-        }
-    }
+    // Phase 4: Write output
+    log::info!("Phase 4: Writing JSON output...");
+    stations::write_index(&station_index, &output_dir)?;
+    stations::write_station_services(&station_index, &output_dir)?;
+    stations::write_marey_data(&station_index, &output_dir)?;
 
     log::info!("Done! Output in {}", output_dir.display());
     Ok(())

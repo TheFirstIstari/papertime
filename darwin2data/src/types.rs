@@ -137,3 +137,38 @@ pub struct MareyStop {
     pub arr: Option<u16>,
     pub dep: Option<u16>,
 }
+
+// Station-centric indexing types
+
+#[derive(Debug, Clone, Serialize, Deserialize)]
+pub struct StationIndex {
+    pub id: String,
+    pub name: String,
+    pub tiploc: String,
+    pub lat: Option<f64>,
+    pub lng: Option<f64>,
+    pub station_type: String,
+    pub services: Vec<ServiceRef>,
+    pub operators: Vec<String>,
+    pub destinations: Vec<String>,
+}
+
+#[derive(Debug, Clone, Serialize, Deserialize)]
+pub struct ServiceRef {
+    pub id: String,
+    pub headcode: String,
+    pub operator: String,
+    pub origin: String,
+    pub origin_name: String,
+    pub destination: String,
+    pub destination_name: String,
+    pub calls: Vec<CallRef>,
+    pub days: Vec<String>,
+}
+
+#[derive(Debug, Clone, Serialize, Deserialize)]
+pub struct CallRef {
+    pub crs: String,
+    pub arr: Option<String>,
+    pub dep: Option<String>,
+}
