@@ -103,7 +103,7 @@
 
 		const stations = data.stations;
 		const margin = { top: 40, right: 40, bottom: 60, left: 140 };
-		const minLabelSpacing = 16;
+		const minLabelSpacing = 24;
 		const chartHeight = Math.max(500, stations.length * minLabelSpacing);
 		const width = Math.max(800, stations.length * 30) - margin.left - margin.right;
 		const height = chartHeight - margin.top - margin.bottom;
