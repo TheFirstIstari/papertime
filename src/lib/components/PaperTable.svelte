@@ -144,7 +144,7 @@
 								<td class="border-b border-slate-800 px-2 py-2 text-center font-mono text-xs {highlightedCol === colIdx ? 'bg-blue-900/30' : ''}">
 									{#if stop}
 										{#if stop.dep !== null}<span class="text-slate-200">{formatTime(stop.dep)}</span>
-																			{:else if stop.arr !== null}<span class="text-slate-400">{formatTime(stop.arr)}</span>
+										{:else if stop.arr !== null}<span class="text-slate-400">{formatTime(stop.arr)}</span>
 										{:else}<span class="text-slate-600">—</span>{/if}
 									{:else}<span class="text-slate-700">—</span>{/if}
 								</td>
