@@ -14,10 +14,7 @@
 		'GC': '#882255', 'GX': '#56B4E9', 'LF': '#E86A10',
 		'XR': '#D55E00',
 	};
-	const FALLBACK_PALETTE = [
-		'#0ea5e9', '#f97316', '#a855f7', '#06b6d4',
-		'#ec4899', '#84cc16', '#14b8a6', '#e11d48',
-	];
+	// For within-operator differentiation: subtle hue shifts by service index
 	const DEFAULT_COLOR = '#64748b'; // slate-500
 
 	let { mareyData } = $props<{
@@ -41,14 +38,32 @@
 		if (mareyData) renderChart();
 	});
 
-	function getServiceColor(op: string, svcId: string): string {
-		if (op && OP_COLORS[op]) return OP_COLORS[op];
-		// Fallback: deterministic color from service index in ID (e.g. 'MF_5' -> idx=5)
-		const match = svcId.match(/_(\d+)$/);
-		if (match) {
-			return FALLBACK_PALETTE[parseInt(match[1]) % FALLBACK_PALETTE.length];
+	// Generate a slightly varied shade of the same hue for visual distinction
+	function varyColor(baseColor: string, index: number, total: number): string {
+		if (total <= 1) return baseColor;
+		// Parse the hex color
+		const r = parseInt(baseColor.slice(1, 3), 16);
+		const g = parseInt(baseColor.slice(3, 5), 16);
+		const b = parseInt(baseColor.slice(5, 7), 16);
+		// Slightly adjust brightness based on index
+		const factor = 0.85 + (index / Math.max(total - 1, 1)) * 0.3;
+		const nr = Math.min(255, Math.max(0, Math.round(r * factor)));
+		const ng = Math.min(255, Math.max(0, Math.round(g * factor)));
+		const nb = Math.min(255, Math.max(0, Math.round(b * factor)));
+		return `#${nr.toString(16).padStart(2, '0')}${ng.toString(16).padStart(2, '0')}${nb.toString(16).padStart(2, '0')}`;
+	}
+
+	function getServiceColor(op: string, svcId: string, svcIndex: number, totalWithSameOp: number): string {
+		if (op && OP_COLORS[op]) {
+			// Vary within operator group so services are distinguishable
+			if (totalWithSameOp > 1) {
+				return varyColor(OP_COLORS[op], svcIndex, totalWithSameOp);
+			}
+			return OP_COLORS[op];
 		}
-		return DEFAULT_COLOR;
+		// Unknown operator: use HSL spread across services
+		const hue = (svcIndex * 137.5) % 360; // golden angle for even distribution
+		return `hsl(${hue}, 65%, 55%)`;
 	}
 
 	function renderChart() {
@@ -59,9 +74,17 @@
 		let services = data.services.filter((s) => s.days.includes(activeDay));
 		if (services.length === 0) services = data.services.slice(0, 50);
 
+		// Build operator group indices for color variation
+		const opGroups = new Map<string, number>();
+		const opTotals = new Map<string, number>();
+		for (const s of services) {
+			const op = s.operator || '';
+			opTotals.set(op, (opTotals.get(op) || 0) + 1);
+		}
+
 		const stations = data.stations;
-		const margin = { top: 40, right: 40, bottom: 60, left: 130 };
-		const minLabelSpacing = 16; // pixels between station labels
+		const margin = { top: 40, right: 40, bottom: 60, left: 140 };
+		const minLabelSpacing = 16;
 		const chartHeight = Math.max(500, stations.length * minLabelSpacing);
 		const width = Math.max(800, stations.length * 30) - margin.left - margin.right;
 		const height = chartHeight - margin.top - margin.bottom;
@@ -75,26 +98,31 @@
 			.append('g')
 			.attr('transform', `translate(${margin.left},${margin.top})`);
 
-		// Pre-process: build points with midnight normalization, compute max time
+		// Pre-process: build points with midnight normalization
 		const maxMileage = d3.max(stations, (d) => d.mileage) || 100;
 		let maxTime = 1440;
 		const lineServices: { points: { x: number; y: number }[]; color: string; svc: (typeof services)[0] }[] = [];
 		const dotServices: { x: number; y: number; color: string; svc: (typeof services)[0] }[] = [];
+		const stationMap = new Map(stations.map((s) => [s.crs, s]));
 
 		for (const svc of services.slice(0, 200)) {
+			const op = svc.operator || '';
+			const opIndex = opGroups.get(op) || 0;
+			opGroups.set(op, opIndex + 1);
+
 			const points: { x: number; y: number }[] = [];
 			let prevTime = -1;
 			let timeOffset = 0;
-			let maxValidX = -1;
+			let lastValidX = -1;
 
 			for (const stop of svc.stops) {
-				const station = stations.find((s) => s.crs === stop.station);
+				const station = stationMap.get(stop.station);
 				if (!station) continue;
 				const time = stop.dep ?? stop.arr;
 				if (time === null) continue;
 
-				// Detect midnight crossing: time drops from >=12h (evening) to <4h (early morning)
-				if (prevTime >= 720 && time < 240) {
+				// Robust midnight detection: if time jumps backward by >10 hours, treat as midnight crossing
+				if (prevTime >= 0 && time < prevTime && prevTime - time > 600) {
 					timeOffset += 1440;
 				}
 				prevTime = time;
@@ -102,16 +130,15 @@
 				const x = time + timeOffset;
 				const y = station.mileage;
 
-				// Skip points where time goes backward (data quality issue from parser
-				// where arrival/departure column misalignment creates backward jumps)
-				if (x < maxValidX) continue;
-				maxValidX = x;
+				// Skip points where time goes backward (data quality issues)
+				if (x <= lastValidX) continue;
+				lastValidX = x;
 
 				if (x > maxTime) maxTime = x;
 				points.push({ x, y });
 			}
 
-			const color = getServiceColor(svc.operator, svc.id);
+			const color = getServiceColor(svc.operator, svc.id, opIndex, opTotals.get(op) || 1);
 			if (points.length >= 2) {
 				lineServices.push({ points, color, svc });
 			} else if (points.length === 1) {
@@ -119,16 +146,14 @@
 			}
 		}
 
-		// Round max time to next hour for clean axis
-		if (maxTime > 1440) {
-			maxTime = Math.max(1440, Math.ceil(maxTime / 60) * 60);
-		}
+		// Round max time up to next hour for clean axis
+		maxTime = Math.max(1440, Math.ceil(maxTime / 60) * 60);
 
 		// Scales
 		const yScale = d3.scaleLinear().domain([0, maxMileage]).range([height, 0]);
 		const xScale = d3.scaleLinear().domain([0, maxTime]).range([0, width]);
 
-		// Station labels (Y-axis) — show name, fall back to CRS
+		// Station labels (Y-axis)
 		svg.selectAll('.station-label')
 			.data(stations)
 			.enter()
@@ -140,12 +165,7 @@
 			.attr('text-anchor', 'end')
 			.attr('fill', '#94a3b8')
 			.attr('font-size', '11px')
-			.text((d) => {
-				const name = d.name || d.crs;
-				// If name is same as CRS (fallback), show just CRS
-				if (name === d.crs || name.length <= 3) return d.crs;
-				return name;
-			});
+			.text((d) => d.name || d.crs);
 
 		// Station grid lines
 		svg.selectAll('.station-line')
@@ -160,7 +180,7 @@
 			.attr('stroke', '#334155')
 			.attr('stroke-dasharray', '2,2');
 
-		// Midnight marker line
+		// Midnight marker line — only shown when chart extends past midnight
 		if (maxTime > 1440) {
 			const mx = xScale(1440);
 			svg.append('line')
@@ -179,7 +199,7 @@
 				.attr('fill', '#f59e0b')
 				.attr('font-size', '10px')
 				.attr('opacity', 0.5)
-				.text('midnight');
+				.text('00:00');
 			// Shade the "next day" area
 			svg.append('rect')
 				.attr('x', mx)
@@ -202,7 +222,8 @@
 			.tickFormat((d: number) => {
 				const h = Math.floor(d / 60);
 				const m = d % 60;
-				return `${h}:${m.toString().padStart(2, '0')}`;
+				const label = `${h}:${m.toString().padStart(2, '0')}`;
+				return label;
 			});
 
 		svg.append('g')
@@ -241,7 +262,7 @@
 				});
 		}
 
-		// Dots for services with only 1 valid point (partial data after cleaning)
+		// Dots for services with only 1 valid point
 		for (const { x, y, color, svc } of dotServices) {
 			svg.append('circle')
 				.attr('cx', xScale(x))
