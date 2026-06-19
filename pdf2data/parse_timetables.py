@@ -8,7 +8,7 @@ from pathlib import Path
 RAW_DIR = Path(__file__).parent.parent / "raw-text"
 TT_DIR = RAW_DIR / "timetable"
 RM_DIR = RAW_DIR / "route-maps"
-OUT_DIR = Path(__file__).parent.parent / "static" / "data"
+OUT_DIR = Path(__file__).parent.parent / "static"
 SERVICES_DIR = OUT_DIR / "services"
 
 CRS_RE = re.compile(r'\(([A-Z]{3})\)')
@@ -18,6 +18,17 @@ DAYS_MAP = {'Mondays to Fridays': 'MF', 'Saturdays': 'SAT', 'Sundays': 'SUN'}
 
 
 def main():
+    import sys
+
+    # Optional: filter to specific tables only (e.g., --tables 029,073)
+    filter_tables = None
+    for i, arg in enumerate(sys.argv[1:], 1):
+        if arg == '--tables' and i < len(sys.argv):
+            filter_tables = set(sys.argv[i + 1].split(','))
+            sys.argv.pop(i)
+            sys.argv.pop(i)
+            break
+
     OUT_DIR.mkdir(parents=True, exist_ok=True)
     SERVICES_DIR.mkdir(parents=True, exist_ok=True)
 
@@ -26,7 +37,7 @@ def main():
     print(f"  {len(route_maps)} route maps")
 
     print("Phase 2: Timetables...")
-    tables = parse_all_timetables()
+    tables = parse_all_timetables(filter_tables=filter_tables)
     n_services = sum(len(t["services"]) for t in tables if not t.get("gap"))
     n_stations = len(set(s for t in tables for s in t["stations"]))
     print(f"  {len(tables)} tables, {n_services} services, {n_stations} unique stations")
@@ -79,13 +90,19 @@ def parse_route_maps():
     return route_maps
 
 
-def parse_all_timetables():
+def parse_all_timetables(filter_tables=None):
     tables = []
     for path in sorted(TT_DIR.glob("*.txt")):
-        text = path.read_text().replace('\xa0', ' ').replace('\u2009', ' ')
         m = TABLE_NUM_RE.search(path.stem)
         table_num = m.group(1) if m else ""
 
+        # If filter is set, skip non-matching tables (check both main and 'a' suffixes)
+        if filter_tables is not None:
+            base_table = table_num
+            if base_table not in filter_tables:
+                continue
+
+        text = path.read_text().replace('\xa0', ' ').replace('\u2009', ' ')
         pages = PAGE_SPLIT_RE.split(text)
         name = ""
         operators = []
@@ -113,6 +130,11 @@ def parse_all_timetables():
                         while i < len(lines):
                             code_line = lines[i].strip()
                             if not code_line or code_line in DAYS_MAP or code_line.startswith('Operator'):
+                                break
+                            # Stop at section headers and station lines
+                            if code_line.startswith(('Days of operation', '1st Class', 'Catering', 'NOTES')):
+                                break
+                            if '(' in code_line and CRS_RE.search(code_line):
                                 break
                             if re.match(r'^[A-Z]{2,4}$', code_line) and code_line not in [o['code'] for o in operators]:
                                 operators.append({"code": code_line, "name": OP_NAMES.get(code_line, "Unknown"), "color": OP_COLORS.get(code_line, "#999")})
@@ -159,7 +181,12 @@ def parse_all_timetables():
                                     if not ct:
                                         break
                                     for col, mins in enumerate(ct):
-                                        if mins is not None and col < len(all_services):
+                                        if mins is None:
+                                            continue
+                                        if col >= len(all_services):
+                                            op_code = operators[col]['code'] if col < len(operators) else ""
+                                            all_services.append({"id": f"{dp}_{col}", "headcode": "", "operator": op_code, "days": [dp], "direction": "", "stops": []})
+                                        if col < len(all_services):
                                             all_services[col]["stops"].append({
                                                 "station": crs,
                                                 "arr": mins if "a" in direction else None,
@@ -181,9 +208,37 @@ def parse_all_timetables():
             "services": all_services,
             "gap": len(all_services) == 0 and len(all_stations) == 0,
         }
-        if not table_data["gap"] and all_services:
+
+        # Merge multi-part tables (e.g. Table 073 + Table 073a)
+        existing = next((t for t in tables if t["table"] == table_num), None)
+        if existing and not table_data["gap"]:
+            # Merge stations (preserve order, deduplicate)
+            seen = set(existing["stations"])
+            for s in table_data["stations"]:
+                if s not in seen:
+                    existing["stations"].append(s)
+                    seen.add(s)
+            # Merge services
+            existing["services"].extend(table_data["services"])
+            # Merge days
+            existing["days"] = sorted(set(existing["days"]) | set(table_data["days"]))
+            # Merge operators (preserve order, deduplicate)
+            seen_ops = {o["code"] for o in existing["operators"]}
+            for o in table_data["operators"]:
+                if o["code"] not in seen_ops:
+                    existing["operators"].append(o)
+                    seen_ops.add(o["code"])
+            # Update name if the main file has one
+            if not existing["name"] and table_data["name"]:
+                existing["name"] = table_data["name"]
+            # Rewrite the merged JSON
+            if existing["services"]:
+                write_json(SERVICES_DIR / f"{table_num}.json", existing)
+        elif not table_data["gap"] and all_services:
             write_json(SERVICES_DIR / f"{table_num}.json", table_data)
-        tables.append(table_data)
+            tables.append(table_data)
+        elif not existing:
+            tables.append(table_data)
     return tables
 
 
