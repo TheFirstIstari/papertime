@@ -40,21 +40,91 @@ Darwin is the GB rail industry's official train running information engine, oper
 
 ### 2.2 Darwin Timetable Feed
 
-The **Darwin Timetable Feed** is a push feed that provides the full GB rail timetable. This replaces the PDF parsing pipeline entirely.
+The **Darwin Timetable Feed** provides the full GB rail timetable as structured XML. This replaces the PDF parsing pipeline entirely.
 
 **Access:**
-- Register at [Rail Data Marketplace](https://www.raildatamarketplace.org.uk/)
-- Subscribe to "Darwin Timetable Feed"
-- Credentials: username + password for STOMP push port connection
+- Register at [Rail Data Marketplace](https://www.raildamarketplace.org.uk/)
+- Subscribe to "Darwin Timetable Feed" and/or "Darwin Push Port"
+- Credentials provided: S3 bucket name, access key, secret key, region
 - Terms: NRE OGL (Open Government Licence)
+- Cost: Free for all users
 
-**Feed characteristics:**
-- **Format**: XML push feed over STOMP protocol
-- **Content**: Full timetable schedules, including all services, stations, operators, days of operation
-- **Update frequency**: Periodic pushes (typically daily) + schedule changes
-- **Coverage**: All GB rail services — matches the National Rail timetable PDFs exactly (same source data)
+**Two feed options:**
 
-### 2.3 Why Darwin over PDFs?
+| Mode | Protocol | Complexity | Use Case |
+|------|----------|------------|----------|
+| **S3 Static Feed** (recommended) | HTTP GET + ZIP download | Simple — single request | Periodic full refresh (daily) |
+| **STOMP Push Feed** | Persistent TCP + STOMP 1.2 | Complex — connection management | Real-time updates |
+
+**Recommended: S3 Static Feed**
+- Single HTTP request downloads a ZIP file containing the full timetable
+- ZIP contains `schedule/` (individual XML files per service) and `ref/` (reference data)
+- No persistent connection needed
+- Can be run on-demand or on a schedule
+- Same data as the STOMP push feed
+
+**STOMP Push Feed (future):**
+- Persistent TCP connection to STOMP server (port 61613)
+- Subscribe to `/topic/timetable` for schedule updates
+- Messages delivered as XML wrapped in STOMP frames
+- Supports incremental updates (new/modified/deleted schedules)
+- Requires snapshot request for initial full load
+
+### 2.3 Darwin XML Data Format
+
+**Root element:**
+```xml
+<Pport xmlns="http://www.thalesgroup.com/rtti/PushPort/v16"
+       ts="2026-06-19T12:00:00" version="16.0">
+  <uR updateOrigin="Darwin">
+    <schedule>...</schedule>
+  </uR>
+</Pport>
+```
+
+**Schedule element (one train service):**
+```xml
+<schedule rid="202606190123456789" uid="C12345" trainId="1A01"
+          ssd="2026-06-19" toc="VT" status="P" isPassengerSvc="true">
+  <OR tpl="EUSTON" wtd="06:13" pta="06:13" ptd="06:13"/>
+  <IP tpl="WFJ" wta="06:30" wtd="06:31" pta="06:30" ptd="06:31"/>
+  <DT tpl="GLASGOW" wta="09:42" pta="09:42"/>
+</schedule>
+```
+
+**Location types:**
+
+| Type | Meaning | Public times | Working times |
+|------|---------|--------------|---------------|
+| `OR` | Origin (passenger) | pta/ptd | wtd required |
+| `OPOR` | Origin (operational) | — | wtd required |
+| `IP` | Intermediate (passenger) | pta/ptd | wta/wtd required |
+| `OPIP` | Intermediate (operational) | — | wta/wtd required |
+| `PP` | Passing point | — | wtp only |
+| `DT` | Destination (passenger) | pta/ptd | wta required |
+| `OPDT` | Destination (operational) | — | wta required |
+
+**Key attributes:**
+- `rid` — RTTI unique train ID
+- `uid` — Train UID (e.g. "C12345")
+- `trainId` — Headcode (e.g. "1A01")
+- `toc` — ATOC operator code (e.g. "VT")
+- `ssd` — Scheduled start date (YYYY-MM-DD)
+- `tpl` — TIPLOC location code
+- `pta/ptd` — Public times (HH:MM)
+- `wta/wtd/wtp` — Working times (HH:MM:SS)
+- `act` — Activity codes (TB=begin, TF=finish, T=stop, P=pass)
+
+**Time formats:**
+- Public times (pta/ptd): `HH:MM` — e.g., "06:13"
+- Working times (wta/wtd/wtp): `HH:MM:SS` — e.g., "06:13:00"
+- Dates (ssd): `YYYY-MM-DD`
+
+### 2.4 TIPLOC → CRS Mapping
+
+Darwin uses TIPLOC codes (e.g., "EUSTON") while the frontend uses CRS codes (e.g., "EUS"). The mapping is available in Darwin's reference data (`ref/` directory in S3 feed). This replaces our manual station name extraction.
+
+### 2.5 Why Darwin over PDFs?
 
 | Aspect | PDF Parsing (old) | Darwin Feed (new) |
 |--------|-------------------|-------------------|
