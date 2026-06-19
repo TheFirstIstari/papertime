@@ -14,7 +14,11 @@
 		'GC': '#882255', 'GX': '#56B4E9', 'LF': '#E86A10',
 		'XR': '#D55E00',
 	};
-	const DEFAULT_COLOR = '#64748b'; // slate-500 for unknown operators
+	const FALLBACK_PALETTE = [
+		'#0ea5e9', '#f97316', '#a855f7', '#06b6d4',
+		'#ec4899', '#84cc16', '#14b8a6', '#e11d48',
+	];
+	const DEFAULT_COLOR = '#64748b'; // slate-500
 
 	let { mareyData } = $props<{
 		mareyData: {
@@ -37,8 +41,14 @@
 		if (mareyData) renderChart();
 	});
 
-	function getOperatorColor(op: string): string {
-		return OP_COLORS[op] || DEFAULT_COLOR;
+	function getServiceColor(op: string, svcId: string): string {
+		if (op && OP_COLORS[op]) return OP_COLORS[op];
+		// Fallback: deterministic color from service index in ID (e.g. 'MF_5' -> idx=5)
+		const match = svcId.match(/_(\d+)$/);
+		if (match) {
+			return FALLBACK_PALETTE[parseInt(match[1]) % FALLBACK_PALETTE.length];
+		}
+		return DEFAULT_COLOR;
 	}
 
 	function renderChart() {
@@ -68,7 +78,8 @@
 		// Pre-process: build points with midnight normalization, compute max time
 		const maxMileage = d3.max(stations, (d) => d.mileage) || 100;
 		let maxTime = 1440;
-		const serviceLines: { points: { x: number; y: number }[]; color: string; svc: (typeof services)[0] }[] = [];
+		const lineServices: { points: { x: number; y: number }[]; color: string; svc: (typeof services)[0] }[] = [];
+		const dotServices: { x: number; y: number; color: string; svc: (typeof services)[0] }[] = [];
 
 		for (const svc of services.slice(0, 200)) {
 			const points: { x: number; y: number }[] = [];
@@ -100,8 +111,11 @@
 				points.push({ x, y });
 			}
 
+			const color = getServiceColor(svc.operator, svc.id);
 			if (points.length >= 2) {
-				serviceLines.push({ points, color: getOperatorColor(svc.operator), svc });
+				lineServices.push({ points, color, svc });
+			} else if (points.length === 1) {
+				dotServices.push({ ...points[0], color, svc });
 			}
 		}
 
@@ -203,7 +217,7 @@
 			.y((d) => yScale(d.y))
 			.curve(d3.curveLinear);
 
-		for (const { points, color, svc } of serviceLines) {
+		for (const { points, color, svc } of lineServices) {
 			svg.append('path')
 				.datum(points)
 				.attr('d', line)
@@ -222,7 +236,31 @@
 						visible: true,
 						x: event.pageX + 10,
 						y: event.pageY - 10,
-						content: `${svc.id} (${svc.operator || '?'})`
+						content: `${svc.id} (${svc.operator || svc.id.match(/^(\w+)/)?.[1] || '?'})`
+					};
+				});
+		}
+
+		// Dots for services with only 1 valid point (partial data after cleaning)
+		for (const { x, y, color, svc } of dotServices) {
+			svg.append('circle')
+				.attr('cx', xScale(x))
+				.attr('cy', yScale(y))
+				.attr('r', 2.5)
+				.attr('fill', color)
+				.attr('opacity', 0.5)
+				.on('mouseover', function () {
+					d3.select(this).attr('r', 5).attr('opacity', 1);
+				})
+				.on('mouseout', function () {
+					d3.select(this).attr('r', 2.5).attr('opacity', 0.5);
+				})
+				.on('mousemove', (event) => {
+					tooltip = {
+						visible: true,
+						x: event.pageX + 10,
+						y: event.pageY - 10,
+						content: `${svc.id} (${svc.operator || svc.id.match(/^(\w+)/)?.[1] || '?'})`
 					};
 				});
 		}
