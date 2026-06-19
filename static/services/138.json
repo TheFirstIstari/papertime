@@ -1521,6 +1521,11 @@
           "station": "XCV",
           "arr": 991,
           "dep": null
+        },
+        {
+          "station": "COP",
+          "arr": null,
+          "dep": 1035
         }
       ]
     },
@@ -1567,6 +1572,11 @@
           "station": "XCV",
           "arr": 991,
           "dep": null
+        },
+        {
+          "station": "COP",
+          "arr": null,
+          "dep": 1035
         }
       ]
     },
@@ -2953,8 +2963,18 @@
           "dep": 7
         },
         {
+          "station": "CDI",
+          "arr": 1009,
+          "dep": 1011
+        },
+        {
           "station": "EXD",
-          "arr": 18,
+          "arr": 1023,
+          "dep": 1025
+        },
+        {
+          "station": "EXC",
+          "arr": 1028,
           "dep": null
         }
       ]

@@ -1478,6 +1478,21 @@
           "station": "APF",
           "arr": null,
           "dep": 971
+        },
+        {
+          "station": "CUM",
+          "arr": null,
+          "dep": 1119
+        },
+        {
+          "station": "RAD",
+          "arr": null,
+          "dep": 1123
+        },
+        {
+          "station": "OXF",
+          "arr": 1156,
+          "dep": null
         }
       ]
     },
@@ -2521,6 +2536,11 @@
           "station": "TLH",
           "arr": null,
           "dep": 1346
+        },
+        {
+          "station": "DID",
+          "arr": 1359,
+          "dep": null
         }
       ]
     },
@@ -3992,6 +4012,26 @@
           "station": "OXF",
           "arr": 952,
           "dep": 999
+        },
+        {
+          "station": "BAN",
+          "arr": null,
+          "dep": 1016
+        },
+        {
+          "station": "OXF",
+          "arr": null,
+          "dep": 1030
+        },
+        {
+          "station": "DID",
+          "arr": null,
+          "dep": 1041
+        },
+        {
+          "station": "RDG",
+          "arr": 1064,
+          "dep": null
         }
       ]
     },
@@ -6795,8 +6835,18 @@
           "dep": 374
         },
         {
+          "station": "DID",
+          "arr": null,
+          "dep": 396
+        },
+        {
+          "station": "RDG",
+          "arr": 408,
+          "dep": null
+        },
+        {
           "station": "PAD",
-          "arr": 380,
+          "arr": 446,
           "dep": null
         }
       ]
@@ -9297,6 +9347,11 @@
           "station": "DID",
           "arr": null,
           "dep": 24
+        },
+        {
+          "station": "RDG",
+          "arr": 36,
+          "dep": null
         }
       ]
     },
@@ -13064,6 +13119,21 @@
           "station": "TWY",
           "arr": 60,
           "dep": null
+        },
+        {
+          "station": "HAY",
+          "arr": 84,
+          "dep": null
+        },
+        {
+          "station": "STL",
+          "arr": 88,
+          "dep": null
+        },
+        {
+          "station": "EAL",
+          "arr": 93,
+          "dep": null
         }
       ]
     },
@@ -13124,8 +13194,8 @@
           "dep": 35
         },
         {
-          "station": "PAD",
-          "arr": 102,
+          "station": "RDG",
+          "arr": 50,
           "dep": null
         }
       ]

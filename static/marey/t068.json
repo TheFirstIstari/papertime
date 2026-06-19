@@ -3713,6 +3713,21 @@
           "station": "COV",
           "arr": null,
           "dep": 11
+        },
+        {
+          "station": "BHI",
+          "arr": 20,
+          "dep": 21
+        },
+        {
+          "station": "BHM",
+          "arr": 33,
+          "dep": 36
+        },
+        {
+          "station": "WVH",
+          "arr": 64,
+          "dep": null
         }
       ]
     },
@@ -3739,6 +3754,26 @@
           "station": "RUG",
           "arr": null,
           "dep": 33
+        },
+        {
+          "station": "COV",
+          "arr": null,
+          "dep": 44
+        },
+        {
+          "station": "BHI",
+          "arr": 53,
+          "dep": 54
+        },
+        {
+          "station": "BHM",
+          "arr": 64,
+          "dep": 67
+        },
+        {
+          "station": "WVH",
+          "arr": 92,
+          "dep": null
         }
       ]
     },
@@ -3765,6 +3800,26 @@
           "station": "RUG",
           "arr": null,
           "dep": 53
+        },
+        {
+          "station": "COV",
+          "arr": null,
+          "dep": 64
+        },
+        {
+          "station": "BHI",
+          "arr": 73,
+          "dep": 74
+        },
+        {
+          "station": "BHM",
+          "arr": 84,
+          "dep": 88
+        },
+        {
+          "station": "WVH",
+          "arr": 113,
+          "dep": null
         }
       ]
     },
@@ -3786,6 +3841,31 @@
           "station": "MKC",
           "arr": null,
           "dep": 29
+        },
+        {
+          "station": "RUG",
+          "arr": null,
+          "dep": 59
+        },
+        {
+          "station": "COV",
+          "arr": null,
+          "dep": 71
+        },
+        {
+          "station": "BHI",
+          "arr": 80,
+          "dep": 81
+        },
+        {
+          "station": "BHM",
+          "arr": 92,
+          "dep": 95
+        },
+        {
+          "station": "WVH",
+          "arr": 122,
+          "dep": null
         }
       ]
     },
@@ -3807,6 +3887,31 @@
           "station": "MKC",
           "arr": null,
           "dep": 29
+        },
+        {
+          "station": "RUG",
+          "arr": null,
+          "dep": 69
+        },
+        {
+          "station": "COV",
+          "arr": null,
+          "dep": 80
+        },
+        {
+          "station": "BHI",
+          "arr": 89,
+          "dep": 91
+        },
+        {
+          "station": "BHM",
+          "arr": 102,
+          "dep": 105
+        },
+        {
+          "station": "WVH",
+          "arr": 132,
+          "dep": null
         }
       ]
     },
@@ -6637,6 +6742,21 @@
           "station": "SGB",
           "arr": null,
           "dep": 1250
+        },
+        {
+          "station": "SAD",
+          "arr": null,
+          "dep": 1398
+        },
+        {
+          "station": "SGB",
+          "arr": null,
+          "dep": 1401
+        },
+        {
+          "station": "BHM",
+          "arr": 1410,
+          "dep": null
         }
       ]
     },
@@ -12105,16 +12225,16 @@
         {
           "station": "SAD",
           "arr": null,
-          "dep": 1383
+          "dep": 1398
+        },
+        {
+          "station": "SGB",
+          "arr": null,
+          "dep": 1401
         },
         {
           "station": "BHM",
-          "arr": 1368,
-          "dep": 1391
-        },
-        {
-          "station": "BHI",
-          "arr": 1400,
+          "arr": 1410,
           "dep": null
         }
       ]
@@ -12151,31 +12271,31 @@
         {
           "station": "CSY",
           "arr": null,
-          "dep": 1373
+          "dep": 1388
         },
         {
           "station": "TIP",
           "arr": null,
-          "dep": 1376
+          "dep": 1391
         },
         {
           "station": "DDP",
           "arr": null,
-          "dep": 1379
+          "dep": 1394
         },
         {
           "station": "SAD",
           "arr": null,
-          "dep": 1383
+          "dep": 1398
+        },
+        {
+          "station": "SGB",
+          "arr": null,
+          "dep": 1401
         },
         {
           "station": "BHM",
-          "arr": 1368,
-          "dep": 1391
-        },
-        {
-          "station": "BHI",
-          "arr": 1400,
+          "arr": 1410,
           "dep": null
         }
       ]
@@ -12471,31 +12591,31 @@
         {
           "station": "CSY",
           "arr": null,
-          "dep": 1373
+          "dep": 1388
         },
         {
           "station": "TIP",
           "arr": null,
-          "dep": 1376
+          "dep": 1391
         },
         {
           "station": "DDP",
           "arr": null,
-          "dep": 1379
+          "dep": 1394
         },
         {
           "station": "SAD",
           "arr": null,
-          "dep": 1383
+          "dep": 1398
+        },
+        {
+          "station": "SGB",
+          "arr": null,
+          "dep": 1401
         },
         {
           "station": "BHM",
-          "arr": 1368,
-          "dep": 1391
-        },
-        {
-          "station": "BHI",
-          "arr": 1400,
+          "arr": 1410,
           "dep": null
         }
       ]
@@ -12528,6 +12648,36 @@
           "station": "TAB",
           "arr": null,
           "dep": 1386
+        },
+        {
+          "station": "CSY",
+          "arr": null,
+          "dep": 1388
+        },
+        {
+          "station": "TIP",
+          "arr": null,
+          "dep": 1391
+        },
+        {
+          "station": "DDP",
+          "arr": null,
+          "dep": 1394
+        },
+        {
+          "station": "SAD",
+          "arr": null,
+          "dep": 1398
+        },
+        {
+          "station": "SGB",
+          "arr": null,
+          "dep": 1401
+        },
+        {
+          "station": "BHM",
+          "arr": 1410,
+          "dep": null
         }
       ]
     },
@@ -12624,6 +12774,11 @@
         {
           "station": "MKC",
           "arr": 26,
+          "dep": null
+        },
+        {
+          "station": "EUS",
+          "arr": 80,
           "dep": null
         }
       ]

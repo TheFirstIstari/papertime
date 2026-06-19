@@ -6429,6 +6429,16 @@
           "station": "FOH",
           "arr": null,
           "dep": 1
+        },
+        {
+          "station": "SYD",
+          "arr": null,
+          "dep": 5
+        },
+        {
+          "station": "NWD",
+          "arr": 17,
+          "dep": 15
         }
       ]
     },
@@ -6450,6 +6460,26 @@
           "station": "BCY",
           "arr": null,
           "dep": 2
+        },
+        {
+          "station": "HPA",
+          "arr": null,
+          "dep": 5
+        },
+        {
+          "station": "FOH",
+          "arr": null,
+          "dep": 7
+        },
+        {
+          "station": "SYD",
+          "arr": null,
+          "dep": 11
+        },
+        {
+          "station": "NWD",
+          "arr": null,
+          "dep": 18
         }
       ]
     },
@@ -17261,6 +17291,11 @@
           "station": "FOH",
           "arr": null,
           "dep": 2
+        },
+        {
+          "station": "SYD",
+          "arr": null,
+          "dep": 5
         }
       ]
     },
@@ -18249,6 +18284,31 @@
           "station": "PNW",
           "arr": null,
           "dep": 491
+        },
+        {
+          "station": "CYP",
+          "arr": null,
+          "dep": 620
+        },
+        {
+          "station": "SYD",
+          "arr": null,
+          "dep": 636
+        },
+        {
+          "station": "FOH",
+          "arr": null,
+          "dep": 639
+        },
+        {
+          "station": "HPA",
+          "arr": null,
+          "dep": 641
+        },
+        {
+          "station": "BCY",
+          "arr": null,
+          "dep": 644
         }
       ]
     },
@@ -18280,6 +18340,31 @@
           "station": "PNW",
           "arr": null,
           "dep": 506
+        },
+        {
+          "station": "CYP",
+          "arr": null,
+          "dep": 620
+        },
+        {
+          "station": "SYD",
+          "arr": null,
+          "dep": 636
+        },
+        {
+          "station": "FOH",
+          "arr": null,
+          "dep": 639
+        },
+        {
+          "station": "HPA",
+          "arr": null,
+          "dep": 641
+        },
+        {
+          "station": "BCY",
+          "arr": null,
+          "dep": 644
         }
       ]
     },
@@ -22404,6 +22489,31 @@
           "station": "PNW",
           "arr": null,
           "dep": 1361
+        },
+        {
+          "station": "CYP",
+          "arr": null,
+          "dep": 1382
+        },
+        {
+          "station": "SYD",
+          "arr": null,
+          "dep": 1401
+        },
+        {
+          "station": "FOH",
+          "arr": null,
+          "dep": 1404
+        },
+        {
+          "station": "HPA",
+          "arr": null,
+          "dep": 1406
+        },
+        {
+          "station": "BCY",
+          "arr": null,
+          "dep": 1409
         }
       ]
     },
@@ -22970,33 +23080,28 @@
         },
         {
           "station": "NWD",
-          "arr": 392,
-          "dep": 397
-        },
-        {
-          "station": "CYP",
-          "arr": null,
-          "dep": 407
+          "arr": 516,
+          "dep": 526
         },
         {
           "station": "SYD",
           "arr": null,
-          "dep": 411
+          "dep": 535
         },
         {
           "station": "FOH",
           "arr": null,
-          "dep": 414
+          "dep": 538
         },
         {
           "station": "HPA",
           "arr": null,
-          "dep": 416
+          "dep": 540
         },
         {
           "station": "BCY",
           "arr": null,
-          "dep": 419
+          "dep": 543
         }
       ]
     },
@@ -23017,37 +23122,32 @@
         {
           "station": "WCY",
           "arr": null,
-          "dep": 376
+          "dep": 520
         },
         {
           "station": "NWD",
-          "arr": 392,
-          "dep": 397
-        },
-        {
-          "station": "CYP",
-          "arr": null,
-          "dep": 407
+          "arr": 516,
+          "dep": 526
         },
         {
           "station": "SYD",
           "arr": null,
-          "dep": 411
+          "dep": 535
         },
         {
           "station": "FOH",
           "arr": null,
-          "dep": 414
+          "dep": 538
         },
         {
           "station": "HPA",
           "arr": null,
-          "dep": 416
+          "dep": 540
         },
         {
           "station": "BCY",
           "arr": null,
-          "dep": 419
+          "dep": 543
         }
       ]
     },
@@ -23064,6 +23164,36 @@
           "station": "ECR",
           "arr": null,
           "dep": 393
+        },
+        {
+          "station": "WCY",
+          "arr": null,
+          "dep": 520
+        },
+        {
+          "station": "NWD",
+          "arr": 516,
+          "dep": 526
+        },
+        {
+          "station": "SYD",
+          "arr": null,
+          "dep": 535
+        },
+        {
+          "station": "FOH",
+          "arr": null,
+          "dep": 538
+        },
+        {
+          "station": "HPA",
+          "arr": null,
+          "dep": 540
+        },
+        {
+          "station": "BCY",
+          "arr": null,
+          "dep": 543
         }
       ]
     },
@@ -27519,6 +27649,31 @@
           "station": "PNW",
           "arr": null,
           "dep": 1256
+        },
+        {
+          "station": "CYP",
+          "arr": null,
+          "dep": 1382
+        },
+        {
+          "station": "SYD",
+          "arr": null,
+          "dep": 1401
+        },
+        {
+          "station": "FOH",
+          "arr": null,
+          "dep": 1404
+        },
+        {
+          "station": "HPA",
+          "arr": null,
+          "dep": 1406
+        },
+        {
+          "station": "BCY",
+          "arr": null,
+          "dep": 1409
         }
       ]
     },
@@ -28954,6 +29109,11 @@
         {
           "station": "HHY",
           "arr": 551,
+          "dep": null
+        },
+        {
+          "station": "LBG",
+          "arr": 1425,
           "dep": null
         }
       ]
@@ -32802,6 +32962,16 @@
           "station": "HPA",
           "arr": null,
           "dep": 2
+        },
+        {
+          "station": "BCY",
+          "arr": null,
+          "dep": 4
+        },
+        {
+          "station": "LBG",
+          "arr": 14,
+          "dep": null
         }
       ]
     },
@@ -32843,6 +33013,16 @@
           "station": "HPA",
           "arr": null,
           "dep": 2
+        },
+        {
+          "station": "BCY",
+          "arr": null,
+          "dep": 4
+        },
+        {
+          "station": "LBG",
+          "arr": 14,
+          "dep": null
         }
       ]
     },
@@ -32884,6 +33064,16 @@
           "station": "HPA",
           "arr": null,
           "dep": 2
+        },
+        {
+          "station": "BCY",
+          "arr": null,
+          "dep": 4
+        },
+        {
+          "station": "LBG",
+          "arr": 14,
+          "dep": null
         }
       ]
     },
@@ -32920,6 +33110,16 @@
           "station": "HPA",
           "arr": null,
           "dep": 2
+        },
+        {
+          "station": "BCY",
+          "arr": null,
+          "dep": 4
+        },
+        {
+          "station": "LBG",
+          "arr": 14,
+          "dep": null
         }
       ]
     },
@@ -32956,6 +33156,16 @@
           "station": "HPA",
           "arr": null,
           "dep": 2
+        },
+        {
+          "station": "BCY",
+          "arr": null,
+          "dep": 4
+        },
+        {
+          "station": "LBG",
+          "arr": 14,
+          "dep": null
         }
       ]
     },
@@ -33069,6 +33279,16 @@
           "station": "HPA",
           "arr": null,
           "dep": 2
+        },
+        {
+          "station": "BCY",
+          "arr": null,
+          "dep": 4
+        },
+        {
+          "station": "LBG",
+          "arr": 14,
+          "dep": null
         }
       ]
     },

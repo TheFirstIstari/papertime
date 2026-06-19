@@ -39,21 +39,18 @@ def find_first_backward(stops):
         # Apply midnight offset for comparison
         adj = t
         if not crossed_midnight and prev_adj >= 720 and t < 240:
-            adj += 1440  # crossed midnight
+            adj += 1440  # first crossing
             crossed_midnight = True
             prev_time = t
             prev_adj = adj
             continue
+        elif crossed_midnight and t < 240:
+            adj += 1440  # still in post-midnight zone
 
         if prev_time >= 0 and adj < prev_adj:
-            # Detect if we're in a mid-night zone
-            is_midnight = crossed_midnight or (
-                prev_adj < 480 and any(
-                    (stops[j].get("dep") or stops[j].get("arr")) is not None and
-                    (stops[j].get("dep") or stops[j].get("arr")) < 240
-                    for j in range(max(0, i-8), i)
-                )
-            )
+            # Only treat as midnight zone if the backward jump is small
+            # and we've crossed midnight recently (within the last 3 stations)
+            is_midnight = crossed_midnight and (prev_adj < 720 + 480 or (prev_adj - adj) <= 120)
             return i, is_midnight
 
         prev_time = t
@@ -99,10 +96,10 @@ def merge_same_station_stops(services):
 def find_clean_source(services, svc_idx, target_station, min_acceptable_time):
     """
     Find the first service j > svc_idx whose time at target_station
-    is >= min_acceptable_time. Returns (j, borrow_idx) or (None, None).
+    is >= min_acceptable_time. Scans ALL remaining services.
+    Returns (j, borrow_idx) or (None, None).
     """
-    lookahead = 20  # max services to scan ahead
-    for j in range(svc_idx + 1, min(svc_idx + lookahead + 1, len(services))):
+    for j in range(svc_idx + 1, len(services)):
         for k, ns in enumerate(services[j]["stops"]):
             if ns["station"] == target_station:
                 nt = ns.get("dep") or ns.get("arr")
@@ -132,10 +129,37 @@ def fix_column_shifts(services):
 
             target = svc["stops"][fix_idx]["station"]
 
-            # For midnight-crossing services, don't try to borrow — just
-            # remove the erroneous entry. The post-midnight data is unreliable.
+            # For midnight-crossing services with small backward jumps,
+            # nudge the time forward to maintain monotonic progression.
             if is_midnight:
-                # Remove just this bad stop, keep the rest
+                bad_stop = svc["stops"][fix_idx]
+                bad_raw = bad_stop.get("dep") or bad_stop.get("arr")
+                
+                # Find previous valid stop and normalize both to adjusted times
+                prev_raw = None
+                for p in range(fix_idx - 1, -1, -1):
+                    pt = svc["stops"][p].get("dep") or svc["stops"][p].get("arr")
+                    if pt is not None:
+                        prev_raw = pt
+                        break
+                
+                if prev_raw is not None:
+                    prev_adj = prev_raw + 1440  # post-midnight
+                    bad_adj = bad_raw + 1440
+                    diff = prev_adj - bad_adj
+                    
+                    # Small diff (≤5 min): nudge forward to match prev time
+                    if diff > 0 and diff <= 5:
+                        new_raw = bad_raw + diff
+                        if bad_stop.get("dep") is not None:
+                            bad_stop["dep"] = new_raw
+                        if bad_stop.get("arr") is not None:
+                            bad_stop["arr"] = new_raw
+                        svc["stops"][fix_idx] = bad_stop
+                        truncated += 1
+                        continue
+                
+                # Fallback: remove the bad stop
                 svc["stops"] = svc["stops"][:fix_idx] + svc["stops"][fix_idx+1:]
                 truncated += 1
                 continue
