@@ -125,11 +125,6 @@
         {
           "station": "MFT",
           "arr": 351,
-          "dep": null
-        },
-        {
-          "station": "MFT",
-          "arr": null,
           "dep": 351
         },
         {
@@ -182,6 +177,26 @@
           "station": "BLW",
           "arr": null,
           "dep": 516
+        },
+        {
+          "station": "HKN",
+          "arr": null,
+          "dep": 1242
+        },
+        {
+          "station": "KKB",
+          "arr": null,
+          "dep": 1253
+        },
+        {
+          "station": "SPK",
+          "arr": null,
+          "dep": 1256
+        },
+        {
+          "station": "MFT",
+          "arr": 1261,
+          "dep": 1262
         }
       ]
     },
@@ -203,6 +218,26 @@
           "station": "BLW",
           "arr": null,
           "dep": 1117
+        },
+        {
+          "station": "HKN",
+          "arr": null,
+          "dep": 1242
+        },
+        {
+          "station": "KKB",
+          "arr": null,
+          "dep": 1253
+        },
+        {
+          "station": "SPK",
+          "arr": null,
+          "dep": 1256
+        },
+        {
+          "station": "MFT",
+          "arr": 1261,
+          "dep": 1262
         }
       ]
     },
@@ -224,6 +259,26 @@
           "station": "BLW",
           "arr": null,
           "dep": 1236
+        },
+        {
+          "station": "HKN",
+          "arr": null,
+          "dep": 1242
+        },
+        {
+          "station": "KKB",
+          "arr": null,
+          "dep": 1253
+        },
+        {
+          "station": "SPK",
+          "arr": null,
+          "dep": 1256
+        },
+        {
+          "station": "MFT",
+          "arr": 1261,
+          "dep": 1262
         }
       ]
     },
@@ -264,11 +319,6 @@
         {
           "station": "MFT",
           "arr": 601,
-          "dep": null
-        },
-        {
-          "station": "MFT",
-          "arr": null,
           "dep": 602
         },
         {
@@ -285,6 +335,16 @@
           "station": "LAG",
           "arr": null,
           "dep": 858
+        },
+        {
+          "station": "CWD",
+          "arr": null,
+          "dep": 982
+        },
+        {
+          "station": "WRK",
+          "arr": 993,
+          "dep": null
         }
       ]
     },
@@ -325,11 +385,6 @@
         {
           "station": "MFT",
           "arr": 661,
-          "dep": null
-        },
-        {
-          "station": "MFT",
-          "arr": null,
           "dep": 662
         },
         {
@@ -346,6 +401,16 @@
           "station": "LAG",
           "arr": null,
           "dep": 978
+        },
+        {
+          "station": "CWD",
+          "arr": null,
+          "dep": 982
+        },
+        {
+          "station": "WRK",
+          "arr": 993,
+          "dep": null
         }
       ]
     },
@@ -386,11 +451,6 @@
         {
           "station": "MFT",
           "arr": 721,
-          "dep": null
-        },
-        {
-          "station": "MFT",
-          "arr": null,
           "dep": 722
         },
         {
@@ -447,11 +507,6 @@
         {
           "station": "MFT",
           "arr": 781,
-          "dep": null
-        },
-        {
-          "station": "MFT",
-          "arr": null,
           "dep": 782
         },
         {
@@ -508,11 +563,6 @@
         {
           "station": "MFT",
           "arr": 841,
-          "dep": null
-        },
-        {
-          "station": "MFT",
-          "arr": null,
           "dep": 842
         },
         {
@@ -574,11 +624,6 @@
         {
           "station": "MFT",
           "arr": 901,
-          "dep": null
-        },
-        {
-          "station": "MFT",
-          "arr": null,
           "dep": 902
         },
         {
@@ -640,11 +685,6 @@
         {
           "station": "MFT",
           "arr": 961,
-          "dep": null
-        },
-        {
-          "station": "MFT",
-          "arr": null,
           "dep": 962
         },
         {
@@ -706,11 +746,6 @@
         {
           "station": "MFT",
           "arr": 1021,
-          "dep": null
-        },
-        {
-          "station": "MFT",
-          "arr": null,
           "dep": 1022
         },
         {
@@ -760,24 +795,19 @@
           "dep": 1067
         },
         {
-          "station": "MSW",
+          "station": "KKB",
           "arr": null,
-          "dep": 1087
+          "dep": 1253
         },
         {
-          "station": "SHB",
+          "station": "SPK",
           "arr": null,
-          "dep": 1093
+          "dep": 1256
         },
         {
-          "station": "CWD",
-          "arr": null,
-          "dep": 1102
-        },
-        {
-          "station": "WRK",
-          "arr": 1113,
-          "dep": null
+          "station": "MFT",
+          "arr": 1261,
+          "dep": 1262
         }
       ]
     },
@@ -806,24 +836,19 @@
           "dep": 1128
         },
         {
-          "station": "MSW",
+          "station": "KKB",
           "arr": null,
-          "dep": 1148
+          "dep": 1253
         },
         {
-          "station": "SHB",
+          "station": "SPK",
           "arr": null,
-          "dep": 1154
+          "dep": 1256
         },
         {
-          "station": "CWD",
-          "arr": null,
-          "dep": 1160
-        },
-        {
-          "station": "WRK",
-          "arr": 1174,
-          "dep": null
+          "station": "MFT",
+          "arr": 1261,
+          "dep": 1262
         }
       ]
     },
@@ -852,24 +877,19 @@
           "dep": 1187
         },
         {
-          "station": "MSW",
+          "station": "KKB",
           "arr": null,
-          "dep": 1207
+          "dep": 1253
         },
         {
-          "station": "SHB",
+          "station": "SPK",
           "arr": null,
-          "dep": 1213
+          "dep": 1256
         },
         {
-          "station": "CWD",
-          "arr": null,
-          "dep": 1222
-        },
-        {
-          "station": "WRK",
-          "arr": 1233,
-          "dep": null
+          "station": "MFT",
+          "arr": 1261,
+          "dep": 1262
         }
       ]
     },
@@ -898,24 +918,19 @@
           "dep": 1247
         },
         {
-          "station": "MSW",
+          "station": "KKB",
           "arr": null,
-          "dep": 1267
+          "dep": 1253
         },
         {
-          "station": "SHB",
+          "station": "SPK",
           "arr": null,
-          "dep": 1273
+          "dep": 1256
         },
         {
-          "station": "CWD",
-          "arr": null,
-          "dep": 1279
-        },
-        {
-          "station": "WRK",
-          "arr": 1293,
-          "dep": null
+          "station": "MFT",
+          "arr": 1261,
+          "dep": 1262
         }
       ]
     },
@@ -951,11 +966,6 @@
         {
           "station": "MFT",
           "arr": 1201,
-          "dep": null
-        },
-        {
-          "station": "MFT",
-          "arr": null,
           "dep": 1202
         }
       ]
@@ -992,11 +1002,6 @@
         {
           "station": "MFT",
           "arr": 1261,
-          "dep": null
-        },
-        {
-          "station": "MFT",
-          "arr": null,
           "dep": 1262
         }
       ]
@@ -1043,11 +1048,6 @@
         {
           "station": "MFT",
           "arr": 351,
-          "dep": null
-        },
-        {
-          "station": "MFT",
-          "arr": null,
           "dep": 351
         },
         {
@@ -1100,6 +1100,31 @@
           "station": "BLW",
           "arr": null,
           "dep": 516
+        },
+        {
+          "station": "HKN",
+          "arr": null,
+          "dep": 522
+        },
+        {
+          "station": "NSD",
+          "arr": null,
+          "dep": 587
+        },
+        {
+          "station": "KKB",
+          "arr": null,
+          "dep": 893
+        },
+        {
+          "station": "SPK",
+          "arr": null,
+          "dep": 896
+        },
+        {
+          "station": "MFT",
+          "arr": 901,
+          "dep": 902
         }
       ]
     },
@@ -1140,11 +1165,6 @@
         {
           "station": "MFT",
           "arr": 481,
-          "dep": null
-        },
-        {
-          "station": "MFT",
-          "arr": null,
           "dep": 482
         },
         {
@@ -1189,19 +1209,19 @@
           "dep": 527
         },
         {
-          "station": "MSW",
+          "station": "KKB",
           "arr": null,
-          "dep": 547
+          "dep": 893
         },
         {
-          "station": "SHB",
+          "station": "SPK",
           "arr": null,
-          "dep": 553
+          "dep": 896
         },
         {
-          "station": "LAG",
-          "arr": null,
-          "dep": 738
+          "station": "MFT",
+          "arr": 901,
+          "dep": 902
         }
       ]
     },
@@ -1230,19 +1250,19 @@
           "dep": 587
         },
         {
-          "station": "MSW",
+          "station": "KKB",
           "arr": null,
-          "dep": 607
+          "dep": 893
         },
         {
-          "station": "SHB",
+          "station": "SPK",
           "arr": null,
-          "dep": 613
+          "dep": 896
         },
         {
-          "station": "LAG",
-          "arr": null,
-          "dep": 858
+          "station": "MFT",
+          "arr": 901,
+          "dep": 902
         }
       ]
     },
@@ -1271,24 +1291,19 @@
           "dep": 647
         },
         {
-          "station": "MSW",
+          "station": "KKB",
           "arr": null,
-          "dep": 667
+          "dep": 893
         },
         {
-          "station": "SHB",
+          "station": "SPK",
           "arr": null,
-          "dep": 673
+          "dep": 896
         },
         {
-          "station": "CWD",
-          "arr": null,
-          "dep": 679
-        },
-        {
-          "station": "WWL",
-          "arr": null,
-          "dep": 923
+          "station": "MFT",
+          "arr": 901,
+          "dep": 902
         }
       ]
     },
@@ -1317,24 +1332,19 @@
           "dep": 707
         },
         {
-          "station": "MSW",
+          "station": "KKB",
           "arr": null,
-          "dep": 727
+          "dep": 893
         },
         {
-          "station": "SHB",
+          "station": "SPK",
           "arr": null,
-          "dep": 733
+          "dep": 896
         },
         {
-          "station": "CWD",
-          "arr": null,
-          "dep": 742
-        },
-        {
-          "station": "WRK",
-          "arr": 753,
-          "dep": null
+          "station": "MFT",
+          "arr": 901,
+          "dep": 902
         }
       ]
     },
@@ -1363,24 +1373,19 @@
           "dep": 767
         },
         {
-          "station": "MSW",
+          "station": "KKB",
           "arr": null,
-          "dep": 787
+          "dep": 893
         },
         {
-          "station": "SHB",
+          "station": "SPK",
           "arr": null,
-          "dep": 793
+          "dep": 896
         },
         {
-          "station": "CWD",
-          "arr": null,
-          "dep": 799
-        },
-        {
-          "station": "WRK",
-          "arr": 813,
-          "dep": null
+          "station": "MFT",
+          "arr": 901,
+          "dep": 902
         }
       ]
     },
@@ -1409,24 +1414,19 @@
           "dep": 827
         },
         {
-          "station": "MSW",
+          "station": "KKB",
           "arr": null,
-          "dep": 847
+          "dep": 893
         },
         {
-          "station": "SHB",
+          "station": "SPK",
           "arr": null,
-          "dep": 853
+          "dep": 896
         },
         {
-          "station": "CWD",
-          "arr": null,
-          "dep": 862
-        },
-        {
-          "station": "WRK",
-          "arr": 873,
-          "dep": null
+          "station": "MFT",
+          "arr": 901,
+          "dep": 902
         }
       ]
     },
@@ -1455,24 +1455,19 @@
           "dep": 887
         },
         {
-          "station": "MSW",
+          "station": "KKB",
           "arr": null,
-          "dep": 907
+          "dep": 893
         },
         {
-          "station": "SHB",
+          "station": "SPK",
           "arr": null,
-          "dep": 913
+          "dep": 896
         },
         {
-          "station": "CWD",
-          "arr": null,
-          "dep": 919
-        },
-        {
-          "station": "WRK",
-          "arr": 933,
-          "dep": null
+          "station": "MFT",
+          "arr": 901,
+          "dep": 902
         }
       ]
     },
@@ -1508,11 +1503,6 @@
         {
           "station": "MFT",
           "arr": 721,
-          "dep": null
-        },
-        {
-          "station": "MFT",
-          "arr": null,
           "dep": 722
         }
       ]
@@ -1549,11 +1539,6 @@
         {
           "station": "MFT",
           "arr": 748,
-          "dep": null
-        },
-        {
-          "station": "MFT",
-          "arr": null,
           "dep": 748
         }
       ]
@@ -1590,11 +1575,6 @@
         {
           "station": "MFT",
           "arr": 781,
-          "dep": null
-        },
-        {
-          "station": "MFT",
-          "arr": null,
           "dep": 782
         }
       ]
@@ -1631,11 +1611,6 @@
         {
           "station": "MFT",
           "arr": 808,
-          "dep": null
-        },
-        {
-          "station": "MFT",
-          "arr": null,
           "dep": 808
         }
       ]
@@ -1672,11 +1647,6 @@
         {
           "station": "MFT",
           "arr": 841,
-          "dep": null
-        },
-        {
-          "station": "MFT",
-          "arr": null,
           "dep": 842
         }
       ]
@@ -1713,11 +1683,6 @@
         {
           "station": "MFT",
           "arr": 868,
-          "dep": null
-        },
-        {
-          "station": "MFT",
-          "arr": null,
           "dep": 868
         }
       ]
@@ -1754,11 +1719,6 @@
         {
           "station": "MFT",
           "arr": 901,
-          "dep": null
-        },
-        {
-          "station": "MFT",
-          "arr": null,
           "dep": 902
         }
       ]
@@ -1795,11 +1755,6 @@
         {
           "station": "MFT",
           "arr": 928,
-          "dep": null
-        },
-        {
-          "station": "MFT",
-          "arr": null,
           "dep": 928
         }
       ]
@@ -1846,11 +1801,6 @@
         {
           "station": "MFT",
           "arr": 525,
-          "dep": null
-        },
-        {
-          "station": "MFT",
-          "arr": null,
           "dep": 525
         }
       ]
@@ -1897,11 +1847,6 @@
         {
           "station": "MFT",
           "arr": 589,
-          "dep": null
-        },
-        {
-          "station": "MFT",
-          "arr": null,
           "dep": 589
         }
       ]
@@ -1948,11 +1893,6 @@
         {
           "station": "MFT",
           "arr": 641,
-          "dep": null
-        },
-        {
-          "station": "MFT",
-          "arr": null,
           "dep": 642
         }
       ]
@@ -1999,11 +1939,6 @@
         {
           "station": "MFT",
           "arr": 701,
-          "dep": null
-        },
-        {
-          "station": "MFT",
-          "arr": null,
           "dep": 702
         }
       ]
@@ -2050,11 +1985,6 @@
         {
           "station": "MFT",
           "arr": 761,
-          "dep": null
-        },
-        {
-          "station": "MFT",
-          "arr": null,
           "dep": 762
         }
       ]
@@ -2101,11 +2031,6 @@
         {
           "station": "MFT",
           "arr": 821,
-          "dep": null
-        },
-        {
-          "station": "MFT",
-          "arr": null,
           "dep": 822
         }
       ]
@@ -2152,11 +2077,6 @@
         {
           "station": "MFT",
           "arr": 881,
-          "dep": null
-        },
-        {
-          "station": "MFT",
-          "arr": null,
           "dep": 882
         }
       ]
@@ -2203,11 +2123,6 @@
         {
           "station": "MFT",
           "arr": 941,
-          "dep": null
-        },
-        {
-          "station": "MFT",
-          "arr": null,
           "dep": 942
         }
       ]
@@ -2254,11 +2169,6 @@
         {
           "station": "MFT",
           "arr": 1001,
-          "dep": null
-        },
-        {
-          "station": "MFT",
-          "arr": null,
           "dep": 1002
         }
       ]
@@ -2305,11 +2215,6 @@
         {
           "station": "MFT",
           "arr": 1061,
-          "dep": null
-        },
-        {
-          "station": "MFT",
-          "arr": null,
           "dep": 1062
         }
       ]
@@ -2356,11 +2261,6 @@
         {
           "station": "MFT",
           "arr": 1121,
-          "dep": null
-        },
-        {
-          "station": "MFT",
-          "arr": null,
           "dep": 1122
         }
       ]
@@ -2407,11 +2307,6 @@
         {
           "station": "MFT",
           "arr": 1181,
-          "dep": null
-        },
-        {
-          "station": "MFT",
-          "arr": null,
           "dep": 1182
         }
       ]
@@ -2458,11 +2353,6 @@
         {
           "station": "MFT",
           "arr": 1257,
-          "dep": null
-        },
-        {
-          "station": "MFT",
-          "arr": null,
           "dep": 1257
         }
       ]
@@ -2502,6 +2392,31 @@
           "dep": 420
         },
         {
+          "station": "MSW",
+          "arr": null,
+          "dep": 1207
+        },
+        {
+          "station": "MFT",
+          "arr": 1211,
+          "dep": 1212
+        },
+        {
+          "station": "SPK",
+          "arr": null,
+          "dep": 1218
+        },
+        {
+          "station": "KKB",
+          "arr": null,
+          "dep": 1221
+        },
+        {
+          "station": "HKN",
+          "arr": null,
+          "dep": 1232
+        },
+        {
           "station": "NOT",
           "arr": null,
           "dep": null
@@ -2538,6 +2453,36 @@
           "dep": 535
         },
         {
+          "station": "SHB",
+          "arr": null,
+          "dep": 1200
+        },
+        {
+          "station": "MSW",
+          "arr": null,
+          "dep": 1207
+        },
+        {
+          "station": "MFT",
+          "arr": 1211,
+          "dep": 1212
+        },
+        {
+          "station": "SPK",
+          "arr": null,
+          "dep": 1218
+        },
+        {
+          "station": "KKB",
+          "arr": null,
+          "dep": 1221
+        },
+        {
+          "station": "HKN",
+          "arr": null,
+          "dep": 1232
+        },
+        {
           "station": "NOT",
           "arr": null,
           "dep": null
@@ -2564,9 +2509,39 @@
           "dep": 590
         },
         {
-          "station": "LAG",
+          "station": "CWD",
           "arr": null,
-          "dep": 655
+          "dep": 1194
+        },
+        {
+          "station": "SHB",
+          "arr": null,
+          "dep": 1200
+        },
+        {
+          "station": "MSW",
+          "arr": null,
+          "dep": 1207
+        },
+        {
+          "station": "MFT",
+          "arr": 1211,
+          "dep": 1212
+        },
+        {
+          "station": "SPK",
+          "arr": null,
+          "dep": 1218
+        },
+        {
+          "station": "KKB",
+          "arr": null,
+          "dep": 1221
+        },
+        {
+          "station": "HKN",
+          "arr": null,
+          "dep": 1232
         },
         {
           "station": "NOT",
@@ -2595,9 +2570,39 @@
           "dep": 710
         },
         {
-          "station": "LAG",
+          "station": "CWD",
           "arr": null,
-          "dep": 775
+          "dep": 1194
+        },
+        {
+          "station": "SHB",
+          "arr": null,
+          "dep": 1200
+        },
+        {
+          "station": "MSW",
+          "arr": null,
+          "dep": 1207
+        },
+        {
+          "station": "MFT",
+          "arr": 1211,
+          "dep": 1212
+        },
+        {
+          "station": "SPK",
+          "arr": null,
+          "dep": 1218
+        },
+        {
+          "station": "KKB",
+          "arr": null,
+          "dep": 1221
+        },
+        {
+          "station": "HKN",
+          "arr": null,
+          "dep": 1232
         },
         {
           "station": "NOT",
@@ -2626,9 +2631,39 @@
           "dep": 830
         },
         {
-          "station": "LAG",
+          "station": "CWD",
           "arr": null,
-          "dep": 895
+          "dep": 1194
+        },
+        {
+          "station": "SHB",
+          "arr": null,
+          "dep": 1200
+        },
+        {
+          "station": "MSW",
+          "arr": null,
+          "dep": 1207
+        },
+        {
+          "station": "MFT",
+          "arr": 1211,
+          "dep": 1212
+        },
+        {
+          "station": "SPK",
+          "arr": null,
+          "dep": 1218
+        },
+        {
+          "station": "KKB",
+          "arr": null,
+          "dep": 1221
+        },
+        {
+          "station": "HKN",
+          "arr": null,
+          "dep": 1232
         },
         {
           "station": "NOT",
@@ -2657,9 +2692,39 @@
           "dep": 950
         },
         {
-          "station": "LAG",
+          "station": "CWD",
           "arr": null,
-          "dep": 1015
+          "dep": 1194
+        },
+        {
+          "station": "SHB",
+          "arr": null,
+          "dep": 1200
+        },
+        {
+          "station": "MSW",
+          "arr": null,
+          "dep": 1207
+        },
+        {
+          "station": "MFT",
+          "arr": 1211,
+          "dep": 1212
+        },
+        {
+          "station": "SPK",
+          "arr": null,
+          "dep": 1218
+        },
+        {
+          "station": "KKB",
+          "arr": null,
+          "dep": 1221
+        },
+        {
+          "station": "HKN",
+          "arr": null,
+          "dep": 1232
         },
         {
           "station": "NOT",
@@ -2688,9 +2753,39 @@
           "dep": 1070
         },
         {
-          "station": "LAG",
+          "station": "CWD",
           "arr": null,
-          "dep": 1135
+          "dep": 1194
+        },
+        {
+          "station": "SHB",
+          "arr": null,
+          "dep": 1200
+        },
+        {
+          "station": "MSW",
+          "arr": null,
+          "dep": 1207
+        },
+        {
+          "station": "MFT",
+          "arr": 1211,
+          "dep": 1212
+        },
+        {
+          "station": "SPK",
+          "arr": null,
+          "dep": 1218
+        },
+        {
+          "station": "KKB",
+          "arr": null,
+          "dep": 1221
+        },
+        {
+          "station": "HKN",
+          "arr": null,
+          "dep": 1232
         },
         {
           "station": "NOT",
@@ -2717,6 +2812,41 @@
           "station": "WWL",
           "arr": null,
           "dep": 1190
+        },
+        {
+          "station": "CWD",
+          "arr": null,
+          "dep": 1194
+        },
+        {
+          "station": "SHB",
+          "arr": null,
+          "dep": 1200
+        },
+        {
+          "station": "MSW",
+          "arr": null,
+          "dep": 1207
+        },
+        {
+          "station": "MFT",
+          "arr": 1211,
+          "dep": 1212
+        },
+        {
+          "station": "SPK",
+          "arr": null,
+          "dep": 1218
+        },
+        {
+          "station": "KKB",
+          "arr": null,
+          "dep": 1221
+        },
+        {
+          "station": "HKN",
+          "arr": null,
+          "dep": 1232
         },
         {
           "station": "NOT",
@@ -2750,6 +2880,31 @@
           "dep": 900
         },
         {
+          "station": "MSW",
+          "arr": null,
+          "dep": 1207
+        },
+        {
+          "station": "MFT",
+          "arr": 1211,
+          "dep": 1212
+        },
+        {
+          "station": "SPK",
+          "arr": null,
+          "dep": 1218
+        },
+        {
+          "station": "KKB",
+          "arr": null,
+          "dep": 1221
+        },
+        {
+          "station": "HKN",
+          "arr": null,
+          "dep": 1232
+        },
+        {
           "station": "NOT",
           "arr": null,
           "dep": null
@@ -2779,6 +2934,31 @@
           "station": "SHB",
           "arr": null,
           "dep": 960
+        },
+        {
+          "station": "MSW",
+          "arr": null,
+          "dep": 1207
+        },
+        {
+          "station": "MFT",
+          "arr": 1211,
+          "dep": 1212
+        },
+        {
+          "station": "SPK",
+          "arr": null,
+          "dep": 1218
+        },
+        {
+          "station": "KKB",
+          "arr": null,
+          "dep": 1221
+        },
+        {
+          "station": "HKN",
+          "arr": null,
+          "dep": 1232
         },
         {
           "station": "NOT",
@@ -2812,6 +2992,31 @@
           "dep": 1020
         },
         {
+          "station": "MSW",
+          "arr": null,
+          "dep": 1207
+        },
+        {
+          "station": "MFT",
+          "arr": 1211,
+          "dep": 1212
+        },
+        {
+          "station": "SPK",
+          "arr": null,
+          "dep": 1218
+        },
+        {
+          "station": "KKB",
+          "arr": null,
+          "dep": 1221
+        },
+        {
+          "station": "HKN",
+          "arr": null,
+          "dep": 1232
+        },
+        {
           "station": "NOT",
           "arr": null,
           "dep": null
@@ -2841,6 +3046,31 @@
           "station": "SHB",
           "arr": null,
           "dep": 1080
+        },
+        {
+          "station": "MSW",
+          "arr": null,
+          "dep": 1207
+        },
+        {
+          "station": "MFT",
+          "arr": 1211,
+          "dep": 1212
+        },
+        {
+          "station": "SPK",
+          "arr": null,
+          "dep": 1218
+        },
+        {
+          "station": "KKB",
+          "arr": null,
+          "dep": 1221
+        },
+        {
+          "station": "HKN",
+          "arr": null,
+          "dep": 1232
         },
         {
           "station": "NOT",
@@ -2874,6 +3104,31 @@
           "dep": 1140
         },
         {
+          "station": "MSW",
+          "arr": null,
+          "dep": 1207
+        },
+        {
+          "station": "MFT",
+          "arr": 1211,
+          "dep": 1212
+        },
+        {
+          "station": "SPK",
+          "arr": null,
+          "dep": 1218
+        },
+        {
+          "station": "KKB",
+          "arr": null,
+          "dep": 1221
+        },
+        {
+          "station": "HKN",
+          "arr": null,
+          "dep": 1232
+        },
+        {
           "station": "NOT",
           "arr": null,
           "dep": null
@@ -2905,6 +3160,31 @@
           "dep": 1200
         },
         {
+          "station": "MSW",
+          "arr": null,
+          "dep": 1207
+        },
+        {
+          "station": "MFT",
+          "arr": 1211,
+          "dep": 1212
+        },
+        {
+          "station": "SPK",
+          "arr": null,
+          "dep": 1218
+        },
+        {
+          "station": "KKB",
+          "arr": null,
+          "dep": 1221
+        },
+        {
+          "station": "HKN",
+          "arr": null,
+          "dep": 1232
+        },
+        {
           "station": "NOT",
           "arr": null,
           "dep": null
@@ -2928,11 +3208,6 @@
         {
           "station": "MFT",
           "arr": 1091,
-          "dep": null
-        },
-        {
-          "station": "MFT",
-          "arr": null,
           "dep": 1092
         },
         {
@@ -2951,9 +3226,9 @@
           "dep": 1140
         },
         {
-          "station": "BLW",
+          "station": "HKN",
           "arr": null,
-          "dep": 1150
+          "dep": 1232
         },
         {
           "station": "NOT",
@@ -2979,11 +3254,6 @@
         {
           "station": "MFT",
           "arr": 1124,
-          "dep": null
-        },
-        {
-          "station": "MFT",
-          "arr": null,
           "dep": 1124
         },
         {
@@ -3002,9 +3272,9 @@
           "dep": 1167
         },
         {
-          "station": "BLW",
+          "station": "HKN",
           "arr": null,
-          "dep": 1182
+          "dep": 1232
         },
         {
           "station": "NOT",
@@ -3030,11 +3300,6 @@
         {
           "station": "MFT",
           "arr": 1151,
-          "dep": null
-        },
-        {
-          "station": "MFT",
-          "arr": null,
           "dep": 1152
         },
         {
@@ -3053,9 +3318,9 @@
           "dep": 1227
         },
         {
-          "station": "BLW",
+          "station": "HKN",
           "arr": null,
-          "dep": 1242
+          "dep": 1232
         },
         {
           "station": "NOT",
@@ -3081,11 +3346,6 @@
         {
           "station": "MFT",
           "arr": 1211,
-          "dep": null
-        },
-        {
-          "station": "MFT",
-          "arr": null,
           "dep": 1212
         },
         {
@@ -3152,11 +3412,6 @@
         {
           "station": "MFT",
           "arr": 371,
-          "dep": null
-        },
-        {
-          "station": "MFT",
-          "arr": null,
           "dep": 372
         },
         {
@@ -3233,11 +3488,6 @@
         {
           "station": "MFT",
           "arr": 431,
-          "dep": null
-        },
-        {
-          "station": "MFT",
-          "arr": null,
           "dep": 432
         },
         {
@@ -3302,6 +3552,36 @@
           "dep": 535
         },
         {
+          "station": "SHB",
+          "arr": null,
+          "dep": 840
+        },
+        {
+          "station": "MSW",
+          "arr": null,
+          "dep": 907
+        },
+        {
+          "station": "MFT",
+          "arr": 911,
+          "dep": 912
+        },
+        {
+          "station": "SPK",
+          "arr": null,
+          "dep": 918
+        },
+        {
+          "station": "KKB",
+          "arr": null,
+          "dep": 921
+        },
+        {
+          "station": "HKN",
+          "arr": null,
+          "dep": 932
+        },
+        {
           "station": "NOT",
           "arr": null,
           "dep": null
@@ -3328,9 +3608,39 @@
           "dep": 590
         },
         {
-          "station": "LAG",
+          "station": "CWD",
           "arr": null,
-          "dep": 655
+          "dep": 834
+        },
+        {
+          "station": "SHB",
+          "arr": null,
+          "dep": 840
+        },
+        {
+          "station": "MSW",
+          "arr": null,
+          "dep": 907
+        },
+        {
+          "station": "MFT",
+          "arr": 911,
+          "dep": 912
+        },
+        {
+          "station": "SPK",
+          "arr": null,
+          "dep": 918
+        },
+        {
+          "station": "KKB",
+          "arr": null,
+          "dep": 921
+        },
+        {
+          "station": "HKN",
+          "arr": null,
+          "dep": 932
         },
         {
           "station": "NOT",
@@ -3359,9 +3669,39 @@
           "dep": 710
         },
         {
-          "station": "LAG",
+          "station": "CWD",
           "arr": null,
-          "dep": 775
+          "dep": 834
+        },
+        {
+          "station": "SHB",
+          "arr": null,
+          "dep": 840
+        },
+        {
+          "station": "MSW",
+          "arr": null,
+          "dep": 907
+        },
+        {
+          "station": "MFT",
+          "arr": 911,
+          "dep": 912
+        },
+        {
+          "station": "SPK",
+          "arr": null,
+          "dep": 918
+        },
+        {
+          "station": "KKB",
+          "arr": null,
+          "dep": 921
+        },
+        {
+          "station": "HKN",
+          "arr": null,
+          "dep": 932
         },
         {
           "station": "NOT",
@@ -3390,9 +3730,39 @@
           "dep": 830
         },
         {
-          "station": "LAG",
+          "station": "CWD",
           "arr": null,
-          "dep": 895
+          "dep": 834
+        },
+        {
+          "station": "SHB",
+          "arr": null,
+          "dep": 840
+        },
+        {
+          "station": "MSW",
+          "arr": null,
+          "dep": 907
+        },
+        {
+          "station": "MFT",
+          "arr": 911,
+          "dep": 912
+        },
+        {
+          "station": "SPK",
+          "arr": null,
+          "dep": 918
+        },
+        {
+          "station": "KKB",
+          "arr": null,
+          "dep": 921
+        },
+        {
+          "station": "HKN",
+          "arr": null,
+          "dep": 932
         },
         {
           "station": "NOT",
@@ -3426,14 +3796,29 @@
           "dep": 720
         },
         {
-          "station": "NSD",
+          "station": "MSW",
           "arr": null,
-          "dep": 747
+          "dep": 907
         },
         {
-          "station": "BLW",
+          "station": "MFT",
+          "arr": 911,
+          "dep": 912
+        },
+        {
+          "station": "SPK",
           "arr": null,
-          "dep": 762
+          "dep": 918
+        },
+        {
+          "station": "KKB",
+          "arr": null,
+          "dep": 921
+        },
+        {
+          "station": "HKN",
+          "arr": null,
+          "dep": 932
         },
         {
           "station": "NOT",
@@ -3467,14 +3852,29 @@
           "dep": 780
         },
         {
-          "station": "NSD",
+          "station": "MSW",
           "arr": null,
-          "dep": 807
+          "dep": 907
         },
         {
-          "station": "BLW",
+          "station": "MFT",
+          "arr": 911,
+          "dep": 912
+        },
+        {
+          "station": "SPK",
           "arr": null,
-          "dep": 822
+          "dep": 918
+        },
+        {
+          "station": "KKB",
+          "arr": null,
+          "dep": 921
+        },
+        {
+          "station": "HKN",
+          "arr": null,
+          "dep": 932
         },
         {
           "station": "NOT",
@@ -3508,14 +3908,29 @@
           "dep": 840
         },
         {
-          "station": "NSD",
+          "station": "MSW",
           "arr": null,
-          "dep": 867
+          "dep": 907
         },
         {
-          "station": "BLW",
+          "station": "MFT",
+          "arr": 911,
+          "dep": 912
+        },
+        {
+          "station": "SPK",
           "arr": null,
-          "dep": 882
+          "dep": 918
+        },
+        {
+          "station": "KKB",
+          "arr": null,
+          "dep": 921
+        },
+        {
+          "station": "HKN",
+          "arr": null,
+          "dep": 932
         },
         {
           "station": "NOT",
@@ -3549,14 +3964,29 @@
           "dep": 900
         },
         {
-          "station": "NSD",
+          "station": "MSW",
           "arr": null,
-          "dep": 927
+          "dep": 907
         },
         {
-          "station": "BLW",
+          "station": "MFT",
+          "arr": 911,
+          "dep": 912
+        },
+        {
+          "station": "SPK",
           "arr": null,
-          "dep": 942
+          "dep": 918
+        },
+        {
+          "station": "KKB",
+          "arr": null,
+          "dep": 921
+        },
+        {
+          "station": "HKN",
+          "arr": null,
+          "dep": 932
         },
         {
           "station": "NOT",
@@ -3582,11 +4012,6 @@
         {
           "station": "MFT",
           "arr": 731,
-          "dep": null
-        },
-        {
-          "station": "MFT",
-          "arr": null,
           "dep": 732
         },
         {
@@ -3628,11 +4053,6 @@
         {
           "station": "MFT",
           "arr": 764,
-          "dep": null
-        },
-        {
-          "station": "MFT",
-          "arr": null,
           "dep": 764
         },
         {
@@ -3674,11 +4094,6 @@
         {
           "station": "MFT",
           "arr": 791,
-          "dep": null
-        },
-        {
-          "station": "MFT",
-          "arr": null,
           "dep": 792
         },
         {
@@ -3720,11 +4135,6 @@
         {
           "station": "MFT",
           "arr": 824,
-          "dep": null
-        },
-        {
-          "station": "MFT",
-          "arr": null,
           "dep": 824
         },
         {
@@ -3766,11 +4176,6 @@
         {
           "station": "MFT",
           "arr": 851,
-          "dep": null
-        },
-        {
-          "station": "MFT",
-          "arr": null,
           "dep": 852
         },
         {
@@ -3812,11 +4217,6 @@
         {
           "station": "MFT",
           "arr": 884,
-          "dep": null
-        },
-        {
-          "station": "MFT",
-          "arr": null,
           "dep": 884
         },
         {
@@ -3858,11 +4258,6 @@
         {
           "station": "MFT",
           "arr": 911,
-          "dep": null
-        },
-        {
-          "station": "MFT",
-          "arr": null,
           "dep": 912
         },
         {
@@ -3904,11 +4299,6 @@
         {
           "station": "MFT",
           "arr": 944,
-          "dep": null
-        },
-        {
-          "station": "MFT",
-          "arr": null,
           "dep": 944
         },
         {
@@ -3950,11 +4340,6 @@
         {
           "station": "MFT",
           "arr": 539,
-          "dep": null
-        },
-        {
-          "station": "MFT",
-          "arr": null,
           "dep": 539
         },
         {
@@ -4006,11 +4391,6 @@
         {
           "station": "MFT",
           "arr": 610,
-          "dep": null
-        },
-        {
-          "station": "MFT",
-          "arr": null,
           "dep": 610
         },
         {
@@ -4062,11 +4442,6 @@
         {
           "station": "MFT",
           "arr": 670,
-          "dep": null
-        },
-        {
-          "station": "MFT",
-          "arr": null,
           "dep": 670
         },
         {
@@ -4118,11 +4493,6 @@
         {
           "station": "MFT",
           "arr": 730,
-          "dep": null
-        },
-        {
-          "station": "MFT",
-          "arr": null,
           "dep": 730
         },
         {
@@ -4174,11 +4544,6 @@
         {
           "station": "MFT",
           "arr": 790,
-          "dep": null
-        },
-        {
-          "station": "MFT",
-          "arr": null,
           "dep": 790
         },
         {
@@ -4230,11 +4595,6 @@
         {
           "station": "MFT",
           "arr": 850,
-          "dep": null
-        },
-        {
-          "station": "MFT",
-          "arr": null,
           "dep": 850
         },
         {
@@ -4286,11 +4646,6 @@
         {
           "station": "MFT",
           "arr": 910,
-          "dep": null
-        },
-        {
-          "station": "MFT",
-          "arr": null,
           "dep": 910
         },
         {
@@ -4342,11 +4697,6 @@
         {
           "station": "MFT",
           "arr": 970,
-          "dep": null
-        },
-        {
-          "station": "MFT",
-          "arr": null,
           "dep": 970
         },
         {
@@ -4398,11 +4748,6 @@
         {
           "station": "MFT",
           "arr": 1030,
-          "dep": null
-        },
-        {
-          "station": "MFT",
-          "arr": null,
           "dep": 1030
         },
         {
@@ -4454,11 +4799,6 @@
         {
           "station": "MFT",
           "arr": 1090,
-          "dep": null
-        },
-        {
-          "station": "MFT",
-          "arr": null,
           "dep": 1090
         },
         {
@@ -4510,11 +4850,6 @@
         {
           "station": "MFT",
           "arr": 1150,
-          "dep": null
-        },
-        {
-          "station": "MFT",
-          "arr": null,
           "dep": 1150
         },
         {
@@ -4566,11 +4901,6 @@
         {
           "station": "MFT",
           "arr": 1207,
-          "dep": null
-        },
-        {
-          "station": "MFT",
-          "arr": null,
           "dep": 1207
         },
         {
@@ -4622,11 +4952,6 @@
         {
           "station": "MFT",
           "arr": 1272,
-          "dep": null
-        },
-        {
-          "station": "MFT",
-          "arr": null,
           "dep": 1272
         },
         {

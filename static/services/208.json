@@ -84,13 +84,28 @@
           "dep": 451
         },
         {
-          "station": "LBT",
-          "arr": 697,
-          "dep": null
+          "station": "MTH",
+          "arr": null,
+          "dep": 635
         },
         {
-          "station": "STG",
-          "arr": 707,
+          "station": "WFF",
+          "arr": null,
+          "dep": 644
+        },
+        {
+          "station": "CBC",
+          "arr": null,
+          "dep": 647
+        },
+        {
+          "station": "GRL",
+          "arr": null,
+          "dep": 679
+        },
+        {
+          "station": "CUB",
+          "arr": 681,
           "dep": null
         }
       ]
@@ -143,6 +158,31 @@
           "station": "AIR",
           "arr": null,
           "dep": 512
+        },
+        {
+          "station": "MTH",
+          "arr": null,
+          "dep": 635
+        },
+        {
+          "station": "WFF",
+          "arr": null,
+          "dep": 644
+        },
+        {
+          "station": "CBC",
+          "arr": null,
+          "dep": 647
+        },
+        {
+          "station": "GRL",
+          "arr": null,
+          "dep": 679
+        },
+        {
+          "station": "CUB",
+          "arr": 681,
+          "dep": null
         }
       ]
     },
@@ -194,6 +234,31 @@
           "station": "AIR",
           "arr": null,
           "dep": 572
+        },
+        {
+          "station": "MTH",
+          "arr": null,
+          "dep": 635
+        },
+        {
+          "station": "WFF",
+          "arr": null,
+          "dep": 644
+        },
+        {
+          "station": "CBC",
+          "arr": null,
+          "dep": 647
+        },
+        {
+          "station": "GRL",
+          "arr": null,
+          "dep": 679
+        },
+        {
+          "station": "CUB",
+          "arr": 681,
+          "dep": null
         }
       ]
     },
@@ -245,6 +310,31 @@
           "station": "AIR",
           "arr": null,
           "dep": 631
+        },
+        {
+          "station": "MTH",
+          "arr": null,
+          "dep": 635
+        },
+        {
+          "station": "WFF",
+          "arr": null,
+          "dep": 644
+        },
+        {
+          "station": "CBC",
+          "arr": null,
+          "dep": 647
+        },
+        {
+          "station": "GRL",
+          "arr": null,
+          "dep": 679
+        },
+        {
+          "station": "CUB",
+          "arr": 681,
+          "dep": null
         }
       ]
     },
@@ -293,18 +383,13 @@
           "dep": 590
         },
         {
+          "station": "GRL",
+          "arr": null,
+          "dep": 679
+        },
+        {
           "station": "CUB",
-          "arr": null,
-          "dep": 595
-        },
-        {
-          "station": "CMO",
-          "arr": null,
-          "dep": 606
-        },
-        {
-          "station": "FKG",
-          "arr": 608,
+          "arr": 681,
           "dep": null
         }
       ]
@@ -354,18 +439,13 @@
           "dep": 647
         },
         {
+          "station": "GRL",
+          "arr": null,
+          "dep": 679
+        },
+        {
           "station": "CUB",
-          "arr": null,
-          "dep": 653
-        },
-        {
-          "station": "CMO",
-          "arr": null,
-          "dep": 668
-        },
-        {
-          "station": "FKG",
-          "arr": 670,
+          "arr": 681,
           "dep": null
         }
       ]
@@ -408,6 +488,16 @@
           "station": "WFF",
           "arr": null,
           "dep": 675
+        },
+        {
+          "station": "GRL",
+          "arr": null,
+          "dep": 679
+        },
+        {
+          "station": "CUB",
+          "arr": 681,
+          "dep": null
         }
       ]
     },
@@ -439,6 +529,16 @@
           "station": "GRH",
           "arr": null,
           "dep": 553
+        },
+        {
+          "station": "GRL",
+          "arr": null,
+          "dep": 679
+        },
+        {
+          "station": "CUB",
+          "arr": 681,
+          "dep": null
         }
       ]
     },
@@ -470,6 +570,16 @@
           "station": "GRH",
           "arr": null,
           "dep": 586
+        },
+        {
+          "station": "GRL",
+          "arr": null,
+          "dep": 679
+        },
+        {
+          "station": "CUB",
+          "arr": 681,
+          "dep": null
         }
       ]
     },
@@ -501,6 +611,16 @@
           "station": "GRH",
           "arr": null,
           "dep": 611
+        },
+        {
+          "station": "GRL",
+          "arr": null,
+          "dep": 679
+        },
+        {
+          "station": "CUB",
+          "arr": 681,
+          "dep": null
         }
       ]
     },
@@ -532,6 +652,16 @@
           "station": "GRH",
           "arr": null,
           "dep": 644
+        },
+        {
+          "station": "GRL",
+          "arr": null,
+          "dep": 679
+        },
+        {
+          "station": "CUB",
+          "arr": 681,
+          "dep": null
         }
       ]
     },
@@ -563,6 +693,16 @@
           "station": "GRH",
           "arr": null,
           "dep": 673
+        },
+        {
+          "station": "GRL",
+          "arr": null,
+          "dep": 679
+        },
+        {
+          "station": "CUB",
+          "arr": 681,
+          "dep": null
         }
       ]
     },
@@ -743,48 +883,38 @@
           "dep": null
         },
         {
-          "station": "WFF",
+          "station": "HNW",
           "arr": null,
-          "dep": 1065
+          "dep": 1103
         },
         {
-          "station": "CBC",
+          "station": "HNC",
           "arr": null,
-          "dep": 1068
+          "dep": 1106
+        },
+        {
+          "station": "AIR",
+          "arr": null,
+          "dep": 1112
+        },
+        {
+          "station": "MTH",
+          "arr": null,
+          "dep": 1365
+        },
+        {
+          "station": "WFF",
+          "arr": null,
+          "dep": 1372
         },
         {
           "station": "GRL",
           "arr": null,
-          "dep": 1068
+          "dep": 1409
         },
         {
           "station": "CUB",
-          "arr": 1070,
-          "dep": null
-        },
-        {
-          "station": "CUB",
-          "arr": null,
-          "dep": 1073
-        },
-        {
-          "station": "CMO",
-          "arr": null,
-          "dep": 1087
-        },
-        {
-          "station": "FKG",
-          "arr": 1090,
-          "dep": null
-        },
-        {
-          "station": "LBT",
-          "arr": 1144,
-          "dep": null
-        },
-        {
-          "station": "STG",
-          "arr": 1154,
+          "arr": 1411,
           "dep": null
         }
       ]
@@ -839,38 +969,23 @@
           "dep": 1112
         },
         {
-          "station": "WFF",
+          "station": "MTH",
           "arr": null,
-          "dep": 1118
+          "dep": 1365
         },
         {
-          "station": "CBC",
+          "station": "WFF",
           "arr": null,
-          "dep": 1130
+          "dep": 1372
+        },
+        {
+          "station": "GRL",
+          "arr": null,
+          "dep": 1409
         },
         {
           "station": "CUB",
-          "arr": null,
-          "dep": 1137
-        },
-        {
-          "station": "CMO",
-          "arr": null,
-          "dep": 1148
-        },
-        {
-          "station": "FKG",
-          "arr": 1151,
-          "dep": null
-        },
-        {
-          "station": "LBT",
-          "arr": 1342,
-          "dep": null
-        },
-        {
-          "station": "STG",
-          "arr": 1352,
+          "arr": 1411,
           "dep": null
         }
       ]
@@ -925,23 +1040,23 @@
           "dep": 1171
         },
         {
-          "station": "CBC",
+          "station": "MTH",
           "arr": null,
-          "dep": 1191
+          "dep": 1365
+        },
+        {
+          "station": "WFF",
+          "arr": null,
+          "dep": 1372
+        },
+        {
+          "station": "GRL",
+          "arr": null,
+          "dep": 1409
         },
         {
           "station": "CUB",
-          "arr": null,
-          "dep": 1193
-        },
-        {
-          "station": "CMO",
-          "arr": null,
-          "dep": 1206
-        },
-        {
-          "station": "FKG",
-          "arr": 1209,
+          "arr": 1411,
           "dep": null
         }
       ]
@@ -996,23 +1111,23 @@
           "dep": 1233
         },
         {
-          "station": "CBC",
+          "station": "MTH",
           "arr": null,
-          "dep": 1253
+          "dep": 1365
+        },
+        {
+          "station": "WFF",
+          "arr": null,
+          "dep": 1372
+        },
+        {
+          "station": "GRL",
+          "arr": null,
+          "dep": 1409
         },
         {
           "station": "CUB",
-          "arr": null,
-          "dep": 1253
-        },
-        {
-          "station": "CMO",
-          "arr": null,
-          "dep": 1264
-        },
-        {
-          "station": "FKG",
-          "arr": 1267,
+          "arr": 1411,
           "dep": null
         }
       ]
@@ -1067,18 +1182,23 @@
           "dep": 1300
         },
         {
-          "station": "CBC",
+          "station": "MTH",
           "arr": null,
-          "dep": 1316
+          "dep": 1365
         },
         {
-          "station": "CMO",
+          "station": "WFF",
           "arr": null,
-          "dep": 1326
+          "dep": 1372
         },
         {
-          "station": "FKG",
-          "arr": 1329,
+          "station": "GRL",
+          "arr": null,
+          "dep": 1409
+        },
+        {
+          "station": "CUB",
+          "arr": 1411,
           "dep": null
         }
       ]
@@ -1133,18 +1253,23 @@
           "dep": 1360
         },
         {
-          "station": "CBC",
+          "station": "MTH",
           "arr": null,
-          "dep": 1374
+          "dep": 1365
         },
         {
-          "station": "CMO",
+          "station": "WFF",
           "arr": null,
-          "dep": 1387
+          "dep": 1372
         },
         {
-          "station": "FKG",
-          "arr": 1390,
+          "station": "GRL",
+          "arr": null,
+          "dep": 1409
+        },
+        {
+          "station": "CUB",
+          "arr": 1411,
           "dep": null
         }
       ]
@@ -1179,23 +1304,23 @@
           "dep": 1306
         },
         {
+          "station": "MTH",
+          "arr": null,
+          "dep": 1365
+        },
+        {
           "station": "WFF",
           "arr": null,
-          "dep": 1314
+          "dep": 1372
+        },
+        {
+          "station": "GRL",
+          "arr": null,
+          "dep": 1409
         },
         {
           "station": "CUB",
-          "arr": null,
-          "dep": 1412
-        },
-        {
-          "station": "CMO",
-          "arr": null,
-          "dep": 1427
-        },
-        {
-          "station": "FKG",
-          "arr": 1429,
+          "arr": 1411,
           "dep": null
         }
       ]
@@ -1238,6 +1363,16 @@
           "station": "WFF",
           "arr": null,
           "dep": 1372
+        },
+        {
+          "station": "GRL",
+          "arr": null,
+          "dep": 1409
+        },
+        {
+          "station": "CUB",
+          "arr": 1411,
+          "dep": null
         }
       ]
     },
@@ -1269,6 +1404,16 @@
           "station": "GRH",
           "arr": null,
           "dep": 1403
+        },
+        {
+          "station": "GRL",
+          "arr": null,
+          "dep": 1409
+        },
+        {
+          "station": "CUB",
+          "arr": 1411,
+          "dep": null
         }
       ]
     },
@@ -1305,6 +1450,11 @@
           "station": "GRL",
           "arr": null,
           "dep": 1312
+        },
+        {
+          "station": "CUB",
+          "arr": 1411,
+          "dep": null
         }
       ]
     },
@@ -1321,6 +1471,11 @@
           "station": "GRL",
           "arr": null,
           "dep": 1326
+        },
+        {
+          "station": "CUB",
+          "arr": 1411,
+          "dep": null
         }
       ]
     },
@@ -1337,6 +1492,11 @@
           "station": "GRL",
           "arr": null,
           "dep": 1371
+        },
+        {
+          "station": "CUB",
+          "arr": 1411,
+          "dep": null
         }
       ]
     },
@@ -1353,6 +1513,11 @@
           "station": "GRL",
           "arr": null,
           "dep": 1387
+        },
+        {
+          "station": "CUB",
+          "arr": 1411,
+          "dep": null
         }
       ]
     },
@@ -1369,6 +1534,11 @@
           "station": "GRL",
           "arr": null,
           "dep": 1409
+        },
+        {
+          "station": "CUB",
+          "arr": 1411,
+          "dep": null
         }
       ]
     },
@@ -1457,6 +1627,31 @@
           "station": "AIR",
           "arr": null,
           "dep": 451
+        },
+        {
+          "station": "MTH",
+          "arr": null,
+          "dep": 635
+        },
+        {
+          "station": "WFF",
+          "arr": null,
+          "dep": 644
+        },
+        {
+          "station": "CBC",
+          "arr": null,
+          "dep": 647
+        },
+        {
+          "station": "GRL",
+          "arr": null,
+          "dep": 711
+        },
+        {
+          "station": "CUB",
+          "arr": 713,
+          "dep": null
         }
       ]
     },
@@ -1508,6 +1703,31 @@
           "station": "AIR",
           "arr": null,
           "dep": 512
+        },
+        {
+          "station": "MTH",
+          "arr": null,
+          "dep": 635
+        },
+        {
+          "station": "WFF",
+          "arr": null,
+          "dep": 644
+        },
+        {
+          "station": "CBC",
+          "arr": null,
+          "dep": 647
+        },
+        {
+          "station": "GRL",
+          "arr": null,
+          "dep": 711
+        },
+        {
+          "station": "CUB",
+          "arr": 713,
+          "dep": null
         }
       ]
     },
@@ -1559,6 +1779,31 @@
           "station": "AIR",
           "arr": null,
           "dep": 572
+        },
+        {
+          "station": "MTH",
+          "arr": null,
+          "dep": 635
+        },
+        {
+          "station": "WFF",
+          "arr": null,
+          "dep": 644
+        },
+        {
+          "station": "CBC",
+          "arr": null,
+          "dep": 647
+        },
+        {
+          "station": "GRL",
+          "arr": null,
+          "dep": 711
+        },
+        {
+          "station": "CUB",
+          "arr": 713,
+          "dep": null
         }
       ]
     },
@@ -1610,6 +1855,31 @@
           "station": "AIR",
           "arr": null,
           "dep": 631
+        },
+        {
+          "station": "MTH",
+          "arr": null,
+          "dep": 635
+        },
+        {
+          "station": "WFF",
+          "arr": null,
+          "dep": 644
+        },
+        {
+          "station": "CBC",
+          "arr": null,
+          "dep": 647
+        },
+        {
+          "station": "GRL",
+          "arr": null,
+          "dep": 711
+        },
+        {
+          "station": "CUB",
+          "arr": 713,
+          "dep": null
         }
       ]
     },
@@ -1658,18 +1928,13 @@
           "dep": 590
         },
         {
+          "station": "GRL",
+          "arr": null,
+          "dep": 711
+        },
+        {
           "station": "CUB",
-          "arr": null,
-          "dep": 595
-        },
-        {
-          "station": "CMO",
-          "arr": null,
-          "dep": 606
-        },
-        {
-          "station": "FKG",
-          "arr": 608,
+          "arr": 713,
           "dep": null
         }
       ]
@@ -1719,18 +1984,13 @@
           "dep": 647
         },
         {
+          "station": "GRL",
+          "arr": null,
+          "dep": 711
+        },
+        {
           "station": "CUB",
-          "arr": null,
-          "dep": 653
-        },
-        {
-          "station": "CMO",
-          "arr": null,
-          "dep": 665
-        },
-        {
-          "station": "FKG",
-          "arr": 668,
+          "arr": 713,
           "dep": null
         }
       ]
@@ -1765,18 +2025,13 @@
           "dep": 523
         },
         {
+          "station": "GRL",
+          "arr": null,
+          "dep": 711
+        },
+        {
           "station": "CUB",
-          "arr": null,
-          "dep": 713
-        },
-        {
-          "station": "CMO",
-          "arr": null,
-          "dep": 726
-        },
-        {
-          "station": "FKG",
-          "arr": 728,
+          "arr": 713,
           "dep": null
         }
       ]
@@ -1809,6 +2064,16 @@
           "station": "GRH",
           "arr": null,
           "dep": 555
+        },
+        {
+          "station": "GRL",
+          "arr": null,
+          "dep": 711
+        },
+        {
+          "station": "CUB",
+          "arr": 713,
+          "dep": null
         }
       ]
     },
@@ -1840,6 +2105,16 @@
           "station": "GRH",
           "arr": null,
           "dep": 586
+        },
+        {
+          "station": "GRL",
+          "arr": null,
+          "dep": 711
+        },
+        {
+          "station": "CUB",
+          "arr": 713,
+          "dep": null
         }
       ]
     },
@@ -1871,6 +2146,16 @@
           "station": "GRH",
           "arr": null,
           "dep": 611
+        },
+        {
+          "station": "GRL",
+          "arr": null,
+          "dep": 711
+        },
+        {
+          "station": "CUB",
+          "arr": 713,
+          "dep": null
         }
       ]
     },
@@ -1902,6 +2187,16 @@
           "station": "GRH",
           "arr": null,
           "dep": 645
+        },
+        {
+          "station": "GRL",
+          "arr": null,
+          "dep": 711
+        },
+        {
+          "station": "CUB",
+          "arr": 713,
+          "dep": null
         }
       ]
     },
@@ -1933,6 +2228,16 @@
           "station": "GRH",
           "arr": null,
           "dep": 673
+        },
+        {
+          "station": "GRL",
+          "arr": null,
+          "dep": 711
+        },
+        {
+          "station": "CUB",
+          "arr": 713,
+          "dep": null
         }
       ]
     },
@@ -1964,6 +2269,16 @@
           "station": "GRH",
           "arr": null,
           "dep": 705
+        },
+        {
+          "station": "GRL",
+          "arr": null,
+          "dep": 711
+        },
+        {
+          "station": "CUB",
+          "arr": 713,
+          "dep": null
         }
       ]
     },
@@ -2126,6 +2441,16 @@
           "station": "MTH",
           "arr": null,
           "dep": 1168
+        },
+        {
+          "station": "WFF",
+          "arr": null,
+          "dep": 1351
+        },
+        {
+          "station": "GRL",
+          "arr": null,
+          "dep": 1370
         }
       ]
     },
@@ -2162,6 +2487,16 @@
           "station": "MTH",
           "arr": null,
           "dep": 1344
+        },
+        {
+          "station": "WFF",
+          "arr": null,
+          "dep": 1351
+        },
+        {
+          "station": "GRL",
+          "arr": null,
+          "dep": 1370
         }
       ]
     },
@@ -2200,14 +2535,9 @@
           "dep": 1351
         },
         {
-          "station": "LBT",
-          "arr": 1372,
-          "dep": null
-        },
-        {
-          "station": "STG",
-          "arr": 1381,
-          "dep": null
+          "station": "GRL",
+          "arr": null,
+          "dep": 1370
         }
       ]
     },
@@ -2364,9 +2694,9 @@
           "dep": 884
         },
         {
-          "station": "CUB",
-          "arr": 892,
-          "dep": null
+          "station": "GRL",
+          "arr": null,
+          "dep": 1370
         }
       ]
     },
@@ -2400,9 +2730,9 @@
           "dep": 944
         },
         {
-          "station": "CUB",
-          "arr": 952,
-          "dep": null
+          "station": "GRL",
+          "arr": null,
+          "dep": 1370
         }
       ]
     },
@@ -2419,6 +2749,26 @@
           "station": "SPR",
           "arr": null,
           "dep": 1051
+        },
+        {
+          "station": "RRN",
+          "arr": null,
+          "dep": 1357
+        },
+        {
+          "station": "SPS",
+          "arr": null,
+          "dep": 1360
+        },
+        {
+          "station": "GRH",
+          "arr": null,
+          "dep": 1364
+        },
+        {
+          "station": "GRL",
+          "arr": null,
+          "dep": 1370
         }
       ]
     },
@@ -2435,6 +2785,26 @@
           "station": "SPR",
           "arr": null,
           "dep": 1111
+        },
+        {
+          "station": "RRN",
+          "arr": null,
+          "dep": 1357
+        },
+        {
+          "station": "SPS",
+          "arr": null,
+          "dep": 1360
+        },
+        {
+          "station": "GRH",
+          "arr": null,
+          "dep": 1364
+        },
+        {
+          "station": "GRL",
+          "arr": null,
+          "dep": 1370
         }
       ]
     },
@@ -2451,6 +2821,26 @@
           "station": "SPR",
           "arr": null,
           "dep": 1171
+        },
+        {
+          "station": "RRN",
+          "arr": null,
+          "dep": 1357
+        },
+        {
+          "station": "SPS",
+          "arr": null,
+          "dep": 1360
+        },
+        {
+          "station": "GRH",
+          "arr": null,
+          "dep": 1364
+        },
+        {
+          "station": "GRL",
+          "arr": null,
+          "dep": 1370
         }
       ]
     },
@@ -2467,6 +2857,26 @@
           "station": "SPR",
           "arr": null,
           "dep": 1231
+        },
+        {
+          "station": "RRN",
+          "arr": null,
+          "dep": 1357
+        },
+        {
+          "station": "SPS",
+          "arr": null,
+          "dep": 1360
+        },
+        {
+          "station": "GRH",
+          "arr": null,
+          "dep": 1364
+        },
+        {
+          "station": "GRL",
+          "arr": null,
+          "dep": 1370
         }
       ]
     },
@@ -2483,6 +2893,26 @@
           "station": "SPR",
           "arr": null,
           "dep": 1291
+        },
+        {
+          "station": "RRN",
+          "arr": null,
+          "dep": 1357
+        },
+        {
+          "station": "SPS",
+          "arr": null,
+          "dep": 1360
+        },
+        {
+          "station": "GRH",
+          "arr": null,
+          "dep": 1364
+        },
+        {
+          "station": "GRL",
+          "arr": null,
+          "dep": 1370
         }
       ]
     },
@@ -2499,6 +2929,26 @@
           "station": "SPR",
           "arr": null,
           "dep": 1352
+        },
+        {
+          "station": "RRN",
+          "arr": null,
+          "dep": 1357
+        },
+        {
+          "station": "SPS",
+          "arr": null,
+          "dep": 1360
+        },
+        {
+          "station": "GRH",
+          "arr": null,
+          "dep": 1364
+        },
+        {
+          "station": "GRL",
+          "arr": null,
+          "dep": 1370
         }
       ]
     },
@@ -2527,9 +2977,9 @@
           "dep": 1364
         },
         {
-          "station": "CUB",
-          "arr": 1372,
-          "dep": null
+          "station": "GRL",
+          "arr": null,
+          "dep": 1370
         }
       ]
     },
@@ -2601,39 +3051,29 @@
           "dep": 373
         },
         {
-          "station": "CBC",
+          "station": "FKG",
           "arr": null,
-          "dep": 386
+          "dep": 587
         },
         {
-          "station": "WFF",
+          "station": "CMO",
           "arr": null,
-          "dep": 389
+          "dep": 590
         },
         {
-          "station": "MTH",
-          "arr": 397,
-          "dep": null
-        },
-        {
-          "station": "AIR",
-          "arr": 407,
-          "dep": null
-        },
-        {
-          "station": "HNC",
-          "arr": 413,
-          "dep": null
-        },
-        {
-          "station": "HNW",
-          "arr": 416,
-          "dep": null
-        },
-        {
-          "station": "GLC",
+          "station": "CUB",
           "arr": null,
-          "dep": null
+          "dep": 654
+        },
+        {
+          "station": "GRL",
+          "arr": null,
+          "dep": 656
+        },
+        {
+          "station": "SPR",
+          "arr": null,
+          "dep": 657
         }
       ]
     },
@@ -2657,9 +3097,29 @@
           "dep": 538
         },
         {
-          "station": "GLC",
+          "station": "FKG",
           "arr": null,
-          "dep": null
+          "dep": 587
+        },
+        {
+          "station": "CMO",
+          "arr": null,
+          "dep": 590
+        },
+        {
+          "station": "CUB",
+          "arr": null,
+          "dep": 654
+        },
+        {
+          "station": "GRL",
+          "arr": null,
+          "dep": 656
+        },
+        {
+          "station": "SPR",
+          "arr": null,
+          "dep": 657
         }
       ]
     },
@@ -2684,33 +3144,18 @@
         },
         {
           "station": "CUB",
-          "arr": 480,
-          "dep": null
-        },
-        {
-          "station": "CBC",
           "arr": null,
-          "dep": 505
+          "dep": 654
         },
         {
-          "station": "AIR",
-          "arr": 529,
-          "dep": null
-        },
-        {
-          "station": "HNC",
-          "arr": 535,
-          "dep": null
-        },
-        {
-          "station": "HNW",
-          "arr": 538,
-          "dep": null
-        },
-        {
-          "station": "GLC",
+          "station": "GRL",
           "arr": null,
-          "dep": null
+          "dep": 656
+        },
+        {
+          "station": "SPR",
+          "arr": null,
+          "dep": 657
         }
       ]
     },
@@ -2735,33 +3180,18 @@
         },
         {
           "station": "CUB",
-          "arr": 539,
-          "dep": null
-        },
-        {
-          "station": "CBC",
           "arr": null,
-          "dep": 566
+          "dep": 654
         },
         {
-          "station": "AIR",
-          "arr": 589,
-          "dep": null
-        },
-        {
-          "station": "HNC",
-          "arr": 595,
-          "dep": null
-        },
-        {
-          "station": "HNW",
-          "arr": 598,
-          "dep": null
-        },
-        {
-          "station": "GLC",
+          "station": "GRL",
           "arr": null,
-          "dep": null
+          "dep": 656
+        },
+        {
+          "station": "SPR",
+          "arr": null,
+          "dep": 657
         }
       ]
     },
@@ -2786,33 +3216,18 @@
         },
         {
           "station": "CUB",
-          "arr": 600,
-          "dep": null
-        },
-        {
-          "station": "CBC",
           "arr": null,
-          "dep": 626
+          "dep": 654
         },
         {
-          "station": "AIR",
-          "arr": 649,
-          "dep": null
-        },
-        {
-          "station": "HNC",
-          "arr": 655,
-          "dep": null
-        },
-        {
-          "station": "HNW",
-          "arr": 658,
-          "dep": null
-        },
-        {
-          "station": "GLC",
+          "station": "GRL",
           "arr": null,
-          "dep": null
+          "dep": 656
+        },
+        {
+          "station": "SPR",
+          "arr": null,
+          "dep": 657
         }
       ]
     },
@@ -2837,8 +3252,18 @@
         },
         {
           "station": "CUB",
-          "arr": 649,
-          "dep": null
+          "arr": null,
+          "dep": 654
+        },
+        {
+          "station": "GRL",
+          "arr": null,
+          "dep": 656
+        },
+        {
+          "station": "SPR",
+          "arr": null,
+          "dep": 657
         }
       ]
     },
@@ -2870,6 +3295,26 @@
           "station": "MTH",
           "arr": 637,
           "dep": null
+        },
+        {
+          "station": "GRH",
+          "arr": null,
+          "dep": 639
+        },
+        {
+          "station": "SPS",
+          "arr": null,
+          "dep": 642
+        },
+        {
+          "station": "RRN",
+          "arr": null,
+          "dep": 645
+        },
+        {
+          "station": "SPR",
+          "arr": null,
+          "dep": 678
         }
       ]
     },
@@ -3011,19 +3456,14 @@
           "dep": 557
         },
         {
-          "station": "GRH",
+          "station": "GRL",
           "arr": null,
-          "dep": 663
+          "dep": 656
         },
         {
-          "station": "SPS",
+          "station": "SPR",
           "arr": null,
-          "dep": 666
-        },
-        {
-          "station": "RRN",
-          "arr": null,
-          "dep": 669
+          "dep": 657
         }
       ]
     },
@@ -3040,6 +3480,16 @@
           "station": "CUB",
           "arr": null,
           "dep": 571
+        },
+        {
+          "station": "GRL",
+          "arr": null,
+          "dep": 656
+        },
+        {
+          "station": "SPR",
+          "arr": null,
+          "dep": 657
         }
       ]
     },
@@ -3056,6 +3506,16 @@
           "station": "CUB",
           "arr": null,
           "dep": 601
+        },
+        {
+          "station": "GRL",
+          "arr": null,
+          "dep": 656
+        },
+        {
+          "station": "SPR",
+          "arr": null,
+          "dep": 657
         }
       ]
     },
@@ -3072,6 +3532,16 @@
           "station": "CUB",
           "arr": null,
           "dep": 617
+        },
+        {
+          "station": "GRL",
+          "arr": null,
+          "dep": 656
+        },
+        {
+          "station": "SPR",
+          "arr": null,
+          "dep": 657
         }
       ]
     },
@@ -3088,6 +3558,16 @@
           "station": "CUB",
           "arr": null,
           "dep": 630
+        },
+        {
+          "station": "GRL",
+          "arr": null,
+          "dep": 656
+        },
+        {
+          "station": "SPR",
+          "arr": null,
+          "dep": 657
         }
       ]
     },
@@ -3104,6 +3584,16 @@
           "station": "CUB",
           "arr": null,
           "dep": 654
+        },
+        {
+          "station": "GRL",
+          "arr": null,
+          "dep": 656
+        },
+        {
+          "station": "SPR",
+          "arr": null,
+          "dep": 657
         }
       ]
     },
@@ -3120,6 +3610,11 @@
           "station": "GRL",
           "arr": null,
           "dep": 656
+        },
+        {
+          "station": "SPR",
+          "arr": null,
+          "dep": 657
         }
       ]
     },
@@ -3219,37 +3714,17 @@
         {
           "station": "CUB",
           "arr": 353,
-          "dep": null
-        },
-        {
-          "station": "CUB",
-          "arr": null,
           "dep": 353
         },
         {
-          "station": "CBC",
+          "station": "GRL",
           "arr": null,
-          "dep": 386
+          "dep": 656
         },
         {
-          "station": "AIR",
-          "arr": 407,
-          "dep": null
-        },
-        {
-          "station": "HNC",
-          "arr": 413,
-          "dep": null
-        },
-        {
-          "station": "HNW",
-          "arr": 416,
-          "dep": null
-        },
-        {
-          "station": "GLC",
+          "station": "SPR",
           "arr": null,
-          "dep": null
+          "dep": 657
         }
       ]
     },
@@ -3273,9 +3748,29 @@
           "dep": 537
         },
         {
-          "station": "GLC",
+          "station": "FKG",
           "arr": null,
-          "dep": null
+          "dep": 585
+        },
+        {
+          "station": "CMO",
+          "arr": null,
+          "dep": 588
+        },
+        {
+          "station": "CUB",
+          "arr": null,
+          "dep": 654
+        },
+        {
+          "station": "GRL",
+          "arr": null,
+          "dep": 656
+        },
+        {
+          "station": "SPR",
+          "arr": null,
+          "dep": 657
         }
       ]
     },
@@ -3300,33 +3795,18 @@
         },
         {
           "station": "CUB",
-          "arr": 480,
-          "dep": null
-        },
-        {
-          "station": "CBC",
           "arr": null,
-          "dep": 505
+          "dep": 654
         },
         {
-          "station": "AIR",
-          "arr": 529,
-          "dep": null
-        },
-        {
-          "station": "HNC",
-          "arr": 535,
-          "dep": null
-        },
-        {
-          "station": "HNW",
-          "arr": 538,
-          "dep": null
-        },
-        {
-          "station": "GLC",
+          "station": "GRL",
           "arr": null,
-          "dep": null
+          "dep": 656
+        },
+        {
+          "station": "SPR",
+          "arr": null,
+          "dep": 657
         }
       ]
     },
@@ -3351,33 +3831,18 @@
         },
         {
           "station": "CUB",
-          "arr": 539,
-          "dep": null
-        },
-        {
-          "station": "CBC",
           "arr": null,
-          "dep": 566
+          "dep": 654
         },
         {
-          "station": "AIR",
-          "arr": 589,
-          "dep": null
-        },
-        {
-          "station": "HNC",
-          "arr": 595,
-          "dep": null
-        },
-        {
-          "station": "HNW",
-          "arr": 598,
-          "dep": null
-        },
-        {
-          "station": "GLC",
+          "station": "GRL",
           "arr": null,
-          "dep": null
+          "dep": 656
+        },
+        {
+          "station": "SPR",
+          "arr": null,
+          "dep": 657
         }
       ]
     },
@@ -3402,33 +3867,18 @@
         },
         {
           "station": "CUB",
-          "arr": 599,
-          "dep": null
-        },
-        {
-          "station": "CBC",
           "arr": null,
-          "dep": 626
+          "dep": 654
         },
         {
-          "station": "AIR",
-          "arr": 649,
-          "dep": null
-        },
-        {
-          "station": "HNC",
-          "arr": 655,
-          "dep": null
-        },
-        {
-          "station": "HNW",
-          "arr": 658,
-          "dep": null
-        },
-        {
-          "station": "GLC",
+          "station": "GRL",
           "arr": null,
-          "dep": null
+          "dep": 656
+        },
+        {
+          "station": "SPR",
+          "arr": null,
+          "dep": 657
         }
       ]
     },
@@ -3453,8 +3903,18 @@
         },
         {
           "station": "CUB",
-          "arr": 649,
-          "dep": null
+          "arr": null,
+          "dep": 654
+        },
+        {
+          "station": "GRL",
+          "arr": null,
+          "dep": 656
+        },
+        {
+          "station": "SPR",
+          "arr": null,
+          "dep": 657
         }
       ]
     },
@@ -3473,14 +3933,14 @@
           "dep": 481
         },
         {
-          "station": "WFF",
+          "station": "GRL",
           "arr": null,
-          "dep": 629
+          "dep": 656
         },
         {
-          "station": "MTH",
-          "arr": 637,
-          "dep": null
+          "station": "SPR",
+          "arr": null,
+          "dep": 657
         }
       ]
     },
@@ -3499,24 +3959,14 @@
           "dep": 495
         },
         {
-          "station": "GRH",
+          "station": "GRL",
           "arr": null,
-          "dep": 581
-        },
-        {
-          "station": "SPS",
-          "arr": null,
-          "dep": 584
-        },
-        {
-          "station": "RRN",
-          "arr": null,
-          "dep": 587
+          "dep": 656
         },
         {
           "station": "SPR",
           "arr": null,
-          "dep": 651
+          "dep": 657
         }
       ]
     },
@@ -3535,24 +3985,14 @@
           "dep": 510
         },
         {
-          "station": "GRH",
+          "station": "GRL",
           "arr": null,
-          "dep": 609
-        },
-        {
-          "station": "SPS",
-          "arr": null,
-          "dep": 612
-        },
-        {
-          "station": "RRN",
-          "arr": null,
-          "dep": 615
+          "dep": 656
         },
         {
           "station": "SPR",
           "arr": null,
-          "dep": 678
+          "dep": 657
         }
       ]
     },
@@ -3571,19 +4011,14 @@
           "dep": 540
         },
         {
-          "station": "GRH",
+          "station": "GRL",
           "arr": null,
-          "dep": 639
+          "dep": 656
         },
         {
-          "station": "SPS",
+          "station": "SPR",
           "arr": null,
-          "dep": 642
-        },
-        {
-          "station": "RRN",
-          "arr": null,
-          "dep": 645
+          "dep": 657
         }
       ]
     },
@@ -3602,19 +4037,14 @@
           "dep": 557
         },
         {
-          "station": "GRH",
+          "station": "GRL",
           "arr": null,
-          "dep": 663
+          "dep": 656
         },
         {
-          "station": "SPS",
+          "station": "SPR",
           "arr": null,
-          "dep": 666
-        },
-        {
-          "station": "RRN",
-          "arr": null,
-          "dep": 669
+          "dep": 657
         }
       ]
     },
@@ -3631,6 +4061,16 @@
           "station": "CUB",
           "arr": null,
           "dep": 572
+        },
+        {
+          "station": "GRL",
+          "arr": null,
+          "dep": 656
+        },
+        {
+          "station": "SPR",
+          "arr": null,
+          "dep": 657
         }
       ]
     },
@@ -3647,6 +4087,16 @@
           "station": "CUB",
           "arr": null,
           "dep": 600
+        },
+        {
+          "station": "GRL",
+          "arr": null,
+          "dep": 656
+        },
+        {
+          "station": "SPR",
+          "arr": null,
+          "dep": 657
         }
       ]
     },
@@ -3663,6 +4113,16 @@
           "station": "CUB",
           "arr": null,
           "dep": 617
+        },
+        {
+          "station": "GRL",
+          "arr": null,
+          "dep": 656
+        },
+        {
+          "station": "SPR",
+          "arr": null,
+          "dep": 657
         }
       ]
     },
@@ -3679,6 +4139,16 @@
           "station": "CUB",
           "arr": null,
           "dep": 630
+        },
+        {
+          "station": "GRL",
+          "arr": null,
+          "dep": 656
+        },
+        {
+          "station": "SPR",
+          "arr": null,
+          "dep": 657
         }
       ]
     },
@@ -3695,6 +4165,16 @@
           "station": "CUB",
           "arr": null,
           "dep": 654
+        },
+        {
+          "station": "GRL",
+          "arr": null,
+          "dep": 656
+        },
+        {
+          "station": "SPR",
+          "arr": null,
+          "dep": 657
         }
       ]
     },
@@ -3711,6 +4191,11 @@
           "station": "GRL",
           "arr": null,
           "dep": 632
+        },
+        {
+          "station": "SPR",
+          "arr": null,
+          "dep": 657
         }
       ]
     },
@@ -3727,6 +4212,11 @@
           "station": "GRL",
           "arr": null,
           "dep": 656
+        },
+        {
+          "station": "SPR",
+          "arr": null,
+          "dep": 657
         }
       ]
     },
@@ -3782,14 +4272,19 @@
           "dep": 614
         },
         {
-          "station": "WFF",
+          "station": "CUB",
           "arr": null,
-          "dep": 640
+          "dep": 1032
         },
         {
-          "station": "MTH",
-          "arr": 653,
-          "dep": null
+          "station": "GRL",
+          "arr": null,
+          "dep": 1394
+        },
+        {
+          "station": "SPR",
+          "arr": null,
+          "dep": 1419
         }
       ]
     },
@@ -3813,14 +4308,19 @@
           "dep": 808
         },
         {
-          "station": "WFF",
+          "station": "CUB",
           "arr": null,
-          "dep": 830
+          "dep": 1032
         },
         {
-          "station": "MTH",
-          "arr": 840,
-          "dep": null
+          "station": "GRL",
+          "arr": null,
+          "dep": 1394
+        },
+        {
+          "station": "SPR",
+          "arr": null,
+          "dep": 1419
         }
       ]
     },
@@ -3844,14 +4344,19 @@
           "dep": 1002
         },
         {
-          "station": "WFF",
+          "station": "CUB",
           "arr": null,
           "dep": 1032
         },
         {
-          "station": "MTH",
-          "arr": 1042,
-          "dep": null
+          "station": "GRL",
+          "arr": null,
+          "dep": 1394
+        },
+        {
+          "station": "SPR",
+          "arr": null,
+          "dep": 1419
         }
       ]
     },
@@ -3952,24 +4457,14 @@
           "dep": 852
         },
         {
-          "station": "GRH",
+          "station": "GRL",
           "arr": null,
-          "dep": 861
-        },
-        {
-          "station": "SPS",
-          "arr": null,
-          "dep": 865
-        },
-        {
-          "station": "RRN",
-          "arr": null,
-          "dep": 868
+          "dep": 1394
         },
         {
           "station": "SPR",
           "arr": null,
-          "dep": 874
+          "dep": 1419
         }
       ]
     },
@@ -3988,24 +4483,14 @@
           "dep": 912
         },
         {
-          "station": "GRH",
+          "station": "GRL",
           "arr": null,
-          "dep": 921
-        },
-        {
-          "station": "SPS",
-          "arr": null,
-          "dep": 925
-        },
-        {
-          "station": "RRN",
-          "arr": null,
-          "dep": 928
+          "dep": 1394
         },
         {
           "station": "SPR",
           "arr": null,
-          "dep": 934
+          "dep": 1419
         }
       ]
     },
@@ -4024,24 +4509,14 @@
           "dep": 972
         },
         {
-          "station": "GRH",
+          "station": "GRL",
           "arr": null,
-          "dep": 981
-        },
-        {
-          "station": "SPS",
-          "arr": null,
-          "dep": 985
-        },
-        {
-          "station": "RRN",
-          "arr": null,
-          "dep": 988
+          "dep": 1394
         },
         {
           "station": "SPR",
           "arr": null,
-          "dep": 994
+          "dep": 1419
         }
       ]
     },
@@ -4060,24 +4535,14 @@
           "dep": 1032
         },
         {
-          "station": "GRH",
+          "station": "GRL",
           "arr": null,
-          "dep": 1041
-        },
-        {
-          "station": "SPS",
-          "arr": null,
-          "dep": 1045
-        },
-        {
-          "station": "RRN",
-          "arr": null,
-          "dep": 1048
+          "dep": 1394
         },
         {
           "station": "SPR",
           "arr": null,
-          "dep": 1054
+          "dep": 1419
         }
       ]
     },
@@ -4096,24 +4561,14 @@
           "dep": 1092
         },
         {
-          "station": "GRH",
+          "station": "GRL",
           "arr": null,
-          "dep": 1101
-        },
-        {
-          "station": "SPS",
-          "arr": null,
-          "dep": 1105
-        },
-        {
-          "station": "RRN",
-          "arr": null,
-          "dep": 1108
+          "dep": 1394
         },
         {
           "station": "SPR",
           "arr": null,
-          "dep": 1114
+          "dep": 1419
         }
       ]
     },
@@ -4132,24 +4587,14 @@
           "dep": 1152
         },
         {
-          "station": "GRH",
+          "station": "GRL",
           "arr": null,
-          "dep": 1161
-        },
-        {
-          "station": "SPS",
-          "arr": null,
-          "dep": 1165
-        },
-        {
-          "station": "RRN",
-          "arr": null,
-          "dep": 1168
+          "dep": 1394
         },
         {
           "station": "SPR",
           "arr": null,
-          "dep": 1174
+          "dep": 1419
         }
       ]
     },
@@ -4168,24 +4613,14 @@
           "dep": 1212
         },
         {
-          "station": "GRH",
+          "station": "GRL",
           "arr": null,
-          "dep": 1221
-        },
-        {
-          "station": "SPS",
-          "arr": null,
-          "dep": 1225
-        },
-        {
-          "station": "RRN",
-          "arr": null,
-          "dep": 1228
+          "dep": 1394
         },
         {
           "station": "SPR",
           "arr": null,
-          "dep": 1234
+          "dep": 1419
         }
       ]
     },
@@ -4204,24 +4639,14 @@
           "dep": 1272
         },
         {
-          "station": "GRH",
+          "station": "GRL",
           "arr": null,
-          "dep": 1281
-        },
-        {
-          "station": "SPS",
-          "arr": null,
-          "dep": 1285
-        },
-        {
-          "station": "RRN",
-          "arr": null,
-          "dep": 1288
+          "dep": 1394
         },
         {
           "station": "SPR",
           "arr": null,
-          "dep": 1294
+          "dep": 1419
         }
       ]
     },
@@ -4240,24 +4665,14 @@
           "dep": 1334
         },
         {
-          "station": "GRH",
+          "station": "GRL",
           "arr": null,
-          "dep": 1343
-        },
-        {
-          "station": "SPS",
-          "arr": null,
-          "dep": 1346
-        },
-        {
-          "station": "RRN",
-          "arr": null,
-          "dep": 1349
+          "dep": 1394
         },
         {
           "station": "SPR",
           "arr": null,
-          "dep": 1355
+          "dep": 1419
         }
       ]
     },
@@ -4276,24 +4691,14 @@
           "dep": 1392
         },
         {
-          "station": "GRH",
+          "station": "GRL",
           "arr": null,
-          "dep": 1401
-        },
-        {
-          "station": "SPS",
-          "arr": null,
-          "dep": 1405
-        },
-        {
-          "station": "RRN",
-          "arr": null,
-          "dep": 1408
+          "dep": 1394
         },
         {
           "station": "SPR",
           "arr": null,
-          "dep": 1414
+          "dep": 1419
         }
       ]
     },
@@ -4310,6 +4715,11 @@
           "station": "GRL",
           "arr": null,
           "dep": 1336
+        },
+        {
+          "station": "SPR",
+          "arr": null,
+          "dep": 1419
         }
       ]
     },
@@ -4326,6 +4736,11 @@
           "station": "GRL",
           "arr": null,
           "dep": 1394
+        },
+        {
+          "station": "SPR",
+          "arr": null,
+          "dep": 1419
         }
       ]
     },

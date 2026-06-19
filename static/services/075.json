@@ -114,23 +114,43 @@
           "dep": null
         },
         {
+          "station": "BBK",
+          "arr": null,
+          "dep": 424
+        },
+        {
+          "station": "CSL",
+          "arr": null,
+          "dep": 427
+        },
+        {
+          "station": "ALB",
+          "arr": null,
+          "dep": 432
+        },
+        {
+          "station": "COS",
+          "arr": null,
+          "dep": 435
+        },
+        {
+          "station": "SFN",
+          "arr": null,
+          "dep": 440
+        },
+        {
+          "station": "TFC",
+          "arr": null,
+          "dep": 453
+        },
+        {
+          "station": "WLN",
+          "arr": null,
+          "dep": 460
+        },
+        {
           "station": "SHR",
-          "arr": 420,
-          "dep": null
-        },
-        {
-          "station": "NWT",
-          "arr": null,
-          "dep": 423
-        },
-        {
-          "station": "CWS",
-          "arr": null,
-          "dep": 430
-        },
-        {
-          "station": "MCN",
-          "arr": null,
+          "arr": 893,
           "dep": null
         }
       ]
@@ -185,28 +205,18 @@
           "dep": 440
         },
         {
-          "station": "OKN",
+          "station": "TFC",
           "arr": null,
-          "dep": 448
+          "dep": 453
         },
         {
-          "station": "WLP",
+          "station": "WLN",
           "arr": null,
-          "dep": 469
+          "dep": 460
         },
         {
-          "station": "NWT",
-          "arr": null,
-          "dep": 484
-        },
-        {
-          "station": "CWS",
-          "arr": null,
-          "dep": 491
-        },
-        {
-          "station": "MCN",
-          "arr": null,
+          "station": "SHR",
+          "arr": 893,
           "dep": null
         }
       ]
@@ -236,13 +246,18 @@
           "dep": 446
         },
         {
+          "station": "TFC",
+          "arr": null,
+          "dep": 453
+        },
+        {
           "station": "WLN",
           "arr": null,
-          "dep": 454
+          "dep": 460
         },
         {
           "station": "SHR",
-          "arr": 470,
+          "arr": 893,
           "dep": null
         }
       ]
@@ -278,7 +293,7 @@
         },
         {
           "station": "SHR",
-          "arr": 476,
+          "arr": 893,
           "dep": null
         }
       ]
@@ -379,18 +394,18 @@
           "dep": 500
         },
         {
-          "station": "OKN",
+          "station": "TFC",
           "arr": null,
-          "dep": 508
+          "dep": 873
         },
         {
-          "station": "WLP",
+          "station": "WLN",
           "arr": null,
-          "dep": 709
+          "dep": 880
         },
         {
-          "station": "MCN",
-          "arr": null,
+          "station": "SHR",
+          "arr": 893,
           "dep": null
         }
       ]
@@ -465,23 +480,23 @@
           "dep": 555
         },
         {
-          "station": "OKN",
+          "station": "SFN",
           "arr": null,
-          "dep": 568
+          "dep": 860
         },
         {
-          "station": "NWT",
+          "station": "TFC",
           "arr": null,
-          "dep": 666
+          "dep": 873
         },
         {
-          "station": "CWS",
+          "station": "WLN",
           "arr": null,
-          "dep": 673
+          "dep": 880
         },
         {
-          "station": "MCN",
-          "arr": null,
+          "station": "SHR",
+          "arr": 893,
           "dep": null
         }
       ]
@@ -556,23 +571,23 @@
           "dep": 615
         },
         {
-          "station": "OKN",
+          "station": "SFN",
           "arr": null,
-          "dep": 628
+          "dep": 860
         },
         {
-          "station": "NWT",
+          "station": "TFC",
           "arr": null,
-          "dep": 724
+          "dep": 873
         },
         {
-          "station": "CWS",
+          "station": "WLN",
           "arr": null,
-          "dep": 731
+          "dep": 880
         },
         {
-          "station": "MCN",
-          "arr": null,
+          "station": "SHR",
+          "arr": 893,
           "dep": null
         }
       ]
@@ -605,6 +620,26 @@
           "station": "WVH",
           "arr": null,
           "dep": null
+        },
+        {
+          "station": "SFN",
+          "arr": null,
+          "dep": 860
+        },
+        {
+          "station": "TFC",
+          "arr": null,
+          "dep": 873
+        },
+        {
+          "station": "WLN",
+          "arr": null,
+          "dep": 880
+        },
+        {
+          "station": "SHR",
+          "arr": 893,
+          "dep": null
         }
       ]
     },
@@ -633,9 +668,19 @@
           "dep": 620
         },
         {
-          "station": "SHR",
+          "station": "TFC",
           "arr": null,
-          "dep": 627
+          "dep": 633
+        },
+        {
+          "station": "WLN",
+          "arr": null,
+          "dep": 640
+        },
+        {
+          "station": "SHR",
+          "arr": 656,
+          "dep": null
         }
       ]
     },
@@ -664,9 +709,19 @@
           "dep": 626
         },
         {
-          "station": "SHR",
+          "station": "TFC",
           "arr": null,
-          "dep": 687
+          "dep": 633
+        },
+        {
+          "station": "WLN",
+          "arr": null,
+          "dep": 640
+        },
+        {
+          "station": "SHR",
+          "arr": 656,
+          "dep": null
         }
       ]
     },
@@ -702,11 +757,6 @@
         {
           "station": "SHR",
           "arr": 622,
-          "dep": null
-        },
-        {
-          "station": "SHR",
-          "arr": null,
           "dep": 685
         }
       ]
@@ -849,43 +899,63 @@
           "dep": 690
         },
         {
+          "station": "TAB",
+          "arr": null,
+          "dep": 821
+        },
+        {
+          "station": "DAS",
+          "arr": null,
+          "dep": 826
+        },
+        {
+          "station": "WIA",
+          "arr": null,
+          "dep": 829
+        },
+        {
           "station": "WVH",
           "arr": null,
           "dep": null
         },
         {
+          "station": "BBK",
+          "arr": null,
+          "dep": 844
+        },
+        {
+          "station": "CSL",
+          "arr": null,
+          "dep": 847
+        },
+        {
+          "station": "ALB",
+          "arr": null,
+          "dep": 852
+        },
+        {
+          "station": "COS",
+          "arr": null,
+          "dep": 855
+        },
+        {
+          "station": "SFN",
+          "arr": null,
+          "dep": 860
+        },
+        {
+          "station": "TFC",
+          "arr": null,
+          "dep": 873
+        },
+        {
           "station": "WLN",
           "arr": null,
-          "dep": 694
+          "dep": 880
         },
         {
           "station": "SHR",
-          "arr": 707,
-          "dep": null
-        },
-        {
-          "station": "SHR",
-          "arr": null,
-          "dep": 747
-        },
-        {
-          "station": "WLP",
-          "arr": null,
-          "dep": 831
-        },
-        {
-          "station": "NWT",
-          "arr": null,
-          "dep": 846
-        },
-        {
-          "station": "CWS",
-          "arr": null,
-          "dep": 853
-        },
-        {
-          "station": "MCN",
-          "arr": null,
+          "arr": 893,
           "dep": null
         }
       ]
@@ -920,14 +990,64 @@
           "dep": 750
         },
         {
+          "station": "TAB",
+          "arr": null,
+          "dep": 821
+        },
+        {
+          "station": "DAS",
+          "arr": null,
+          "dep": 826
+        },
+        {
+          "station": "WIA",
+          "arr": null,
+          "dep": 829
+        },
+        {
           "station": "WVH",
           "arr": null,
           "dep": null
         },
         {
-          "station": "SHR",
+          "station": "BBK",
           "arr": null,
-          "dep": 807
+          "dep": 844
+        },
+        {
+          "station": "CSL",
+          "arr": null,
+          "dep": 847
+        },
+        {
+          "station": "ALB",
+          "arr": null,
+          "dep": 852
+        },
+        {
+          "station": "COS",
+          "arr": null,
+          "dep": 855
+        },
+        {
+          "station": "SFN",
+          "arr": null,
+          "dep": 860
+        },
+        {
+          "station": "TFC",
+          "arr": null,
+          "dep": 873
+        },
+        {
+          "station": "WLN",
+          "arr": null,
+          "dep": 880
+        },
+        {
+          "station": "SHR",
+          "arr": 893,
+          "dep": null
         }
       ]
     },
@@ -961,8 +1081,63 @@
           "dep": 811
         },
         {
+          "station": "TAB",
+          "arr": null,
+          "dep": 821
+        },
+        {
+          "station": "DAS",
+          "arr": null,
+          "dep": 826
+        },
+        {
+          "station": "WIA",
+          "arr": null,
+          "dep": 829
+        },
+        {
           "station": "WVH",
           "arr": null,
+          "dep": null
+        },
+        {
+          "station": "BBK",
+          "arr": null,
+          "dep": 844
+        },
+        {
+          "station": "CSL",
+          "arr": null,
+          "dep": 847
+        },
+        {
+          "station": "ALB",
+          "arr": null,
+          "dep": 852
+        },
+        {
+          "station": "COS",
+          "arr": null,
+          "dep": 855
+        },
+        {
+          "station": "SFN",
+          "arr": null,
+          "dep": 860
+        },
+        {
+          "station": "TFC",
+          "arr": null,
+          "dep": 873
+        },
+        {
+          "station": "WLN",
+          "arr": null,
+          "dep": 880
+        },
+        {
+          "station": "SHR",
+          "arr": 893,
           "dep": null
         }
       ]
@@ -1027,9 +1202,24 @@
           "dep": 855
         },
         {
-          "station": "OKN",
+          "station": "SFN",
           "arr": null,
-          "dep": 868
+          "dep": 860
+        },
+        {
+          "station": "TFC",
+          "arr": null,
+          "dep": 873
+        },
+        {
+          "station": "WLN",
+          "arr": null,
+          "dep": 880
+        },
+        {
+          "station": "SHR",
+          "arr": 893,
+          "dep": null
         }
       ]
     },
@@ -1056,6 +1246,21 @@
           "station": "SFN",
           "arr": null,
           "dep": 800
+        },
+        {
+          "station": "TFC",
+          "arr": null,
+          "dep": 873
+        },
+        {
+          "station": "WLN",
+          "arr": null,
+          "dep": 880
+        },
+        {
+          "station": "SHR",
+          "arr": 893,
+          "dep": null
         }
       ]
     },
@@ -1082,6 +1287,21 @@
           "station": "SFN",
           "arr": null,
           "dep": 806
+        },
+        {
+          "station": "TFC",
+          "arr": null,
+          "dep": 873
+        },
+        {
+          "station": "WLN",
+          "arr": null,
+          "dep": 880
+        },
+        {
+          "station": "SHR",
+          "arr": 893,
+          "dep": null
         }
       ]
     },
@@ -1108,6 +1328,21 @@
           "station": "SFN",
           "arr": null,
           "dep": 860
+        },
+        {
+          "station": "TFC",
+          "arr": null,
+          "dep": 873
+        },
+        {
+          "station": "WLN",
+          "arr": null,
+          "dep": 880
+        },
+        {
+          "station": "SHR",
+          "arr": 893,
+          "dep": null
         }
       ]
     },
@@ -1134,6 +1369,21 @@
           "station": "SFN",
           "arr": null,
           "dep": 866
+        },
+        {
+          "station": "TFC",
+          "arr": null,
+          "dep": 873
+        },
+        {
+          "station": "WLN",
+          "arr": null,
+          "dep": 880
+        },
+        {
+          "station": "SHR",
+          "arr": 893,
+          "dep": null
         }
       ]
     },
@@ -1320,28 +1570,18 @@
           "dep": 920
         },
         {
-          "station": "OKN",
+          "station": "TFC",
           "arr": null,
-          "dep": 928
+          "dep": 1053
         },
         {
-          "station": "WLP",
+          "station": "WLN",
           "arr": null,
-          "dep": 951
+          "dep": 1060
         },
         {
-          "station": "NWT",
-          "arr": null,
-          "dep": 966
-        },
-        {
-          "station": "CWS",
-          "arr": null,
-          "dep": 973
-        },
-        {
-          "station": "MCN",
-          "arr": null,
+          "station": "SHR",
+          "arr": 1073,
           "dep": null
         }
       ]
@@ -1416,28 +1656,23 @@
           "dep": 975
         },
         {
-          "station": "OKN",
+          "station": "SFN",
           "arr": null,
-          "dep": 988
+          "dep": 1040
         },
         {
-          "station": "WLP",
+          "station": "TFC",
           "arr": null,
-          "dep": 1012
+          "dep": 1053
         },
         {
-          "station": "NWT",
+          "station": "WLN",
           "arr": null,
-          "dep": 1027
+          "dep": 1060
         },
         {
-          "station": "CWS",
-          "arr": null,
-          "dep": 1034
-        },
-        {
-          "station": "MCN",
-          "arr": null,
+          "station": "SHR",
+          "arr": 1073,
           "dep": null
         }
       ]
@@ -1512,28 +1747,23 @@
           "dep": 1035
         },
         {
-          "station": "OKN",
+          "station": "SFN",
           "arr": null,
-          "dep": 1048
+          "dep": 1040
         },
         {
-          "station": "WLP",
+          "station": "TFC",
           "arr": null,
-          "dep": 1072
+          "dep": 1053
         },
         {
-          "station": "NWT",
+          "station": "WLN",
           "arr": null,
-          "dep": 1087
+          "dep": 1060
         },
         {
-          "station": "CWS",
-          "arr": null,
-          "dep": 1095
-        },
-        {
-          "station": "MCN",
-          "arr": null,
+          "station": "SHR",
+          "arr": 1073,
           "dep": null
         }
       ]
@@ -1561,6 +1791,26 @@
           "station": "CSL",
           "arr": null,
           "dep": 1039
+        },
+        {
+          "station": "SFN",
+          "arr": null,
+          "dep": 1040
+        },
+        {
+          "station": "TFC",
+          "arr": null,
+          "dep": 1053
+        },
+        {
+          "station": "WLN",
+          "arr": null,
+          "dep": 1060
+        },
+        {
+          "station": "SHR",
+          "arr": 1073,
+          "dep": null
         }
       ]
     },
@@ -1589,9 +1839,19 @@
           "dep": 1040
         },
         {
-          "station": "SHR",
+          "station": "TFC",
           "arr": null,
-          "dep": 1047
+          "dep": 1053
+        },
+        {
+          "station": "WLN",
+          "arr": null,
+          "dep": 1060
+        },
+        {
+          "station": "SHR",
+          "arr": 1073,
+          "dep": null
         }
       ]
     },
@@ -1620,9 +1880,19 @@
           "dep": 1047
         },
         {
-          "station": "SHR",
+          "station": "TFC",
           "arr": null,
-          "dep": 1049
+          "dep": 1053
+        },
+        {
+          "station": "WLN",
+          "arr": null,
+          "dep": 1060
+        },
+        {
+          "station": "SHR",
+          "arr": 1073,
+          "dep": null
         }
       ]
     },
@@ -1658,11 +1928,6 @@
         {
           "station": "SHR",
           "arr": 1042,
-          "dep": null
-        },
-        {
-          "station": "SHR",
-          "arr": null,
           "dep": 1101
         }
       ]
@@ -1814,28 +2079,18 @@
           "dep": 1100
         },
         {
-          "station": "OKN",
+          "station": "TFC",
           "arr": null,
-          "dep": 1108
+          "dep": 1423
         },
         {
-          "station": "WLP",
+          "station": "WLN",
           "arr": null,
-          "dep": 1133
+          "dep": 1431
         },
         {
-          "station": "NWT",
-          "arr": null,
-          "dep": 1148
-        },
-        {
-          "station": "CWS",
-          "arr": null,
-          "dep": 1155
-        },
-        {
-          "station": "MCN",
-          "arr": null,
+          "station": "SHR",
+          "arr": 5,
           "dep": null
         }
       ]
@@ -1910,28 +2165,23 @@
           "dep": 1155
         },
         {
-          "station": "OKN",
+          "station": "SFN",
           "arr": null,
-          "dep": 1168
+          "dep": 1160
         },
         {
-          "station": "WLP",
+          "station": "TFC",
           "arr": null,
-          "dep": 1192
+          "dep": 1423
         },
         {
-          "station": "NWT",
+          "station": "WLN",
           "arr": null,
-          "dep": 1207
+          "dep": 1431
         },
         {
-          "station": "CWS",
-          "arr": null,
-          "dep": 1215
-        },
-        {
-          "station": "MCN",
-          "arr": null,
+          "station": "SHR",
+          "arr": 5,
           "dep": null
         }
       ]
@@ -1971,18 +2221,18 @@
           "dep": 1160
         },
         {
+          "station": "TFC",
+          "arr": null,
+          "dep": 1423
+        },
+        {
+          "station": "WLN",
+          "arr": null,
+          "dep": 1431
+        },
+        {
           "station": "SHR",
-          "arr": null,
-          "dep": 1170
-        },
-        {
-          "station": "WLP",
-          "arr": null,
-          "dep": 1254
-        },
-        {
-          "station": "MCN",
-          "arr": null,
+          "arr": 5,
           "dep": null
         }
       ]
@@ -2017,23 +2267,23 @@
           "dep": null
         },
         {
+          "station": "SFN",
+          "arr": null,
+          "dep": 1418
+        },
+        {
+          "station": "TFC",
+          "arr": null,
+          "dep": 1423
+        },
+        {
+          "station": "WLN",
+          "arr": null,
+          "dep": 1431
+        },
+        {
           "station": "SHR",
-          "arr": null,
-          "dep": 1170
-        },
-        {
-          "station": "NWT",
-          "arr": null,
-          "dep": 1269
-        },
-        {
-          "station": "CWS",
-          "arr": null,
-          "dep": 1277
-        },
-        {
-          "station": "MCN",
-          "arr": null,
+          "arr": 5,
           "dep": null
         }
       ]
@@ -2070,11 +2320,6 @@
         {
           "station": "SHR",
           "arr": 1163,
-          "dep": null
-        },
-        {
-          "station": "SHR",
-          "arr": null,
           "dep": 1168
         },
         {
@@ -2126,7 +2371,7 @@
         {
           "station": "SHR",
           "arr": 1188,
-          "dep": null
+          "dep": 1182
         }
       ]
     },
@@ -2162,11 +2407,6 @@
         {
           "station": "SHR",
           "arr": 1196,
-          "dep": null
-        },
-        {
-          "station": "SHR",
-          "arr": null,
           "dep": 1227
         }
       ]
@@ -2203,11 +2443,6 @@
         {
           "station": "SHR",
           "arr": 1224,
-          "dep": null
-        },
-        {
-          "station": "SHR",
-          "arr": null,
           "dep": 1227
         }
       ]
@@ -2274,43 +2509,63 @@
           "dep": 1230
         },
         {
+          "station": "TAB",
+          "arr": null,
+          "dep": 1241
+        },
+        {
+          "station": "DAS",
+          "arr": null,
+          "dep": 1246
+        },
+        {
+          "station": "WIA",
+          "arr": null,
+          "dep": 1249
+        },
+        {
           "station": "WVH",
           "arr": null,
           "dep": null
         },
         {
+          "station": "BBK",
+          "arr": null,
+          "dep": 1264
+        },
+        {
+          "station": "CSL",
+          "arr": null,
+          "dep": 1267
+        },
+        {
+          "station": "ALB",
+          "arr": null,
+          "dep": 1272
+        },
+        {
+          "station": "COS",
+          "arr": null,
+          "dep": 1275
+        },
+        {
+          "station": "SFN",
+          "arr": null,
+          "dep": 1418
+        },
+        {
+          "station": "TFC",
+          "arr": null,
+          "dep": 1423
+        },
+        {
           "station": "WLN",
           "arr": null,
-          "dep": 1234
+          "dep": 1431
         },
         {
           "station": "SHR",
-          "arr": 1247,
-          "dep": null
-        },
-        {
-          "station": "SHR",
-          "arr": null,
-          "dep": 1310
-        },
-        {
-          "station": "WLP",
-          "arr": null,
-          "dep": 1333
-        },
-        {
-          "station": "NWT",
-          "arr": null,
-          "dep": 1348
-        },
-        {
-          "station": "CWS",
-          "arr": null,
-          "dep": 1355
-        },
-        {
-          "station": "MCN",
-          "arr": null,
+          "arr": 5,
           "dep": null
         }
       ]
@@ -2385,28 +2640,23 @@
           "dep": 1275
         },
         {
-          "station": "OKN",
+          "station": "SFN",
           "arr": null,
-          "dep": 1288
+          "dep": 1418
+        },
+        {
+          "station": "TFC",
+          "arr": null,
+          "dep": 1423
+        },
+        {
+          "station": "WLN",
+          "arr": null,
+          "dep": 1431
         },
         {
           "station": "SHR",
-          "arr": null,
-          "dep": 1310
-        },
-        {
-          "station": "NWT",
-          "arr": null,
-          "dep": 1358
-        },
-        {
-          "station": "CWS",
-          "arr": null,
-          "dep": 1365
-        },
-        {
-          "station": "MCN",
-          "arr": null,
+          "arr": 5,
           "dep": null
         }
       ]
@@ -2481,9 +2731,24 @@
           "dep": 1335
         },
         {
-          "station": "OKN",
+          "station": "SFN",
           "arr": null,
-          "dep": 1348
+          "dep": 1418
+        },
+        {
+          "station": "TFC",
+          "arr": null,
+          "dep": 1423
+        },
+        {
+          "station": "WLN",
+          "arr": null,
+          "dep": 1431
+        },
+        {
+          "station": "SHR",
+          "arr": 5,
+          "dep": null
         }
       ]
     },
@@ -2558,9 +2823,24 @@
           "dep": 1413
         },
         {
-          "station": "OKN",
+          "station": "SFN",
           "arr": null,
-          "dep": 1425
+          "dep": 1418
+        },
+        {
+          "station": "TFC",
+          "arr": null,
+          "dep": 1423
+        },
+        {
+          "station": "WLN",
+          "arr": null,
+          "dep": 1431
+        },
+        {
+          "station": "SHR",
+          "arr": 5,
+          "dep": null
         }
       ]
     },
@@ -2609,9 +2889,19 @@
           "dep": 1388
         },
         {
-          "station": "OKN",
+          "station": "TFC",
           "arr": null,
-          "dep": 34
+          "dep": 1423
+        },
+        {
+          "station": "WLN",
+          "arr": null,
+          "dep": 1431
+        },
+        {
+          "station": "SHR",
+          "arr": 5,
+          "dep": null
         }
       ]
     },
@@ -2640,9 +2930,19 @@
           "dep": 1418
         },
         {
-          "station": "SHR",
+          "station": "TFC",
           "arr": null,
-          "dep": 1433
+          "dep": 1423
+        },
+        {
+          "station": "WLN",
+          "arr": null,
+          "dep": 1431
+        },
+        {
+          "station": "SHR",
+          "arr": 5,
+          "dep": null
         }
       ]
     },
@@ -2840,23 +3140,43 @@
           "dep": null
         },
         {
+          "station": "BBK",
+          "arr": null,
+          "dep": 424
+        },
+        {
+          "station": "CSL",
+          "arr": null,
+          "dep": 427
+        },
+        {
+          "station": "ALB",
+          "arr": null,
+          "dep": 432
+        },
+        {
+          "station": "COS",
+          "arr": null,
+          "dep": 435
+        },
+        {
+          "station": "SFN",
+          "arr": null,
+          "dep": 440
+        },
+        {
+          "station": "TFC",
+          "arr": null,
+          "dep": 445
+        },
+        {
+          "station": "WLN",
+          "arr": null,
+          "dep": 454
+        },
+        {
           "station": "SHR",
-          "arr": 419,
-          "dep": null
-        },
-        {
-          "station": "NWT",
-          "arr": null,
-          "dep": 423
-        },
-        {
-          "station": "CWS",
-          "arr": null,
-          "dep": 430
-        },
-        {
-          "station": "MCN",
-          "arr": null,
+          "arr": 898,
           "dep": null
         }
       ]
@@ -2906,28 +3226,18 @@
           "dep": 440
         },
         {
-          "station": "OKN",
+          "station": "TFC",
           "arr": null,
-          "dep": 448
+          "dep": 445
         },
         {
-          "station": "WLP",
+          "station": "WLN",
           "arr": null,
-          "dep": 469
+          "dep": 454
         },
         {
-          "station": "NWT",
-          "arr": null,
-          "dep": 484
-        },
-        {
-          "station": "CWS",
-          "arr": null,
-          "dep": 491
-        },
-        {
-          "station": "MCN",
-          "arr": null,
+          "station": "SHR",
+          "arr": 898,
           "dep": null
         }
       ]
@@ -2963,7 +3273,7 @@
         },
         {
           "station": "SHR",
-          "arr": 467,
+          "arr": 898,
           "dep": null
         }
       ]
@@ -3085,18 +3395,18 @@
           "dep": 501
         },
         {
-          "station": "OKN",
+          "station": "TFC",
           "arr": null,
-          "dep": 508
+          "dep": 873
         },
         {
-          "station": "WLP",
+          "station": "WLN",
           "arr": null,
-          "dep": 655
+          "dep": 880
         },
         {
-          "station": "MCN",
-          "arr": null,
+          "station": "SHR",
+          "arr": 898,
           "dep": null
         }
       ]
@@ -3176,18 +3486,18 @@
           "dep": 560
         },
         {
-          "station": "OKN",
+          "station": "TFC",
           "arr": null,
-          "dep": 568
+          "dep": 873
         },
         {
-          "station": "WLP",
+          "station": "WLN",
           "arr": null,
-          "dep": 709
+          "dep": 880
         },
         {
-          "station": "MCN",
-          "arr": null,
+          "station": "SHR",
+          "arr": 898,
           "dep": null
         }
       ]
@@ -3257,23 +3567,23 @@
           "dep": 615
         },
         {
-          "station": "OKN",
+          "station": "SFN",
           "arr": null,
-          "dep": 628
+          "dep": 860
         },
         {
-          "station": "NWT",
+          "station": "TFC",
           "arr": null,
-          "dep": 724
+          "dep": 873
         },
         {
-          "station": "CWS",
+          "station": "WLN",
           "arr": null,
-          "dep": 731
+          "dep": 880
         },
         {
-          "station": "MCN",
-          "arr": null,
+          "station": "SHR",
+          "arr": 898,
           "dep": null
         }
       ]
@@ -3306,6 +3616,26 @@
           "station": "WVH",
           "arr": null,
           "dep": null
+        },
+        {
+          "station": "SFN",
+          "arr": null,
+          "dep": 860
+        },
+        {
+          "station": "TFC",
+          "arr": null,
+          "dep": 873
+        },
+        {
+          "station": "WLN",
+          "arr": null,
+          "dep": 880
+        },
+        {
+          "station": "SHR",
+          "arr": 898,
+          "dep": null
         }
       ]
     },
@@ -3334,9 +3664,19 @@
           "dep": 626
         },
         {
-          "station": "SHR",
+          "station": "TFC",
           "arr": null,
           "dep": 633
+        },
+        {
+          "station": "WLN",
+          "arr": null,
+          "dep": 640
+        },
+        {
+          "station": "SHR",
+          "arr": 655,
+          "dep": null
         }
       ]
     },
@@ -3372,11 +3712,6 @@
         {
           "station": "SHR",
           "arr": 624,
-          "dep": null
-        },
-        {
-          "station": "SHR",
-          "arr": null,
           "dep": 687
         }
       ]
@@ -3413,11 +3748,6 @@
         {
           "station": "SHR",
           "arr": 647,
-          "dep": null
-        },
-        {
-          "station": "SHR",
-          "arr": null,
           "dep": 687
         }
       ]
@@ -3524,43 +3854,63 @@
           "dep": 690
         },
         {
+          "station": "TAB",
+          "arr": null,
+          "dep": 821
+        },
+        {
+          "station": "DAS",
+          "arr": null,
+          "dep": 826
+        },
+        {
+          "station": "WIA",
+          "arr": null,
+          "dep": 829
+        },
+        {
           "station": "WVH",
           "arr": null,
           "dep": null
         },
         {
+          "station": "BBK",
+          "arr": null,
+          "dep": 844
+        },
+        {
+          "station": "CSL",
+          "arr": null,
+          "dep": 847
+        },
+        {
+          "station": "ALB",
+          "arr": null,
+          "dep": 852
+        },
+        {
+          "station": "COS",
+          "arr": null,
+          "dep": 855
+        },
+        {
+          "station": "SFN",
+          "arr": null,
+          "dep": 860
+        },
+        {
+          "station": "TFC",
+          "arr": null,
+          "dep": 873
+        },
+        {
           "station": "WLN",
           "arr": null,
-          "dep": 694
+          "dep": 880
         },
         {
           "station": "SHR",
-          "arr": 707,
-          "dep": null
-        },
-        {
-          "station": "SHR",
-          "arr": null,
-          "dep": 747
-        },
-        {
-          "station": "WLP",
-          "arr": null,
-          "dep": 831
-        },
-        {
-          "station": "NWT",
-          "arr": null,
-          "dep": 846
-        },
-        {
-          "station": "CWS",
-          "arr": null,
-          "dep": 853
-        },
-        {
-          "station": "MCN",
-          "arr": null,
+          "arr": 898,
           "dep": null
         }
       ]
@@ -3595,14 +3945,64 @@
           "dep": 750
         },
         {
+          "station": "TAB",
+          "arr": null,
+          "dep": 821
+        },
+        {
+          "station": "DAS",
+          "arr": null,
+          "dep": 826
+        },
+        {
+          "station": "WIA",
+          "arr": null,
+          "dep": 829
+        },
+        {
           "station": "WVH",
           "arr": null,
           "dep": null
         },
         {
-          "station": "SHR",
+          "station": "BBK",
           "arr": null,
-          "dep": 807
+          "dep": 844
+        },
+        {
+          "station": "CSL",
+          "arr": null,
+          "dep": 847
+        },
+        {
+          "station": "ALB",
+          "arr": null,
+          "dep": 852
+        },
+        {
+          "station": "COS",
+          "arr": null,
+          "dep": 855
+        },
+        {
+          "station": "SFN",
+          "arr": null,
+          "dep": 860
+        },
+        {
+          "station": "TFC",
+          "arr": null,
+          "dep": 873
+        },
+        {
+          "station": "WLN",
+          "arr": null,
+          "dep": 880
+        },
+        {
+          "station": "SHR",
+          "arr": 898,
+          "dep": null
         }
       ]
     },
@@ -3636,8 +4036,63 @@
           "dep": 810
         },
         {
+          "station": "TAB",
+          "arr": null,
+          "dep": 821
+        },
+        {
+          "station": "DAS",
+          "arr": null,
+          "dep": 826
+        },
+        {
+          "station": "WIA",
+          "arr": null,
+          "dep": 829
+        },
+        {
           "station": "WVH",
           "arr": null,
+          "dep": null
+        },
+        {
+          "station": "BBK",
+          "arr": null,
+          "dep": 844
+        },
+        {
+          "station": "CSL",
+          "arr": null,
+          "dep": 847
+        },
+        {
+          "station": "ALB",
+          "arr": null,
+          "dep": 852
+        },
+        {
+          "station": "COS",
+          "arr": null,
+          "dep": 855
+        },
+        {
+          "station": "SFN",
+          "arr": null,
+          "dep": 860
+        },
+        {
+          "station": "TFC",
+          "arr": null,
+          "dep": 873
+        },
+        {
+          "station": "WLN",
+          "arr": null,
+          "dep": 880
+        },
+        {
+          "station": "SHR",
+          "arr": 898,
           "dep": null
         }
       ]
@@ -3702,9 +4157,24 @@
           "dep": 855
         },
         {
-          "station": "OKN",
+          "station": "SFN",
           "arr": null,
-          "dep": 868
+          "dep": 860
+        },
+        {
+          "station": "TFC",
+          "arr": null,
+          "dep": 873
+        },
+        {
+          "station": "WLN",
+          "arr": null,
+          "dep": 880
+        },
+        {
+          "station": "SHR",
+          "arr": 898,
+          "dep": null
         }
       ]
     },
@@ -3731,6 +4201,21 @@
           "station": "SFN",
           "arr": null,
           "dep": 800
+        },
+        {
+          "station": "TFC",
+          "arr": null,
+          "dep": 873
+        },
+        {
+          "station": "WLN",
+          "arr": null,
+          "dep": 880
+        },
+        {
+          "station": "SHR",
+          "arr": 898,
+          "dep": null
         }
       ]
     },
@@ -3757,6 +4242,21 @@
           "station": "SFN",
           "arr": null,
           "dep": 806
+        },
+        {
+          "station": "TFC",
+          "arr": null,
+          "dep": 873
+        },
+        {
+          "station": "WLN",
+          "arr": null,
+          "dep": 880
+        },
+        {
+          "station": "SHR",
+          "arr": 898,
+          "dep": null
         }
       ]
     },
@@ -3783,6 +4283,21 @@
           "station": "SFN",
           "arr": null,
           "dep": 860
+        },
+        {
+          "station": "TFC",
+          "arr": null,
+          "dep": 873
+        },
+        {
+          "station": "WLN",
+          "arr": null,
+          "dep": 880
+        },
+        {
+          "station": "SHR",
+          "arr": 898,
+          "dep": null
         }
       ]
     },
@@ -3809,6 +4324,21 @@
           "station": "SFN",
           "arr": null,
           "dep": 866
+        },
+        {
+          "station": "TFC",
+          "arr": null,
+          "dep": 873
+        },
+        {
+          "station": "WLN",
+          "arr": null,
+          "dep": 880
+        },
+        {
+          "station": "SHR",
+          "arr": 898,
+          "dep": null
         }
       ]
     },
@@ -3995,33 +4525,18 @@
           "dep": 920
         },
         {
-          "station": "OKN",
+          "station": "TFC",
           "arr": null,
-          "dep": 928
+          "dep": 1045
+        },
+        {
+          "station": "WLN",
+          "arr": null,
+          "dep": 1054
         },
         {
           "station": "SHR",
-          "arr": null,
-          "dep": 930
-        },
-        {
-          "station": "WLP",
-          "arr": null,
-          "dep": 952
-        },
-        {
-          "station": "NWT",
-          "arr": null,
-          "dep": 967
-        },
-        {
-          "station": "CWS",
-          "arr": null,
-          "dep": 974
-        },
-        {
-          "station": "MCN",
-          "arr": null,
+          "arr": 1068,
           "dep": null
         }
       ]
@@ -4096,28 +4611,23 @@
           "dep": 975
         },
         {
-          "station": "OKN",
+          "station": "SFN",
           "arr": null,
-          "dep": 988
+          "dep": 1040
         },
         {
-          "station": "WLP",
+          "station": "TFC",
           "arr": null,
-          "dep": 1012
+          "dep": 1045
         },
         {
-          "station": "NWT",
+          "station": "WLN",
           "arr": null,
-          "dep": 1027
+          "dep": 1054
         },
         {
-          "station": "CWS",
-          "arr": null,
-          "dep": 1034
-        },
-        {
-          "station": "MCN",
-          "arr": null,
+          "station": "SHR",
+          "arr": 1068,
           "dep": null
         }
       ]
@@ -4187,28 +4697,23 @@
           "dep": 1035
         },
         {
-          "station": "OKN",
+          "station": "SFN",
           "arr": null,
-          "dep": 1048
+          "dep": 1040
         },
         {
-          "station": "WLP",
+          "station": "TFC",
           "arr": null,
-          "dep": 1072
+          "dep": 1045
         },
         {
-          "station": "NWT",
+          "station": "WLN",
           "arr": null,
-          "dep": 1087
+          "dep": 1054
         },
         {
-          "station": "CWS",
-          "arr": null,
-          "dep": 1094
-        },
-        {
-          "station": "MCN",
-          "arr": null,
+          "station": "SHR",
+          "arr": 1068,
           "dep": null
         }
       ]
@@ -4243,28 +4748,23 @@
           "dep": null
         },
         {
+          "station": "SFN",
+          "arr": null,
+          "dep": 1040
+        },
+        {
+          "station": "TFC",
+          "arr": null,
+          "dep": 1045
+        },
+        {
+          "station": "WLN",
+          "arr": null,
+          "dep": 1054
+        },
+        {
           "station": "SHR",
-          "arr": null,
-          "dep": 990
-        },
-        {
-          "station": "WLP",
-          "arr": null,
-          "dep": 1072
-        },
-        {
-          "station": "NWT",
-          "arr": null,
-          "dep": 1087
-        },
-        {
-          "station": "CWS",
-          "arr": null,
-          "dep": 1094
-        },
-        {
-          "station": "MCN",
-          "arr": null,
+          "arr": 1068,
           "dep": null
         }
       ]
@@ -4304,28 +4804,18 @@
           "dep": 1040
         },
         {
+          "station": "TFC",
+          "arr": null,
+          "dep": 1045
+        },
+        {
+          "station": "WLN",
+          "arr": null,
+          "dep": 1054
+        },
+        {
           "station": "SHR",
-          "arr": null,
-          "dep": 1047
-        },
-        {
-          "station": "WLP",
-          "arr": null,
-          "dep": 1072
-        },
-        {
-          "station": "NWT",
-          "arr": null,
-          "dep": 1087
-        },
-        {
-          "station": "CWS",
-          "arr": null,
-          "dep": 1094
-        },
-        {
-          "station": "MCN",
-          "arr": null,
+          "arr": 1068,
           "dep": null
         }
       ]
@@ -4362,11 +4852,6 @@
         {
           "station": "SHR",
           "arr": 1013,
-          "dep": null
-        },
-        {
-          "station": "SHR",
-          "arr": null,
           "dep": 1049
         }
       ]
@@ -4403,11 +4888,6 @@
         {
           "station": "SHR",
           "arr": 1042,
-          "dep": null
-        },
-        {
-          "station": "SHR",
-          "arr": null,
           "dep": 1049
         }
       ]
@@ -4444,11 +4924,6 @@
         {
           "station": "SHR",
           "arr": 1042,
-          "dep": null
-        },
-        {
-          "station": "SHR",
-          "arr": null,
           "dep": 1049
         }
       ]
@@ -4595,28 +5070,23 @@
           "dep": 1095
         },
         {
-          "station": "OKN",
+          "station": "SFN",
           "arr": null,
-          "dep": 1108
+          "dep": 1220
         },
         {
-          "station": "WLP",
+          "station": "TFC",
           "arr": null,
-          "dep": 1133
+          "dep": 1225
         },
         {
-          "station": "NWT",
+          "station": "WLN",
           "arr": null,
-          "dep": 1148
+          "dep": 1234
         },
         {
-          "station": "CWS",
-          "arr": null,
-          "dep": 1155
-        },
-        {
-          "station": "MCN",
-          "arr": null,
+          "station": "SHR",
+          "arr": 1415,
           "dep": null
         }
       ]
@@ -4691,13 +5161,23 @@
           "dep": 1155
         },
         {
-          "station": "OKN",
+          "station": "SFN",
           "arr": null,
-          "dep": 1168
+          "dep": 1220
         },
         {
-          "station": "MCN",
+          "station": "TFC",
           "arr": null,
+          "dep": 1225
+        },
+        {
+          "station": "WLN",
+          "arr": null,
+          "dep": 1234
+        },
+        {
+          "station": "SHR",
+          "arr": 1415,
           "dep": null
         }
       ]
@@ -4772,13 +5252,23 @@
           "dep": 1215
         },
         {
-          "station": "OKN",
+          "station": "SFN",
           "arr": null,
-          "dep": 1228
+          "dep": 1220
         },
         {
-          "station": "MCN",
+          "station": "TFC",
           "arr": null,
+          "dep": 1225
+        },
+        {
+          "station": "WLN",
+          "arr": null,
+          "dep": 1234
+        },
+        {
+          "station": "SHR",
+          "arr": 1415,
           "dep": null
         }
       ]
@@ -4808,23 +5298,18 @@
           "dep": 1160
         },
         {
-          "station": "WLP",
+          "station": "TFC",
           "arr": null,
-          "dep": 1254
+          "dep": 1225
         },
         {
-          "station": "NWT",
+          "station": "WLN",
           "arr": null,
-          "dep": 1269
+          "dep": 1234
         },
         {
-          "station": "CWS",
-          "arr": null,
-          "dep": 1277
-        },
-        {
-          "station": "MCN",
-          "arr": null,
+          "station": "SHR",
+          "arr": 1415,
           "dep": null
         }
       ]
@@ -4854,9 +5339,19 @@
           "dep": 1166
         },
         {
-          "station": "SHR",
+          "station": "TFC",
           "arr": null,
-          "dep": 1173
+          "dep": 1225
+        },
+        {
+          "station": "WLN",
+          "arr": null,
+          "dep": 1234
+        },
+        {
+          "station": "SHR",
+          "arr": 1415,
+          "dep": null
         }
       ]
     },
@@ -4883,6 +5378,21 @@
           "station": "SFN",
           "arr": null,
           "dep": 1220
+        },
+        {
+          "station": "TFC",
+          "arr": null,
+          "dep": 1225
+        },
+        {
+          "station": "WLN",
+          "arr": null,
+          "dep": 1234
+        },
+        {
+          "station": "SHR",
+          "arr": 1415,
+          "dep": null
         }
       ]
     },
@@ -4918,11 +5428,6 @@
         {
           "station": "SHR",
           "arr": 1194,
-          "dep": null
-        },
-        {
-          "station": "SHR",
-          "arr": null,
           "dep": 1227
         }
       ]
@@ -4959,11 +5464,6 @@
         {
           "station": "SHR",
           "arr": 1224,
-          "dep": null
-        },
-        {
-          "station": "SHR",
-          "arr": null,
           "dep": 1228
         }
       ]
@@ -4999,7 +5499,7 @@
         },
         {
           "station": "SHR",
-          "arr": 1247,
+          "arr": 1415,
           "dep": null
         }
       ]
@@ -5074,33 +5574,23 @@
           "dep": 1275
         },
         {
-          "station": "OKN",
+          "station": "SFN",
           "arr": null,
-          "dep": 1288
+          "dep": 1346
+        },
+        {
+          "station": "TFC",
+          "arr": null,
+          "dep": 1422
+        },
+        {
+          "station": "WLN",
+          "arr": null,
+          "dep": 1431
         },
         {
           "station": "SHR",
-          "arr": null,
-          "dep": 1307
-        },
-        {
-          "station": "WLP",
-          "arr": null,
-          "dep": 1329
-        },
-        {
-          "station": "NWT",
-          "arr": null,
-          "dep": 1344
-        },
-        {
-          "station": "CWS",
-          "arr": null,
-          "dep": 1351
-        },
-        {
-          "station": "MCN",
-          "arr": null,
+          "arr": 5,
           "dep": null
         }
       ]
@@ -5175,9 +5665,24 @@
           "dep": 1335
         },
         {
-          "station": "OKN",
+          "station": "SFN",
           "arr": null,
-          "dep": 1348
+          "dep": 1346
+        },
+        {
+          "station": "TFC",
+          "arr": null,
+          "dep": 1422
+        },
+        {
+          "station": "WLN",
+          "arr": null,
+          "dep": 1431
+        },
+        {
+          "station": "SHR",
+          "arr": 5,
+          "dep": null
         }
       ]
     },
@@ -5204,46 +5709,6 @@
           "station": "SAD",
           "arr": null,
           "dep": 1365
-        },
-        {
-          "station": "DAS",
-          "arr": null,
-          "dep": 1367
-        },
-        {
-          "station": "WIA",
-          "arr": null,
-          "dep": 1370
-        },
-        {
-          "station": "WVH",
-          "arr": null,
-          "dep": null
-        },
-        {
-          "station": "BBK",
-          "arr": null,
-          "dep": 1386
-        },
-        {
-          "station": "CSL",
-          "arr": null,
-          "dep": 1389
-        },
-        {
-          "station": "ALB",
-          "arr": null,
-          "dep": 1393
-        },
-        {
-          "station": "COS",
-          "arr": null,
-          "dep": 1396
-        },
-        {
-          "station": "OKN",
-          "arr": null,
-          "dep": 1409
         }
       ]
     },
@@ -5275,11 +5740,6 @@
           "station": "WVH",
           "arr": null,
           "dep": null
-        },
-        {
-          "station": "OKN",
-          "arr": null,
-          "dep": 1425
         }
       ]
     },
@@ -5328,9 +5788,19 @@
           "dep": 1346
         },
         {
-          "station": "OKN",
+          "station": "TFC",
           "arr": null,
-          "dep": 25
+          "dep": 1422
+        },
+        {
+          "station": "WLN",
+          "arr": null,
+          "dep": 1431
+        },
+        {
+          "station": "SHR",
+          "arr": 5,
+          "dep": null
         }
       ]
     },
@@ -5357,6 +5827,21 @@
           "station": "SFN",
           "arr": null,
           "dep": 1401
+        },
+        {
+          "station": "TFC",
+          "arr": null,
+          "dep": 1422
+        },
+        {
+          "station": "WLN",
+          "arr": null,
+          "dep": 1431
+        },
+        {
+          "station": "SHR",
+          "arr": 5,
+          "dep": null
         }
       ]
     },
@@ -5383,6 +5868,21 @@
           "station": "SFN",
           "arr": null,
           "dep": 1417
+        },
+        {
+          "station": "TFC",
+          "arr": null,
+          "dep": 1422
+        },
+        {
+          "station": "WLN",
+          "arr": null,
+          "dep": 1431
+        },
+        {
+          "station": "SHR",
+          "arr": 5,
+          "dep": null
         }
       ]
     },
@@ -5570,29 +6070,9 @@
           "dep": 341
         },
         {
-          "station": "RUA",
+          "station": "CTR",
           "arr": null,
-          "dep": 352
-        },
-        {
-          "station": "CRK",
-          "arr": null,
-          "dep": 359
-        },
-        {
-          "station": "GOB",
-          "arr": null,
-          "dep": 364
-        },
-        {
-          "station": "DVY",
-          "arr": null,
-          "dep": null
-        },
-        {
-          "station": "MCN",
-          "arr": null,
-          "dep": null
+          "dep": 464
         }
       ]
     },
@@ -5631,24 +6111,9 @@
           "dep": 392
         },
         {
-          "station": "RUA",
+          "station": "CTR",
           "arr": null,
-          "dep": 401
-        },
-        {
-          "station": "CRK",
-          "arr": null,
-          "dep": 407
-        },
-        {
-          "station": "GOB",
-          "arr": null,
-          "dep": 413
-        },
-        {
-          "station": "MCN",
-          "arr": null,
-          "dep": null
+          "dep": 464
         }
       ]
     },
@@ -5687,19 +6152,9 @@
           "dep": 461
         },
         {
-          "station": "RUA",
+          "station": "CTR",
           "arr": null,
-          "dep": 474
-        },
-        {
-          "station": "CRK",
-          "arr": null,
-          "dep": 480
-        },
-        {
-          "station": "GOB",
-          "arr": null,
-          "dep": 486
+          "dep": 464
         }
       ]
     },
@@ -5931,16 +6386,6 @@
           "station": "GOB",
           "arr": null,
           "dep": 604
-        },
-        {
-          "station": "DVY",
-          "arr": null,
-          "dep": null
-        },
-        {
-          "station": "MCN",
-          "arr": null,
-          "dep": null
         }
       ]
     },
@@ -5979,24 +6424,9 @@
           "dep": 582
         },
         {
-          "station": "RUA",
+          "station": "CTR",
           "arr": null,
           "dep": 644
-        },
-        {
-          "station": "CRK",
-          "arr": null,
-          "dep": 650
-        },
-        {
-          "station": "GOB",
-          "arr": null,
-          "dep": 656
-        },
-        {
-          "station": "DVY",
-          "arr": null,
-          "dep": null
         },
         {
           "station": "MCN",
@@ -6030,24 +6460,9 @@
           "dep": 642
         },
         {
-          "station": "RUA",
+          "station": "CTR",
           "arr": null,
-          "dep": 708
-        },
-        {
-          "station": "CRK",
-          "arr": null,
-          "dep": 715
-        },
-        {
-          "station": "GOB",
-          "arr": null,
-          "dep": 722
-        },
-        {
-          "station": "DVY",
-          "arr": null,
-          "dep": null
+          "dep": 644
         },
         {
           "station": "MCN",
@@ -6236,16 +6651,6 @@
           "station": "GOB",
           "arr": null,
           "dep": 780
-        },
-        {
-          "station": "DVY",
-          "arr": null,
-          "dep": null
-        },
-        {
-          "station": "MCN",
-          "arr": null,
-          "dep": null
         }
       ]
     },
@@ -6269,19 +6674,24 @@
           "dep": 785
         },
         {
-          "station": "RUA",
+          "station": "LLD",
           "arr": null,
-          "dep": 828
+          "dep": 806
         },
         {
-          "station": "CRK",
+          "station": "CWB",
           "arr": null,
-          "dep": 835
+          "dep": 812
         },
         {
-          "station": "GOB",
+          "station": "RHL",
           "arr": null,
-          "dep": 842
+          "dep": 822
+        },
+        {
+          "station": "CTR",
+          "arr": null,
+          "dep": 824
         },
         {
           "station": "DVY",
@@ -6320,19 +6730,9 @@
           "dep": 822
         },
         {
-          "station": "RUA",
+          "station": "CTR",
           "arr": null,
-          "dep": 884
-        },
-        {
-          "station": "CRK",
-          "arr": null,
-          "dep": 890
-        },
-        {
-          "station": "GOB",
-          "arr": null,
-          "dep": 896
+          "dep": 824
         },
         {
           "station": "DVY",
@@ -6477,34 +6877,24 @@
           "dep": 905
         },
         {
+          "station": "LLD",
+          "arr": null,
+          "dep": 1046
+        },
+        {
+          "station": "CWB",
+          "arr": null,
+          "dep": 1052
+        },
+        {
+          "station": "RHL",
+          "arr": null,
+          "dep": 1062
+        },
+        {
           "station": "CTR",
           "arr": null,
-          "dep": 922
-        },
-        {
-          "station": "RUA",
-          "arr": null,
-          "dep": 948
-        },
-        {
-          "station": "CRK",
-          "arr": null,
-          "dep": 955
-        },
-        {
-          "station": "GOB",
-          "arr": null,
-          "dep": 962
-        },
-        {
-          "station": "DVY",
-          "arr": null,
-          "dep": null
-        },
-        {
-          "station": "MCN",
-          "arr": null,
-          "dep": null
+          "dep": 1064
         }
       ]
     },
@@ -6528,39 +6918,24 @@
           "dep": 1025
         },
         {
-          "station": "TYW",
-          "arr": 1046,
-          "dep": null
-        },
-        {
-          "station": "TYW",
+          "station": "LLD",
           "arr": null,
-          "dep": 1047
+          "dep": 1046
         },
         {
-          "station": "AVY",
+          "station": "CWB",
           "arr": null,
-          "dep": 1053
+          "dep": 1052
         },
         {
-          "station": "BOW",
+          "station": "RHL",
           "arr": null,
-          "dep": 1055
+          "dep": 1062
         },
         {
-          "station": "BRH",
+          "station": "CTR",
           "arr": null,
           "dep": 1064
-        },
-        {
-          "station": "DVY",
-          "arr": null,
-          "dep": null
-        },
-        {
-          "station": "MCN",
-          "arr": null,
-          "dep": null
         }
       ]
     },
@@ -6589,29 +6964,9 @@
           "dep": 1002
         },
         {
-          "station": "RUA",
+          "station": "CTR",
           "arr": null,
-          "dep": 1070
-        },
-        {
-          "station": "CRK",
-          "arr": null,
-          "dep": 1077
-        },
-        {
-          "station": "GOB",
-          "arr": null,
-          "dep": 1084
-        },
-        {
-          "station": "DVY",
-          "arr": null,
-          "dep": null
-        },
-        {
-          "station": "MCN",
-          "arr": null,
-          "dep": null
+          "dep": 1064
         }
       ]
     },
@@ -6640,29 +6995,9 @@
           "dep": 1062
         },
         {
-          "station": "RUA",
+          "station": "CTR",
           "arr": null,
-          "dep": 1131
-        },
-        {
-          "station": "CRK",
-          "arr": null,
-          "dep": 1138
-        },
-        {
-          "station": "GOB",
-          "arr": null,
-          "dep": 1143
-        },
-        {
-          "station": "DVY",
-          "arr": null,
-          "dep": null
-        },
-        {
-          "station": "MCN",
-          "arr": null,
-          "dep": null
+          "dep": 1064
         }
       ]
     },
@@ -6798,14 +7133,24 @@
           "dep": 1219
         },
         {
-          "station": "DVY",
+          "station": "LLD",
           "arr": null,
-          "dep": null
+          "dep": 1222
         },
         {
-          "station": "MCN",
+          "station": "CWB",
           "arr": null,
-          "dep": null
+          "dep": 1243
+        },
+        {
+          "station": "RHL",
+          "arr": null,
+          "dep": 1254
+        },
+        {
+          "station": "CTR",
+          "arr": null,
+          "dep": 1284
         }
       ]
     },
@@ -6834,29 +7179,9 @@
           "dep": 1239
         },
         {
-          "station": "RUA",
+          "station": "CTR",
           "arr": null,
-          "dep": 1266
-        },
-        {
-          "station": "CRK",
-          "arr": null,
-          "dep": 1272
-        },
-        {
-          "station": "GOB",
-          "arr": null,
-          "dep": 1278
-        },
-        {
-          "station": "DVY",
-          "arr": null,
-          "dep": null
-        },
-        {
-          "station": "MCN",
-          "arr": null,
-          "dep": null
+          "dep": 1284
         }
       ]
     },
@@ -6885,29 +7210,9 @@
           "dep": 1254
         },
         {
-          "station": "RUA",
+          "station": "CTR",
           "arr": null,
-          "dep": 1309
-        },
-        {
-          "station": "CRK",
-          "arr": null,
-          "dep": 1315
-        },
-        {
-          "station": "GOB",
-          "arr": null,
-          "dep": 1321
-        },
-        {
-          "station": "DVY",
-          "arr": null,
-          "dep": null
-        },
-        {
-          "station": "MCN",
-          "arr": null,
-          "dep": null
+          "dep": 1284
         }
       ]
     },
@@ -6926,14 +7231,9 @@
           "dep": 1237
         },
         {
-          "station": "GOB",
+          "station": "CTR",
           "arr": null,
-          "dep": 1321
-        },
-        {
-          "station": "MCN",
-          "arr": null,
-          "dep": null
+          "dep": 1244
         }
       ]
     },
@@ -7077,16 +7377,6 @@
           "station": "GOB",
           "arr": null,
           "dep": 1377
-        },
-        {
-          "station": "DVY",
-          "arr": null,
-          "dep": null
-        },
-        {
-          "station": "MCN",
-          "arr": null,
-          "dep": null
         }
       ]
     },
@@ -7103,21 +7393,6 @@
           "station": "CTR",
           "arr": null,
           "dep": 1364
-        },
-        {
-          "station": "BRH",
-          "arr": null,
-          "dep": 1364
-        },
-        {
-          "station": "DVY",
-          "arr": null,
-          "dep": null
-        },
-        {
-          "station": "MCN",
-          "arr": null,
-          "dep": null
         }
       ]
     },
@@ -7134,21 +7409,6 @@
           "station": "CTR",
           "arr": null,
           "dep": 1434
-        },
-        {
-          "station": "BRH",
-          "arr": null,
-          "dep": 1435
-        },
-        {
-          "station": "DVY",
-          "arr": null,
-          "dep": null
-        },
-        {
-          "station": "MCN",
-          "arr": null,
-          "dep": null
         }
       ]
     },
@@ -7165,6 +7425,21 @@
           "station": "CTR",
           "arr": null,
           "dep": 1358
+        },
+        {
+          "station": "AYW",
+          "arr": null,
+          "dep": 1429
+        },
+        {
+          "station": "BOW",
+          "arr": null,
+          "dep": 1437
+        },
+        {
+          "station": "BRH",
+          "arr": null,
+          "dep": 4
         },
         {
           "station": "DVY",
@@ -7327,29 +7602,9 @@
           "dep": 340
         },
         {
-          "station": "RUA",
+          "station": "CTR",
           "arr": null,
-          "dep": 353
-        },
-        {
-          "station": "CRK",
-          "arr": null,
-          "dep": 359
-        },
-        {
-          "station": "GOB",
-          "arr": null,
-          "dep": 365
-        },
-        {
-          "station": "DVY",
-          "arr": null,
-          "dep": null
-        },
-        {
-          "station": "MCN",
-          "arr": null,
-          "dep": null
+          "dep": 464
         }
       ]
     },
@@ -7388,14 +7643,9 @@
           "dep": 461
         },
         {
-          "station": "DVY",
+          "station": "CTR",
           "arr": null,
-          "dep": null
-        },
-        {
-          "station": "MCN",
-          "arr": null,
-          "dep": null
+          "dep": 464
         }
       ]
     },
@@ -7427,11 +7677,6 @@
           "station": "GOB",
           "arr": null,
           "dep": 476
-        },
-        {
-          "station": "MCN",
-          "arr": null,
-          "dep": null
         }
       ]
     },
@@ -7631,16 +7876,6 @@
           "station": "GOB",
           "arr": null,
           "dep": 602
-        },
-        {
-          "station": "DVY",
-          "arr": null,
-          "dep": null
-        },
-        {
-          "station": "MCN",
-          "arr": null,
-          "dep": null
         }
       ]
     },
@@ -7679,29 +7914,9 @@
           "dep": 582
         },
         {
-          "station": "RUA",
+          "station": "CTR",
           "arr": null,
           "dep": 644
-        },
-        {
-          "station": "CRK",
-          "arr": null,
-          "dep": 650
-        },
-        {
-          "station": "GOB",
-          "arr": null,
-          "dep": 656
-        },
-        {
-          "station": "DVY",
-          "arr": null,
-          "dep": null
-        },
-        {
-          "station": "MCN",
-          "arr": null,
-          "dep": null
         }
       ]
     },
@@ -7730,29 +7945,9 @@
           "dep": 642
         },
         {
-          "station": "RUA",
+          "station": "CTR",
           "arr": null,
-          "dep": 708
-        },
-        {
-          "station": "CRK",
-          "arr": null,
-          "dep": 715
-        },
-        {
-          "station": "GOB",
-          "arr": null,
-          "dep": 722
-        },
-        {
-          "station": "DVY",
-          "arr": null,
-          "dep": null
-        },
-        {
-          "station": "MCN",
-          "arr": null,
-          "dep": null
+          "dep": 644
         }
       ]
     },
@@ -7926,16 +8121,6 @@
           "station": "GOB",
           "arr": null,
           "dep": 776
-        },
-        {
-          "station": "DVY",
-          "arr": null,
-          "dep": null
-        },
-        {
-          "station": "MCN",
-          "arr": null,
-          "dep": null
         }
       ]
     },
@@ -7959,19 +8144,24 @@
           "dep": 785
         },
         {
-          "station": "RUA",
+          "station": "LLD",
           "arr": null,
-          "dep": 828
+          "dep": 806
         },
         {
-          "station": "CRK",
+          "station": "CWB",
           "arr": null,
-          "dep": 835
+          "dep": 812
         },
         {
-          "station": "GOB",
+          "station": "RHL",
           "arr": null,
-          "dep": 842
+          "dep": 822
+        },
+        {
+          "station": "CTR",
+          "arr": null,
+          "dep": 824
         },
         {
           "station": "DVY",
@@ -8010,19 +8200,9 @@
           "dep": 822
         },
         {
-          "station": "RUA",
+          "station": "CTR",
           "arr": null,
-          "dep": 883
-        },
-        {
-          "station": "CRK",
-          "arr": null,
-          "dep": 890
-        },
-        {
-          "station": "GOB",
-          "arr": null,
-          "dep": 895
+          "dep": 824
         },
         {
           "station": "DVY",
@@ -8167,34 +8347,24 @@
           "dep": 905
         },
         {
+          "station": "LLD",
+          "arr": null,
+          "dep": 1046
+        },
+        {
+          "station": "CWB",
+          "arr": null,
+          "dep": 1052
+        },
+        {
+          "station": "RHL",
+          "arr": null,
+          "dep": 1062
+        },
+        {
           "station": "CTR",
           "arr": null,
-          "dep": 922
-        },
-        {
-          "station": "RUA",
-          "arr": null,
-          "dep": 948
-        },
-        {
-          "station": "CRK",
-          "arr": null,
-          "dep": 955
-        },
-        {
-          "station": "GOB",
-          "arr": null,
-          "dep": 962
-        },
-        {
-          "station": "DVY",
-          "arr": null,
-          "dep": null
-        },
-        {
-          "station": "MCN",
-          "arr": null,
-          "dep": null
+          "dep": 1064
         }
       ]
     },
@@ -8218,14 +8388,24 @@
           "dep": 1025
         },
         {
-          "station": "DVY",
+          "station": "LLD",
           "arr": null,
-          "dep": null
+          "dep": 1046
         },
         {
-          "station": "MCN",
+          "station": "CWB",
           "arr": null,
-          "dep": null
+          "dep": 1052
+        },
+        {
+          "station": "RHL",
+          "arr": null,
+          "dep": 1062
+        },
+        {
+          "station": "CTR",
+          "arr": null,
+          "dep": 1064
         }
       ]
     },
@@ -8254,19 +8434,9 @@
           "dep": 1002
         },
         {
-          "station": "RUA",
+          "station": "CTR",
           "arr": null,
-          "dep": 1068
-        },
-        {
-          "station": "CRK",
-          "arr": null,
-          "dep": 1075
-        },
-        {
-          "station": "GOB",
-          "arr": null,
-          "dep": 1082
+          "dep": 1064
         }
       ]
     },
@@ -8295,19 +8465,9 @@
           "dep": 1062
         },
         {
-          "station": "RUA",
+          "station": "CTR",
           "arr": null,
-          "dep": 1124
-        },
-        {
-          "station": "CRK",
-          "arr": null,
-          "dep": 1130
-        },
-        {
-          "station": "GOB",
-          "arr": null,
-          "dep": 1136
+          "dep": 1064
         }
       ]
     },
@@ -8466,16 +8626,6 @@
           "station": "GOB",
           "arr": null,
           "dep": 1197
-        },
-        {
-          "station": "DVY",
-          "arr": null,
-          "dep": null
-        },
-        {
-          "station": "MCN",
-          "arr": null,
-          "dep": null
         }
       ]
     },
@@ -8504,19 +8654,24 @@
           "dep": 1239
         },
         {
-          "station": "RUA",
+          "station": "CTR",
           "arr": null,
-          "dep": 1266
+          "dep": 1244
         },
         {
-          "station": "CRK",
+          "station": "AYW",
           "arr": null,
-          "dep": 1272
+          "dep": 1347
         },
         {
-          "station": "GOB",
+          "station": "BOW",
           "arr": null,
-          "dep": 1278
+          "dep": 1355
+        },
+        {
+          "station": "BRH",
+          "arr": null,
+          "dep": 1364
         },
         {
           "station": "DVY",
@@ -8560,6 +8715,21 @@
           "dep": 1316
         },
         {
+          "station": "AYW",
+          "arr": null,
+          "dep": 1347
+        },
+        {
+          "station": "BOW",
+          "arr": null,
+          "dep": 1355
+        },
+        {
+          "station": "BRH",
+          "arr": null,
+          "dep": 1364
+        },
+        {
           "station": "DVY",
           "arr": null,
           "dep": null
@@ -8586,9 +8756,19 @@
           "dep": 1244
         },
         {
+          "station": "AYW",
+          "arr": null,
+          "dep": 1347
+        },
+        {
+          "station": "BOW",
+          "arr": null,
+          "dep": 1355
+        },
+        {
           "station": "BRH",
           "arr": null,
-          "dep": 1244
+          "dep": 1364
         },
         {
           "station": "DVY",
@@ -8725,16 +8905,6 @@
           "station": "GOB",
           "arr": null,
           "dep": 1376
-        },
-        {
-          "station": "DVY",
-          "arr": null,
-          "dep": null
-        },
-        {
-          "station": "MCN",
-          "arr": null,
-          "dep": null
         }
       ]
     },

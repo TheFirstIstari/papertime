@@ -1,10 +1,14 @@
 #!/usr/bin/env python3
 """
-PaperTime Service Cleaner — M3.1
-Removes backward-time stops caused by column misalignment in the parser.
-Simple truncation approach: when a stop's time goes backward relative to
-the maximum valid time seen so far, truncate the service at that point.
-This removes corrupted data while preserving valid prefixes.
+PaperTime Service Cleaner — M4.1
+Merges consecutive same-station stops (arrival+departure pairs)
+and recovers column-shifted data by borrowing from the FIRST clean
+service (not just i+1).
+
+The key insight: when service i has backward time at station X,
+the correct data for X and all subsequent stations exists in some
+later service j (where j > i) whose data at X is clean. We find
+the FIRST such j and borrow everything from X onward.
 
 Usage: python3 clean_services.py
 """
@@ -18,43 +22,151 @@ BACKUP_DIR = BASE / "pdf2data" / "backups"
 
 
 def count_valid(stops):
-    """Count stops with non-null times."""
     return sum(1 for s in stops if (s.get("dep") or s.get("arr")) is not None)
 
 
-def clean_table(services):
-    """Remove backward-time stops from all services via truncation.
-    Returns (changes, removed)."""
+def find_first_backward(stops):
+    """Find index of first backward-time stop (excluding midnight crossing).
+    Applies midnight offset (adding 1440) when comparing across midnight.
+    Returns (index, is_midnight_zone) where index=-1 means clean."""
+    prev_time = -1      # raw time from previous stop
+    prev_adj = -1       # midnight-adjusted previous time
+    crossed_midnight = False
+    for i, s in enumerate(stops):
+        t = s.get("dep") or s.get("arr")
+        if t is None:
+            continue
+        # Apply midnight offset for comparison
+        adj = t
+        if not crossed_midnight and prev_adj >= 720 and t < 240:
+            adj += 1440  # crossed midnight
+            crossed_midnight = True
+            prev_time = t
+            prev_adj = adj
+            continue
+
+        if prev_time >= 0 and adj < prev_adj:
+            # Detect if we're in a mid-night zone
+            is_midnight = crossed_midnight or (
+                prev_adj < 480 and any(
+                    (stops[j].get("dep") or stops[j].get("arr")) is not None and
+                    (stops[j].get("dep") or stops[j].get("arr")) < 240
+                    for j in range(max(0, i-8), i)
+                )
+            )
+            return i, is_midnight
+
+        prev_time = t
+        prev_adj = adj
+    return -1, False
+
+
+def get_station_time(stops, station):
+    """Get the first time entry for a station. Returns (idx, time) or (None, None)."""
+    for i, s in enumerate(stops):
+        if s["station"] == station:
+            t = s.get("dep") or s.get("arr")
+            if t is not None:
+                return i, t
+    return None, None
+
+
+def merge_same_station_stops(services):
+    """Merge consecutive same-station stops (arrival + departure split)."""
     changes = 0
-    removed = 0
-
     for svc in services:
-        new_stops = []
-        max_valid = -1
-        prev_time = -1
+        merged = []
+        i = 0
+        while i < len(svc["stops"]):
+            stop = svc["stops"][i]
+            if i + 1 < len(svc["stops"]) and svc["stops"][i+1]["station"] == stop["station"]:
+                nxt = svc["stops"][i+1]
+                merged.append({
+                    "station": stop["station"],
+                    "arr": stop.get("arr") or nxt.get("arr"),
+                    "dep": stop.get("dep") or nxt.get("dep"),
+                })
+                i += 2
+                changes += 1
+            else:
+                merged.append(stop)
+                i += 1
+        if changes:
+            svc["stops"] = merged
+    return changes
 
-        for stop in svc["stops"]:
-            time = stop.get("dep") or stop.get("arr")
-            if time is None:
-                new_stops.append(stop)
+
+def find_clean_source(services, svc_idx, target_station, min_acceptable_time):
+    """
+    Find the first service j > svc_idx whose time at target_station
+    is >= min_acceptable_time. Returns (j, borrow_idx) or (None, None).
+    """
+    lookahead = 20  # max services to scan ahead
+    for j in range(svc_idx + 1, min(svc_idx + lookahead + 1, len(services))):
+        for k, ns in enumerate(services[j]["stops"]):
+            if ns["station"] == target_station:
+                nt = ns.get("dep") or ns.get("arr")
+                if nt is not None and nt >= min_acceptable_time:
+                    return j, k
+                else:
+                    break  # try next service
+    return None, None
+
+
+def fix_column_shifts(services):
+    """
+    Fix column-shifted data by iterative borrowing from the FIRST clean service.
+    Processes from last to first so fixed data cascades correctly.
+    """
+    borrowed = 0
+    truncated = 0
+
+    for i in range(len(services) - 1, -1, -1):
+        svc = services[i]
+        max_iter = 15
+
+        for _ in range(max_iter):
+            fix_idx, is_midnight = find_first_backward(svc["stops"])
+            if fix_idx < 0:
+                break
+
+            target = svc["stops"][fix_idx]["station"]
+
+            # For midnight-crossing services, don't try to borrow — just
+            # remove the erroneous entry. The post-midnight data is unreliable.
+            if is_midnight:
+                # Remove just this bad stop, keep the rest
+                svc["stops"] = svc["stops"][:fix_idx] + svc["stops"][fix_idx+1:]
+                truncated += 1
                 continue
 
-            # Midnight crossing
-            adj = time
-            if prev_time >= 720 and time < 240:
-                adj += 1440
-            prev_time = time
+            # Find the acceptable minimum time
+            prev_t = None
+            for p in range(fix_idx - 1, -1, -1):
+                t_val = svc["stops"][p].get("dep") or svc["stops"][p].get("arr")
+                if t_val is not None:
+                    prev_t = t_val
+                    break
 
-            if adj >= max_valid:
-                max_valid = adj
-                new_stops.append(stop)
+            if prev_t is None:
+                svc["stops"] = svc["stops"][:fix_idx]
+                truncated += 1
+                break
+
+            # Find the first clean service with this station
+            src_idx, borrow_idx = find_clean_source(services, i, target, prev_t)
+
+            if src_idx is not None:
+                head = svc["stops"][:fix_idx]
+                tail = services[src_idx]["stops"][borrow_idx:]
+                svc["stops"] = head + tail
+                borrowed += 1
             else:
-                removed += 1
-                changes += 1
+                svc["stops"] = svc["stops"][:fix_idx]
+                truncated += 1
+                break
 
-        svc["stops"] = new_stops
-
-    return changes, removed
+    return borrowed, truncated
 
 
 def main():
@@ -62,20 +174,20 @@ def main():
         print(f"Services directory not found: {SVC_DIR}")
         return
 
-    # Backup current state
+    # Backup
     BACKUP_DIR.mkdir(parents=True, exist_ok=True)
     for f in SVC_DIR.glob("*.json"):
         shutil.copy2(f, BACKUP_DIR / f.name)
     n_files = len(list(SVC_DIR.glob("*.json")))
     print(f"Backed up {n_files} files to {BACKUP_DIR}")
 
-    total_changes = 0
-    total_removed = 0
-    cleaned = 0
-
+    total_merged = 0
+    total_borrowed = 0
+    total_truncated = 0
+    total_svcs = 0
     before_short = 0
     after_short = 0
-    total_svcs = 0
+    before_backward = 0
 
     for fpath in sorted(SVC_DIR.glob("*.json")):
         with open(fpath) as f:
@@ -86,39 +198,38 @@ def main():
 
         total_svcs += len(services)
         before_short += sum(1 for s in services if count_valid(s["stops"]) < 2)
+        before_backward += sum(1 for s in services if find_first_backward(s["stops"])[0] >= 0)
 
-        changes, removed = clean_table(services)
-        if changes:
-            cleaned += 1
-            total_changes += changes
-            total_removed += removed
+        merged = merge_same_station_stops(services)
+        borrowed, truncated = fix_column_shifts(services)
+
+        if merged or borrowed or truncated:
             with open(fpath, "w") as f:
                 json.dump(data, f, indent=2)
 
         after_short += sum(1 for s in services if count_valid(s["stops"]) < 2)
 
-    # Stats
+        total_merged += merged
+        total_borrowed += borrowed
+        total_truncated += truncated
+
+    # Verification
     still_bad = 0
     for fpath in SVC_DIR.glob("*.json"):
         with open(fpath) as f:
             d = json.load(f)
         for svc in d.get("services", []):
-            prev = -1
-            for s in svc["stops"]:
-                t = s.get("dep") or s.get("arr")
-                if t is None: continue
-                if prev >= 720 and t < 240:
-                    prev = t
-                    continue
-                if prev >= 0 and t < prev:
-                    still_bad += 1
-                    break
-                prev = t
+            idx, _ = find_first_backward(svc["stops"])
+            if idx >= 0:
+                still_bad += 1
 
-    print(f"\nCleaned {cleaned} tables")
-    print(f"Stops removed: {total_removed}")
-    print(f"Short services (<2 valid): {before_short} → {after_short} (of {total_svcs})")
-    print(f"Still backward: {still_bad}")
+    print(f"\nResults:")
+    print(f"  Tables: {n_files}")
+    print(f"  Same-station merges: {total_merged}")
+    print(f"  Column borrows: {total_borrowed}")
+    print(f"  Truncations: {total_truncated}")
+    print(f"  Backward-time: {before_backward} → {still_bad}")
+    print(f"  Short services (<2 pts): {before_short} → {after_short} (of {total_svcs})")
 
 
 if __name__ == "__main__":
