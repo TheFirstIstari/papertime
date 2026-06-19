@@ -2,49 +2,54 @@ use anyhow::Result;
 use quick_xml::events::Event;
 use quick_xml::Reader;
 use std::collections::HashMap;
-use std::fs::File;
-use std::io::BufReader;
+use std::fs;
+use std::io::Read;
 use std::path::Path;
 
 use crate::types::*;
 
-/// Extract and parse all schedule XML files from the Darwin ZIP
-pub fn extract_schedules(zip_path: &Path) -> Result<Vec<DarwinSchedule>> {
-    let file = File::open(zip_path)?;
-    let reader = BufReader::new(file);
-    let mut archive = zip::ZipArchive::new(reader)?;
-
+pub fn extract_schedules(data_dir: &Path) -> Result<Vec<DarwinSchedule>> {
     let mut schedules = Vec::new();
     let mut tiploc_to_crs: HashMap<String, String> = HashMap::new();
     let mut tiploc_to_name: HashMap<String, String> = HashMap::new();
 
-    // First pass: extract reference data
-    for i in 0..archive.len() {
-        let mut entry = archive.by_index(i)?;
-        let name = entry.name().to_string();
-        if name.contains("ref/") && name.ends_with(".xml") {
+    let entries = fs::read_dir(data_dir)?;
+
+    for entry in entries {
+        let entry = entry?;
+        let path = entry.path();
+        let name = path
+            .file_name()
+            .unwrap_or_default()
+            .to_string_lossy()
+            .to_string();
+
+        if name.ends_with(".gz") && !name.ends_with(".gz.gz") {
+            log::info!("Processing: {}", name);
+
+            let file = fs::File::open(&path)?;
+            let mut decoder = flate2::read::GzDecoder::new(file);
             let mut xml = String::new();
-            std::io::Read::read_to_string(&mut entry, &mut xml)?;
-            parse_reference_data(&xml, &mut tiploc_to_crs, &mut tiploc_to_name)?;
+            Read::read_to_string(&mut decoder, &mut xml)?;
+
+            if name.contains("ref") {
+                parse_reference_data(&xml, &mut tiploc_to_crs, &mut tiploc_to_name)?;
+            } else {
+                let batch = parse_schedule_xml(&xml, &tiploc_to_crs, &mut tiploc_to_name)?;
+                log::info!("  Parsed {} schedules from {}", batch.len(), name);
+                schedules.extend(batch);
+            }
         }
     }
 
-    // Second pass: extract schedule data
-    for i in 0..archive.len() {
-        let mut entry = archive.by_index(i)?;
-        let name = entry.name().to_string();
-        if name.contains("schedule/") && name.ends_with(".xml") {
-            let mut xml = String::new();
-            std::io::Read::read_to_string(&mut entry, &mut xml)?;
-            let batch = parse_schedule_xml(&xml, &tiploc_to_crs, &tiploc_to_name)?;
-            schedules.extend(batch);
-        }
-    }
-
+    log::info!(
+        "Total: {} schedules, {} stations",
+        schedules.len(),
+        tiploc_to_crs.len()
+    );
     Ok(schedules)
 }
 
-/// Parse reference data XML for TIPLOC→CRS mapping
 fn parse_reference_data(
     xml: &str,
     tiploc_to_crs: &mut HashMap<String, String>,
@@ -52,15 +57,14 @@ fn parse_reference_data(
 ) -> Result<()> {
     let mut reader = Reader::from_str(xml);
     reader.config_mut().trim_text(true);
-
     let mut buf = Vec::new();
 
     loop {
         match reader.read_event_into(&mut buf) {
-            Ok(Event::Empty(ref e)) | Ok(Event::Start(ref e)) => {
+            Ok(Event::Empty(ref e)) => {
                 let tag = e.name();
                 let tag_str = std::str::from_utf8(tag.as_ref())?;
-                if tag_str == "Location" || tag_str == "location" {
+                if tag_str == "LocationRef" {
                     let mut tiploc = String::new();
                     let mut crs = String::new();
                     let mut name = String::new();
@@ -69,9 +73,9 @@ fn parse_reference_data(
                         let key = std::str::from_utf8(attr.key.as_ref())?;
                         let value = attr.unescape_value()?;
                         match key {
-                            "tpl" | "tiploc" => tiploc = value.to_string(),
+                            "tpl" => tiploc = value.to_string(),
                             "crs" => crs = value.to_string(),
-                            "name" | "locationName" => name = value.to_string(),
+                            "locname" => name = value.to_string(),
                             _ => {}
                         }
                     }
@@ -95,7 +99,6 @@ fn parse_reference_data(
     Ok(())
 }
 
-/// Parse a schedule XML file containing multiple <schedule> elements
 fn parse_schedule_xml(
     xml: &str,
     tiploc_to_crs: &HashMap<String, String>,
@@ -110,76 +113,46 @@ fn parse_schedule_xml(
 
     loop {
         match reader.read_event_into(&mut buf) {
-            Ok(Event::Start(ref e)) => {
+            Ok(Event::Start(ref e)) | Ok(Event::Empty(ref e)) => {
                 let tag = e.name();
                 let tag_str = std::str::from_utf8(tag.as_ref())?;
                 match tag_str {
-                    "schedule" => {
-                        current = Some(parse_schedule_start(e));
+                    "Journey" => {
+                        current = Some(parse_journey_start(e));
                     }
-                    "OR" => {
+                    "OR" | "OPOR" | "IP" | "OPIP" | "PP" | "DT" | "OPDT" => {
                         if let Some(ref mut s) = current {
-                            s.locations.push(parse_location(e, LocationType::Origin, tiploc_to_crs, tiploc_to_name));
-                        }
-                    }
-                    "OPOR" => {
-                        if let Some(ref mut s) = current {
-                            s.locations.push(parse_location(e, LocationType::OperationalOrigin, tiploc_to_crs, tiploc_to_name));
-                        }
-                    }
-                    "IP" => {
-                        if let Some(ref mut s) = current {
-                            s.locations.push(parse_location(e, LocationType::Intermediate, tiploc_to_crs, tiploc_to_name));
-                        }
-                    }
-                    "OPIP" => {
-                        if let Some(ref mut s) = current {
-                            s.locations.push(parse_location(e, LocationType::OperationalIntermediate, tiploc_to_crs, tiploc_to_name));
-                        }
-                    }
-                    "PP" => {
-                        if let Some(ref mut s) = current {
-                            s.locations.push(parse_location(e, LocationType::Passing, tiploc_to_crs, tiploc_to_name));
-                        }
-                    }
-                    "DT" => {
-                        if let Some(ref mut s) = current {
-                            s.locations.push(parse_location(e, LocationType::Destination, tiploc_to_crs, tiploc_to_name));
-                        }
-                    }
-                    "OPDT" => {
-                        if let Some(ref mut s) = current {
-                            s.locations.push(parse_location(e, LocationType::OperationalDestination, tiploc_to_crs, tiploc_to_name));
+                            let loc_type = match tag_str {
+                                "OR" => LocationType::Origin,
+                                "OPOR" => LocationType::OperationalOrigin,
+                                "IP" => LocationType::Intermediate,
+                                "OPIP" => LocationType::OperationalIntermediate,
+                                "PP" => LocationType::Passing,
+                                "DT" => LocationType::Destination,
+                                "OPDT" => LocationType::OperationalDestination,
+                                _ => unreachable!(),
+                            };
+                            let (tiploc, pta, ptd) = parse_location_attrs(e);
+                            let crs = tiploc_to_crs.get(&tiploc).cloned();
+                            let name = tiploc_to_name.get(&tiploc).cloned();
+                            s.locations.push(DarwinLocation {
+                                tiploc, crs, name, loc_type, pta, ptd,
+                                wta: None, wtd: None, wtp: None,
+                                act: String::new(), cancelled: false,
+                            });
                         }
                     }
                     _ => {}
                 }
             }
-            Ok(Event::Empty(ref e)) => {
-                // Self-closing location elements
-                let tag = e.name();
-                let tag_str = std::str::from_utf8(tag.as_ref())?;
-                let loc_type = match tag_str {
-                    "OR" => LocationType::Origin,
-                    "OPOR" => LocationType::OperationalOrigin,
-                    "IP" => LocationType::Intermediate,
-                    "OPIP" => LocationType::OperationalIntermediate,
-                    "PP" => LocationType::Passing,
-                    "DT" => LocationType::Destination,
-                    "OPDT" => LocationType::OperationalDestination,
-                    _ => continue,
-                };
-                if let Some(ref mut s) = current {
-                    s.locations.push(parse_location(e, loc_type, tiploc_to_crs, tiploc_to_name));
-                }
-            }
             Ok(Event::End(ref e)) => {
                 let tag = e.name();
                 let tag_str = std::str::from_utf8(tag.as_ref())?;
-                if tag_str == "schedule" {
-                    if let Some(schedule) = current.take() {
-                        if schedule.is_active && !schedule.is_deleted && schedule.is_passenger {
-                            schedules.push(schedule);
+                if tag_str == "Journey" {
+                    if let Some(journey) = current.take() {
+                        // Only include active, non-deleted passenger services
+                        if journey.is_active && !journey.is_deleted {
+                            schedules.push(journey);
                         }
                     }
                 }
@@ -193,12 +166,10 @@ fn parse_schedule_xml(
     Ok(schedules)
 }
 
-/// Parse schedule element attributes
-fn parse_schedule_start(e: &quick_xml::events::BytesStart) -> DarwinSchedule {
+fn parse_journey_start(e: &quick_xml::events::BytesStart) -> DarwinSchedule {
     let mut rid = String::new();
     let mut uid = String::new();
     let mut train_id = String::new();
-    let mut rsid = None;
     let mut ssd = String::new();
     let mut toc = String::new();
     let mut status = "P".to_string();
@@ -206,7 +177,6 @@ fn parse_schedule_start(e: &quick_xml::events::BytesStart) -> DarwinSchedule {
     let mut is_passenger = true;
     let mut is_active = true;
     let mut is_deleted = false;
-    let mut is_charter = false;
 
     for attr in e.attributes() {
         if let Ok(attr) = attr {
@@ -216,7 +186,6 @@ fn parse_schedule_start(e: &quick_xml::events::BytesStart) -> DarwinSchedule {
                 "rid" => rid = value.to_string(),
                 "uid" => uid = value.to_string(),
                 "trainId" => train_id = value.to_string(),
-                "rsid" => rsid = Some(value.to_string()),
                 "ssd" => ssd = value.to_string(),
                 "toc" => toc = value.to_string(),
                 "status" => status = value.to_string(),
@@ -224,82 +193,41 @@ fn parse_schedule_start(e: &quick_xml::events::BytesStart) -> DarwinSchedule {
                 "isPassengerSvc" => is_passenger = value == "true",
                 "isActive" => is_active = value == "true",
                 "deleted" => is_deleted = value == "true",
-                "isCharter" => is_charter = value == "true",
                 _ => {}
             }
         }
     }
 
     DarwinSchedule {
-        rid,
-        uid,
-        train_id,
-        rsid,
-        ssd,
-        toc,
-        status,
-        train_cat,
-        is_passenger,
-        is_active,
-        is_deleted,
-        is_charter,
+        rid, uid, train_id, rsid: None, ssd, toc, status, train_cat,
+        is_passenger, is_active, is_deleted, is_charter: false,
         locations: Vec::new(),
     }
 }
 
-/// Parse a location element (OR, IP, DT, PP, etc.)
-fn parse_location(
-    e: &quick_xml::events::BytesStart,
-    loc_type: LocationType,
-    tiploc_to_crs: &HashMap<String, String>,
-    tiploc_to_name: &HashMap<String, String>,
-) -> DarwinLocation {
+fn parse_location_attrs(e: &quick_xml::events::BytesStart) -> (String, Option<String>, Option<String>) {
     let mut tiploc = String::new();
     let mut pta = None;
     let mut ptd = None;
-    let mut wta = None;
-    let mut wtd = None;
-    let mut wtp = None;
-    let mut act = String::new();
-    let mut cancelled = false;
 
     for attr in e.attributes() {
         if let Ok(attr) = attr {
             let key = std::str::from_utf8(attr.key.as_ref()).unwrap_or("");
             let value = attr.unescape_value().unwrap_or_default();
             match key {
-                "tpl" => tiploc = value.to_string(),
+                "ftl" => tiploc = value.trim().to_string(),  // TIPLOC code (with trailing spaces)
                 "pta" => pta = Some(value.to_string()),
                 "ptd" => ptd = Some(value.to_string()),
-                "wta" => wta = Some(value.to_string()),
-                "wtd" => wtd = Some(value.to_string()),
-                "wtp" => wtp = Some(value.to_string()),
-                "act" => act = value.to_string(),
-                "can" => cancelled = value == "true",
+                "wta" => pta = Some(value.to_string()),  // Use wta as fallback
+                "wtd" => ptd = Some(value.to_string()),  // Use wtd as fallback
                 _ => {}
             }
         }
     }
 
-    let crs = tiploc_to_crs.get(&tiploc).cloned();
-    let name = tiploc_to_name.get(&tiploc).cloned();
-
-    DarwinLocation {
-        tiploc,
-        crs,
-        name,
-        loc_type,
-        pta,
-        ptd,
-        wta,
-        wtd,
-        wtp,
-        act,
-        cancelled,
-    }
+    (tiploc, pta, ptd)
 }
 
-/// Parse time string (HH:MM or HH:MM:SS) to minutes past midnight
 pub fn parse_time(time_str: &str) -> Option<u16> {
     let parts: Vec<&str> = time_str.split(':').collect();
     if parts.len() >= 2 {

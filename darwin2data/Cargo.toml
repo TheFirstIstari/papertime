@@ -4,11 +4,14 @@ version = "0.1.0"
 edition = "2024"
 
 [dependencies]
-# HTTP client for S3
+# HTTP client
 reqwest = { version = "0.12", features = ["blocking"] }
 
-# ZIP extraction
+# ZIP extraction (not used for Darwin S3, but kept for compatibility)
 zip = "2"
+
+# Gzip decompression for Darwin XML files
+flate2 = "1"
 
 # XML parsing
 quick-xml = "0.37"
@@ -28,6 +31,9 @@ dotenvy = "0.15"
 env_logger = "0.11"
 log = "0.4"
 
-# Async runtime (for future STOMP support)
-# tokio = { version = "1", features = ["full"] }
-# stomp = "0.6"
+# AWS S3 with proper SigV4 authentication
+aws-config = "1"
+aws-sdk-s3 = { version = "1", features = ["behavior-version-latest"] }
+aws-credential-types = "1"
+tokio = { version = "1", features = ["rt-multi-thread", "macros"] }
+bytes = "1"
