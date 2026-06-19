@@ -66,13 +66,32 @@
 		return `hsl(${hue}, 65%, 55%)`;
 	}
 
+	function renderEmpty() {
+		if (!container) return;
+		d3.select(container).selectAll('*').remove();
+		const svg = d3.select(container)
+			.append('svg')
+			.attr('viewBox', '0 0 400 200')
+			.append('g')
+			.attr('transform', 'translate(200,100)');
+		svg.append('text')
+			.attr('text-anchor', 'middle')
+			.attr('dy', '0.35em')
+			.attr('fill', '#64748b')
+			.attr('font-size', '14px')
+			.text('No services operate on this day');
+	}
+
 	function renderChart() {
 		if (!container || !mareyData) return;
 		const data = mareyData;
 
 		// Filter services by day
 		let services = data.services.filter((s) => s.days.includes(activeDay));
-		if (services.length === 0) services = data.services.slice(0, 50);
+		if (services.length === 0) {
+			renderEmpty();
+			return;
+		}
 
 		// Build operator group indices for color variation
 		const opGroups = new Map<string, number>();
