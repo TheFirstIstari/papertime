@@ -76,7 +76,8 @@ def estimate_mileages(station_order):
                 mileages[crs] = 0.0
     # Enforce minimum vertical gap for chart readability
     # Prevents station labels overlapping when stations are very close
-    MIN_GAP = 1.0  # miles
+    # Also scales with route length to ensure proportional spacing
+    MIN_GAP = 2.0  # miles — increased from 1.0 for better readability
     adjusted = {}
     prev_m = None
     for crs in station_order:

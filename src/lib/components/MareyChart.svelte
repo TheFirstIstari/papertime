@@ -50,9 +50,11 @@
 		if (services.length === 0) services = data.services.slice(0, 50);
 
 		const stations = data.stations;
-		const margin = { top: 40, right: 40, bottom: 60, left: 120 };
+		const margin = { top: 40, right: 40, bottom: 60, left: 130 };
+		const minLabelSpacing = 16; // pixels between station labels
+		const chartHeight = Math.max(500, stations.length * minLabelSpacing);
 		const width = Math.max(800, stations.length * 30) - margin.left - margin.right;
-		const height = 600 - margin.top - margin.bottom;
+		const height = chartHeight - margin.top - margin.bottom;
 
 		// Clear previous
 		d3.select(container).selectAll('*').remove();

@@ -1,16 +1,15 @@
 #!/usr/bin/env python3
 """
-PaperTime Service Cleaner — M2.5
-Fixes data quality issues in parsed service JSON files:
-1. Removes backward-time stops caused by column misalignment
-   (when arrival/departure pairs shift column assignments)
-2. Preserves legitimate midnight crossings (time drops from >=720 to <240)
-3. Preserves None/null time entries (station starting points, through stations)
+PaperTime Service Cleaner — M3.1
+Removes backward-time stops caused by column misalignment in the parser.
+Simple truncation approach: when a stop's time goes backward relative to
+the maximum valid time seen so far, truncate the service at that point.
+This removes corrupted data while preserving valid prefixes.
 
 Usage: python3 clean_services.py
 """
 
-import json, os, re
+import json, shutil
 from pathlib import Path
 
 BASE = Path(__file__).parent.parent
@@ -18,33 +17,36 @@ SVC_DIR = BASE / "static" / "services"
 BACKUP_DIR = BASE / "pdf2data" / "backups"
 
 
-def clean_service_stops(services, table_num):
-    """Remove backward-time stops from all services in a table."""
+def count_valid(stops):
+    """Count stops with non-null times."""
+    return sum(1 for s in stops if (s.get("dep") or s.get("arr")) is not None)
+
+
+def clean_table(services):
+    """Remove backward-time stops from all services via truncation.
+    Returns (changes, removed)."""
     changes = 0
     removed = 0
 
     for svc in services:
         new_stops = []
-        max_valid_time = -1
+        max_valid = -1
         prev_time = -1
 
         for stop in svc["stops"]:
             time = stop.get("dep") or stop.get("arr")
-            station = stop["station"]
-
             if time is None:
-                # Keep null-time entries (starting points, through stations)
                 new_stops.append(stop)
                 continue
 
-            adjusted_time = time
-            # Midnight crossing: time drops from evening (>=720) to early morning (<240)
+            # Midnight crossing
+            adj = time
             if prev_time >= 720 and time < 240:
-                adjusted_time += 1440
+                adj += 1440
             prev_time = time
 
-            if adjusted_time >= max_valid_time:
-                max_valid_time = adjusted_time
+            if adj >= max_valid:
+                max_valid = adj
                 new_stops.append(stop)
             else:
                 removed += 1
@@ -60,58 +62,63 @@ def main():
         print(f"Services directory not found: {SVC_DIR}")
         return
 
-    # Create backup
+    # Backup current state
     BACKUP_DIR.mkdir(parents=True, exist_ok=True)
-    import shutil
     for f in SVC_DIR.glob("*.json"):
         shutil.copy2(f, BACKUP_DIR / f.name)
-    print(f"Backed up {len(list(SVC_DIR.glob('*.json')))} files to {BACKUP_DIR}")
+    n_files = len(list(SVC_DIR.glob("*.json")))
+    print(f"Backed up {n_files} files to {BACKUP_DIR}")
 
     total_changes = 0
     total_removed = 0
-    tables_cleaned = 0
+    cleaned = 0
+
+    before_short = 0
+    after_short = 0
+    total_svcs = 0
 
     for fpath in sorted(SVC_DIR.glob("*.json")):
-        table_num = fpath.stem
         with open(fpath) as f:
             data = json.load(f)
-
         services = data.get("services", [])
         if not services:
             continue
 
-        changes, removed = clean_service_stops(services, table_num)
-        if changes > 0:
-            tables_cleaned += 1
+        total_svcs += len(services)
+        before_short += sum(1 for s in services if count_valid(s["stops"]) < 2)
+
+        changes, removed = clean_table(services)
+        if changes:
+            cleaned += 1
             total_changes += changes
             total_removed += removed
             with open(fpath, "w") as f:
                 json.dump(data, f, indent=2)
 
-    print(f"\nCleaned {tables_cleaned} tables")
-    print(f"Total stop changes: {total_changes}")
-    print(f"Total stops removed: {total_removed}")
-    print(f"Backup preserved at: {BACKUP_DIR}")
+        after_short += sum(1 for s in services if count_valid(s["stops"]) < 2)
 
-    # Stats: how many backward-time services remain?
-    still_backward = 0
-    for fpath in sorted(SVC_DIR.glob("*.json")):
+    # Stats
+    still_bad = 0
+    for fpath in SVC_DIR.glob("*.json"):
         with open(fpath) as f:
-            data = json.load(f)
-        for svc in data.get("services", []):
-            times = []
+            d = json.load(f)
+        for svc in d.get("services", []):
+            prev = -1
             for s in svc["stops"]:
                 t = s.get("dep") or s.get("arr")
-                times.append(t)
-            for i in range(1, len(times)):
-                if times[i] is not None and times[i-1] is not None:
-                    if times[i-1] > 720 and times[i] < 240:
-                        continue
-                    if times[i] < times[i-1]:
-                        still_backward += 1
-                        break
+                if t is None: continue
+                if prev >= 720 and t < 240:
+                    prev = t
+                    continue
+                if prev >= 0 and t < prev:
+                    still_bad += 1
+                    break
+                prev = t
 
-    print(f"Services still with backward time: {still_backward}")
+    print(f"\nCleaned {cleaned} tables")
+    print(f"Stops removed: {total_removed}")
+    print(f"Short services (<2 valid): {before_short} → {after_short} (of {total_svcs})")
+    print(f"Still backward: {still_bad}")
 
 
 if __name__ == "__main__":
