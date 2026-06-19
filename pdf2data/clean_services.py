@@ -219,8 +219,12 @@ def fix_column_shifts(services):
                 # Handle midnight crossing in gap check
                 adj_prev = prev_t + 1440 if prev_t < 240 and t >= 720 else prev_t
                 adj_cur = t + 1440 if prev_t >= 720 and t < 240 else t
-                gap = abs(adj_cur - adj_prev)
-                if gap > MAX_GAP:
+                adj_gap = abs(adj_cur - adj_prev)
+                raw_gap = abs(t - prev_t)
+                # Check BOTH adjusted and raw gaps. A large raw gap with
+                # small adjusted gap means the first stop was post-midnight
+                # but subsequent stops are from wrong time-of-day.
+                if max(adj_gap, raw_gap) > MAX_GAP:
                     truncated += 1
                     break  # truncate at this point
             new_stops.append(s)
