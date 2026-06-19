@@ -8,6 +8,20 @@
 	import { loadStations, loadTableIndex, getGapCount } from '$lib/data';
 	import type { StationEntry, TableEntry, TableMatch } from '$lib/types';
 
+	const OP_COLORS: Record<string, string> = {
+		'CC': '#009E73', 'XC': '#009E73', 'SE': '#009E73', 'LE': '#009E73',
+		'EM': '#CC79A7', 'GR': '#CC79A7', 'AW': '#CC79A7',
+		'LO': '#E86A10', 'ME': '#E86A10',
+		'VT': '#E32636', 'HX': '#E32636', 'HT': '#E32636',
+		'GW': '#56B4E9', 'SR': '#56B4E9',
+		'TP': '#D55E00', 'TL': '#D55E00', 'LM': '#D55E00',
+		'NT': '#0072B2', 'SW': '#0072B2', 'CH': '#0072B2',
+		'SN': '#F0E442', 'GN': '#F0E442',
+		'GC': '#882255', 'GX': '#56B4E9', 'LF': '#E86A10',
+		'XR': '#D55E00',
+	};
+	const DEFAULT_OP_COLOR = '#64748b';
+
 	let stations: StationEntry[] = [];
 	let tableIndex: TableEntry[] = [];
 	let fuse: Fuse<StationEntry> | null = null;
@@ -149,7 +163,9 @@
 								</div>
 							</div>
 							{#if m.operators.length > 0}
-								<div class="mt-2 flex gap-2">{#each m.operators as op}<span class="text-xs bg-slate-700 px-2 py-1 rounded">{op}</span>{/each}</div>
+								<div class="mt-2 flex gap-2">{#each m.operators as op}
+									<span class="text-xs bg-slate-700/50 px-2 py-1 rounded font-medium" style="color: {OP_COLORS[op] || DEFAULT_OP_COLOR}">{op}</span>
+								{/each}</div>
 							{/if}
 						</a>
 					{/each}

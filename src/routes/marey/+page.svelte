@@ -17,9 +17,9 @@
 			if (resp.ok) {
 				const tables = await resp.json();
 				charts = tables
-					.filter((t: any) => !t.gap && t.n_services > 0)
-					.slice(0, 50)
-					.map((t: any) => ({
+				.filter((t: any) => !t.gap && t.n_services > 0)
+				.sort((a: any, b: any) => b.n_services - a.n_services)
+				.map((t: any) => ({
 						table: t.table,
 						route: t.name || `Table ${t.table}`,
 						n_services: t.n_services,
