@@ -101,12 +101,11 @@
 		// Pre-process: build points with midnight normalization
 		const maxMileage = d3.max(stations, (d) => d.mileage) || 100;
 		let maxTime = 1440;
-		const maxServices = Math.min(services.length, Math.max(400, Math.round(services.length * 0.3)));
 		const lineServices: { points: { x: number; y: number }[]; color: string; svc: (typeof services)[0] }[] = [];
 		const dotServices: { x: number; y: number; color: string; svc: (typeof services)[0] }[] = [];
 		const stationMap = new Map(stations.map((s) => [s.crs, s]));
 
-		for (const svc of services.slice(0, maxServices)) {
+		for (const svc of services) {
 			const op = svc.operator || '';
 			const opIndex = opGroups.get(op) || 0;
 			opGroups.set(op, opIndex + 1);
