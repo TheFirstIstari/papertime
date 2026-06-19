@@ -313,6 +313,7 @@ def parse_all_tts():
                 # Parse stations for this day section
                 section_stations = []
                 base_col = len(all_services)
+                last_crs = ''
 
                 while i < len(lines):
                     trimmed = lines[i].strip()
@@ -324,6 +325,8 @@ def parse_all_tts():
                         continue
 
                     crs = cm.group(1)
+                    is_merge = crs == last_crs
+                    last_crs = crs
 
                     # Extract station name
                     name_end = trimmed.find('(')
@@ -338,8 +341,9 @@ def parse_all_tts():
                             if crs not in crs_to_name or len(stn_name) > len(crs_to_name.get(crs, '')):
                                 crs_to_name[crs] = stn_name
 
-                    section_stations.append(crs)
-                    all_stations.append(crs)
+                    if not is_merge:
+                        section_stations.append(crs)
+                        all_stations.append(crs)
 
                     # Read time data
                     time_lines = []
@@ -382,11 +386,24 @@ def parse_all_tts():
                                         'headcode': '', 'operator': op,
                                         'days': [dp], 'direction': '', 'stops': [],
                                     })
-                                all_services[col]['stops'].append({
-                                    'station': crs,
-                                    'arr': mins if 'a' in direction else None,
-                                    'dep': mins if 'd' in direction else None,
-                                })
+                                if is_merge:
+                                    # Same station appears again (arrival then departure).
+                                    # Update the LAST stop for this service with departure time.
+                                    stops = all_services[col]['stops']
+                                    if stops and stops[-1]['station'] == crs:
+                                        stops[-1]['dep'] = mins
+                                    else:
+                                        stops.append({
+                                            'station': crs,
+                                            'arr': None,
+                                            'dep': mins,
+                                        })
+                                else:
+                                    all_services[col]['stops'].append({
+                                        'station': crs,
+                                        'arr': mins if 'a' in direction else None,
+                                        'dep': mins if 'd' in direction else None,
+                                    })
                                 tcol += 1
                             elif p == 'T':
                                 tcol = 0
