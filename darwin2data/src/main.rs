@@ -23,7 +23,9 @@ use anyhow::Result;
 use std::path::PathBuf;
 
 fn main() -> Result<()> {
-    dotenvy::dotenv().ok();
+    // Load .env from the darwin2data directory
+    let env_path = std::path::Path::new("darwin2data/.env");
+    dotenvy::from_path(env_path).ok();
     env_logger::init();
 
     let bucket = std::env::var("DARWIN_S3_BUCKET")
@@ -37,7 +39,7 @@ fn main() -> Result<()> {
     let region = std::env::var("DARWIN_S3_REGION")
         .unwrap_or_else(|_| "eu-west-1".to_string());
 
-    let output_dir = PathBuf::from("../static");
+    let output_dir = PathBuf::from("static");
     std::fs::create_dir_all(&output_dir)?;
     std::fs::create_dir_all(output_dir.join("services"))?;
     std::fs::create_dir_all(output_dir.join("marey"))?;
