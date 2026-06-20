@@ -19,7 +19,7 @@
 - **Station-centric data model** — services indexed by station, not by arbitrary "table" groupings. Simpler, more flexible.
 - **Build pipeline: Pure Rust** — single binary (`darwin2data/`) downloads from S3, parses XML, outputs structured JSON.
 - **Hosting: Render Static Site** — free, CDN-served, no cold starts, always on, $0/mo.
-- **Data strategy: Pre-computed JSON committed to git.** Render only runs `npm run build`.
+- **Data strategy: Pre-computed JSON committed to git via Git LFS.** Large data files (services/, marey/) tracked with LFS. Render pulls LFS files during build.
 - **No backend, no database, no API routes.** All logic runs client-side.
 - **PDF source deprecated** — `Timetable PDFs/` and `pdf2data/` kept for reference only.
 
