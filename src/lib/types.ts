@@ -1,22 +1,19 @@
 // Station-centric data types for PaperTime
 
 export interface Station {
-  id: string;       // CRS code
+  id: string;
   name: string;
-  crs: string;
   tiploc: string;
   lat: number | null;
   lng: number | null;
-  type: string;      // terminal, major, interchange, minor, airport
+  type: string;
   n_services: number;
   operators: string[];
   destinations: string[];
-  file: string;      // services/{crs}.json
+  file: string;
 }
 
-export interface StationIndex {
-  stations: Station[];
-}
+export interface StationIndex extends Array<Station> {}
 
 export interface ServiceRef {
   id: string;

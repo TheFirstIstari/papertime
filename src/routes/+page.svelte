@@ -28,7 +28,7 @@
 	onMount(async () => {
 		try {
 			stations = await loadStationIndex();
-			fuse = new Fuse(stations, { keys: ['name', 'crs', 'id'], threshold: 0.3 });
+			fuse = new Fuse(stations, { keys: ['name', 'id'], threshold: 0.3 });
 			loaded = true;
 		} catch (err) {
 			console.error('PaperTime init failed:', err);
@@ -46,7 +46,7 @@
 	function selectStation(s: Station) {
 		query = s.name;
 		suggestions = [];
-		goto(`/station/${s.crs}`);
+		goto(`/station/${s.id}`);
 	}
 </script>
 

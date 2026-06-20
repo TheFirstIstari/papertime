@@ -29,21 +29,21 @@
 	}
 
 	function getDepTime(s: ServiceRef): string {
-		const call = s.calls.find(c => c.crs === crs);
+		const call = s.calls?.find(c => c.crs === crs) || s.stops?.find(c => c.station === crs);
 		return call?.dep ? formatTime(call.dep) : '---';
 	}
 
 	function getArrTime(s: ServiceRef): string {
-		const call = s.calls.find(c => c.crs === crs);
+		const call = s.calls?.find(c => c.crs === crs) || s.stops?.find(c => c.station === crs);
 		return call?.arr ? formatTime(call.arr) : '---';
 	}
 
 	let filteredServices = $derived(
-		stationData?.services?.filter(s => {
+		svcList.filter(s => {
 			if (filterOperator && s.operator !== filterOperator) return false;
-			if (filterDest && s.destination !== filterDest) return false;
+			if (filterDest && (s.destination_name || s.destination) !== filterDest) return false;
 			return true;
-		}) ?? []
+		})
 	);
 
 	let operators = $derived([...new Set(stationData?.services?.map(s => s.operator) ?? [])].sort());
@@ -72,8 +72,9 @@
 		{:else if error}
 			<div class="text-center py-12 text-red-400">{error}</div>
 		{:else if stationData}
-			<h1 class="text-3xl font-bold mb-2">{stationData.name}</h1>
-			<p class="text-slate-400 mb-6">{stationData.services.length} services</p>
+			<h1 class="text-3xl font-bold mb-2">{stationData.name || stationData.station || crs}</h1>
+			{@const svcList = stationData.services || []}
+			<p class="text-slate-400 mb-6">{svcList.length} services</p>
 
 			{#if operators.length > 1 || destinations.length > 1}
 				<div class="flex gap-3 mb-6">
@@ -108,7 +109,7 @@
 						</tr>
 					</thead>
 					<tbody>
-						{#each filteredServices as svc (svc.id)}
+						{#each filteredServices as svc (svc.id || svc.headcode)}
 							<tr class="border-b border-slate-800 hover:bg-slate-800/50">
 								<td class="py-2 pr-4 font-mono">{getDepTime(svc)}</td>
 								<td class="py-2 pr-4">{svc.headcode}</td>
@@ -117,9 +118,9 @@
 										{svc.operator}
 									</span>
 								</td>
-								<td class="py-2 pr-4">{svc.destination_name}</td>
+								<td class="py-2 pr-4">{svc.destination_name || svc.destination || '—'}</td>
 								<td class="py-2 pr-4 text-slate-400 text-xs">
-									{svc.calls.slice(1, -1).map(c => c.crs).join(', ')}
+									{(svc.calls || svc.stops || []).slice(1, -1).map(c => c.crs || c.station).join(', ')}
 								</td>
 							</tr>
 						{/each}

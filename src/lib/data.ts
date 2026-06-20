@@ -7,8 +7,7 @@ export async function loadStationIndex(): Promise<Station[]> {
   if (!response.ok) {
     throw new Error(`Failed to load station index: ${response.status}`);
   }
-  const data: StationIndex = await response.json();
-  return data.stations;
+  return response.json();
 }
 
 export async function loadStationServices(crs: string): Promise<StationServices> {
