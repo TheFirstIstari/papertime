@@ -13,7 +13,7 @@ test.describe('PaperTime — smoke tests', () => {
 		const input = page.locator('input[placeholder*="station"]');
 		await expect(input).toBeVisible({ timeout: 15000});
 
-		await input.fill('001');
+		await input.fill('EUSTON');
 		await page.waitForTimeout(500);
 
 		const suggestions = page.locator('button');
@@ -25,7 +25,7 @@ test.describe('PaperTime — smoke tests', () => {
 		const input = page.locator('input[placeholder*="station"]');
 		await expect(input).toBeVisible({ timeout: 15000});
 
-		await input.fill('001');
+		await input.fill('EUSTON');
 		await page.waitForTimeout(500);
 
 		const suggestion = page.locator('button').first();
@@ -33,15 +33,14 @@ test.describe('PaperTime — smoke tests', () => {
 		await suggestion.click();
 
 		await page.waitForURL(/\/station\//, { timeout: 10000 });
-		// Station page should show something within 15s
-		await page.waitForTimeout(3000);
+		await page.waitForTimeout(5000);
 		const body = page.locator('body');
 		await expect(body).toBeVisible();
 	});
 
-	test('station page shows content', async ({ page }) => {
-		await page.goto('/station/001');
-		await page.waitForTimeout(3000);
+	test('station page shows content after loading', async ({ page }) => {
+		await page.goto('/station/EUSTON');
+		await page.waitForTimeout(5000);
 		const body = page.locator('body');
 		await expect(body).toBeVisible();
 	});
