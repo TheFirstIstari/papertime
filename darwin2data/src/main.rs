@@ -61,7 +61,7 @@ fn main() -> Result<()> {
 
     // Phase 2: Extract and parse XML → services
     log::info!("Phase 2: Parsing XML schedules...");
-    let services = parse::extract_schedules(&zip_path)?;
+    let (services, tiploc_to_crs, _tiploc_to_name) = parse::extract_schedules(&zip_path)?;
     log::info!("  Parsed {} services", services.len());
 
     // Phase 3: Index services by station
@@ -73,7 +73,7 @@ fn main() -> Result<()> {
     log::info!("Phase 4: Writing JSON output...");
     stations::write_index(&station_index, &output_dir)?;
     stations::write_station_services(&station_index, &output_dir)?;
-    stations::write_marey_data(&station_index, &output_dir)?;
+    stations::write_marey_data(&station_index, &output_dir, &tiploc_to_crs)?;
 
     log::info!("Done! Output in {}", output_dir.display());
     Ok(())

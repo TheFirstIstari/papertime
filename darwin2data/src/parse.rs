@@ -8,7 +8,7 @@ use std::path::Path;
 
 use crate::types::*;
 
-pub fn extract_schedules(data_dir: &Path) -> Result<Vec<DarwinSchedule>> {
+pub fn extract_schedules(data_dir: &Path) -> Result<(Vec<DarwinSchedule>, HashMap<String, String>, HashMap<String, String>)> {
     let mut schedules = Vec::new();
     let mut tiploc_to_crs: HashMap<String, String> = HashMap::new();
     let mut tiploc_to_name: HashMap<String, String> = HashMap::new();
@@ -47,7 +47,7 @@ pub fn extract_schedules(data_dir: &Path) -> Result<Vec<DarwinSchedule>> {
         schedules.len(),
         tiploc_to_crs.len()
     );
-    Ok(schedules)
+    Ok((schedules, tiploc_to_crs, tiploc_to_name))
 }
 
 fn parse_reference_data(

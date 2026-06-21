@@ -3,14 +3,18 @@
 	import { onMount } from 'svelte';
 	import { loadStationServices } from '$lib/data';
 	import type { StationServices, ServiceRef, CallRef } from '$lib/types';
+	import type { MareyData } from '$lib/types';
+	import MareyChart from '$lib/components/MareyChart.svelte';
 
 	let { data } = $props<{ data: { crs: string } }>();
 	let crs = data.crs;
 	let stationData: StationServices | null = null;
+	let mareyData: MareyData | null = null;
 	let loading = $state(true);
 	let error = $state('');
 	let filterOperator = $state('');
 	let filterDest = $state('');
+	let activeTab = $state<'timetable' | 'marey'>('timetable');
 
 	const OP_COLORS: Record<string, string> = {
 		'CC': '#009E73', 'XC': '#009E73', 'SE': '#009E73', 'LE': '#009E73',
@@ -21,6 +25,8 @@
 		'TP': '#D55E00', 'TL': '#D55E00', 'LM': '#D55E00',
 		'NT': '#0072B2', 'SW': '#0072B2', 'CH': '#0072B2',
 		'SN': '#F0E442', 'GN': '#F0E442',
+		'GC': '#882255', 'GX': '#56B4E9', 'LF': '#E86A10',
+		'XR': '#D55E00',
 	};
 
 	function formatTime(t: string | null): string {
@@ -55,6 +61,17 @@
 		} catch (err) {
 			error = err instanceof Error ? err.message : 'Failed to load station data';
 		}
+
+		// Load Marey data
+		try {
+			const resp = await fetch(`/marey/${crs}.json`);
+			if (resp.ok) {
+				mareyData = await resp.json();
+			}
+		} catch (e) {
+			// Marey data optional
+		}
+
 		loading = false;
 	});
 </script>
@@ -76,60 +93,78 @@
 			{@const svcList = stationData.services || []}
 			<p class="text-slate-400 mb-6">{svcList.length} services</p>
 
-			{#if operators.length > 1 || destinations.length > 1}
-				<div class="flex gap-3 mb-6">
-					{#if operators.length > 1}
-						<select bind:value={filterOperator} class="bg-slate-800 border border-slate-700 rounded px-3 py-1.5 text-sm">
-							<option value="">All operators</option>
-							{#each operators as op}
-								<option value={op}>{op}</option>
-							{/each}
-						</select>
-					{/if}
-					{#if destinations.length > 1}
-						<select bind:value={filterDest} class="bg-slate-800 border border-slate-700 rounded px-3 py-1.5 text-sm">
-							<option value="">All destinations</option>
-							{#each destinations as dest}
-								<option value={dest}>{dest}</option>
-							{/each}
-						</select>
-					{/if}
-				</div>
-			{/if}
-
-			<div class="overflow-x-auto">
-				<table class="w-full text-sm">
-					<thead>
-						<tr class="text-left text-slate-400 border-b border-slate-700">
-							<th class="pb-2 pr-4">Time</th>
-							<th class="pb-2 pr-4">Headcode</th>
-							<th class="pb-2 pr-4">Operator</th>
-							<th class="pb-2 pr-4">Destination</th>
-							<th class="pb-2 pr-4">Calling at</th>
-						</tr>
-					</thead>
-					<tbody>
-						{#each filteredServices as svc (svc.id || svc.headcode)}
-							<tr class="border-b border-slate-800 hover:bg-slate-800/50">
-								<td class="py-2 pr-4 font-mono">{getDepTime(svc)}</td>
-								<td class="py-2 pr-4">{svc.headcode}</td>
-								<td class="py-2 pr-4">
-									<span class="px-1.5 py-0.5 rounded text-xs font-medium" style="color: {OP_COLORS[svc.operator] || '#64748b'}">
-										{svc.operator}
-									</span>
-								</td>
-								<td class="py-2 pr-4">{svc.destination_name || svc.destination || '—'}</td>
-								<td class="py-2 pr-4 text-slate-400 text-xs">
-									{(svc.calls || svc.stops || []).slice(1, -1).map(c => c.crs || c.station).join(', ')}
-								</td>
-							</tr>
-						{/each}
-					</tbody>
-				</table>
+			<!-- Tab switcher -->
+			<div class="flex gap-2 mb-6">
+				<button
+					on:click={() => activeTab = 'timetable'}
+					class="px-4 py-2 rounded text-sm font-medium transition-colors {activeTab === 'timetable' ? 'bg-blue-600 text-white' : 'bg-slate-800 text-slate-300 hover:bg-slate-700'}"
+				>Timetable</button>
+				<button
+					on:click={() => activeTab = 'marey'}
+					class="px-4 py-2 rounded text-sm font-medium transition-colors {activeTab === 'marey' ? 'bg-blue-600 text-white' : 'bg-slate-800 text-slate-300 hover:bg-slate-700'}"
+					disabled={!mareyData}
+				>Marey Chart</button>
 			</div>
 
-			{#if filteredServices.length === 0}
-				<div class="text-center py-8 text-slate-400">No services match your filters.</div>
+			{#if activeTab === 'timetable'}
+				{#if operators.length > 1 || destinations.length > 1}
+					<div class="flex gap-3 mb-6">
+						{#if operators.length > 1}
+							<select bind:value={filterOperator} class="bg-slate-800 border border-slate-700 rounded px-3 py-1.5 text-sm">
+								<option value="">All operators</option>
+								{#each operators as op}
+									<option value={op}>{op}</option>
+								{/each}
+							</select>
+						{/if}
+						{#if destinations.length > 1}
+							<select bind:value={filterDest} class="bg-slate-800 border border-slate-700 rounded px-3 py-1.5 text-sm">
+								<option value="">All destinations</option>
+								{#each destinations as dest}
+									<option value={dest}>{dest}</option>
+								{/each}
+							</select>
+						{/if}
+					</div>
+				{/if}
+
+				<div class="overflow-x-auto">
+					<table class="w-full text-sm">
+						<thead>
+							<tr class="text-left text-slate-400 border-b border-slate-700">
+								<th class="pb-2 pr-4">Time</th>
+								<th class="pb-2 pr-4">Headcode</th>
+								<th class="pb-2 pr-4">Operator</th>
+								<th class="pb-2 pr-4">Destination</th>
+								<th class="pb-2 pr-4">Calling at</th>
+							</tr>
+						</thead>
+						<tbody>
+							{#each filteredServices as svc (svc.id || svc.headcode)}
+								<tr class="border-b border-slate-800 hover:bg-slate-800/50">
+									<td class="py-2 pr-4 font-mono">{getDepTime(svc)}</td>
+									<td class="py-2 pr-4">{svc.headcode}</td>
+									<td class="py-2 pr-4">
+										<span class="px-1.5 py-0.5 rounded text-xs font-medium" style="color: {OP_COLORS[svc.operator] || '#64748b'}">
+											{svc.operator}
+										</span>
+									</td>
+									<td class="py-2 pr-4">{svc.destination_name || svc.destination || '—'}</td>
+									<td class="py-2 pr-4 text-slate-400 text-xs">
+										{(svc.calls || svc.stops || []).slice(1, -1).map(c => c.crs || c.station).join(', ')}
+									</td>
+								</tr>
+							{/each}
+						</tbody>
+					</table>
+				</div>
+
+				{#if filteredServices.length === 0}
+					<div class="text-center py-8 text-slate-400">No services match your filters.</div>
+				{/if}
+
+			{:else if activeTab === 'marey' && mareyData}
+				<MareyChart {mareyData} />
 			{/if}
 		{/if}
 	</div>

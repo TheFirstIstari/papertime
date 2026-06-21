@@ -39,7 +39,34 @@ export interface StationServices {
   services: ServiceRef[];
 }
 
-// Legacy types (kept for compatibility during migration)
+// Marey chart types
+export interface MareyData {
+  route: string;
+  route_id: string;
+  stations: MareyStation[];
+  services: MareyService[];
+}
+
+export interface MareyStation {
+  name: string;
+  crs: string;
+  mileage: number;
+  type: string;
+}
+
+export interface MareyService {
+  id: string;
+  operator: string;
+  direction: string;
+  days: string[];
+  stops: MareyStop[];
+}
+
+export interface MareyStop {
+  station: string;
+  arr: number | null;
+  dep: number | null;
+}
 export interface StationEntry {
   id: string;
   name: string;

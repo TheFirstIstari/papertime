@@ -113,21 +113,122 @@ pub fn write_station_services(stations: &[StationIndex], output_dir: &Path) -> a
 }
 
 /// Write per-station Marey data
-pub fn write_marey_data(stations: &[StationIndex], output_dir: &Path) -> anyhow::Result<()> {
+pub fn write_marey_data(
+    stations: &[StationIndex],
+    output_dir: &Path,
+    tiploc_to_crs: &std::collections::HashMap<String, String>,
+) -> anyhow::Result<()> {
     let marey_dir = output_dir.join("marey");
     fs::create_dir_all(&marey_dir)?;
 
-    for station in stations {
-        let path = marey_dir.join(format!("{}.json", station.id));
-        let output = serde_json::json!({
-            "station": &station.id,
-            "name": &station.name,
-            "n_services": station.services.len(),
-        });
-        let json = serde_json::to_string_pretty(&output)?;
+    let marey_data = generate_marey_data(stations, tiploc_to_crs);
+
+    for (id, data) in &marey_data {
+        let path = marey_dir.join(format!("{}.json", id));
+        let json = serde_json::to_string_pretty(data)?;
         fs::write(&path, json)?;
     }
 
-    log::info!("Wrote {} Marey data files", stations.len());
+    log::info!("Wrote {} Marey data files", marey_data.len());
     Ok(())
+}
+
+/// Generate Marey chart data for each station
+fn generate_marey_data(
+    stations: &[StationIndex],
+    tiploc_to_crs: &std::collections::HashMap<String, String>,
+) -> Vec<(String, MareyData)> {
+    use crate::types::*;
+    let mut result = Vec::new();
+
+    for station in stations {
+        if station.services.is_empty() {
+            continue;
+        }
+
+        let mut station_order: Vec<String> = Vec::new();
+        let mut station_positions: std::collections::HashMap<String, usize> = std::collections::HashMap::new();
+
+        for svc in &station.services {
+            for call in &svc.calls {
+                let crs = call.crs.clone();
+                if !station_positions.contains_key(&crs) {
+                    station_positions.insert(crs.clone(), station_order.len());
+                    station_order.push(crs);
+                }
+            }
+        }
+
+        let marey_stations: Vec<MareyStation> = station_order
+            .iter()
+            .enumerate()
+            .map(|(i, crs)| {
+                let name = tiploc_to_crs
+                    .iter()
+                    .find(|(_, v)| **v == *crs)
+                    .map(|(k, _)| k.clone())
+                    .unwrap_or_else(|| crs.clone());
+
+                MareyStation {
+                    name,
+                    crs: crs.clone(),
+                    mileage: i as f64,
+                    station_type: "minor".to_string(),
+                }
+            })
+            .collect();
+
+        let mut marey_services: Vec<MareyService> = Vec::new();
+
+        for svc in &station.services {
+            let mut stops: Vec<MareyStop> = Vec::new();
+
+            for call in &svc.calls {
+                let arr = call.arr.as_ref().and_then(|t| parse_time_str(t));
+                let dep = call.dep.as_ref().and_then(|t| parse_time_str(t));
+
+                if arr.is_some() || dep.is_some() {
+                    stops.push(MareyStop {
+                        station: call.crs.clone(),
+                        arr,
+                        dep,
+                    });
+                }
+            }
+
+            if !stops.is_empty() {
+                marey_services.push(MareyService {
+                    id: svc.id.clone(),
+                    operator: svc.operator.clone(),
+                    direction: svc.destination_name.clone(),
+                    days: svc.days.clone(),
+                    stops,
+                });
+            }
+        }
+
+        if !marey_services.is_empty() {
+            result.push((
+                station.id.clone(),
+                MareyData {
+                    route: format!("{} services", station.name),
+                    route_id: station.id.clone(),
+                    stations: marey_stations,
+                    services: marey_services,
+                },
+            ));
+        }
+    }
+
+    result
+}
+
+/// Convert HH:MM time string to minutes past midnight
+fn parse_time_str(time_str: &str) -> Option<u16> {
+    let parts: Vec<&str> = time_str.split(':').collect();
+    if parts.len() != 2 { return None; }
+    let h: u16 = parts[0].parse().ok()?;
+    let m: u16 = parts[1].parse().ok()?;
+    if h > 23 || m > 59 { return None; }
+    Some(h * 60 + m)
 }
