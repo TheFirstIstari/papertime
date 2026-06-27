@@ -29,8 +29,8 @@ export interface ServiceRef {
 
 export interface CallRef {
   crs: string;
-  arr: string | null;   // HH:MM format
-  dep: string | null;   // HH:MM format
+  arr: number | null;   // minutes past midnight
+  dep: number | null;   // minutes past midnight
 }
 
 export interface StationServices {

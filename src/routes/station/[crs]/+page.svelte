@@ -1,7 +1,7 @@
 <script lang="ts">
 	export const csr = true;
 	import { onMount } from 'svelte';
-	import { loadStationServices } from '$lib/data';
+	import { loadStationServices, loadMareyData } from '$lib/data';
 	import type { StationServices, ServiceRef, CallRef } from '$lib/types';
 	import type { MareyData } from '$lib/types';
 	import MareyChart from '$lib/components/MareyChart.svelte';
@@ -29,19 +29,30 @@
 		'XR': '#D55E00',
 	};
 
-	function formatTime(t: string | null): string {
-		if (!t) return '---';
-		return t;
+	function formatTime(val: number | string | null): string {
+		if (val === null || val === undefined) return '---';
+		let minutes: number;
+		if (typeof val === 'string') {
+			const parts = val.split(':');
+			if (parts.length < 2) return '---';
+			minutes = parseInt(parts[0], 10) * 60 + parseInt(parts[1], 10);
+		} else {
+			minutes = val;
+		}
+		if (isNaN(minutes)) return '---';
+		const h = Math.floor(minutes / 60) % 24;
+		const m = minutes % 60;
+		return `${h.toString().padStart(2, '0')}:${m.toString().padStart(2, '0')}`;
 	}
 
 	function getDepTime(s: ServiceRef): string {
-		const call = s.calls?.find(c => c.crs === crs) || s.stops?.find(c => c.station === crs);
-		return call?.dep ? formatTime(call.dep) : '---';
+		const call = s.calls?.find(c => c.crs === crs);
+		return formatTime(call?.dep ?? null);
 	}
 
 	function getArrTime(s: ServiceRef): string {
-		const call = s.calls?.find(c => c.crs === crs) || s.stops?.find(c => c.station === crs);
-		return call?.arr ? formatTime(call.arr) : '---';
+		const call = s.calls?.find(c => c.crs === crs);
+		return formatTime(call?.arr ?? null);
 	}
 
 	let filteredServices = $derived(
@@ -64,10 +75,7 @@
 
 		// Load Marey data
 		try {
-			const resp = await fetch(`/marey/${crs}.json`);
-			if (resp.ok) {
-				mareyData = await resp.json();
-			}
+			mareyData = await loadMareyData(crs);
 		} catch (e) {
 			// Marey data optional
 		}
@@ -151,7 +159,7 @@
 									</td>
 									<td class="py-2 pr-4">{svc.destination_name || svc.destination || '—'}</td>
 									<td class="py-2 pr-4 text-slate-400 text-xs">
-										{(svc.calls || svc.stops || []).slice(1, -1).map(c => c.crs || c.station).join(', ')}
+										{(svc.calls || []).slice(1, -1).map((c: CallRef) => c.crs).join(', ')}
 									</td>
 								</tr>
 							{/each}

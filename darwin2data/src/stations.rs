@@ -116,12 +116,12 @@ pub fn write_station_services(stations: &[StationIndex], output_dir: &Path) -> a
 pub fn write_marey_data(
     stations: &[StationIndex],
     output_dir: &Path,
-    tiploc_to_crs: &std::collections::HashMap<String, String>,
+    tiploc_to_name: &std::collections::HashMap<String, String>,
 ) -> anyhow::Result<()> {
     let marey_dir = output_dir.join("marey");
     fs::create_dir_all(&marey_dir)?;
 
-    let marey_data = generate_marey_data(stations, tiploc_to_crs);
+    let marey_data = generate_marey_data(stations, tiploc_to_name);
 
     for (id, data) in &marey_data {
         let path = marey_dir.join(format!("{}.json", id));
@@ -136,7 +136,7 @@ pub fn write_marey_data(
 /// Generate Marey chart data for each station
 fn generate_marey_data(
     stations: &[StationIndex],
-    tiploc_to_crs: &std::collections::HashMap<String, String>,
+    tiploc_to_name: &std::collections::HashMap<String, String>,
 ) -> Vec<(String, MareyData)> {
     use crate::types::*;
     let mut result = Vec::new();
@@ -163,7 +163,8 @@ fn generate_marey_data(
             .iter()
             .enumerate()
             .map(|(i, crs)| {
-                let name = tiploc_to_crs
+                // Use tiploc_to_name for human-readable station names
+                let name = tiploc_to_name
                     .iter()
                     .find(|(_, v)| **v == *crs)
                     .map(|(k, _)| k.clone())
@@ -184,8 +185,8 @@ fn generate_marey_data(
             let mut stops: Vec<MareyStop> = Vec::new();
 
             for call in &svc.calls {
-                let arr = call.arr.as_ref().and_then(|t| parse_time_str(t));
-                let dep = call.dep.as_ref().and_then(|t| parse_time_str(t));
+                let arr = call.arr;
+                let dep = call.dep;
 
                 if arr.is_some() || dep.is_some() {
                     stops.push(MareyStop {
@@ -223,12 +224,3 @@ fn generate_marey_data(
     result
 }
 
-/// Convert HH:MM time string to minutes past midnight
-fn parse_time_str(time_str: &str) -> Option<u16> {
-    let parts: Vec<&str> = time_str.split(':').collect();
-    if parts.len() != 2 { return None; }
-    let h: u16 = parts[0].parse().ok()?;
-    let m: u16 = parts[1].parse().ok()?;
-    if h > 23 || m > 59 { return None; }
-    Some(h * 60 + m)
-}

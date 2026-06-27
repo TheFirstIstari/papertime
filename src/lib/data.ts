@@ -1,4 +1,4 @@
-import type { Station, StationIndex, StationServices, TableEntry, TableData } from './types';
+import type { Station, StationIndex, StationServices, MareyData, TableEntry, TableData } from './types';
 
 // Station-centric data loading
 
@@ -14,6 +14,14 @@ export async function loadStationServices(crs: string): Promise<StationServices>
   const response = await fetch(`/services/${crs}.json`);
   if (!response.ok) {
     throw new Error(`Failed to load services for ${crs}: ${response.status}`);
+  }
+  return response.json();
+}
+
+export async function loadMareyData(crs: string): Promise<MareyData> {
+  const response = await fetch(`/marey/${crs}.json`);
+  if (!response.ok) {
+    throw new Error(`Failed to load marey data for ${crs}: ${response.status}`);
   }
   return response.json();
 }

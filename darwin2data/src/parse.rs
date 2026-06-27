@@ -205,7 +205,7 @@ fn parse_journey_start(e: &quick_xml::events::BytesStart) -> DarwinSchedule {
     }
 }
 
-fn parse_location_attrs(e: &quick_xml::events::BytesStart) -> (String, Option<String>, Option<String>) {
+fn parse_location_attrs(e: &quick_xml::events::BytesStart) -> (String, Option<u16>, Option<u16>) {
     let mut tiploc = String::new();
     let mut pta = None;
     let mut ptd = None;
@@ -215,11 +215,11 @@ fn parse_location_attrs(e: &quick_xml::events::BytesStart) -> (String, Option<St
             let key = std::str::from_utf8(attr.key.as_ref()).unwrap_or("");
             let value = attr.unescape_value().unwrap_or_default();
             match key {
-                "ftl" => tiploc = value.trim().to_string(),  // TIPLOC code (with trailing spaces)
-                "pta" => pta = Some(value.to_string()),
-                "ptd" => ptd = Some(value.to_string()),
-                "wta" => pta = Some(value.to_string()),  // Use wta as fallback
-                "wtd" => ptd = Some(value.to_string()),  // Use wtd as fallback
+                "tpl" => tiploc = value.trim().to_string(),
+                "pta" => pta = parse_time(&value),
+                "ptd" => ptd = parse_time(&value),
+                "wta" => pta = pta.or_else(|| parse_time(&value)),
+                "wtd" => ptd = ptd.or_else(|| parse_time(&value)),
                 _ => {}
             }
         }

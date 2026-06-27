@@ -31,7 +31,6 @@ pub fn download(config: &S3Config) -> Result<PathBuf> {
     download_from_s3(config, &temp_dir)
 }
 
-#[cfg(feature = "aws")]
 fn download_from_s3(config: &S3Config, temp_dir: &std::path::Path) -> Result<PathBuf> {
     use aws_credential_types::Credentials;
     use aws_sdk_s3::Client;
@@ -93,10 +92,6 @@ fn download_from_s3(config: &S3Config, temp_dir: &std::path::Path) -> Result<Pat
     Ok(temp_dir.to_path_buf())
 }
 
-#[cfg(not(feature = "aws"))]
-fn download_from_s3(_config: &S3Config, _temp_dir: &std::path::Path) -> Result<PathBuf> {
-    anyhow::bail!("AWS feature not enabled")
-}
 
 async fn download_object(client: &aws_sdk_s3::Client, bucket: &str, key: &str) -> Result<bytes::Bytes> {
     let output = client

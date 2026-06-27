@@ -21,16 +21,16 @@ pub struct DarwinSchedule {
 /// A location within a schedule (origin, calling point, destination)
 #[derive(Debug, Clone)]
 pub struct DarwinLocation {
-    pub tiploc: String,        // TIPLOC code
-    pub crs: Option<String>,   // CRS code (if available)
-    pub name: Option<String>,  // Station name
+    pub tiploc: String,       // TIPLOC code
+    pub crs: Option<String>,  // CRS code (if available)
+    pub name: Option<String>, // Station name
     pub loc_type: LocationType,
-    pub pta: Option<String>,   // Public time of arrival (HH:MM)
-    pub ptd: Option<String>,   // Public time of departure (HH:MM)
-    pub wta: Option<String>,   // Working time of arrival (HH:MM:SS)
-    pub wtd: Option<String>,   // Working time of departure (HH:MM:SS)
-    pub wtp: Option<String>,   // Working time of passing (HH:MM:SS)
-    pub act: String,           // Activity codes
+    pub pta: Option<u16>,    // Public time of arrival (minutes past midnight)
+    pub ptd: Option<u16>,    // Public time of departure (minutes past midnight)
+    pub wta: Option<String>, // Working time of arrival (HH:MM:SS)
+    pub wtd: Option<String>, // Working time of departure (HH:MM:SS)
+    pub wtp: Option<String>, // Working time of passing (HH:MM:SS)
+    pub act: String,         // Activity codes
     pub cancelled: bool,
 }
 
@@ -169,6 +169,6 @@ pub struct ServiceRef {
 #[derive(Debug, Clone, Serialize, Deserialize)]
 pub struct CallRef {
     pub crs: String,
-    pub arr: Option<String>,
-    pub dep: Option<String>,
+    pub arr: Option<u16>,
+    pub dep: Option<u16>,
 }

@@ -81,7 +81,7 @@
 								class="w-full text-left px-4 py-2 hover:bg-slate-700 transition-colors"
 							>
 								<span class="font-medium">{s.name}</span>
-								<span class="text-slate-500 ml-2 text-sm">({s.crs})</span>
+								<span class="text-slate-500 ml-2 text-sm">({s.id})</span>
 								{#if s.n_services > 0}
 									<span class="text-slate-600 ml-2 text-xs">{s.n_services} services</span>
 								{/if}
