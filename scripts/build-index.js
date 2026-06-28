@@ -30,7 +30,20 @@ async function loadNaptanData() {
     console.log(`Loaded ${Object.keys(cache).length} NaPTAN entries from cache`);
     return cache;
   } catch {
-    console.log('No NaPTAN cache found, attempting to generate...');
+    console.log('No NaPTAN cache found locally, fetching from GitHub...');
+    // Fetch from GitHub raw content (works on Render where file might not be in working dir)
+    try {
+      const resp = await fetch('https://raw.githubusercontent.com/TheFirstIstari/papertime/main/static/naptan-cache.json');
+      if (resp.ok) {
+        const cache = await resp.json();
+        console.log(`Fetched ${Object.keys(cache).length} NaPTAN entries from GitHub`);
+        // Save locally for future use
+        await writeFile(join(STATIC_DIR, 'naptan-cache.json'), JSON.stringify(cache, null, 2));
+        return cache;
+      }
+    } catch (e) {
+      console.log('Could not fetch from GitHub: ' + e.message);
+    }
     // Try to generate it if Python + naptan are available
     try {
       const { execSync } = await import('child_process');
@@ -40,7 +53,7 @@ async function loadNaptanData() {
       console.log(`Generated and loaded ${Object.keys(cache).length} NaPTAN entries`);
       return cache;
     } catch (e) {
-      console.log('Could not generate NaPTAN cache (Python/naptan not available), using empty mapping');
+      console.log('Could not generate NaPTAN cache, using empty mapping');
       return {};
     }
   }
