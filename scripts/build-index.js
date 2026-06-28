@@ -30,8 +30,19 @@ async function loadNaptanData() {
     console.log(`Loaded ${Object.keys(cache).length} NaPTAN entries from cache`);
     return cache;
   } catch {
-    console.log('No NaPTAN cache found, using empty mapping');
-    return {};
+    console.log('No NaPTAN cache found, attempting to generate...');
+    // Try to generate it if Python + naptan are available
+    try {
+      const { execSync } = await import('child_process');
+      const scriptPath = join(__dirname, 'generate_naptan_cache.py');
+      execSync(`python3 ${scriptPath}`, { stdio: 'inherit', cwd: join(__dirname, '..') });
+      const cache = JSON.parse(await readFile(join(STATIC_DIR, 'naptan-cache.json'), 'utf-8'));
+      console.log(`Generated and loaded ${Object.keys(cache).length} NaPTAN entries`);
+      return cache;
+    } catch (e) {
+      console.log('Could not generate NaPTAN cache (Python/naptan not available), using empty mapping');
+      return {};
+    }
   }
 }
 

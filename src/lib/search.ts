@@ -8,14 +8,14 @@ export function findStationsByQuery(query: string, stations: Station[]): Station
   return stations
     .filter(s => 
       s.name.toLowerCase().includes(q) || 
-      s.crs.toLowerCase().includes(q) ||
+      s.tiploc.toLowerCase().includes(q) ||
       s.id.toLowerCase().includes(q)
     )
     .slice(0, 10);
 }
 
 export function getStationByCrs(crs: string, stations: Station[]): Station | undefined {
-  return stations.find(s => s.crs === crs || s.id === crrs);
+  return stations.find(s => s.tiploc === crs || s.id === crs);
 }
 
 // Legacy table-centric search (kept for compatibility)
