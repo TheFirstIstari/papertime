@@ -8,7 +8,7 @@ services:
     name: papertime
     repo: https://github.com/TheFirstIstari/papertime
     branch: main
-    buildCommand: rm -rf .svelte-kit build node_modules/.cache && npm install --include=dev && npm run build
+    buildCommand: rm -rf .svelte-kit build node_modules/.cache && git lfs pull && npm install --include=dev && npm run build
     publishPath: build
     autoDeploy: true
     domains:
