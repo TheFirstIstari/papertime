@@ -301,18 +301,38 @@ DARWIN_S3_REGION=eu-west-1
 1. ✅ Research Darwin feed format and XML schema
 2. ✅ Scaffold `darwin2data` Rust project
 3. ✅ Design station-centric data model
-4. ⬜ Test S3 download with real credentials
-5. ⬜ Implement full XML parsing (schedule locations)
-6. ⬜ Implement station indexing
-7. ⬜ Update frontend for station-centric views
-8. ⬜ Validate output against current data
-9. ⬜ Deprecate PDF pipeline
+4. ✅ Test S3 download with real credentials
+5. ✅ Implement full XML parsing (schedule locations)
+6. ✅ Implement station indexing
+7. ✅ Update frontend for station-centric views
+8. ✅ Validate output against current data
+9. ✅ Deprecate PDF pipeline (PDF data removed, Darwin is primary source)
 
 ---
 
-## 9. Open Questions
+## 9. Implementation Status (June 2026)
 
-1. **Service filtering**: Pre-filter by day (MF/SAT/SUN) or include all and filter client-side?
-2. **Time range**: Full day or split by time period for large stations?
-3. **Portion handling**: How to display trains that split/join?
-4. **Historical data**: Keep previous timetable versions or always show current?
+### Complete
+- Darwin S3 download + XML parsing (Rust `darwin2data`)
+- Station-centric data model (5,639 stations)
+- Station names from NaPTAN (2,637) + title-cased fallback (3,002)
+- Station coordinates from NaPTAN (2,637 stations)
+- Station type classification (terminal/major/interchange/airport/minor)
+- Marey chart data with station names and coordinates
+- Service origin/destination names
+- Frontend: station search, timetable view, Marey charts
+- Frontend: Marey index with search and sort
+- Render Static Site deployment at papertime.tweak.wiki
+
+### Remaining
+- Service Pattern Diagrams (3rd core feature from spec)
+- TIPLOC→CRS code mapping (data uses TIPLOC, spec expects CRS)
+- Time-of-day filtering on station page
+- Portion handling (split/join trains)
+- Historical timetable versioning
+
+### Open Questions
+1. **Service filtering**: Pre-filter by day (MF/SAT/SUN) or include all and filter client-side? → Currently all days included, filter client-side
+2. **Time range**: Full day or split by time period for large stations? → Currently full day
+3. **Portion handling**: How to display trains that split/join? → Not yet implemented
+4. **Historical data**: Keep previous timetable versions or always show current? → Current only
