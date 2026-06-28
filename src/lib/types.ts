@@ -29,6 +29,7 @@ export interface ServiceRef {
 
 export interface CallRef {
   crs: string;
+  name: string;
   arr: number | null;   // minutes past midnight
   dep: number | null;   // minutes past midnight
 }
@@ -52,6 +53,8 @@ export interface MareyStation {
   crs: string;
   mileage: number;
   type: string;
+  lat?: number;
+  lng?: number;
 }
 
 export interface MareyService {
@@ -64,9 +67,11 @@ export interface MareyService {
 
 export interface MareyStop {
   station: string;
+  name: string;
   arr: number | null;
   dep: number | null;
 }
+
 export interface StationEntry {
   id: string;
   name: string;
