@@ -17,6 +17,7 @@
 	let error = $state('');
 	let filterOperator = $state('');
 	let filterDest = $state('');
+	let filterTime = $state('');
 	let activeTab = $state<'timetable' | 'marey' | 'pattern'>('timetable');
 
 	const OP_COLORS: Record<string, string> = {
@@ -62,6 +63,16 @@
 		svcList.filter(s => {
 			if (filterOperator && s.operator !== filterOperator) return false;
 			if (filterDest && (s.destination_name || s.destination) !== filterDest) return false;
+			if (filterTime) {
+				const call = s.calls?.find((c: CallRef) => c.crs === crs);
+				const dep = call?.dep;
+				if (dep === null || dep === undefined) return false;
+				const h = Math.floor(dep / 60) % 24;
+				if (filterTime === 'morning' && (h < 6 || h >= 12)) return false;
+				if (filterTime === 'afternoon' && (h < 12 || h >= 18)) return false;
+				if (filterTime === 'evening' && (h < 18 || h >= 24)) return false;
+				if (filterTime === 'night' && h >= 6) return false;
+			}
 			return true;
 		})
 	);
@@ -152,7 +163,7 @@
 
 			{#if activeTab === 'timetable'}
 				{#if operators.length > 1 || destinations.length > 1}
-					<div class="flex gap-3 mb-6">
+					<div class="flex gap-3 mb-6 flex-wrap">
 						{#if operators.length > 1}
 							<select bind:value={filterOperator} class="bg-slate-800 border border-slate-700 rounded px-3 py-1.5 text-sm">
 								<option value="">All operators</option>
@@ -169,6 +180,13 @@
 								{/each}
 							</select>
 						{/if}
+						<select bind:value={filterTime} class="bg-slate-800 border border-slate-700 rounded px-3 py-1.5 text-sm">
+							<option value="">All times</option>
+							<option value="morning">Morning (06:00–12:00)</option>
+							<option value="afternoon">Afternoon (12:00–18:00)</option>
+							<option value="evening">Evening (18:00–00:00)</option>
+							<option value="night">Night (00:00–06:00)</option>
+						</select>
 					</div>
 				{/if}
 
