@@ -2,19 +2,22 @@
 	export const csr = true;
 	import { onMount } from 'svelte';
 	import { loadStationServices, loadMareyData } from '$lib/data';
-	import type { StationServices, ServiceRef, CallRef } from '$lib/types';
-	import type { MareyData } from '$lib/types';
+	import type { StationServices, ServiceRef, CallRef, StationPattern } from '$lib/types';
+	import type { MareyData, MareyStation, MareyService, MareyStop } from '$lib/types';
 	import MareyChart from '$lib/components/MareyChart.svelte';
+	import PatternDiagram from '$lib/components/PatternDiagram.svelte';
 
 	let { data } = $props<{ data: { crs: string } }>();
 	let crs = data.crs;
 	let stationData: StationServices | null = null;
 	let mareyData: MareyData | null = null;
+	let patternData: StationPattern | null = null;
 	let loading = $state(true);
+	let patternLoading = $state(true);
 	let error = $state('');
 	let filterOperator = $state('');
 	let filterDest = $state('');
-	let activeTab = $state<'timetable' | 'marey'>('timetable');
+	let activeTab = $state<'timetable' | 'marey' | 'pattern'>('timetable');
 
 	const OP_COLORS: Record<string, string> = {
 		'CC': '#009E73', 'XC': '#009E73', 'SE': '#009E73', 'LE': '#009E73',
@@ -80,6 +83,35 @@
 			// Marey data optional
 		}
 
+		// Load pattern data
+		try {
+			const patternResp = await fetch(`/patterns/${crs}.json`);
+			if (patternResp.ok) {
+				patternData = await patternResp.json();
+				// Populate station names from station-index if available
+				try {
+					const idxResp = await fetch('/station-index.json');
+					if (idxResp.ok) {
+						const idxData = await idxResp.json();
+						const nameMap = new Map(idxData.map((s: any) => [s.id, s.name]));
+						for (const branch of patternData.branches) {
+							if (branch.next_stop) {
+								branch.next_stop_name = nameMap.get(branch.next_stop) || branch.next_stop_name;
+							}
+							for (const svc of branch.services) {
+								// no-op, already has data
+							}
+						}
+					}
+				} catch (e) {
+					// Ignore index load errors
+				}
+			}
+		} catch (e) {
+			// Pattern data optional
+		}
+		patternLoading = false;
+
 		loading = false;
 	});
 </script>
@@ -112,6 +144,10 @@
 					class="px-4 py-2 rounded text-sm font-medium transition-colors {activeTab === 'marey' ? 'bg-blue-600 text-white' : 'bg-slate-800 text-slate-300 hover:bg-slate-700'}"
 					disabled={!mareyData}
 				>Marey Chart</button>
+				<button
+					on:click={() => activeTab = 'pattern'}
+					class="px-4 py-2 rounded text-sm font-medium transition-colors {activeTab === 'pattern' ? 'bg-blue-600 text-white' : 'bg-slate-800 text-slate-300 hover:bg-slate-700'}"
+				>Patterns</button>
 			</div>
 
 			{#if activeTab === 'timetable'}
@@ -173,7 +209,9 @@
 
 			{:else if activeTab === 'marey' && mareyData}
 				<MareyChart {mareyData} />
+			{:else if activeTab === 'pattern'}
+				<PatternDiagram {patternData} loading={patternLoading} error={!patternData && !patternLoading ? 'No pattern data available' : ''} />
 			{/if}
-		{/if}
-	</div>
-</div>
+			{/if}
+			</div>
+			</div>

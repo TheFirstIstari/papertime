@@ -72,6 +72,34 @@ export interface MareyStop {
   dep: number | null;
 }
 
+// Service pattern diagram types
+export interface PatternService {
+  id: string;
+  operator: string;
+  headcode: string;
+  dep: number | null;
+  arr: number | null;
+  days: string[];
+}
+
+export interface PatternBranch {
+  next_stop: string | null;
+  next_stop_name: string;
+  destination: string;
+  destination_tiploc: string;
+  frequency: number;
+  operators: string[];
+  operator_color: string;
+  services: PatternService[];
+}
+
+export interface StationPattern {
+  station: string;
+  station_name: string;
+  n_services: number;
+  branches: PatternBranch[];
+}
+
 export interface StationEntry {
   id: string;
   name: string;
