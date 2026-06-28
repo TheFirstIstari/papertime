@@ -56,10 +56,16 @@ pub fn index_services(services: &[DarwinSchedule]) -> Vec<StationIndex> {
                 calls: schedule
                     .locations
                     .iter()
-                    .map(|l| CallRef {
-                        crs: l.crs.clone().unwrap_or_else(|| l.tiploc.clone()),
-                        arr: l.pta.clone(),
-                        dep: l.ptd.clone(),
+                    .map(|l| {
+                        let crs = l.crs.clone().unwrap_or_else(|| l.tiploc.clone());
+                        let name = l.name.clone()
+                            .unwrap_or_else(|| crs.clone());
+                        CallRef {
+                            crs,
+                            name,
+                            arr: l.pta.clone(),
+                            dep: l.ptd.clone(),
+                        }
                     })
                     .collect(),
                 days: vec!["MF".to_string()],
@@ -163,11 +169,12 @@ fn generate_marey_data(
             .iter()
             .enumerate()
             .map(|(i, crs)| {
-                // Use tiploc_to_name for human-readable station names
-                let name = tiploc_to_name
+                // Build crs→name from the service calls (which now have name populated)
+                let name = station.services
                     .iter()
-                    .find(|(_, v)| **v == *crs)
-                    .map(|(k, _)| k.clone())
+                    .flat_map(|svc| svc.calls.iter())
+                    .find(|call| call.crs == *crs)
+                    .map(|call| call.name.clone())
                     .unwrap_or_else(|| crs.clone());
 
                 MareyStation {

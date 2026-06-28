@@ -169,6 +169,7 @@ pub struct ServiceRef {
 #[derive(Debug, Clone, Serialize, Deserialize)]
 pub struct CallRef {
     pub crs: String,
+    pub name: String,
     pub arr: Option<u16>,
     pub dep: Option<u16>,
 }
