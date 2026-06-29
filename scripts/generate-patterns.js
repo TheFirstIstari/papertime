@@ -10,7 +10,7 @@
  * Usage: node scripts/generate-patterns.js
  */
 
-import { readdir, readFile, writeFile, mkdir } from 'fs/promises';
+import { readdir, readFile, writeFile } from 'fs/promises';
 import { join, dirname } from 'path';
 import { fileURLToPath } from 'url';
 
@@ -45,10 +45,44 @@ async function generatePatterns() {
   } catch (e) {
     console.log('Warning: Could not load station index');
   }
-  
+
+  // Also load NaPTAN cache (keyed by TIPLOC) for proper names
+  let naptan = {};
+  try {
+    naptan = JSON.parse(await readFile(join(STATIC_DIR, 'naptan-cache.json'), 'utf-8'));
+  } catch (e) {
+    // optional
+  }
+
+  // Build CRS→TIPLOC map by scanning service files (calls use TIPLOC codes)
+  // ponytail: sample first 100 services per file, find TIPLOC that appears in 100% of calls
+  const crsToTiploc = new Map();
+  for (const s of stationIndex) {
+    const sid = s.id;
+    const svcPath = join(SERVICES_DIR, `${sid}.json`);
+    try {
+      const svcData = JSON.parse(await readFile(svcPath, 'utf-8'));
+      const services = (svcData.services || []).slice(0, 100);
+      if (services.length === 0) continue;
+      const firstCalls = services[0].calls?.map(c => c.crs) || [];
+      for (const candidate of firstCalls) {
+        if (services.every(sv => sv.calls?.some(c => c.crs === candidate))) {
+          if (candidate !== sid) {
+            crsToTiploc.set(sid, candidate);
+            break;
+          }
+        }
+      }
+    } catch (e) {
+      // skip
+    }
+  }
+
   const stationNames = new Map();
   for (const s of stationIndex) {
-    stationNames.set(s.id, s.name);
+    const tiploc = crsToTiploc.get(s.id) || s.tiploc;
+    const naptanName = naptan[s.id]?.name || naptan[tiploc]?.name;
+    stationNames.set(s.id, naptanName || s.name);
   }
   
   // Read all service files
@@ -68,10 +102,20 @@ async function generatePatterns() {
     // Group services by their next stop after this station
     const branches = new Map();
     
+    // Find the TIPLOC code used for this station in calls (may differ from file ID)
+    // by finding which call CRS appears in every service at a consistent position
+    let stationCrs = tiploc;
+    {
+      const firstCalls = services[0]?.calls?.map(c => c.crs) || [];
+      const candidate = firstCalls.find(crs =>
+        services.every(s => s.calls?.some(call => call.crs === crs))
+      );
+      if (candidate) stationCrs = candidate;
+    }
+
     for (const svc of services) {
       const calls = svc.calls || [];
-      const stationCall = calls.find(c => c.crs === tiploc);
-      const stationIdx = calls.indexOf(stationCall);
+      const stationIdx = calls.findIndex(c => c.crs === stationCrs);
       
       // Get the next stop after this station
       let nextStop = null;
@@ -86,7 +130,7 @@ async function generatePatterns() {
       // Group by branch (next stop + general direction)
       const branchKey = nextStop ? nextStop.crs : destTiploc;
       const branchName = nextStop ? 
-        (stationNames.get(nextStop.crs) || nextStop.crs) : dest;
+        (stationNames.get(nextStop.crs) || naptan[nextStop.crs]?.name || nextStop.name || nextStop.crs) : dest;
       
       if (!branches.has(branchKey)) {
         branches.set(branchKey, {
@@ -100,12 +144,13 @@ async function generatePatterns() {
       }
       
       const branch = branches.get(branchKey);
+      const stationCall = calls[stationIdx];
       branch.services.push({
         id: svc.id || svc.headcode,
         operator: svc.operator,
         headcode: svc.headcode,
-        dep: stationCall?.dep || null,
-        arr: stationCall?.arr || null,
+        dep: stationCall?.dep ?? null,
+        arr: stationCall?.arr ?? null,
         days: svc.days || ['MF']
       });
       branch.operators.add(svc.operator);
@@ -123,16 +168,15 @@ async function generatePatterns() {
           operators: [...b.operators].sort(),
           operator_color: OP_COLORS[[...b.operators][0]] || '#888888',
           frequency: b.services.length,
-          services: b.services.sort((a, b) => (a.dep || 0) - (b.dep || 0))
+          services: b.services.sort((a, b) => (a.dep ?? 1440) - (b.dep ?? 1440))
         }))
     };
     
     // Only generate if there are meaningful branches
     if (pattern.branches.length > 0) {
-      await mkdir(join(PATTERNS_DIR, tiploc.substring(0, 1).toUpperCase()), { recursive: true });
       await writeFile(
         join(PATTERNS_DIR, `${tiploc}.json`),
-        JSON.stringify(pattern, null, 2)
+        JSON.stringify(pattern)
       );
       generated++;
     }

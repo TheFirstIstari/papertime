@@ -3,14 +3,14 @@ use serde::{Deserialize, Serialize};
 /// Raw Darwin schedule extracted from XML
 #[derive(Debug, Clone)]
 pub struct DarwinSchedule {
-    pub rid: String,           // RTTI unique train ID
-    pub uid: String,           // Train UID
-    pub train_id: String,      // Headcode (e.g. "1A01")
-    pub rsid: Option<String>,  // Retail service ID
-    pub ssd: String,           // Scheduled start date
-    pub toc: String,           // ATOC operator code
-    pub status: String,        // Service type (P=Train, B=Bus, S=Ship)
-    pub train_cat: String,     // Category
+    pub rid: String,          // RTTI unique train ID
+    pub uid: String,          // Train UID
+    pub train_id: String,     // Headcode (e.g. "1A01")
+    pub rsid: Option<String>, // Retail service ID
+    pub ssd: String,          // Scheduled start date
+    pub toc: String,          // ATOC operator code
+    pub status: String,       // Service type (P=Train, B=Bus, S=Ship)
+    pub train_cat: String,    // Category
     pub is_passenger: bool,
     pub is_active: bool,
     pub is_deleted: bool,
@@ -36,13 +36,13 @@ pub struct DarwinLocation {
 
 #[derive(Debug, Clone, PartialEq)]
 pub enum LocationType {
-    Origin,         // OR
-    OperationalOrigin, // OPOR
-    Intermediate,   // IP
+    Origin,                  // OR
+    OperationalOrigin,       // OPOR
+    Intermediate,            // IP
     OperationalIntermediate, // OPIP
-    Passing,        // PP
-    Destination,    // DT
-    OperationalDestination, // OPDT
+    Passing,                 // PP
+    Destination,             // DT
+    OperationalDestination,  // OPDT
 }
 
 /// Processed service record for output
@@ -58,17 +58,17 @@ pub struct Service {
 
 #[derive(Debug, Clone, Serialize, Deserialize)]
 pub struct ServiceStop {
-    pub station: String,    // CRS code
-    pub arr: Option<u16>,   // Minutes past midnight
-    pub dep: Option<u16>,   // Minutes past midnight
+    pub station: String,  // CRS code
+    pub arr: Option<u16>, // Minutes past midnight
+    pub dep: Option<u16>, // Minutes past midnight
 }
 
 /// Station entry
 #[derive(Debug, Clone, Serialize, Deserialize)]
 pub struct Station {
-    pub id: String,           // CRS code
+    pub id: String, // CRS code
     pub name: String,
-    pub tiploc: String,       // TIPLOC code
+    pub tiploc: String, // TIPLOC code
     pub aliases: Vec<String>,
     pub tables: Vec<String>,
     pub routes: Vec<String>,

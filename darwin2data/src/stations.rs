@@ -13,17 +13,19 @@ pub fn index_services(services: &[DarwinSchedule]) -> Vec<StationIndex> {
             let crs = loc.crs.clone().unwrap_or_else(|| loc.tiploc.clone());
             let name = loc.name.clone().unwrap_or_else(|| loc.tiploc.clone());
 
-            let entry = station_map.entry(crs.clone()).or_insert_with(|| StationIndex {
-                id: crs.clone(),
-                name: name.clone(),
-                tiploc: loc.tiploc.clone(),
-                lat: None,
-                lng: None,
-                station_type: "minor".to_string(),
-                services: Vec::new(),
-                operators: Vec::new(),
-                destinations: Vec::new(),
-            });
+            let entry = station_map
+                .entry(crs.clone())
+                .or_insert_with(|| StationIndex {
+                    id: crs.clone(),
+                    name: name.clone(),
+                    tiploc: loc.tiploc.clone(),
+                    lat: None,
+                    lng: None,
+                    station_type: "minor".to_string(),
+                    services: Vec::new(),
+                    operators: Vec::new(),
+                    destinations: Vec::new(),
+                });
 
             if entry.name.len() < name.len() || entry.name == entry.tiploc {
                 entry.name = name;
@@ -58,8 +60,7 @@ pub fn index_services(services: &[DarwinSchedule]) -> Vec<StationIndex> {
                     .iter()
                     .map(|l| {
                         let crs = l.crs.clone().unwrap_or_else(|| l.tiploc.clone());
-                        let name = l.name.clone()
-                            .unwrap_or_else(|| crs.clone());
+                        let name = l.name.clone().unwrap_or_else(|| crs.clone());
                         CallRef {
                             crs,
                             name,
@@ -92,7 +93,7 @@ pub fn index_services(services: &[DarwinSchedule]) -> Vec<StationIndex> {
 /// Write station-index.json
 pub fn write_index(stations: &[StationIndex], output_dir: &Path) -> anyhow::Result<()> {
     let path = output_dir.join("station-index.json");
-    let json = serde_json::to_string_pretty(stations)?;
+    let json = serde_json::to_string(stations)?;
     fs::write(&path, json)?;
     log::info!("Wrote {} stations to {}", stations.len(), path.display());
     Ok(())
@@ -110,7 +111,7 @@ pub fn write_station_services(stations: &[StationIndex], output_dir: &Path) -> a
             "name": &station.name,
             "services": &station.services,
         });
-        let json = serde_json::to_string_pretty(&output)?;
+        let json = serde_json::to_string(&output)?;
         fs::write(&path, json)?;
     }
 
@@ -131,7 +132,7 @@ pub fn write_marey_data(
 
     for (id, data) in &marey_data {
         let path = marey_dir.join(format!("{}.json", id));
-        let json = serde_json::to_string_pretty(data)?;
+        let json = serde_json::to_string(data)?;
         fs::write(&path, json)?;
     }
 
@@ -153,7 +154,8 @@ fn generate_marey_data(
         }
 
         let mut station_order: Vec<String> = Vec::new();
-        let mut station_positions: std::collections::HashMap<String, usize> = std::collections::HashMap::new();
+        let mut station_positions: std::collections::HashMap<String, usize> =
+            std::collections::HashMap::new();
 
         for svc in &station.services {
             for call in &svc.calls {
@@ -170,7 +172,8 @@ fn generate_marey_data(
             .enumerate()
             .map(|(i, crs)| {
                 // Build crs→name from the service calls (which now have name populated)
-                let name = station.services
+                let name = station
+                    .services
                     .iter()
                     .flat_map(|svc| svc.calls.iter())
                     .find(|call| call.crs == *crs)
@@ -230,4 +233,3 @@ fn generate_marey_data(
 
     result
 }
-

@@ -23,7 +23,11 @@ pub fn download(config: &S3Config) -> Result<PathBuf> {
         .collect();
 
     if existing.len() >= 2 {
-        log::info!("Using {} cached files in {}", existing.len(), temp_dir.display());
+        log::info!(
+            "Using {} cached files in {}",
+            existing.len(),
+            temp_dir.display()
+        );
         return Ok(temp_dir);
     }
 
@@ -35,13 +39,7 @@ fn download_from_s3(config: &S3Config, temp_dir: &std::path::Path) -> Result<Pat
     use aws_credential_types::Credentials;
     use aws_sdk_s3::Client;
 
-    let credentials = Credentials::new(
-        config.access_key,
-        config.secret_key,
-        None,
-        None,
-        "darwin",
-    );
+    let credentials = Credentials::new(config.access_key, config.secret_key, None, None, "darwin");
 
     let s3_config = aws_sdk_s3::config::Builder::new()
         .credentials_provider(credentials)
@@ -92,14 +90,12 @@ fn download_from_s3(config: &S3Config, temp_dir: &std::path::Path) -> Result<Pat
     Ok(temp_dir.to_path_buf())
 }
 
-
-async fn download_object(client: &aws_sdk_s3::Client, bucket: &str, key: &str) -> Result<bytes::Bytes> {
-    let output = client
-        .get_object()
-        .bucket(bucket)
-        .key(key)
-        .send()
-        .await?;
+async fn download_object(
+    client: &aws_sdk_s3::Client,
+    bucket: &str,
+    key: &str,
+) -> Result<bytes::Bytes> {
+    let output = client.get_object().bucket(bucket).key(key).send().await?;
     let data = output.body.collect().await?;
     Ok(data.into_bytes())
 }

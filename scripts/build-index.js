@@ -85,14 +85,28 @@ async function buildIndex() {
       totalCalls += (svc.calls || []).length;
     }
     
-    // Determine station type
-    const naptan = NAptanData[tiploc];
+    // Determine station type — look up NaPTAN by CRS first, then by scanning calls for TIPLOC
+    let nameSrc = NAptanData[tiploc];
+    if (!nameSrc) {
+      // Find actual TIPLOC used in calls for this station
+      const services = data.services || [];
+      if (services.length > 0) {
+        const firstCalls = services[0].calls?.map(c => c.crs) || [];
+        for (const candidate of firstCalls) {
+          if (services.every(s => s.calls?.some(c => c.crs === candidate))) {
+            nameSrc = NAptanData[candidate] || NAptanData[tiploc];
+            break;
+          }
+        }
+      }
+    }
+    if (!nameSrc) nameSrc = NAptanData[data.name] || NAptanData[data.station];
     let stationType = 'minor';
-    if (naptan?.type) {
-      stationType = naptan.type;
+    if (nameSrc?.type) {
+      stationType = nameSrc.type;
     } else {
       // Heuristic classification
-      const name = naptan?.name || tiploc;
+      const name = nameSrc?.name || tiploc;
       const nameLower = name.toLowerCase();
       if (['euston', 'kings cross', 'paddington', 'waterloo', 'victoria',
            'liverpool street', 'bridge', 'marylebone', 'fenchurch', 'moorgate',
@@ -110,10 +124,10 @@ async function buildIndex() {
     
     stations.set(tiploc, {
       id: tiploc,
-      name: naptan?.name || tiploc.charAt(0).toUpperCase() + tiploc.slice(1).toLowerCase(),
+      name: nameSrc?.name || tiploc.charAt(0).toUpperCase() + tiploc.slice(1).toLowerCase(),
       tiploc: tiploc,
-      lat: naptan?.lat || null,
-      lng: naptan?.lng || null,
+      lat: nameSrc?.lat || null,
+      lng: nameSrc?.lng || null,
       type: stationType,
       n_services: services.length,
       operators: [...operators].sort(),
@@ -127,7 +141,7 @@ async function buildIndex() {
   
   // Write output
   await mkdir(dirname(OUTPUT_PATH), { recursive: true });
-  await writeFile(OUTPUT_PATH, JSON.stringify(index, null, 2));
+  await writeFile(OUTPUT_PATH, JSON.stringify(index));
   
   console.log(`Wrote ${index.length} stations to ${OUTPUT_PATH}`);
   

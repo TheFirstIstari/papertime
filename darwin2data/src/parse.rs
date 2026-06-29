@@ -1,6 +1,6 @@
 use anyhow::Result;
-use quick_xml::events::Event;
 use quick_xml::Reader;
+use quick_xml::events::Event;
 use std::collections::HashMap;
 use std::fs;
 use std::io::Read;
@@ -8,7 +8,13 @@ use std::path::Path;
 
 use crate::types::*;
 
-pub fn extract_schedules(data_dir: &Path) -> Result<(Vec<DarwinSchedule>, HashMap<String, String>, HashMap<String, String>)> {
+pub fn extract_schedules(
+    data_dir: &Path,
+) -> Result<(
+    Vec<DarwinSchedule>,
+    HashMap<String, String>,
+    HashMap<String, String>,
+)> {
     let mut schedules = Vec::new();
     let mut tiploc_to_crs: HashMap<String, String> = HashMap::new();
     let mut tiploc_to_name: HashMap<String, String> = HashMap::new();
@@ -95,7 +101,10 @@ fn parse_reference_data(
         buf.clear();
     }
 
-    log::info!("Reference data: {} TIPLOC→CRS mappings", tiploc_to_crs.len());
+    log::info!(
+        "Reference data: {} TIPLOC→CRS mappings",
+        tiploc_to_crs.len()
+    );
     Ok(())
 }
 
@@ -136,9 +145,17 @@ fn parse_schedule_xml(
                             let crs = tiploc_to_crs.get(&tiploc).cloned();
                             let name = tiploc_to_name.get(&tiploc).cloned();
                             s.locations.push(DarwinLocation {
-                                tiploc, crs, name, loc_type, pta, ptd,
-                                wta: None, wtd: None, wtp: None,
-                                act: String::new(), cancelled: false,
+                                tiploc,
+                                crs,
+                                name,
+                                loc_type,
+                                pta,
+                                ptd,
+                                wta: None,
+                                wtd: None,
+                                wtp: None,
+                                act: String::new(),
+                                cancelled: false,
                             });
                         }
                     }
@@ -199,8 +216,18 @@ fn parse_journey_start(e: &quick_xml::events::BytesStart) -> DarwinSchedule {
     }
 
     DarwinSchedule {
-        rid, uid, train_id, rsid: None, ssd, toc, status, train_cat,
-        is_passenger, is_active, is_deleted, is_charter: false,
+        rid,
+        uid,
+        train_id,
+        rsid: None,
+        ssd,
+        toc,
+        status,
+        train_cat,
+        is_passenger,
+        is_active,
+        is_deleted,
+        is_charter: false,
         locations: Vec::new(),
     }
 }

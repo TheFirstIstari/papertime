@@ -99,24 +99,6 @@
 			const patternResp = await fetch(`/patterns/${crs}.json`);
 			if (patternResp.ok) {
 				patternData = await patternResp.json();
-				// Populate station names from station-index if available
-				try {
-					const idxResp = await fetch('/station-index.json');
-					if (idxResp.ok) {
-						const idxData = await idxResp.json();
-						const nameMap = new Map(idxData.map((s: any) => [s.id, s.name]));
-						for (const branch of patternData.branches) {
-							if (branch.next_stop) {
-								branch.next_stop_name = nameMap.get(branch.next_stop) || branch.next_stop_name;
-							}
-							for (const svc of branch.services) {
-								// no-op, already has data
-							}
-						}
-					}
-				} catch (e) {
-					// Ignore index load errors
-				}
 			}
 		} catch (e) {
 			// Pattern data optional
