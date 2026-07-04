@@ -49,22 +49,25 @@
 		return `${h.toString().padStart(2, '0')}:${m.toString().padStart(2, '0')}`;
 	}
 
+	// Match by station name instead of CRS code — the data pipeline stores TIPLOC codes in the 'crs' field
+	let stationName = $derived(stationData?.name ?? '');
+
 	function getDepTime(s: ServiceRef): string {
-		const call = s.calls?.find(c => c.crs === crs);
+		const call = s.calls?.find(c => c.name === stationName);
 		return formatTime(call?.dep ?? null);
 	}
 
 	function getArrTime(s: ServiceRef): string {
-		const call = s.calls?.find(c => c.crs === crs);
+		const call = s.calls?.find(c => c.name === stationName);
 		return formatTime(call?.arr ?? null);
 	}
 
 	let filteredServices = $derived(
-		svcList.filter(s => {
+		(stationData?.services ?? []).filter(s => {
 			if (filterOperator && s.operator !== filterOperator) return false;
 			if (filterDest && (s.destination_name || s.destination) !== filterDest) return false;
 			if (filterTime) {
-				const call = s.calls?.find((c: CallRef) => c.crs === crs);
+				const call = s.calls?.find((c: CallRef) => c.name === stationName);
 				const dep = call?.dep;
 				if (dep === null || dep === undefined) return false;
 				const h = Math.floor(dep / 60) % 24;
@@ -195,7 +198,7 @@
 									</td>
 									<td class="py-2 pr-4">{svc.destination_name || svc.destination || '—'}</td>
 									<td class="py-2 pr-4 text-slate-400 text-xs">
-										{(svc.calls || []).slice(1, -1).map((c: CallRef) => c.crs).join(', ')}
+										{(svc.calls || []).slice(1, -1).map((c: CallRef) => c.name).join(', ')}
 									</td>
 								</tr>
 							{/each}
@@ -212,6 +215,6 @@
 			{:else if activeTab === 'pattern'}
 				<PatternDiagram {patternData} loading={patternLoading} error={!patternData && !patternLoading ? 'No pattern data available' : ''} />
 			{/if}
-			{/if}
-			</div>
-			</div>
+		{/if}
+		</div>
+		</div>
