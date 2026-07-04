@@ -1,3 +1,1 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:60a2e900907d220fc86210856933828e9ae998fa1ac4e68fc5757b6446931c51
-size 871
+{"route": "HEYMST services", "route_id": "HEYMST", "stations": [{"name": "Heysham Port", "crs": "HEYMST", "mileage": 0, "type": "minor"}, {"name": "Douglas", "crs": "DOUGLAS", "mileage": 1, "type": "minor"}], "services": [{"id": "202606196720059", "operator": "VT", "direction": "Douglas", "days": ["MF"], "stops": [{"station": "HEYMST", "arr": null, "dep": 855}, {"station": "DOUGLAS", "arr": 1080, "dep": null}]}, {"id": "202606206720083", "operator": "VT", "direction": "Douglas", "days": ["MF"], "stops": [{"station": "HEYMST", "arr": null, "dep": 795}, {"station": "DOUGLAS", "arr": 1020, "dep": null}]}, {"id": "202606206720134", "operator": "VT", "direction": "Heysham Port", "days": ["MF"], "stops": [{"station": "DOUGLAS", "arr": null, "dep": 450}, {"station": "HEYMST", "arr": 675, "dep": null}]}]}

@@ -1,3 +1,1 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:365347f7f817e5f876d7588a37d9fb58fcc1427b143a961d8c604e1d4439d78c
-size 835
+{"route": "RSAY   2 services", "route_id": "RSAY   2", "stations": [{"name": "Rsay", "crs": "RSAY", "mileage": 0, "type": "minor"}, {"name": "Wemyss Bay", "crs": "WEMYSSB", "mileage": 1, "type": "minor"}, {"name": "Rsay   2", "crs": "RSAY   2", "mileage": 2, "type": "minor"}], "services": [{"id": "202606206704924", "operator": "SR", "direction": "Rsay   2", "days": ["MF"], "stops": [{"station": "RSAY", "arr": null, "dep": 1200}, {"station": "WEMYSSB", "arr": 1235, "dep": 1260}, {"station": "RSAY   2", "arr": 1295, "dep": null}]}, {"id": "202606196704924", "operator": "SR", "direction": "Rsay   2", "days": ["MF"], "stops": [{"station": "RSAY", "arr": null, "dep": 1200}, {"station": "WEMYSSB", "arr": 1235, "dep": 1260}, {"station": "RSAY   2", "arr": 1295, "dep": null}]}]}

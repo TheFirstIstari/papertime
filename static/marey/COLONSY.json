@@ -1,3 +1,1 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:1ca699c343a1b0c65c1210d34be606562da863f8aa6ed942970058a857e2350a
-size 886
+{"route": "COLONSY services", "route_id": "COLONSY", "stations": [{"name": "Colonsy", "crs": "COLONSY", "mileage": 0, "type": "minor"}, {"name": "Oban", "crs": "OBAN", "mileage": 1, "type": "minor"}, {"name": "Colonsy2", "crs": "COLONSY2", "mileage": 2, "type": "minor"}, {"name": "Oban   2", "crs": "OBAN   2", "mileage": 3, "type": "minor"}], "services": [{"id": "202606206746636", "operator": "SR", "direction": "Colonsy2", "days": ["MF"], "stops": [{"station": "COLONSY", "arr": null, "dep": 825}, {"station": "OBAN", "arr": 980, "dep": 1005}, {"station": "COLONSY2", "arr": 1160, "dep": null}]}, {"id": "202606196746632", "operator": "SR", "direction": "Oban   2", "days": ["MF"], "stops": [{"station": "OBAN", "arr": null, "dep": 980}, {"station": "COLONSY", "arr": 1115, "dep": 1130}, {"station": "OBAN   2", "arr": 1265, "dep": null}]}]}

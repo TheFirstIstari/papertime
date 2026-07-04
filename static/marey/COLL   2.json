@@ -1,3 +1,1 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:e988af52d0f0a47c8cbd071d344e60e9e63f05978e60e15a9423c1716184ba0f
-size 790
+{"route": "COLL   2 services", "route_id": "COLL   2", "stations": [{"name": "Oban", "crs": "OBAN", "mileage": 0, "type": "minor"}, {"name": "Coll", "crs": "COLL", "mileage": 1, "type": "minor"}, {"name": "Tiree", "crs": "TIREE", "mileage": 2, "type": "minor"}, {"name": "Coll   2", "crs": "COLL   2", "mileage": 3, "type": "minor"}, {"name": "Oban   2", "crs": "OBAN   2", "mileage": 4, "type": "minor"}], "services": [{"id": "202606206746781", "operator": "SR", "direction": "Oban   2", "days": ["MF"], "stops": [{"station": "OBAN", "arr": null, "dep": 420}, {"station": "COLL", "arr": 580, "dep": 595}, {"station": "TIREE", "arr": 650, "dep": 680}, {"station": "COLL   2", "arr": 735, "dep": 750}, {"station": "OBAN   2", "arr": 910, "dep": null}]}]}
