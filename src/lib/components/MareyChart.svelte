@@ -318,9 +318,9 @@
 </script>
 
 <div class="max-w-6xl mx-auto px-4 py-8">
-	{#if mareyData}
+	{#if mareyData?.services?.length && mareyData?.stations?.length}
 		<div class="mb-4 flex gap-2">
-			{#each [...new Set(mareyData.services.flatMap(s => s.days))] as day}
+			{#each [...new Set(mareyData.services.flatMap(s => s.days ?? []))] as day}
 				<button onclick={() => activeDay = day}
 					class="px-3 py-1.5 rounded text-sm font-medium transition-colors {activeDay === day ? 'bg-blue-600 text-white' : 'bg-slate-800 text-slate-300 hover:bg-slate-700'}"
 					>{day}</button>
