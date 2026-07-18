@@ -102,7 +102,7 @@
 		}
 
 		const stations = data.stations;
-		const margin = { top: 40, right: 40, bottom: 60, left: 140 };
+		const margin = { top: 40, right: 40, bottom: 60, left: 180 };
 		const minLabelSpacing = 48;
 		const chartHeight = Math.max(500, stations.length * minLabelSpacing);
 		const width = Math.max(800, stations.length * 30) - margin.left - margin.right;
@@ -183,7 +183,7 @@
 			.attr('dy', '0.35em')
 			.attr('text-anchor', 'end')
 			.attr('fill', '#94a3b8')
-			.attr('font-size', '11px')
+			.attr('font-size', '13px')
 			.text((d) => d.name || d.crs);
 
 		// Station grid lines
